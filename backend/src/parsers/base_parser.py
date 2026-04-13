@@ -1,8 +1,10 @@
 from abc import ABC, abstractmethod
-from models import ParsedDocument
 
 
 class BaseParser(ABC):
+    """Classe astratta base per tutti i parser."""
+
     @abstractmethod
-    async def parse(self, url: str) -> ParsedDocument:
-        """Parsa una pagina web e restituisce un documento strutturato."""
+    async def parse(self, url: str) -> dict:
+        """Dato un URL, restituisce i dati parsati."""
+        raise NotImplementedError
