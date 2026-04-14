@@ -1,0 +1,261 @@
+"""Capitali degli Stati del mondo
+Questa lista di capitali degli Stati del mondo elenca le città capitali dei 205 Stati del mondo (195 riconosciuti sovrani, 8 autoproclamati ma con limitato o nessun riconoscimento internazionale e 2 in libera associazione con altro Stato) e l'anno nel quale sono state proclamate tali.
+
+La capitale di uno Stato è solitamente definita come la città che ospita la sede del Governo nonché le principali istituzioni di quello Stato; tuttavia, è possibile che in alcuni Paesi vi siano più città capitali, con funzioni differenti.
+
+Stati
+Stato	Capitale	Nome locale	Anno	Altitudine
+(m s.l.m.)	Superficie
+(km²)	Abitanti	Densità
+(ab./km²)	Amministratore	Fuso orario	Note
+Abcasia (bandiera) Abcasia	Sukhumi	სოხუმი/Аҟәа		20	27	39 100	1 448,15	Beslan Eshba	UTC+4	
+Afghanistan (bandiera) Afghanistan	Kabul	کابل	1779	1 791	1 023	4 273 000	4 176,93	Mohammad Daud Sultanzoy	UTC+4:30	
+Albania (bandiera) Albania	Tirana	Tiranë	1920	110	1 110	895 160	806,45	Erion Veliaj	UTC+1	
+Algeria (bandiera) Algeria	Algeri	مدينة الجزائر	1962 (indipendenza)	424	363	3 415 811	9 409,95	Mohamed Kebir Addou	UTC+1	
+Andorra (bandiera) Andorra	Andorra la Vella	Andorra la Vella	1278	1 013	30	22 886	762,87	Conxita Marsol i Riart	UTC+1	
+Angola (bandiera) Angola	Luanda	Luanda	1975 (indipendenza)	6	113	5 172 900	71 412,5	João Gonçalves Lourenço	UTC+1	
+Antigua e Barbuda (bandiera) Antigua e Barbuda	Saint John's	Saint John's	1981	8	10	22 219	2 221,9	Sir Rodney Williams	UTC-4	
+Arabia Saudita (bandiera) Arabia Saudita	Riad	الرياض	1818	612	1913	7 676 654	4 012,89	Ibrahim Mohammed Al-Sultan	UTC+3	
+Argentina (bandiera) Argentina	Buenos Aires	Buenos Aires	1816	25	203	3 068 043	15 113,51	Horacio Rodríguez Larreta	UTC-3	
+Armenia (bandiera) Armenia	Erevan	Երևան	23 agosto 1990	998	223	1 093 485	4 903,52	Taron Markaryan	UTC+4	
+Australia (bandiera) Australia	Canberra	Canberra	2 maggio 1927	577	814,2	410 301	503,93	Andrew Barr	UTC+8	
+Austria (bandiera) Austria	Vienna	Wien	1806 (Impero austriaco)
+1867 (Austria-Ungheria)
+1918 (Repubblica austriaca)
+1955 (attuale)	151-543	414,6	1 915 338	4 619,73	Michael Ludwig	UTC+1	
+Azerbaigian (bandiera) Azerbaigian	Baku	Bakı	1991 (indipendenza)	-28	2 130	2 181 800	1 024,32	Eldar Azizov	UTC+4	
+Bahamas (bandiera) Bahamas	Nassau	Nassau	10 luglio 1973 (indipendenza)	9	207	246 329	1190	Hubert Minnis	UTC-5	
+Bahrein (bandiera) Bahrein	Manama	منامة	1783
+1971
+
+11	30	329 510	10 983,67	Hisham bin Abdul Rahman bin Mohammed Al Khalifa	UTC+3	
+Bangladesh (bandiera) Bangladesh	Dacca	ঢাকা	dicembre 1971 (indipendenza)	60	306,40	13 848 298	45 196,8	Sadeque Hossain Khoka	UTC+6	
+Barbados (bandiera) Barbados	Bridgetown	Bridgetown		10	38,85	94 200	2 424,71	Mia Mottley	UTC-4	
+Belgio (bandiera) Belgio	Bruxelles	Bruxelles/Brussel	1830 (indipendenza)	70	32,61	176 545	5 413,83	Philippe Close	UTC+1	
+Belize (bandiera) Belize	Belmopan	Belmopan	3 agosto 1970	64	32,78	20 621	629,07	Johnny Briceño	UTC-6	
+Benin (bandiera) Benin	Porto-Novo	Porto-Novo		38	110	267 191	2 429,01	Moukaram Océni	UTC+1	
+Bhutan (bandiera) Bhutan	Thimphu	ཐིམ་ཕུ་		2 320	26,10	114 551	4 388,93	Dasho Nima Wangdi	UTC+6	
+Bielorussia (bandiera) Bielorussia	Minsk	Мінск		220	409,5	2 020 600	4 934,31	Anatolj Aleksandrovič Sivák	UTC+3	
+Birmania (bandiera) Birmania	Naypyidaw	နေပြည်တော်	6 novembre 2005	115	7 054,37	1 160 242	164,47	Thein Nyunt	UTC+6:30	[1]
+Bolivia (bandiera) Bolivia	Sucre (de iure, giudiziaria)	Chuqichaka		2 790	1 768	306 751	173,5	Rosario López Rojo de Aparicio	UTC-4	[2]
+La Paz (de facto, legislativa e amministrativa)	Chuqiyapu		3 640	472	816 044	1 728,91	Luis Antonio Revilla
+Bosnia ed Erzegovina (bandiera) Bosnia ed Erzegovina	Sarajevo	Sarajevo/Сарајево		511	141,50	305 342	2 157,9	Benjamina Karić	UTC+1	
+Botswana (bandiera) Botswana	Gaborone	Gaborone	1964	1 014	169	231 626	1 370,57	Thata Father Maphongo	UTC+2	
+Brasile (bandiera) Brasile	Brasilia	Brasília	21 aprile 1960	1 171	5 780	3 039 444	525,86	Ibaneis Rocha	UTC-3	
+Brunei (bandiera) Brunei	Bandar Seri Begawan	بندر سري بگاوان		14	100,4	279 924	2 788,09	Hassanal Bolkiah	UTC+8	
+Bulgaria (bandiera) Bulgaria	Sofia	София		560	492	1 478 330	3 004,74	Jordanka Fandakova	UTC+2	
+Burkina Faso (bandiera) Burkina Faso	Ouagadougou	Ouagadougou		305	219,3	2 200 000	10 031,92	Armand Béouindé	UTC+0	
+Burundi (bandiera) Burundi	Gitega	Gitega	2018	1 504	22	192 157	8 734,41	Alain-Guillaume Bunyoni	UTC+2	
+Cambogia (bandiera) Cambogia	Phnom Penh	ភ្នំពេញ	1954	12	678,5	2 129 371	3 138,35	Khuong Sreng	UTC+7	
+Camerun (bandiera) Camerun	Yaoundé	Yaoundé/Jaunde		764	180	1 881 876	10 454,87	Joseph Dion Ngute	UTC+1	
+Canada (bandiera) Canada	Ottawa	Ottawa	1865 (dominion)
+1931 (indipendenza)	90	2 778	932 546	335,69	Jim Watson	UTC-5	
+Capo Verde (bandiera) Capo Verde	Praia	Praia	1975 (indipendenza)	1	102,6	159 050	1 550,19	Óscar Santos	UTC-1	
+Ciad (bandiera) Ciad	N'Djamena	نجامينا	1960 (indipendenza)	298	104	1 605 696	15 439,38	Marie-Thérèse Mbailemdana	UTC+1	
+Cile (bandiera) Cile	Santiago del Cile	Santiago		567	641	6 158 080	9606,99	Irací Hassler	UTC-4	[3]
+Cina (bandiera) Cina	Pechino	北京市	1º ottobre 1949	44	16 808	24 516 000	1 458,59	Guo Jinlong	UTC+8	
+Cipro (bandiera) Cipro	Nicosia	Λευκωσία		220	111	116 392	1048,58	Kōnstantinos Giōrkatzīs	UTC+2	
+Cipro del Nord (bandiera) Cipro del Nord	Nicosia Nord	Lefkoşa		148	92,8	61 378	661,4	Mehmet Harmancı	UTC+2	
+Città del Vaticano (bandiera) Città del Vaticano	Nessuna (città-Stato)			47	0,44	453	1029,54	Fernando Vérgez Alzaga	UTC+1	
+Colombia (bandiera) Colombia	Bogotà	Bogotà		2 640	1 775	8 080 734	4 552,53	Claudia López	UTC-5	
+Comore (bandiera) Comore	Moroni	Moroni/موروني		29	30	54 000	1 800	Azali Assoumani	UTC+3	
+Corea del Nord (bandiera) Corea del Nord	Pyongyang	평양	1948	27	1 907	3 255 288	1 707,02	Kim Yong-hwan	UTC+9	
+Corea del Sud (bandiera) Corea del Sud	Seul	서울	1948	38	605,21	10 349 312	17 100,37	Oh Se-hoon	UTC+9	
+Costa d'Avorio (bandiera) Costa d'Avorio	Yamoussoukro	Yamoussoukro	1983	214	3 496	355 573	101,71	Gnrangbé Kouakou Kouadio	UTC+0	[4]
+Costa Rica (bandiera) Costa Rica	San José	San José		1 166	44,62	1 401 900	31 418,65	Sandra García Pérez	UTC-6	
+Croazia (bandiera) Croazia	Zagabria	Zagreb		122−1 035	641	810 003	1 263,66	Tomislav Tomašević	UTC+1	
+Cuba (bandiera) Cuba	L'Avana	La Habana		21	728,26	2 141 320	2 940,32	Reinaldo García Zapata	UTC-5	
+Danimarca (bandiera) Danimarca	Copenaghen	København	1443	0−24	86,25	638 117	7 398,46	Lars Weiss	UTC+1	
+Dominica (bandiera) Dominica	Roseau	Roseau/Wozo		43	9	14 725	1 636,11	Cecil Joseph	UTC-4	
+Ecuador (bandiera) Ecuador	Quito	Quito		2 850	324	1 978 376	6 106,1	Jorge Yunda	UTC-5	
+Egitto (bandiera) Egitto	Il Cairo	القاهرة	1936 (indipendenza)	23	528	14 500 000	27 462,12	Atef Abd El Hamid	UTC+2	
+El Salvador (bandiera) El Salvador	San Salvador	San Salvador		772	71,45	1 773 436	24 820,66	Mario Durán	UTC-6	
+Emirati Arabi Uniti (bandiera) Emirati Arabi Uniti	Abu Dhabi	أبو ظبي		14	972	1 450 000	1 491,77	Mohammed bin Zayed Al Nahyan	UTC+4	
+Eritrea (bandiera) Eritrea	Asmara	أسمرا	maggio 1993	2 363	45	963 000	21 400	Semere Russom	UTC+3	
+Estonia (bandiera) Estonia	Tallinn	Tallinn		143	159,3	445 259	2 795,1	Taavi Aas	UTC+2	
+eSwatini (bandiera) eSwatini	Lobamba (legislativa)	Lobamba				9 900			UTC+2	[5]
+Mbabane (amministrativa)	ÉMbábáne		1 243	81,76	94 874	1 160,4	Vusi Tembe
+Etiopia (bandiera) Etiopia	Addis Abeba	አዲስ አበባ	1941	2 355	2 360	3 273 000	1 386,86	Diriba Kuma	UTC+3	
+Figi (bandiera) Figi	Suva	Suva/सुवा	1877	0	2 048	94 088	45,94	P. V. Volavola	UTC+12	
+Filippine (bandiera) Filippine	Manila	Maynila	1946	7	42,88	1 780 148	41 514,65	Honey Lacuna	UTC+8	
+Finlandia (bandiera) Finlandia	Helsinki	Helsinki/Helsingfors	1812	17	213,8	648 650	3 033,91	Jan Vapaavuori	UTC+2	
+Francia (bandiera) Francia	Parigi	Paris	1944	78	105,4	2 229 095	21 148,91	Anne Hidalgo	UTC+1	
+Gabon (bandiera) Gabon	Libreville	Libreville		0	189	703 904	3 724,36	Jean-François Ntoutoume Emane	UTC+1	
+Gambia (bandiera) Gambia	Banjul	Banjul/ߓߊ߲߬ߖߎߟ		0	12	31 301	2 608,42	Rohey Malick Lowe	UTC+0	
+Georgia (bandiera) Georgia	Tbilisi	თბილისი	1993 (indipendenza)	380−770	504,2	1 171 100	2 322,69	K'akhaber K'aladze	UTC+4	[6]
+Germania (bandiera) Germania	Berlino	Berlin	1990	34	891,12	3 769 495	1230,06	Michael Müller	UTC+1	
+Ghana (bandiera) Ghana	Accra	Accra/Nkran	1887
+1957 (indipendenza)	61	185	2 291 352	12 385,69	Alfred Okoe Vanderpuije	UTC+0	
+Giamaica (bandiera) Giamaica	Kingston	Kingston	1872	9	480	937 700	1 953,54	Delroy Williams	UTC-5	
+Giappone (bandiera) Giappone	Tokyo	東京都	1878	40	2 187,66	13 951 636	6 377,42	Yuriko Koike	UTC+9	
+Gibuti (bandiera) Gibuti	Gibuti	جيبوتي	27 giugno 1977 (indipendenza)	14	630	475 332	754,5	Abdoulkader Kamil Mohamed	UTC+3	
+Giordania (bandiera) Giordania	Amman	عمان	1946 (indipendenza)	700−1 100	1 680	4 302 730	2 561,15	Yousef Shawarbeh	UTC+2	
+Grecia (bandiera) Grecia	Atene	Αθήνα	1829	70−338	39	655 780	16 814,87	Kōstas Mpakogiannī	UTC+2	
+Grenada (bandiera) Grenada	Saint George's	Saint George's/Sen Jòj		30	1,75	33 734	19 276,57	Keith Mitchell	UTC-4	
+Guatemala (bandiera) Guatemala	Città del Guatemala	Ciudad de Guatemala	1776 (Capitaneria generale del Guatemala)	1 495	228	4 500 000	19 736,84	Álvaro Arzú	UTC-6	
+Guinea (bandiera) Guinea	Conakry	Conakry/Kɔnakiri	1958 (indipendenza)	13	450	3 667 582	8 150,18	Sékou Resco Camara	UTC+0	
+Guinea-Bissau (bandiera) Guinea-Bissau	Bissau	Ciudad de Bissau	1974	0	77	384 960	4999,48	António Artur Sanhá	UTC+0	
+Guinea Equatoriale (bandiera) Guinea Equatoriale	Ciudad de la Paz	Ciudad de la Paz	2017	454	81,5	2 000	24,5	Florentino Ncogo Ndong	UTC+1	
+Guyana (bandiera) Guyana	Georgetown	Georgetown		4	70	24 849	354,99	Hamilton Greene	UTC-4	
+Haiti (bandiera) Haiti	Port-au-Prince	Port-au-Prince/Pòtoprens		98	36,04	897 859	24 912,85	Ralph Youri Chevry	UTC-5	
+Honduras (bandiera) Honduras	Tegucigalpa	Tegucigalpa		993	1514	1 051 600	694,58	Nasry Asfura	UTC-6	
+India (bandiera) India	Nuova Delhi	नई दिल्ली	1912
+1947 (indipendenza)	210	42,7	257 803	6 037,54	Najeeb Jung	UTC+5:30	
+Indonesia (bandiera) Indonesia	Giacarta (de facto, capitale uscente)
+Nusantara (de iure, capitale in costruzione)	Jakarta	1945 (de facto)
+1949 (de iure)	8	661,5	10 770 487	16 281,92	Anies Baswedan	UTC+7	
+Iran (bandiera) Iran	Teheran	تهران	1794	1 120−1 670	730	8 429 807	11 547,68	Doctor Zana Vahid Lajani	UTC+3:30	
+Iraq (bandiera) Iraq	Baghdad	بغداد	1932 (indipendenza)	34	204,2	7 665 292	37 538,16	Zekra Alwach	UTC+3	
+Irlanda (bandiera) Irlanda	Dublino	Baile Átha Cliath/Dublin		0	114	554 554	4 864,51	Hazel Chu	UTC+0	
+Islanda (bandiera) Islanda	Reykjavík	Reykjavíkurborg	1944	8	274,5	127 220	463,46	Dagur Bergþóruson Eggertsson	UTC+0	
+Isole Cook (bandiera) Isole Cook	Avarua	Avarua		653	24	4 967	206,96		UTC-10	
+Isole Marshall (bandiera) Isole Marshall	Majuro (Delap-Uliga-Djarrit)	Mājro	1979 (autogoverno)
+1986 (indipendenza)	3	9,7	27 797	2 865,67	Ladie Jack	UTC+12	
+Isole Salomone (bandiera) Isole Salomone	Honiara	Honiara	1952
+1978 (indipendenza)	29	22	84 520	3 841,82	Manasseh Sogavare	UTC+11	
+Israele (bandiera) Israele	Gerusalemme (status conteso)	תל אביב	
+1948
+
+5	52	443 939	8 537,29	Ron Huldai	UTC+2	
+Italia (bandiera) Italia	Roma	Roma	1871[7]	21	1 287,36	2 781 807	2 160,86	Roberto Gualtieri	UTC+1	
+Kazakistan (bandiera) Kazakistan	Astana	Астана	1998	347	722	1 029 556	1 425,98	Kulginov Altay Seidirovich	UTC+6	
+Kenya (bandiera) Kenya	Nairobi	Nairobi		1661	696	4 574 098	6 571,98	Anne Mwenda	UTC+3	
+Kirghizistan (bandiera) Kirghizistan	Biškek	Бишкек		750	127	937 400	7 381,1	Isa Omurkulov	UTC+6	
+Kiribati (bandiera) Kiribati	Tarawa Sud	Tarawa Teinainano	1946 (Isole Gilbert ed Ellice)
+1979 (indipendenza)	3	15,76	63 439	4 025,32	Taneti Maamau	UTC+12	
+Kosovo (bandiera) Kosovo	Pristina	Prishtina		652	523,13	211 159	403,65	Përparim Rama	UCT+1	
+Kuwait (bandiera) Kuwait	Al Kuwait	مدينة الكويت		12	200	96 100	480,5	Nawaf Al-Ahmad Al-Jaber Al Sabah	UTC+3	
+Laos (bandiera) Laos	Vientiane	ວຽງຈັນ	1954	174	130	820 940	6 314,92	Sombath Yialiheu	UTC+7	
+Lesotho (bandiera) Lesotho	Maseru	Maseru		1 600	138	330 760	2 396,81	Moeketsi Majoro	UTC+2	
+Lettonia (bandiera) Lettonia	Riga	Rīga		6	307	696 681	2 269,32	Mārtiņš Staķis	UTC+2	
+Libano (bandiera) Libano	Beirut	بيروت	1946 (indipendenza)	0	85	450 000	5 294,12	Jamal Itani	UTC+2	
+Liberia (bandiera) Liberia	Monrovia	Monrovia	1847 (indipendenza)	15	194,25	1 010 970	5 204,48	Mary Broh	UTC+0	
+Libia (bandiera) Libia	Tripoli	طرابلس	1951 (indipendenza)	81	400	1 158 000	2895	Abd al-Razzaq Abu Hajar	UTC+2	
+Liechtenstein (bandiera) Liechtenstein	Vaduz	Vaduz		455	17,3	5 668	327,63	Florian Meier	UTC+1	
+Lituania (bandiera) Lituania	Vilnius	Vilnius	1918 (prima repubblica)
+1940 (RSS Lituana)
+1990 (attuale)	156	401	580 020	1446,43	Remigijus Šimašius	UTC+2	
+Lussemburgo (bandiera) Lussemburgo	Lussemburgo	Lëtzebuerg/Luxembourg		230−402	51,47	124 528	2 419,43	Lydie Polfer	UTC+1	
+Macedonia del Nord (bandiera) Macedonia del Nord	Skopje	Скопје/Skopje/Shkup		270	571,46	568 210	994,31	Petre Šilegov	UTC+1	
+Madagascar (bandiera) Madagascar	Antananarivo	Antananarivo		1288	88	1 613 375	18 333,81	Lalao Ravalomanana	UTC+3	
+Malawi (bandiera) Malawi	Lilongwe	Lilongwe		1 050	727,79	989 318	1 359,35	Juliana Kaduya	UTC+2	
+Malaysia (bandiera) Malaysia	Kuala Lumpur (de iure, costituzionale e legislativa)	கோலாலம்பூர்		21,95	243	1 796 200	7 391,77	Mhd Amin Nordin Abdul Aziz	UTC+8	[8]
+Putrajaya (de facto, amministrativa e giudiziaria)	ڤوتراجاي			49	119 700	2 400	Fadlun Mak Ujud
+Maldive (bandiera) Maldive	Male	މާލެ		2	5,79	103 693	17 908,98	Shifa Mohammed	UTC+5	
+Mali (bandiera) Mali	Bamako	Bamako/ߓߊߡߊߞߐ		330	245	2 446 700	9 986,53	Adama Sangaré	UTC+0	
+Malta (bandiera) Malta	La Valletta	Il-Belt Valletta		58	0,8	5 827	7 283,75	Alfred Zammit	UTC+1	
+Marocco (bandiera) Marocco	Rabat	الرباط		11	117	2 504 750	21 408,12	Mohamed Sadiki	UTC+0	
+Mauritania (bandiera) Mauritania	Nouakchott	نواكشوط		7	1 036	958 399	325,1	Fatimatou Abdel Malick	UTC+0	
+Mauritius (bandiera) Mauritius	Port Louis	Port Louis		134	46,7	149 194	3 194,73	Daniel Eric Clive Laurent	UTC+4	
+Messico (bandiera) Messico	Città del Messico	Ciudad de México		2 256	1 485	9 209 944	6 201,98	Martí Batres	UTC-6	
+Micronesia (bandiera) Micronesia	Palikir	Palikir		104	107,1	7 321	68,36	David W. Panuelo	UTC+10	
+Moldavia (bandiera) Moldavia	Chișinău	Chișinău	1991	85	123	732 500	5 955,28	Maia Sandu	UTC+2	
+Monaco (bandiera) Monaco	Monaco	Monaco		10	2	38 300	19 150	Georges Marsan	UTC+1	
+Mongolia (bandiera) Mongolia	Ulan Bator	Улаанбаатар		1 350	4 704,4	1 390 000	295,47	Tüdeviin Bilegt	UTC+8	
+Montenegro (bandiera) Montenegro	Podgorica	Подгорица	2006	44	1 205	150 977	125,29	Ivan Vuković	UTC+1	[9]
+Mozambico (bandiera) Mozambico	Maputo	Maputo	1975 (indipendenza)	47	346	1 766 823	5 106,42	Iolanda Cintura	UTC+2	
+Namibia (bandiera) Namibia	Windhoek	Windhoek	1971 (indipendenza)	1 650	5 133	325 858	63,48	Matheus Shikongo	UTC+1	
+Nauru (bandiera) Nauru	Nessuna (de iure)
+Yaren (de facto)	Yaren		25	1,5	747	498	Lionel Aingimea	UTC+12	
+Nepal (bandiera) Nepal	Katmandu	काठमाडौं		1 355	899	1 744 240	1 940,2	Kedar Bahadur Adhikari	UTC+5:45	
+Nicaragua (bandiera) Nicaragua	Managua	Managua		163	267	1 033 262	3 871,39	Reyna Rueda	UTC-6	
+Niger (bandiera) Niger	Niamey	Niamey		207	239,3	1 004 000	4 195,57	Oumarou Dogari Moumouni	UTC+1	
+Nigeria (bandiera) Nigeria	Abuja	Abuja	1991	355	1 769	1 568 853	886,86	Bala Mohammed	UTC+1	
+Niue (bandiera) Niue	Alofi	Alofi		21	46,48	597	12,84	Vaiga Tukuitoga (Alofi Nord)
+Dalton Tagelagi (Alofi Sud)	UTC-11	
+Norvegia (bandiera) Norvegia	Oslo	Oslo	1299	23	454	673 469	1 483,41	Marianne Borgen	UTC+1	
+Nuova Zelanda (bandiera) Nuova Zelanda	Wellington	Wellington/Te Whanganui-a-Tara	1865	13	119,8	493 400	4 118,53	Andy Foster	UTC+12	
+Oman (bandiera) Oman	Mascate	مسقط		69	3 500	1 310 826	374,52	Haytham bin Ṭāriq bin Taymūr Āl Saʿīd	UTC+4	
+Ossezia del Sud (bandiera) Ossezia del Sud	Tskhinvali	Цхинвал/Чъреба		860	17,46	30 432	1 742,96	Alan Kočiev	UTC+4	
+Regno dei Paesi Bassi (bandiera) Regno dei Paesi Bassi	Amsterdam (de iure)	Amsterdam		-2	219,33	854 047	3 893,89	Femke Halsema	UTC+1	[10]
+L'Aia (de facto)	Den Haag		1	98,12	565 701	5 765,4	Jan van Zanen
+Pakistan (bandiera) Pakistan	Islamabad	اسلام آباد	1967	457−1,604	906	1 014 825	1 120,12	Sheikh Ansar Aziz	UTC+5	
+Palau (bandiera) Palau	Ngerulmud	Ngerulmud	2006	68	0,45	401	891,11	Surangel Whipps Jr.	UTC+9	
+Palestina (bandiera) Palestina	Gerusalemme Est (de iure)	מזרח ירושלים/القدس الشرقية		760		456 300			UTC+2	
+Ramallah (de facto)	رام الله		847	16,3	38 998	2 392,52	Issa Kassis
+Panama (bandiera) Panama	Panama	Ciudad de Panamá		12	275	1 378 000	5 010,91	José Isabel Blandón	UTC-5	
+Papua Nuova Guinea (bandiera) Papua Nuova Guinea	Port Moresby	Port Moresby/Pot Mosbi	1905
+1975 (indipendenza)	28	240	364 125	1 517,19	Powes Parkop	UTC+10	
+Paraguay (bandiera) Paraguay	Asunción	Asunción		43	128	524 190	4 095,23	Mario Ferreiro	UTC-4	
+Perù (bandiera) Perù	Lima	Ciudad de Lima		30	2 672,28	9 822 514	3 675,71	Jorge Muñoz Wells	UTC-5	
+Polonia (bandiera) Polonia	Varsavia	Warszawa	1596
+1918 (indipendenza)	78−115	517,24	1 790 658	3 461,95	Rafał Trzaskowski	UTC+1	
+Portogallo (bandiera) Portogallo	Lisbona	Lisboa	1821	2	100,05	505 526	5 052,73	Fernando Medina	UTC+0	
+Qatar (bandiera) Qatar	Doha	الدوحة		0	132	1 351 000	10 234,85	Tamim bin Hamad Al Thani	UTC+3	
+Regno Unito (bandiera) Regno Unito	Londra	London	1066	24	1 572,15	8 961 989	5 700,47	Sadiq Khan	UTC+0	
+Rep. Ceca (bandiera) Rep. Ceca	Praga	Praha	1993	180/400	496	1 308 632	2 638,37	Zdeněk Hřib	UTC+1	
+Rep. Centrafricana (bandiera) Rep. Centrafricana	Bangui	Bangui/Bangî		369	67	790 000	11 791,04	Nazaire Yalanga Nganaféï	UTC+1	
+Rep. del Congo (bandiera) Rep. del Congo	Brazzaville	Kintamo		320	263,9	1 696 392	6 428,16	Christian Roger Okemba	UTC+1	
+RD del Congo (bandiera) RD del Congo	Kinshasa	Kinsásá		240	9 965	17 855 000	1 791,77	André Kimbuta	UTC+1	
+Rep. Dominicana (bandiera) Rep. Dominicana	Santo Domingo	Santo Domingo		14	104,44	965 040	9 240,14	Carolina Mejía	UTC-4	
+Romania (bandiera) Romania	Bucarest	București	1878	70	228	2 103 346	9 225,2	Nicușor Dan	UTC+2	
+Ruanda (bandiera) Ruanda	Kigali	Kigali		1 567	730	1 132 686	1 551,62	Pudence Rubingisa	UTC+2	
+Russia (bandiera) Russia	Mosca	Москва	1918	118—255	2 511	12 692 466	5 054,75	Sergej Semënovič Sobjanin	UTC+3	
+Sahara Occidentale (bandiera) Sahara Occidentale	El Aaiún (de iure)	العيون		72	21	217 732	10 368,25		UCT+0	
+Saint Kitts e Nevis (bandiera) Saint Kitts e Nevis	Basseterre	Basseterre		0	6,47	13 000	2 007,73	Timothy Harris	UTC-4	
+Saint Lucia (bandiera) Saint Lucia	Castries	Castries/Kastri		2	79	11 147	141,1	Neville Cenac	UTC-4	
+Saint Vincent e Grenadine (bandiera) Saint Vincent e Grenadine	Kingstown	Kingstown		1	1,5	24 518	16 345,33	Susan Dougan	UTC-4	
+Samoa (bandiera) Samoa	Apia	Apia	1962 (indipendenza)	2	123,8	58 800	474,96	Tuilaepa Sa'ilele Malielegaoi	UTC-11	
+San Marino (bandiera) San Marino	Città di San Marino	Città di San Marino		755	7,09	4 054	571,79	Tomaso Rossini	UTC+1	
+São Tomé e Príncipe (bandiera) São Tomé e Príncipe	São Tomé	São Tomé		137	18	71 868	3 992,67	Jorge Bom Jesus	UTC+0	
+Senegal (bandiera) Senegal	Dakar	Dakar/Ndakaaru		22	82,5	1 146 053	13 891,55	Soham El Wardini	UTC+0	
+Serbia (bandiera) Serbia	Belgrado	Бeoгpaд	1945[11]	117	359,96	1 233 796	3 427,59	Zoran Radojičić	UTC+1	
+Seychelles (bandiera) Seychelles	Victoria	Victoria		60	8,9	26 450	2 971,91	Florence Benstrong	UTC+4	
+Sierra Leone (bandiera) Sierra Leone	Freetown	Freetown		26	81,48	1 055 964	12 959,79	Yvonne Aki-Sawyerr	UTC+0	
+Singapore (bandiera) Singapore	Nessuna (città-Stato)			59	721,5	5 535 000	7 681	Sellapan Ramanathan	UTC+8	
+Siria (bandiera) Siria	Damasco	دمشق		700	105	2 079 000	19 800	Bishr al-Sabban	UTC+2	
+Slovacchia (bandiera) Slovacchia	Bratislava	Brátisláva	1993	126—514	367,6	563 682	1 533,41	Matúš Vallo	UTC+1	
+Slovenia (bandiera) Slovenia	Lubiana	Ljubljana		298	163,8	295 504	1 804,05	Zoran Janković	UTC+1	
+Somalia (bandiera) Somalia	Mogadiscio	Muqdisho	1960	9	91	2 282 000	25 076,92	Omar Mohamud Finnish	UTC+3	
+Somaliland (bandiera) Somaliland	Hargheisa	هرجيسا		1 326	637	1 200 000	1 883,83		UTC+3	
+Transnistria (bandiera) Transnistria	Tiraspol	Тирасполь		26	50	133 807	2 676,14		UTC+2	
+Spagna (bandiera) Spagna	Madrid	Madrid	1606	667	604,3	3 223 334	5 334	José Luis Martínez-Almeida	UTC+1	
+Sri Lanka (bandiera) Sri Lanka	Sri Jayawardenapura Kotte	ශ්‍රී ජයවර්ධනපුර කෝට්ටේ		27	17	115 826	6 813,29	R.A.D. Janaka Ranawaka	UTC+5:30	[12]
+Stati Uniti (bandiera) Stati Uniti	Washington	Washington, D.C.	1800	68	177	709 265	4 007,15	Muriel Bowser	UTC-5	
+Sudafrica (bandiera) Sudafrica	Bloemfontein (giudiziaria)	Bloemfontein	1931 (dominion)
+1961 (indipendenza)
+
+1 395	236,17	556 000	2 354,24	Olly Mlamleli	UTC+2	[13]
+Città del Capo (legislativa)	Kaapstad	50	2 454,52	3 776 000	1 538,26	Dan Plato
+Pretoria (amministrativa)	Pretoria	1 271	1 644	2 472 612	1 504,02	Gwen Ramokgopa
+Sudan (bandiera) Sudan	Khartum	الخرطوم	1961 (indipendenza)	382	30 000	639 598	21,32	Abdel Rahim Mohammed Hussein	UTC+3	
+Sudan del Sud (bandiera) Sudan del Sud	Giuba	جوبا	2011	550	52	372 410	7 161,63	Mohammed El Haj Baballa	UTC+3	
+Suriname (bandiera) Suriname	Paramaribo	Parbo		3	183	240 924	1 316,52	Ronnie Brunswijk	UTC-3	
+Svezia (bandiera) Svezia	Stoccolma	Stockholm		28	187,16	960 031	5 129,47	Anna König Jerlmyr	UTC+1	
+Svizzera (bandiera) Svizzera	Nessuna (de iure)
+Berna (de facto)	Bern	1848	542	51,62	133 791	2 591,84	Alec von Graffenried	UTC+1	
+Tagikistan (bandiera) Tagikistan	Dušanbe	Душанбе		706	203,18	863 400	4 249,38	Rustam Emomali	UTC+5	
+Taiwan (bandiera) Taiwan	Nessuna (de iure)
+Taipei (de facto)	臺北巿		10	271,8	2 581 006	9 495,97	Chiang Wan-an	UTC+8	
+Tanzania (bandiera) Tanzania	Dodoma	Dodoma		1 125	2 576	410 956	159,53	Francis Mazanda	UTC+3	[14]
+Thailandia (bandiera) Thailandia	Bangkok	บางกอก	1782	20	1 568,7	8 305 218	5 294,33	Aswin Kwanmuang	UTC+7	
+Timor Est (bandiera) Timor Est	Dili	Díli		0	48,27	163 305	3 383,16	Taur Matan Ruak	UTC+9	
+Togo (bandiera) Togo	Lomé	Lome	27 aprile 1960 (indipendenza)	63	345	837 437	2 427,35	Aouissi Lodé	UTC+0	
+Tonga (bandiera) Tonga	Nukuʻalofa	Nukuʻalofa		3	18	23 221	1 290,06	Samiu Vaipulu	UTC+13	
+Trinidad e Tobago (bandiera) Trinidad e Tobago	Port of Spain	Port of Spain	1783	3	12	330 000	27 500	Joel Martinez	UTC-4	
+Tunisia (bandiera) Tunisia	Tunisi	تونس	1159	4	212,63	1 073 533	5 048,83	Souad Abderrahim	UTC+1	
+Turchia (bandiera) Turchia	Ankara	Ankara	1923	938	2 516	5 639 076	2 241,29	Mansur Yavaş	UTC+2	
+Turkmenistan (bandiera) Turkmenistan	Aşgabat	عشق آباد		219	440	1 031 992	2 345,44	Rejepgeldy Nurmämmedow	UTC+5	
+Tuvalu (bandiera) Tuvalu	Funafuti	Funafuti		67	2,4	4 492	1 871,7	Kausea Natano	UTC+12	
+Ucraina (bandiera) Ucraina	Kiev	Київ	1991 (indipendenza)	179	848	2 967 360	3 499,25	Vitalij Klyčko	UTC+2	
+Uganda (bandiera) Uganda	Kampala	Kampala		1 189	189	1 507 080	7 973,97	Erias Lukwago	UTC+3	
+Ungheria (bandiera) Ungheria	Budapest	Budapest		102	525,13	1 759 497	3 350,59	Gergely Karácsony	UTC+1	
+Uruguay (bandiera) Uruguay	Montevideo	Montevideo		43	525,54	1 338 408	2 546,73	Christian Di Candia	UTC-3	
+Uzbekistan (bandiera) Uzbekistan	Tashkent	Ташкент	1930	455	334,8	2 371 300	7 082,74	Abdukahar Tuhtayev	UTC+5	
+Vanuatu (bandiera) Vanuatu	Port Vila	Port Vila		59	23,6	51 437	2 179,53	Reuben Olul	UTC+11	
+Venezuela (bandiera) Venezuela	Caracas	Caracas		1000	403	5 942 652	14 746,03	Helen Fernández	UTC-4	
+Vietnam (bandiera) Vietnam	Hanoi	河内	1976	19	3 344,7	8 053 663	2 407,89	Vương Đình Huệ	UTC+7	
+Yemen (bandiera) Yemen	Sana'a	صنعاء	1990	2 250	3 450	3 937 451	1 141,29	Mehdi Hussein al-Machat	UTC+3	
+Zambia (bandiera) Zambia	Lusaka	Lusaka	1964 (indipendenza)	1 300	70	1 267 440	18 106,29	Steven Chilatu	UTC+2	
+Zimbabwe (bandiera) Zimbabwe	Harare	Harare		1 490	960,6	2 123 132	2 210,21	Emmerson Mnangagwa	UTC+2	
+Primati
+La capitale più a sud è Wellington (Nuova Zelanda)
+La capitale più a nord è Reykjavík (Islanda). In realtà Nuuk, la capitale della Groenlandia, si trova più a nord di Reykjavík, ma è la capitale d'uno Stato non indipendente
+La capitale più a oriente è Apia (Samoa)
+La capitale più a occidente è Città del Messico (Messico)
+La capitale meno distante dall'equatore è Quito (Ecuador)
+La capitale più popolata è Pechino (Cina) con 24 000 000 ab. (2019)
+La capitale meno popolata è Ngerulmud (Palau) con 401 ab. (2019)
+La capitale con l'altitudine maggiore è La Paz (Bolivia) a 3640 m s.l.m.
+La capitale con l'altitudine minore è Baku (Azerbaigian) a -28 m s.l.m.
+Le capitali meno distanti tra loro sono Brazzaville (Congo) e Kinshasa (Repubblica Democratica del Congo)"""
