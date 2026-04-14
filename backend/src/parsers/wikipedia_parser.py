@@ -138,6 +138,7 @@ class WikipediaParser(BaseParser):
     def _extract_blocks_from_root(self, root) -> list[str]:
         """
         Estrae blocchi di testo informativo da un contenitore HTML.
+        Supporta paragrafi, heading, liste, definizioni e tabelle.
         """
         root_copy = BeautifulSoup(str(root), "html.parser")
 
@@ -179,11 +180,14 @@ class WikipediaParser(BaseParser):
                 tag.decompose()
 
         blocks: list[str] = []
+        seen_blocks: set[str] = set()
 
-        for element in root_copy.find_all(
-            ["h2", "h3", "h4", "p", "ul", "ol", "dl"],
+        target_elements = root_copy.find_all(
+            ["h2", "h3", "h4", "p", "ul", "ol", "dl", "table"],
             recursive=True,
-        ):
+        )
+
+        for element in target_elements:
             text = self._element_to_text(element)
             if not text:
                 continue
@@ -193,11 +197,19 @@ class WikipediaParser(BaseParser):
 
             if element.name in {"h2", "h3", "h4"}:
                 heading = self._clean_heading(text)
-                if heading:
-                    level = {"h2": "##", "h3": "###", "h4": "####"}[element.name]
-                    blocks.append(f"{level} {heading}")
+                if not heading:
+                    continue
+
+                level = {"h2": "##", "h3": "###", "h4": "####"}[element.name]
+                block = f"{level} {heading}"
             else:
-                blocks.append(text)
+                block = text.strip()
+
+            if not block or block in seen_blocks:
+                continue
+
+            seen_blocks.add(block)
+            blocks.append(block)
 
         return blocks
 
@@ -210,6 +222,8 @@ class WikipediaParser(BaseParser):
         lines = [self._normalize_text(line) for line in text.splitlines()]
 
         cleaned_lines: list[str] = []
+        seen_lines: set[str] = set()
+
         for line in lines:
             if not line:
                 continue
@@ -217,6 +231,9 @@ class WikipediaParser(BaseParser):
                 continue
             if self._is_noise_line(line):
                 continue
+            if line in seen_lines:
+                continue
+            seen_lines.add(line)
             cleaned_lines.append(line)
 
         return cleaned_lines
@@ -230,12 +247,7 @@ class WikipediaParser(BaseParser):
             return self._normalize_text(text)
 
         if element.name in {"ul", "ol"}:
-            items = []
-            for li in element.find_all("li", recursive=False):
-                li_text = self._normalize_text(li.get_text(" ", strip=True))
-                if li_text and not self._is_noise_line(li_text):
-                    items.append(f"- {li_text}")
-            return "\n".join(items).strip()
+            return self._list_to_text(element)
 
         if element.name == "dl":
             parts = []
@@ -249,18 +261,131 @@ class WikipediaParser(BaseParser):
             text = element.get_text(" ", strip=True)
             return self._normalize_text(text)
 
+        if element.name == "table":
+            return self._table_to_text(element)
+
         return ""
+
+    def _list_to_text(self, element) -> str:
+        """
+        Converte ul/ol in una lista markdown semplice.
+        """
+        items: list[str] = []
+        seen_items: set[str] = set()
+
+        for li in element.find_all("li", recursive=False):
+            li_copy = BeautifulSoup(str(li), "html.parser")
+
+            for nested_list in li_copy.find_all(["ul", "ol"]):
+                nested_list.decompose()
+
+            li_text = self._normalize_text(li_copy.get_text(" ", strip=True))
+            if not li_text:
+                continue
+            if self._is_noise_line(li_text):
+                continue
+            if li_text in seen_items:
+                continue
+
+            seen_items.add(li_text)
+            items.append(f"- {li_text}")
+
+        return "\n".join(items).strip()
+
+    def _table_to_text(self, table) -> str:
+        """
+        Converte una tabella Wikipedia in testo leggibile.
+
+        Questo è fondamentale per pagine come liste di capitali, dove il contenuto
+        principale è dentro wikitable / table.
+        """
+        classes = table.get("class", [])
+
+        # Filtra tabelle quasi certamente decorative o di navigazione.
+        noisy_table_classes = {
+            "infobox",
+            "sinottico",
+            "navbox",
+            "vertical-navbox",
+            "metadata",
+        }
+
+        if any(cls in noisy_table_classes for cls in classes):
+            return ""
+
+        rows_output: list[str] = []
+        seen_rows: set[str] = set()
+
+        rows = table.find_all("tr", recursive=True)
+        if not rows:
+            return ""
+
+        header_cells = rows[0].find_all(["th", "td"], recursive=False)
+        header_texts = [
+            self._normalize_text(cell.get_text(" ", strip=True))
+            for cell in header_cells
+        ]
+        header_texts = [text for text in header_texts if text and not self._is_noise_line(text)]
+
+        header_line = ""
+        if header_texts and len(header_texts) <= 10:
+            header_line = " | ".join(header_texts)
+
+        if header_line and len(header_line) >= 3:
+            rows_output.append(header_line)
+
+        for row in rows[1:] if len(rows) > 1 else rows:
+            cells = row.find_all(["th", "td"], recursive=False)
+            if not cells:
+                continue
+
+            cell_texts: list[str] = []
+            for cell in cells:
+                for sup in cell.find_all("sup"):
+                    sup.decompose()
+
+                text = self._normalize_text(cell.get_text(" ", strip=True))
+                if not text:
+                    continue
+                if self._is_noise_line(text):
+                    continue
+                cell_texts.append(text)
+
+            if not cell_texts:
+                continue
+
+            row_line = " | ".join(cell_texts)
+            row_line = self._normalize_text(row_line)
+
+            if not row_line:
+                continue
+            if row_line in seen_rows:
+                continue
+            if len(row_line) < 3:
+                continue
+
+            seen_rows.add(row_line)
+            rows_output.append(f"- {row_line}")
+
+        if len(rows_output) <= 1 and not rows_output:
+            return ""
+
+        return "\n".join(rows_output).strip()
 
     def _normalize_text(self, text: str) -> str:
         """
         Normalizza spazi e piccoli artefatti.
         """
         text = re.sub(r"\[\d+\]", "", text)
+        text = re.sub(r"\[[a-zA-Z]+\]", "", text)
         text = re.sub(r"\s+", " ", text).strip()
         text = text.replace(" ,", ",")
         text = text.replace(" .", ".")
         text = text.replace(" ;", ";")
         text = text.replace(" :", ":")
+        text = text.replace(" ( ", " (")
+        text = text.replace(" )", ")")
+        text = text.strip("•· ")
         return text
 
     def _clean_heading(self, text: str) -> str:
@@ -295,6 +420,8 @@ class WikipediaParser(BaseParser):
             "strumenti",
             "strumenti personali",
             "aspetto",
+            "indice",
+            "toc",
         }
 
         if stripped in noise_exact:
@@ -313,24 +440,48 @@ class WikipediaParser(BaseParser):
             "entra",
             "cookie",
             "privacy",
+            "contribuisci",
+            "scarica come pdf",
+            "versione stampabile",
         ]
 
-        return any(stripped.startswith(prefix) for prefix in noise_starts)
+        noise_contains = [
+            "modifica wikitesto",
+            "sezione vuota",
+            "questa voce o sezione",
+            "aiutaci a scriverla",
+        ]
+
+        if any(stripped.startswith(prefix) for prefix in noise_starts):
+            return True
+
+        if any(fragment in stripped for fragment in noise_contains):
+            return True
+
+        return False
 
     def _post_process_blocks(self, blocks: list[str]) -> list[str]:
         """
-        Ripulisce blocchi finali, rimuove vuoti e duplicati consecutivi.
+        Ripulisce blocchi finali, rimuove vuoti e duplicati consecutivi o quasi inutili.
         """
         cleaned: list[str] = []
+        seen: set[str] = set()
         previous = None
 
         for block in blocks:
             block = block.strip()
             if not block:
                 continue
+
+            block = re.sub(r"\n{3,}", "\n\n", block).strip()
+
             if block == previous:
                 continue
+            if block in seen:
+                continue
+
             cleaned.append(block)
+            seen.add(block)
             previous = block
 
         return cleaned
