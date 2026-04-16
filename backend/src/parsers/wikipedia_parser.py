@@ -8,13 +8,13 @@ from parsers.base_parser import BaseParser
 
 
 class WikipediaParser(BaseParser):
-    """Parser dedicato alle pagine Wikipedia."""
+    #Parser dedicato a Wikipedia -> classe derivamnte da BaseParser (astratta vedi)
 
     def __init__(self) -> None:
         self.browser_config = BrowserConfig(headless=True)
 
     async def parse(self, url: str) -> dict:
-        """Esegue il parsing di una pagina Wikipedia usando l'HTML."""
+        #Ridefinizione di Parse, restituzione dizionario
         domain = urlparse(url).netloc
         fallback_title = self._extract_title_from_url(url)
 
