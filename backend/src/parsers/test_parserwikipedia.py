@@ -1,10 +1,10 @@
 import asyncio
 
-from parsers.new_wikipedia_parser import WikipediaParser
+from parsers.new_wikipedia_parser import WikipediaParserClean
 
 
 async def main():
-    parser = WikipediaParser()
+    parser = WikipediaParserClean()
     result = await parser.parse("https://it.wikipedia.org/wiki/Avellino")
 
     print("\nTITLE:")
@@ -14,10 +14,10 @@ async def main():
     print(result["domain"])
 
     print("\nHTML TEXT PREVIEW:")
-    print(result["html_text"][:3000])
+    print(result["html_text"][:])
 
     print("\nPARSED TEXT PREVIEW:")
-    print(result["parsed_text"][:3000])
+    print(result["parsed_text"][:])
 
     print("\nLUNGHEZZE:")
     print(f'html_text: {len(result["html_text"])} caratteri')
