@@ -13,4 +13,4 @@ git push
 
 
 git pull -> IMPORTANTE FAI OGNI VOLTA
-<img width="1027" height="420" alt="Screenshot 2026-04-09 at 18 28 54" src="https://github.com/user-attachments/assets/41383845-2b7f-49b0-92f0-4e93ee0f6a31" />
+

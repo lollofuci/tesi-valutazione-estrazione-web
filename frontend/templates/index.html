@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <title>Web UI Parser</title>
+</head>
+<body>
+    <h1>Web UI Parser</h1>
+
+    <h2>Inserisci un URL</h2>
+    <form action="/parse" method="post">
+        <input
+            type="text"
+            name="url"
+            placeholder="https://..."
+            style="width: 700px;"
+            required
+        >
+        <button type="submit">Parsifica</button>
+    </form>
+
+    <hr>
+
+    <h2>Oppure scegli un URL dal Gold Standard</h2>
+    <form action="/parse" method="post">
+        <select name="url" style="width: 700px;" required>
+            <option value="">-- Seleziona un URL --</option>
+            {% for url in gs_urls %}
+                <option value="{{ url }}">{{ url }}</option>
+            {% endfor %}
+        </select>
+        <button type="submit">Esegui</button>
+    </form>
+</body>
+</html>

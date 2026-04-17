@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <title>Risultato parsing</title>
+</head>
+<body>
+    <h1>Risultato parsing</h1>
+
+    <p><a href="/">← Torna alla home</a></p>
+
+    <h2>URL analizzato</h2>
+    <p>{{ selected_url }}</p>
+
+    {% if error %}
+        <h2>Errore</h2>
+        <pre style="white-space: pre-wrap;">{{ error }}</pre>
+    {% else %}
+
+        {% if parse_data %}
+            <h2>Metadati</h2>
+            <p><strong>Domain:</strong> {{ parse_data.domain }}</p>
+            <p><strong>Title:</strong> {{ parse_data.title }}</p>
+
+            <h2>HTML Text</h2>
+            <pre style="white-space: pre-wrap;">{{ parse_data.html_text }}</pre>
+
+            <h2>Parsed Text</h2>
+            <pre style="white-space: pre-wrap;">{{ parse_data.parsed_text }}</pre>
+        {% endif %}
+
+        {% if gold_data %}
+            <h2>Gold Standard</h2>
+            <pre style="white-space: pre-wrap;">{{ gold_data.gold_text }}</pre>
+        {% endif %}
+
+        {% if eval_data %}
+            <h2>Valutazione</h2>
+            <p><strong>Precision:</strong> {{ eval_data.token_level_eval.precision }}</p>
+            <p><strong>Recall:</strong> {{ eval_data.token_level_eval.recall }}</p>
+            <p><strong>F1:</strong> {{ eval_data.token_level_eval.f1 }}</p>
+        {% endif %}
+
+        {% if not gold_data %}
+            <h2>Gold Standard</h2>
+            <p>Nessun gold standard disponibile per questo URL.</p>
+        {% endif %}
+    {% endif %}
+</body>
+</html>
