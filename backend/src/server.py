@@ -1,6 +1,8 @@
-from fastapi import FastAPI, HTTPException
+from pathlib import Path
 from urllib.parse import urlparse
 import json
+
+from fastapi import FastAPI, HTTPException
 
 from parsers.new_wikipedia_parser import WikipediaParser
 from models import (
@@ -16,13 +18,17 @@ from evaluation.evaluator import token_level_eval, aggregate_metrics
 
 app = FastAPI()
 
+BASE_DIR = Path(__file__).resolve().parent.parent
+DOMAINS_PATH = BASE_DIR / "domains.json"
+GS_DATA_DIR = BASE_DIR / "gs_data"
+
 
 # -------------------------
 # DOMAINS
 # -------------------------
 
 def load_domains() -> list[str]:
-    with open("../../domains.json", "r", encoding="utf-8") as f:
+    with open(DOMAINS_PATH, "r", encoding="utf-8") as f:
         data = json.load(f)
     return data["domains"]
 
@@ -32,7 +38,7 @@ def get_domains():
     return {"domains": load_domains()}
 
 
-def check_supported_domain(domain: str):
+def check_supported_domain(domain: str) -> None:
     supported_domains = load_domains()
     if domain not in supported_domains:
         raise HTTPException(status_code=400, detail="Dominio non supportato")
@@ -74,9 +80,10 @@ def get_gs_filename(domain: str) -> str:
 
 def load_gs(domain: str):
     filename = get_gs_filename(domain)
+    gs_path = GS_DATA_DIR / filename
 
     try:
-        with open(f"../../gs_data/{filename}", "r", encoding="utf-8") as f:
+        with open(gs_path, "r", encoding="utf-8") as f:
             return json.load(f)
     except FileNotFoundError:
         raise HTTPException(status_code=500, detail="File GS non trovato")

@@ -65,11 +65,15 @@ class WikipediaParser(BaseParser):
             (r"(?i)Questa voce o sezione.*?\.", ""), (r"(?i)Commento\s*:.*", ""),
             
             # KILLER DELLA PRONUNCIA E MULTIMEDIA
-            (r"\s*\([^)]*AFI:[^)]*\)", ""), (r"ascoltaⓘ", ""), (r"(?i)!\[.*?\]\(.*?\)", ""), (r"(?im)^.*?\.(jpg|jpeg|png|svg|webp|pdf|gif).*?$", ""), 
+            (r"\s*\([^)]*AFI:[^)]*\)", ""), (r"ascoltaⓘ", ""), (r"pronunciaⓘ", ""), (r"(?i)!\[.*?\]\(.*?\)", ""), (r"(?im)^.*?\.(jpg|jpeg|png|svg|webp|pdf|gif).*?$", ""),
             
             # PULIZIA RESIDUI WIKIPEDIA
-            (r"\[modifica\s*\|\s*modifica wikitesto\]", ""), (r"\[\s*(nota\s*\d+|\w|\d+)\s*\]", ""), (r"Coordinate:.*", ""),                                  
-            (r"Da Wikipedia, l'enciclopedia libera\.", ""), (r"Lo stesso argomento in dettaglio:.*", ""),            
+            (r"\[modifica\s*\|\s*modifica wikitesto\]", ""),
+            (r"\[\s*nota\s*\d+(?:\s*,\s*\d+)*\s*\]", ""),
+            (r"\[\s*\d+(?:\s*,\s*\d+)*\s*\]", ""),
+            (r"Coordinate:.*", ""),
+            (r"Da Wikipedia, l'enciclopedia libera\.", ""),
+            (r"Lo stesso argomento in dettaglio:.*", ""),          
             
             # PULIZIA SINTASSI MARKDOWN (Non rimuoviamo '|' perché serve alle tabelle)
             (r"\*\*", ""), (r"_", ""), (r"\\\(", "("), (r"\\\)", ")"), (r"(?m)^\s*\*\s*\*\s*\*\s*$", ""), 
@@ -77,6 +81,16 @@ class WikipediaParser(BaseParser):
         
         for pattern, repl in sostituzioni:
             md = re.sub(pattern, repl, md, flags=re.IGNORECASE)
+
+
+        #ULTIMA PARTE CAMBIATA -> SE RISCONTRI PROBLEMI CON I TEST FOCALIZZATI QUI ---------------------------------------------------------
+
+
+            # Rimuove numeri-nota attaccati alle parole: Roma6 -> Roma, abitanti2 -> abitanti
+            md = re.sub(r"(?<=[A-Za-zÀ-ÖØ-öø-ÿ])\d+\b", "", md)
+
+            # Rimuove numeri-nota prima della punteggiatura: Stato.7 -> Stato.
+            md = re.sub(r"\b\d+(?=[,.;:!?])", "", md)
 
         # 4. FILTRAGGIO RIGHE E PRESERVAZIONE TABELLE
         linee_pulite = []
