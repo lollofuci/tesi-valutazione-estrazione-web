@@ -1,0 +1,1783 @@
+[ ](https://tradingeconomics.com/)
+[Calendar](https://tradingeconomics.com/calendar) [News](https://tradingeconomics.com/stream)
+[Markets](https://tradingeconomics.com/italy/gdp)
+  * [Commodities](https://tradingeconomics.com/commodities)
+  * [Indexes](https://tradingeconomics.com/stocks)
+  * [Shares](https://tradingeconomics.com/shares)
+  * [Currencies](https://tradingeconomics.com/currencies)
+  * [Crypto](https://tradingeconomics.com/crypto)
+  * [Bonds](https://tradingeconomics.com/bonds)
+  * [Earnings](https://tradingeconomics.com/earnings)
+
+
+[Indicators](https://tradingeconomics.com/indicators) [Countries](https://tradingeconomics.com/countries)
+[Forecasts](https://tradingeconomics.com/italy/gdp)
+  * [Commodities](https://tradingeconomics.com/forecast/commodity)
+  * [Indexes](https://tradingeconomics.com/forecast/stock-market)
+  * [Currencies](https://tradingeconomics.com/forecast/currency)
+  * [Crypto](https://tradingeconomics.com/forecast/crypto)
+  * [Bonds](https://tradingeconomics.com/forecast/government-bond-10y)
+  * [Countries](https://tradingeconomics.com/forecasts)
+  * [Indicators](https://tradingeconomics.com/indicators?g=forecast)
+
+
+[](https://tradingeconomics.com/italy/gdp#offcanvasGuest "User Menu")
+##### **Members**
+[   
+Download historical data for 20 million indicators using your browser. ](https://tradingeconomics.com/analytics/pricing.aspx?source=menu%20)
+[Subscription Plans](https://tradingeconomics.com/analytics/pricing.aspx?source=menu) | [Features](https://tradingeconomics.com/analytics/features.aspx?source=menu)
+[   
+Direct access to our data from your apps using any programing language. ](https://tradingeconomics.com/api/)
+[Features](https://tradingeconomics.com/api/?source=menu) | [Docs](https://docs.tradingeconomics.com/) | [Developer](https://developer.tradingeconomics.com/)
+[**Login**](https://sso.tradingeconomics.com/sso/login?returnurl=https://tradingeconomics.com/italy/gdp)
+[](https://tradingeconomics.com/calendar)
+[](https://tradingeconomics.com/stream)
+  * [Commodities](https://tradingeconomics.com/commodities)
+  * [Indexes](https://tradingeconomics.com/stocks)
+  * [Shares](https://tradingeconomics.com/shares)
+  * [Currencies](https://tradingeconomics.com/currencies)
+  * [Crypto](https://tradingeconomics.com/crypto)
+  * [Bonds](https://tradingeconomics.com/bonds)
+  * [Earnings](https://tradingeconomics.com/earnings)
+  * [Holidays](https://tradingeconomics.com/holidays)
+
+
+  * [United States](https://tradingeconomics.com/united-states/indicators)
+  * [United Kingdom](https://tradingeconomics.com/united-kingdom/indicators)
+  * [Euro Area](https://tradingeconomics.com/euro-area/indicators)
+  * [Australia](https://tradingeconomics.com/australia/indicators)
+  * [Canada](https://tradingeconomics.com/canada/indicators)
+  * [Japan](https://tradingeconomics.com/japan/indicators)
+  * [China](https://tradingeconomics.com/china/indicators)
+  * [Brazil](https://tradingeconomics.com/brazil/indicators)
+  * [Russia](https://tradingeconomics.com/russia/indicators)
+  * [India](https://tradingeconomics.com/india/indicators)
+  * [](https://tradingeconomics.com/countries)
+
+
+  * [Interest Rate](https://tradingeconomics.com/country-list/interest-rate)
+  * [Inflation Rate](https://tradingeconomics.com/country-list/inflation-rate)
+  * [Unemployment Rate](https://tradingeconomics.com/country-list/unemployment-rate)
+  * [GDP Growth](https://tradingeconomics.com/country-list/gdp-growth-rate)
+  * [GDP per Capita](https://tradingeconomics.com/country-list/gdp-per-capita)
+  * [Current Account](https://tradingeconomics.com/country-list/current-account-to-gdp)
+  * [Gold Reserves](https://tradingeconomics.com/country-list/gold-reserves)
+  * [Government Debt](https://tradingeconomics.com/country-list/government-debt-to-gdp)
+  * [Crude Oil Production](https://tradingeconomics.com/country-list/crude-oil-production)
+  * [Gasoline Prices](https://tradingeconomics.com/country-list/gasoline-prices)
+  * [Credit Rating](https://tradingeconomics.com/country-list/rating)
+  * [](https://tradingeconomics.com/indicators)
+
+
+  * [Markets & Indicators](https://tradingeconomics.com/indicators?g=forecast)
+  * [Countries](https://tradingeconomics.com/forecasts)
+  * [Countries](https://tradingeconomics.com/forecasts)
+  * [Indicators](https://tradingeconomics.com/indicators?g=forecast)
+  * [Commodities](https://tradingeconomics.com/forecast/commodity)
+  * [Indexes](https://tradingeconomics.com/forecast/stock-market)
+  * [Currencies](https://tradingeconomics.com/forecast/currency)
+  * [Crypto](https://tradingeconomics.com/forecast/crypto)
+  * [Bonds](https://tradingeconomics.com/forecast/government-bond-10y)
+
+
+  * [Data Subscriptions](https://tradingeconomics.com/analytics/features.aspx "Data Subscriptions")
+  * [API Access](https://tradingeconomics.com/api/ "API Access")
+  * [Pricing](https://tradingeconomics.com/analytics/pricing.aspx?source=nav "Pricing")
+
+
+  * [App Store](https://itunes.apple.com/us/app/trading-economics/id1142178921?mt=8)
+  * [Google Play](https://play.google.com/store/apps/details?id=com.tradingeconomics.calendar)
+  * [Twitter](https://www.twitter.com/teconomics)
+
+
+  * [Customers](https://tradingeconomics.com/api/customers.aspx)
+  * [Investors](https://tradingeconomics.com/investors.aspx)
+  * [Careers](https://tradingeconomics.com/careers.aspx)
+  * [About us](https://tradingeconomics.com/about-te.aspx)
+  * [Contact](https://tradingeconomics.com/contact.aspx)
+
+
+# Italy GDP
+  * [ Summary ](https://tradingeconomics.com/italy/gdp#historical)
+  * [ Stats ](https://tradingeconomics.com/italy/gdp#stats)
+  * [ Forecast ](https://tradingeconomics.com/italy/gdp#forecast)
+  * [ Download ](https://tradingeconomics.com/italy/gdp)
+    * [![CSV download button](https://d3e5kp2e91w0k0.cloudfront.net/images/downloadicons/download-csv-filled.svg) Download Data](https://tradingeconomics.com/italy/gdp)
+    * [![Excel download button](https://d3e5kp2e91w0k0.cloudfront.net/images/downloadicons/microsoft-excel-filled.svg) Excel Add-in](https://tradingeconomics.com/italy/gdp)
+    * [![API download button](https://d3e5kp2e91w0k0.cloudfront.net/images/downloadicons/download-api.svg) API Access](https://tradingeconomics.com/italy/gdp)
+
+
+## The Gross Domestic Product (GDP) in Italy was worth 2372.77 billion US dollars in 2024, according to official data from the World Bank. The GDP value of Italy represents 2.23 percent of the world economy. source: [World Bank](https://www.worldbank.org/)
+##  GDP in Italy averaged 1080.78 USD Billion from 1960 until 2024, reaching an all time high of 2417.51 USD Billion in 2008 and a record low of 42.01 USD Billion in 1960. This page provides the latest reported value for - Italy GDP - plus previous releases, historical high and low, short-term forecast and long-term prediction, economic calendar, survey consensus and news. Italy GDP - values, historical data and charts - was last updated on April of 2026. 
+### GDP in Italy is expected to reach 2387.00 USD Billion by the end of 2026, according to Trading Economics global macro models and analysts expectations. In the long-term, the Italy GDP is projected to trend around 2406.00 USD Billion in 2027 and 2430.00 USD Billion in 2028, according to our econometric models.
+USD Billion
+[5Y](https://tradingeconomics.com/italy/gdp)[10Y](https://tradingeconomics.com/italy/gdp)[25Y](https://tradingeconomics.com/italy/gdp)[MAX](https://tradingeconomics.com/italy/gdp)
+Export API
+  
+OK
+Created with Highcharts 10.1.0Chart context menu1.8K1.89K2K2.11K2.22K2.33K2.42K
+Loading...
+201420182022  
+ |  
+|  |  
+|  World Bank ValueChgChg%    
+  
+  
+ | Related  |  Last  |  Previous  |  Unit  |  Reference  |  
+| --- | --- | --- | --- | --- |  
+|  [ Full Year GDP Growth ](https://tradingeconomics.com/italy/full-year-gdp-growth)  | 0.50  | 0.80  |  percent  | Dec 2025  |  
+|  [ GDP ](https://tradingeconomics.com/italy/gdp)  | 2372.77  | 2304.61  |  USD Billion  | Dec 2024  |  
+|  [ GDP Growth Rate YoY ](https://tradingeconomics.com/italy/gdp-growth-annual)  | 0.80  | 0.60  |  percent  | Dec 2025  |  
+|  [ GDP Growth Rate ](https://tradingeconomics.com/italy/gdp-growth)  | 0.30  | 0.10  |  percent  | Dec 2025  |  
+|  [ GDP per Capita ](https://tradingeconomics.com/italy/gdp-per-capita)  | 34398.20  | 34146.02  |  USD  | Dec 2024  |  
+|  [ GDP per Capita PPP ](https://tradingeconomics.com/italy/gdp-per-capita-ppp)  | 53115.14  | 52725.75  |  USD  | Dec 2024  |  
+[ ](https://tradingeconomics.com/italy/indicators)
+  
+
+  
+
+Italy GDP
+The gross domestic product (GDP) measures of national income and output for a given country's economy. The gross domestic product (GDP) is equal to the total expenditures for all final goods and services produced within the country in a stipulated period of time.  
+|   |  Actual  |  Previous  |  Highest  |  Lowest  |  Dates  |  Unit  |  Frequency  |   |  
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |  
+|   | 2372.77  | 2304.61  | 2417.51  | 42.01  | 1960 - 2024  |  USD Billion  |  Yearly  |  Current USD   |  
+  
+
+Compare: [GDP by Country](http://tradingeconomics.com/country-list/gdp)
+  
+
+Related
+[FTSE MIB Hits Record High as Strait of Hormuz Reopens](https://tradingeconomics.com/italy/stock-market)
+[Italy Trade Surplus Above Forecasts](https://tradingeconomics.com/italy/balance-of-trade)
+[Italy Current Account Surplus Widens Sharply in February](https://tradingeconomics.com/italy/current-account)
+[Italy’s 10-Year Yield Eases Marginally from Recent Highs](https://tradingeconomics.com/italy/government-bond-yield)
+[Italy March Inflation Confirmed at 1.7%](https://tradingeconomics.com/italy/inflation-cpi)
+[Italy Industrial Output Edges Up in February](https://tradingeconomics.com/italy/industrial-production-mom)
+[Italy Construction PMI Falls Back into Contraction](https://tradingeconomics.com/italy/construction-pmi)
+[Italy Services Sector Contracts for First Time Since 2024](https://tradingeconomics.com/italy/services-pmi)
+[Italy Private Sector Activity Shrinks in March](https://tradingeconomics.com/italy/composite-pmi)
+[Italy Retail Sales Growth Eases](https://tradingeconomics.com/italy/retail-sales-annual)
+  
+[ ](https://tradingeconomics.com/italy/news)
+Latest
+[Kweichow Moutai earnings below expectations at 15.06 CNY](https://tradingeconomics.com/600519:ch:eps)
+[Ibovespa Erases Gains Despite Strait of Hormuz Opening](https://tradingeconomics.com/brazil/stock-market)
+[Peru Trade Surplus Widens on Mining Export Jump](https://tradingeconomics.com/peru/balance-of-trade)
+[Week Ahead - Apr 20th](https://tradingeconomics.com/calendar?article=29349&g=top&importance=2&startdate=2026-04-17)
+[Brazil 10-Year Bond Yield Erases March Gains](https://tradingeconomics.com/brazil/government-bond-yield)
+[Brazilian Real Two Years High](https://tradingeconomics.com/brazil/currency)
+[Malawi Inflation Rate Eases to 2022-Low](https://tradingeconomics.com/malawi/inflation-cpi)
+[DAX Rallies to 7-Week High](https://tradingeconomics.com/germany/stock-market)
+[US Stocks Extend Gains at Records](https://tradingeconomics.com/united-states/stock-market)
+[FTSE 100 Rises to Over 6-Week High](https://tradingeconomics.com/united-kingdom/stock-market)
+  
+[ ](https://tradingeconomics.com/stream)
+  
+
+Italy  United States United Kingdom Euro area China Afghanistan Albania Algeria Andorra Angola Antigua and Barbuda Argentina Armenia Aruba Australia Austria Azerbaijan Bahamas Bahrain Bangladesh Barbados Belarus Belgium Belize Benin Bermuda Bhutan Bolivia Bosnia Botswana Brazil Brunei Bulgaria Burkina Faso Burundi Cambodia Cameroon Canada Cape Verde Cayman Islands Central African Republic Chad Channel Islands Chile China Colombia Comoros Congo Costa Rica Cote d Ivoire Croatia Cuba Cyprus Czech Republic Denmark Djibouti Dominica Dominican Republic East Asia and Pacific East Timor Ecuador Egypt El Salvador Equatorial Guinea Eritrea Estonia Ethiopia Euro area European Union Europe and Central Asia Faeroe Islands Fiji Finland France French Polynesia Gabon Gambia Georgia Germany Ghana Greece Greenland Grenada Guam Guatemala Guinea Guinea Bissau Guyana Haiti Honduras Hong Kong Hungary Iceland India Indonesia Iran Iraq Ireland Isle of Man Israel Italy Ivory Coast Jamaica Japan Jordan Kazakhstan Kenya Kiribati Kosovo Kuwait Kyrgyzstan Laos Latvia Lebanon Lesotho Liberia Libya Liechtenstein Lithuania Luxembourg Macau Macedonia Madagascar Malawi Malaysia Maldives Mali Malta Marshall Islands Mauritania Mauritius Mayotte Mexico Micronesia Moldova Monaco Mongolia Montenegro Morocco Mozambique Myanmar Namibia Nepal Netherlands Netherlands Antilles New Caledonia New Zealand Nicaragua Niger Nigeria North Korea Norway Oman Pakistan Palau Panama Palestine Papua New Guinea Paraguay Peru Philippines Poland Portugal Puerto Rico Qatar Republic of the Congo Romania Russia Rwanda Samoa Sao Tome and Principe Saudi Arabia Senegal Serbia Seychelles Sierra Leone Singapore Slovakia Slovenia Solomon Islands Somalia South Africa South Asia South Korea South Sudan Spain Sri Lanka Sudan Suriname Swaziland Sweden Switzerland Syria Taiwan Tajikistan Tanzania Thailand Timor Leste Togo Tonga Trinidad and Tobago Tunisia Turkey Turkmenistan Uganda Ukraine United Arab Emirates United Kingdom United States Uruguay Uzbekistan Vanuatu Venezuela Vietnam Virgin Islands Yemen Zambia Zimbabwe
+[Calendar  
+](https://tradingeconomics.com/italy/calendar) [Forecast  
+](https://tradingeconomics.com/italy/forecast) [Indicators  
+](https://tradingeconomics.com/italy/indicators) [News  
+](https://tradingeconomics.com/italy/news)
+[Currency](https://tradingeconomics.com/italy/currency)  
+[Government Bond 10Y](https://tradingeconomics.com/italy/government-bond-yield)  
+[Stock Market](https://tradingeconomics.com/italy/stock-market)  
+
+[Full Year GDP Growth](https://tradingeconomics.com/italy/full-year-gdp-growth)  
+[GDP](https://tradingeconomics.com/italy/gdp)  
+[GDP Constant Prices](https://tradingeconomics.com/italy/gdp-constant-prices)  
+[GDP from Agriculture](https://tradingeconomics.com/italy/gdp-from-agriculture)  
+[GDP from Construction](https://tradingeconomics.com/italy/gdp-from-construction)  
+[GDP from Manufacturing](https://tradingeconomics.com/italy/gdp-from-manufacturing)  
+[GDP from Services](https://tradingeconomics.com/italy/gdp-from-services)  
+[GDP Growth Rate](https://tradingeconomics.com/italy/gdp-growth)  
+[GDP Growth Rate YoY](https://tradingeconomics.com/italy/gdp-growth-annual)  
+[GDP per Capita](https://tradingeconomics.com/italy/gdp-per-capita)  
+[GDP per Capita PPP](https://tradingeconomics.com/italy/gdp-per-capita-ppp)  
+[Gross Fixed Capital Formation](https://tradingeconomics.com/italy/gross-fixed-capital-formation)  
+
+[Average Annual Wages](https://tradingeconomics.com/italy/average-annual-wages)  
+[Employed Persons](https://tradingeconomics.com/italy/employed-persons)  
+[Employment Change](https://tradingeconomics.com/italy/employment-change)  
+[Employment Change YoY](https://tradingeconomics.com/italy/employment-change-yoy)  
+[Employment Rate](https://tradingeconomics.com/italy/employment-rate)  
+[Full Time Employment](https://tradingeconomics.com/italy/full-time-employment)  
+[Gross Average Monthly Wages](https://tradingeconomics.com/italy/gross-average-monthly-wages)  
+[Job Vacancy Rate](https://tradingeconomics.com/italy/job-vacancy-rate)  
+[Labor Force Participation Rate](https://tradingeconomics.com/italy/labor-force-participation-rate)  
+[Labour Costs](https://tradingeconomics.com/italy/labour-costs)  
+[Long Term Unemployment Rate](https://tradingeconomics.com/italy/long-term-unemployment-rate)  
+[Part Time Employment](https://tradingeconomics.com/italy/part-time-employment)  
+[Population](https://tradingeconomics.com/italy/population)  
+[Productivity](https://tradingeconomics.com/italy/productivity)  
+[Retirement Age Men](https://tradingeconomics.com/italy/retirement-age-men)  
+[Retirement Age Women](https://tradingeconomics.com/italy/retirement-age-women)  
+[Unemployed Persons](https://tradingeconomics.com/italy/unemployed-persons)  
+[Unemployment Rate](https://tradingeconomics.com/italy/unemployment-rate)  
+[Wage Growth](https://tradingeconomics.com/italy/wage-growth)  
+[Wages](https://tradingeconomics.com/italy/wages)  
+[Wages in Manufacturing](https://tradingeconomics.com/italy/wages-in-manufacturing)  
+[Youth Unemployment Rate](https://tradingeconomics.com/italy/youth-unemployment-rate)  
+
+[Core Consumer Prices](https://tradingeconomics.com/italy/core-consumer-prices)  
+[Core Inflation Rate](https://tradingeconomics.com/italy/core-inflation-rate)  
+[CPI Housing Utilities](https://tradingeconomics.com/italy/cpi-housing-utilities)  
+[CPI Prel](https://tradingeconomics.com/italy/consumer-price-index-cpi)  
+[CPI Transportation](https://tradingeconomics.com/italy/cpi-transportation)  
+[Energy Inflation](https://tradingeconomics.com/italy/energy-inflation)  
+[Export Prices](https://tradingeconomics.com/italy/export-prices)  
+[Food Inflation](https://tradingeconomics.com/italy/food-inflation)  
+[GDP Deflator](https://tradingeconomics.com/italy/gdp-deflator)  
+[Harmonised Consumer Prices](https://tradingeconomics.com/italy/harmonised-consumer-prices)  
+[Harmonised Inflation Rate MoM](https://tradingeconomics.com/italy/harmonised-inflation-rate-mom)  
+[Harmonised Inflation Rate YoY](https://tradingeconomics.com/italy/harmonised-inflation-rate-yoy)  
+[Import Prices](https://tradingeconomics.com/italy/import-prices)  
+[Inflation Rate MoM](https://tradingeconomics.com/italy/inflation-rate-mom)  
+[Inflation Rate YoY](https://tradingeconomics.com/italy/inflation-cpi)  
+[PPI MoM](https://tradingeconomics.com/italy/producer-price-inflation-mom)  
+[PPI YoY](https://tradingeconomics.com/italy/producer-prices-change)  
+[Producer Prices](https://tradingeconomics.com/italy/producer-prices)  
+[Rent Inflation](https://tradingeconomics.com/italy/rent-inflation)  
+[Services Inflation](https://tradingeconomics.com/italy/services-inflation)  
+
+[Banks Balance Sheet](https://tradingeconomics.com/italy/banks-balance-sheet)  
+[Central Bank Balance Sheet](https://tradingeconomics.com/italy/central-bank-balance-sheet)  
+[Foreign Exchange Reserves](https://tradingeconomics.com/italy/foreign-exchange-reserves)  
+[Interbank Rate](https://tradingeconomics.com/italy/interbank-rate)  
+[Interest Rate](https://tradingeconomics.com/italy/interest-rate)  
+[Loans to Private Sector](https://tradingeconomics.com/italy/loans-to-private-sector)  
+[Money Supply M1](https://tradingeconomics.com/italy/money-supply-m1)  
+[Money Supply M2](https://tradingeconomics.com/italy/money-supply-m2)  
+[Money Supply M3](https://tradingeconomics.com/italy/money-supply-m3)  
+[Private Debt to GDP](https://tradingeconomics.com/italy/private-debt-to-gdp)  
+
+[Balance of Trade](https://tradingeconomics.com/italy/balance-of-trade)  
+[Capital Flows](https://tradingeconomics.com/italy/capital-flows)  
+[Crude Oil Production](https://tradingeconomics.com/italy/crude-oil-production)  
+[Current Account](https://tradingeconomics.com/italy/current-account)  
+[Current Account to GDP](https://tradingeconomics.com/italy/current-account-to-gdp)  
+[Exports](https://tradingeconomics.com/italy/exports)  
+[Exports by Category](https://tradingeconomics.com/italy/exports-by-category)  
+[Exports by Country](https://tradingeconomics.com/italy/exports-by-country)  
+[External Debt](https://tradingeconomics.com/italy/external-debt)  
+[External Debt to GDP](https://tradingeconomics.com/italy/external-debt-to-gdp)  
+[Foreign Direct Investment](https://tradingeconomics.com/italy/foreign-direct-investment)  
+[Gold Reserves](https://tradingeconomics.com/italy/gold-reserves)  
+[Imports](https://tradingeconomics.com/italy/imports)  
+[Imports by Category](https://tradingeconomics.com/italy/imports-by-category)  
+[Imports by Country](https://tradingeconomics.com/italy/imports-by-country)  
+[Natural Gas Imports](https://tradingeconomics.com/italy/natural-gas-imports)  
+[Remittances](https://tradingeconomics.com/italy/remittances)  
+[Terms of Trade](https://tradingeconomics.com/italy/terms-of-trade)  
+[Terrorism Index](https://tradingeconomics.com/italy/terrorism-index)  
+[Tourism Revenues](https://tradingeconomics.com/italy/tourism-revenues)  
+[Tourist Arrivals](https://tradingeconomics.com/italy/tourist-arrivals)  
+[Weapons Sales](https://tradingeconomics.com/italy/weapons-sales)  
+
+[Asylum Applications](https://tradingeconomics.com/italy/asylum-applications)  
+[Corruption Index](https://tradingeconomics.com/italy/corruption-index)  
+[Corruption Rank](https://tradingeconomics.com/italy/corruption-rank)  
+[Credit Rating](https://tradingeconomics.com/italy/rating)  
+[Fiscal Expenditure](https://tradingeconomics.com/italy/fiscal-expenditure)  
+[Government Budget](https://tradingeconomics.com/italy/government-budget)  
+[Government Budget Value](https://tradingeconomics.com/italy/government-budget-value)  
+[Government Debt](https://tradingeconomics.com/italy/government-debt)  
+[Government Debt to GDP](https://tradingeconomics.com/italy/government-debt-to-gdp)  
+[Government Revenues](https://tradingeconomics.com/italy/government-revenues)  
+[Government Spending](https://tradingeconomics.com/italy/government-spending)  
+[Government Spending to GDP](https://tradingeconomics.com/italy/government-spending-to-gdp)  
+[Holidays](https://tradingeconomics.com/italy/holidays)  
+[Military Expenditure](https://tradingeconomics.com/italy/military-expenditure)  
+
+[Business Confidence](https://tradingeconomics.com/italy/business-confidence)  
+[Capacity Utilization](https://tradingeconomics.com/italy/capacity-utilization)  
+[Car Registrations](https://tradingeconomics.com/italy/car-registrations)  
+[Changes in Inventories](https://tradingeconomics.com/italy/changes-in-inventories)  
+[Composite Leading Indicator](https://tradingeconomics.com/italy/composite-leading-indicator)  
+[Electric Car Registrations](https://tradingeconomics.com/italy/electric-car-registrations)  
+[Electricity Price](https://tradingeconomics.com/italy/electricity-price)  
+[Electricity Production](https://tradingeconomics.com/italy/electricity-production)  
+[Industrial Production MoM](https://tradingeconomics.com/italy/industrial-production-mom)  
+[Industrial Production YoY](https://tradingeconomics.com/italy/industrial-production)  
+[Industrial Sales YoY](https://tradingeconomics.com/italy/manufacturing-sales)  
+[Manufacturing Production](https://tradingeconomics.com/italy/manufacturing-production)  
+[Mining Production](https://tradingeconomics.com/italy/mining-production)  
+[New Car Registrations YoY](https://tradingeconomics.com/italy/new-passenger-car-registrations-yoy)  
+
+[Bank Lending Rate](https://tradingeconomics.com/italy/bank-lending-rate)  
+[Consumer Confidence](https://tradingeconomics.com/italy/consumer-confidence)  
+[Consumer Credit](https://tradingeconomics.com/italy/consumer-credit)  
+[Consumer Spending](https://tradingeconomics.com/italy/consumer-spending)  
+[Disposable Personal Income](https://tradingeconomics.com/italy/disposable-personal-income)  
+[Economic Sentiment](https://tradingeconomics.com/italy/economic-optimism-index)  
+[Gasoline Prices](https://tradingeconomics.com/italy/gasoline-prices)  
+[Households Debt to GDP](https://tradingeconomics.com/italy/households-debt-to-gdp)  
+[Households Debt to Income](https://tradingeconomics.com/italy/households-debt-to-income)  
+[Personal Savings](https://tradingeconomics.com/italy/personal-savings)  
+[Retail Sales MoM](https://tradingeconomics.com/italy/retail-sales)  
+[Retail Sales YoY](https://tradingeconomics.com/italy/retail-sales-annual)  
+
+[Construction Output YoY](https://tradingeconomics.com/italy/construction-output)  
+[Home Ownership Rate](https://tradingeconomics.com/italy/home-ownership-rate)  
+[House Price Index YoY](https://tradingeconomics.com/italy/house-price-index-yoy)  
+[Housing Index](https://tradingeconomics.com/italy/housing-index)  
+[Price to Rent Ratio](https://tradingeconomics.com/italy/price-to-rent-ratio)  
+[Residential Property Prices](https://tradingeconomics.com/italy/residential-property-prices)  
+
+[Corporate Tax Rate](https://tradingeconomics.com/italy/corporate-tax-rate)  
+[Personal Income Tax Rate](https://tradingeconomics.com/italy/personal-income-tax-rate)  
+[Sales Tax Rate](https://tradingeconomics.com/italy/sales-tax-rate)  
+[Social Security Rate](https://tradingeconomics.com/italy/social-security-rate)  
+[Social Security Rate For Companies](https://tradingeconomics.com/italy/social-security-rate-for-companies)  
+[Social Security Rate For Employees](https://tradingeconomics.com/italy/social-security-rate-for-employees)  
+[Withholding Tax Rate](https://tradingeconomics.com/italy/withholding-tax-rate)  
+
+[Natural Gas Stocks Capacity](https://tradingeconomics.com/italy/natural-gas-stocks-capacity)  
+[Natural Gas Stocks Injection](https://tradingeconomics.com/italy/natural-gas-stocks-injection)  
+[Natural Gas Stocks Inventory](https://tradingeconomics.com/italy/natural-gas-stocks-inventory)  
+[Natural Gas Stocks Withdrawal](https://tradingeconomics.com/italy/natural-gas-stocks-withdrawal)  
+
+[Hospital Beds](https://tradingeconomics.com/italy/hospital-beds)  
+[Hospitals](https://tradingeconomics.com/italy/hospital)  
+[ICU Beds](https://tradingeconomics.com/italy/icu-beds)  
+[Medical Doctors](https://tradingeconomics.com/italy/medical-doctors)  
+[Nurses](https://tradingeconomics.com/italy/nurses)  
+
+[CO2 Emissions](https://tradingeconomics.com/italy/co2-emissions)  
+[Precipitation](https://tradingeconomics.com/italy/precipitation)  
+[Temperature](https://tradingeconomics.com/italy/temperature)  
+
+More Indicators 
+[National Statistics](https://tradingeconomics.com/italy/indicators)  
+[EUROSTAT](https://tradingeconomics.com/italy/indicators-eurostat-data.html)  
+[World Bank](https://tradingeconomics.com/italy/indicators-wb-data.html)  
+
+  
+
+  
+
+  
+  
+
+Indicators
+[Homepage](https://tradingeconomics.com/)  
+[Countries](https://tradingeconomics.com/countries)  
+[Indicators](https://tradingeconomics.com/indicators)  
+[Calendar](https://tradingeconomics.com/calendar)  
+[Forecasts](https://tradingeconomics.com/forecasts)  
+[Ratings](https://tradingeconomics.com/country-list/rating)
+Solutions
+[Data Subscriptions](https://tradingeconomics.com/analytics/features.aspx?source=footer)  
+[API Access](https://tradingeconomics.com/api/?source=footer)  
+[Excel Add-In](https://tradingeconomics.com/analytics/excel.aspx)  
+[Developer Account](https://developer.tradingeconomics.com/)  
+[Documentation](https://docs.tradingeconomics.com/)  
+[Pricing](https://tradingeconomics.com/analytics/pricing.aspx?source=footer)  
+  
+
+About Us
+[Customers](https://tradingeconomics.com/api/customers.aspx)  
+[Careers](https://tradingeconomics.com/careers.aspx)  
+[Investors](https://tradingeconomics.com/investors.aspx)  
+[Advertisers](https://tradingeconomics.com/advertise.aspx)  
+[About us](https://tradingeconomics.com/about-te.aspx)  
+[Privacy](https://tradingeconomics.com/privacy-policy.aspx)
+[ ![IOs app on Apple](https://d3e5kp2e91w0k0.cloudfront.net/images/appstore-lrg.svg) ](https://itunes.apple.com/us/app/trading-economics/id1142178921?mt=8 "IOs app on Apple") [ ![Android app on Google Play](https://d3e5kp2e91w0k0.cloudfront.net/images/google-play.png) ](https://play.google.com/store/apps/details?id=com.tradingeconomics.calendar "Android app on Google Play")
+  
+
+[English](https://tradingeconomics.com)  
+[Español](https://es.tradingeconomics.com/italy/gdp)  
+[Português](https://pt.tradingeconomics.com/italy/gdp)  
+[Français](https://fr.tradingeconomics.com/italy/gdp)  
+
+[Deutsch](https://de.tradingeconomics.com/italy/gdp)  
+[Italiano](https://it.tradingeconomics.com/italy/gdp)  
+[Polski](https://pl.tradingeconomics.com/italy/gdp)  
+[Indonesian](https://id.tradingeconomics.com/italy/gdp)  
+
+[Русский](https://ru.tradingeconomics.com/italy/gdp)  
+[Türkçe](https://tr.tradingeconomics.com/italy/gdp)  
+[Farsi](https://fa.tradingeconomics.com/italy/gdp)  
+[العربية](https://ar.tradingeconomics.com/italy/gdp)  
+
+[简体中文](https://zh.tradingeconomics.com/italy/gdp)  
+[日本語](https://jp.tradingeconomics.com/italy/gdp)  
+[한국어](https://ko.tradingeconomics.com/italy/gdp)  
+
+  
+
+  
+Copyright ©2026 TRADING ECONOMICS  
+All Rights Reserved  
+
+  
+  
+
+×
+![Welcome to TRADING ECONOMICS](https://lh3.googleusercontent.com/nW5AgojsIt99OoN35FX7BOmprP30IU_APv6TJtK4FzZkBpGDJ-QKtzIj1UFpeQ4EJatVB4ZuaETV-uK_CPD0EKqs_e3VPRCIsqBObLskbIoy_ip8fEx4Vg=h60)
+# TRADING ECONOMICS asks for your consent to use your personal data to:
+  * Personalised advertising and content, advertising and content measurement, audience research and services development
+  * Store and/or access information on a device
+
+
+Learn more
+  * [How can I change my choice?](https://tradingeconomics.com/italy/gdp)
+  * [What if I don't consent?](https://tradingeconomics.com/italy/gdp)
+  * [How does legitimate interest work?](https://tradingeconomics.com/italy/gdp)
+  * [Do I have to consent to everything?](https://tradingeconomics.com/italy/gdp)
+
+
+Your personal data will be processed and information from your device (cookies, unique identifiers, and other device data) may be stored by, accessed by and shared with 227 partners, or used specifically by this site. We and our partners may use precise geolocation data. [List of partners.](https://tradingeconomics.com/italy/gdp)
+Some vendors may process your personal data on the basis of legitimate interest, which you can object to by managing your options below. Look for a link at the bottom of this page or in the site menu to manage or withdraw consent in privacy and cookie settings.
+Consent
+Manage options
+Data preferences
+# Manage your data
+You can choose how your personal data is used. Vendors want your permission to do the following:
+TCF vendors
+## Store and/or access information on a device
+Cookies, device or similar online identifiers (e.g. login-based identifiers, randomly assigned identifiers, network based identifiers) together with other information (e.g. browser type and information, language, screen size, supported technologies etc.) can be stored or read on your device to recognise it each time it connects to an app or to a website, for one or several of the purposes presented here.
+[View details](https://tradingeconomics.com/italy/gdp)
+Consent (129 vendors)
+## Use limited data to select advertising
+Advertising presented to you on this service can be based on limited data, such as the website or app you are using, your non-precise location, your device type or which content you are (or have been) interacting with (for example, to limit the number of times an ad is presented to you).
+[View details](https://tradingeconomics.com/italy/gdp)
+Consent (80 vendors)Legitimate interest (41 vendors)
+## Create profiles for personalised advertising
+Information about your activity on this service (such as forms you submit, content you look at) can be stored and combined with other information about you (for example, information from your previous activity on this service and other websites or apps) or similar users. This is then used to build or improve a profile about you (that might include possible interests and personal aspects). Your profile can be used (also later) to present advertising that appears more relevant based on your possible interests by this and other entities.
+[View details](https://tradingeconomics.com/italy/gdp)
+Consent (112 vendors)
+## Use profiles to select personalised advertising
+Advertising presented to you on this service can be based on your advertising profiles, which can reflect your activity on this service or other websites or apps (like the forms you submit, content you look at), possible interests and personal aspects.
+[View details](https://tradingeconomics.com/italy/gdp)
+Consent (111 vendors)
+## Create profiles to personalise content
+Information about your activity on this service (for instance, forms you submit, non-advertising content you look at) can be stored and combined with other information about you (such as your previous activity on this service or other websites or apps) or similar users. This is then used to build or improve a profile about you (which might for example include possible interests and personal aspects). Your profile can be used (also later) to present content that appears more relevant based on your possible interests, such as by adapting the order in which content is shown to you, so that it is even easier for you to find content that matches your interests.
+[View details](https://tradingeconomics.com/italy/gdp)
+Consent (36 vendors)
+## Use profiles to select personalised content
+Content presented to you on this service can be based on your content personalisation profiles, which can reflect your activity on this or other services (for instance, the forms you submit, content you look at), possible interests and personal aspects. This can for example be used to adapt the order in which content is shown to you, so that it is even easier for you to find (non-advertising) content that matches your interests.
+[View details](https://tradingeconomics.com/italy/gdp)
+Consent (32 vendors)
+## Measure advertising performance
+Information regarding which advertising is presented to you and how you interact with it can be used to determine how well an advert has worked for you or other users and whether the goals of the advertising were reached. For instance, whether you saw an ad, whether you clicked on it, whether it led you to buy a product or visit a website, etc. This is very helpful to understand the relevance of advertising campaigns.
+[View details](https://tradingeconomics.com/italy/gdp)
+Consent (81 vendors)Legitimate interest (59 vendors)
+## Measure content performance
+Information regarding which content is presented to you and how you interact with it can be used to determine whether the (non-advertising) content e.g. reached its intended audience and matched your interests. For instance, whether you read an article, watch a video, listen to a podcast or look at a product description, how long you spent on this service and the web pages you visit etc. This is very helpful to understand the relevance of (non-advertising) content that is shown to you.
+[View details](https://tradingeconomics.com/italy/gdp)
+Consent (32 vendors)Legitimate interest (22 vendors)
+## Understand audiences through statistics or combinations of data from different sources
+Reports can be generated based on the combination of data sets (like user profiles, statistics, market research, analytics data) regarding your interactions and those of other users with advertising or (non-advertising) content to identify common characteristics (for instance, to determine which target audiences are more receptive to an ad campaign or to certain contents).
+[View details](https://tradingeconomics.com/italy/gdp)
+Consent (60 vendors)Legitimate interest (31 vendors)
+## Develop and improve services
+Information about your activity on this service, such as your interaction with ads or content, can be very helpful to improve products and services and to build new products and services based on user interactions, the type of audience, etc. This specific purpose does not include the development or improvement of user profiles and identifiers.
+[View details](https://tradingeconomics.com/italy/gdp)
+Consent (68 vendors)Legitimate interest (51 vendors)
+## Use limited data to select content
+Content presented to you on this service can be based on limited data, such as the website or app you are using, your non-precise location, your device type, or which content you are (or have been) interacting with (for example, to limit the number of times a video or an article is presented to you).
+[View details](https://tradingeconomics.com/italy/gdp)
+Consent (16 vendors)Legitimate interest (5 vendors)
+## Ensure security, prevent and detect fraud, and fix errors
+Your data can be used to monitor for and prevent unusual and possibly fraudulent activity (for example, regarding advertising, ad clicks by bots), and ensure systems and processes work properly and securely. It can also be used to correct any problems you, the publisher or the advertiser may encounter in the delivery of content and ads and in your interaction with them.
+[View details](https://tradingeconomics.com/italy/gdp)
+## Deliver and present advertising and content
+Certain information (like an IP address or device capabilities) is used to ensure the technical compatibility of the content or advertising, and to facilitate the transmission of the content or ad to your device.
+[View details](https://tradingeconomics.com/italy/gdp)
+## Save and communicate privacy choices
+The choices you make regarding the purposes and entities listed in this notice are saved and made available to those entities in the form of digital signals (such as a string of characters). This is necessary in order to enable both this service and those entities to respect such choices.
+[View details](https://tradingeconomics.com/italy/gdp)
+## Match and combine data from other data sources
+Information about your activity on this service may be matched and combined with other information relating to you and originating from various sources (for instance your activity on a separate online service, your use of a loyalty card in-store, or your answers to a survey), in support of the purposes explained in this notice.
+[View details](https://tradingeconomics.com/italy/gdp)
+## Link different devices
+In support of the purposes explained in this notice, your device might be considered as likely linked to other devices that belong to you or your household (for instance because you are logged in to the same service on both your phone and your computer, or because you may use the same Internet connection on both devices).
+[View details](https://tradingeconomics.com/italy/gdp)
+## Identify devices based on information transmitted automatically
+Your device might be distinguished from other devices based on information it automatically sends when accessing the Internet (for instance, the IP address of your Internet connection or the type of browser you are using) in support of the purposes exposed in this notice.
+[View details](https://tradingeconomics.com/italy/gdp)
+## Use precise geolocation data
+With your acceptance, your precise location (within a radius of less than 500 metres) may be used in support of the purposes explained in this notice.
+[View details](https://tradingeconomics.com/italy/gdp)
+Consent
+How this consent management platform (CMP) works:
+CMP privacy choices
+## Storage, duration, and usage details
+The choices you make with this CMP regarding the purposes and entities will affect how personalized advertising is presented to you. We need to store these choices to respect them on future visits, and they are stored differently based on the type of site or app you're using:
+  * For **sites** , your choices are saved in a cookie named “FCCDCF” for a maximum duration of 390 days.
+  * For **apps** , your choices are saved in device storage prefixed by “IABTCF_”. Your choices will be invalidated after 390 days and overwritten once you make new privacy choices on this app.
+  * For **accelerated mobile page (AMP) sites** , your choices are saved in local storage prefixed by “amp-store”. Your choices will be invalidated after 390 days and overwritten once you make new privacy choices on this site.
+
+
+Vendor preferences
+Accept all
+Confirm choices
+Vendor preferences
+# Confirm our vendors
+Vendors can use your data to provide services. Declining a vendor can stop them from using the data you shared.
+TCF vendors
+## Exponential Interactive, Inc d/b/a VDX.tv
+Cookie duration: 90 (days).
+Data collected and processed: IP addresses, Device identifiers, Probabilistic identifiers, Browsing and interaction data, Non-precise location data, Users’ profiles, Privacy choices
+[more](https://tradingeconomics.com/italy/gdp)
+Cookie duration resets each session. 
+[View details](https://tradingeconomics.com/italy/gdp) | [Storage details](https://tradingeconomics.com/italy/gdp) | [Privacy policy](https://tradingeconomics.com/italy/gdp)
+Consent
+## Index Exchange Inc. 
+Cookie duration: 365 (days).
+Data collected and processed: IP addresses, Device characteristics, Device identifiers, Probabilistic identifiers, Non-precise location data, Precise location data, Privacy choices
+[more](https://tradingeconomics.com/italy/gdp)
+Cookie duration resets each session. Uses other forms of storage.
+[View details](https://tradingeconomics.com/italy/gdp) | [Storage details](https://tradingeconomics.com/italy/gdp) | [Privacy policy](https://tradingeconomics.com/italy/gdp)
+Consent
+## Quantcast
+Cookie duration: 1825 (days).
+Data collected and processed: IP addresses, Device characteristics, Device identifiers, Probabilistic identifiers, Authentication-derived identifiers, Browsing and interaction data, User-provided data, Non-precise location data, Users’ profiles, Privacy choices
+[more](https://tradingeconomics.com/italy/gdp)
+Cookie duration resets each session. Uses other forms of storage.
+[View details](https://tradingeconomics.com/italy/gdp) | [Storage details](https://tradingeconomics.com/italy/gdp) | [Privacy policy](https://tradingeconomics.com/italy/gdp)
+ConsentLegitimate interest
+## BeeswaxIO Corporation
+Cookie duration: 395 (days).
+Data collected and processed: IP addresses, Device characteristics, Device identifiers, Probabilistic identifiers, Browsing and interaction data, Non-precise location data, Precise location data, Privacy choices
+[more](https://tradingeconomics.com/italy/gdp)
+Cookie duration resets each session. Uses other forms of storage.
+[View details](https://tradingeconomics.com/italy/gdp) | [Privacy policy](https://tradingeconomics.com/italy/gdp)
+Consent
+## Sovrn, Inc.
+Cookie duration: 365 (days).
+Data collected and processed: IP addresses, Device characteristics, Device identifiers, Browsing and interaction data, Non-precise location data, Users’ profiles, Privacy choices
+[more](https://tradingeconomics.com/italy/gdp)
+Cookie duration resets each session. Uses other forms of storage.
+[View details](https://tradingeconomics.com/italy/gdp) | [Storage details](https://tradingeconomics.com/italy/gdp) | [Privacy policy](https://tradingeconomics.com/italy/gdp)
+Consent
+## Adkernel LLC
+Cookie duration: 180 (days).
+Data collected and processed: IP addresses, Device identifiers, Non-precise location data, Precise location data, Users’ profiles
+[more](https://tradingeconomics.com/italy/gdp)
+Cookie duration resets each session. 
+[View details](https://tradingeconomics.com/italy/gdp) | [Storage details](https://tradingeconomics.com/italy/gdp) | [Privacy policy](https://tradingeconomics.com/italy/gdp)
+ConsentLegitimate interest
+## Adikteev
+Doesn't use cookies.
+Data collected and processed: IP addresses, Device characteristics, Device identifiers, Probabilistic identifiers, Authentication-derived identifiers, Non-precise location data, Users’ profiles
+[more](https://tradingeconomics.com/italy/gdp)
+Uses other forms of storage.
+[View details](https://tradingeconomics.com/italy/gdp) | [Privacy policy](https://tradingeconomics.com/italy/gdp)
+ConsentLegitimate interest
+## RTB House S.A.
+Cookie duration: 365 (days).
+Data collected and processed: IP addresses, Device characteristics, Device identifiers, Browsing and interaction data, Non-precise location data, Users’ profiles, Privacy choices
+[more](https://tradingeconomics.com/italy/gdp)
+Cookie duration resets each session. Uses other forms of storage.
+[View details](https://tradingeconomics.com/italy/gdp) | [Storage details](https://tradingeconomics.com/italy/gdp) | [Privacy policy](https://tradingeconomics.com/italy/gdp)
+Consent
+## The UK Trade Desk Ltd
+Cookie duration: 365 (days).
+Data collected and processed: IP addresses, Device characteristics, Device identifiers, Probabilistic identifiers, Authentication-derived identifiers, Browsing and interaction data, Non-precise location data, Precise location data, Users’ profiles, Privacy choices
+[more](https://tradingeconomics.com/italy/gdp)
+Cookie duration resets each session. Uses other forms of storage.
+[View details](https://tradingeconomics.com/italy/gdp) | [Storage details](https://tradingeconomics.com/italy/gdp) | [Privacy policy](https://tradingeconomics.com/italy/gdp)
+ConsentLegitimate interest
+## Nexxen Inc.
+Cookie duration: 180 (days).
+Data collected and processed: IP addresses, Device characteristics, Device identifiers, Probabilistic identifiers, Browsing and interaction data, Non-precise location data, Users’ profiles, Privacy choices
+[more](https://tradingeconomics.com/italy/gdp)
+Cookie duration resets each session. Uses other forms of storage.
+[View details](https://tradingeconomics.com/italy/gdp) | [Storage details](https://tradingeconomics.com/italy/gdp) | [Privacy policy](https://tradingeconomics.com/italy/gdp)
+ConsentLegitimate interest
+## Epsilon
+Cookie duration: 400 (days).
+Data collected and processed: IP addresses, Device characteristics, Device identifiers, Probabilistic identifiers, Authentication-derived identifiers, Browsing and interaction data, User-provided data, Non-precise location data, Users’ profiles, Privacy choices
+[more](https://tradingeconomics.com/italy/gdp)
+Cookie duration resets each session. Uses other forms of storage.
+[View details](https://tradingeconomics.com/italy/gdp) | [Privacy policy](https://tradingeconomics.com/italy/gdp)
+Consent
+## Yahoo EMEA Limited
+Cookie duration: 750 (days).
+Data collected and processed: IP addresses, Device characteristics, Device identifiers, Probabilistic identifiers, Authentication-derived identifiers, Browsing and interaction data, Non-precise location data, Precise location data, Users’ profiles, Privacy choices
+[more](https://tradingeconomics.com/italy/gdp)
+Cookie duration resets each session. 
+[View details](https://tradingeconomics.com/italy/gdp) | [Storage details](https://tradingeconomics.com/italy/gdp) | [Privacy policy](https://tradingeconomics.com/italy/gdp)
+Consent
+## ADventori SAS
+Cookie duration: 90 (days).
+Data collected and processed: IP addresses, Device identifiers, Probabilistic identifiers, Browsing and interaction data, User-provided data, Non-precise location data, Privacy choices
+[more](https://tradingeconomics.com/italy/gdp)
+Cookie duration resets each session. Uses other forms of storage.
+[View details](https://tradingeconomics.com/italy/gdp) | [Storage details](https://tradingeconomics.com/italy/gdp) | [Privacy policy](https://tradingeconomics.com/italy/gdp)
+Consent
+## Triple Lift, Inc.
+Cookie duration: 90 (days).
+Data collected and processed: IP addresses, Device characteristics, Device identifiers, Authentication-derived identifiers, Browsing and interaction data, Non-precise location data, Precise location data, Users’ profiles, Privacy choices
+[more](https://tradingeconomics.com/italy/gdp)
+Cookie duration resets each session. Uses other forms of storage.
+[View details](https://tradingeconomics.com/italy/gdp) | [Privacy policy](https://tradingeconomics.com/italy/gdp)
+ConsentLegitimate interest
+## Xandr, Inc.
+Cookie duration: 90 (days).
+Data collected and processed: IP addresses, Device characteristics, Device identifiers, Authentication-derived identifiers, Browsing and interaction data, Non-precise location data, Precise location data, Users’ profiles, Privacy choices
+[more](https://tradingeconomics.com/italy/gdp)
+Cookie duration resets each session. Uses other forms of storage.
+[View details](https://tradingeconomics.com/italy/gdp) | [Storage details](https://tradingeconomics.com/italy/gdp) | [Privacy policy](https://tradingeconomics.com/italy/gdp)
+ConsentLegitimate interest
+## Nexxen Group LLC
+Cookie duration: 365 (days).
+Data collected and processed: IP addresses, Device characteristics, Device identifiers, Probabilistic identifiers, Browsing and interaction data, Non-precise location data, Users’ profiles, Privacy choices
+[more](https://tradingeconomics.com/italy/gdp)
+Cookie duration resets each session. 
+[View details](https://tradingeconomics.com/italy/gdp) | [Storage details](https://tradingeconomics.com/italy/gdp) | [Privacy policy](https://tradingeconomics.com/italy/gdp)
+ConsentLegitimate interest
+## NEURAL.ONE
+Cookie duration: 365 (days).
+Data collected and processed: IP addresses, Device characteristics, Probabilistic identifiers, Browsing and interaction data, Non-precise location data, Privacy choices
+[more](https://tradingeconomics.com/italy/gdp)
+Cookie duration resets each session. Uses other forms of storage.
+[View details](https://tradingeconomics.com/italy/gdp) | [Storage details](https://tradingeconomics.com/italy/gdp) | [Privacy policy](https://tradingeconomics.com/italy/gdp)
+Consent
+## ADITION (Virtual Minds GmbH)
+Cookie duration: 90 (days).
+Data collected and processed: IP addresses, Device characteristics, Device identifiers, Probabilistic identifiers, Browsing and interaction data, User-provided data, Non-precise location data, Precise location data, Users’ profiles, Privacy choices
+[more](https://tradingeconomics.com/italy/gdp)
+Cookie duration resets each session. Uses other forms of storage.
+[View details](https://tradingeconomics.com/italy/gdp) | [Storage details](https://tradingeconomics.com/italy/gdp) | [Privacy policy](https://tradingeconomics.com/italy/gdp)
+Consent
+## Active Agent (Virtual Minds GmbH)
+Cookie duration: 90 (days).
+Data collected and processed: IP addresses, Device characteristics, Device identifiers, Probabilistic identifiers, Browsing and interaction data, User-provided data, Non-precise location data, Precise location data, Users’ profiles, Privacy choices
+[more](https://tradingeconomics.com/italy/gdp)
+Cookie duration resets each session. Uses other forms of storage.
+[View details](https://tradingeconomics.com/italy/gdp) | [Storage details](https://tradingeconomics.com/italy/gdp) | [Privacy policy](https://tradingeconomics.com/italy/gdp)
+Consent
+## Equativ
+Cookie duration: 366 (days).
+Data collected and processed: IP addresses, Device characteristics, Device identifiers, Probabilistic identifiers, Authentication-derived identifiers, Browsing and interaction data, Non-precise location data, Precise location data, Users’ profiles, Privacy choices
+[more](https://tradingeconomics.com/italy/gdp)
+Cookie duration resets each session. Uses other forms of storage.
+[View details](https://tradingeconomics.com/italy/gdp) | [Storage details](https://tradingeconomics.com/italy/gdp) | [Privacy policy](https://tradingeconomics.com/italy/gdp)
+Consent
+## Adform A/S
+Cookie duration: 3650 (days).
+Data collected and processed: IP addresses, Device characteristics, Device identifiers, Probabilistic identifiers, Authentication-derived identifiers, Browsing and interaction data, User-provided data, Non-precise location data, Users’ profiles, Privacy choices
+[more](https://tradingeconomics.com/italy/gdp)
+Cookie duration resets each session. Uses other forms of storage.
+[View details](https://tradingeconomics.com/italy/gdp) | [Storage details](https://tradingeconomics.com/italy/gdp) | [Privacy policy](https://tradingeconomics.com/italy/gdp)
+ConsentLegitimate interest
+## Magnite, Inc. 
+Cookie duration: 365 (days).
+Data collected and processed: IP addresses, Device characteristics, Device identifiers, Probabilistic identifiers, Browsing and interaction data, Non-precise location data, Precise location data, Privacy choices
+[more](https://tradingeconomics.com/italy/gdp)
+Cookie duration resets each session. Uses other forms of storage.
+[View details](https://tradingeconomics.com/italy/gdp) | [Storage details](https://tradingeconomics.com/italy/gdp) | [Privacy policy](https://tradingeconomics.com/italy/gdp)
+ConsentLegitimate interest
+## RATEGAIN ADARA INC
+Cookie duration: 365 (days).
+Data collected and processed: IP addresses, Device characteristics, Device identifiers, Authentication-derived identifiers, Browsing and interaction data, User-provided data, Non-precise location data, Users’ profiles, Privacy choices
+[more](https://tradingeconomics.com/italy/gdp)
+Cookie duration resets each session. 
+[View details](https://tradingeconomics.com/italy/gdp) | [Storage details](https://tradingeconomics.com/italy/gdp) | [Privacy policy](https://tradingeconomics.com/italy/gdp)
+Consent
+## Sift Media, Inc
+Doesn't use cookies.
+Data collected and processed: IP addresses, Device characteristics, Device identifiers, Non-precise location data, Precise location data
+[more](https://tradingeconomics.com/italy/gdp)
+[View details](https://tradingeconomics.com/italy/gdp) | [Privacy policy](https://tradingeconomics.com/italy/gdp)
+Consent
+## Lumen Research Limited
+Doesn't use cookies.
+Data collected and processed: IP addresses, Device characteristics, Browsing and interaction data, Non-precise location data, Privacy choices
+[more](https://tradingeconomics.com/italy/gdp)
+Uses other forms of storage.
+[View details](https://tradingeconomics.com/italy/gdp) | [Privacy policy](https://tradingeconomics.com/italy/gdp)
+Consent
+## OpenX
+Cookie duration: 365 (days).
+Data collected and processed: IP addresses, Device characteristics, Device identifiers, Browsing and interaction data, Non-precise location data, Privacy choices
+[more](https://tradingeconomics.com/italy/gdp)
+Cookie duration resets each session. Uses other forms of storage.
+[View details](https://tradingeconomics.com/italy/gdp) | [Storage details](https://tradingeconomics.com/italy/gdp) | [Privacy policy](https://tradingeconomics.com/italy/gdp)
+ConsentLegitimate interest
+## Yieldlab (Virtual Minds GmbH)
+Cookie duration: 90 (days).
+Data collected and processed: IP addresses, Device characteristics, Device identifiers, Probabilistic identifiers, Browsing and interaction data, User-provided data, Non-precise location data, Precise location data, Users’ profiles, Privacy choices
+[more](https://tradingeconomics.com/italy/gdp)
+Cookie duration resets each session. Uses other forms of storage.
+[View details](https://tradingeconomics.com/italy/gdp) | [Storage details](https://tradingeconomics.com/italy/gdp) | [Privacy policy](https://tradingeconomics.com/italy/gdp)
+Consent
+## Simplifi Holdings LLC
+Cookie duration: 366 (days).
+Data collected and processed: IP addresses, Device identifiers, Precise location data
+[more](https://tradingeconomics.com/italy/gdp)
+Uses other forms of storage.
+[View details](https://tradingeconomics.com/italy/gdp) | [Privacy policy](https://tradingeconomics.com/italy/gdp)
+Consent
+## PubMatic, Inc
+Cookie duration: 1827 (days).
+Data collected and processed: IP addresses, Device characteristics, Device identifiers, Probabilistic identifiers, Authentication-derived identifiers, Browsing and interaction data, User-provided data, Non-precise location data, Precise location data, Users’ profiles, Privacy choices
+[more](https://tradingeconomics.com/italy/gdp)
+Cookie duration resets each session. Uses other forms of storage.
+[View details](https://tradingeconomics.com/italy/gdp) | [Storage details](https://tradingeconomics.com/italy/gdp) | [Privacy policy](https://tradingeconomics.com/italy/gdp)
+ConsentLegitimate interest
+## Comscore B.V.
+Cookie duration: 720 (days).
+Data collected and processed: IP addresses, Device characteristics, Device identifiers, Probabilistic identifiers, Authentication-derived identifiers, Browsing and interaction data, User-provided data, Privacy choices
+[more](https://tradingeconomics.com/italy/gdp)
+Cookie duration resets each session. Uses other forms of storage.
+[View details](https://tradingeconomics.com/italy/gdp) | [Privacy policy](https://tradingeconomics.com/italy/gdp)
+Consent
+## Flashtalking
+Cookie duration: 730 (days).
+Data collected and processed: IP addresses, Device characteristics, Device identifiers, Probabilistic identifiers, Authentication-derived identifiers, Browsing and interaction data, Non-precise location data, Users’ profiles, Privacy choices
+[more](https://tradingeconomics.com/italy/gdp)
+Cookie duration resets each session. 
+[View details](https://tradingeconomics.com/italy/gdp) | [Privacy policy](https://tradingeconomics.com/italy/gdp)
+Consent
+## Sharethrough, Inc
+Cookie duration: 30 (days).
+Data collected and processed: IP addresses, Device characteristics, Device identifiers, Browsing and interaction data, Non-precise location data, Users’ profiles, Privacy choices
+[more](https://tradingeconomics.com/italy/gdp)
+Cookie duration resets each session. Uses other forms of storage.
+[View details](https://tradingeconomics.com/italy/gdp) | [Storage details](https://tradingeconomics.com/italy/gdp) | [Privacy policy](https://tradingeconomics.com/italy/gdp)
+Consent
+## PulsePoint, Inc.
+Cookie duration: 1830 (days).
+Data collected and processed: IP addresses, Device characteristics, Device identifiers
+[more](https://tradingeconomics.com/italy/gdp)
+Cookie duration resets each session. Uses other forms of storage.
+[View details](https://tradingeconomics.com/italy/gdp) | [Privacy policy](https://tradingeconomics.com/italy/gdp)
+Consent
+## Smaato, Inc.
+Cookie duration: 21 (days).
+Data collected and processed: IP addresses, Device characteristics, Device identifiers, Authentication-derived identifiers, Browsing and interaction data, User-provided data, Non-precise location data, Users’ profiles, Privacy choices
+[more](https://tradingeconomics.com/italy/gdp)
+Cookie duration resets each session. Uses other forms of storage.
+[View details](https://tradingeconomics.com/italy/gdp) | [Storage details](https://tradingeconomics.com/italy/gdp) | [Privacy policy](https://tradingeconomics.com/italy/gdp)
+Consent
+## Crimtan Holdings Limited
+Cookie duration: 365 (days).
+Data collected and processed: IP addresses, Device characteristics, Device identifiers, Probabilistic identifiers, Authentication-derived identifiers, Browsing and interaction data, User-provided data, Non-precise location data, Precise location data, Users’ profiles, Privacy choices
+[more](https://tradingeconomics.com/italy/gdp)
+Cookie duration resets each session. 
+[View details](https://tradingeconomics.com/italy/gdp) | [Privacy policy](https://tradingeconomics.com/italy/gdp)
+ConsentLegitimate interest
+## Criteo SA
+Cookie duration: 390 (days).
+Data collected and processed: IP addresses, Device characteristics, Device identifiers, Probabilistic identifiers, Authentication-derived identifiers, Browsing and interaction data, Non-precise location data, Users’ profiles, Privacy choices
+[more](https://tradingeconomics.com/italy/gdp)
+Uses other forms of storage.
+[View details](https://tradingeconomics.com/italy/gdp) | [Storage details](https://tradingeconomics.com/italy/gdp) | [Privacy policy](https://tradingeconomics.com/italy/gdp)
+Consent
+## SCOPE3 SAS
+Doesn't use cookies.
+Data collected and processed: IP addresses, Device characteristics, Device identifiers, Probabilistic identifiers, Browsing and interaction data, Non-precise location data
+[more](https://tradingeconomics.com/italy/gdp)
+Uses other forms of storage.
+[View details](https://tradingeconomics.com/italy/gdp) | [Privacy policy](https://tradingeconomics.com/italy/gdp)
+ConsentLegitimate interest
+## LiveRamp
+Cookie duration: 3653 (days).
+Data collected and processed: IP addresses, Device characteristics, Device identifiers, Authentication-derived identifiers, Browsing and interaction data, Non-precise location data, Privacy choices
+[more](https://tradingeconomics.com/italy/gdp)
+Cookie duration resets each session. Uses other forms of storage.
+[View details](https://tradingeconomics.com/italy/gdp) | [Storage details](https://tradingeconomics.com/italy/gdp) | [Privacy policy](https://tradingeconomics.com/italy/gdp)
+Consent
+## WPP Media
+Cookie duration: 395 (days).
+Data collected and processed: IP addresses, Device characteristics, Device identifiers, Probabilistic identifiers, Authentication-derived identifiers, Browsing and interaction data, Non-precise location data, Precise location data, Privacy choices
+[more](https://tradingeconomics.com/italy/gdp)
+Cookie duration resets each session. 
+[View details](https://tradingeconomics.com/italy/gdp) | [Storage details](https://tradingeconomics.com/italy/gdp) | [Privacy policy](https://tradingeconomics.com/italy/gdp)
+ConsentLegitimate interest
+## Sonobi, Inc
+Cookie duration: 365 (days).
+Data collected and processed: IP addresses, Device identifiers, Non-precise location data
+[more](https://tradingeconomics.com/italy/gdp)
+Cookie duration resets each session. 
+[View details](https://tradingeconomics.com/italy/gdp) | [Storage details](https://tradingeconomics.com/italy/gdp) | [Privacy policy](https://tradingeconomics.com/italy/gdp)
+ConsentLegitimate interest
+## LoopMe Limited
+Cookie duration: 90 (days).
+Data collected and processed: IP addresses, Device characteristics, Device identifiers, Probabilistic identifiers, Browsing and interaction data, User-provided data, Non-precise location data, Precise location data, Users’ profiles, Privacy choices
+[more](https://tradingeconomics.com/italy/gdp)
+Cookie duration resets each session. Uses other forms of storage.
+[View details](https://tradingeconomics.com/italy/gdp) | [Storage details](https://tradingeconomics.com/italy/gdp) | [Privacy policy](https://tradingeconomics.com/italy/gdp)
+Consent
+## Dynata LLC
+Cookie duration: 365 (days).
+Data collected and processed: IP addresses, Device characteristics, Device identifiers, Authentication-derived identifiers, Browsing and interaction data, User-provided data, Non-precise location data, Users’ profiles, Privacy choices
+[more](https://tradingeconomics.com/italy/gdp)
+Cookie duration resets each session. 
+[View details](https://tradingeconomics.com/italy/gdp) | [Storage details](https://tradingeconomics.com/italy/gdp) | [Privacy policy](https://tradingeconomics.com/italy/gdp)
+Consent
+## Ask Locala
+Doesn't use cookies.
+Data collected and processed: IP addresses, Device characteristics, Device identifiers, Non-precise location data, Precise location data, Privacy choices
+[more](https://tradingeconomics.com/italy/gdp)
+Uses other forms of storage.
+[View details](https://tradingeconomics.com/italy/gdp) | [Privacy policy](https://tradingeconomics.com/italy/gdp)
+Consent
+## Azira
+Doesn't use cookies.
+Data collected and processed: IP addresses, Device characteristics, Device identifiers, Browsing and interaction data, Non-precise location data, Precise location data, Users’ profiles, Privacy choices
+[more](https://tradingeconomics.com/italy/gdp)
+Uses other forms of storage.
+[View details](https://tradingeconomics.com/italy/gdp) | [Privacy policy](https://tradingeconomics.com/italy/gdp)
+ConsentLegitimate interest
+## DoubleVerify Inc.
+Doesn't use cookies.
+Data collected and processed: IP addresses, Device characteristics, Probabilistic identifiers, Browsing and interaction data, Non-precise location data, Privacy choices
+[more](https://tradingeconomics.com/italy/gdp)
+[View details](https://tradingeconomics.com/italy/gdp) | [Privacy policy](https://tradingeconomics.com/italy/gdp)
+Legitimate interest
+## BIDSWITCH GmbH
+Cookie duration: 365 (days).
+Data collected and processed: IP addresses, Device characteristics, Device identifiers, Probabilistic identifiers, Authentication-derived identifiers, Browsing and interaction data, Non-precise location data, Precise location data, Privacy choices
+[more](https://tradingeconomics.com/italy/gdp)
+Cookie duration resets each session. Uses other forms of storage.
+[View details](https://tradingeconomics.com/italy/gdp) | [Storage details](https://tradingeconomics.com/italy/gdp) | [Privacy policy](https://tradingeconomics.com/italy/gdp)
+Consent
+## IPONWEB GmbH
+Cookie duration: 365 (days).
+Data collected and processed: IP addresses, Device characteristics, Device identifiers, Authentication-derived identifiers, Browsing and interaction data, User-provided data, Non-precise location data, Privacy choices
+[more](https://tradingeconomics.com/italy/gdp)
+Cookie duration resets each session. Uses other forms of storage.
+[View details](https://tradingeconomics.com/italy/gdp) | [Storage details](https://tradingeconomics.com/italy/gdp) | [Privacy policy](https://tradingeconomics.com/italy/gdp)
+Consent
+## NextRoll, Inc.
+Cookie duration: 395 (days).
+Data collected and processed: IP addresses, Device characteristics, Device identifiers, Browsing and interaction data, User-provided data, Non-precise location data, Users’ profiles, Privacy choices
+[more](https://tradingeconomics.com/italy/gdp)
+Cookie duration resets each session. 
+[View details](https://tradingeconomics.com/italy/gdp) | [Storage details](https://tradingeconomics.com/italy/gdp) | [Privacy policy](https://tradingeconomics.com/italy/gdp)
+Consent
+## ID5 Technology SAS
+Cookie duration: 90 (days).
+Data collected and processed: IP addresses, Device characteristics, Device identifiers, Probabilistic identifiers, Authentication-derived identifiers, Browsing and interaction data, Privacy choices
+[more](https://tradingeconomics.com/italy/gdp)
+Cookie duration resets each session. Uses other forms of storage.
+[View details](https://tradingeconomics.com/italy/gdp) | [Storage details](https://tradingeconomics.com/italy/gdp) | [Privacy policy](https://tradingeconomics.com/italy/gdp)
+Consent
+## Media.net Advertising FZ-LLC
+Cookie duration: 396 (days).
+Data collected and processed: IP addresses, Device characteristics, Device identifiers, Probabilistic identifiers, Authentication-derived identifiers, Browsing and interaction data, User-provided data, Non-precise location data, Users’ profiles, Privacy choices
+[more](https://tradingeconomics.com/italy/gdp)
+Cookie duration resets each session. Uses other forms of storage.
+[View details](https://tradingeconomics.com/italy/gdp) | [Privacy policy](https://tradingeconomics.com/italy/gdp)
+ConsentLegitimate interest
+## LiveIntent Inc.
+Cookie duration: 731 (days).
+Data collected and processed: IP addresses, Device characteristics, Device identifiers, Authentication-derived identifiers, Browsing and interaction data, Privacy choices
+[more](https://tradingeconomics.com/italy/gdp)
+Cookie duration resets each session. Uses other forms of storage.
+[View details](https://tradingeconomics.com/italy/gdp) | [Storage details](https://tradingeconomics.com/italy/gdp) | [Privacy policy](https://tradingeconomics.com/italy/gdp)
+Consent
+## Basis Global Technologies, Inc.
+Cookie duration: 365 (days).
+Data collected and processed: IP addresses, Device characteristics, Device identifiers, Authentication-derived identifiers, Browsing and interaction data, Non-precise location data, Precise location data, Users’ profiles, Privacy choices
+[more](https://tradingeconomics.com/italy/gdp)
+Cookie duration resets each session. 
+[View details](https://tradingeconomics.com/italy/gdp) | [Privacy policy](https://tradingeconomics.com/italy/gdp)
+ConsentLegitimate interest
+## Seedtag Advertising S.L
+Cookie duration: 365 (days).
+Data collected and processed: IP addresses, Device characteristics, Device identifiers, Browsing and interaction data, Non-precise location data, Privacy choices
+[more](https://tradingeconomics.com/italy/gdp)
+Cookie duration resets each session. Uses other forms of storage.
+[View details](https://tradingeconomics.com/italy/gdp) | [Storage details](https://tradingeconomics.com/italy/gdp) | [Privacy policy](https://tradingeconomics.com/italy/gdp)
+Consent
+## SMADEX, S.L.U.
+Cookie duration: 365 (days).
+Data collected and processed: IP addresses, Device characteristics, Device identifiers, Probabilistic identifiers, User-provided data, Non-precise location data, Users’ profiles, Privacy choices
+[more](https://tradingeconomics.com/italy/gdp)
+Cookie duration resets each session. 
+[View details](https://tradingeconomics.com/italy/gdp) | [Storage details](https://tradingeconomics.com/italy/gdp) | [Privacy policy](https://tradingeconomics.com/italy/gdp)
+Consent
+## Bombora Inc.
+Cookie duration: 365 (days).
+Data collected and processed: IP addresses, Device characteristics, Device identifiers, Authentication-derived identifiers, Browsing and interaction data, Non-precise location data, Users’ profiles
+[more](https://tradingeconomics.com/italy/gdp)
+Cookie duration resets each session. Uses other forms of storage.
+[View details](https://tradingeconomics.com/italy/gdp) | [Storage details](https://tradingeconomics.com/italy/gdp) | [Privacy policy](https://tradingeconomics.com/italy/gdp)
+ConsentLegitimate interest
+## Outbrain UK.
+Cookie duration: 396 (days).
+Data collected and processed: IP addresses, Device characteristics, Device identifiers, Probabilistic identifiers, Browsing and interaction data, Non-precise location data, Users’ profiles, Privacy choices
+[more](https://tradingeconomics.com/italy/gdp)
+Cookie duration resets each session. Uses other forms of storage.
+[View details](https://tradingeconomics.com/italy/gdp) | [Storage details](https://tradingeconomics.com/italy/gdp) | [Privacy policy](https://tradingeconomics.com/italy/gdp)
+Consent
+## Yieldmo, Inc.
+Cookie duration: 365 (days).
+Data collected and processed: IP addresses, Device characteristics, Device identifiers, Probabilistic identifiers, Authentication-derived identifiers, Browsing and interaction data, Non-precise location data, Users’ profiles, Privacy choices
+[more](https://tradingeconomics.com/italy/gdp)
+Cookie duration resets each session. 
+[View details](https://tradingeconomics.com/italy/gdp) | [Storage details](https://tradingeconomics.com/italy/gdp) | [Privacy policy](https://tradingeconomics.com/italy/gdp)
+ConsentLegitimate interest
+## A Million Ads
+Doesn't use cookies.
+Data collected and processed: IP addresses, Device characteristics
+[more](https://tradingeconomics.com/italy/gdp)
+[View details](https://tradingeconomics.com/italy/gdp) | [Storage details](https://tradingeconomics.com/italy/gdp) | [Privacy policy](https://tradingeconomics.com/italy/gdp)
+Consent
+## Remerge GmbH
+Doesn't use cookies.
+Data collected and processed: IP addresses, Device characteristics, Device identifiers, Browsing and interaction data, Non-precise location data
+[more](https://tradingeconomics.com/italy/gdp)
+Uses other forms of storage.
+[View details](https://tradingeconomics.com/italy/gdp) | [Privacy policy](https://tradingeconomics.com/italy/gdp)
+ConsentLegitimate interest
+## Affle Iberia SL
+Cookie duration: 730 (days).
+Data collected and processed: IP addresses, Device characteristics, Device identifiers, Probabilistic identifiers, Non-precise location data, Precise location data, Privacy choices
+[more](https://tradingeconomics.com/italy/gdp)
+Cookie duration resets each session. Uses other forms of storage.
+[View details](https://tradingeconomics.com/italy/gdp) | [Storage details](https://tradingeconomics.com/italy/gdp) | [Privacy policy](https://tradingeconomics.com/italy/gdp)
+Consent
+## Magnite CTV, Inc.
+Cookie duration: 366 (days).
+Data collected and processed: IP addresses, Device characteristics, Device identifiers, Probabilistic identifiers, Browsing and interaction data, Non-precise location data, Precise location data, Privacy choices
+[more](https://tradingeconomics.com/italy/gdp)
+Cookie duration resets each session. Uses other forms of storage.
+[View details](https://tradingeconomics.com/italy/gdp) | [Storage details](https://tradingeconomics.com/italy/gdp) | [Privacy policy](https://tradingeconomics.com/italy/gdp)
+ConsentLegitimate interest
+## Delta Projects AB
+Cookie duration: 365 (days).
+Data collected and processed: IP addresses, Device characteristics, Device identifiers, Probabilistic identifiers, Authentication-derived identifiers, Browsing and interaction data, User-provided data, Non-precise location data, Precise location data, Users’ profiles, Privacy choices
+[more](https://tradingeconomics.com/italy/gdp)
+[View details](https://tradingeconomics.com/italy/gdp) | [Storage details](https://tradingeconomics.com/italy/gdp) | [Privacy policy](https://tradingeconomics.com/italy/gdp)
+ConsentLegitimate interest
+## Zemanta Inc.
+Cookie duration: 1825 (days).
+Data collected and processed: IP addresses, Device characteristics, Device identifiers, Probabilistic identifiers, Browsing and interaction data, Non-precise location data, Users’ profiles, Privacy choices
+[more](https://tradingeconomics.com/italy/gdp)
+Cookie duration resets each session. Uses other forms of storage.
+[View details](https://tradingeconomics.com/italy/gdp) | [Storage details](https://tradingeconomics.com/italy/gdp) | [Privacy policy](https://tradingeconomics.com/italy/gdp)
+Consent
+## AcuityAds Inc.
+Cookie duration: 365 (days).
+Data collected and processed: IP addresses, Device characteristics, Device identifiers, Authentication-derived identifiers, Browsing and interaction data, Non-precise location data, Users’ profiles, Privacy choices
+[more](https://tradingeconomics.com/italy/gdp)
+Cookie duration resets each session. 
+[View details](https://tradingeconomics.com/italy/gdp) | [Storage details](https://tradingeconomics.com/italy/gdp) | [Privacy policy](https://tradingeconomics.com/italy/gdp)
+ConsentLegitimate interest
+## Rockerbox, Inc
+Cookie duration: 30 (days).
+Data collected and processed: IP addresses, Device characteristics, Device identifiers, Probabilistic identifiers, Authentication-derived identifiers, Browsing and interaction data, User-provided data, Privacy choices
+[more](https://tradingeconomics.com/italy/gdp)
+Uses other forms of storage.
+[View details](https://tradingeconomics.com/italy/gdp) | [Storage details](https://tradingeconomics.com/italy/gdp) | [Privacy policy](https://tradingeconomics.com/italy/gdp)
+ConsentLegitimate interest
+## StackAdapt Inc.
+Cookie duration: 365 (days).
+Data collected and processed: IP addresses, Device characteristics, Device identifiers, Probabilistic identifiers, Browsing and interaction data, Non-precise location data, Precise location data, Users’ profiles, Privacy choices
+[more](https://tradingeconomics.com/italy/gdp)
+Cookie duration resets each session. Uses other forms of storage.
+[View details](https://tradingeconomics.com/italy/gdp) | [Storage details](https://tradingeconomics.com/italy/gdp) | [Privacy policy](https://tradingeconomics.com/italy/gdp)
+ConsentLegitimate interest
+## OneTag Limited
+Cookie duration: 396 (days).
+Data collected and processed: IP addresses, Device characteristics, Device identifiers, Browsing and interaction data, Non-precise location data, Privacy choices
+[more](https://tradingeconomics.com/italy/gdp)
+Cookie duration resets each session. Uses other forms of storage.
+[View details](https://tradingeconomics.com/italy/gdp) | [Storage details](https://tradingeconomics.com/italy/gdp) | [Privacy policy](https://tradingeconomics.com/italy/gdp)
+Consent
+## Smartology Limited
+Doesn't use cookies.
+Data collected and processed: IP addresses
+[more](https://tradingeconomics.com/italy/gdp)
+Uses other forms of storage.
+[View details](https://tradingeconomics.com/italy/gdp) | [Privacy policy](https://tradingeconomics.com/italy/gdp)
+ConsentLegitimate interest
+## Improve Digital
+Cookie duration: 90 (days).
+Data collected and processed: IP addresses, Device characteristics, Device identifiers, Probabilistic identifiers, Authentication-derived identifiers, Browsing and interaction data, User-provided data, Non-precise location data, Precise location data, Users’ profiles, Privacy choices
+[more](https://tradingeconomics.com/italy/gdp)
+Cookie duration resets each session. 
+[View details](https://tradingeconomics.com/italy/gdp) | [Storage details](https://tradingeconomics.com/italy/gdp) | [Privacy policy](https://tradingeconomics.com/italy/gdp)
+ConsentLegitimate interest
+## DT Exchange (Digital Turbine (IL) Ltd.)
+Doesn't use cookies.
+Data collected and processed: IP addresses, Device characteristics, Device identifiers, Privacy choices
+[more](https://tradingeconomics.com/italy/gdp)
+Uses other forms of storage.
+[View details](https://tradingeconomics.com/italy/gdp) | [Privacy policy](https://tradingeconomics.com/italy/gdp)
+Consent
+## Adobe Advertising Cloud
+Cookie duration: 730 (days).
+Data collected and processed: IP addresses, Device identifiers, Authentication-derived identifiers, Privacy choices
+[more](https://tradingeconomics.com/italy/gdp)
+Cookie duration resets each session. 
+[View details](https://tradingeconomics.com/italy/gdp) | [Storage details](https://tradingeconomics.com/italy/gdp) | [Privacy policy](https://tradingeconomics.com/italy/gdp)
+ConsentLegitimate interest
+## Bannerflow AB
+Cookie duration: 30 (days).
+Data collected and processed: IP addresses, Device characteristics, Non-precise location data, Privacy choices
+[more](https://tradingeconomics.com/italy/gdp)
+Cookie duration resets each session. 
+[View details](https://tradingeconomics.com/italy/gdp) | [Privacy policy](https://tradingeconomics.com/italy/gdp)
+Consent
+## TabMo SAS
+Cookie duration: 90 (days).
+Data collected and processed: IP addresses, Device characteristics, Device identifiers, Probabilistic identifiers, Browsing and interaction data, User-provided data, Non-precise location data, Precise location data, Users’ profiles, Privacy choices
+[more](https://tradingeconomics.com/italy/gdp)
+Cookie duration resets each session. Uses other forms of storage.
+[View details](https://tradingeconomics.com/italy/gdp) | [Storage details](https://tradingeconomics.com/italy/gdp) | [Privacy policy](https://tradingeconomics.com/italy/gdp)
+Consent
+## Integral Ad Science (incorporating ADmantX)
+Doesn't use cookies.
+Data collected and processed: IP addresses, Device characteristics, Browsing and interaction data, Non-precise location data, Privacy choices
+[more](https://tradingeconomics.com/italy/gdp)
+[View details](https://tradingeconomics.com/italy/gdp) | [Privacy policy](https://tradingeconomics.com/italy/gdp)
+Legitimate interest
+## Wizaly
+Cookie duration: 365 (days).
+Data collected and processed: IP addresses, Device characteristics, Authentication-derived identifiers, Browsing and interaction data, Non-precise location data, Privacy choices
+[more](https://tradingeconomics.com/italy/gdp)
+Cookie duration resets each session. Uses other forms of storage.
+[View details](https://tradingeconomics.com/italy/gdp) | [Storage details](https://tradingeconomics.com/italy/gdp) | [Privacy policy](https://tradingeconomics.com/italy/gdp)
+Consent
+## Weborama
+Cookie duration: 393 (days).
+Data collected and processed: IP addresses, Device characteristics, Device identifiers, Probabilistic identifiers, Authentication-derived identifiers, Browsing and interaction data, User-provided data, Non-precise location data, Precise location data, Users’ profiles, Privacy choices
+[more](https://tradingeconomics.com/italy/gdp)
+Uses other forms of storage.
+[View details](https://tradingeconomics.com/italy/gdp) | [Storage details](https://tradingeconomics.com/italy/gdp) | [Privacy policy](https://tradingeconomics.com/italy/gdp)
+ConsentLegitimate interest
+## Readpeak Oy
+Cookie duration: 390 (days).
+Data collected and processed: IP addresses, Device characteristics, Device identifiers, Probabilistic identifiers, Authentication-derived identifiers, Browsing and interaction data, User-provided data, Non-precise location data, Users’ profiles, Privacy choices
+[more](https://tradingeconomics.com/italy/gdp)
+Cookie duration resets each session. Uses other forms of storage.
+[View details](https://tradingeconomics.com/italy/gdp) | [Storage details](https://tradingeconomics.com/italy/gdp) | [Privacy policy](https://tradingeconomics.com/italy/gdp)
+ConsentLegitimate interest
+## Jivox Corporation
+Cookie duration: 365 (days).
+Data collected and processed: IP addresses, Device identifiers, Browsing and interaction data, Non-precise location data, Precise location data, Users’ profiles, Privacy choices
+[more](https://tradingeconomics.com/italy/gdp)
+Cookie duration resets each session. 
+[View details](https://tradingeconomics.com/italy/gdp) | [Storage details](https://tradingeconomics.com/italy/gdp) | [Privacy policy](https://tradingeconomics.com/italy/gdp)
+ConsentLegitimate interest
+## Sojern, Inc.
+Cookie duration: 365 (days).
+Data collected and processed: IP addresses, Device characteristics, Device identifiers, Probabilistic identifiers, Browsing and interaction data, Non-precise location data, Users’ profiles, Privacy choices
+[more](https://tradingeconomics.com/italy/gdp)
+Cookie duration resets each session. Uses other forms of storage.
+[View details](https://tradingeconomics.com/italy/gdp) | [Storage details](https://tradingeconomics.com/italy/gdp) | [Privacy policy](https://tradingeconomics.com/italy/gdp)
+Consent
+## Polar Mobile Group Inc.
+Doesn't use cookies.
+Data collected and processed: IP addresses, Device characteristics, Browsing and interaction data, Privacy choices
+[more](https://tradingeconomics.com/italy/gdp)
+[View details](https://tradingeconomics.com/italy/gdp) | [Privacy policy](https://tradingeconomics.com/italy/gdp)
+Legitimate interest
+## On Device Research Limited
+Cookie duration: 30 (days).
+Data collected and processed: IP addresses, Device characteristics, Device identifiers, Browsing and interaction data, User-provided data, Non-precise location data, Precise location data
+[more](https://tradingeconomics.com/italy/gdp)
+Cookie duration resets each session. 
+[View details](https://tradingeconomics.com/italy/gdp) | [Storage details](https://tradingeconomics.com/italy/gdp) | [Privacy policy](https://tradingeconomics.com/italy/gdp)
+Consent
+## Mobfox US LLC
+Cookie duration: 14 (days).
+Data collected and processed: IP addresses, Device characteristics, Device identifiers, Probabilistic identifiers, Non-precise location data, Precise location data
+[more](https://tradingeconomics.com/italy/gdp)
+Cookie duration resets each session. 
+[View details](https://tradingeconomics.com/italy/gdp) | [Privacy policy](https://tradingeconomics.com/italy/gdp)
+Consent
+## Exactag GmbH
+Cookie duration: 180 (days).
+Data collected and processed: IP addresses, Device characteristics, Device identifiers, Authentication-derived identifiers, Browsing and interaction data, Privacy choices
+[more](https://tradingeconomics.com/italy/gdp)
+Cookie duration resets each session. 
+[View details](https://tradingeconomics.com/italy/gdp) | [Privacy policy](https://tradingeconomics.com/italy/gdp)
+Consent
+## Celtra Inc.
+Doesn't use cookies.
+Data collected and processed: IP addresses, Device characteristics, Device identifiers, Precise location data
+[more](https://tradingeconomics.com/italy/gdp)
+Uses other forms of storage.
+[View details](https://tradingeconomics.com/italy/gdp) | [Storage details](https://tradingeconomics.com/italy/gdp) | [Privacy policy](https://tradingeconomics.com/italy/gdp)
+Consent
+## ADTIMING TECHNOLOGY PTE. LTD
+Cookie duration: 30 (days).
+Data collected and processed: IP addresses, Device characteristics, Device identifiers, Browsing and interaction data
+[more](https://tradingeconomics.com/italy/gdp)
+Cookie duration resets each session. Uses other forms of storage.
+[View details](https://tradingeconomics.com/italy/gdp) | [Storage details](https://tradingeconomics.com/italy/gdp) | [Privacy policy](https://tradingeconomics.com/italy/gdp)
+Consent
+## Gemius SA
+Cookie duration: 1825 (days).
+Data collected and processed: IP addresses, Device characteristics, Device identifiers, Browsing and interaction data, Users’ profiles, Privacy choices
+[more](https://tradingeconomics.com/italy/gdp)
+Cookie duration resets each session. Uses other forms of storage.
+[View details](https://tradingeconomics.com/italy/gdp) | [Storage details](https://tradingeconomics.com/italy/gdp) | [Privacy policy](https://tradingeconomics.com/italy/gdp)
+Consent
+## InMobi Pte Ltd
+Doesn't use cookies.
+Data collected and processed: IP addresses, Device characteristics, Device identifiers, Probabilistic identifiers, Browsing and interaction data, User-provided data, Non-precise location data, Precise location data, Users’ profiles
+[more](https://tradingeconomics.com/italy/gdp)
+Uses other forms of storage.
+[View details](https://tradingeconomics.com/italy/gdp) | [Privacy policy](https://tradingeconomics.com/italy/gdp)
+Consent
+## The Kantar Group Limited
+Cookie duration: 914 (days).
+Data collected and processed: IP addresses, Device characteristics, Device identifiers, Browsing and interaction data, Non-precise location data, Privacy choices
+[more](https://tradingeconomics.com/italy/gdp)
+Cookie duration resets each session. Uses other forms of storage.
+[View details](https://tradingeconomics.com/italy/gdp) | [Privacy policy](https://tradingeconomics.com/italy/gdp)
+Consent
+## Samba TV UK Limited
+Cookie duration: 390 (days).
+Data collected and processed: IP addresses, Device identifiers, Probabilistic identifiers, Browsing and interaction data, Non-precise location data, Users’ profiles, Privacy choices
+[more](https://tradingeconomics.com/italy/gdp)
+Cookie duration resets each session. 
+[View details](https://tradingeconomics.com/italy/gdp) | [Storage details](https://tradingeconomics.com/italy/gdp) | [Privacy policy](https://tradingeconomics.com/italy/gdp)
+Consent
+## Nielsen Media Research Ltd.
+Cookie duration: 120 (days).
+Data collected and processed: IP addresses, Device characteristics, Device identifiers, Browsing and interaction data, User-provided data, Privacy choices
+[more](https://tradingeconomics.com/italy/gdp)
+Cookie duration resets each session. Uses other forms of storage.
+[View details](https://tradingeconomics.com/italy/gdp) | [Storage details](https://tradingeconomics.com/italy/gdp) | [Privacy policy](https://tradingeconomics.com/italy/gdp)
+Consent
+## RevX
+Doesn't use cookies.
+Data collected and processed: IP addresses, Device characteristics, Device identifiers, Browsing and interaction data, Users’ profiles, Privacy choices
+[more](https://tradingeconomics.com/italy/gdp)
+[View details](https://tradingeconomics.com/italy/gdp) | [Privacy policy](https://tradingeconomics.com/italy/gdp)
+Consent
+## Pixalate, Inc.
+Cookie duration: 728 (days).
+Data collected and processed: IP addresses, Device characteristics, Device identifiers, Browsing and interaction data, Non-precise location data
+[more](https://tradingeconomics.com/italy/gdp)
+[View details](https://tradingeconomics.com/italy/gdp) | [Storage details](https://tradingeconomics.com/italy/gdp) | [Privacy policy](https://tradingeconomics.com/italy/gdp)
+Consent
+## Triapodi Ltd. d/b/a Digital Turbine
+Doesn't use cookies.
+Data collected and processed: IP addresses, Device characteristics, Device identifiers, Privacy choices
+[more](https://tradingeconomics.com/italy/gdp)
+[View details](https://tradingeconomics.com/italy/gdp) | [Privacy policy](https://tradingeconomics.com/italy/gdp)
+Consent
+## AudienceProject A/S
+Cookie duration: 365 (days).
+Data collected and processed: IP addresses, Device characteristics, Device identifiers, Probabilistic identifiers, Authentication-derived identifiers, Browsing and interaction data, User-provided data, Non-precise location data, Users’ profiles, Privacy choices
+[more](https://tradingeconomics.com/italy/gdp)
+Cookie duration resets each session. Uses other forms of storage.
+[View details](https://tradingeconomics.com/italy/gdp) | [Storage details](https://tradingeconomics.com/italy/gdp) | [Privacy policy](https://tradingeconomics.com/italy/gdp)
+ConsentLegitimate interest
+## Eulerian Technologies
+Cookie duration: 390 (days).
+Data collected and processed: IP addresses, Device characteristics, Device identifiers, Authentication-derived identifiers, Browsing and interaction data, User-provided data, Users’ profiles, Privacy choices
+[more](https://tradingeconomics.com/italy/gdp)
+Cookie duration resets each session. Uses other forms of storage.
+[View details](https://tradingeconomics.com/italy/gdp) | [Privacy policy](https://tradingeconomics.com/italy/gdp)
+Consent
+## Seenthis AB
+Doesn't use cookies.
+Data collected and processed: IP addresses, Device characteristics
+[more](https://tradingeconomics.com/italy/gdp)
+[View details](https://tradingeconomics.com/italy/gdp) | [Privacy policy](https://tradingeconomics.com/italy/gdp)
+## travel audience GmbH
+Cookie duration: 397 (days).
+Data collected and processed: IP addresses, Device characteristics, Device identifiers, Probabilistic identifiers, Authentication-derived identifiers, Browsing and interaction data, Non-precise location data, Precise location data, Users’ profiles, Privacy choices
+[more](https://tradingeconomics.com/italy/gdp)
+Cookie duration resets each session. Uses other forms of storage.
+[View details](https://tradingeconomics.com/italy/gdp) | [Storage details](https://tradingeconomics.com/italy/gdp) | [Privacy policy](https://tradingeconomics.com/italy/gdp)
+Consent
+## HUMAN
+Doesn't use cookies.
+Data collected and processed: IP addresses, Device characteristics, Device identifiers, Probabilistic identifiers, Non-precise location data
+[more](https://tradingeconomics.com/italy/gdp)
+[View details](https://tradingeconomics.com/italy/gdp) | [Privacy policy](https://tradingeconomics.com/italy/gdp)
+Legitimate interest
+## Streamwise srl
+Cookie duration: 366 (days).
+Data collected and processed: IP addresses, Device characteristics, Device identifiers, Authentication-derived identifiers, Browsing and interaction data, User-provided data, Non-precise location data, Users’ profiles, Privacy choices
+[more](https://tradingeconomics.com/italy/gdp)
+Cookie duration resets each session. Uses other forms of storage.
+[View details](https://tradingeconomics.com/italy/gdp) | [Storage details](https://tradingeconomics.com/italy/gdp) | [Privacy policy](https://tradingeconomics.com/italy/gdp)
+Consent
+## Innovid LLC
+Cookie duration: 90 (days).
+Data collected and processed: IP addresses, Device characteristics, Device identifiers, Browsing and interaction data, Non-precise location data, Privacy choices
+[more](https://tradingeconomics.com/italy/gdp)
+Cookie duration resets each session. 
+[View details](https://tradingeconomics.com/italy/gdp) | [Storage details](https://tradingeconomics.com/italy/gdp) | [Privacy policy](https://tradingeconomics.com/italy/gdp)
+ConsentLegitimate interest
+## Zeta Global Corp.
+Cookie duration: 390 (days).
+Data collected and processed: IP addresses, Device characteristics, Device identifiers, Probabilistic identifiers, Browsing and interaction data, User-provided data, Non-precise location data, Users’ profiles, Privacy choices
+[more](https://tradingeconomics.com/italy/gdp)
+[View details](https://tradingeconomics.com/italy/gdp) | [Storage details](https://tradingeconomics.com/italy/gdp) | [Privacy policy](https://tradingeconomics.com/italy/gdp)
+Consent
+## Madington
+Doesn't use cookies.
+Data collected and processed: IP addresses, Device characteristics, Probabilistic identifiers, Non-precise location data
+[more](https://tradingeconomics.com/italy/gdp)
+[View details](https://tradingeconomics.com/italy/gdp) | [Privacy policy](https://tradingeconomics.com/italy/gdp)
+Legitimate interest
+## Opinary (Affinity Global GmbH)
+Cookie duration: 60 (days).
+Data collected and processed: IP addresses, Device characteristics, Browsing and interaction data, User-provided data, Non-precise location data, Users’ profiles, Privacy choices
+[more](https://tradingeconomics.com/italy/gdp)
+Uses other forms of storage.
+[View details](https://tradingeconomics.com/italy/gdp) | [Storage details](https://tradingeconomics.com/italy/gdp) | [Privacy policy](https://tradingeconomics.com/italy/gdp)
+Consent
+## GumGum, Inc.
+Cookie duration: 90 (days).
+Data collected and processed: IP addresses, Device characteristics, Browsing and interaction data, Non-precise location data
+[more](https://tradingeconomics.com/italy/gdp)
+Cookie duration resets each session. 
+[View details](https://tradingeconomics.com/italy/gdp) | [Storage details](https://tradingeconomics.com/italy/gdp) | [Privacy policy](https://tradingeconomics.com/italy/gdp)
+Consent
+## Cint USA, Inc.
+Cookie duration: 730 (days).
+Data collected and processed: IP addresses, Device characteristics, Device identifiers, Browsing and interaction data, Privacy choices
+[more](https://tradingeconomics.com/italy/gdp)
+Uses other forms of storage.
+[View details](https://tradingeconomics.com/italy/gdp) | [Privacy policy](https://tradingeconomics.com/italy/gdp)
+Consent
+## Verve Group Europe GmbH
+Doesn't use cookies.
+Data collected and processed: IP addresses, Device characteristics, Device identifiers, Authentication-derived identifiers, Browsing and interaction data, User-provided data, Non-precise location data, Users’ profiles, Privacy choices
+[more](https://tradingeconomics.com/italy/gdp)
+Uses other forms of storage.
+[View details](https://tradingeconomics.com/italy/gdp) | [Privacy policy](https://tradingeconomics.com/italy/gdp)
+Consent
+## Jampp LTD
+Doesn't use cookies.
+Data collected and processed: IP addresses, Device characteristics, Device identifiers, Precise location data
+[more](https://tradingeconomics.com/italy/gdp)
+Uses other forms of storage.
+[View details](https://tradingeconomics.com/italy/gdp) | [Privacy policy](https://tradingeconomics.com/italy/gdp)
+ConsentLegitimate interest
+## Realtime Technologies GmbH
+Doesn't use cookies.
+Data collected and processed: IP addresses, Device characteristics, Device identifiers, Probabilistic identifiers, User-provided data, Non-precise location data, Privacy choices
+[more](https://tradingeconomics.com/italy/gdp)
+Uses other forms of storage.
+[View details](https://tradingeconomics.com/italy/gdp) | [Privacy policy](https://tradingeconomics.com/italy/gdp)
+ConsentLegitimate interest
+## DeepIntent, Inc.
+Cookie duration: 548 (days).
+Data collected and processed: IP addresses, Device characteristics, Device identifiers, Non-precise location data
+[more](https://tradingeconomics.com/italy/gdp)
+Cookie duration resets each session. 
+[View details](https://tradingeconomics.com/italy/gdp) | [Privacy policy](https://tradingeconomics.com/italy/gdp)
+ConsentLegitimate interest
+## Happydemics
+Doesn't use cookies.
+Data collected and processed: IP addresses, Device characteristics, Device identifiers, Probabilistic identifiers, Authentication-derived identifiers, User-provided data, Non-precise location data, Users’ profiles, Privacy choices
+[more](https://tradingeconomics.com/italy/gdp)
+Uses other forms of storage.
+[View details](https://tradingeconomics.com/italy/gdp) | [Privacy policy](https://tradingeconomics.com/italy/gdp)
+Consent
+## Otto GmbH & Co. KGaA
+Cookie duration: 365 (days).
+Data collected and processed: IP addresses, Device identifiers, Browsing and interaction data, User-provided data, Users’ profiles, Privacy choices
+[more](https://tradingeconomics.com/italy/gdp)
+Cookie duration resets each session. Uses other forms of storage.
+[View details](https://tradingeconomics.com/italy/gdp) | [Storage details](https://tradingeconomics.com/italy/gdp) | [Privacy policy](https://tradingeconomics.com/italy/gdp)
+ConsentLegitimate interest
+## Adobe Audience Manager, Adobe Experience Platform
+Cookie duration: 180 (days).
+Data collected and processed: IP addresses, Device characteristics, Device identifiers, Probabilistic identifiers, Authentication-derived identifiers, Browsing and interaction data, User-provided data, Non-precise location data, Precise location data, Users’ profiles, Privacy choices
+[more](https://tradingeconomics.com/italy/gdp)
+Cookie duration resets each session. 
+[View details](https://tradingeconomics.com/italy/gdp) | [Storage details](https://tradingeconomics.com/italy/gdp) | [Privacy policy](https://tradingeconomics.com/italy/gdp)
+Consent
+## CHEQ AI TECHNOLOGIES
+Cookie duration: 365 (days).
+Data collected and processed: IP addresses, Device characteristics
+[more](https://tradingeconomics.com/italy/gdp)
+Cookie duration resets each session. 
+[View details](https://tradingeconomics.com/italy/gdp) | [Storage details](https://tradingeconomics.com/italy/gdp) | [Privacy policy](https://tradingeconomics.com/italy/gdp)
+## Localsensor B.V.
+Doesn't use cookies.
+Data collected and processed: IP addresses, Device characteristics, Device identifiers, Non-precise location data, Precise location data, Privacy choices
+[more](https://tradingeconomics.com/italy/gdp)
+Uses other forms of storage.
+[View details](https://tradingeconomics.com/italy/gdp) | [Privacy policy](https://tradingeconomics.com/italy/gdp)
+Consent
+## Adnami Aps
+Doesn't use cookies.
+Data collected and processed: IP addresses, Non-precise location data, Privacy choices
+[more](https://tradingeconomics.com/italy/gdp)
+[View details](https://tradingeconomics.com/italy/gdp) | [Privacy policy](https://tradingeconomics.com/italy/gdp)
+Legitimate interest
+## Blue
+Cookie duration: 365 (days).
+Data collected and processed: IP addresses, Device characteristics, Browsing and interaction data, Non-precise location data, Precise location data, Users’ profiles, Privacy choices
+[more](https://tradingeconomics.com/italy/gdp)
+Cookie duration resets each session. 
+[View details](https://tradingeconomics.com/italy/gdp) | [Storage details](https://tradingeconomics.com/italy/gdp) | [Privacy policy](https://tradingeconomics.com/italy/gdp)
+Consent
+## Relay42 Netherlands B.V.
+Cookie duration: 730 (days).
+Data collected and processed: IP addresses, Device characteristics, Device identifiers, Probabilistic identifiers, Browsing and interaction data, User-provided data, Users’ profiles, Privacy choices
+[more](https://tradingeconomics.com/italy/gdp)
+[View details](https://tradingeconomics.com/italy/gdp) | [Privacy policy](https://tradingeconomics.com/italy/gdp)
+Consent
+## Mobsuccess
+Cookie duration: 365 (days).
+Data collected and processed: IP addresses, Device characteristics, Device identifiers, Browsing and interaction data, User-provided data, Non-precise location data, Precise location data, Users’ profiles, Privacy choices
+[more](https://tradingeconomics.com/italy/gdp)
+Cookie duration resets each session. Uses other forms of storage.
+[View details](https://tradingeconomics.com/italy/gdp) | [Storage details](https://tradingeconomics.com/italy/gdp) | [Privacy policy](https://tradingeconomics.com/italy/gdp)
+Consent
+## Liftoff Monetize and Vungle Exchange
+Doesn't use cookies.
+Data collected and processed: IP addresses, Device characteristics, Device identifiers, Probabilistic identifiers, Authentication-derived identifiers, Browsing and interaction data, User-provided data, Non-precise location data, Users’ profiles, Privacy choices
+[more](https://tradingeconomics.com/italy/gdp)
+Uses other forms of storage.
+[View details](https://tradingeconomics.com/italy/gdp) | [Privacy policy](https://tradingeconomics.com/italy/gdp)
+ConsentLegitimate interest
+## The MediaGrid Inc.
+Cookie duration: 365 (days).
+Data collected and processed: IP addresses, Device characteristics, Device identifiers, Probabilistic identifiers, Browsing and interaction data, Non-precise location data, Precise location data, Privacy choices
+[more](https://tradingeconomics.com/italy/gdp)
+Cookie duration resets each session. Uses other forms of storage.
+[View details](https://tradingeconomics.com/italy/gdp) | [Storage details](https://tradingeconomics.com/italy/gdp) | [Privacy policy](https://tradingeconomics.com/italy/gdp)
+Consent
+## Go.pl sp. z o.o.
+Cookie duration: 3000 (days).
+Data collected and processed: IP addresses, Device characteristics, Device identifiers, Probabilistic identifiers, Authentication-derived identifiers, Browsing and interaction data, User-provided data, Non-precise location data, Users’ profiles, Privacy choices
+[more](https://tradingeconomics.com/italy/gdp)
+Cookie duration resets each session. Uses other forms of storage.
+[View details](https://tradingeconomics.com/italy/gdp) | [Storage details](https://tradingeconomics.com/italy/gdp) | [Privacy policy](https://tradingeconomics.com/italy/gdp)
+ConsentLegitimate interest
+## HyperTV, Inc.
+Cookie duration: 3650 (days).
+Data collected and processed: IP addresses, Device characteristics, Probabilistic identifiers, Browsing and interaction data, User-provided data, Non-precise location data, Privacy choices
+[more](https://tradingeconomics.com/italy/gdp)
+Cookie duration resets each session. 
+[View details](https://tradingeconomics.com/italy/gdp) | [Storage details](https://tradingeconomics.com/italy/gdp) | [Privacy policy](https://tradingeconomics.com/italy/gdp)
+ConsentLegitimate interest
+## impact.com
+Cookie duration: 3650 (days).
+Data collected and processed: IP addresses, Device characteristics, Device identifiers, Browsing and interaction data
+[more](https://tradingeconomics.com/italy/gdp)
+Cookie duration resets each session. 
+[View details](https://tradingeconomics.com/italy/gdp) | [Storage details](https://tradingeconomics.com/italy/gdp) | [Privacy policy](https://tradingeconomics.com/italy/gdp)
+ConsentLegitimate interest
+## Appier PTE Ltd
+Cookie duration: 365 (days).
+Data collected and processed: IP addresses, Device characteristics, Device identifiers, Authentication-derived identifiers, Browsing and interaction data, User-provided data, Non-precise location data, Precise location data, Users’ profiles, Privacy choices
+[more](https://tradingeconomics.com/italy/gdp)
+Cookie duration resets each session. Uses other forms of storage.
+[View details](https://tradingeconomics.com/italy/gdp) | [Storage details](https://tradingeconomics.com/italy/gdp) | [Privacy policy](https://tradingeconomics.com/italy/gdp)
+ConsentLegitimate interest
+## 6Sense Insights, Inc.
+Cookie duration: 731 (days).
+Data collected and processed: IP addresses, Probabilistic identifiers, Browsing and interaction data, Non-precise location data, Users’ profiles
+[more](https://tradingeconomics.com/italy/gdp)
+Uses other forms of storage.
+[View details](https://tradingeconomics.com/italy/gdp) | [Storage details](https://tradingeconomics.com/italy/gdp) | [Privacy policy](https://tradingeconomics.com/italy/gdp)
+ConsentLegitimate interest
+## Google Advertising Products
+Cookie duration: 396 (days).
+Data collected and processed: IP addresses, Device characteristics, Device identifiers, Authentication-derived identifiers, Browsing and interaction data, User-provided data, Non-precise location data, Users’ profiles, Privacy choices
+[more](https://tradingeconomics.com/italy/gdp)
+Uses other forms of storage.
+[View details](https://tradingeconomics.com/italy/gdp) | [Storage details](https://tradingeconomics.com/italy/gdp) | [Privacy policy](https://tradingeconomics.com/italy/gdp)
+ConsentLegitimate interest
+## GfK GmbH
+Cookie duration: 730 (days).
+Data collected and processed: IP addresses, Device characteristics, Device identifiers, Authentication-derived identifiers, Browsing and interaction data, User-provided data, Non-precise location data, Users’ profiles, Privacy choices
+[more](https://tradingeconomics.com/italy/gdp)
+Uses other forms of storage.
+[View details](https://tradingeconomics.com/italy/gdp) | [Storage details](https://tradingeconomics.com/italy/gdp) | [Privacy policy](https://tradingeconomics.com/italy/gdp)
+Consent
+## Clinch Labs LTD
+Cookie duration: 730 (days).
+Data collected and processed: IP addresses, Device characteristics, Device identifiers, Probabilistic identifiers, Browsing and interaction data, Non-precise location data, Users’ profiles, Privacy choices
+[more](https://tradingeconomics.com/italy/gdp)
+Cookie duration resets each session. 
+[View details](https://tradingeconomics.com/italy/gdp) | [Storage details](https://tradingeconomics.com/italy/gdp) | [Privacy policy](https://tradingeconomics.com/italy/gdp)
+ConsentLegitimate interest
+## Amazon Ads
+Cookie duration: 396 (days).
+Data collected and processed: IP addresses, Device characteristics, Device identifiers, Authentication-derived identifiers, Browsing and interaction data, Non-precise location data, Users’ profiles, Privacy choices
+[more](https://tradingeconomics.com/italy/gdp)
+Cookie duration resets each session. Uses other forms of storage.
+[View details](https://tradingeconomics.com/italy/gdp) | [Storage details](https://tradingeconomics.com/italy/gdp) | [Privacy policy](https://tradingeconomics.com/italy/gdp)
+Consent
+## LinkedIn Ireland Unlimited Company
+Cookie duration: 365 (days).
+Data collected and processed: IP addresses, Device characteristics, Device identifiers, Authentication-derived identifiers, Browsing and interaction data, Non-precise location data, Privacy choices
+[more](https://tradingeconomics.com/italy/gdp)
+Cookie duration resets each session. Uses other forms of storage.
+[View details](https://tradingeconomics.com/italy/gdp) | [Storage details](https://tradingeconomics.com/italy/gdp) | [Privacy policy](https://tradingeconomics.com/italy/gdp)
+ConsentLegitimate interest
+## Moloco, Inc.
+Cookie duration: 730 (days).
+Data collected and processed: IP addresses, Device characteristics, Device identifiers, Non-precise location data
+[more](https://tradingeconomics.com/italy/gdp)
+Cookie duration resets each session. Uses other forms of storage.
+[View details](https://tradingeconomics.com/italy/gdp) | [Storage details](https://tradingeconomics.com/italy/gdp) | [Privacy policy](https://tradingeconomics.com/italy/gdp)
+ConsentLegitimate interest
+## Nielsen International SA
+Cookie duration: 390 (days).
+Data collected and processed: IP addresses, Device characteristics, Device identifiers, User-provided data, Privacy choices
+[more](https://tradingeconomics.com/italy/gdp)
+Uses other forms of storage.
+[View details](https://tradingeconomics.com/italy/gdp) | [Storage details](https://tradingeconomics.com/italy/gdp) | [Privacy policy](https://tradingeconomics.com/italy/gdp)
+ConsentLegitimate interest
+## Mintegral International Limited
+Doesn't use cookies.
+Data collected and processed: IP addresses, Device characteristics, Device identifiers, Browsing and interaction data, Privacy choices
+[more](https://tradingeconomics.com/italy/gdp)
+Uses other forms of storage.
+[View details](https://tradingeconomics.com/italy/gdp) | [Privacy policy](https://tradingeconomics.com/italy/gdp)
+ConsentLegitimate interest
+## PRECISO SRL
+Cookie duration: 360 (days).
+Data collected and processed: IP addresses, Device characteristics, Device identifiers, Probabilistic identifiers, Browsing and interaction data, User-provided data, Non-precise location data, Users’ profiles
+[more](https://tradingeconomics.com/italy/gdp)
+Cookie duration resets each session. Uses other forms of storage.
+[View details](https://tradingeconomics.com/italy/gdp) | [Privacy policy](https://tradingeconomics.com/italy/gdp)
+Consent
+## Insticator, Inc.
+Cookie duration: 30 (days).
+Data collected and processed: IP addresses, Device characteristics, Device identifiers, Authentication-derived identifiers, Browsing and interaction data, User-provided data, Non-precise location data, Precise location data, Users’ profiles, Privacy choices
+[more](https://tradingeconomics.com/italy/gdp)
+Uses other forms of storage.
+[View details](https://tradingeconomics.com/italy/gdp) | [Storage details](https://tradingeconomics.com/italy/gdp) | [Privacy policy](https://tradingeconomics.com/italy/gdp)
+Consent
+## Pelmorex Corp.
+Cookie duration: 365 (days).
+Data collected and processed: IP addresses, Device characteristics, Device identifiers, Probabilistic identifiers, Browsing and interaction data, Non-precise location data, Users’ profiles, Privacy choices
+[more](https://tradingeconomics.com/italy/gdp)
+[View details](https://tradingeconomics.com/italy/gdp) | [Storage details](https://tradingeconomics.com/italy/gdp) | [Privacy policy](https://tradingeconomics.com/italy/gdp)
+Consent
+## TikTok Ad Network
+Doesn't use cookies.
+Data collected and processed: IP addresses, Device characteristics, Device identifiers, Probabilistic identifiers, Browsing and interaction data, User-provided data, Non-precise location data, Users’ profiles, Privacy choices
+[more](https://tradingeconomics.com/italy/gdp)
+Uses other forms of storage.
+[View details](https://tradingeconomics.com/italy/gdp) | [Storage details](https://tradingeconomics.com/italy/gdp) | [Privacy policy](https://tradingeconomics.com/italy/gdp)
+ConsentLegitimate interest
+## Extreme Reach, Inc
+Cookie duration: 180 (days).
+Data collected and processed: IP addresses, Device characteristics, Device identifiers, Browsing and interaction data, Non-precise location data, Privacy choices
+[more](https://tradingeconomics.com/italy/gdp)
+Cookie duration resets each session. 
+[View details](https://tradingeconomics.com/italy/gdp) | [Privacy policy](https://tradingeconomics.com/italy/gdp)
+Consent
+## Somplo Ltd
+Doesn't use cookies.
+Data collected and processed: IP addresses, Device characteristics
+[more](https://tradingeconomics.com/italy/gdp)
+[View details](https://tradingeconomics.com/italy/gdp) | [Privacy policy](https://tradingeconomics.com/italy/gdp)
+Legitimate interest
+## Adelaide Metrics Inc
+Doesn't use cookies.
+Data collected and processed: Device characteristics, Browsing and interaction data
+[more](https://tradingeconomics.com/italy/gdp)
+[View details](https://tradingeconomics.com/italy/gdp) | [Privacy policy](https://tradingeconomics.com/italy/gdp)
+Legitimate interest
+## Baidu (Hong Kong) Limited
+Cookie duration: 366 (days).
+Data collected and processed: Browsing and interaction data
+[more](https://tradingeconomics.com/italy/gdp)
+[View details](https://tradingeconomics.com/italy/gdp) | [Storage details](https://tradingeconomics.com/italy/gdp) | [Privacy policy](https://tradingeconomics.com/italy/gdp)
+Consent
+## Arpeely Ltd.
+Cookie duration: 90 (days).
+Data collected and processed: IP addresses
+[more](https://tradingeconomics.com/italy/gdp)
+Cookie duration resets each session. 
+[View details](https://tradingeconomics.com/italy/gdp) | [Privacy policy](https://tradingeconomics.com/italy/gdp)
+ConsentLegitimate interest
+## Adventure Media SARL
+Cookie duration: 3650 (days).
+Data collected and processed: IP addresses, Device characteristics, Device identifiers, Browsing and interaction data, Non-precise location data, Privacy choices
+[more](https://tradingeconomics.com/italy/gdp)
+Cookie duration resets each session. 
+[View details](https://tradingeconomics.com/italy/gdp) | [Storage details](https://tradingeconomics.com/italy/gdp) | [Privacy policy](https://tradingeconomics.com/italy/gdp)
+ConsentLegitimate interest
+## Microsoft Advertising
+Cookie duration: 396 (days).
+Data collected and processed: IP addresses, Device characteristics, Device identifiers, Probabilistic identifiers, Authentication-derived identifiers, Browsing and interaction data, User-provided data, Non-precise location data, Users’ profiles, Privacy choices
+[more](https://tradingeconomics.com/italy/gdp)
+Uses other forms of storage.
+[View details](https://tradingeconomics.com/italy/gdp) | [Storage details](https://tradingeconomics.com/italy/gdp) | [Privacy policy](https://tradingeconomics.com/italy/gdp)
+Consent
+## Opera Software Ireland Limited
+Cookie duration: 365 (days).
+Data collected and processed: IP addresses, Device identifiers, Privacy choices
+[more](https://tradingeconomics.com/italy/gdp)
+Cookie duration resets each session. 
+[View details](https://tradingeconomics.com/italy/gdp) | [Storage details](https://tradingeconomics.com/italy/gdp) | [Privacy policy](https://tradingeconomics.com/italy/gdp)
+ConsentLegitimate interest
+## xpln.ai SAS
+Doesn't use cookies.
+Data collected and processed: IP addresses, Device characteristics, Browsing and interaction data, Non-precise location data, Privacy choices
+[more](https://tradingeconomics.com/italy/gdp)
+[View details](https://tradingeconomics.com/italy/gdp) | [Privacy policy](https://tradingeconomics.com/italy/gdp)
+Legitimate interest
+## ABCS INSIGHTS
+Doesn't use cookies.
+Data collected and processed: IP addresses
+[more](https://tradingeconomics.com/italy/gdp)
+[View details](https://tradingeconomics.com/italy/gdp) | [Privacy policy](https://tradingeconomics.com/italy/gdp)
+Consent
+## Affle Inc
+Doesn't use cookies.
+Data collected and processed: IP addresses, Device identifiers
+[more](https://tradingeconomics.com/italy/gdp)
+[View details](https://tradingeconomics.com/italy/gdp) | [Privacy policy](https://tradingeconomics.com/italy/gdp)
+Consent
+## Admaster Private Limited
+Cookie duration: 365 (days).
+Data collected and processed: IP addresses, Device identifiers, Probabilistic identifiers, Browsing and interaction data, Non-precise location data, Privacy choices
+[more](https://tradingeconomics.com/italy/gdp)
+Uses other forms of storage.
+[View details](https://tradingeconomics.com/italy/gdp) | [Storage details](https://tradingeconomics.com/italy/gdp) | [Privacy policy](https://tradingeconomics.com/italy/gdp)
+Consent
+## Bidease Inc
+Doesn't use cookies.
+Data collected and processed: IP addresses, Device characteristics, Device identifiers, Non-precise location data, Privacy choices
+[more](https://tradingeconomics.com/italy/gdp)
+[View details](https://tradingeconomics.com/italy/gdp) | [Storage details](https://tradingeconomics.com/italy/gdp) | [Privacy policy](https://tradingeconomics.com/italy/gdp)
+ConsentLegitimate interest
+## Intango Ltd
+Doesn't use cookies.
+Data collected and processed: IP addresses, Device characteristics, Probabilistic identifiers, Non-precise location data, Privacy choices
+[more](https://tradingeconomics.com/italy/gdp)
+[View details](https://tradingeconomics.com/italy/gdp) | [Privacy policy](https://tradingeconomics.com/italy/gdp)
+Legitimate interest
+Ad partners
+## Artsai
+[Privacy policy](https://tradingeconomics.com/italy/gdp)
+Consent
+## Meta
+[Privacy policy](https://tradingeconomics.com/italy/gdp)
+Consent
+## C3 Metrics
+[Privacy policy](https://tradingeconomics.com/italy/gdp)
+Consent
+## Roku Advertising Services
+[Privacy policy](https://tradingeconomics.com/italy/gdp)
+Consent
+## eBay
+[Privacy policy](https://tradingeconomics.com/italy/gdp)
+Consent
+## Evidon
+[Privacy policy](https://tradingeconomics.com/italy/gdp)
+Consent
+## GroovinAds
+[Privacy policy](https://tradingeconomics.com/italy/gdp)
+Consent
+## Sizmek
+[Privacy policy](https://tradingeconomics.com/italy/gdp)
+Consent
+## PlatformOne
+[Privacy policy](https://tradingeconomics.com/italy/gdp)
+Consent
+## Equativ
+[Privacy policy](https://tradingeconomics.com/italy/gdp)
+Consent
+## SMN Corporation
+[Privacy policy](https://tradingeconomics.com/italy/gdp)
+Consent
+## TrustArc
+[Privacy policy](https://tradingeconomics.com/italy/gdp)
+Consent
+## CyberAgent
+[Privacy policy](https://tradingeconomics.com/italy/gdp)
+Consent
+## MicroAd
+[Privacy policy](https://tradingeconomics.com/italy/gdp)
+Consent
+## AdMaxim
+[Privacy policy](https://tradingeconomics.com/italy/gdp)
+Consent
+## Magnite
+[Privacy policy](https://tradingeconomics.com/italy/gdp)
+Consent
+## Yango
+[Privacy policy](https://tradingeconomics.com/italy/gdp)
+Consent
+## Singular Labs Inc.
+[Privacy policy](https://tradingeconomics.com/italy/gdp)
+Consent
+## Neustar
+[Privacy policy](https://tradingeconomics.com/italy/gdp)
+Consent
+## Netquest
+[Privacy policy](https://tradingeconomics.com/italy/gdp)
+Consent
+## Mail.ru
+[Privacy policy](https://tradingeconomics.com/italy/gdp)
+Consent
+## Cloudflare
+[Privacy policy](https://tradingeconomics.com/italy/gdp)
+Consent
+## Salesforce DMP
+[Privacy policy](https://tradingeconomics.com/italy/gdp)
+Consent
+## Bridgewell
+[Privacy policy](https://tradingeconomics.com/italy/gdp)
+Consent
+## AppLovin Corp.
+[Privacy policy](https://tradingeconomics.com/italy/gdp)
+Consent
+## Cadent
+[Privacy policy](https://tradingeconomics.com/italy/gdp)
+Consent
+## AdTheorent, Inc.
+[Privacy policy](https://tradingeconomics.com/italy/gdp)
+Consent
+## Rackspace
+[Privacy policy](https://tradingeconomics.com/italy/gdp)
+Consent
+## Chocolate Platform
+[Privacy policy](https://tradingeconomics.com/italy/gdp)
+Consent
+## LeadBolt
+[Privacy policy](https://tradingeconomics.com/italy/gdp)
+Consent
+## Placed
+[Privacy policy](https://tradingeconomics.com/italy/gdp)
+Consent
+## Impact
+[Privacy policy](https://tradingeconomics.com/italy/gdp)
+Consent
+## Aarki
+[Privacy policy](https://tradingeconomics.com/italy/gdp)
+Consent
+## F@N communications
+[Privacy policy](https://tradingeconomics.com/italy/gdp)
+Consent
+## Vpon
+[Privacy policy](https://tradingeconomics.com/italy/gdp)
+Consent
+## NinthDecimal
+[Privacy policy](https://tradingeconomics.com/italy/gdp)
+Consent
+## TreSensa
+[Privacy policy](https://tradingeconomics.com/italy/gdp)
+Consent
+## Tapjoy
+[Privacy policy](https://tradingeconomics.com/italy/gdp)
+Consent
+## Bigabid
+[Privacy policy](https://tradingeconomics.com/italy/gdp)
+Consent
+## Optimize LCC D.B.A Genius Monkey
+[Privacy policy](https://tradingeconomics.com/italy/gdp)
+Consent
+## gskinner
+[Privacy policy](https://tradingeconomics.com/italy/gdp)
+Consent
+## Yahoo! Japan
+[Privacy policy](https://tradingeconomics.com/italy/gdp)
+Consent
+## Chalk Digital
+[Privacy policy](https://tradingeconomics.com/italy/gdp)
+Consent
+## jsdelivr
+[Privacy policy](https://tradingeconomics.com/italy/gdp)
+Consent
+## HockeyCurve
+[Privacy policy](https://tradingeconomics.com/italy/gdp)
+Consent
+## Upwave
+[Privacy policy](https://tradingeconomics.com/italy/gdp)
+Consent
+## IQM
+[Privacy policy](https://tradingeconomics.com/italy/gdp)
+Consent
+## fluct
+[Privacy policy](https://tradingeconomics.com/italy/gdp)
+Consent
+## Zucks
+[Privacy policy](https://tradingeconomics.com/italy/gdp)
+Consent
+## UNICORN
+[Privacy policy](https://tradingeconomics.com/italy/gdp)
+Consent
+## AdFalcon
+[Privacy policy](https://tradingeconomics.com/italy/gdp)
+Consent
+## Supership
+[Privacy policy](https://tradingeconomics.com/italy/gdp)
+Consent
+## Marketing Science Consulting Group, Inc.
+[Privacy policy](https://tradingeconomics.com/italy/gdp)
+Consent
+## Kobler
+[Privacy policy](https://tradingeconomics.com/italy/gdp)
+Consent
+## Adstra
+[Privacy policy](https://tradingeconomics.com/italy/gdp)
+Consent
+## Persona.ly
+[Privacy policy](https://tradingeconomics.com/italy/gdp)
+Consent
+## Oracle Data Cloud
+[Privacy policy](https://tradingeconomics.com/italy/gdp)
+Consent
+## Throtle
+[Privacy policy](https://tradingeconomics.com/italy/gdp)
+Consent
+## ironSource Mobile
+[Privacy policy](https://tradingeconomics.com/italy/gdp)
+Consent
+## Chartboost
+[Privacy policy](https://tradingeconomics.com/italy/gdp)
+Consent
+## MediaPal
+[Privacy policy](https://tradingeconomics.com/italy/gdp)
+Consent
+## Tuky Data
+[Privacy policy](https://tradingeconomics.com/italy/gdp)
+Consent
+## CONTXTFUL
+[Privacy policy](https://tradingeconomics.com/italy/gdp)
+Consent
+## MarketCast LLC
+[Privacy policy](https://tradingeconomics.com/italy/gdp)
+Consent
+## LeadsRx
+[Privacy policy](https://tradingeconomics.com/italy/gdp)
+Consent
+## clean.io
+[Privacy policy](https://tradingeconomics.com/italy/gdp)
+Consent
+## Unity Ads
+[Privacy policy](https://tradingeconomics.com/italy/gdp)
+Consent
+## Loblaw Media
+[Privacy policy](https://tradingeconomics.com/italy/gdp)
+Consent
+## Ad Lightning
+[Privacy policy](https://tradingeconomics.com/italy/gdp)
+Consent
+## Lacuna
+[Privacy policy](https://tradingeconomics.com/italy/gdp)
+Consent
+## Coupang
+[Privacy policy](https://tradingeconomics.com/italy/gdp)
+Consent
+## Playable Factory
+[Privacy policy](https://tradingeconomics.com/italy/gdp)
+Consent
+## Prism Partner
+[Privacy policy](https://tradingeconomics.com/italy/gdp)
+Consent
+## TemuDSP
+[Privacy policy](https://tradingeconomics.com/italy/gdp)
+Consent
+## DISQO
+[Privacy policy](https://tradingeconomics.com/italy/gdp)
+Consent
+## Mercado Livre
+[Privacy policy](https://tradingeconomics.com/italy/gdp)
+Consent
+Accept all
+Confirm choices
+Close
