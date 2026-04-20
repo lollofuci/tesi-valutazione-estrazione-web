@@ -2,7 +2,7 @@ from pathlib import Path
 from urllib.parse import urlparse
 import json
 
-from fastapi import FastAPI, HTTPException
+from fastapi import FastAPI, HTTPException, Body
 
 from parsers.new_wikipedia_parser import WikipediaParser
 from parsers.atptour_parser import ATPTourParser
@@ -141,16 +141,6 @@ def get_full_gs(domain: str):
 # EVALUATION
 # -------------------------
 
-@app.post("/evaluate", response_model=EvalResponse)
-def evaluate(req: EvalRequest):
-    metrics = token_level_eval(req.parsed_text, req.gold_text)
-
-    return {
-        "token_level_eval": metrics,
-        "x_eval": {}
-    }
-
-
 @app.get("/full_gs_eval", response_model=EvalResponse)
 async def full_eval(domain: str):
     check_supported_domain(domain)
@@ -171,3 +161,13 @@ async def full_eval(domain: str):
         "token_level_eval": final_metrics,
         "x_eval": {}
     }
+@app.post("/parse", response_model=ParseResponse)
+async def parse_url_post(url: str = Body(...), html_text: str = Body(...)):
+    domain = urlparse(url).netloc
+    check_supported_domain(domain)
+    parser = get_parser(domain)
+    try:
+        result = await parser.parse_from_html(url, html_text)
+        return result
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Errore nel parsing: {e}")
