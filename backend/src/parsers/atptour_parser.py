@@ -15,7 +15,7 @@ class ATPTourParser(BaseParser):
     """
 
     def __init__(self) -> None:
-        self.browser_config = BrowserConfig(headless=False)
+        self.browser_config = BrowserConfig(headless=True)
         self.run_config = CrawlerRunConfig(magic=True, cache_mode=CacheMode.BYPASS)
 
     async def parse_from_html(self, url: str, html: str) -> dict:
@@ -156,14 +156,20 @@ class ATPTourParser(BaseParser):
         """Nuova logica ultra-precisa per le pagine Head-2-Head."""
         md = re.sub(r"\r\n?", "\n", md)
 
-        # 1. TAGLIO TESTA H2H: Il menu finisce con "Shop", seguito da dei punti esclamativi "!"
-        # Questa regex taglia tutto fino all'ultimo "!" del menu.
-        match_inizio = re.search(r"(?im)^Shop\s*\n+(?:!\s*\n*)*", md)
+        # 1. TAGLIO TESTA H2H: Il menu finisce con "ATP Fantasy", poi "Shop", poi dei "!"
+        # (?is) permette di ignorare maiuscole/minuscole e far sì che \s matchi tutti gli "a capo"
+        match_inizio = re.search(r"(?is)ATP Fantasy\s*Shop\s*(?:!\s*)+", md)
         if match_inizio:
             md = md[match_inizio.end():]
+        else:
+            # Fallback se non c'è "ATP Fantasy"
+            match_inizio_2 = re.search(r"(?im)Shop\s*(?:!\s*)+", md)
+            if match_inizio_2:
+                md = md[match_inizio_2.end():]
 
-        # 2. TAGLIO CODA H2H: Tagliamo via i widget "Riveting Rivalries" e l'App
-        pattern_coda = r"(?ms)^(Riveting Rivalries|DOWNLOAD OFFICIAL|NEWSLETTERS|## Partners|#### Corporate|## Privacy Preference Center).*$"
+        # 2. TAGLIO CODA H2H: Tagliamo via "Riveting Rivalries", App, ecc.
+        # Abbiamo tolto il simbolo '^' così lo trova anche se ci sono spazi prima!
+        pattern_coda = r"(?is)(Riveting Rivalries|DOWNLOAD OFFICIAL|NEWSLETTERS|## Partners|#### Corporate|## Privacy Preference Center).*"
         match_bottom = re.search(pattern_coda, md)
         if match_bottom:
             md = md[:match_bottom.start()]
@@ -186,7 +192,7 @@ class ATPTourParser(BaseParser):
             if re.match(r"^[\s|:-]+$", s):
                 continue
                 
-            # Sostituisce le "pipe" (|) della tabella con spazi, rendendolo testo semplice come vuoi tu
+            # Sostituisce le "pipe" (|) della tabella con spazi per renderlo testo puro
             s = s.replace("|", " ")
             s = re.sub(r"\s{2,}", " ", s).strip()
 
@@ -198,7 +204,7 @@ class ATPTourParser(BaseParser):
                 continue
             
             # Filtri di inizio riga per rimuovere le icone non caricate
-            if s_lower.startswith(("latest\nnews", "search icon", "filter icon")):
+            if s_lower.startswith(("latest\nnews", "search icon", "filter icon", "related players")):
                 continue
 
             linee_valide.append(s)
