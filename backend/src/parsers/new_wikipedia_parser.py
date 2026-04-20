@@ -33,19 +33,22 @@ class WikipediaParser(BaseParser):
         return parsed_result
 
     async def parse_from_html(self, url: str, html: str) -> dict:
-        """
-        Dato un URL e l'HTML grezzo, restituisce i dati parsati.
-        """
         domain = urlparse(url).netloc
-        title = self._estrai_titolo_da_url(url)
-
+        async with AsyncWebCrawler(config=self.browser_config) as crawler:
+            res = await crawler.arun(url=f"raw://{html}", config=self.run_config)
+        if not res.success:
+            raise RuntimeError("Parse fallito")
         return {
             "url": url,
             "domain": domain,
-            "title": title,
-            "html_text": html,
-            "parsed_text": "",  # verrà valorizzato in parse()
+            "title": self._estrai_titolo_da_url(url),  # ← usa url, non res.markdown
+            "html_text":html,
+            "parsed_text": self._pulisci_markdown(res.markdown, url),  # ← aggiungi url
         }
+    
+
+
+
 
     def _estrai_titolo_da_url(self, url: str) -> str:
         slug = urlparse(url).path.split("/wiki/")[-1]

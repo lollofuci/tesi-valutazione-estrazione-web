@@ -21,7 +21,7 @@ from evaluation.evaluator import token_level_eval, aggregate_metrics
 
 app = FastAPI()
 
-BASE_DIR = Path(__file__).resolve().parent.parent
+BASE_DIR = Path(__file__).resolve().parent.parent.parent
 DOMAINS_PATH = BASE_DIR / "domains.json"
 GS_DATA_DIR = BASE_DIR / "gs_data"
 
@@ -140,6 +140,16 @@ def get_full_gs(domain: str):
 # -------------------------
 # EVALUATION
 # -------------------------
+
+@app.post("/evaluate", response_model=EvalResponse)
+def evaluate(req: EvalRequest):
+    metrics = token_level_eval(req.parsed_text, req.gold_text)
+
+    return {
+        "token_level_eval": metrics,
+        "x_eval": {}
+    }
+
 
 @app.get("/full_gs_eval", response_model=EvalResponse)
 async def full_eval(domain: str):

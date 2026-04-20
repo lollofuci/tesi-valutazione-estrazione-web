@@ -9,40 +9,22 @@ from parsers.base_parser import BaseParser
 
 class ATPTourParser(BaseParser):
     def __init__(self) -> None:
-        self.browser_config = BrowserConfig(headless=False)
+        self.browser_config = BrowserConfig(headless=True)
         self.run_config = CrawlerRunConfig(magic=True, cache_mode=CacheMode.BYPASS)
 
     async def parse_from_html(self, url: str, html: str) -> dict:
         domain = urlparse(url).netloc
-        title = self._estrai_titolo_da_url(url)
-
-        with tempfile.NamedTemporaryFile(delete=False, suffix=".html", mode="w", encoding="utf-8") as tmp_file:
-            tmp_file.write(html)
-            tmp_file_path = tmp_file.name
-
-        try:
-            local_url = f"file:///{tmp_file_path.replace(os.sep, '/')}"
-
-            async with AsyncWebCrawler(config=self.browser_config) as crawler:
-                result = await crawler.arun(url=local_url, config=self.run_config)
-
-            if not result.success:
-                raise RuntimeError("Crawl fallito durante l'elaborazione dell'HTML offline.")
-
-            raw_markdown = result.markdown or ""
-            parsed_text = self._smista_e_pulisci(url, raw_markdown, title)
-
-        finally:
-            if os.path.exists(tmp_file_path):
-                os.remove(tmp_file_path)
-
+        async with AsyncWebCrawler(config=self.browser_config) as crawler:
+            res = await crawler.arun(url=f"raw://{html}", config=self.run_config)
+        if not res.success:
+            raise RuntimeError("Parse fallito")
         return {
             "url": url,
             "domain": domain,
-            "title": title,
-            "html_text": html,
-            "parsed_text": parsed_text,
+            "title": self._estrai_titolo(res.markdown),
+            "parsed_text": self._pulisci_markdown(res.markdown),
         }
+    
 
     async def parse(self, url: str) -> dict:
         domain = urlparse(url).netloc

@@ -111,23 +111,20 @@ class AccuWeatherParser(BaseParser):
         return await self.parse_from_html(url, result.html)
 
     async def parse_from_html(self, url: str, html: str) -> dict:
-        domain = urlparse(url).netloc.lower().removeprefix("www.")
-
+        domain = urlparse(url).netloc
         async with AsyncWebCrawler(config=self.browser_config) as crawler:
-            result = await crawler.arun(url=f"raw:{html}", config=self.run_config)
-
-        if not result.success:
-            raise RuntimeError(
-                f"Parsing da HTML fallito: {getattr(result, 'error_message', 'Errore sconosciuto')}"
-            )
-
+            res = await crawler.arun(url=f"raw://{html}", config=self.run_config)
+        if not res.success:
+            raise RuntimeError("Parse fallito")
         return {
             "url": url,
             "domain": domain,
-            "title": self._extract_title(html, url),
-            "html_text": html,
-            "parsed_text": self._clean_markdown(result.markdown),
+            "title": self._extract_title(html, url),  
+            "html_text":html,
+            "parsed_text": self._clean_markdown(res.markdown),
         }
+    
+
 
     def _extract_title(self, html: str, url: str) -> str:
         match = re.search(r"<title>(.*?)</title>", html, flags=re.IGNORECASE | re.DOTALL)
