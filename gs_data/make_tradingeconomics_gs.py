@@ -3802,16 +3802,17 @@ html_text_1 = """<!DOCTYPE html><html><head id="ctl00_Head1"><link href="https:/
 gold_text_1 = """The Gross Domestic Product (GDP) in Italy was worth 2372.77 billion US dollars in 2024, according to official data from the World Bank. The GDP value of Italy represents 2.23 percent of the world economy. 
 GDP in Italy averaged 1080.78 USD Billion from 1960 until 2024, reaching an all time high of 2417.51 USD Billion in 2008 and a record low of 42.01 USD Billion in 1960. This page provides the latest reported value for - Italy GDP - plus previous releases, historical high and low, short-term forecast and long-term prediction, economic calendar, survey consensus and news. Italy GDP - values, historical data and charts - was last updated on April of 2026. 
 GDP in Italy is expected to reach 2387.00 USD Billion by the end of 2026, according to Trading Economics global macro models and analysts expectations. In the long-term, the Italy GDP is projected to trend around 2406.00 USD Billion in 2027 and 2430.00 USD Billion in 2028, according to our econometric models.
-| Related | Last | Previous | Unit | Reference |
-| Full Year GDP Growth | 0.50 | 0.80 | percent | Dec 2025 |
-| GDP | 2372.77 | 2304.61 | USD Billion | Dec 2024 |
-| GDP Growth Rate YoY | 0.80 | 0.60 | percent | Dec 2025 |
-| GDP Growth Rate | 0.30 | 0.10 | percent | Dec 2025 |
-| GDP per Capita | 34398.20 | 34146.02 | USD | Dec 2024 |
-| GDP per Capita PPP | 53115.14 | 52725.75 | USD | Dec 2024 |
-The gross domestic product (GDP) measures of national income and output for a given country's economy. The gross domestic product (GDP) is equal to the total expenditures for all final goods and services produced within the country in a stipulated period of time. 
-| | Actual | Previous | Highest | Lowest | Dates | Unit | Frequency | |
-| | 2372.77 | 2304.61 | 2417.51 | 42.01 | 1960 - 2024 | USD Billion | Yearly | Current USD |"""
+Related	Last	Previous	Unit	Reference
+Full Year GDP Growth	0.50	0.80	percent	Dec 2025
+GDP	2372.77	2304.61	USD Billion	Dec 2024
+GDP Growth Rate YoY	0.80	0.60	percent	Dec 2025
+GDP Growth Rate	0.30	0.10	percent	Dec 2025
+GDP per Capita	34398.20	34146.02	USD	Dec 2024
+GDP per Capita PPP	53115.14	52725.75	USD	Dec 2024
+Italy GDP
+The gross domestic product (GDP) measures of national income and output for a given country's economy. The gross domestic product (GDP) is equal to the total expenditures for all final goods and services produced within the country in a stipulated period of time.
+Actual	Previous	Highest	Lowest	Dates	Unit	Frequency	
+2372.77	2304.61	2417.51	42.01	1960 - 2024	USD Billion	Yearly  Current USD"""
 
 # ── PAGINA 2 ────https://tradingeconomics.com/united-states/gdp
 html_text_2 = """<!DOCTYPE html><html><head id="ctl00_Head1"><link href="https://fonts.googleapis.com/css?family=Archivo:400,500|Arimo:400,500|Bitter:400,500|EB+Garamond:400,500|Lato|Libre+Baskervill|Libre+Franklin:400,500|Lora:400,500|Google+Sans:regular,medium:400,500|Material+Icons|Google+Symbols|Merriweather|Montserrat:400,500|Mukta:400,500|Muli:400,500|Nunito:400,500|Open+Sans:400,500,600|Open+Sans+Condensed:400,600|Oswald:500|Playfair+Display:400,500|Poppins:400,500|Raleway:400,500|Roboto:400,500|Roboto+Condensed:400,500|Roboto+Slab:400,500|Slabo+27px|Source+Sans+Pro|Ubuntu:400,500|Volkhov&amp;display=swap" rel="stylesheet"><meta charset="utf-8"><title>
@@ -7982,17 +7983,18 @@ html_text_2 = """<!DOCTYPE html><html><head id="ctl00_Head1"><link href="https:/
 gold_text_2 = """The Gross Domestic Product (GDP) in the United States was worth 29184.89 billion US dollars in 2024, according to official data from the World Bank. The GDP value of the United States represents 27.49 percent of the world economy. 
 GDP in the United States averaged 8865.89 USD Billion from 1960 until 2024, reaching an all time high of 29184.89 USD Billion in 2024 and a record low of 542.39 USD Billion in 1960. This page provides - United States GDP - actual values, historical data, forecast, chart, statistics, economic calendar and news. United States GDP - values, historical data and charts - was last updated on April of 2026. 
 GDP in the United States is expected to reach 29856.00 USD Billion by the end of 2026, according to Trading Economics global macro models and analysts expectations. In the long-term, the United States GDP is projected to trend around 30453.00 USD Billion in 2027 and 31032.00 USD Billion in 2028, according to our econometric models.
-| Related | Last | Previous | Unit | Reference |
-| Full Year GDP Growth | 2.10 | 2.80 | percent | Dec 2025 |
-| GDP | 29184.89 | 27720.71 | USD Billion | Dec 2024 |
-| GDP Annual Growth Rate | 2.00 | 2.30 | percent | Dec 2025 |
-| GDP Constant Prices | 24055.70 | 24026.80 | USD Billion | Dec 2025 |
-| GDP Growth Rate | 0.50 | 4.40 | percent | Dec 2025 |
-| GDP per Capita | 66682.61 | 65505.26 | USD | Dec 2024 |
-| GDP per Capita PPP | 75491.61 | 74158.72 | USD | Dec 2024 |
-The gross domestic product (GDP) measures of national income and output for a given country's economy. The gross domestic product (GDP) is equal to the total expenditures for all final goods and services produced within the country in a stipulated period of time. 
-| | Actual | Previous | Highest | Lowest | Dates | Unit | Frequency | |
-| | 29184.89 | 27720.71 | 29184.89 | 542.39 | 1960 - 2024 | USD Billion | Yearly | Current USD |"""
+Related	Last	Previous	Unit	Reference
+Full Year GDP Growth	2.10	2.80	percent	Dec 2025
+GDP	29184.89	27720.71	USD Billion	Dec 2024
+GDP Annual Growth Rate	2.00	2.30	percent	Dec 2025
+GDP Constant Prices	24055.70	24026.80	USD Billion	Dec 2025
+GDP Growth Rate	0.50	4.40	percent	Dec 2025
+GDP per Capita	66682.61	65505.26	USD	Dec 2024
+GDP per Capita PPP	75491.61	74158.72	USD	Dec 2024
+United States GDP
+The gross domestic product (GDP) measures of national income and output for a given country's economy. The gross domestic product (GDP) is equal to the total expenditures for all final goods and services produced within the country in a stipulated period of time.
+Actual	Previous	Highest	Lowest	Dates	Unit	Frequency	
+29184.89	27720.71	29184.89	542.39	1960 - 2024	USD Billion	Yearly	 Current USD"""
 
 # ── PAGINA 3 ──────────────────────────────────────────────
 html_text_3 = """<!DOCTYPE html><html><head id="ctl00_Head1"><link href="https://fonts.googleapis.com/css?family=Archivo:400,500|Arimo:400,500|Bitter:400,500|EB+Garamond:400,500|Lato|Libre+Baskervill|Libre+Franklin:400,500|Lora:400,500|Google+Sans:regular,medium:400,500|Material+Icons|Google+Symbols|Merriweather|Montserrat:400,500|Mukta:400,500|Muli:400,500|Nunito:400,500|Open+Sans:400,500,600|Open+Sans+Condensed:400,600|Oswald:500|Playfair+Display:400,500|Poppins:400,500|Raleway:400,500|Roboto:400,500|Roboto+Condensed:400,500|Roboto+Slab:400,500|Slabo+27px|Source+Sans+Pro|Ubuntu:400,500|Volkhov&amp;display=swap" rel="stylesheet"><meta charset="utf-8"><title>
@@ -11781,16 +11783,16 @@ html_text_3 = """<!DOCTYPE html><html><head id="ctl00_Head1"><link href="https:/
 gold_text_3 = """The Gross Domestic Product (GDP) in China was worth 18743.80 billion US dollars in 2024, according to official data from the World Bank. The GDP value of China represents 17.65 percent of the world economy. 
 GDP in China averaged 3590.13 USD Billion from 1960 until 2024, reaching an all time high of 18743.80 USD Billion in 2024 and a record low of 47.31 USD Billion in 1962. This page provides - China GDP - actual values, historical data, forecast, chart, statistics, economic calendar and news. China GDP - values, historical data and charts - was last updated on April of 2026. 
 GDP in China is expected to reach 19625.00 USD Billion by the end of 2026, according to Trading Economics global macro models and analysts expectations. In the long-term, the China GDP is projected to trend around 20508.00 USD Billion in 2027 and 21431.00 USD Billion in 2028, according to our econometric models.
-| Related | Last | Previous | Unit | Reference |
-| Full Year GDP Growth | 5.00 | 5.00 | percent | Dec 2025 |
-| GDP | 18743.80 | 18270.36 | USD Billion | Dec 2024 |
-| GDP Growth Rate YoY | 5.00 | 4.50 | percent | Mar 2026 |
-| GDP Growth Rate | 1.30 | 1.20 | percent | Mar 2026 |
-| GDP per Capita | 13121.68 | 12484.16 | USD | Dec 2024 |
-| GDP per Capita PPP | 23845.62 | 22687.08 | USD | Dec 2024 |
+Related	Last	Previous	Unit	Reference
+Full Year GDP Growth	5.00	5.00	percent	Dec 2025
+GDP	18743.80	18270.36	USD Billion	Dec 2024
+GDP Growth Rate YoY	5.00	4.50	percent	Mar 2026
+GDP Growth Rate	1.30	1.20	percent	Mar 2026
+GDP per Capita	13121.68	12484.16	USD	Dec 2024
+GDP per Capita PPP	23845.62	22687.08	USD	Dec 2024
 The gross domestic product (GDP) measures of national income and output for a given country's economy. The gross domestic product (GDP) is equal to the total expenditures for all final goods and services produced within the country in a stipulated period of time. 
-| | Actual | Previous | Highest | Lowest | Dates | Unit | Frequency | |
-| | 18743.80 | 18270.36 | 18743.80 | 47.31 | 1960 - 2024 | USD Billion | Yearly | Current USD |"""
+Actual	Previous	Highest	Lowest	Dates	Unit	Frequency	
+18743.80	18270.36	18743.80	47.31	1960 - 2024	USD Billion	Yearly	 Current USD"""
 
 # ── PAGINA 4 ──────────────────────────────────────────────
 html_text_4 = """<!DOCTYPE html><html><head id="ctl00_Head1"><link href="https://fonts.googleapis.com/css?family=Archivo:400,500|Arimo:400,500|Bitter:400,500|EB+Garamond:400,500|Lato|Libre+Baskervill|Libre+Franklin:400,500|Lora:400,500|Google+Sans:regular,medium:400,500|Material+Icons|Google+Symbols|Merriweather|Montserrat:400,500|Mukta:400,500|Muli:400,500|Nunito:400,500|Open+Sans:400,500,600|Open+Sans+Condensed:400,600|Oswald:500|Playfair+Display:400,500|Poppins:400,500|Raleway:400,500|Roboto:400,500|Roboto+Condensed:400,500|Roboto+Slab:400,500|Slabo+27px|Source+Sans+Pro|Ubuntu:400,500|Volkhov&amp;display=swap" rel="stylesheet"><meta charset="utf-8"><title>
@@ -15662,15 +15664,16 @@ html_text_4 = """<!DOCTYPE html><html><head id="ctl00_Head1"><link href="https:/
 gold_text_4 = """The Gross Domestic Product (GDP) in Germany was worth 4659.93 billion US dollars in 2024, according to official data from the World Bank. The GDP value of Germany represents 4.39 percent of the world economy. 
 GDP in Germany averaged 2251.58 USD Billion from 1970 until 2024, reaching an all time high of 4659.93 USD Billion in 2024 and a record low of 216.63 USD Billion in 1970. This page provides the latest reported value for - Germany GDP - plus previous releases, historical high and low, short-term forecast and long-term prediction, economic calendar, survey consensus and news. Germany GDP - values, historical data and charts - was last updated on April of 2026. 
 GDP in Germany is expected to reach 4688.00 USD Billion by the end of 2026, according to Trading Economics global macro models and analysts expectations. In the long-term, the Germany GDP is projected to trend around 4730.00 USD Billion in 2027 and 4787.00 USD Billion in 2028, according to our econometric models.
-| Related | Last | Previous | Unit | Reference |
-| Full Year GDP Growth | 0.20 | -0.50 | percent | Dec 2025 |
-| GDP | 4659.93 | 4525.70 | USD Billion | Dec 2024 |
-| GDP Growth Rate YoY | 0.40 | 0.30 | percent | Dec 2025 |
-| GDP Growth Rate | 0.30 | 0.00 | percent | Dec 2025 |
-| GDP per Capita | 44108.70 | 44008.13 | USD | Dec 2024 |
-| GDP per Capita PPP | 62829.80 | 62686.54 | USD | Dec 2024 |
-| | Actual | Previous | Highest | Lowest | Dates | Unit | Frequency | |
-| | 4659.93 | 4525.70 | 4659.93 | 216.63 | 1970 - 2024 | USD Billion | Yearly | Current USD |"""
+Related	Last	Previous	Unit	Reference
+Full Year GDP Growth	0.20	-0.50	percent	Dec 2025
+GDP	4659.93	4525.70	USD Billion	Dec 2024
+GDP Growth Rate YoY	0.40	0.30	percent	Dec 2025
+GDP Growth Rate	0.30	0.00	percent	Dec 2025
+GDP per Capita	44108.70	44008.13	USD	Dec 2024
+GDP per Capita PPP	62829.80	62686.54	USD	Dec 2024
+Germany GDP
+Actual	Previous	Highest	Lowest	Dates	Unit	Frequency	
+4659.93	4525.70	4659.93	216.63	1970 - 2024	USD Billion	Yearly	Current USD"""
 
 # ── PAGINA 5 ──────────────────────────────────────────────
 html_text_5 = """Q<!DOCTYPE html><html><head id="ctl00_Head1"><link href="https://fonts.googleapis.com/css?family=Archivo:400,500|Arimo:400,500|Bitter:400,500|EB+Garamond:400,500|Lato|Libre+Baskervill|Libre+Franklin:400,500|Lora:400,500|Google+Sans:regular,medium:400,500|Material+Icons|Google+Symbols|Merriweather|Montserrat:400,500|Mukta:400,500|Muli:400,500|Nunito:400,500|Open+Sans:400,500,600|Open+Sans+Condensed:400,600|Oswald:500|Playfair+Display:400,500|Poppins:400,500|Raleway:400,500|Roboto:400,500|Roboto+Condensed:400,500|Roboto+Slab:400,500|Slabo+27px|Source+Sans+Pro|Ubuntu:400,500|Volkhov&amp;display=swap" rel="stylesheet"><meta charset="utf-8"><title>
@@ -19385,16 +19388,17 @@ html_text_5 = """Q<!DOCTYPE html><html><head id="ctl00_Head1"><link href="https:
 gold_text_5 = """The Gross Domestic Product (GDP) In the Euro Area was worth 16406.13 billion US dollars in 2024, according to official data from the World Bank. The GDP value of Euro Area represents 14.74 percent of the world economy. 
 GDP in Euro Area averaged 6550.61 USD Billion from 1960 until 2024, reaching an all time high of 16406.13 USD Billion in 2024 and a record low of 251.41 USD Billion in 1960. This page provides the latest reported value for - Euro Area GDP - plus previous releases, historical high and low, short-term forecast and long-term prediction, economic calendar, survey consensus and news. Euro Area GDP - values, historical data and charts - was last updated on April of 2026. 
 GDP in Euro Area is expected to reach 16554.00 USD Billion by the end of 2026, according to Trading Economics global macro models and analysts expectations. In the long-term, the Euro Area GDP is projected to trend around 16736.00 USD Billion in 2027 and 16970.00 USD Billion in 2028, according to our econometric models.
-| Related | Last | Previous | Unit | Reference |
-| Full Year GDP Growth | 1.40 | 0.90 | percent | Dec 2025 |
-| GDP | 16406.13 | 15787.24 | USD Billion | Dec 2024 |
-| GDP Growth Rate YoY | 1.20 | 1.40 | percent | Dec 2025 |
-| GDP Growth Annualized | 0.80 | 1.20 | percent | Dec 2025 |
-| GDP Growth Rate | 0.20 | 0.30 | percent | Dec 2025 |
-| GDP per Capita | 38145.12 | 37908.58 | USD | Dec 2024 |
-| GDP per Capita PPP | 56326.23 | 55940.09 | USD | Dec 2024 |
-| | Actual | Previous | Highest | Lowest | Dates | Unit | Frequency | |
-| | 16406.13 | 15787.24 | 16406.13 | 251.41 | 1960 - 2024 | USD Billion | Yearly | Current USD |"""
+Related	Last	Previous	Unit	Reference
+Full Year GDP Growth	1.40	0.90	percent	Dec 2025
+GDP	16406.13	15787.24	USD Billion	Dec 2024
+GDP Growth Rate YoY	1.20	1.40	percent	Dec 2025
+GDP Growth Annualized	0.80	1.20	percent	Dec 2025
+GDP Growth Rate	0.20	0.30	percent	Dec 2025
+GDP per Capita	38145.12	37908.58	USD	Dec 2024
+GDP per Capita PPP	56326.23	55940.09	USD	Dec 2024
+Euro Area GDP
+Actual	Previous	Highest	Lowest	Dates	Unit	Frequency	
+16406.13	15787.24	16406.13	251.41	1960 - 2024	USD Billion	Yearly	Current USD"""
 
 # ── CREA IL JSON ──────────────────────────────────────────
 data = [

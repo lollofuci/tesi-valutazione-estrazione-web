@@ -21,7 +21,7 @@ from evaluation.evaluator import token_level_eval, aggregate_metrics
 
 app = FastAPI()
 
-BASE_DIR = Path(__file__).resolve().parent.parent.parent
+BASE_DIR = Path(__file__).resolve().parent.parent
 DOMAINS_PATH = BASE_DIR / "domains.json"
 GS_DATA_DIR = BASE_DIR / "gs_data"
 
@@ -88,8 +88,8 @@ def get_gs_filename(domain: str) -> str:
         return "atptour_gs.json"
     if domain == "accuweather.com":
         return "accuweather_gs.json"
-    if domain == "treadingeconomics.com":
-        return "tradingeconomics.json"
+    if domain == "tradingeconomics.com":
+        return "tradingeconomics_gs.json"
     raise HTTPException(status_code=400, detail="Dominio non supportato")
 
 
