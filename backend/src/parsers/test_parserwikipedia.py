@@ -1,10 +1,10 @@
 import asyncio
 
-from parsers.new_wikipedia_parser import WikipediaParserClean
+from parsers.new_wikipedia_parser import WikipediaParser
 
 
 async def main():
-    parser = WikipediaParserClean()
+    parser = WikipediaParser()
     result = await parser.parse("https://it.wikipedia.org/wiki/Avellino")
 
     print("\nTITLE:")

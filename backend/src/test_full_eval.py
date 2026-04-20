@@ -7,10 +7,10 @@ from evaluation.evaluator import token_level_eval, aggregate_metrics
 
 
 async def main():
-    with open("../../gs_data/tradingeconomics_gs.json", "r", encoding="utf-8") as f:
+    with open("../../gs_data/wikipedia_gs.json", "r", encoding="utf-8") as f:
         gs_data = json.load(f)
 
-    parser = TradingEconomicsParser()
+    parser = WikipediaParser()
     metrics_list = []
 
     for entry in gs_data:
@@ -18,7 +18,7 @@ async def main():
         gold_text = entry["gold_text"]
         html_text = entry["html_text"]
         try:
-            parsed_result = await parser.parse_from_html(url, html_text)
+            parsed_result = await parser.parse(url)
             print(f"parsed_text: '{parsed_result['parsed_text'][:200]}'")
             metrics = token_level_eval(
                 parsed_text=parsed_result["parsed_text"],

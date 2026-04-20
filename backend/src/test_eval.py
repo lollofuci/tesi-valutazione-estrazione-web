@@ -1,15 +1,16 @@
 import asyncio
 import json
 
+from parsers.accuweather_parser import AccuWeatherParser
 from parsers.wikipedia_parser import WikipediaParser
 from evaluation.evaluator import token_level_eval
 
 
 async def main():
-    url = "https://it.wikipedia.org/wiki/Avellino"
+    url = "https://www.accuweather.com/it/it/rome/213490/weather-forecast/213490"
 
     # carica il GS
-    with open("../../gs_data/wikipedia_gs.json", "r", encoding="utf-8") as f:
+    with open("../../gs_data/accuweather.json", "r", encoding="utf-8") as f:
         gs_data = json.load(f)
 
     # cerca l'entry del GS con quell'url
@@ -22,7 +23,7 @@ async def main():
     if gold_entry is None:
         raise ValueError(f"URL {url} non trovato nel gold standard")
 
-    parser = WikipediaParser()
+    parser = AccuWeatherParser()
     parsed_result = await parser.parse(url)
 
     metrics = token_level_eval(

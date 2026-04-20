@@ -23,8 +23,9 @@ class AccuWeatherParser(BaseParser):
         )
 
     async def parse(self, url: str) -> dict:
-        domain = urlparse(url).netloc
-
+        """
+        Scarica la pagina dall'URL e delega il parsing a parse_from_html.
+        """
         async with AsyncWebCrawler(config=self.browser_config) as crawler:
             result = await crawler.arun(url=url, config=self.run_config)
 
@@ -32,11 +33,29 @@ class AccuWeatherParser(BaseParser):
             error_message = getattr(result, "error_message", "Errore sconosciuto")
             raise RuntimeError(f"Crawl fallito: {error_message}")
 
+        return await self.parse_from_html(url, result.html)
+
+    async def parse_from_html(self, url: str, html: str) -> dict:
+        """
+        Dato un URL e l'HTML grezzo, restituisce i dati parsati.
+        """
+        domain = urlparse(url).netloc
+
+        async with AsyncWebCrawler(config=self.browser_config) as crawler:
+            result = await crawler.arun(
+                url=f"raw:{html}",
+                config=self.run_config,
+            )
+
+        if not result.success:
+            error_message = getattr(result, "error_message", "Errore sconosciuto")
+            raise RuntimeError(f"Parsing da HTML fallito: {error_message}")
+
         return {
             "url": url,
             "domain": domain,
-            "title": self._estrai_titolo(result.html, url),
-            "html_text": result.html,
+            "title": self._estrai_titolo(html, url),
+            "html_text": html,
             "parsed_text": self._pulisci_markdown(result.markdown),
         }
 

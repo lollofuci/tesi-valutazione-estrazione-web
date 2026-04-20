@@ -5,6 +5,9 @@ import json
 from fastapi import FastAPI, HTTPException
 
 from parsers.new_wikipedia_parser import WikipediaParser
+from parsers.atptour_parser import ATPTourParser
+from parsers.accuweather_parser import AccuWeatherParser
+from parsers.tradingeconomics_parser import TradingEconomicsParser
 from models import (
     ParseResponse,
     DomainsResponse,
@@ -18,7 +21,7 @@ from evaluation.evaluator import token_level_eval, aggregate_metrics
 
 app = FastAPI()
 
-BASE_DIR = Path(__file__).resolve().parent.parent
+BASE_DIR = Path(__file__).resolve().parent.parent.parent
 DOMAINS_PATH = BASE_DIR / "domains.json"
 GS_DATA_DIR = BASE_DIR / "gs_data"
 
@@ -51,6 +54,12 @@ def check_supported_domain(domain: str) -> None:
 def get_parser(domain: str):
     if domain == "it.wikipedia.org":
         return WikipediaParser()
+    if domain == "www.atptour.com":
+        return ATPTourParser()
+    if domain == "accuweather.com":
+        return AccuWeatherParser()
+    if domain == "tradingeconomics.com":
+        return TradingEconomicsParser()
     raise HTTPException(status_code=400, detail="Dominio non supportato")
 
 
@@ -75,6 +84,12 @@ async def parse_url(url: str):
 def get_gs_filename(domain: str) -> str:
     if domain == "it.wikipedia.org":
         return "wikipedia_gs.json"
+    if domain == "www.atptour.com":
+        return "atptour_gs.json"
+    if domain == "accuweather.com":
+        return "accuweather_gs.json"
+    if domain == "treadingeconomics.com":
+        return "tradingeconomics.json"
     raise HTTPException(status_code=400, detail="Dominio non supportato")
 
 
