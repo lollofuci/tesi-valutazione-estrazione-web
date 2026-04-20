@@ -40,6 +40,7 @@ class AccuWeatherParser(BaseParser):
         Dato un URL e l'HTML grezzo, restituisce i dati parsati.
         """
         domain = urlparse(url).netloc
+        domain = urlparse(url).netloc.lower().removeprefix("www.")
 
         async with AsyncWebCrawler(config=self.browser_config) as crawler:
             result = await crawler.arun(

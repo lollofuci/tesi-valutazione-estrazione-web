@@ -54,7 +54,7 @@ def check_supported_domain(domain: str) -> None:
 def get_parser(domain: str):
     if domain == "it.wikipedia.org":
         return WikipediaParser()
-    if domain == "www.atptour.com":
+    if domain == "atptour.com":
         return ATPTourParser()
     if domain == "accuweather.com":
         return AccuWeatherParser()
@@ -63,9 +63,21 @@ def get_parser(domain: str):
     raise HTTPException(status_code=400, detail="Dominio non supportato")
 
 
+def normalize_domain(url_or_domain: str) -> str:
+    domain = urlparse(url_or_domain).netloc or url_or_domain
+    return domain.lower().removeprefix("www.")
+
+
+def check_supported_domain(domain: str) -> None:
+    domain = normalize_domain(domain)
+    supported_domains = load_domains()
+    if domain not in supported_domains:
+        raise HTTPException(status_code=400, detail="Dominio non supportato")
+
+
 @app.get("/parse", response_model=ParseResponse)
 async def parse_url(url: str):
-    domain = urlparse(url).netloc
+    domain = normalize_domain(url)
     check_supported_domain(domain)
 
     parser = get_parser(domain)
@@ -77,6 +89,19 @@ async def parse_url(url: str):
         raise HTTPException(status_code=500, detail=f"Errore nel parsing: {e}")
 
 
+@app.get("/gold_standard", response_model=GoldStandardEntry)
+def get_gs(url: str):
+    domain = normalize_domain(url)
+    check_supported_domain(domain)
+
+    gs = load_gs(domain)
+
+    for entry in gs:
+        if entry["url"] == url:
+            return entry
+
+    raise HTTPException(status_code=404, detail="URL non nel GS")
+
 # -------------------------
 # GOLD STANDARD
 # -------------------------
@@ -84,10 +109,10 @@ async def parse_url(url: str):
 def get_gs_filename(domain: str) -> str:
     if domain == "it.wikipedia.org":
         return "wikipedia_gs.json"
-    if domain == "www.atptour.com":
+    if domain == "atptour.com":
         return "atptour_gs.json"
     if domain == "accuweather.com":
-        return "accuweather_gs.json"
+        return "accuweather.json"
     if domain == "tradingeconomics.com":
         return "tradingeconomics_gs.json"
     raise HTTPException(status_code=400, detail="Dominio non supportato")
@@ -103,19 +128,6 @@ def load_gs(domain: str):
     except FileNotFoundError:
         raise HTTPException(status_code=500, detail="File GS non trovato")
 
-
-@app.get("/gold_standard", response_model=GoldStandardEntry)
-def get_gs(url: str):
-    domain = urlparse(url).netloc
-    check_supported_domain(domain)
-
-    gs = load_gs(domain)
-
-    for entry in gs:
-        if entry["url"] == url:
-            return entry
-
-    raise HTTPException(status_code=404, detail="URL non nel GS")
 
 
 @app.get("/full_gold_standard", response_model=FullGoldStandardResponse)
