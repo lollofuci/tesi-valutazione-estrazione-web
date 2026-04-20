@@ -55,9 +55,7 @@ class TradingEconomicsParser(BaseParser):
         fine = re.search(r"\nRelated\n|\n\*\*[A-Z]|\nCompare:", md)
         if fine:
             md = md[:fine.start()]
-        titolo = self._estrai_titolo(md_originale)
-        if titolo:
-            md = re.sub(rf"(?m)^{re.escape(titolo)}\s*$", "", md)
+     
 
 
         # 3) Pulizia regex
@@ -90,23 +88,27 @@ class TradingEconomicsParser(BaseParser):
         # 4) Filtraggio riga per riga
         linee = []
         for riga in md.splitlines():
-            s = riga.strip()
-            if not s:
+            riga = riga.strip()
+            if not riga:
                 continue
-            if re.match(r"^\|[\s\-\|]+$", s):
+            if re.match(r"^\|[\s\-\|]+$", riga):
                 continue
-            if s.startswith("|") and len(s) > 5:
-                linee.append(s)
+            if riga.startswith("|") and len(riga) > 5:
+                linee.append(riga)
                 continue
-            if len(s) < 20 and not re.search(r"\d", s):
+            if len(riga) < 20 and not re.search(r"\d", riga):
+                if re.match(r"^[A-Za-z\s]+$", riga):  # ← è un titolo? tienilo
+                    linee.append(riga)
                 continue
-            if re.match(r"^[\d\s\.\,KMB\|\-]+$", s):
+            if re.match(r"^[\d\s\.\,KMB\|\-]+$", riga):
                 continue
             linee.append(riga)
 
         md = "\n".join(linee)
         md = re.sub(r"\n{3,}", "\n\n", md)
         md = re.sub(r"[ \t]{2,}", " ", md)
+        md = md.replace("|", "")   # ← aggiungi questa riga
+        md = "\n".join(line.strip() for line in md.splitlines())  # ← aggiungi questa
         return md.strip()
     async def parse_from_html(self, url: str, html: str) -> dict:
         domain = urlparse(url).netloc
@@ -120,3 +122,7 @@ class TradingEconomicsParser(BaseParser):
             "title": self._estrai_titolo(res.markdown),
             "parsed_text": self._pulisci_markdown(res.markdown),
         }
+    
+
+
+

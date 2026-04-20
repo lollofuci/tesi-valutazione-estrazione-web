@@ -6,7 +6,7 @@ from parsers.tradingeconomics_parser import TradingEconomicsParser
 
 async def main():
     parser = TradingEconomicsParser()
-    risultato = await parser.parse("https://tradingeconomics.com/china/gdp")
+    risultato = await parser.parse("https://tradingeconomics.com/euro-area/gdp")
     
     print(f"Titolo: {risultato['title']}")
     print(f"Parsed text ({len(risultato['parsed_text'])} caratteri):\n")
