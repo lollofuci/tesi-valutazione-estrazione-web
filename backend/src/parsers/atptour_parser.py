@@ -58,7 +58,7 @@ class ATPTourParser(BaseParser):
         slug = unquote(slug).replace("-", " ")
         return slug.title().strip()
 
-    def _smista_e_pulisci(self, url: str, md: str, titolo: str) -> str:
+    def leggi_URL(self, url: str, md: str, titolo: str) -> str:
         if "/news/" in url:
             return self._pulisci_news(md, titolo)
         elif "/atp-head-2-head/" in url or "/head-2-head/" in url:
