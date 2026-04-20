@@ -2,70 +2,139 @@ import re
 from urllib.parse import urlparse, unquote
 
 from crawl4ai import AsyncWebCrawler, BrowserConfig, CrawlerRunConfig
-
 from parsers.base_parser import BaseParser
 
 
 class AccuWeatherParser(BaseParser):
-    """Parser semplice e generale per pagine AccuWeather."""
+    """Parser generale per pagine AccuWeather."""
+
+    _START_PATTERNS = [
+        r"##\s*Meteo attuale\b",
+        r"##\s*Current Weather\b",
+        r"##\s*Previsioni orarie\b",
+        r"##\s*Hourly Weather\b",
+        r"##\s*Previsioni giorno\b",
+        r"##\s*Daily Weather\b",
+        r"##\s*Sole e luna\b",
+        r"##\s*Sun\s*&\s*Moon\b",
+        r"##\s*Qualità dell'aria\b",
+        r"##\s*Air Quality\b",
+        r"##\s*Situazione allergie\b",
+        r"##\s*Allergy Outlook\b",
+    ]
+
+    _STOP_PATTERNS = [
+        r"©\s*\d{4}\s*AccuWeather,\s*Inc\.",
+        r"^Condizioni di utilizzo\b",
+        r"^Terms of Use\b",
+        r"^Informativa sulla privacy\b",
+        r"^Privacy Policy\b",
+        r"^Norme sui cookie\b",
+        r"^Cookie Policy\b",
+        r"^Fonti dei dati\b",
+        r"^Data Sources\b",
+        r"^Around the Globe\b",
+        r"^World\b",
+        r"^Top Stories\b",
+        r"^Featured Stories\b",
+        r"^Weather News\b",
+        r"^More Stories\b",
+        r"^About AccuWeather\b",
+        r"^Products\s*&\s*Services\b",
+        r"^Proven Superior Accuracy\b",
+    ]
+
+    _NOISE_PATTERNS = [
+        r"^Static Radar.*$",
+        r"^Temporarily Unavailable.*$",
+        r"^Thank you for your patience.*$",
+        r"^Refresh Page\s*$",
+        r"^Nuvole Temperatura\s*$",
+        r"^Clouds Temperature\s*$",
+        r"^Visualizza altro.*$",
+        r"^See More.*$",
+        r"^See All.*$",
+        r"^Vedi tutto.*$",
+        r"^Altri dettagli\s*$",
+        r"^More Details\s*$",
+        r"^Recent\s*$",
+        r"^Go Back\s*$",
+        r"^Use Current Location\s*$",
+        r"^Chevron\s+(left|right)\s*$",
+        r"^LEARN MORE\s*$",
+        r"^No results found\.\s*$",
+        r"^Try searching for.*$",
+        r"^Dati non supportati in questa posizione\s*$",
+        r"^Data not supported.*$",
+        r"^Include informazioni Copernicus.*$",
+        r"^Includes modified Copernicus.*$",
+        r"^Advertisement\s*$",
+        r"^Pubblicità\s*$",
+    ]
+
+    _KNOWN_HEADERS = [
+        "Meteo attuale",
+        "Current Weather",
+        "Evoluzione",
+        "Outlook",
+        "Previsioni orarie",
+        "Hourly Weather",
+        "Previsioni giorno",
+        "Daily Weather",
+        "Sole e luna",
+        "Sun & Moon",
+        "Qualità dell'aria",
+        "Air Quality",
+        "Situazione allergie",
+        "Allergy Outlook",
+    ]
 
     def __init__(self) -> None:
         self.browser_config = BrowserConfig(headless=True)
-
-        # prendiamo il contenuto centrale della pagina, non tutta la pagina
         self.run_config = CrawlerRunConfig(
             word_count_threshold=1,
             remove_overlay_elements=True,
-            exclude_external_links=False,
             exclude_social_media_links=True,
             process_iframes=False,
             css_selector="body",
         )
 
     async def parse(self, url: str) -> dict:
-        """
-        Scarica la pagina dall'URL e delega il parsing a parse_from_html.
-        """
         async with AsyncWebCrawler(config=self.browser_config) as crawler:
             result = await crawler.arun(url=url, config=self.run_config)
 
         if not result.success:
-            error_message = getattr(result, "error_message", "Errore sconosciuto")
-            raise RuntimeError(f"Crawl fallito: {error_message}")
+            raise RuntimeError(
+                f"Crawl fallito: {getattr(result, 'error_message', 'Errore sconosciuto')}"
+            )
 
         return await self.parse_from_html(url, result.html)
 
     async def parse_from_html(self, url: str, html: str) -> dict:
-        """
-        Dato un URL e l'HTML grezzo, restituisce i dati parsati.
-        """
-        domain = urlparse(url).netloc
         domain = urlparse(url).netloc.lower().removeprefix("www.")
 
         async with AsyncWebCrawler(config=self.browser_config) as crawler:
-            result = await crawler.arun(
-                url=f"raw:{html}",
-                config=self.run_config,
-            )
+            result = await crawler.arun(url=f"raw:{html}", config=self.run_config)
 
         if not result.success:
-            error_message = getattr(result, "error_message", "Errore sconosciuto")
-            raise RuntimeError(f"Parsing da HTML fallito: {error_message}")
+            raise RuntimeError(
+                f"Parsing da HTML fallito: {getattr(result, 'error_message', 'Errore sconosciuto')}"
+            )
 
         return {
             "url": url,
             "domain": domain,
-            "title": self._estrai_titolo(html, url),
+            "title": self._extract_title(html, url),
             "html_text": html,
-            "parsed_text": self._pulisci_markdown(result.markdown),
+            "parsed_text": self._clean_markdown(result.markdown),
         }
 
-    def _estrai_titolo(self, html: str, url: str) -> str:
-        match = re.search(r"<title>(.*?)</title>", html, flags=re.I | re.S)
+    def _extract_title(self, html: str, url: str) -> str:
+        match = re.search(r"<title>(.*?)</title>", html, flags=re.IGNORECASE | re.DOTALL)
         if match:
-            title = match.group(1).strip()
-            title = re.sub(r"\s*\|\s*AccuWeather\s*$", "", title, flags=re.I)
-            return title
+            title = re.sub(r"\s+", " ", match.group(1)).strip()
+            title = re.sub(r"\s*\|\s*AccuWeather\s*$", "", title, flags=re.IGNORECASE)
+            return title.strip()
 
         parts = [p for p in urlparse(url).path.split("/") if p]
         if len(parts) >= 3:
@@ -73,18 +142,15 @@ class AccuWeatherParser(BaseParser):
 
         return "accuweather"
 
-    def _pulisci_markdown(self, md: str) -> str:
+    def _clean_markdown(self, md: str) -> str:
         md = md.replace("\r\n", "\n").replace("\r", "\n")
 
-        # 1. immagini markdown -> tieni solo l'alt text
         md = re.sub(
             r"!\[(.*?)\]\((?:[^)(]+|\([^)(]*\))*\)",
             r"\1",
             md,
             flags=re.DOTALL,
         )
-
-        # 2. link markdown -> tieni solo il testo
         md = re.sub(
             r"\[(.*?)\]\((?:[^)(]+|\([^)(]*\))*\)",
             r"\1",
@@ -92,80 +158,42 @@ class AccuWeatherParser(BaseParser):
             flags=re.DOTALL,
         )
 
-        # 3. pulizia markdown base
-        md = re.sub(r"\*\*", "", md)
-        md = re.sub(r"_", " ", md)
+        md = md.replace("**", "").replace("__", "").replace("*", "")
 
-        # 4. parti dal primo blocco meteo serio
-        start_match = re.search(
-            r"(?mi)^(#\s*Current Weather|##\s*Current Weather|##\s*Today's Weather|##\s*Day|##\s*Night|##\s*Hourly Weather|##\s*10-Day Weather Forecast|##\s*Air Quality)",
-            md,
-        )
+        for header in self._KNOWN_HEADERS:
+            md = re.sub(
+                rf"\s*(##\s*{re.escape(header)})\s*",
+                r"\n\n\1\n",
+                md,
+            )
+
+        start_regex = r"^(" + "|".join(self._START_PATTERNS) + r")"
+        start_match = re.search(start_regex, md, flags=re.MULTILINE | re.IGNORECASE)
         if start_match:
             md = md[start_match.start():]
 
-        # 5. togli solo rumore chiarissimo
-        rumore = [
-            r"(?mi)^Today Hourly 10-Day Radar MinuteCast® Monthly Air Quality Health & Activities\s*$",
-            r"(?mi)^Go Back\s*$",
-            r"(?mi)^Use Current Location\s*$",
-            r"(?mi)^Recent\s*$",
-            r"(?mi)^See More\s*$",
-            r"(?mi)^See All\s*$",
-            r"(?mi)^Refresh Page\s*$",
-            r"(?mi)^Chevron left\s*$",
-            r"(?mi)^Chevron right\s*$",
-            r"(?mi)^LEARN MORE\s*$",
-            r"(?mi)^Further Ahead\s*$",
-            r"(?mi)^RealFeel Guide\s*$",
-            r"(?mi)^No results found\.\s*$",
-            r"(?mi)^Try searching for a city, zip code or point of interest\.\s*$",
-        ]
-
-        for pattern in rumore:
-            md = re.sub(pattern, "", md)
-
-        # 6. taglia quando iniziano davvero blocchi non utili / finali
-        stop_match = re.search(
-            r"(?mi)^("
-            r"###\s*Hourly\s*###\s*10-Day\s*###\s*Monthly|"
-            r"Around the Globe|"
-            r"###\s*Hurricane\s*###\s*Severe Weather\s*###\s*Radar\s*&\s*Maps\s*###\s*News\s*###\s*Video|"
-            r"Top Stories|"
-            r"Featured Stories|"
-            r"Weather News|"
-            r"More Stories|"
-            r"About AccuWeather|"
-            r"Products\s*&\s*Services|"
-            r"Subscription Services|"
-            r"Weather Near|"
-            r"Proven Superior Accuracy™|"
-            r"World\s+Europe"
-            r")\b",
-            md,
-        )
+        stop_regex = r"(" + "|".join(self._STOP_PATTERNS) + r")"
+        stop_match = re.search(stop_regex, md, flags=re.MULTILINE | re.IGNORECASE)
         if stop_match:
             md = md[:stop_match.start()]
 
-        # 7. etichette fastidiose ma non informative
-        md = re.sub(r"\bMore Details\b", "", md, flags=re.I)
-        md = re.sub(r"\bRealFeel Guide\b", "", md, flags=re.I)
+        for pattern in self._NOISE_PATTERNS:
+            md = re.sub(pattern, "", md, flags=re.MULTILINE | re.IGNORECASE)
 
-        # 8. normalizzazione
+        md = re.sub(r"\bRealFeel®?\s*\d+°", "", md, flags=re.IGNORECASE)
+        md = re.sub(r"\bRealFeel Shade™?\s*\d+°", "", md, flags=re.IGNORECASE)
+        md = re.sub(r"\bRealFeel Guide\b", "", md, flags=re.IGNORECASE)
+
         md = re.sub(r"[ \t]{2,}", " ", md)
+        md = re.sub(r"\n[ \t]+", "\n", md)
+        md = re.sub(r"[ \t]+\n", "\n", md)
         md = re.sub(r"\n{3,}", "\n\n", md)
 
-        # 9. togli righe vuote / segnaposto inutili
-        linee_pulite = []
+        lines = []
         for line in md.splitlines():
-            s = line.strip()
-
-            if not s:
+            line = line.strip()
+            if not line or line in {"#", "##", "###", "####"}:
                 continue
+            lines.append(line)
 
-            if s in {"#", "##", "###"}:
-                continue
-
-            linee_pulite.append(s)
-
-        return "\n".join(linee_pulite).strip()
+        return "\n".join(lines).strip()
