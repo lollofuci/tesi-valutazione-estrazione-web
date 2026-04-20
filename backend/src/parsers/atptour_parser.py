@@ -7,15 +7,9 @@ from urllib.parse import urlparse, unquote
 from crawl4ai import AsyncWebCrawler, BrowserConfig, CrawlerRunConfig, CacheMode
 from parsers.base_parser import BaseParser
 
-
 class ATPTourParser(BaseParser):
-    """
-    Parser UNIVERSALE per atptour.com basato sulla tecnica "Bottom Slice".
-    Nessun selettore CSS: scarica l'intera pagina e isola il testo puro.
-    """
-
     def __init__(self) -> None:
-        self.browser_config = BrowserConfig(headless=True)
+        self.browser_config = BrowserConfig(headless=False)
         self.run_config = CrawlerRunConfig(magic=True, cache_mode=CacheMode.BYPASS)
 
     async def parse_from_html(self, url: str, html: str) -> dict:
@@ -82,18 +76,13 @@ class ATPTourParser(BaseParser):
         slug = unquote(slug).replace("-", " ")
         return slug.title().strip()
 
-    # ==========================================
-    # ROUTER E METODI DI PULIZIA SPECIFICI
-    # ==========================================
-    
     def _smista_e_pulisci(self, url: str, md: str, titolo: str) -> str:
-        """Legge l'URL e decide quali 'forbici' usare per tagliare il Markdown."""
         if "/news/" in url:
             return self._pulisci_news(md, titolo)
         elif "/atp-head-2-head/" in url or "/head-2-head/" in url:
             return self._pulisci_h2h(md, titolo)
         else:
-            return self._pulisci_news(md, titolo) 
+            return self._pulisci_news(md, titolo)
 
     def _pulisci_news(self, md: str, titolo: str) -> str:
         md = re.sub(r"\r\n?", "\n", md)
@@ -109,7 +98,7 @@ class ATPTourParser(BaseParser):
                 if match_titolo:
                     md = md[match_titolo.start():]
 
-        pattern_coda = r"(?ms)^(###\s+(Read More News|View Related|Stats widget|DOWNLOAD)|## Header 2|NEWSLETTERS|## Partners|#### Corporate|## Privacy Preference Center).*$"
+        pattern_coda = r"(?ms)^(###\s+(Read More News|View Related|Stats widget|DOWNLOAD)|## Header 2|NEWSLETTERS|## Partners|#### Corporate|## Privacy Preference Center|Premier Partner).*$"
         match_bottom = re.search(pattern_coda, md)
         if match_bottom:
             md = md[:match_bottom.start()]
@@ -122,10 +111,11 @@ class ATPTourParser(BaseParser):
             s = line.strip()
             if not s: continue
 
-            s = re.sub(r"\[\]\([^)]+\)", "", s)
             s = re.sub(r"!\[.*?\]\([^)]+\)", "", s)
+            s = re.sub(r"\[?\s*\]\([^)]+\)", "", s)
             s = re.sub(r"\[([^\]]+)\]\([^)]+\)", r"\1", s)
-            s = s.lstrip("#* ").strip()
+            s = s.replace("[", "").replace("]", "")
+            s = s.lstrip("#* ").strip("! ")
             
             if not s: continue
 
@@ -136,7 +126,8 @@ class ATPTourParser(BaseParser):
             selettori_spazzatura = {
                 "share", "play", "mute", "chapters", "getty images", "/", "1x", "done",
                 "match report", "play video", "audio track", "descriptions", "captions",
-                "picture-in-picturefullscreen", "en", "es", "close modal dialog", "end of dialog window." 
+                "picture-in-picturefullscreen", "en", "es", "close modal dialog", "end of dialog window.",
+                "shop", "premier partner"
             }
             if s_lower in selettori_spazzatura: continue
             if s_lower.startswith((
@@ -151,63 +142,56 @@ class ATPTourParser(BaseParser):
         testo_finale = re.sub(r"[ \t]{2,}", " ", testo_finale)
         return re.sub(r"\n{3,}", "\n\n", testo_finale).strip()
 
-
     def _pulisci_h2h(self, md: str, titolo: str) -> str:
-        """Nuova logica ultra-precisa per le pagine Head-2-Head."""
         md = re.sub(r"\r\n?", "\n", md)
 
-        # 1. TAGLIO TESTA H2H: Il menu finisce con "ATP Fantasy", poi "Shop", poi dei "!"
-        # (?is) permette di ignorare maiuscole/minuscole e far sì che \s matchi tutti gli "a capo"
-        match_inizio = re.search(r"(?is)ATP Fantasy\s*Shop\s*(?:!\s*)+", md)
+        match_inizio = re.search(r"(?is)(?:Women's Tennis Association|ATP Fantasy|Gaming).*?Shop[^\w]*", md)
         if match_inizio:
             md = md[match_inizio.end():]
         else:
-            # Fallback se non c'è "ATP Fantasy"
-            match_inizio_2 = re.search(r"(?im)Shop\s*(?:!\s*)+", md)
+            match_inizio_2 = re.search(r"(?im)Shop[^\w]*", md)
             if match_inizio_2:
                 md = md[match_inizio_2.end():]
 
-        # 2. TAGLIO CODA H2H: Tagliamo via "Riveting Rivalries", App, ecc.
-        # Abbiamo tolto il simbolo '^' così lo trova anche se ci sono spazi prima!
-        pattern_coda = r"(?is)(Riveting Rivalries|DOWNLOAD OFFICIAL|NEWSLETTERS|## Partners|#### Corporate|## Privacy Preference Center).*"
+        pattern_coda = r"(?is)(Riveting Rivalries|DOWNLOAD OFFICIAL|NEWSLETTERS|## Partners|#### Corporate|## Privacy Preference Center|Premier Partner|Related Players).*"
         match_bottom = re.search(pattern_coda, md)
         if match_bottom:
             md = md[:match_bottom.start()]
 
-        # 3. PULIZIA RIGA PER RIGA (Rimozione tabelle e rumore)
         linee_valide = []
         for line in md.splitlines():
             s = line.strip()
             if not s: continue
 
-            # Rimuoviamo immagini e puliamo i link testuali
-            s = re.sub(r"\[\]\([^)]+\)", "", s)
             s = re.sub(r"!\[.*?\]\([^)]+\)", "", s)
+            s = re.sub(r"\[?\s*\]\([^)]+\)", "", s)
             s = re.sub(r"\[([^\]]+)\]\([^)]+\)", r"\1", s)
-            s = s.lstrip("#* ").strip()
+            s = s.replace("[", "").replace("]", "")
+            s = s.lstrip("#* ").strip("! ")
             
             if not s: continue
 
-            # Distrugge la riga di formattazione delle tabelle Markdown (es. | --- | --- |)
             if re.match(r"^[\s|:-]+$", s):
                 continue
                 
-            # Sostituisce le "pipe" (|) della tabella con spazi per renderlo testo puro
             s = s.replace("|", " ")
             s = re.sub(r"\s{2,}", " ", s).strip()
 
+            s = re.sub(r"^(.*?)(YTD W/L|YTD titles|Career W/L|Career titles|Career prize money)(.*)$", r"\1\n\2\n\3", s)
+            s = re.sub(r"^(Rank|Age|Weight|Height|Plays|Backhand|Turned Pro)(.*)$", r"\1\n\2", s)
+
             s_lower = s.lower()
-            
-            # Parole spazzatura specifiche che ATP inserisce nell'H2H e che non ci servono
-            selettori_h2h = {"en", "es", "buy tickets", "search", "breakdown", "events breakdown"}
+            selettori_h2h = {"en", "es", "buy tickets", "search", "shop", "premier partner", "atp fantasy", "breakdown", "events breakdown"}
             if s_lower in selettori_h2h:
                 continue
             
-            # Filtri di inizio riga per rimuovere le icone non caricate
             if s_lower.startswith(("latest\nnews", "search icon", "filter icon", "related players")):
                 continue
 
-            linee_valide.append(s)
+            for part in s.split('\n'):
+                part = part.strip()
+                if part:
+                    linee_valide.append(part)
 
         testo_finale = "\n\n".join(linee_valide)
         testo_finale = re.sub(r"[ \t]{2,}", " ", testo_finale)
