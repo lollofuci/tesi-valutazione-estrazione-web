@@ -5,7 +5,7 @@ from parsers.atptour_parser import ATPTourParser
 
 async def main():
     parser = ATPTourParser()
-    result = await parser.parse("https://www.atptour.com/en/news/fonseca-rinderknech-munich-2026-wednesday")
+    result = await parser.parse("https://www.atptour.com/en/news/zverev-diallo-munich-2026-thursday")
 
     print("\nTITLE:")
     print(result["title"])

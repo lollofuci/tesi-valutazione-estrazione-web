@@ -3,14 +3,15 @@ import json
 
 from parsers.new_wikipedia_parser import WikipediaParser
 from parsers.tradingeconomics_parser import TradingEconomicsParser
+from parsers.atptour_parser import ATPTourParser
 from evaluation.evaluator import token_level_eval, aggregate_metrics
 
 
 async def main():
-    with open("../../gs_data/wikipedia_gs.json", "r", encoding="utf-8") as f:
+    with open("../../gs_data/atptour_gs.json", "r", encoding="utf-8") as f:
         gs_data = json.load(f)
 
-    parser = WikipediaParser()
+    parser = ATPTourParser()
     metrics_list = []
 
     for entry in gs_data:

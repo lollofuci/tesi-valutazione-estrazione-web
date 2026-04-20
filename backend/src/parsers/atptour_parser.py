@@ -1,18 +1,48 @@
+import os
 import re
+import tempfile
 import asyncio
-from pathlib import Path
 from urllib.parse import urlparse, unquote
 
-from crawl4ai import AsyncWebCrawler, BrowserConfig, CrawlerRunConfig
+from crawl4ai import AsyncWebCrawler, BrowserConfig, CrawlerRunConfig, CacheMode
 from parsers.base_parser import BaseParser
 
 class ATPTourParser(BaseParser):
-    """Parser per atptour.com basato al 100% su Regex (Niente BeautifulSoup)."""
-
     def __init__(self) -> None:
-        self.browser_config = BrowserConfig(headless=True)
-        # Miriamo al corpo dell'articolo per tagliare fuori a monte header e footer
-        self.run_config = CrawlerRunConfig(css_selector=".atp_article", magic=True)
+        self.browser_config = BrowserConfig(headless=False)
+        self.run_config = CrawlerRunConfig(magic=True, cache_mode=CacheMode.BYPASS)
+
+    async def parse_from_html(self, url: str, html: str) -> dict:
+        domain = urlparse(url).netloc
+        title = self._estrai_titolo_da_url(url)
+
+        with tempfile.NamedTemporaryFile(delete=False, suffix=".html", mode="w", encoding="utf-8") as tmp_file:
+            tmp_file.write(html)
+            tmp_file_path = tmp_file.name
+
+        try:
+            local_url = f"file:///{tmp_file_path.replace(os.sep, '/')}"
+
+            async with AsyncWebCrawler(config=self.browser_config) as crawler:
+                result = await crawler.arun(url=local_url, config=self.run_config)
+
+            if not result.success:
+                raise RuntimeError("Crawl fallito durante l'elaborazione dell'HTML offline.")
+
+            raw_markdown = result.markdown or ""
+            parsed_text = self._pulisci_universale(raw_markdown, title)
+
+        finally:
+            if os.path.exists(tmp_file_path):
+                os.remove(tmp_file_path)
+
+        return {
+            "url": url,
+            "domain": domain,
+            "title": title,
+            "html_text": html,
+            "parsed_text": parsed_text,
+        }
 
     async def parse(self, url: str) -> dict:
         domain = urlparse(url).netloc
@@ -21,13 +51,14 @@ class ATPTourParser(BaseParser):
         async with AsyncWebCrawler(config=self.browser_config) as crawler:
             result = await crawler.arun(url=url, config=self.run_config)
 
-        
+        if not result.success:
+            error_message = getattr(result, "error_message", "Errore sconosciuto")
+            raise RuntimeError(f"Crawl fallito: {error_message}")
+
         raw_html = result.html or ""
         raw_markdown = result.markdown or ""
-        with open("MARKDOWN_SPORCO.txt", "w", encoding="utf-8") as f:
-            f.write(raw_markdown)
 
-        parsed_text = self._pulisci_markdown(raw_markdown, title)
+        parsed_text = self._pulisci_universale(raw_markdown, title)
 
         return {
             "url": url,
@@ -38,70 +69,75 @@ class ATPTourParser(BaseParser):
         }
 
     def _estrai_titolo_da_url(self, url: str) -> str:
-        """Estrae il titolo dall'URL."""
-        slug = urlparse(url).path.split("/")[-1]
+        path_parts = urlparse(url).path.strip("/").split("/")
+        slug = path_parts[-1]
+        if len(slug) < 5 and slug.isupper() and len(path_parts) > 1:
+            slug = path_parts[-2]
         slug = unquote(slug).replace("-", " ")
         return slug.title().strip()
 
-    def _pulisci_markdown(self, md: str, titolo: str) -> str:
-        """
-        Applica una serie di Regex aggressive per pulire il Markdown
-        generato dal sito ATP.
-        """
-        # Normalizza a capo
+    def _pulisci_universale(self, md: str, titolo: str) -> str:
         md = re.sub(r"\r\n?", "\n", md)
 
-        # 1. RIMOZIONE RUMORE INIZIALE (Social e intestazioni sporche)
-        # Il testo spesso inizia con la lista dei social: * Facebook \n * x \n ecc...
-        md = re.sub(r"(?m)^\s*\*\s*(Facebook|x|TikTok|Email)\s*$\n?", "", md, flags=re.IGNORECASE)
-        # Rimuove il nome della città isolato all'inizio (es. "Munich")
-        md = re.sub(r"(?m)^[A-Z][a-z]+\s*$", "", md) 
+        match_inizio = re.search(r"(?im)^\s*\*\s*Email\s*\n(Match Report\s*\n)?", md)
+        if match_inizio:
+            md = md[match_inizio.end():]
+        else:
+            parole_titolo = titolo.split()
+            if len(parole_titolo) >= 2:
+                inizio_titolo = f"{parole_titolo[0]} {parole_titolo[1]}"
+                match_titolo = re.search(rf"(?im)^{re.escape(inizio_titolo)}", md)
+                if match_titolo:
+                    md = md[match_titolo.start():]
 
-        # 2. RIMOZIONE WIDGET VIDEO (Il grosso blocco di configurazione video)
-        # Eliminiamo tutto il blocco del player video testuale (da "Video Player is loading." fino a "Close Modal Dialog")
-        md = re.sub(r"(?ms)^>\s*.*?—.*?\(\@.*?\).*?\n", "", md)
-        md = re.sub(r"(?is)Video Player is loading\..*?Close Modal Dialog", "", md)
-        # Rimuovi eventuali righe residue legate al video
-        md = re.sub(r"(?mi)^(Play Video|Play|Mute|Current Time.*|Duration.*|Loaded:.*|Stream Type.*|Seek to live.*|Remaining Time.*|Playback Rate|Chapters|Descriptions|Captions|Audio Track|Picture-in-PictureFullscreen|This is a modal window\.|Beginning of dialog window\..*|End of dialog window\.)\s*$", "", md)
-        
-        # 3. RIMOZIONE BOX CONTENUTI CORRELATI
-        md = re.sub(r"(?mi)^You May Also Like:.*$\n?", "", md)
+        pattern_coda = r"(?ms)^(###\s+(Read More News|View Related|Stats widget|DOWNLOAD)|## Header 2|NEWSLETTERS|## Partners|#### Corporate|## Privacy Preference Center).*$"
+        match_bottom = re.search(pattern_coda, md)
+        if match_bottom:
+            md = md[:match_bottom.start()]
 
-        # 4. RIMOZIONE CODA DELL'ARTICOLO
-        # Spesso alla fine ci sono video correlati o altre news. Tagliamo tutto dopo "Top Videos"
-        md = re.sub(r"(?ms)^###\s+(Top Videos|View Related Videos|Read More News).*$", "", md)
-        
-        # Rimuovi l'avviso di Twitter se presente
-        md = re.sub(r"(?mi)^X Post\s*$", "", md)
+        md = re.sub(r"(?is)Video Player is loading\..*?(?:Close Modal Dialog|End of dialog window\.|Reset restore all settings to the default valuesDone)", "", md)
+        md = re.sub(r"(?mi)^(Close Modal Dialog|End of dialog window\.|This is a modal window\..*?)\s*$", "", md)
 
-        # 5. PULIZIA LINK (Preserva il testo, toglie l'URL)
-        md = re.sub(r"\[([^\]]+)\]\([^)]+\)", r"\1", md)
-
-        # 6. FILTRAGGIO DELLE RIGHE
-        linee_pulite = []
+        linee_valide = []
         for line in md.splitlines():
             s = line.strip()
+            if not s: continue
+
+            s = re.sub(r"\[\]\([^)]+\)", "", s)
+            s = re.sub(r"!\[.*?\]\([^)]+\)", "", s)
+            s = re.sub(r"\[([^\]]+)\]\([^)]+\)", r"\1", s)
+            s = s.lstrip("#* ").strip()
             
-            if not s:
-                continue
-                
-            # Salta i menu a discesa rimasti
-            if s in ["Font Size", "Text Edge Style", "Font Family", "Reset", "Done"]:
+            if not s: continue
+
+            if re.match(r"^(January|February|March|April|May|June|July|August|September|October|November|December)\s\d{1,2},\s\d{4}$", s):
                 continue
 
-            # Mantiene i titoli (#), e il testo normale
-            linee_pulite.append(line)
+            s_lower = s.lower()
 
-        md = "\n".join(linee_pulite)
+            selettori_spazzatura = {
+                "share", "play", "mute", "chapters", "getty images", "/", "1x", "done",
+                "match report", "play video", "audio track", "descriptions", "captions",
+                "picture-in-picturefullscreen", "en", "es", 
+                "close modal dialog", "end of dialog window." 
+            }
+            if s_lower in selettori_spazzatura:
+                continue
 
-        # 7. FORMATTAZIONE FINALE
-        # Assicurati che inizi con il titolo
-        if not md.strip().startswith("#"):
-             md = f"# {titolo}\n\n{md.strip()}"
+            if s_lower.startswith((
+                "descriptions off", "captions settings", "captions off",
+                "text colorwhite", "background color", "window color",
+                "font size", "text edge", "font family", "reset restore",
+                "current time", "duration", "loaded:", "stream type", "seek to live",
+                "remaining time", "playback rate", "beginning of dialog window",
+                "this is a modal window" 
+            )):
+                continue
 
-        # Elimina spazi orizzontali e verticali eccessivi
-        md = re.sub(r"[ \t]{2,}", " ", md)
-        md = re.sub(r"\n{3,}", "\n\n", md)
+            linee_valide.append(s)
 
-        return md.strip()
+        testo_finale = "\n\n".join(linee_valide)
+        testo_finale = re.sub(r"[ \t]{2,}", " ", testo_finale)
+        testo_finale = re.sub(r"\n{3,}", "\n\n", testo_finale)
 
+        return testo_finale.strip()
