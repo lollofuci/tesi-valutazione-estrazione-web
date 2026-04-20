@@ -2,34 +2,170 @@
 <html lang="it">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Web UI Parser</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #eef2f7;
+            color: #111827;
+        }
+
+        .wrapper {
+            max-width: 1100px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+        .card {
+            background: #ffffff;
+            border-radius: 18px;
+            padding: 40px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+        }
+
+        h1 {
+            text-align: center;
+            margin: 0 0 10px 0;
+            font-size: 54px;
+        }
+
+        .subtitle {
+            text-align: center;
+            color: #6b7280;
+            margin-bottom: 40px;
+            font-size: 18px;
+        }
+
+        h2 {
+            margin-top: 0;
+            margin-bottom: 16px;
+            font-size: 22px;
+        }
+
+        .section {
+            margin-bottom: 36px;
+        }
+
+        .field {
+            width: 100%;
+            padding: 16px;
+            font-size: 18px;
+            border: 1px solid #cbd5e1;
+            border-radius: 12px;
+            background: #fff;
+            color: #111827;
+            outline: none;
+        }
+
+        .field:focus {
+            border-color: #2563eb;
+            box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.15);
+        }
+
+        select.field {
+            appearance: auto;
+            -webkit-appearance: menulist;
+            -moz-appearance: menulist;
+        }
+
+        select.field option {
+            color: #111827;
+            background: #ffffff;
+        }
+
+        .button-row {
+            margin-top: 16px;
+        }
+
+        button {
+            background: #2b7df6;
+            color: white;
+            border: none;
+            border-radius: 10px;
+            padding: 12px 20px;
+            font-size: 17px;
+            font-weight: 600;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: #1f6fe6;
+        }
+
+        hr {
+            border: none;
+            border-top: 1px solid #e5e7eb;
+            margin: 30px 0;
+        }
+
+        .debug {
+            margin-top: 10px;
+            color: #6b7280;
+            font-size: 14px;
+        }
+
+        @media (max-width: 768px) {
+            .card {
+                padding: 24px;
+            }
+
+            h1 {
+                font-size: 38px;
+            }
+
+            button {
+                width: 100%;
+            }
+        }
+    </style>
 </head>
 <body>
-    <h1>Web UI Parser</h1>
+    <div class="wrapper">
+        <div class="card">
+            <h1>🔎 Web UI Parser</h1>
+            <div class="subtitle">Interfaccia per testare il parsing degli URL e del Gold Standard</div>
 
-    <h2>Inserisci un URL</h2>
-    <form action="/parse" method="post">
-        <input
-            type="text"
-            name="url"
-            placeholder="https://..."
-            style="width: 700px;"
-            required
-        >
-        <button type="submit">Parsifica</button>
-    </form>
+            <div class="section">
+                <h2>Inserisci un URL</h2>
+                <form action="/parse" method="post">
+                    <input
+                        class="field"
+                        type="text"
+                        name="url"
+                        placeholder="https://..."
+                        required
+                    >
+                    <div class="button-row">
+                        <button type="submit">Parsifica</button>
+                    </div>
+                </form>
+            </div>
 
-    <hr>
+            <hr>
 
-    <h2>Oppure scegli un URL dal Gold Standard</h2>
-    <form action="/parse" method="post">
-        <select name="url" style="width: 700px;" required>
-            <option value="">-- Seleziona un URL --</option>
-            {% for url in gs_urls %}
-                <option value="{{ url }}">{{ url }}</option>
-            {% endfor %}
-        </select>
-        <button type="submit">Esegui</button>
-    </form>
+            <div class="section">
+                <h2>Oppure scegli un URL dal Gold Standard</h2>
+                <form action="/parse" method="post">
+                    <select class="field" name="url" required>
+                        <option value="">-- Seleziona un URL --</option>
+                        {% for url in gs_urls %}
+                            <option value="{{ url }}">{{ url }}</option>
+                        {% endfor %}
+                    </select>
+                    <div class="button-row">
+                        <button type="submit">Esegui</button>
+                    </div>
+                </form>
+
+                <div class="debug">URL Gold Standard caricati: {{ gs_urls|length }}</div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>

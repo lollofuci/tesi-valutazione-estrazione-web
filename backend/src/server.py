@@ -21,7 +21,7 @@ from evaluation.evaluator import token_level_eval, aggregate_metrics
 
 app = FastAPI()
 
-BASE_DIR = Path(__file__).resolve().parent.parent.parent
+BASE_DIR = Path(__file__).resolve().parent.parent
 DOMAINS_PATH = BASE_DIR / "domains.json"
 GS_DATA_DIR = BASE_DIR / "gs_data"
 
@@ -171,7 +171,7 @@ async def full_eval(domain: str):
         "token_level_eval": final_metrics,
         "x_eval": {}
     }
-@app.post("/parse", response_model=ParseResponse)
+@app.post("/parse_html", response_model=ParseResponse)
 async def parse_url_post(url: str = Body(...), html_text: str = Body(...)):
     domain = urlparse(url).netloc
     check_supported_domain(domain)
