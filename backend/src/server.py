@@ -2,6 +2,7 @@ from pathlib import Path
 from urllib.parse import urlparse
 import json
 import re
+import html
 
 from fastapi import FastAPI, HTTPException
 
@@ -119,55 +120,25 @@ def find_gs_entry(domain: str, url: str) -> dict | None:
 # MARKDOWN CLEANING
 # -------------------------
 
-def remove_markdown(text: str) -> str:
-    """
-    Rimuove in modo semplice la sintassi markdown più comune,
-    senza usare BeautifulSoup o conversione HTML.
-    """
-    if not text:
-        return ""
 
-    cleaned = text
+def remove_markdown(md: str) -> str:
+    text = md
 
-    # code block
-    cleaned = re.sub(r"```.*?```", " ", cleaned, flags=re.DOTALL)
+    text = re.sub(r"```.*?```", " ", text, flags=re.DOTALL)
+    text = re.sub(r"`([^`]*)`", r"\1", text)
+    text = re.sub(r"^\s{0,3}#{1,6}\s*", "", text, flags=re.MULTILINE)
+    text = re.sub(r"^\s{0,3}>\s?", "", text, flags=re.MULTILINE)
+    text = re.sub(r"^\s*[-*+]\s+", "", text, flags=re.MULTILINE)
+    text = re.sub(r"^\s*\d+\.\s+", "", text, flags=re.MULTILINE)
+    text = re.sub(r"(\*\*|__)(.*?)\1", r"\2", text)
+    text = re.sub(r"(\*|_)(.*?)\1", r"\2", text)
+    text = re.sub(r"<[^>]+>", " ", text)
 
-    # inline code
-    cleaned = re.sub(r"`([^`]*)`", r"\1", cleaned)
+    text = html.unescape(text)
+    text = re.sub(r"[ \t]+", " ", text)
+    text = re.sub(r"\n+", "\n", text)
 
-    # immagini ![alt](url)
-    cleaned = re.sub(r"!$begin:math:display$\(\[\^$end:math:display$]*)\]$begin:math:text$\[\^\)\]\+$end:math:text$", r"\1", cleaned)
-
-    # link [testo](url)
-    cleaned = re.sub(r"$begin:math:display$\(\[\^$end:math:display$]+)\]$begin:math:text$\[\^\)\]\+$end:math:text$", r"\1", cleaned)
-
-    # heading
-    cleaned = re.sub(r"^\s{0,3}#{1,6}\s*", "", cleaned, flags=re.MULTILINE)
-
-    # blockquote
-    cleaned = re.sub(r"^\s*>\s?", "", cleaned, flags=re.MULTILINE)
-
-    # liste
-    cleaned = re.sub(r"^\s*[-*+]\s+", "", cleaned, flags=re.MULTILINE)
-    cleaned = re.sub(r"^\s*\d+\.\s+", "", cleaned, flags=re.MULTILINE)
-
-    # grassetto / corsivo
-    cleaned = re.sub(r"\*\*(.*?)\*\*", r"\1", cleaned)
-    cleaned = re.sub(r"__(.*?)__", r"\1", cleaned)
-    cleaned = re.sub(r"\*(.*?)\*", r"\1", cleaned)
-    cleaned = re.sub(r"_(.*?)_", r"\1", cleaned)
-
-    # linee orizzontali
-    cleaned = re.sub(r"^\s*---+\s*$", " ", cleaned, flags=re.MULTILINE)
-    cleaned = re.sub(r"^\s*\*\*\*+\s*$", " ", cleaned, flags=re.MULTILINE)
-
-    # collapse spazi
-    cleaned = re.sub(r"[ \t]+", " ", cleaned)
-    cleaned = re.sub(r"\n+", "\n", cleaned)
-
-    return cleaned.strip()
-
-
+    return text.strip()
 # -------------------------
 # PARSING
 # -------------------------
