@@ -9,21 +9,18 @@ from parsers.base_parser import BaseParser
 
 class ATPTourParser(BaseParser):
     def __init__(self) -> None:
-      
         self.browser_config = BrowserConfig(
-            headless=False,
-            # Spostiamo gli headers qui, nel BrowserConfig!
+            headless=False, # Lascialo a False per non far scattare l'antibot!
             headers={
                 "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
                 "Accept-Language": "en-US,en;q=0.9"
             }
         )
         self.run_config = CrawlerRunConfig(
-            magic=True, # Steath mode attiva
+            magic=True, 
             cache_mode=CacheMode.BYPASS,
             page_timeout=60000,
-            delay_before_return_html=3.0
-              
+            delay_before_return_html=3.0  # Tempo vitale per far caricare i numeri reali al sito
         )
 
     async def parse_from_html(self, url: str, html: str) -> dict:
@@ -44,7 +41,9 @@ class ATPTourParser(BaseParser):
                 raise RuntimeError("Crawl fallito durante l'elaborazione dell'HTML offline.")
 
             raw_markdown = result.markdown or ""
-            parsed_text = self._smista_e_pulisci(url, raw_markdown, title)
+            
+            # ATTENZIONE QUI: Passiamo 'html' (il codice sorgente originale) direttamente allo smistatore!
+            parsed_text = self._smista_e_pulisci(url, raw_markdown, title, html)
 
         finally:
             if os.path.exists(tmp_file_path):
@@ -57,6 +56,7 @@ class ATPTourParser(BaseParser):
             "html_text": html,
             "parsed_text": parsed_text,
         }
+
     async def parse(self, url: str) -> dict:
         domain = urlparse(url).netloc
         title = self._estrai_titolo_da_url(url)
@@ -71,7 +71,8 @@ class ATPTourParser(BaseParser):
         raw_html = result.html or ""
         raw_markdown = result.markdown or ""
 
-        parsed_text = self._smista_e_pulisci(url, raw_markdown, title)
+        # Passiamo raw_html al pulitore
+        parsed_text = self._smista_e_pulisci(url, raw_markdown, title, raw_html)
 
         return {
             "url": url,
@@ -89,13 +90,14 @@ class ATPTourParser(BaseParser):
         slug = unquote(slug).replace("-", " ")
         return slug.title().strip()
 
-    def _smista_e_pulisci(self, url: str, md: str, titolo: str) -> str:
+    def _smista_e_pulisci(self, url: str, md: str, titolo: str, html: str = "") -> str:
+        # Aggiornato per includere l'HTML diretto nei player
         if "/news" in url:
             return self._pulisci_news(md, titolo)
         elif "/atp-head-2-head" in url or "/head-2-head" in url:
             return self._pulisci_h2h(md, titolo)
         elif "/players/" in url:
-            return self._pulisci_player(md, titolo)
+            return self._pulisci_player(html, titolo) # Svolta epocale: usiamo l'HTML puro!
         else:
             return self._pulisci_news(md, titolo)
 
@@ -203,58 +205,62 @@ class ATPTourParser(BaseParser):
 
         return "\n\n".join(linee_valide).strip()
 
-    def _pulisci_player(self, md: str, titolo: str) -> str:
-        md = md.replace('\r\n', '\n')
-        lines = [line.strip() for line in md.splitlines() if line.strip()]
+    def _pulisci_player(self, html: str, titolo: str) -> str:
+        """La soluzione definitiva: estrae i dati ignorando completamente il Markdown."""
+        if not html: 
+            return titolo
         
-        linee_valide = []
+        # Eliminiamo blocchi pesanti e script
+        html_clean = re.sub(r'<(script|style|svg|noscript|form|nav|footer)[^>]*>.*?</\1>', ' ', html, flags=re.DOTALL | re.IGNORECASE)
+        
+        # Isola il blocco YTD / Career (Statistiche)
+        stats_match = re.search(r'<div class="atp_player-stats".*?(?=<div class="player_image|<div class="atp_info-ribbon|<div class="atp_player-personaldetails")', html_clean, flags=re.DOTALL | re.IGNORECASE)
+        stats_html = stats_match.group(0) if stats_match else ""
+        
+        # Isola il blocco Personal Details (Età, Peso, ecc.)
+        pd_match = re.search(r'<div class="atp_player-personaldetails".*?(?=<div class="atp_player-latest-news"|<div class="atp_head2head)', html_clean, flags=re.DOTALL | re.IGNORECASE)
+        pd_html = pd_match.group(0) if pd_match else ""
+        
+        target_html = stats_html + "\n" + pd_html
+        
+        # Trasforma l'HTML rimasto in testo puro inserendo 'a capo' al posto dei tag
+        testo_grezzo = re.sub(r'<[^>]+>', '\n', target_html)
+        
+        # Pulisce gli spazi e le righe vuote
+        lines = [line.strip() for line in testo_grezzo.split('\n') if line.strip()]
+        
+        risultato = [titolo]
+        garbage = {"singles", "doubles", "header 2", "follow player", "insta", "x", "facebook", "tiktok"}
+        
         for line in lines:
-            # Controllo di emergenza per la fine della pagina
-            l_clean = line.lower().replace("*", "").replace("#", "").strip()
-            if l_clean.startswith(("see more player profiles", "related players", "newsletters", "corporate")):
-                break # Fermati immediatamente, siamo nel footer!
-                
-            # Pulizia link e immagini
-            s = line
-            s = re.sub(r"!\[.*?\]\([^)]+\)", "", s)
-            s = re.sub(r"\[?\s*\]\([^)]+\)", "", s)
-            s = re.sub(r"\[([^\]]+)\]\([^)]+\)", r"\1", s)
-            s = re.sub(r"\(https?://[^\)]+\)", "", s)
-            
-            # Polverizza gli hashtag del Markdown
-            s = s.replace("[", "").replace("]", "").replace("!", "").replace("*", "").replace("#", "").strip()
-            
-            if not s: continue
-            if re.match(r"^[\s\|\:\-]+$", s): continue
-            
-            s = s.replace("|", " ")
-            s = re.sub(r"\s{2,}", " ", s).strip()
-            s_low = s.lower()
-            
-            # Blacklist della spazzatura e menu
-            garbage = {
-                "en", "es", "buy tickets", "search", "shop", "premier partner", 
-                "atp fantasy", "gaming", "follow player", "players", "players home", 
-                "atp coach members", "overview", "bio", "activity", "stats", "ranking", 
-                "facebook", "x", "tiktok", "email", "vs", "search opponent", "h2h details"
-            }
-            if s_low in garbage: continue
-            
-            if s_low.startswith(("headshot-", "latest news", "search icon", "filter icon", "ytd rank:", "career high rank:")):
+            l_low = line.lower()
+            if l_low in garbage or "atp no.1 club" in l_low:
+                continue
+            if "${" in line: # Filtro di sicurezza contro scarti di codice
+                continue
+            if l_low == titolo.lower():
                 continue
             
-            # Nasconde il nome del giocatore se appare come header isolato
-            titolo_low = titolo.lower().replace("overview", "").strip()
-            if s_low == titolo_low: continue
-            
-            # Formattazione per mandare a capo i valori fusi (es. "3Titles" -> "3 \n Titles")
-            s = re.sub(r"^(.*?)(YTD W/L|YTD titles|Career W/L|Career titles|Prize Money)(.*)$", r"\1\n\2\n\3", s, flags=re.IGNORECASE)
-            s = re.sub(r"^(Rank|Age|Weight|Height|Plays|Backhand|Turned Pro|Coach|Birthplace|Country|Personal details)(.*)$", r"\1\n\2", s, flags=re.IGNORECASE)
-            
-            for part in s.split('\n'):
-                p = part.strip()
-                if p: linee_valide.append(p)
+            risultato.append(line)
 
-        testo_finale = "\n\n".join(linee_valide)
-        testo_finale = re.sub(r"[ \t]{2,}", " ", testo_finale)
-        return re.sub(r"\n{3,}", "\n\n", testo_finale).strip()
+        # Magia finale: unisce i numeri alle etichette (Es. "1" e "Rank" diventano "1 Rank")
+        labels = {"Rank", "Move", "W-L", "Titles", "Prize Money", "Prize Money Singles & Doubles Combined", "Career High Rank"}
+        
+        final_lines = []
+        for item in risultato:
+            is_label = any(item.startswith(lbl) for lbl in labels)
+            # Se è una label, la attacca al numero precedente!
+            if is_label and final_lines and not final_lines[-1].startswith(("YTD", "Career")):
+                final_lines[-1] = final_lines[-1] + " " + item
+            else:
+                final_lines.append(item)
+
+        if len(final_lines) <= 1:
+            return titolo + "\n\nDati non trovati nel DOM HTML."
+
+        # Reinserisce "Personal details" nel posto giusto per estetica
+        if "Age" in final_lines:
+            idx = final_lines.index("Age")
+            final_lines.insert(idx, "Personal details")
+
+        return "\n".join(final_lines)
