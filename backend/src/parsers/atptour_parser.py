@@ -7,20 +7,58 @@ from urllib.parse import urlparse, unquote
 from crawl4ai import AsyncWebCrawler, BrowserConfig, CrawlerRunConfig, CacheMode
 from parsers.base_parser import BaseParser
 
+
+
 class ATPTourParser(BaseParser):
     def __init__(self) -> None:
+        headless = self._get_headless_mode()
+
         self.browser_config = BrowserConfig(
-            headless=False, # Lascialo a False per non far scattare l'antibot!
+            headless=headless,
             headers={
-                "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+                "User-Agent": (
+                    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+                    "AppleWebKit/537.36 (KHTML, like Gecko) "
+                    "Chrome/122.0.0.0 Safari/537.36"
+                ),
                 "Accept-Language": "en-US,en;q=0.9"
             }
         )
+
         self.run_config = CrawlerRunConfig(
-            magic=True, 
+            magic=False,
             cache_mode=CacheMode.BYPASS,
-            page_timeout=60000,
-            delay_before_return_html=3.0  # Tempo vitale per far caricare i numeri reali al sito
+            page_timeout=120000,
+            delay_before_return_html=5.0
+        )
+
+    def _get_headless_mode(self) -> bool:
+        """
+        Regole:
+        1. Se ATPTOUR_HEADLESS è impostata, usa quella.
+        2. Altrimenti, se siamo in Docker -> True
+        3. Altrimenti -> False
+        """
+        env_value = os.getenv("ATPTOUR_HEADLESS")
+        if env_value is not None:
+            return env_value.strip().lower() in {"1", "true", "yes", "on"}
+
+        # auto-detect docker
+        if os.path.exists("/.dockerenv"):
+            return True
+
+        return False
+
+        self.run_config = CrawlerRunConfig(
+
+            magic=False,
+
+            cache_mode=CacheMode.BYPASS,
+
+            page_timeout=120000,
+
+            delay_before_return_html=5.0
+
         )
 
     async def parse_from_html(self, url: str, html: str) -> dict:
@@ -84,9 +122,17 @@ class ATPTourParser(BaseParser):
 
     def _estrai_titolo_da_url(self, url: str) -> str:
         path_parts = urlparse(url).path.strip("/").split("/")
-        slug = path_parts[-1]
-        if len(slug) < 5 and slug.isupper() and len(path_parts) > 1:
-            slug = path_parts[-3] if "vs" in path_parts[-3] else path_parts[-2]
+
+        if "players" in path_parts:
+            idx = path_parts.index("players")
+            if idx + 1 < len(path_parts):
+                return unquote(path_parts[idx + 1]).replace("-", " ").title().strip()
+
+        if "atp-head-2-head" in path_parts:
+            slug = path_parts[-3] if len(path_parts) >= 3 else path_parts[-1]
+        else:
+            slug = path_parts[-1]
+
         slug = unquote(slug).replace("-", " ")
         return slug.title().strip()
 

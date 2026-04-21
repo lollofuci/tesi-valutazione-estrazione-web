@@ -108,23 +108,23 @@ class AccuWeatherParser(BaseParser):
                 f"Crawl fallito: {getattr(result, 'error_message', 'Errore sconosciuto')}"
             )
 
-        return await self.parse_from_html(url, result.html)
+        return self._build_result(url, result.html, result.markdown)
 
     async def parse_from_html(self, url: str, html: str) -> dict:
+        """Metodo lasciato disponibile, ma non usato dal parser eval."""
+        raise NotImplementedError(
+            "Per AccuWeather eval usa AccuWeatherEvalParser, non parse_from_html."
+        )
+
+    def _build_result(self, url: str, html: str, markdown: str) -> dict:
         domain = urlparse(url).netloc
-        async with AsyncWebCrawler(config=self.browser_config) as crawler:
-            res = await crawler.arun(url=f"raw://{html}", config=self.run_config)
-        if not res.success:
-            raise RuntimeError("Parse fallito")
         return {
             "url": url,
             "domain": domain,
-            "title": self._extract_title(html, url),  
-            "html_text":html,
-            "parsed_text": self._clean_markdown(res.markdown),
+            "title": self._extract_title(html, url),
+            "html_text": html,
+            "parsed_text": self._clean_markdown(markdown),
         }
-    
-
 
     def _extract_title(self, html: str, url: str) -> str:
         match = re.search(r"<title>(.*?)</title>", html, flags=re.IGNORECASE | re.DOTALL)

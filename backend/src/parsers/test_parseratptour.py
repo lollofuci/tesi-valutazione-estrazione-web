@@ -14,10 +14,10 @@ async def main():
     print(result["domain"])
 
     print("\nHTML TEXT PREVIEW:")
-    print(result["html_text"][:])
+    print(result["html_text"][:3000])
 
     print("\nPARSED TEXT PREVIEW:")
-    print(result["parsed_text"][:])
+    print(result["parsed_text"][:3000])
 
     print("\nLUNGHEZZE:")
     print(f'html_text: {len(result["html_text"])} caratteri')
