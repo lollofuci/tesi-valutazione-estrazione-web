@@ -51,7 +51,7 @@ html_text = """<html lang="it" class="accuweather"><head>
 <meta name="twitter:app:id:googleplay" content="com.accuweather.android">
 <meta name="twitter:app:url:googleplay" content="https://play.google.com/store/apps/details?id=com.accuweather.android">
 
-	<script src="https://pagead2.googlesyndication.com/pagead/managed/js/adsense/m202604140101/show_ads_impl_fy2021.js"></script><script src="https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202604140101/pubads_impl_page_level_ads.js?cb=31097937"></script><script type="application/ld+json">
+	<script src="https://pagead2.googlesyndication.com/pagead/managed/js/adsense/m202604160101/show_ads_impl_fy2021.js"></script><script src="https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202604210101/pubads_impl_page_level_ads.js?cb=31098008"></script><script type="application/ld+json">
 {
 	"@context": "https://schema.org",
 	"@type": "Organization",
@@ -130,8 +130,8 @@ html_text = """<html lang="it" class="accuweather"><head>
 		window.tagEngineDataLayer = window.tagEngineDataLayer || {};
 		Object.assign(window.tagEngineDataLayer, {
 			adDataAdc: {
-				adInfo: {"fdate":"20260420","lang":"it","ut":"1","advelvet":"5","inview":"ititrome213490weather-forecast213490:wbr,wb","bot":"0","pgview":"1","partner":"google_search_accuweather","ufdb":"LII7","city":"Rome","country":"IT","state":"62","dma":null,"key":"213490","region":"eur","lat":"41.901","lon":"12.48","browser":"safari","connection":"mobile_vhigh_5000","wx_seg":"101100100,102102102,109101100,108102100,100108101,102100100,102101100,102103100,107100102,100111100,107101102,108103101,101103100,100113103,108104101,101105100,110100100,109104100,109105100,100106102,110101101,109100102,108101102,103100102,109103102,103101102,101106102,108100102,100109105,102104102,104100103,101104101,104101101,100109102,109102102,100114105,109106102,101107101,101108101,101102102,105100102,107103102,100114102,100114101,101101101","alertscategory":"SEVERE,SEVERE","alertssource":"it,it","alertstypeid":"IT312,IT312","cuhd":"64","cuhi":"67","cuuv":"6","cuwd":"8","cuwx":"3","realfeel":"75,a80,b75,c75,d75","cuaq":"3","fc1hi":"74","fc1lo":"54","fc1wx":"2","lfscategory":"rain","lfsday":"3","lfsseverity":"5","lfs":"5_rain_3","pt":"0","userid":"active","userid3p":"missing","sub":"free","auth":"false","site":"adc"},
-				adSlots: {"top":{"bidders":[{"bidder":"google","params":{"sizes":"970x250,728x90,fluid,970x90","Is_Buy_It_Now":false},"isBuyItNow":false},{"bidder":"rubicon","params":{"accountId":12562,"siteId":135890,"zoneId":640474,"position":"atf","userId":"7d695715xd89fx4158xab9bx5114c8ba51db","floor":0.02,"Is_Buy_It_Now":false},"isBuyItNow":false},{"bidder":"triplelift","params":{"inventoryCode":"accuweather_d_top_leaderboard_pbjs","floor":0.02,"Is_Buy_It_Now":false},"isBuyItNow":false},{"bidder":"criteo","params":{"networkId":12212,"pubid":"3852","uid":"472391","bidFloor":0.02,"bidFloorCur":"USD","Is_Buy_It_Now":false},"isBuyItNow":false},{"bidder":"pubmatic","params":{"publisherId":"34576","adSlot":"Web_Top","lat":"41.9","lon":"12.48","kadfloor":"0.02","currency":"USD","Is_Buy_It_Now":false},"isBuyItNow":false},{"bidder":"ix","params":{"siteId":"197759","bidFloor":0.02,"bidFloorCur":"USD","Is_Buy_It_Now":false},"isBuyItNow":false},{"bidder":"openx","params":{"delDomain":"accuweather-d.openx.net","unit":"539580665","customParams":{"fdate":["20260420"],"advelvet":["5"],"pgview":["1"],"partner":["google_search_accuweather"],"ufdb":["LII7"],"country":["IT"],"state":["62"],"wx_seg":["101100100","102102102","109101100","108102100","100108101","102100100","102101100","102103100","107100102","100111100","107101102","108103101","101103100","100113103","108104101","101105100","110100100","109104100","109105100","100106102","110101101","109100102","108101102","103100102","109103102","103101102","101106102","108100102","100109105","102104102","104100103","101104101","104101101","100109102","109102102","100114105","109106102","101107101","101108101","101102102","105100102","107103102","100114102","100114101","101101101"],"alertscategory":["SEVERE","SEVERE"],"alertssource":["it","it"],"alertstypeid":["IT312","IT312"],"cuhd":["64"],"cuhi":["67"],"cuuv":["6"],"cuwd":["8"],"cuwx":["3"],"realfeel":["75","a80","b75","c75","d75"],"fc1hi":["74"],"fc1lo":["54"],"fc1wx":["2"],"lfscategory":["rain"],"lfsday":["3"],"lfsseverity":["5"],"lfs":["5_rain_3"],"pt":["0"],"adunit":["/6581/web/it/top/weather/local_home"]},"customFloor":0.02,"Is_Buy_It_Now":false},"isBuyItNow":false},{"bidder":"ttd","params":{"supplySourceId":"accuweather","publisherId":"1","bidfloor":0.02,"currency":"USD","Is_Buy_It_Now":false},"isBuyItNow":false},{"bidder":"google","params":{"sizes":"970x250,728x90,fluid,970x90","Is_Buy_It_Now":true},"isBuyItNow":true},{"bidder":"rubicon","params":{"accountId":12562,"siteId":135890,"zoneId":1518598,"position":"atf","userId":"7d695715xd89fx4158xab9bx5114c8ba51db","floor":0.8,"Is_Buy_It_Now":true},"isBuyItNow":true},{"bidder":"triplelift","params":{"inventoryCode":"Acccuweather_Prebid_web_top_BIN","floor":1.0,"Is_Buy_It_Now":true},"isBuyItNow":true}],"slot":"top","adDivId":"top","adUnitCode":"/6581/web/it/top/weather/local_home","upr":0.2,"tid":"9dd0b2b1-7eb7-4a6d-9e23-ea1517f11f30"},"oop":{"bidders":[{"bidder":"google","params":{"sizes":"oop","Is_Buy_It_Now":false},"isBuyItNow":false}],"slot":"oop","adDivId":"oop","adUnitCode":"/6581/web/it/oop/weather/local_home","upr":0.02,"tid":"a26adecb-8076-4249-bf62-1a48c2837603"},"interstitial":{"bidders":[{"bidder":"google","params":{"sizes":"interstitial","Is_Buy_It_Now":false},"isBuyItNow":false}],"slot":"interstitial","adDivId":"interstitial","adUnitCode":"/6581/web/it/interstitial/weather/local_home","upr":4.0,"tid":"0500a863-2742-4a3e-b37b-2f316e76abf5"},"top_right":{"bidders":[{"bidder":"google","params":{"sizes":"300x250,300x600,160x600,120x600,fluid","Is_Buy_It_Now":false},"isBuyItNow":false},{"bidder":"rubicon","params":{"accountId":12562,"siteId":135890,"zoneId":2745920,"position":"atf","userId":"7d695715xd89fx4158xab9bx5114c8ba51db","floor":0.02,"Is_Buy_It_Now":false},"isBuyItNow":false},{"bidder":"triplelift","params":{"inventoryCode":"accuweather_d_topright_rectangle_pbjs","floor":0.02,"Is_Buy_It_Now":false},"isBuyItNow":false},{"bidder":"criteo","params":{"networkId":12212,"pubid":"3852","uid":"472390","bidFloor":0.02,"bidFloorCur":"USD","Is_Buy_It_Now":false},"isBuyItNow":false},{"bidder":"pubmatic","params":{"publisherId":"34576","adSlot":"Web_TopRight","lat":"41.9","lon":"12.48","kadfloor":"0.02","currency":"USD","Is_Buy_It_Now":false},"isBuyItNow":false},{"bidder":"ix","params":{"siteId":"197760","bidFloor":0.02,"bidFloorCur":"USD","Is_Buy_It_Now":false},"isBuyItNow":false},{"bidder":"openx","params":{"delDomain":"accuweather-d.openx.net","unit":"539580668","customParams":{"fdate":["20260420"],"advelvet":["5"],"pgview":["1"],"partner":["google_search_accuweather"],"ufdb":["LII7"],"country":["IT"],"state":["62"],"wx_seg":["101100100","102102102","109101100","108102100","100108101","102100100","102101100","102103100","107100102","100111100","107101102","108103101","101103100","100113103","108104101","101105100","110100100","109104100","109105100","100106102","110101101","109100102","108101102","103100102","109103102","103101102","101106102","108100102","100109105","102104102","104100103","101104101","104101101","100109102","109102102","100114105","109106102","101107101","101108101","101102102","105100102","107103102","100114102","100114101","101101101"],"alertscategory":["SEVERE","SEVERE"],"alertssource":["it","it"],"alertstypeid":["IT312","IT312"],"cuhd":["64"],"cuhi":["67"],"cuuv":["6"],"cuwd":["8"],"cuwx":["3"],"realfeel":["75","a80","b75","c75","d75"],"fc1hi":["74"],"fc1lo":["54"],"fc1wx":["2"],"lfscategory":["rain"],"lfsday":["3"],"lfsseverity":["5"],"lfs":["5_rain_3"],"pt":["0"],"adunit":["/6581/web/it/top_right/weather/local_home"]},"customFloor":0.02,"Is_Buy_It_Now":false},"isBuyItNow":false},{"bidder":"ttd","params":{"supplySourceId":"accuweather","publisherId":"1","bidfloor":0.02,"currency":"USD","Is_Buy_It_Now":false},"isBuyItNow":false},{"bidder":"google","params":{"sizes":"300x250,300x600,160x600,120x600,fluid","Is_Buy_It_Now":true},"isBuyItNow":true},{"bidder":"rubicon","params":{"accountId":12562,"siteId":135890,"zoneId":2745916,"position":"atf","userId":"7d695715xd89fx4158xab9bx5114c8ba51db","floor":0.8,"Is_Buy_It_Now":true},"isBuyItNow":true},{"bidder":"triplelift","params":{"inventoryCode":"Acccuweather_Prebid_web_topright_BIN","floor":1.0,"Is_Buy_It_Now":true},"isBuyItNow":true}],"slot":"top_right","adDivId":"top_right","adUnitCode":"/6581/web/it/top_right/weather/local_home","upr":0.1,"tid":"353585cb-966e-4178-935b-e73d00963095"},"bottom_right":{"bidders":[{"bidder":"google","params":{"sizes":"300x250,300x600,160x600,120x600,300x251,300x601,fluid","Is_Buy_It_Now":false},"isBuyItNow":false},{"bidder":"rubicon","params":{"accountId":12562,"siteId":135890,"zoneId":2745918,"position":"btf","userId":"7d695715xd89fx4158xab9bx5114c8ba51db","floor":0.02,"Is_Buy_It_Now":false},"isBuyItNow":false},{"bidder":"pubmatic","params":{"publisherId":"34576","adSlot":"Web_BottomRight","lat":"41.9","lon":"12.48","kadfloor":"0.02","currency":"USD","Is_Buy_It_Now":false},"isBuyItNow":false},{"bidder":"ix","params":{"siteId":"197765","bidFloor":0.02,"bidFloorCur":"USD","Is_Buy_It_Now":false},"isBuyItNow":false},{"bidder":"openx","params":{"delDomain":"accuweather-d.openx.net","unit":"539580673","customParams":{"fdate":["20260420"],"advelvet":["5"],"pgview":["1"],"partner":["google_search_accuweather"],"ufdb":["LII7"],"country":["IT"],"state":["62"],"wx_seg":["101100100","102102102","109101100","108102100","100108101","102100100","102101100","102103100","107100102","100111100","107101102","108103101","101103100","100113103","108104101","101105100","110100100","109104100","109105100","100106102","110101101","109100102","108101102","103100102","109103102","103101102","101106102","108100102","100109105","102104102","104100103","101104101","104101101","100109102","109102102","100114105","109106102","101107101","101108101","101102102","105100102","107103102","100114102","100114101","101101101"],"alertscategory":["SEVERE","SEVERE"],"alertssource":["it","it"],"alertstypeid":["IT312","IT312"],"cuhd":["64"],"cuhi":["67"],"cuuv":["6"],"cuwd":["8"],"cuwx":["3"],"realfeel":["75","a80","b75","c75","d75"],"fc1hi":["74"],"fc1lo":["54"],"fc1wx":["2"],"lfscategory":["rain"],"lfsday":["3"],"lfsseverity":["5"],"lfs":["5_rain_3"],"pt":["0"],"adunit":["/6581/web/it/bottom_right/weather/local_home"]},"customFloor":0.02,"Is_Buy_It_Now":false},"isBuyItNow":false},{"bidder":"google","params":{"sizes":"300x250,300x600,160x600,120x600,300x251,300x601,fluid","Is_Buy_It_Now":true},"isBuyItNow":true},{"bidder":"rubicon","params":{"accountId":12562,"siteId":135890,"zoneId":2745914,"position":"btf","userId":"7d695715xd89fx4158xab9bx5114c8ba51db","floor":0.4,"Is_Buy_It_Now":true},"isBuyItNow":true},{"bidder":"triplelift","params":{"inventoryCode":"Acccuweather_Prebid_Web_bottomright_BIN","floor":0.45,"Is_Buy_It_Now":true},"isBuyItNow":true}],"slot":"bottom_right","adDivId":"bottom_right","adUnitCode":"/6581/web/it/bottom_right/weather/local_home","upr":0.1,"tid":"4fdfdea3-bd87-4cf0-9290-91d52861cb9e"},"bottom":{"bidders":[{"bidder":"google","params":{"sizes":"970x250,728x90,728x91,970x251,fluid","Is_Buy_It_Now":false},"isBuyItNow":false},{"bidder":"rubicon","params":{"accountId":12562,"siteId":135890,"zoneId":640476,"position":"btf","userId":"7d695715xd89fx4158xab9bx5114c8ba51db","floor":0.02,"Is_Buy_It_Now":false},"isBuyItNow":false},{"bidder":"pubmatic","params":{"publisherId":"34576","adSlot":"Web_Bottom","lat":"41.9","lon":"12.48","kadfloor":"0.02","currency":"USD","Is_Buy_It_Now":false},"isBuyItNow":false},{"bidder":"ix","params":{"siteId":"197764","bidFloor":0.02,"bidFloorCur":"USD","Is_Buy_It_Now":false},"isBuyItNow":false},{"bidder":"openx","params":{"delDomain":"accuweather-d.openx.net","unit":"539580672","customParams":{"fdate":["20260420"],"advelvet":["5"],"pgview":["1"],"partner":["google_search_accuweather"],"ufdb":["LII7"],"country":["IT"],"state":["62"],"wx_seg":["101100100","102102102","109101100","108102100","100108101","102100100","102101100","102103100","107100102","100111100","107101102","108103101","101103100","100113103","108104101","101105100","110100100","109104100","109105100","100106102","110101101","109100102","108101102","103100102","109103102","103101102","101106102","108100102","100109105","102104102","104100103","101104101","104101101","100109102","109102102","100114105","109106102","101107101","101108101","101102102","105100102","107103102","100114102","100114101","101101101"],"alertscategory":["SEVERE","SEVERE"],"alertssource":["it","it"],"alertstypeid":["IT312","IT312"],"cuhd":["64"],"cuhi":["67"],"cuuv":["6"],"cuwd":["8"],"cuwx":["3"],"realfeel":["75","a80","b75","c75","d75"],"fc1hi":["74"],"fc1lo":["54"],"fc1wx":["2"],"lfscategory":["rain"],"lfsday":["3"],"lfsseverity":["5"],"lfs":["5_rain_3"],"pt":["0"],"adunit":["/6581/web/it/bottom/weather/local_home"]},"customFloor":0.02,"Is_Buy_It_Now":false},"isBuyItNow":false},{"bidder":"google","params":{"sizes":"970x250,728x90,728x91,970x251,fluid","Is_Buy_It_Now":true},"isBuyItNow":true},{"bidder":"rubicon","params":{"accountId":12562,"siteId":135890,"zoneId":2745912,"position":"btf","userId":"7d695715xd89fx4158xab9bx5114c8ba51db","floor":0.2,"Is_Buy_It_Now":true},"isBuyItNow":true},{"bidder":"triplelift","params":{"inventoryCode":"Acccuweather_Prebid_Web_bottom_BIN","floor":0.2,"Is_Buy_It_Now":true},"isBuyItNow":true}],"slot":"bottom","adDivId":"bottom","adUnitCode":"/6581/web/it/bottom/weather/local_home","upr":0.1,"tid":"6bd57a3e-858b-44b1-9189-780249e58f13"}},
+				adInfo: {"fdate":"20260421","lang":"it","ut":"1","advelvet":"15","inview":"ititrome213490weather-forecast213490:wtr,wbr,wt","bot":"0","pgview":"1","partner":"google_search_accuweather","ufdb":"LII7","city":"Rome","country":"IT","state":"62","dma":null,"key":"213490","region":"eur","lat":"41.901","lon":"12.48","browser":"safari","connection":"mobile_vhigh_5000","wx_seg":"101100100,102102102,109101100,108102100,100108101,102100100,102101100,102103100,107100102,100111100,107101102,108103101,101103100,100113103,108104101,101105100,110100100,109104100,109105100,100106102,110101101,109100102,108101102,103100102,109103102,103101102,101106102,108100102,100109105,102104102,104100103,101104101,104101101,100109102,109102102,100114105,109106102,101107101,101108101,101102102,105100102,107103102,100114102,100114101,101101101","alertscategory":"SEVERE,SEVERE,SEVERE,WIND","alertssource":"it,it,it,it","alertstypeid":"IT312,IT312,IT312,IT169","cuhd":"61","cuhi":"72","cuuv":"4","cuwd":"15","cuwx":"3","realfeel":"70,a75,b75,c75,d80","cuaq":"3","fc1hi":"73","fc1lo":"53","fc1wx":"2","lfscategory":"mild","lfsday":"5","lfsseverity":"4","lfs":"4_mild_5","pt":"0","userid":"active","userid3p":"missing","sub":"free","auth":"false","site":"adc"},
+				adSlots: {"top":{"bidders":[{"bidder":"google","params":{"sizes":"970x250,728x90,fluid,970x90","Is_Buy_It_Now":false},"isBuyItNow":false},{"bidder":"rubicon","params":{"accountId":12562,"siteId":135890,"zoneId":640474,"position":"atf","userId":"7d695715xd89fx4158xab9bx5114c8ba51db","floor":0.02,"Is_Buy_It_Now":false},"isBuyItNow":false},{"bidder":"triplelift","params":{"inventoryCode":"accuweather_d_top_leaderboard_pbjs","floor":0.02,"Is_Buy_It_Now":false},"isBuyItNow":false},{"bidder":"criteo","params":{"networkId":12212,"pubid":"3852","uid":"472391","bidFloor":0.02,"bidFloorCur":"USD","Is_Buy_It_Now":false},"isBuyItNow":false},{"bidder":"pubmatic","params":{"publisherId":"34576","adSlot":"Web_Top","lat":"41.9","lon":"12.48","kadfloor":"0.02","currency":"USD","Is_Buy_It_Now":false},"isBuyItNow":false},{"bidder":"ix","params":{"siteId":"197759","bidFloor":0.02,"bidFloorCur":"USD","Is_Buy_It_Now":false},"isBuyItNow":false},{"bidder":"openx","params":{"delDomain":"accuweather-d.openx.net","unit":"539580665","customParams":{"fdate":["20260421"],"advelvet":["15"],"pgview":["1"],"partner":["google_search_accuweather"],"ufdb":["LII7"],"country":["IT"],"state":["62"],"wx_seg":["101100100","102102102","109101100","108102100","100108101","102100100","102101100","102103100","107100102","100111100","107101102","108103101","101103100","100113103","108104101","101105100","110100100","109104100","109105100","100106102","110101101","109100102","108101102","103100102","109103102","103101102","101106102","108100102","100109105","102104102","104100103","101104101","104101101","100109102","109102102","100114105","109106102","101107101","101108101","101102102","105100102","107103102","100114102","100114101","101101101"],"alertscategory":["SEVERE","SEVERE","SEVERE","WIND"],"alertssource":["it","it","it","it"],"alertstypeid":["IT312","IT312","IT312","IT169"],"cuhd":["61"],"cuhi":["72"],"cuuv":["4"],"cuwd":["15"],"cuwx":["3"],"realfeel":["70","a75","b75","c75","d80"],"fc1hi":["73"],"fc1lo":["53"],"fc1wx":["2"],"lfscategory":["mild"],"lfsday":["5"],"lfsseverity":["4"],"lfs":["4_mild_5"],"pt":["0"],"adunit":["/6581/web/it/top/weather/local_home"]},"customFloor":0.02,"Is_Buy_It_Now":false},"isBuyItNow":false},{"bidder":"ttd","params":{"supplySourceId":"accuweather","publisherId":"1","bidfloor":0.02,"currency":"USD","Is_Buy_It_Now":false},"isBuyItNow":false},{"bidder":"google","params":{"sizes":"970x250,728x90,fluid,970x90","Is_Buy_It_Now":true},"isBuyItNow":true},{"bidder":"rubicon","params":{"accountId":12562,"siteId":135890,"zoneId":1518598,"position":"atf","userId":"7d695715xd89fx4158xab9bx5114c8ba51db","floor":0.7,"Is_Buy_It_Now":true},"isBuyItNow":true},{"bidder":"triplelift","params":{"inventoryCode":"Acccuweather_Prebid_web_top_BIN","floor":0.9,"Is_Buy_It_Now":true},"isBuyItNow":true}],"slot":"top","adDivId":"top","adUnitCode":"/6581/web/it/top/weather/local_home","upr":0.15,"tid":"cf6ab95b-7e43-4548-b841-a5907cc82ec1"},"oop":{"bidders":[{"bidder":"google","params":{"sizes":"oop","Is_Buy_It_Now":false},"isBuyItNow":false}],"slot":"oop","adDivId":"oop","adUnitCode":"/6581/web/it/oop/weather/local_home","upr":0.02,"tid":"042e1711-5ea5-40ff-8007-28025ec95b44"},"interstitial":{"bidders":[{"bidder":"google","params":{"sizes":"interstitial","Is_Buy_It_Now":false},"isBuyItNow":false}],"slot":"interstitial","adDivId":"interstitial","adUnitCode":"/6581/web/it/interstitial/weather/local_home","upr":3.5,"tid":"f4fe34eb-47db-4e2b-b4cd-56709afd48ce"},"top_right":{"bidders":[{"bidder":"google","params":{"sizes":"300x250,300x600,160x600,120x600,fluid","Is_Buy_It_Now":false},"isBuyItNow":false},{"bidder":"rubicon","params":{"accountId":12562,"siteId":135890,"zoneId":2745920,"position":"atf","userId":"7d695715xd89fx4158xab9bx5114c8ba51db","floor":0.02,"Is_Buy_It_Now":false},"isBuyItNow":false},{"bidder":"triplelift","params":{"inventoryCode":"accuweather_d_topright_rectangle_pbjs","floor":0.02,"Is_Buy_It_Now":false},"isBuyItNow":false},{"bidder":"criteo","params":{"networkId":12212,"pubid":"3852","uid":"472390","bidFloor":0.02,"bidFloorCur":"USD","Is_Buy_It_Now":false},"isBuyItNow":false},{"bidder":"pubmatic","params":{"publisherId":"34576","adSlot":"Web_TopRight","lat":"41.9","lon":"12.48","kadfloor":"0.02","currency":"USD","Is_Buy_It_Now":false},"isBuyItNow":false},{"bidder":"ix","params":{"siteId":"197760","bidFloor":0.02,"bidFloorCur":"USD","Is_Buy_It_Now":false},"isBuyItNow":false},{"bidder":"openx","params":{"delDomain":"accuweather-d.openx.net","unit":"539580668","customParams":{"fdate":["20260421"],"advelvet":["15"],"pgview":["1"],"partner":["google_search_accuweather"],"ufdb":["LII7"],"country":["IT"],"state":["62"],"wx_seg":["101100100","102102102","109101100","108102100","100108101","102100100","102101100","102103100","107100102","100111100","107101102","108103101","101103100","100113103","108104101","101105100","110100100","109104100","109105100","100106102","110101101","109100102","108101102","103100102","109103102","103101102","101106102","108100102","100109105","102104102","104100103","101104101","104101101","100109102","109102102","100114105","109106102","101107101","101108101","101102102","105100102","107103102","100114102","100114101","101101101"],"alertscategory":["SEVERE","SEVERE","SEVERE","WIND"],"alertssource":["it","it","it","it"],"alertstypeid":["IT312","IT312","IT312","IT169"],"cuhd":["61"],"cuhi":["72"],"cuuv":["4"],"cuwd":["15"],"cuwx":["3"],"realfeel":["70","a75","b75","c75","d80"],"fc1hi":["73"],"fc1lo":["53"],"fc1wx":["2"],"lfscategory":["mild"],"lfsday":["5"],"lfsseverity":["4"],"lfs":["4_mild_5"],"pt":["0"],"adunit":["/6581/web/it/top_right/weather/local_home"]},"customFloor":0.02,"Is_Buy_It_Now":false},"isBuyItNow":false},{"bidder":"ttd","params":{"supplySourceId":"accuweather","publisherId":"1","bidfloor":0.02,"currency":"USD","Is_Buy_It_Now":false},"isBuyItNow":false},{"bidder":"google","params":{"sizes":"300x250,300x600,160x600,120x600,fluid","Is_Buy_It_Now":true},"isBuyItNow":true},{"bidder":"rubicon","params":{"accountId":12562,"siteId":135890,"zoneId":2745916,"position":"atf","userId":"7d695715xd89fx4158xab9bx5114c8ba51db","floor":0.7,"Is_Buy_It_Now":true},"isBuyItNow":true},{"bidder":"triplelift","params":{"inventoryCode":"Acccuweather_Prebid_web_topright_BIN","floor":0.9,"Is_Buy_It_Now":true},"isBuyItNow":true}],"slot":"top_right","adDivId":"top_right","adUnitCode":"/6581/web/it/top_right/weather/local_home","upr":0.1,"tid":"04b75528-fb02-4a62-bfb5-74e4a1b006de"},"bottom_right":{"bidders":[{"bidder":"google","params":{"sizes":"300x250,300x600,160x600,120x600,300x251,300x601,fluid","Is_Buy_It_Now":false},"isBuyItNow":false},{"bidder":"rubicon","params":{"accountId":12562,"siteId":135890,"zoneId":2745918,"position":"btf","userId":"7d695715xd89fx4158xab9bx5114c8ba51db","floor":0.02,"Is_Buy_It_Now":false},"isBuyItNow":false},{"bidder":"pubmatic","params":{"publisherId":"34576","adSlot":"Web_BottomRight","lat":"41.9","lon":"12.48","kadfloor":"0.02","currency":"USD","Is_Buy_It_Now":false},"isBuyItNow":false},{"bidder":"ix","params":{"siteId":"197765","bidFloor":0.02,"bidFloorCur":"USD","Is_Buy_It_Now":false},"isBuyItNow":false},{"bidder":"openx","params":{"delDomain":"accuweather-d.openx.net","unit":"539580673","customParams":{"fdate":["20260421"],"advelvet":["15"],"pgview":["1"],"partner":["google_search_accuweather"],"ufdb":["LII7"],"country":["IT"],"state":["62"],"wx_seg":["101100100","102102102","109101100","108102100","100108101","102100100","102101100","102103100","107100102","100111100","107101102","108103101","101103100","100113103","108104101","101105100","110100100","109104100","109105100","100106102","110101101","109100102","108101102","103100102","109103102","103101102","101106102","108100102","100109105","102104102","104100103","101104101","104101101","100109102","109102102","100114105","109106102","101107101","101108101","101102102","105100102","107103102","100114102","100114101","101101101"],"alertscategory":["SEVERE","SEVERE","SEVERE","WIND"],"alertssource":["it","it","it","it"],"alertstypeid":["IT312","IT312","IT312","IT169"],"cuhd":["61"],"cuhi":["72"],"cuuv":["4"],"cuwd":["15"],"cuwx":["3"],"realfeel":["70","a75","b75","c75","d80"],"fc1hi":["73"],"fc1lo":["53"],"fc1wx":["2"],"lfscategory":["mild"],"lfsday":["5"],"lfsseverity":["4"],"lfs":["4_mild_5"],"pt":["0"],"adunit":["/6581/web/it/bottom_right/weather/local_home"]},"customFloor":0.02,"Is_Buy_It_Now":false},"isBuyItNow":false},{"bidder":"google","params":{"sizes":"300x250,300x600,160x600,120x600,300x251,300x601,fluid","Is_Buy_It_Now":true},"isBuyItNow":true},{"bidder":"rubicon","params":{"accountId":12562,"siteId":135890,"zoneId":2745914,"position":"btf","userId":"7d695715xd89fx4158xab9bx5114c8ba51db","floor":0.35,"Is_Buy_It_Now":true},"isBuyItNow":true},{"bidder":"triplelift","params":{"inventoryCode":"Acccuweather_Prebid_Web_bottomright_BIN","floor":0.4,"Is_Buy_It_Now":true},"isBuyItNow":true}],"slot":"bottom_right","adDivId":"bottom_right","adUnitCode":"/6581/web/it/bottom_right/weather/local_home","upr":0.05,"tid":"2734917d-5bc5-4ea1-9e0f-43f623fc584f"},"bottom":{"bidders":[{"bidder":"google","params":{"sizes":"970x250,728x90,728x91,970x251,fluid","Is_Buy_It_Now":false},"isBuyItNow":false},{"bidder":"rubicon","params":{"accountId":12562,"siteId":135890,"zoneId":640476,"position":"btf","userId":"7d695715xd89fx4158xab9bx5114c8ba51db","floor":0.02,"Is_Buy_It_Now":false},"isBuyItNow":false},{"bidder":"pubmatic","params":{"publisherId":"34576","adSlot":"Web_Bottom","lat":"41.9","lon":"12.48","kadfloor":"0.02","currency":"USD","Is_Buy_It_Now":false},"isBuyItNow":false},{"bidder":"ix","params":{"siteId":"197764","bidFloor":0.02,"bidFloorCur":"USD","Is_Buy_It_Now":false},"isBuyItNow":false},{"bidder":"openx","params":{"delDomain":"accuweather-d.openx.net","unit":"539580672","customParams":{"fdate":["20260421"],"advelvet":["15"],"pgview":["1"],"partner":["google_search_accuweather"],"ufdb":["LII7"],"country":["IT"],"state":["62"],"wx_seg":["101100100","102102102","109101100","108102100","100108101","102100100","102101100","102103100","107100102","100111100","107101102","108103101","101103100","100113103","108104101","101105100","110100100","109104100","109105100","100106102","110101101","109100102","108101102","103100102","109103102","103101102","101106102","108100102","100109105","102104102","104100103","101104101","104101101","100109102","109102102","100114105","109106102","101107101","101108101","101102102","105100102","107103102","100114102","100114101","101101101"],"alertscategory":["SEVERE","SEVERE","SEVERE","WIND"],"alertssource":["it","it","it","it"],"alertstypeid":["IT312","IT312","IT312","IT169"],"cuhd":["61"],"cuhi":["72"],"cuuv":["4"],"cuwd":["15"],"cuwx":["3"],"realfeel":["70","a75","b75","c75","d80"],"fc1hi":["73"],"fc1lo":["53"],"fc1wx":["2"],"lfscategory":["mild"],"lfsday":["5"],"lfsseverity":["4"],"lfs":["4_mild_5"],"pt":["0"],"adunit":["/6581/web/it/bottom/weather/local_home"]},"customFloor":0.02,"Is_Buy_It_Now":false},"isBuyItNow":false},{"bidder":"google","params":{"sizes":"970x250,728x90,728x91,970x251,fluid","Is_Buy_It_Now":true},"isBuyItNow":true},{"bidder":"rubicon","params":{"accountId":12562,"siteId":135890,"zoneId":2745912,"position":"btf","userId":"7d695715xd89fx4158xab9bx5114c8ba51db","floor":0.15,"Is_Buy_It_Now":true},"isBuyItNow":true},{"bidder":"triplelift","params":{"inventoryCode":"Acccuweather_Prebid_Web_bottom_BIN","floor":0.15,"Is_Buy_It_Now":true},"isBuyItNow":true}],"slot":"bottom","adDivId":"bottom","adUnitCode":"/6581/web/it/bottom/weather/local_home","upr":0.05,"tid":"f8190e68-8974-4397-adb4-7a2228bce258"}},
 				globalAdConfig: {"prebidTimeout":1000,"awxTimeout":1000,"gptEnableSingleRequest":false,"gptLazyLoading":"{fetchMarginPercent:150,renderMarginPercent:75,mobileScaling:1.0}","skipGoogleAdManager":true,"prebidBundleId":"a","testVariant":"","disableInitialAdLoad":true,"javascriptHead":"","javascriptBody":""},
 				ortbConfig: {"name":"AccuWeather","domain":"accuweather.com","categories":["IAB7","IAB10","IAB15","IAB20","223","274","390","464","653"],"sectionCategories":[""],"pageCategories":["IAB15-10","IAB20-14","IAB20-19","390","659"],"keywords":"","pageUrl":"","referrerUrl":"","isOptimizedForMobile":true,"hasPrivacyPolicy":true,"publisher":{"name":"AccuWeather","domain":"accuweather.com","categories":["IAB7","IAB10","IAB15","IAB20","223","274","390","464","653"]},"content":{"title":"","url":"","categories":["IAB15-10","IAB20-14","IAB20-19","390","659"],"productQuality":"1","context":"5","keywords":"","sourceRelationship":1,"language":"","data":{"name":"accuweather.com","extensions":{"segtax":"4"},"segments":[{"name":"id","value":"390"},{"name":"id","value":"659"}]}}},
 				platform: 'web',
@@ -179,8 +179,8 @@ html_text = """<html lang="it" class="accuweather"><head>
   "postEventCta": true,
   "winterCenterMap": true
 };
-	var userCookie = {"cDate":"2026-04-16","isDarkMapStyle":false,"lang":"it","rl":["213490"],"tp":"C","clk":"undefined","ccb":true,"userContentAffinity":{}};
-	var recentLocations = [{"adminArea":{"englishName":"Lazio","id":"62","localizedName":"Lazio"},"alertCount":0,"country":{"englishName":"Italy","id":"IT","localizedName":"Italia"},"icon":3,"key":"213490","localizedName":"Roma","postalCode":"","temp":"21°","realFeel":"24°","isDayTime":true}];
+	var userCookie = {"cDate":"2026-04-16","isDarkMapStyle":false,"lang":"it","rl":["213490","226396","214046","212293"],"tp":"C","clk":"undefined","ccb":true,"userContentAffinity":{}};
+	var recentLocations = [{"adminArea":{"englishName":"Lazio","id":"62","localizedName":"Lazio"},"alertCount":0,"country":{"englishName":"Italy","id":"IT","localizedName":"Italia"},"icon":3,"key":"213490","localizedName":"Roma","postalCode":"","temp":"22°","realFeel":"23°","isDayTime":true},{"alertCount":0,"key":"226396","isDayTime":false},{"alertCount":0,"key":"214046","isDayTime":false},{"alertCount":0,"key":"212293","isDayTime":false}];
 	var currentLocation = {"plumeLabsLink":"https://air.plumelabs.com/air-quality-in-rome-diq2","englishName":"Rome","gmtOffset":2.0,"hasAlerts":true,"hasForecastConfidence":true,"hasPollen":true,"hasMinuteCast":true,"hasFutureRadar":true,"lat":41.901,"lon":12.48,"region":{"englishName":"Europe","id":"EUR","localizedName":"Europa"},"timeZone":"CEST","timeZoneCode":"CEST","administrativeArea":{"englishName":"Lazio","id":"62","localizedName":"Lazio"},"country":{"englishName":"Italy","id":"IT","localizedName":"Italia"},"key":"213490","localizedName":"Roma","primaryPostalCode":"","source":"AccuWeather"};
 	var weatherEvents = [];
 	var userData = {"city":"SIZIANO","continent":2,"countryCode":"IT","county":"","lat":45.33,"long":9.2,"regionCode":"25","throughput":"vhigh","bw":"5000","networkType":"mobile","network":"fastweb","zipCodes":[{"primary":""}],"device":{"browserVersion":"26"}};
@@ -215,14 +215,14 @@ html_text = """<html lang="it" class="accuweather"><head>
 				pageView: null,
 			},
 			raineV2: {
-				pageView: {"testGroup":"raine_variant","platformVersion":"2.3.27.0","pageInfo":{"group":"three-day","url":"/it/it/rome/213490/weather-forecast/213490","referrer":"https://www.google.com/"},"adInfo":{"code":"/6581/web/it/top/weather/local_home","status":"active","cookie3p":"missing"},"sessionInfo":{"id":"188d0cdb-a7df-4d85-941a-15103d83d347","partner":"google_search_accuweather","utm":{}},"userInfo":{"userPartner":"","id":"aabb62c2-3a89-44c2-86c5-ead1b04c96df","language":"it","country":"IT","region":"25","city":"SIZIANO","start":"2026-04-16"},"isBot":false,"infra":"glacier","id":"b810153a-9116-4917-a563-bb9cac2d596b","platform":"web","weather":{"key":"213490"},"device":{"name":"safari","brand":"Apple","version":"26","category":"desktop"},"time":"2026-04-20T09:57:55Z"},
+				pageView: {"testGroup":"raine_variant","platformVersion":"2.3.27.0","pageInfo":{"group":"three-day","url":"/it/it/rome/213490/weather-forecast/213490","referrer":"https://www.google.com/"},"adInfo":{"code":"/6581/web/it/top/weather/local_home","status":"active","cookie3p":"missing"},"sessionInfo":{"id":"8f63c7d6-8835-4d66-9066-efe7c7cdfc4e","partner":"google_search_accuweather","utm":{}},"userInfo":{"userPartner":"","id":"aabb62c2-3a89-44c2-86c5-ead1b04c96df","language":"it","country":"IT","region":"25","city":"SIZIANO","start":"2026-04-16"},"isBot":false,"infra":"glacier","id":"110c0549-0bf9-4cfe-8280-84fd736489be","platform":"web","weather":{"key":"213490"},"device":{"name":"safari","brand":"Apple","version":"26","category":"desktop"},"time":"2026-04-21T14:02:04Z"},
 			},
 		}
 	});
 </script>
 
 
-	<script>
+	<link rel="stylesheet" href="https://www.accuweather.com/tags/common/ketch/ketch-2d5abe96.css"><script>
     if (window.tagEngineDataLayer?.ketch?.isEnabled !== false) {
       // https://cdn.ketchjs.com/plugins/v1/tcf/stub.js
       window.__gpp_addFrame=function(e){if(!window.frames[e])if(document.body){var t=document.createElement("iframe");t.style.cssText="display:none",t.name=e,document.body.appendChild(t)}else window.setTimeout(window.__gpp_addFrame,10,e)},window.__gpp_stub=function(){var e=arguments;if(__gpp.queue=__gpp.queue||[],__gpp.events=__gpp.events||[],!e.length||1==e.length&&"queue"==e[0])return __gpp.queue;if(1==e.length&&"events"==e[0])return __gpp.events;var t=e[0],p=e.length>1?e[1]:null,n=e.length>2?e[2]:null;const a=localStorage.getItem("_ketch_gpp_v1_");let s=null;if(a&&(s=JSON.parse(window.atob(a))),"ping"===t)p(s||{gppVersion:"1.1",cmpStatus:"stub",cmpDisplayStatus:"hidden",signalStatus:"not ready",sectionList:[],applicableSections:[],gppString:"",parsedSections:{}},!0);else if("addEventListener"===t){"lastId"in __gpp||(__gpp.lastId=0),__gpp.lastId++;var i=__gpp.lastId;__gpp.events.push({id:i,callback:p,parameter:n}),p({eventName:"listenerRegistered",listenerId:i,data:!0,pingData:s||{gppVersion:"1.1",cmpStatus:"stub",cmpDisplayStatus:"hidden",signalStatus:"not ready",sectionList:[],applicableSections:[],gppString:"",parsedSections:{}}},!0)}else if("removeEventListener"===t){for(var _=!1,l=0;l<__gpp.events.length;l++)if(__gpp.events[l].id==n){__gpp.events.splice(l,1),_=!0;break}p({eventName:"listenerRemoved",listenerId:n,data:_,pingData:s||{gppVersion:"1.1",cmpStatus:"stub",cmpDisplayStatus:"hidden",signalStatus:"not ready",sectionList:[],applicableSections:[],gppString:"",parsedSections:{}}},!0)}else"hasSection"===t?p(!1,!0):"getSection"===t||"getField"===t?p(null,!0):__gpp.queue.push([].slice.apply(e))},window.__gpp_msghandler=function(e){var t="string"==typeof e.data;try{var p=t?JSON.parse(e.data):e.data}catch(e){p=null}if("object"==typeof p&&null!==p&&"__gppCall"in p){var n=p.__gppCall;window.__gpp(n.command,(function(p,a){var s={__gppReturn:{returnValue:p,success:a,callId:n.callId}};e&&e.source&&e.source.postMessage&&e.source.postMessage(t?JSON.stringify(s):s,"*")}),"parameter"in n?n.parameter:null,"version"in n?n.version:"1.1")}},"__gpp"in window&&"function"==typeof window.__gpp||(window.__gpp=window.__gpp_stub,window.addEventListener("message",window.__gpp_msghandler,!1),window.__gpp_addFrame("__gppLocator"));
@@ -244,18 +244,20 @@ html_text = """<html lang="it" class="accuweather"><head>
       })();
     }
 </script><script type="text/javascript" src="https://global.ketchcdn.com/web/v3/config/accuweather/website_smart_tag/boot.js" async="" defer=""></script>
-<link rel="stylesheet" href="https://www.accuweather.com/tags/common/ketch/ketch-2d5abe96.css">
+<script>(async () => {(function(){let t,e,o=!1;const c=()=>{o||(document.documentElement.style.overflow="hidden",document.body.style.overflow="hidden",o=!0)},l=()=>{o&&(document.documentElement.style.overflow="",document.body.style.overflow="",o=!1)},n=()=>{const r=document.querySelector('[data-ketch-backdrop="true"].ketch-pointer-events-none');return r?(r.classList.remove("ketch-pointer-events-none"),r.style.pointerEvents="auto",c(),e||(e=new MutationObserver(()=>{document.querySelector('[data-ketch-backdrop="true"]')||(l(),e.disconnect(),e=null)}),e.observe(document.body,{childList:!0,subtree:!0})),t?.disconnect(),t=null,!0):!1};n()||(t=new MutationObserver(n),t.observe(document.body,{childList:!0,subtree:!0})),window.addEventListener("load",n,{once:!0})})();
+//# sourceMappingURL=ketch.inline-65a85f4e.js.map
+})();</script>
 
 	
 	<script type="module" async="" src="https://www.accuweather.com/tags/shared/prebid/prebid-a-7411b6f1.js"></script>
 
 
-	<script>(async () => {function l(i){return`[${i}]
+	<script>(async () => {function C(e){try{const t=document.getElementById(`client-data-store-${e}`);if(t&&t.innerText){const i=JSON.parse(t.innerText);return window.awxLogger?.withScope(`tagEngine::parseClientDataStore::${e}`).debug("Successfully parsed store data",i),i}}catch(t){window.awxLogger?.withScope(`tagEngine::parseClientDataStore::${e}`).error(`Could not parse client data store '${e}'`,t)}window.awxLogger?.withScope(`tagEngine::parseClientDataStore::${e}`).debug(`${e}: Could not parse JSON data, likely missing client-data-store element.`)}function k(e,t=!1){try{return JSON.parse(e)}catch(i){if(t)throw i;return window.awxLogger?.withScope("tagEngine::tryParseJSON").error("Could not parse JSON data.",{jsonString:e,error:i}),null}}const ae=()=>new Promise(e=>{typeof window.__gpp=="function"&&window.__gpp("ping",t=>{t?.gppString&&e()}),typeof window.ketch=="function"?window.ketch("on","consent",()=>{e()}):e()}),W=e=>{const{adData:t={},adDataAdc:i}=window.tagEngineDataLayer;if(i)return i;const o=window.location.pathname.replace("/app","").replaceAll("/","");return t[e||o||"home"]||{...t.home,adSlots:{}}},de=({globalAdConfig:e,ppid:t,ortbConfig:i,isPrebidDisabled:o,userData:s,platform:r,hashedEmail:g})=>{const l={prebidTimeout:750,awxTimeout:1e4,disableInitialAdLoad:!0,gptEnableSingleRequest:!0,gptLazyLoading:"{}",buyItNowSkipGoogleAdManager:!0,isPrebidDisabled:o,userData:s,...e};t&&(l.ppid=t),i&&(l.ortbConfig=i),r&&(l.platform=r),g&&(l.hashedEmail=g,window.eh2=g);try{const d=k(l.gptLazyLoading.replace(/(['"])?([a-z0-9A-Z_]+)(['"])?:/g,'"$2": '),!0);typeof d=="object"&&Object.keys(d).length>0?l.gptLazyLoading=d:delete l.gptLazyLoading}catch(d){window.awxLogger?.withScope("Ads::setupGlobalAdConfig").debug("Error parsing gptLazyLoading",d),delete l.gptLazyLoading}window.globalAdConfig=l},re=e=>{const t=new Set(["advelvet","alertscategory","alertssource","alertstypeid","country","cuhd","cuhi","cuuv","cuwd","cuwx","dma","fdate","hour","lfs","lfscategory","lfsday","lfsseverity","partner","pgview","pt","realfeel","site","state","wx_seg","ufdb"]);return Object.entries(e).reduce((i,[o,s])=>(t.has(o)&&(i[o]=s?.split(",")),i),{})},K=({adSlots:e})=>{const t=new Map;if(e&&Object.values(e).length){const o=Object.values(e)[0].adUnitCode.split("/")[2]!=="web"?["adhesion","top","middle","native","infeed","bottom","oop"]:["top","top_right","infeed","bottom_right","middle","native","bottom","oop"];window.adInfo.sub!=="premium-plus"&&o.push("interstitial");const s=re(window.adInfo);Object.values(e).sort((r,g)=>o.indexOf(r.slot)-o.indexOf(g.slot)).filter(r=>{const g=o.indexOf(r.slot)>-1,l=r.bidders?.some(d=>d.bidder==="google");return g&&l}).forEach(r=>{r.winner={auction:0},r.sizes=r.bidders.find(g=>g.bidder==="google")?.params?.sizes.split(",").map(g=>g.includes("x")?g.split("x").map(Number):g),r.bidders.forEach(g=>{for(const[l,d]of Object.entries(g.params))d==="%%targeting%%"?g.params[l]={adunit:[r.adUnitCode],...s}:typeof d=="string"&&d.includes("%%")&&delete g.params[l]}),t.set(r.adDivId,r)})}window.adsOnPage=t},le=()=>{const e="awx_pv",t=new Date;t.setDate(t.getDate()+1),t.setHours(0,0,0,0);let i=k(localStorage.getItem(e));i?.ttl&&new Date<i.ttl?i.val+=1:i={val:1,ttl:+t},localStorage.setItem(e,JSON.stringify(i))},q=e=>E(C("userSettings")?.isMetric?e*9/5+32:e),E=e=>e<0?-Math.round(-e):Math.round(e),ce=new CustomEvent("onSetupAdInfo");function V({adInfo:e={}}){const{ortbConfig:t,testVariant:i}=window.globalAdConfig,o=k(localStorage.getItem("awx_pv")||'{ "val": 1 }');e.pgview=o.val.toString(),e.hour=new Date().getHours().toString();const s=document.documentElement.clientWidth,r=document.documentElement.clientHeight,g=b=>Math.ceil(b/10)*10;e.viewport=`${g(s)}x${g(r)}`,e.site==="adc"?e.site=s>=768?s>=1024?"desktop":"tablet":"mobile":e.site="one",t?.pageCategories&&(e.iabctax=t.pageCategories.join(","));const l=new URLSearchParams(window.location.search);l.get("adClicks")&&(e.clicks=l.get("adClicks"));const d=window.location.pathname.split("/").filter(Boolean);if(l.get("from")&&d?.[1].toLowerCase()==="today"){e.from=l.get("from");const b=window.location.href.replace(`?from=${l.get("from")}`,"");window.history.replaceState({},document.title,b)}else e.from=null;l.get("adtestkey")?e.test=l.get("adtestkey"):i&&(e.test=i),e.userid="active";const n=C("alerts");n?.length>0&&(e.alertscategory=n.map(b=>b.category).join(","),e.alertssource=n.map(b=>b.countryCode).join(","),e.alertstypeid=n.map(b=>b.typeId).join(","));const p=C("currentConditions");p&&(e.cuhd=E(p.extended?.humidityValue).toString(),e.cuhi=E(p.apparentTempImperial).toString(),e.cuuv=E(p.extended?.uv?.value).toString(),e.cuwd=E(p.windSpeedImperial).toString(),e.cuwx=p.iconCode.toString(),e.realfeel=E(q(p.realFeelValue)).toString());const w=C("currentAirQuality");if(w){const b=w.overallPlumeLabsIndex;let v="0";b>=0&&b<20?v="1":b>=20&&b<50?v="2":b>=50&&b<100?v="3":b>=100&&b<150?v="4":b>=150&&b<250?v="5":b>=250&&(v="6"),e.cuaq=v}const c="abcd",h=C("dailyForecasts");h&&h.slice(0,4).forEach((b,v)=>{e.realfeel+=`,${c[v]}${E(q(b.day.realFeelValue))}`});const f=C("localForecastSummary");if(f){const b=f.category?f.category.replace("/","-"):"x",v=Math.abs(new Date(f.startDate)-new Date)/(1e3*60*60*24),L=Math.min(Math.round(v),10)+1;e.lfscategory=b,e.lfsseverity=f.severity.toString(),e.lfsday=L.toString(),e.lfs=`${f.severity}_${b}_${L}`}e.pt=localStorage.getItem("timeOnPage")||"0",window.adInfo=e,window.dispatchEvent(ce);const A=JSON.parse(localStorage.getItem("adResults"));o.val===1&&A&&(A.previousRatio=A.filledAds/A.possibleAds,A.filledAds=0,A.possibleAds=0),window.adResults=A||{}}function P(e,t){if(e==null)return e;const i=Math.pow(10,t);let o=Math.round(e*i)/i;const s=1/i;return o===+e&&(e>=0?o+=s:o-=s),parseFloat(o.toFixed(t))}const N=e=>Object.keys(e).map(t=>`${t}=${e[t]}`).join("&"),ge=({adUnitCode:e,adObject:t,customTargeting:i={}})=>{let o=e.split("/");o[3]="bin_prebid";const s=o.join("/"),r={...i,...window.adInfo||{},...window.getUprTargeting?.(t)||{},ppid:window.globalAdConfig?.ppid},g={iu:s,sz:"1x1",c:Math.round(Date.now()/1e3),t:encodeURIComponent(N(r)),m:"text/html"},l=`https://securepubads.g.doubleclick.net/gampad/adx?${N(g)}`,d=document.createElement("iframe");d.setAttribute("src",l),d.setAttribute("style","width:0;height:0;display:none"),d.setAttribute("aria-hidden","true"),d.id=`${t.adDivId}-bin-tracker`,document.body.appendChild(d)};function pe(){const e=window.location.hash.indexOf("idgraph")>-1,t=function(){e&&console.log.apply(console,["[AWX ID Graph]"].concat(Array.prototype.slice.call(arguments)))},i=a=>{if(!a)return null;try{return JSON.parse(a)}catch{return null}},o=a=>{const m=document.cookie.split("; ").find(u=>u.startsWith(a+"="));if(!m)return null;try{return decodeURIComponent(m.split("=").slice(1).join("="))}catch{return null}},s=a=>{try{return localStorage.getItem(a)}catch{return null}},r=Date.now(),g=a=>{const m=[...a];for(let u=m.length-1;u>0;u--){const y=Math.floor(Math.random()*(u+1));[m[u],m[y]]=[m[y],m[u]]}return m},l=["uidapi.com","id5-sync.com"],d=["adserver.org","pubcid.org","criteo.com","crwdcntrl.net","audigent.com","33across.com","sharethrough.com","gumgum.com"],n=5,p=l.length+n,w=g(d).slice(0,n).sort((a,m)=>d.indexOf(a)-d.indexOf(m)),c=[...l,...w],h=new Map,f=(a,m,u={})=>{if(!c.includes(a)||h.has(a)||!m?.length||m.some(x=>!x.id||String(x.id).trim()===""||String(x.id).startsWith("null")))return!1;const y={source:a,uids:m};return Object.keys(u).length>0&&(y.ext=u),h.set(a,y),!0};if((()=>{try{return window.pbjs?.getUserIdsAsEids?.()?.some(a=>a.source==="uidapi.com")||!1}catch{return!1}})())t("UID2: uid2IdSystem resolved — passthrough will handle");else{let a=null;const m=i(s("OPTABLE_TC"));if(m?.advertising_token&&(m.identity_expires??0)>r&&(a=m.advertising_token),!a){const u=i(s("__uid2_advertising_token"))??i(o("__uid2_advertising_token"));u?.advertising_token&&(u.identity_expires??0)>r&&(a=u.advertising_token)}if(!a){const u=i(s("_GESPSK-uidapi.com"));Array.isArray(u)&&u[1]?.startsWith("A4AAAA")&&(a=u[1])}if(!a){const y=i(s("cnx_user_ids"))?.supplementalEids?.find(x=>x.source==="uidapi.com")?.idList?.[0];y?.startsWith("A4AAAA")&&(a=y)}a&&f("uidapi.com",[{id:a,atype:3}])}const b=i(o("id5id")),v=s("id5id_exp"),L=v?new Date(v).getTime()<r:!1,$=b?.universal_uid??b?.ids?.id5id?.eid?.uids?.[0]?.id;if($&&!L)f("id5-sync.com",[{id:$,atype:1,ext:{linkType:b.link_type??b.ext?.linkType??2,abTestingControlGroup:!1}}]);else{let a=null,m=0;try{for(let u=0;u<localStorage.length;u++){const y=localStorage.key(u);if(!y.startsWith("id5id_v2_")||y==="id5id_v2_signature")continue;const x=i(s(y));if(!x?.data?.response?.universal_uid||x.expireAt<r)continue;const F=x.data.responseTimestamp??0;F>m&&(m=F,a={uid:x.data.response.universal_uid,linkType:x.data.response.link_type})}}catch{}a&&f("id5-sync.com",[{id:a.uid,atype:1,ext:{linkType:a.linkType??2,abTestingControlGroup:!1}}])}if(c.includes("adserver.org")){const a=i(o("pbjs-unifiedid"));a?.TDID&&f("adserver.org",[{id:a.TDID,atype:1,ext:{rtiPartner:"TDID"}}])}if(c.includes("pubcid.org")){const a=o("_pubcid")??s("_pubcid");a&&f("pubcid.org",[{id:a,atype:1}])}if(c.includes("criteo.com")){const a=o("cto_bundle");a&&f("criteo.com",[{id:a,atype:1,ext:{rtiPartner:"cto_bundle"}}])}if(c.includes("crwdcntrl.net")){const a=o("panoramaId")??s("panoramaId"),m=o("panoramaIdType")??"panoIndiv";if(a)f("crwdcntrl.net",[{id:a,atype:m==="panoIndiv"?1:3,ext:{idtype:m}}]);else{const y=i(s("cnx_user_ids"))?.supplementalEids?.find(x=>x.source==="crwdcntrl.net")?.idList?.[0];y&&f("crwdcntrl.net",[{id:y,atype:3}])}}if(c.includes("audigent.com")){const m=(i(s("auEids"))?.eids??[]).find(u=>u.source==="audigent.com");if(m?.uids?.length){const u=m.uids.filter(y=>y.id).map(y=>({id:y.id,...y.atype?{atype:y.atype}:{}}));f("audigent.com",u)}else{const u=o("_au_1d");u&&f("audigent.com",[{id:u,atype:1}])}}if(c.includes("33across.com")){const a=window.pbjs?.getUserIdsAsEids?.()?.find(m=>m.source==="33across.com")??null;if(a?.uids?.length){const m=a.uids.filter(u=>u.id).map(u=>({id:u.id,...u.atype?{atype:u.atype}:{}}));f("33across.com",m)}}if(c.includes("sharethrough.com")){const a=o("_swb");a&&f("sharethrough.com",[{id:a,atype:1}])}if(c.includes("gumgum.com")){const a=s("geuid");a&&f("gumgum.com",[{id:a,atype:1}])}try{(window.pbjs?.getUserIdsAsEids?.()??[]).forEach(a=>{if(!a.source||!a.uids?.length)return;const m=a.uids.filter(u=>u.id).map(u=>({id:u.id,...u.atype?{atype:u.atype}:{}}));f(a.source,m)})}catch{}const _=c.filter(a=>h.has(a)).map(a=>h.get(a));if(_.length===0)return t("No EIDs resolved"),[];let z=0;try{window.pbjs?.setConfig&&(window.pbjs.setConfig({ortb2:{user:{eids:_,ext:{eids:_}}}}),z++)}catch(a){t("setConfig failed on pbjs:",a.message)}t(_.length+"/"+p+" slots filled","| pool picked: ["+w.join(", ")+"]","| instances: "+z),e&&console.table(_.map((a,m)=>({slot:m+1,source:a.source,fixed:l.includes(a.source)?"yes":"no",id_preview:String(a.uids[0].id).substring(0,48)+"...",atype:a.uids[0].atype??"-"})));var oe=[{source:"uidapi.com",abbr:"uid2"},{source:"id5-sync.com",abbr:"id5"},{source:"adserver.org",abbr:"tdid"},{source:"pubcid.org",abbr:"shid"},{source:"criteo.com",abbr:"crt"},{source:"crwdcntrl.net",abbr:"lot"},{source:"audigent.com",abbr:"aud"},{source:"33across.com",abbr:"33x"},{source:"sharethrough.com",abbr:"str"},{source:"gumgum.com",abbr:"gg"}],ne=new Set(_.map(function(a){return a.source})),se=oe.filter(function(a){return ne.has(a.source)}).map(function(a){return a.abbr}).join(",");try{window.adInfo=window.adInfo||{},window.adInfo.idgraph=se||"none"}catch{}return _}const J=[],G=window._floorsByBidId||=new Map,ue=e=>Array.isArray(e)?e[0]?.bidFloor??e[0]?.floor??null:e?.bidFloor??e?.floor??null;window._binAliases=window._binAliases||new Set;const H={rubicon:52,triplelift:28,appnexus:32},we=e=>{const t=`${e}-bin`;if(window._binAliases.has(t))return t;try{const i=H[e]?{gvlid:H[e]}:void 0;pbjs.aliasBidder(e,t,i),window._binAliases.add(t)}catch(i){window.awxLogger?.withScope("Ads::ensureBinAlias").debug(`Failed to alias bin bidder ${e} -> ${t}`,i)}return t},fe=()=>{const{ppid:e,ortbConfig:t,userData:i,platform:o,hashedEmail:s}=window.globalAdConfig;let r={};window.adInfo.country?.toLowerCase()==="us"&&(r={country:"usa",region:window.adInfo.state,metro:window.adInfo.dma,city:window.adInfo.city,zip:window.adInfo.zip,type:3,lat:P(window.adInfo.lat,4),lon:P(window.adInfo.lon,4)});const g={data:{}};["userid","userid3p","partner","pgview","pt","viewport","hour"].forEach(c=>{window.adInfo&&window.adInfo[c]&&(g.data[c]=window.adInfo[c].replaceAll("-","neg"))});const l=`${window.location.protocol}//${window.location.host}${window.location.pathname}`,d={name:t.name||"AccuWeather",domain:t.domain||"www.accuweather.com",cat:t.categories||["IAB-7","IAB7-4","IAB15-10","IAB20","288","390","653"],page:l,ref:document.referrer,mobile:t.isOptimizedForMobile?1:0,privacypolicy:t.hasPrivacyPolicy?1:0,publisher:{name:t.publisher.name||"AccuWeather",domain:t.publisher.domain||"www.accuweather.com",cat:t.publisher.categories||["IAB-7","IAB7-4","IAB15-10","IAB20","288","390","653"]},content:{language:window.adInfo.lang?.substring(0,2),title:document.title,keywords:t.content.keywords,url:l,cat:t.content.categories,prodq:parseInt(t.content.productQuality),context:parseInt(t.content.context),sourcerelationship:typeof t.content.sourceRelationship=="number"?t.content.sourceRelationship:t.content.sourceRelationship?.toLowerCase()==="direct"?1:0,data:[{name:t.content.data.name,ext:{...t.content.data.extensions,segtax:parseInt(t.content.data.extensions.segtax)},segment:t.content.data.segments}]},sectioncat:t.sectionCategories,pagecat:t.pageCategories,keywords:t.keywords,ext:{data:{}}};if(["advelvet","country","cuhd","cuhi","cuuv","cuwd","cuwx","dma","fdate","state","wx_seg","ufdb","alertscategory","alertssource","alertstypeid","site","realfeel"].forEach(c=>{window.adInfo&&window.adInfo[c]&&(d.ext.data[c]=window.adInfo[c].replaceAll("-","neg").split(","))}),window.adsOnPage.has("top")){const{upr:c,bidders:h}=window.adsOnPage.get("top"),f=h.find(A=>A.bidder==="rubicon"&&A.isBuyItNow);d.ext.data.bin_top=f?.params?.floor,d.ext.data.upr_top=c}const n={debug:window.debugDataLayer?.prebidDebug||window.location.search.includes("pbjs_debug=true"),bidderTimeout:window.globalAdConfig?.prebidTimeout,enableSendAllBids:!1,disableAjaxTimeout:!0,maxRequestsPerOrigin:6,enableTIDs:!0,bidderSequence:"fixed",priceGranularity:{buckets:[{precision:2,max:3,increment:.01},{precision:2,max:8,increment:.05},{precision:2,max:20,increment:.5},{precision:2,max:100,increment:1}]},userSync:{filterSettings:{iframe:{bidders:"*",filter:"exclude"}},syncsPerBidder:3,aliasSyncEnabled:!0,syncDelay:3e3,userIds:[{name:"sharedId",storage:{type:"cookie",name:"_pubcid",expires:30}},{name:"criteo"},{name:"33acrossId",params:{pid:"0014000000xvF2DAAU"},storage:{name:"33acrossId",type:"html5",expires:90,refreshInSeconds:8*3600}},{name:"unifiedId",params:{partner:"vtlti0n"}}]},deviceAccess:!0,cache:{url:"https://prebid.adnxs.com/pbc/v1/cache"},rubicon:{singleRequest:!0},yahoossp:{endpoint:"https://c2shb.ssp.yahoo.com/bidRequest",singleRequestMode:!0},useBidCache:!1,bidCacheFilterFunction:c=>c.mediaType!=="video",timeoutBuffer:0,ortb2:{site:d,user:{ext:g,geo:r},device:{geo:{type:2,lat:P(i.lat,4),lon:P(i.long,4),city:i.city,country:i.countryCode,metro:String(i.dma),region:i.regionCode,zip:i.zipCodes?.[0]?.primary}}},realTimeData:{auctionDelay:100,dataProviders:[{name:"gamera",params:{},waitForIt:!0},{name:"scope3",params:{orgId:"accuweather_xz6b85se",includeKey:"axei",excludeKey:"axex",macroKey:"axem",timeout:100,debugMode:!1}}]}};window.adInfo.site==="one"&&(n.ortb2.site.ext.context={environment:"webview",site_page:l},n.ortb2.device.devicetype=1,n.ortb2.device.ua=window.navigator.userAgent);const p={name:"connectId",params:{pixelId:"58872"}};s?p.params.he=s:p.params.puid=e,n.userSync.userIds.push(p),s&&n.userSync.userIds.push({name:"uid2",params:{serverPublicKey:"UID2-X-P-MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEPKcMe5poNz1E2xltVpOwbp4txbEYCsrr8xkSEXwKamd2LoSSvBJCL4hCMv2Ad9elOUpMRnAUp7pdbzcNoP+SNQ==",subscriptionId:"xwoSMLaGio",emailHash:s}});const w={name:"pubProvidedId",params:{eids:[{source:"accuweather.com",uids:[{id:e,atype:1,ext:{stype:"ppuid"}}]}]}};if(n.userSync.userIds.push(w),n.consentManagement={gpp:{cmpApi:"iab",timeout:8e3}},Ae(i.countryCode)&&(n.consentManagement.gdpr={cmpApi:"iab"}),o==="ios"||o==="android"){const c=o==="ios"?"https://apps.apple.com/us/app/accuweather-weather-forecast/id300048137":"https://play.google.com/store/apps/details?id=com.accuweather.android",h=(window.adInfo?.sub??"free").trim().toLowerCase()==="free"?0:1;n.ortb2.app={name:d.name,bundle:o==="ios"?"300048137":"com.accuweather.android",domain:d.domain,storeurl:c,cat:d.cat,sectioncat:d.sectioncat,ver:window.adInfo?.appVersion,privacypolicy:d.privacypolicy,paid:h,publisher:d.publisher,content:d.content,ext:d.ext},delete n.ortb2.site}return n},me=e=>{pbjs.setConfig(e),pe(),pbjs.bidderSettings={standard:{storageAllowed:!0}},window.globalAdConfig.hashedEmail&&pbjs.setBidderConfig({bidders:["criteo"],config:{ortb2:{user:{ext:{data:{eids:[{source:"accuweather.com",uids:[{id:window.globalAdConfig.hashedEmail,atype:3,ext:{stype:"hemsha256"}}]}]}}}}}}),pbjs.onEvent("auctionInit",t=>{t.bidderRequests.forEach(i=>{i.bids.forEach(o=>{o.isBuyItNow&&J.push(o.bidId)})})}),pbjs.onEvent("bidRequested",t=>{(t.bids||[]).forEach(i=>{let o=parseFloat(ue(i.params));Number.isFinite(o)||(o=0);const s=i.requestId||i.bidId;G.set(s,o)})}),pbjs.onEvent("bidResponse",t=>{const i=t.requestId||t.bidId,o=G.get(i);o!=null&&t.cpm<o&&(t.cpm=0,t.ad=t.nurl="",t.bidderResponseDelivered=!0,t.status="rejected")})},Q={top:["300x250","320x50","300x50","336x280","728x90","970x250","970x90"],top_right:["300x250","300x600","160x600"],bottom_right:["300x250","300x600","160x600"],bottom:["300x250","320x50","300x50","300x600","336x280","728x90","970x250","970x90"],adhesion:["320x50","300x50"],middle:["300x250","320x50","300x50","300x600","336x280"],native:["1x1","2x2","300x250"],infeed:["1x1","2x2"]},Z=()=>{window.adsOnPage.forEach(e=>{const{sizes:t,slot:i,adUnitCode:o,tid:s}=e;let{bidders:r}=e;if(["oop","interstitial","outstream","rewarded"].includes(i)||!r)return;r=r.filter(p=>p.bidder!=="google");const l=r.filter(p=>!p.isBuyItNow),d=r.filter(p=>p.isBuyItNow),n={banner:{sizes:t.filter(p=>{const w=Q[i]||[];return Array.isArray(p)&&w.indexOf(p.join("x"))>-1})}};if((i==="native"||i==="infeed")&&(n.native={type:"image"}),window.logAdEvent(`Prebid: Add ad unit: ${o}`),pbjs.addAdUnits){const p={bids:l,mediaTypes:n,code:o,ortb2Imp:{exp:60,ext:{data:{pbadslot:o},gpid:o,tid:s}}};window.adInfo.site==="one"&&(p.ortb2Imp.ext.webview=1),pbjs.addAdUnits(p)}if(window.globalAdConfig.disableInitialAdLoad&&d.length){const p=`${o}-bin`,w=d.map(c=>{const h=we(c.bidder);return{...c,bidder:h}});if(pbjs.addAdUnits){const c={bids:w,mediaTypes:n,code:o,ortb2Imp:{exp:60,ext:{data:{pbadslot:p},gpid:p}}};window.adInfo.site==="one"&&(c.ortb2Imp.ext.webview=1),pbjs.addAdUnits(c)}}})},X=()=>{window.adsOnPage.forEach(e=>{const{sizes:t,slot:i,adUnitCode:o,bidders:s}=e;if(["oop","interstitial","outstream","rewarded"].includes(i)||!s)return;const g={banner:{sizes:t.filter(d=>{const n=Q[i]||[];return Array.isArray(d)&&n.indexOf(d.join("x"))>-1})}};(i==="native"||i==="infeed")&&(g.native={type:"image"});const l=s.filter(d=>d.bidder==="ttd"&&!d.isBuyItNow).map(d=>({...d,bidder:"thetradedesk"}));if(l.length&&oajs.addAdUnits){window.logAdEvent(`Open Ads: Add ad unit: ${o}`);const d=l[0],n={exp:60,ext:{data:{pbadslot:o},gpid:o}};d?.params?.bidfloor&&(n.bidfloor=d.params.bidfloor,delete d.params.bidfloor),d?.params?.currency&&(n.bidfloorcur=d.params.currency,delete d.params.currency),oajs.addAdUnits({bids:l,mediaTypes:g,code:o,ortb2Imp:n})}})},R=(e=[])=>{if(window.globalAdConfig.isPrebidDisabled||document.visibilityState==="hidden")return Promise.resolve();let t=!1;return new Promise(i=>{pbjs.que.push(()=>{if(t)return i();t=!0;try{window.logAdEvent("Prebid: Request bids start. Ad units:",e),pbjs.requestBids({adUnitCodes:e,timeout:window.globalAdConfig.prebidTimeout,bidsBackHandler:o=>{window.logAdEvent("Prebid: Request bids complete"),i(o)}})}catch(o){console.error("Error pbjs.requestBids",o),i()}})})},D=(e=[])=>{if(window.globalAdConfig.isPrebidDisabled||!window.openAdsEnabled||document.visibilityState==="hidden")return Promise.resolve();let t=!1;return new Promise(i=>{oajs.que.push(()=>{if(t)return i();t=!0;try{window.logAdEvent("Open Ads: Request bids start"),oajs.requestBids({adUnitCodes:e,timeout:window.globalAdConfig.prebidTimeout,bidsBackHandler:o=>{window.logAdEvent("Open Ads: Request bids complete"),i(o)}})}catch(o){console.error("Error oajs.requestBids",o),i()}})})},Y=(e,t)=>{const i=document.getElementById(e);i.innerHTML="";const o=t.width<=2||t.height<=2,s=document.createElement("iframe");o||(s.setAttribute("src","https://www.awxcdn.com/safeframe/1-0-0/html/container.html"),s.setAttribute("sandbox","allow-forms allow-pointer-lock allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation"),s.setAttribute("name",t.adId),s.setAttribute("height",t.height),s.setAttribute("width",t.width)),s.setAttribute("style","display:block;margin:auto"),s.setAttribute("frameborder",0),s.setAttribute("scrolling","no"),s.setAttribute("marginheight",0),s.setAttribute("marginwidth",0),s.setAttribute("TOPMARGIN",0),s.setAttribute("LEFTMARGIN",0),s.setAttribute("allowtransparency","true"),i.appendChild(s),o&&pbjs.renderAd(s.contentWindow.document,t.adId)};window.renderPrebidWithIframe=Y;const be=e=>{let t={cpm:0};return pbjs?.getBidResponsesForAdUnitCode&&pbjs.getBidResponsesForAdUnitCode(e).bids.forEach(o=>{J.indexOf(o.requestId)>-1&&o.cpm>t.cpm&&(t=o)}),t},he=e=>{const{adUnitCode:t,adDivId:i}=e,o=be(t);return o.cpm>0&&(googletag.pubads().setTargeting("pug","1"),window.globalAdConfig.buyItNowSkipGoogleAdManager)?(e.winner.auction=1,Y(i,o),ge({adUnitCode:t,adObject:e,customTargeting:o.adserverTargeting}),e.gptSlot=null,!0):!1},ye=e=>{let t={upr:e.upr,upr_0:"no_bid",upr_auction:"skipped",hb_bid_1st:"no_bid",hb_bid_2nd:"no_bid"};if(pbjs?.getHighestCpmBids){const i=pbjs?.getHighestCpmBids?pbjs.getHighestCpmBids(e.adUnitCode):[],o=i.length&&i[0].cpm||0,r=o?(d=>d>15?"15.00":d>10?String(Math.round(d).toFixed(2)):String((Math.round(d*2)/2).toFixed(2)))(o):"no_bid";let g="no_bid",l="no_bid";if(pbjs?.getBidResponsesForAdUnitCode){const d=p=>(Math.round(p*10)/10).toFixed(2),n=pbjs.getBidResponsesForAdUnitCode(e.adUnitCode).bids;n.sort((p,w)=>w.cpm-p.cpm),n[0]&&(g=d(n[0].cpm)),n[1]&&(l=d(n[1].cpm))}t={upr:e.upr,upr_0:r,upr_auction:"prebid",userid3pbid:`${window.adInfo.userid3p}-${r}`,hb_bid_1st:g,hb_bid_2nd:l}}return t};window.getUprTargeting=ye;const Ae=(e="")=>new Set(["AT","BE","BG","HR","CY","CZ","DK","EE","FI","FR","DE","GR","HU","IE","IT","LV","LT","LU","MT","NL","PL","PT","RO","SK","SI","ES","SE","IS","LI","NO"]).has(e.toUpperCase()),ve=({adSlots:e,userData:t})=>{if(t?.countryCode?.toLowerCase()!=="us")return;window.gameraFromPage=!0;let i="",o="",s="",r="",g=1;try{e&&(o=Object.values(e)[0].adUnitCode),i=window.RaineV2?.pageView?.pageInfo?.group||"",s=window?.adInfo?.partner||"accuweather",r=window?.adInfo?.wx_seg||"",g=1}catch(n){window.awxLogger?.withScope("Ads::setupGamera").debug("Error getting Gamera data from adSlots or window.adInfo",n)}window.gamera=window.gamera||{},window.gamera.cmd=window.gamera.cmd||[],window.gamera.cmd.push(function(){window.logAdEvent("Gamera initialized"),window.gamera.addDimensions({aw_site:o.split("/")[2],aw_wxGeo:o.split("/")[3],aw_page:i.replace("/",""),aw_partner:s,aw_wx_seg:r,aw_sub:window?.adInfo?.sub||""});try{let n=window?.gamera?.getUserMetrics()?.avg_cpm||void 0;n&&(n=(Math.round(n*20)/20).toFixed(2),window.adInfo.ucpm=n)}catch(n){window.awxLogger?.withScope("Ads::setupGamera").debug("Error getting ucpm from Gamera",n)}try{let n=window?.gamera?.getUserMetrics()?.avg_fillrate||void 0;n&&(n=(Math.round(n*20)/20).toString(),window.adInfo.ufill=n)}catch{}try{let n=window?.gamera?.getUserMetrics()?.visits||void 0;n&&(n.last_7&&(window.adInfo.uvisits_7=n.last_7.toString()),n.last_14&&(window.adInfo.uvisits_14=n.last_14.toString()),n.last_30&&(window.adInfo.uvisits_30=n.last_30.toString()),n.lifetime&&(window.adInfo.uvisits_life=n.lifetime.toString()))}catch{}try{let n=window?.gamera?.getOnPageSegments()?.filter(p=>!/^user_/.test(p)).join(",")||void 0;n&&(window.adInfo.cohort=n)}catch{}try{let n=window?.gamera?.getPrebidSegments()?.user?.data[0]?.segment?.map(p=>p.id).join(",")||void 0;n&&(window.adInfo.iabatax=n)}catch(n){window.awxLogger?.withScope("Ads::setupGamera").debug("Error getting cohort from Gamera",n)}});const l=document.createElement("script");l.setAttribute("id","__gamera__"),l.setAttribute("async","true"),l.src=`https://metrics.rapidedge.io/gamera.js?domain=accuweather.com&ltv=${g}&tpcs=1`;const d=document.getElementsByTagName("script")[0];d?d.parentNode.insertBefore(l,d):window.logAdEvent("Error adding Gamera script tag")},xe=()=>{const e=googletag.pubads(),t=window.adInfo??{};for(const[i,o]of Object.entries(t)){if(o==null||o===""){e.clearTargeting(i);continue}const s=Array.isArray(o)?o.map(String):String(o),g=e.getTargeting(i).join("|"),l=Array.isArray(s)?s.join("|"):s;g!==l&&e.setTargeting(i,s)}},Ie=()=>{window.globalAdConfig.disableInitialAdLoad&&googletag.pubads().disableInitialLoad(),window.globalAdConfig.gptEnableSingleRequest&&googletag.pubads().enableSingleRequest(),window.globalAdConfig.gptLazyLoading&&googletag.pubads().enableLazyLoad(window.globalAdConfig.gptLazyLoading),googletag.enableServices(),googletag.pubads().enableAsyncRendering(),googletag.pubads().setCentering(!0),googletag.pubads().setSafeFrameConfig({allowOverlayExpansion:!1,allowPushExpansion:!0,sandbox:!0});for(const[t,i]of Object.entries(window.adInfo))i&&googletag.pubads().setTargeting(t,i);typeof window.ketch=="function"?window.ketch("once","consent",t=>{googletag.pubads().setTargeting("optout",t?.purposes?.targeted_advertising?"false":"true")}):googletag.pubads().setTargeting("optout","false");const e=window.globalAdConfig.hashedEmail||window.globalAdConfig.ppid;if(e&&googletag.pubads().setPublisherProvidedId(e),window.globalAdConfig.userData?.zipCodes?.length>0&&window.globalAdConfig.userData?.countryCode?.toLowerCase()==="us"){const t=window.globalAdConfig.userData.zipCodes[0].primary;googletag.pubads().setLocation(`${t},US`)}};window.googletag=window.googletag||{cmd:[]};window.pbjs=window.pbjs||{};window.pbjs.que=window.pbjs.que||[];window.oajs=window.oajs||{};window.oajs.que=window.oajs.que||[];let B=!1;window.adTimeline=[];window.logAdEvent=e=>{new URLSearchParams(window.location.search).has("debug")&&console.debug(`Ad event: ${e}`),window.adTimeline.push([performance.now().toFixed(2),e])};document.addEventListener("DOMContentLoaded",()=>{window.logAdEvent("DOM Ready")});window.addEventListener("onAwxAppMounted",()=>{window.logAdEvent("App mounted")});const ee=()=>{const e=window.location.pathname.replace("/app","").replaceAll("/","");return window.tagEngineDataLayer.features?.raineAdsTracking&&e==="today"},I=(e,t,i)=>{ee()&&window.trackRaineEvent?.(`${window.globalAdConfig?.platform}_ads`,e,t,i)},O=()=>{ee()&&window.sendGenericEvents?.(!0)};le();const M=!!window.tagEngineDataLayer.adData||!!window.tagEngineDataLayer.adDataAdc;if(M){const e=W();de(e),V(e),K(e),ve(e)}window.prebidTimeoutPromise=new Promise(e=>{if(!M||window.globalAdConfig.isPrebidDisabled)return Promise.resolve();pbjs.que.push(()=>{pbjs.onEvent("auctionInit",()=>{setTimeout(e,window.globalAdConfig?.prebidTimeout)})})});const j=new Set,te=()=>!!window.globalAdConfig?.gptLazyLoading&&!window.globalAdConfig?.gptEnableSingleRequest,Se=()=>`${(window.globalAdConfig?.gptLazyLoading?.fetchMarginPercent??0)*2}% 0px`;let S=null;const _e=()=>{if(S)return S;const e=Se();return window.logAdEvent(`Lazy auction observer: rootMargin=${e}`),S=new IntersectionObserver(t=>{t.forEach(i=>{if(!i.isIntersecting)return;const o=i.target.id,s=Array.from(window.adsOnPage.values()).find(l=>l.adDivId===o);if(!s)return;const{adUnitCode:r,gptSlot:g}=s;j.has(r)||(j.add(r),S.unobserve(i.target),window.logAdEvent(`Lazy auction: fetching bids for ${o}`),Promise.all([R([r]),D([r])]).then(()=>{if(!g)return;const l=pbjs.getHighestCpmBids?.(r)||[],d=oajs.getHighestCpmBids?.(r)||[],p=[...l,...d].reduce((w,c)=>c.cpm>(w?.cpm??0)?c:w,null);if(p?.adserverTargeting){const w={...p.adserverTargeting};for(const[c,h]of Object.entries(w))typeof h=="string"&&h.includes(",")?w[c]=h.split(","):typeof h=="number"&&(w[c]=String(h));["bidder","size","pb"].forEach(c=>{const h=`oa_${c}`,f=`hb_${c}`;w[h]&&(w[f]=w[h])}),window.logAdEvent(`Lazy auction: set targeting for ${o} - ${JSON.stringify(w)}`),g.setConfig({targeting:w})}}))})},{rootMargin:e}),S},Ee=()=>{S&&(S.disconnect(),S=null),j.clear()},ie=()=>{if(te()){const e=Array.from(window.adsOnPage.values()).filter(t=>t.adDivId.includes("top")||t.adDivId.includes("adhesion")).map(t=>t.adUnitCode);return Promise.all([R(e),D(e)])}else return Promise.all([R(),D()])};ae().then(()=>{if(!M)return;window.logAdEvent("Starting ad process");const e=fe();pbjs.que.push(()=>{window.logAdEvent("Prebid: Init"),me(e),Z()}),oajs.que.push(()=>{window.logAdEvent("OpenAds: Init"),oajs.setConfig({...e,s2sConfig:{accountId:"accuweather",bidders:["thetradedesk"],enabled:!0,endpoint:"https://openads.adsrvr.org/openrtb2/auction",syncEndpoint:"https://openads.adsrvr.org/cookie_sync",timeout:window.globalAdConfig.prebidTimeout}}),X()}),window.initialAuctionsPromise=ie(),googletag.cmd.push(()=>{window.logAdEvent("GPT: Init"),Ie(),googletag.pubads().addEventListener("slotResponseReceived",o=>{const s=o.slot.getSlotElementId();if(s.includes("top")){const r=document.getElementById(s),g=r.getBoundingClientRect(),l=window.getComputedStyle(r);I("top_ad_slotResponseReceived"),I("top_ad_propsOnRespReceived","divSize",`${g.width}x${g.height}`),I("top_ad_propsOnRespReceived","divDisplay",l.display),I("top_ad_propsOnRespReceived","divVisibility",l.visibility),I("top_ad_propsOnRespReceived","divOpacity",l.opacity),I("top_ad_propsOnRespReceived","hasHiddenAncestor",`${Le(r)}`),I("top_ad_propsOnRespReceived","visibilityState",document.visibilityState),O()}}),googletag.pubads().addEventListener("slotRenderEnded",o=>{const s=o.slot.getSlotElementId();if(s.includes("top")){I("top_ad_slotRenderEnded"),I("top_ad_propsOnRenderEnded","isEmpty",`${o.isEmpty}`),I("top_ad_propsOnRenderEnded","visibilityState",document.visibilityState);const r=document.getElementById(s);if(!r)I("top_ad_propsOnRenderEnded","divNotFound");else{const g=r.getBoundingClientRect();I("top_ad_propsOnRenderEnded","divSize",`${g.width}x${g.height}`)}O()}});let t=!1;const i=()=>{if(t)return;t=!0;const o=document.querySelector(".app.loaded"),s=window.tagEngineDataLayer?.adDataAdc;o||s?U():window.addEventListener("onAwxAppMounted",U)};window.globalAdConfig.disableInitialAdLoad?(setTimeout(i,window.globalAdConfig.awxTimeout),window.initialAuctionsPromise.then(i)):i(),googletag.pubads().addEventListener("slotResponseReceived",()=>{if(!B&&window.adsOnPage.has("interstitial")){B=!0;const{gptSlot:o}=window.adsOnPage.get("interstitial");o&&(googletag.display(o.getSlotElementId()),googletag.pubads().refresh([o]))}})})});const Ce=(e,t)=>{window.dispatchEvent(new CustomEvent("adsReload")),pbjs.removeAdUnit?.(),oajs.removeAdUnit?.();const i=W(e);i?.adSlots&&(B=!1,Ee(),V(i),googletag.cmd.push(xe),K(i),Z(),X(),ie().then(()=>{if(t){const s=googletag.pubads().getSlots().filter(r=>Object.keys(i.adSlots).includes(r.getSlotElementId()));s.length>0&&googletag.destroySlots(s)}else googletag.destroySlots();U()}))};let T;window.reloadAds=(e,t)=>{T&&clearTimeout(T),T=setTimeout(()=>{T=void 0,Ce(e,t)},100)};const U=()=>{window.dispatchEvent(new CustomEvent("refreshAdsOnPage"));const i=window.location.pathname.toLowerCase().replace("/app","").replaceAll("/","")==="today"&&window.globalAdConfig.gptEnableSingleRequest&&!!window.globalAdConfig.gptLazyLoading,o=[],s=[];window.adsOnPage.forEach(n=>{if(!document.getElementById(n?.adDivId)){window.logAdEvent(`Unable to find ad div for: ${n?.adDivId}`),n?.adDivId?.includes("top")&&(I("top_ad_slot_not_found_before_display"),O());return}const{sizes:p,adDivId:w,slot:c}=n;if(he(n))return;let f;if(c==="oop"?f=googletag.defineOutOfPageSlot(n.adUnitCode,w):c==="interstitial"?f=googletag.defineOutOfPageSlot(n.adUnitCode,googletag.enums.OutOfPageFormat.INTERSTITIAL):f=googletag.defineSlot(n.adUnitCode,p,w),f){n.gptSlot=f,f.addService(googletag.pubads()),window.logAdEvent(`GPT: Display: ${w}`),googletag.display(f);for(const[A,b]of Object.entries(window.getUprTargeting(n)))b&&f.setTargeting(A,String(b));try{window.gamera._getAdPlacements().forEach(({divId:A,universalPlacementId:b})=>{A===n.adDivId&&b&&f.setTargeting("upid",b)})}catch{}if(te()&&!["interstitial","preroll","oop","adhesion","top"].includes(c)){const A=document.getElementById(w);A&&(_e().observe(A),window.logAdEvent(`Lazy auction: observing ${w}`))}c!=="interstitial"&&c!=="preroll"&&(i&&(w?.includes("middle")||w?.includes("bottom"))?s.push(f):o.push(f))}});const r=pbjs.getHighestCpmBids?.()||[],g=oajs.getHighestCpmBids?.()||[],l=[...r,...g],d=new Map;l.forEach(n=>{const p=d.get(n.adUnitCode);(!p||n.cpm>p.cpm)&&d.set(n.adUnitCode,n)}),d.forEach(n=>{const p=Array.from(window.adsOnPage.values()).find(w=>w.adUnitCode===n.adUnitCode);if(p?.gptSlot){const{adserverTargeting:w}=n;for(const[c,h]of Object.entries(w))typeof h=="string"&&h.includes(",")?w[c]=h.split(","):typeof h=="number"&&(w[c]=String(h));["bidder","size","pb"].forEach(c=>{const h=`oa_${c}`,f=`hb_${c}`;w[h]&&(w[f]=w[h])}),window.logAdEvent(`GPT: Set targeting for ${p.adDivId} - ${JSON.stringify(w)}`),p.gptSlot.setConfig({targeting:w})}}),window.globalAdConfig.disableInitialAdLoad&&document.visibilityState==="visible"&&(window.logAdEvent("GPT: Refresh"),i?(o.length&&googletag.pubads().refresh(o),s.length&&googletag.pubads().refresh(s)):window.globalAdConfig.gptEnableSingleRequest?googletag.pubads().refresh(o):o.forEach(n=>{googletag.pubads().refresh([n])}))};function Le(e){for(;e;){const t=window.getComputedStyle(e);if(t.display==="none"||t.visibility==="hidden"||t.opacity==="0")return!0;e=e.parentElement}return!1}
+//# sourceMappingURL=gpt-script.inline-9b34c646.js.map
+})();</script><script>(async () => {function l(i){return`[${i}]
 `}function I(i,e){if(!i&&(!e||Array.isArray(e)&&e.length===0))return;const t=[];return i&&t.push(i),e&&(Array.isArray(e)?t.push(...e):t.push(e)),t}class S{timeouts=new Map;setTimeout(e,t,a){this.clearTimeout(e);const n=setTimeout(()=>{t(),this.clearTimeout(e)},a);this.timeouts.set(e,n)}clearTimeout(e){const t=this.timeouts.get(e);t&&(clearTimeout(t),this.timeouts.delete(e))}}const R=window.awxTimeoutProcessor??new S;window.awxTimeoutProcessor=R;function M(i){if(i<=5e3){if(i%500===0)return 500;if(i%1e3===0)return 1e3}return Math.floor(i/2)}function k(i,e,{callerScope:t,logger:a}={}){const n=Date.now();return new Promise(s=>{let r=e();const g=()=>{const E=Date.now()-n,D=[t??"","isReadyPromise"].filter(Boolean).join("::");return window.debugDataLayer?.enabled&&(a?a("debug",{scope:D,message:`Ready in ${E}ms`}):console.debug(l("isReadyPromise"),`Ready in ${E}ms`)),s(r)};if(r)return g();window.awxLogger?.withScope(`${t}::isReadyPromise`).debug("Waiting for isReadyChecker to return true");let d,c;const m=()=>{clearInterval(c),clearTimeout(d),d=void 0,c=void 0};c=setInterval(()=>{if(r=e(),r)return m(),g()},M(i)),d=setTimeout(()=>(m(),g()),i)})}const T={type:"application/json"},P=5e3,C={pageLeave:6e5,timers:3e4},$={timers:"timers",pageView:"pageview",pageLeave:"pageleave",genericEvents:"events",updateProfile:"update-profile"},N={1:["pageView","pageLeave"],2:["pageView","pageLeave","updateProfile","genericEvents"]},O={ads:"adInfo",bot:"isBot",page:"pageInfo",user:"userInfo",test:"testGroup",session:"sessionInfo",version:"platformVersion"},p=()=>!!window.adInfo?.userid3p&&!!window.adInfo?.userid;function j(i){return!!i?.pageView?.ads?.code&&p()}function z(i){return!!i?.pageView?.adInfo?.code&&p()}function u(i){return Array.isArray(window.tagEngineDataLayer?.raine?.enabledVersions)?i===void 0?window.tagEngineDataLayer.raine.enabledVersions.length>0:window.tagEngineDataLayer.raine.enabledVersions.includes(i):!1}function f(i,e){return e??=w()?.[i],u(i)&&!!e}function G(i,e){e??=w()?.[i];const t=()=>i===1?j(e):z(e);return u(i)&&f(i,e)&&t()}function y(i,e){return e?Object[i===1?"keys":"values"](O).every(n=>n in e):!1}function V(i,e=!0){return e?G(i):f(i)}async function B(i,e=5e3){return k(e,()=>V(i),{callerScope:"isRaineReadyAsync"})}const h={isReady:V,isEnabled:u,isAvailable:f,isDataValid:y,isReadyAsync:B};function w(){return{1:window.tagEngineDataLayer?.raine?.raineV1,2:window.tagEngineDataLayer?.raine?.raineV2}}function b(){return{eventsState:w(),eventsMap:N}}function H(){const i=window.tagEngineDataLayer?.pageGroup;if(typeof i=="string"&&i.trim()!==""&&i.toLowerCase()!=="app")return i.trim().toLowerCase();const e=window.location.pathname.split("/").filter(a=>a.length>0);if(e.length===0)return"home";if(e[0].toLowerCase()==="app")return e[1]?e[1].toLowerCase()==="account"&&e[2]?e[2].toLowerCase():e[1].toLowerCase():"home";const t=e.findIndex((a,n)=>/^(\d+)$/.test(a)&&n<e.length-1);return t!==-1&&e[t+1]?e[t+1].toLowerCase():e[0].toLowerCase()}class U{pageIndex=0;version;events;isAdsSetupComplete=p();isInitialized=!1;maxInitializeDelay=P;debug=!1;isSPA=!1;timeoutDurations;logger=void 0;constructor(e,t){this.version=e,this.events=t??["pageview","pageleave"],this.isSPA=!!window.tagEngineDataLayer.isSPA;const a=window.tagEngineDataLayer.raine;this.debug=!!window.debugDataLayer?.enabled,this.maxInitializeDelay=a?.initializeDelay||P,this.timeoutDurations={...C,...a?.timeoutDurations}}isReady(){return this.isInitialized}getLogger(e){return this.logger??=window.awxLogger?.withScope("Analytics"),e?this.logger?.withScope(e):this.logger}setIsAdsSetupComplete(e){this.log("debug",{scope:"setIsAdsSetupComplete",message:`RaineV${this.version} ads setup complete...`,args:{instance:this}}),this.isAdsSetupComplete=e}setIsInitialized(e){this.log("debug",{scope:"setIsInitialized",message:`RaineV${this.version} is initialized...`,args:{instance:this}}),this.isInitialized=e}getRaineHost(){const e=`raineV${this.version}Host`;let t;if(window.tagEngineDataLayer.raine&&e in window.tagEngineDataLayer.raine&&window.tagEngineDataLayer.raine[e]&&(t=window.tagEngineDataLayer.raine[e]),!t){this.log("error",{scope:"getRaineHost",message:`RaineV${this.version} host not found in data layer`});return}return t}sendAnalyticsEventData(e,t,a,n=!1){const s={hostUrl:e,event:t,data:a};this.log("debug",{scope:`sendAnalyticsEventData::${t}`,message:"Sending analytics event data.",args:s}),n||window.debugDataLayer?.analytics?.raine?.requestService==="fetch"?fetch(e,{method:"POST",keepalive:!0,priority:"high",body:JSON.stringify(a),headers:{"Content-Type":"application/json","X-Raine-Version":this.version.toString()}}).then(r=>{r.ok?this.log("debug",{scope:`sendAnalyticsEventData::${t}`,message:"Successfully sent analytics event data.",args:{...s,response:{...r,text:r.text()||"",json:r.json()||{}}}}):this.log("error",{scope:`sendAnalyticsEventData::${t}`,message:"Failed to send analytics event data.",args:this.debug?s:void 0})}).catch(r=>{this.log("error",{scope:`sendAnalyticsEventData::${t}`,message:"Error occurred while sending analytics event data.",args:this.debug?{...s,error:r}:void 0})}):navigator?.sendBeacon(e,new Blob([JSON.stringify(a)],T))?this.log("debug",{scope:`sendAnalyticsEventData::${t}`,message:"Successfully queued analytics event data using sendBeacon.",args:s}):this.log("error",{scope:`sendAnalyticsEventData::${t}`,message:"Failed to queue analytics event data using sendBeacon.",args:this.debug?s:void 0})}sendRaineEvent(e,t,a=!1){const n=this.getRaineHost();if(this.isInitialized&&n&&t){const s=`${n}/tracker/v${this.version}/${e}`;this.sendAnalyticsEventData(s,e,t,a)}else{this.log("warning",{scope:"sendRaineEvent",message:`No data provided for RAINE event ${e}`,args:this.debug?{raineHost:n,data:t}:void 0});return}}}class x extends U{raineVersionedData;pageLeaveFired=!1;pageView;pageViewEvent=()=>new CustomEvent("updatePageViewOnPageChanged",{detail:this.pageView});pageLeave;constructor(e,t,a){super(e,t),e&&(this.version=e),this.pageView=a,this.raineVersionedData=w(),this.pageLeave=this.createPageLeaveEvent(),this.resetPageLeaveEventTimeout()}clearTimeout(e){window.awxTimeoutProcessor.clearTimeout(e)}resetEventTimeout(e,t){const a=e==="pageleave"?6e5:3e4;window.awxTimeoutProcessor.setTimeout(e,t.bind(this),this.timeoutDurations[e]??a)}resetPageLeaveEventTimeout(){this.resetEventTimeout("pageleave",this.sendPageLeaveEvent.bind(this,!0))}setPageGroup(e){e??=window.tagEngineDataLayer.pageGroup;let t=H();if(t=t?.toLowerCase()||e||"home",window.tagEngineDataLayer.raine=window.tagEngineDataLayer.raine||{},this.version===1)this.pageView.page.group=t;else if(this.version===2){const a=this.pageView;a.pageInfo.group=t,window.tagEngineDataLayer.raine={...window.tagEngineDataLayer.raine,raineV2:{...window.tagEngineDataLayer.raine.raineV2,pageView:a}}}}initRaine(){if(window.tagEngineDataLayer.raine){if(this.isInitialized){this.log("warning",{scope:"initRaine",message:"Raine object already initialized."});return}}else{this.log("error",{scope:"initRaine",message:"RAINE object not found in data layer."});return}this.setIsInitialized(!0),this.updatePageView(),this.sendPageViewEvent()}getUserOffset(){const e=r=>("0"+r).slice(-2),t=new Date().getTimezoneOffset(),a=Math.floor(Math.abs(t)/60),n=Math.abs(t)%60;return`${t>0?"-":"+"}${e(a)}:${e(n)}`}onPageChange(){this.logEvent("onPageChange"),this.sendPageLeaveEvent(),window.awxPerformance.startNewPageSession(++this.pageIndex),window.awxEventListenerProcessor.resetScrollDepth(),this.resetTimersOnPageChange(),window.dispatchEvent(this.pageViewEvent()),this.updatePageView(),this.sendPageViewEvent(),this.pageLeaveFired=!1,this.pageLeave=this.createPageLeaveEvent()}logEvent(e){this.log("debug",{scope:e,message:`Handling event logic for ${e}`})}onAdsReload(){this.logEvent("onAdsReload"),this.setIsAdsSetupComplete(!1)}onSetupAdInfo(){this.logEvent("onSetupAdInfo"),this.setIsAdsSetupComplete(!0),this.setPageViewAdInfo()}onVisibilityChange(){document.visibilityState==="hidden"&&!this.pageLeaveFired&&this.sendPageLeaveEvent()}initEventProcessor(){window.addEventListener("beforeunload",this.sendPageLeaveEvent.bind(this,!0)),document.addEventListener("visibilitychange",this.onVisibilityChange.bind(this)),this.isSPA&&window.addEventListener("popstate",this.onPageChange.bind(this)),window.addEventListener("onSetupAdInfo",this.onSetupAdInfo.bind(this)),window.addEventListener("adsReload",this.onAdsReload.bind(this)),this.initRaine()}initEventListeners(){this.log("debug",{scope:"initEventListeners",message:"Initializing event listeners."}),this.initEventProcessor()}log=(e,{message:t,args:a,scope:n})=>{if(!t&&!a)return;const s=[`RAINE${this.version?`v${this.version}`:""}`,n??""].filter(Boolean),r=s.join("::"),g=this.getLogger(r);if(g&&e in g){g[e](t,a);return}const d=I(t,a);if(e==="debug"&&!this.debug||!d||d.length===0)return;const c=console[e==="warning"?"warn":e];c(`[Analytics::${s.join("::")}]
 `,...d)};updateRaineConstants(e){if(!window.tagEngineDataLayer.raine){this.log("error",{scope:"updateRaineConstants",message:"RAINE object not found in data layer."});return}window.tagEngineDataLayer.raine?.constants||(window.tagEngineDataLayer.raine.constants=b()),window.tagEngineDataLayer.raine.constants={...window.tagEngineDataLayer.raine.constants,eventsState:{...window.tagEngineDataLayer.raine.constants.eventsState,[this.version]:{...window.tagEngineDataLayer.raine.constants.eventsState[this.version],...e}}}}}class F extends x{constructor(){super(1,["pageview","pageleave"],window.tagEngineDataLayer.raine.raineV1.pageView),this.initEventListeners()}getPageGroup(){return this.setPageGroup(),window.tagEngineDataLayer.raine?.raineV1?.pageView?.page.group||"home"}setPageViewAdInfo(){const e="adInfo"in window?window.adInfo:{},t=this.pageView??{};t.ads.status="userid"in e?e.userid:"",t.ads.cookie3p="userid3p"in e?e.userid3p:"",window.tagEngineDataLayer.raine.raineV1.pageView=t}refreshRaineData(){if(window.tagEngineDataLayer.raine)return this.pageLeave=this.createPageLeaveEvent(),this.updateRaineConstants({pageView:this.pageView,pageLeave:this.pageLeave}),window.tagEngineDataLayer.raine}updatePageView(){this.pageView=this.createPageViewEvent(window.tagEngineDataLayer.raine?.raineV1?.pageView),window.tagEngineDataLayer.raine?.raineV1&&(window.tagEngineDataLayer.raine.raineV1.pageView=this.pageView)}createPageViewEvent(e){const t=e??this.pageView??{};return this.setPageViewAdInfo(),{...t,page:{...t.page,group:this.getPageGroup()},user:{...t.user,offset:this.getUserOffset()}}}sendPageViewEvent(){window.tagEngineDataLayer.raine?.raineV1Host?(this.sendAnalyticsEventData(`${window.tagEngineDataLayer.raine.raineV1Host}/rainev1/p`,"pageview",this.pageView),this.log("debug",{scope:"sendPageViewEvent",message:"Event pageview successfully sent.",args:{pageView:this.pageView,raineV1Events:window.tagEngineDataLayer.raine.raineV1}})):this.log("warning",{scope:"sendPageViewEvent",message:"Event pageview is undefined."})}createPageLeaveEvent(){const e=[],t=this.pageView?.id??window.tagEngineDataLayer.raine?.raineV1?.pageView?.id??"";return window.awxPerformance.iterateAwxPerformanceMarks(window.awxPerformance.getAwxPerformanceMarksByPageSession(this.pageIndex),(a,n)=>{this.pageIndex===a.detail.pageIndex&&e.push(n)}),e.push({name:"raine:timeOnPage",time:window.awxPerformance.getTimeOnPage(this.pageIndex)}),this.pageLeave={id:t,scroll:window.awxEventListenerProcessor.getScrollDepth(),timers:e},this.updateRaineConstants({pageLeave:this.pageLeave}),this.pageLeave}resetTimersOnPageChange(){this.resetPageLeaveEventTimeout()}sendPageLeaveEvent(e=!1){(e||this.isSPA||document.visibilityState==="hidden")&&!this.pageLeaveFired&&window.tagEngineDataLayer.raine?.raineV1Host&&(this.pageView&&this.createPageLeaveEvent()?(this.sendAnalyticsEventData(`${window.tagEngineDataLayer.raine.raineV1Host}/rainev1/leavepage`,"pageleave",this.pageLeave),this.pageLeaveFired=!0,this.log("debug",{scope:"sendPageLeaveEvent",message:"Event pageleave successfully sent.",args:{pageLeave:this.pageLeave}})):this.log("warning",{scope:"sendPageLeaveEvent",message:"Unable to sent pageleave event. Check the args to ensure they are valid.",args:{force:e,isSPA:this.isSPA,documentVisibilityState:document.visibilityState,isPageLeaveSent:this.pageLeaveFired,pageView:this.pageView,pageLeave:this.pageLeave}}))}}class q extends x{updateProfile;genericEvents={id:"",time:"",events:[]};timersEvent;constructor(){super(2,Object.values($).map(e=>e),window.tagEngineDataLayer.raine.raineV2.pageView),this.updateProfile=window.tagEngineDataLayer.raine?.raineV2?.updateProfile,this.updateProfile&&(this.updateProfile.user={...this.updateProfile.user,...this.pageView?.userInfo||{},offset:this.getUserOffset()},this.sendUpdateProfileEvent()),this.initEventListeners(),window.addEventListener("onUpdateProfile",this.onUpdateProfile.bind(this)),this.resetTimersEventTimeout(),this.initGenericEvents(),window.trackRaineEvent=this.trackRaineEvent.bind(this),window.sendGenericEvents=this.sendGenericEvents.bind(this)}resetTimersOnPageChange(){this.log("debug",{scope:"resetTimersOnPageChange",message:"Resetting timers and page leave event on page change."}),this.resetPageLeaveEventTimeout(),this.resetTimersEventTimeout()}onUpdateProfile(e){e.detail?(this.log("debug",{scope:"onUpdateProfile",message:"Update profile event received.",args:{updateProfile:e}}),this.updateProfile=e.detail,this.sendUpdateProfileEvent()):this.log("warning",{scope:"onUpdateProfile",message:"Update profile event is undefined.",args:{updateProfile:e}})}resetTimersEventTimeout(){this.resetEventTimeout("timers",this.sendTimersEvent.bind(this))}refreshRaineData(){if(window.tagEngineDataLayer.raine)return this.pageLeave=this.createPageLeaveEvent(),this.updateRaineConstants({pageView:this.pageView,pageLeave:this.pageLeave,updateProfile:this.updateProfile,genericEvents:this.genericEvents,timers:this.createTimersEvent()}),window.tagEngineDataLayer.raine}getPageGroup(){return this.setPageGroup(),window.tagEngineDataLayer.raine?.raineV2?.pageView?.pageInfo.group||"home"}setPageViewAdInfo(){(!window.adInfo?.userid3p||!window.adInfo?.userid)&&this.log("debug",{scope:"setPageViewAdInfo",message:"Ad info is not available.",args:{adInfo:window.adInfo}}),window.tagEngineDataLayer.raine||this.log("debug",{scope:"setPageViewAdInfo",message:"RAINE data layer is not available."}),this.pageView={...this.pageView,adInfo:{...this.pageView?.adInfo,status:window.adInfo?.userid||"",cookie3p:window.adInfo?.userid3p||""}},window.tagEngineDataLayer.raine.raineV2.pageView=this.pageView}updatePageView(){this.pageView=this.createPageViewEvent(window.tagEngineDataLayer.raine?.raineV2?.pageView),this.initGenericEvents(),window.tagEngineDataLayer.raine?.raineV2&&(window.tagEngineDataLayer.raine.raineV2.pageView=this.pageView)}createPageViewEvent(e){this.pageView=e??this.pageView??{};const t=this.getPageGroup(),a=this.getUserOffset();return this.log("debug",{scope:"createPageViewEvent",message:"Creating pageView data for sending to processor.",args:{pageView:this.pageView,adInfo:window.adInfo,pageGroup:t,userOffset:a}}),this.setPageViewAdInfo(),this.pageView={...this.pageView,pageInfo:{...this.pageView.pageInfo,group:t},userInfo:{...this.pageView.userInfo,offset:a}},this.log("debug",{scope:"createPageViewEvent",message:"RAINE data added for pageView.",args:{pageView:this.pageView}}),this.pageView}createPageLeaveEvent(){const e=this.pageView??{id:"",time:""};return this.pageLeave={id:e.id,time:e.time,adblock:!window.supportsAds,scroll:window.awxEventListenerProcessor.getScrollDepth(),duration:window.awxPerformance.getTimeOnPage(this.pageIndex)},this.pageLeave}sendPageLeaveEvent(e=!1){const t=e||this.isSPA||document.visibilityState==="hidden",a=()=>this.debug?{force:e,isSPA:this.isSPA,documentVisibilityState:document.visibilityState,isPageLeaveSent:this.pageLeaveFired,pageView:this.pageView,pageLeave:this.pageLeave}:void 0;if(this.pageLeaveFired){this.log("debug",{scope:"sendPageLeaveEvent",message:"Page leave event has already been sent for this page session. Skipping..."});return}const n=this.getRaineHost();if(!n||!t||!this.pageView){this.log("warning",{scope:"sendPageLeaveEvent",message:"Unable to sent pageleave event. Check the args to ensure they are valid.",args:a()});return}this.clearTimeout("pageleave");const s=this.createPageLeaveEvent();this.updateRaineConstants({pageLeave:s});const r=`${n}/tracker/v${this.version}/pageleave`;this.sendAnalyticsEventData(r,"pageleave",s),this.pageLeaveFired=!0,this.sendTimersEvent(),this.sendGenericEvents()}sendPageViewEvent(){document.visibilityState!=="hidden"&&this.sendRaineEvent("pageview",this.pageView)}sendUpdateProfileEvent(){this.sendRaineEvent("update-profile",this.updateProfile)}createTimersEvent(){const e={time:this.pageView.time,platform:this.pageView.platform,infra:this.pageView.infra,country:this.pageView.userInfo.country,timers:[]};return window.awxPerformance.iterateAwxPerformanceMarks(window.awxPerformance.getAwxPerformanceMarksByPageSession(this.pageIndex,"cache"),(t,a)=>{const n={...a,tags:[]};this.pageIndex===t.detail.pageIndex&&e.timers.push(n)}),this.updateRaineConstants({timers:e}),e}initGenericEvents(){this.genericEvents={id:this.pageView?.id??"",time:this.pageView?.time??"",events:[]}}sendGenericEvents(e=!1){this.genericEvents.events.length>0&&(this.sendRaineEvent("events",this.genericEvents,e),this.genericEvents.events=[])}trackRaineEvent(e,t,a,n){this.genericEvents.events.push({category:e,action:t,label:a,value:n}),25<=this.genericEvents.events.length&&this.sendGenericEvents()}sendTimersEvent(){if(this.clearTimeout("timers"),this.timersEvent=this.createTimersEvent(),this.timersEvent.timers.length===0){this.log("debug",{scope:"sendTimersEvent",message:"No timers found to send.",args:{timersEvent:this.timersEvent}});return}this.sendRaineEvent("timers",this.timersEvent),window.awxPerformance.clearAwxPerformanceMarks("cache")}}class A{debug;constructor(e){this.debug=e?.debug??!!window.debugDataLayer?.enabled}}class v extends A{eventsListMap={};events=[];constructor(e,t){super(t);let a={};Array.isArray(e)&&e.length>0&&typeof e[0]=="string"?e.forEach(n=>{a[n]=[]}):typeof e=="object"&&(a=e),this.setEventsListMap(a),this.registerScopedEvents()}setEventsListMap(e){this.eventsListMap=e,this.events=Object.keys(this.eventsListMap)}addCallbacksToEventListener(e,t){const a=this.eventsListMap[e];a&&a.length>0&&a.forEach(n=>{n(t)})}}class K extends v{registerScopedEvents(){window.pbjs=window.pbjs||{},pbjs.que=pbjs.que||[],pbjs.que&&pbjs.que.push(()=>{this.events.forEach(e=>{pbjs.onEvent(e,()=>{window.awxPerformance.createPerformanceMark(`prebid:${e}`)})})})}}class W extends v{allowedAdSlotIds=["top"];truncateAdId(e){if(e){const t=e.split("/");if(t.length>1){const a=t.findIndex(n=>n==="6581");e=t[a+3]}}return e}isAdSlotIdTrackable(e){return this.allowedAdSlotIds.some(t=>e.includes(t))}registerScopedEvents(){window.googletag=window.googletag||{cmd:[]},googletag.cmd&&googletag.cmd.push(()=>{this.events.forEach(e=>{googletag.pubads().addEventListener(e,t=>{const a=this.truncateAdId(t.slot.getSlotElementId());this.isAdSlotIdTrackable(a)&&window.awxPerformance.createPerformanceMark(`gpt:${e}:${a}`)})})})}}const J=["DOMContentLoaded","windowLoad"],X=[];class _ extends v{registerScopedEvents(){this.events.forEach(e=>{const t=X.includes(e);window.addEventListener(e,a=>{this.addCallbacksToEventListener(e,a);const n=e==="load"?"windowLoad":e;J.includes(n)&&window.awxPerformance.createPerformanceMark(`document:${n}`)},{passive:t})})}}class Q extends A{eventListeners=new Map;scrollDepth=0;callCount=0;maxCallCount=0;constructor(e){super(e),this.initListeners(),window.tagEngineDataLayer.raine?.enabledVersions&&(this.maxCallCount=window.tagEngineDataLayer.raine.enabledVersions.length)}getScrollDepth(){return this.scrollDepth}resetScrollDepth(){if(this.callCount+1<this.maxCallCount){this.callCount++;return}this.callCount=0,this.scrollDepth=0}getEventListeners(){return Array.from(this.eventListeners.values())}setScrollDepth(e){const{scrollTop:t,scrollHeight:a,clientHeight:n}=document.documentElement,s=a-n,r=Math.round(t/s*100);r>this.scrollDepth&&(this.scrollDepth=Math.min(100,Math.max(0,r)))}initListeners(){const e=["auctionInit","auctionEnd","requestBids","setTargeting"];this.eventListeners.has("prebid")||this.eventListeners.set("prebid",new K(e));const t=["slotRequested","slotOnload","slotRenderEnded"];this.eventListeners.has("googleTag")||this.eventListeners.set("googleTag",new W(t)),this.eventListeners.has("domLoaded")||this.eventListeners.set("domLoaded",new _({DOMContentLoaded:[],load:[],scroll:[this.setScrollDepth.bind(this)]}))}}function Y(i){return new Promise(e=>{let a=0;const n=()=>{window.ketch||a>=i?e(window.ketch):(a+=100,setTimeout(n,100))};n()})}function Z(i,e){const t=w();if(!t||!t?.[i])return;const a=t[i];if(!e||e==="settings")return a;if(a&&y(i,a)&&e in a)return a[e]}function ee(){window.tagEngineDataLayer.raine={...window.tagEngineDataLayer.raine,constants:b(),utils:{isRaine:h,getEventOrEventPropData:Z}}}class te{pageIndex=0;callCount=0;maxCallCount=0;awxPerformanceMarks=new Map;sentMarksCache=new Map;getPageIndex(){return this.pageIndex}getPageSessionPerformanceMark(e=this.pageIndex){const t=this.getPerformanceEntry(`awx:${e}:start`,"mark");if(t)return t}startNewPageSession(e,t="cache"){this.callCount++<this.maxCallCount||this.pageIndex===e||(this.pageIndex=e,this.clearAwxPerformanceMarks(t),this.createPerformanceMark("start",{prefix:"awx"}),this.callCount=0)}calculatePageSessionRelativeDuration(e,t){t??=e.detail?.pageIndex??this.pageIndex;const a=this.getPageSessionPerformanceMark(t);return Math.round(e.startTime-(a?.startTime??0))}getTimeOnPage(e){e??=this.pageIndex;const t=this.getPageSessionPerformanceMark(e);return Math.round(performance.now()-(t?.startTime??0))}createPerformanceMark(e,t={prefix:"aw",pageIndex:this.pageIndex}){t.prefix??="aw",t.pageIndex??=this.pageIndex;const a=this.getAwxPerformanceMarkName(e,t.prefix);if(this.awxPerformanceMarks.has(a))return this.awxPerformanceMarks.get(a);const n=this.getPerformanceEntry(a,"mark");if(n)return n;const s=this._createAwxPerformanceMark(a,t);return this.awxPerformanceMarks.set(a,s),s}getAwxPerformanceMarksByPageSession(e,t="marks"){const a=[];return this.iterateAwxPerformanceMarks(window.performance.getEntriesByType("mark"),n=>{if(n.detail.pageIndex===e){if(t==="cache"){if(this.sentMarksCache.has(n.name))return;this.sentMarksCache.set(n.name,n)}a.push(n)}}),a}clearAwxPerformanceMarks(e="cache"){["both","marks"].includes(e)&&this.iterateAwxPerformanceMarks(window.performance.getEntriesByType("mark"),t=>{performance.clearMarks(t.name)}),["both","cache"].includes(e)&&this.awxPerformanceMarks.clear()}performanceMarkToTimerItem(e){return{name:e.detail.name,time:this.calculatePageSessionRelativeDuration(e)}}getAwxPerformanceMarkName(e,t="aw"){const a=t||"aw";return e.startsWith(`${a}:`)?e:`${a}:${this.pageIndex}:${e}`}createPerformanceMeasurement(e){const t=this.getAwxPerformanceMarkName(e),a=`${t}:measure`,n=this.getPerformanceEntry(a,"measure");if(n instanceof PerformanceMeasure)return n;const s=this.getPageSessionPerformanceMark();return!s&&this.pageIndex>0&&window.awxLogger?.withScope("AwxPerformanceApi::createPerformanceMeasurement").error(`No page session mark found for page index ${this.pageIndex}.`),window.performance.measure(a,s?.name??{},t)}getPerformanceEntry(e,t){const a=window.performance.getEntriesByName(e,t);if(a.length>0)return a[a.length-1]}getAwxPerformanceMark(e,t="aw"){const a=this.getAwxPerformanceMarkName(e,t);return this.awxPerformanceMarks.has(a)?this.awxPerformanceMarks.get(a):this.getPerformanceEntry(a,"mark")}iterateAwxPerformanceMarks(e,t){e.forEach(a=>{a instanceof PerformanceMark&&this.isAwxPerformanceMark(a)&&t(a,this.performanceMarkToTimerItem(a))})}isAwxPerformanceMark(e){return(a=>{const n=a?.split(":");return n?.[0]==="aw"&&n?.length>2})(e.name)}_createAwxPerformanceMark(e,t={prefix:"aw",pageIndex:this.pageIndex}){const a=this.getAwxPerformanceMarkName(e,t.prefix),n=new RegExp(`^${t.prefix}:(\\d+):`);return window.performance.mark(a,{detail:{name:e.replace(n,""),pageIndex:t.pageIndex}})}getAwxPerformanceMarks(e="cache"){if(e==="cache")return Array.from(this.awxPerformanceMarks.values());const t=[];return this.iterateAwxPerformanceMarks(window.performance.getEntriesByType("mark"),a=>{t.push(a)}),t}}const ae=window.awxEventListenerProcessor??new Q;window.awxEventListenerProcessor=ae;const ie=window.awxPerformance??new te;window.awxPerformance=ie;ee();const o={};function L(){const i=l("tagEngine::enableRaineAnalytics");try{!o?.[1]&&h.isEnabled(1)&&(o[1]=new F),!o?.[2]&&h.isEnabled(2)&&(o[2]=new q)}catch(e){window.awxLogger?window.awxLogger.withScope("tagEngine::enableRaineAnalytics").debug("Error initializing RAINE",e):window.debugDataLayer?.enabled&&console.debug(`${i}Error initializing RAINE`,e)}window.debugDataLayer?.enabled&&(o?.[1]||o?.[2])&&(window.debugDataLayer.analytics={...window.debugDataLayer.analytics,raine:{...window.debugDataLayer.analytics?.raine||{requestService:"beacon"},instances:o}},window.awxLogger?window.awxLogger.withScope("tagEngine::enableRaineAnalytics").debug("RAINE instances initialized",o):window.debugDataLayer?.enabled&&console.debug(`${i}RAINE instances initialized`,o))}Y(1500).then(i=>{if(i)i("on","consent",function(e){window.debugDataLayer={...window.debugDataLayer,ketch:{consent:e}},e.purposes?.analytics&&L()});else{if(window.awxLogger)window.awxLogger.withScope("tagEngine::waitForKetch").debug("Ketch unavailable... Enabling RAINE analytics.");else if(window.debugDataLayer?.enabled){const e=l("tagEngine::waitForKetch");console.debug(`${e}Ketch unavailable... Enabling RAINE analytics.`)}L()}});
 //# sourceMappingURL=raine.inline-191939e4.js.map
-})();</script><script>(async () => {function v(e){try{const t=document.getElementById(`client-data-store-${e}`);if(t&&t.innerText){const o=JSON.parse(t.innerText);return window.awxLogger?.withScope(`tagEngine::parseClientDataStore::${e}`).debug("Successfully parsed store data",o),o}}catch(t){window.awxLogger?.withScope(`tagEngine::parseClientDataStore::${e}`).error(`Could not parse client data store '${e}'`,t)}window.awxLogger?.withScope(`tagEngine::parseClientDataStore::${e}`).debug(`${e}: Could not parse JSON data, likely missing client-data-store element.`)}function E(e,t=!1){try{return JSON.parse(e)}catch(o){if(t)throw o;return window.awxLogger?.withScope("tagEngine::tryParseJSON").error("Could not parse JSON data.",{jsonString:e,error:o}),null}}const W=()=>new Promise(e=>{typeof window.__gpp=="function"&&window.__gpp("ping",t=>{t?.gppString&&e()}),typeof window.ketch=="function"?window.ketch("on","consent",()=>{e()}):e()}),M=e=>{const{adData:t={},adDataAdc:o}=window.tagEngineDataLayer;if(o)return o;const i=window.location.pathname.replace("/app","").replaceAll("/","");return t[e||i||"home"]||{...t.home,adSlots:{}}},J=({globalAdConfig:e,ppid:t,ortbConfig:o,isPrebidDisabled:i,userData:a,platform:d,hashedEmail:l})=>{const r={prebidTimeout:750,awxTimeout:1e4,disableInitialAdLoad:!0,gptEnableSingleRequest:!0,gptLazyLoading:"{}",buyItNowSkipGoogleAdManager:!0,isPrebidDisabled:i,userData:a,...e};t&&(r.ppid=t),o&&(r.ortbConfig=o),d&&(r.platform=d),l&&(r.hashedEmail=l,window.eh2=l);try{const s=E(r.gptLazyLoading.replace(/(['"])?([a-z0-9A-Z_]+)(['"])?:/g,'"$2": '),!0);typeof s=="object"&&Object.keys(s).length>0?r.gptLazyLoading=s:delete r.gptLazyLoading}catch(s){window.awxLogger?.withScope("Ads::setupGlobalAdConfig").debug("Error parsing gptLazyLoading",s),delete r.gptLazyLoading}window.globalAdConfig=r},Q=e=>{const t=new Set(["advelvet","alertscategory","alertssource","alertstypeid","country","cuhd","cuhi","cuuv","cuwd","cuwx","dma","fdate","hour","lfs","lfscategory","lfsday","lfsseverity","partner","pgview","pt","realfeel","site","state","wx_seg","ufdb"]);return Object.entries(e).reduce((o,[i,a])=>(t.has(i)&&(o[i]=a?.split(",")),o),{})},$=({adSlots:e})=>{const t=new Map;if(e&&Object.values(e).length){const i=Object.values(e)[0].adUnitCode.split("/")[2]!=="web"?["adhesion","top","middle","native","infeed","bottom","oop"]:["top","top_right","infeed","bottom_right","middle","native","bottom","oop"];window.adInfo.sub!=="premium-plus"&&i.push("interstitial");const a=Q(window.adInfo);Object.values(e).sort((d,l)=>i.indexOf(d.slot)-i.indexOf(l.slot)).filter(d=>{const l=i.indexOf(d.slot)>-1,r=d.bidders?.some(s=>s.bidder==="google");return l&&r}).forEach(d=>{d.winner={auction:0},d.sizes=d.bidders.find(l=>l.bidder==="google")?.params?.sizes.split(",").map(l=>l.includes("x")?l.split("x").map(Number):l),d.bidders.forEach(l=>{for(const[r,s]of Object.entries(l.params))s==="%%targeting%%"?l.params[r]={adunit:[d.adUnitCode],...a}:typeof s=="string"&&s.includes("%%")&&delete l.params[r]}),t.set(d.adDivId,d)})}window.adsOnPage=t},Z=()=>{const e="awx_pv",t=new Date;t.setDate(t.getDate()+1),t.setHours(0,0,0,0);let o=E(localStorage.getItem(e));o?.ttl&&new Date<o.ttl?o.val+=1:o={val:1,ttl:+t},localStorage.setItem(e,JSON.stringify(o))},D=e=>A(v("userSettings")?.isMetric?e*9/5+32:e),A=e=>e<0?-Math.round(-e):Math.round(e),Y=new CustomEvent("onSetupAdInfo");function z({adInfo:e={}}){const{ortbConfig:t,testVariant:o}=window.globalAdConfig,i=E(localStorage.getItem("awx_pv")||'{ "val": 1 }');e.pgview=i.val.toString(),e.hour=new Date().getHours().toString();const a=document.documentElement.clientWidth,d=document.documentElement.clientHeight,l=u=>Math.ceil(u/10)*10;e.viewport=`${l(a)}x${l(d)}`,e.site==="adc"?e.site=a>=768?a>=1024?"desktop":"tablet":"mobile":e.site="one",t?.pageCategories&&(e.iabctax=t.pageCategories.join(","));const r=new URLSearchParams(window.location.search);r.get("adClicks")&&(e.clicks=r.get("adClicks"));const s=window.location.pathname.split("/").filter(Boolean);if(r.get("from")&&s?.[1].toLowerCase()==="today"){e.from=r.get("from");const u=window.location.href.replace(`?from=${r.get("from")}`,"");window.history.replaceState({},document.title,u)}else e.from=null;r.get("adtestkey")?e.test=r.get("adtestkey"):o&&(e.test=o),e.userid="active";const n=v("alerts");n?.length>0&&(e.alertscategory=n.map(u=>u.category).join(","),e.alertssource=n.map(u=>u.countryCode).join(","),e.alertstypeid=n.map(u=>u.typeId).join(","));const c=v("currentConditions");c&&(e.cuhd=A(c.extended?.humidityValue).toString(),e.cuhi=A(c.apparentTempImperial).toString(),e.cuuv=A(c.extended?.uv?.value).toString(),e.cuwd=A(c.windSpeedImperial).toString(),e.cuwx=c.iconCode.toString(),e.realfeel=A(D(c.realFeelValue)).toString());const p=v("currentAirQuality");if(p){const u=p.overallPlumeLabsIndex;let h="0";u>=0&&u<20?h="1":u>=20&&u<50?h="2":u>=50&&u<100?h="3":u>=100&&u<150?h="4":u>=150&&u<250?h="5":u>=250&&(h="6"),e.cuaq=h}const g="abcd",w=v("dailyForecasts");w&&w.slice(0,4).forEach((u,h)=>{e.realfeel+=`,${g[h]}${A(D(u.day.realFeelValue))}`});const f=v("localForecastSummary");if(f){const u=f.category?f.category.replace("/","-"):"x",h=Math.abs(new Date(f.startDate)-new Date)/(1e3*60*60*24),B=Math.min(Math.round(h),10)+1;e.lfscategory=u,e.lfsseverity=f.severity.toString(),e.lfsday=B.toString(),e.lfs=`${f.severity}_${u}_${B}`}e.pt=localStorage.getItem("timeOnPage")||"0",window.adInfo=e,window.dispatchEvent(Y);const m=JSON.parse(localStorage.getItem("adResults"));i.val===1&&m&&(m.previousRatio=m.filledAds/m.possibleAds,m.filledAds=0,m.possibleAds=0),window.adResults=m||{}}function S(e,t){if(e==null)return e;const o=Math.pow(10,t);let i=Math.round(e*o)/o;const a=1/o;return i===+e&&(e>=0?i+=a:i-=a),parseFloat(i.toFixed(t))}const O=e=>Object.keys(e).map(t=>`${t}=${e[t]}`).join("&"),X=({adUnitCode:e,adObject:t,customTargeting:o={}})=>{let i=e.split("/");i[3]="bin_prebid";const a=i.join("/"),d={...o,...window.adInfo||{},...window.getUprTargeting?.(t)||{},ppid:window.globalAdConfig?.ppid},l={iu:a,sz:"1x1",c:Math.round(Date.now()/1e3),t:encodeURIComponent(O(d)),m:"text/html"},r=`https://securepubads.g.doubleclick.net/gampad/adx?${O(l)}`,s=document.createElement("iframe");s.setAttribute("src",r),s.setAttribute("style","width:0;height:0;display:none"),s.setAttribute("aria-hidden","true"),s.id=`${t.adDivId}-bin-tracker`,document.body.appendChild(s)},F=[],j=window._floorsByBidId||=new Map,ee=e=>Array.isArray(e)?e[0]?.bidFloor??e[0]?.floor??null:e?.bidFloor??e?.floor??null;window._binAliases=window._binAliases||new Set;const U={rubicon:52,triplelift:28,appnexus:32},te=e=>{const t=`${e}-bin`;if(window._binAliases.has(t))return t;try{const o=U[e]?{gvlid:U[e]}:void 0;pbjs.aliasBidder(e,t,o),window._binAliases.add(t)}catch(o){window.awxLogger?.withScope("Ads::ensureBinAlias").debug(`Failed to alias bin bidder ${e} -> ${t}`,o)}return t},oe=()=>{const{ppid:e,ortbConfig:t,userData:o,platform:i,hashedEmail:a}=window.globalAdConfig;let d={};window.adInfo.country?.toLowerCase()==="us"&&(d={country:"usa",region:window.adInfo.state,metro:window.adInfo.dma,city:window.adInfo.city,zip:window.adInfo.zip,type:3,lat:S(window.adInfo.lat,4),lon:S(window.adInfo.lon,4)});const l={data:{}};["userid","userid3p","partner","pgview","pt","viewport","hour"].forEach(g=>{window.adInfo&&window.adInfo[g]&&(l.data[g]=window.adInfo[g].replaceAll("-","neg"))});const r=`${window.location.protocol}//${window.location.host}${window.location.pathname}`,s={name:t.name||"AccuWeather",domain:t.domain||"www.accuweather.com",cat:t.categories||["IAB-7","IAB7-4","IAB15-10","IAB20","288","390","653"],page:r,ref:document.referrer,mobile:t.isOptimizedForMobile?1:0,privacypolicy:t.hasPrivacyPolicy?1:0,publisher:{name:t.publisher.name||"AccuWeather",domain:t.publisher.domain||"www.accuweather.com",cat:t.publisher.categories||["IAB-7","IAB7-4","IAB15-10","IAB20","288","390","653"]},content:{language:window.adInfo.lang?.substring(0,2),title:document.title,keywords:t.content.keywords,url:r,cat:t.content.categories,prodq:parseInt(t.content.productQuality),context:parseInt(t.content.context),sourcerelationship:typeof t.content.sourceRelationship=="number"?t.content.sourceRelationship:t.content.sourceRelationship?.toLowerCase()==="direct"?1:0,data:[{name:t.content.data.name,ext:{...t.content.data.extensions,segtax:parseInt(t.content.data.extensions.segtax)},segment:t.content.data.segments}]},sectioncat:t.sectionCategories,pagecat:t.pageCategories,keywords:t.keywords,ext:{data:{}}};if(["advelvet","country","cuhd","cuhi","cuuv","cuwd","cuwx","dma","fdate","state","wx_seg","ufdb","alertscategory","alertssource","alertstypeid","site","realfeel"].forEach(g=>{window.adInfo&&window.adInfo[g]&&(s.ext.data[g]=window.adInfo[g].replaceAll("-","neg").split(","))}),window.adsOnPage.has("top")){const{upr:g,bidders:w}=window.adsOnPage.get("top"),f=w.find(m=>m.bidder==="rubicon"&&m.isBuyItNow);s.ext.data.bin_top=f?.params?.floor,s.ext.data.upr_top=g}const n={debug:window.debugDataLayer?.prebidDebug||window.location.search.includes("pbjs_debug=true"),bidderTimeout:window.globalAdConfig?.prebidTimeout,enableSendAllBids:!1,disableAjaxTimeout:!0,maxRequestsPerOrigin:6,enableTIDs:!0,bidderSequence:"fixed",priceGranularity:{buckets:[{precision:2,max:3,increment:.01},{precision:2,max:8,increment:.05},{precision:2,max:20,increment:.5},{precision:2,max:100,increment:1}]},userSync:{filterSettings:{iframe:{bidders:"*",filter:"exclude"}},syncsPerBidder:3,aliasSyncEnabled:!0,syncDelay:3e3,userIds:[{name:"sharedId",storage:{type:"cookie",name:"_pubcid",expires:30}},{name:"criteo"},{name:"33acrossId",params:{pid:"0014000000xvF2DAAU"},storage:{name:"33acrossId",type:"html5",expires:90,refreshInSeconds:8*3600}},{name:"unifiedId",params:{partner:"vtlti0n"}}]},deviceAccess:!0,cache:{url:"https://prebid.adnxs.com/pbc/v1/cache"},rubicon:{singleRequest:!0},yahoossp:{endpoint:"https://c2shb.ssp.yahoo.com/bidRequest",singleRequestMode:!0},useBidCache:!1,bidCacheFilterFunction:g=>g.mediaType!=="video",timeoutBuffer:0,ortb2:{site:s,user:{ext:l,geo:d},device:{geo:{type:2,lat:S(o.lat,4),lon:S(o.long,4),city:o.city,country:o.countryCode,metro:String(o.dma),region:o.regionCode,zip:o.zipCodes?.[0]?.primary}}},realTimeData:{auctionDelay:100,dataProviders:[{name:"gamera",params:{},waitForIt:!0},{name:"scope3",params:{orgId:"accuweather_xz6b85se",includeKey:"axei",excludeKey:"axex",macroKey:"axem",timeout:100,debugMode:!1}}]}};window.adInfo.site==="one"&&(n.ortb2.site.ext.context={environment:"webview",site_page:r},n.ortb2.device.devicetype=1,n.ortb2.device.ua=window.navigator.userAgent);const c={name:"connectId",params:{pixelId:"58872"}};a?c.params.he=a:c.params.puid=e,n.userSync.userIds.push(c),a&&n.userSync.userIds.push({name:"uid2",params:{serverPublicKey:"UID2-X-P-MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEPKcMe5poNz1E2xltVpOwbp4txbEYCsrr8xkSEXwKamd2LoSSvBJCL4hCMv2Ad9elOUpMRnAUp7pdbzcNoP+SNQ==",subscriptionId:"xwoSMLaGio",emailHash:a}});const p={name:"pubProvidedId",params:{eids:[{source:"accuweather.com",uids:[{id:e,atype:1,ext:{stype:"ppuid"}}]}]}};if(window.localStorage?.OPTABLE_RESOLVED)try{const g=["adnxs.com","indexexchange.com","adsrvr.org","rubiconproject.com","pubmatic.com","triplelift.com"],w=E(window.localStorage.OPTABLE_RESOLVED)?.ortb2?.user?.eids;w?.length>0&&(w.forEach(f=>{g.includes(f.source)&&p.params.eids.push(f)}),window.adInfo.campaign?window.adInfo.campaign+=",optable":window.adInfo.campaign="optable")}catch(g){window.awxLogger?.withScope("Ads::prebidSetup").debug("Error parsing OPTABLE_RESOLVED",g)}if(n.userSync.userIds.push(p),n.consentManagement={gpp:{cmpApi:"iab",timeout:8e3}},de(o.countryCode)&&(n.consentManagement.gdpr={cmpApi:"iab"}),i==="ios"||i==="android"){const g=i==="ios"?"https://apps.apple.com/us/app/accuweather-weather-forecast/id300048137":"https://play.google.com/store/apps/details?id=com.accuweather.android",w=(window.adInfo?.sub??"free").trim().toLowerCase()==="free"?0:1;n.ortb2.app={name:s.name,bundle:i==="ios"?"300048137":"com.accuweather.android",domain:s.domain,storeurl:g,cat:s.cat,sectioncat:s.sectioncat,ver:window.adInfo?.appVersion,privacypolicy:s.privacypolicy,paid:w,publisher:s.publisher,content:s.content,ext:s.ext},delete n.ortb2.site}return n},ie=e=>{pbjs.setConfig(e),pbjs.bidderSettings={standard:{storageAllowed:!0}},window.globalAdConfig.hashedEmail&&pbjs.setBidderConfig({bidders:["criteo"],config:{ortb2:{user:{ext:{data:{eids:[{source:"accuweather.com",uids:[{id:window.globalAdConfig.hashedEmail,atype:3,ext:{stype:"hemsha256"}}]}]}}}}}}),pbjs.onEvent("auctionInit",t=>{t.bidderRequests.forEach(o=>{o.bids.forEach(i=>{i.isBuyItNow&&F.push(i.bidId)})})}),pbjs.onEvent("bidRequested",t=>{(t.bids||[]).forEach(o=>{let i=parseFloat(ee(o.params));Number.isFinite(i)||(i=0);const a=o.requestId||o.bidId;j.set(a,i)})}),pbjs.onEvent("bidResponse",t=>{const o=t.requestId||t.bidId,i=j.get(o);i!=null&&t.cpm<i&&(t.cpm=0,t.ad=t.nurl="",t.bidderResponseDelivered=!0,t.status="rejected")})},q={top:["300x250","320x50","300x50","336x280","728x90","970x250","970x90"],top_right:["300x250","300x600","160x600"],bottom_right:["300x250","300x600","160x600"],bottom:["300x250","320x50","300x50","300x600","336x280","728x90","970x250","970x90"],adhesion:["320x50","300x50"],middle:["300x250","320x50","300x50","300x600","336x280"],native:["1x1","2x2","300x250"],infeed:["1x1","2x2"]},k=()=>{window.adsOnPage.forEach(e=>{const{sizes:t,slot:o,adUnitCode:i,tid:a}=e;let{bidders:d}=e;if(["oop","interstitial","outstream","rewarded"].includes(o)||!d)return;d=d.filter(c=>c.bidder!=="google");const r=d.filter(c=>!c.isBuyItNow),s=d.filter(c=>c.isBuyItNow),n={banner:{sizes:t.filter(c=>{const p=q[o]||[];return Array.isArray(c)&&p.indexOf(c.join("x"))>-1})}};if((o==="native"||o==="infeed")&&(n.native={type:"image"}),window.logAdEvent(`Prebid: Add ad unit: ${i}`),pbjs.addAdUnits){const c={bids:r,mediaTypes:n,code:i,ortb2Imp:{exp:60,ext:{data:{pbadslot:i},gpid:i,tid:a}}};window.adInfo.site==="one"&&(c.ortb2Imp.ext.webview=1),pbjs.addAdUnits(c)}if(window.globalAdConfig.disableInitialAdLoad&&s.length){const c=`${i}-bin`,p=s.map(g=>{const w=te(g.bidder);return{...g,bidder:w}});if(pbjs.addAdUnits){const g={bids:p,mediaTypes:n,code:i,ortb2Imp:{exp:60,ext:{data:{pbadslot:c},gpid:c}}};window.adInfo.site==="one"&&(g.ortb2Imp.ext.webview=1),pbjs.addAdUnits(g)}}})},N=()=>{window.adsOnPage.forEach(e=>{const{sizes:t,slot:o,adUnitCode:i,bidders:a}=e;if(["oop","interstitial","outstream","rewarded"].includes(o)||!a)return;const l={banner:{sizes:t.filter(s=>{const n=q[o]||[];return Array.isArray(s)&&n.indexOf(s.join("x"))>-1})}};(o==="native"||o==="infeed")&&(l.native={type:"image"});const r=a.filter(s=>s.bidder==="ttd"&&!s.isBuyItNow).map(s=>({...s,bidder:"thetradedesk"}));if(r.length){window.logAdEvent(`Open Ads: Add ad unit: ${i}`);const s=r[0],n={exp:60,ext:{data:{pbadslot:i},gpid:i}};s?.params?.bidfloor&&(n.bidfloor=s.params.bidfloor,delete s.params.bidfloor),s?.params?.currency&&(n.bidfloorcur=s.params.currency,delete s.params.currency),oajs.addAdUnits({bids:r,mediaTypes:l,code:i,ortb2Imp:n})}})},I=(e=[])=>{if(window.globalAdConfig.isPrebidDisabled||document.visibilityState==="hidden")return Promise.resolve();let t=!1;return new Promise(o=>{pbjs.que.push(()=>{if(t)return o();t=!0;try{window.logAdEvent("Prebid: Request bids start. Ad units:",e),pbjs.requestBids({adUnitCodes:e,timeout:window.globalAdConfig.prebidTimeout,bidsBackHandler:i=>{window.logAdEvent("Prebid: Request bids complete"),o(i)}})}catch(i){console.error("Error pbjs.requestBids",i),o()}})})},C=(e=[])=>{if(window.globalAdConfig.isPrebidDisabled||!window.openAdsEnabled||document.visibilityState==="hidden")return Promise.resolve();let t=!1;return new Promise(o=>{oajs.que.push(()=>{if(t)return o();t=!0;try{window.logAdEvent("Open Ads: Request bids start"),oajs.requestBids({adUnitCodes:e,timeout:window.globalAdConfig.prebidTimeout,bidsBackHandler:i=>{window.logAdEvent("Open Ads: Request bids complete"),o(i)}})}catch(i){console.error("Error oajs.requestBids",i),o()}})})},G=(e,t)=>{const o=document.getElementById(e);o.innerHTML="";const i=t.width<=2||t.height<=2,a=document.createElement("iframe");i||(a.setAttribute("src","https://www.awxcdn.com/safeframe/1-0-0/html/container.html"),a.setAttribute("sandbox","allow-forms allow-pointer-lock allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation"),a.setAttribute("name",t.adId),a.setAttribute("height",t.height),a.setAttribute("width",t.width)),a.setAttribute("style","display:block;margin:auto"),a.setAttribute("frameborder",0),a.setAttribute("scrolling","no"),a.setAttribute("marginheight",0),a.setAttribute("marginwidth",0),a.setAttribute("TOPMARGIN",0),a.setAttribute("LEFTMARGIN",0),a.setAttribute("allowtransparency","true"),o.appendChild(a),i&&pbjs.renderAd(a.contentWindow.document,t.adId)};window.renderPrebidWithIframe=G;const ne=e=>{let t={cpm:0};return pbjs?.getBidResponsesForAdUnitCode&&pbjs.getBidResponsesForAdUnitCode(e).bids.forEach(i=>{F.indexOf(i.requestId)>-1&&i.cpm>t.cpm&&(t=i)}),t},ae=e=>{const{adUnitCode:t,adDivId:o}=e,i=ne(t);return i.cpm>0&&(googletag.pubads().setTargeting("pug","1"),window.globalAdConfig.buyItNowSkipGoogleAdManager)?(e.winner.auction=1,G(o,i),X({adUnitCode:t,adObject:e,customTargeting:i.adserverTargeting}),e.gptSlot=null,!0):!1},se=e=>{let t={upr:e.upr,upr_0:"no_bid",upr_auction:"skipped",hb_bid_1st:"no_bid",hb_bid_2nd:"no_bid"};if(pbjs?.getHighestCpmBids){const o=pbjs?.getHighestCpmBids?pbjs.getHighestCpmBids(e.adUnitCode):[],i=o.length&&o[0].cpm||0,d=i?(s=>s>15?"15.00":s>10?String(Math.round(s).toFixed(2)):String((Math.round(s*2)/2).toFixed(2)))(i):"no_bid";let l="no_bid",r="no_bid";if(pbjs?.getBidResponsesForAdUnitCode){const s=c=>(Math.round(c*10)/10).toFixed(2),n=pbjs.getBidResponsesForAdUnitCode(e.adUnitCode).bids;n.sort((c,p)=>p.cpm-c.cpm),n[0]&&(l=s(n[0].cpm)),n[1]&&(r=s(n[1].cpm))}t={upr:e.upr,upr_0:d,upr_auction:"prebid",userid3pbid:`${window.adInfo.userid3p}-${d}`,hb_bid_1st:l,hb_bid_2nd:r}}return t};window.getUprTargeting=se;const de=(e="")=>new Set(["AT","BE","BG","HR","CY","CZ","DK","EE","FI","FR","DE","GR","HU","IE","IT","LV","LT","LU","MT","NL","PL","PT","RO","SK","SI","ES","SE","IS","LI","NO"]).has(e.toUpperCase()),re=({adSlots:e,userData:t})=>{if(t?.countryCode?.toLowerCase()!=="us")return;window.gameraFromPage=!0;let o="",i="",a="",d="",l=1;try{e&&(i=Object.values(e)[0].adUnitCode),o=window.RaineV2?.pageView?.pageInfo?.group||"",a=window?.adInfo?.partner||"accuweather",d=window?.adInfo?.wx_seg||"",l=1}catch(n){window.awxLogger?.withScope("Ads::setupGamera").debug("Error getting Gamera data from adSlots or window.adInfo",n)}window.gamera=window.gamera||{},window.gamera.cmd=window.gamera.cmd||[],window.gamera.cmd.push(function(){window.logAdEvent("Gamera initialized"),window.gamera.addDimensions({aw_site:i.split("/")[2],aw_wxGeo:i.split("/")[3],aw_page:o.replace("/",""),aw_partner:a,aw_wx_seg:d,aw_sub:window?.adInfo?.sub||""});try{let n=window?.gamera?.getUserMetrics()?.avg_cpm||void 0;n&&(n=(Math.round(n*20)/20).toFixed(2),window.adInfo.ucpm=n)}catch(n){window.awxLogger?.withScope("Ads::setupGamera").debug("Error getting ucpm from Gamera",n)}try{let n=window?.gamera?.getUserMetrics()?.avg_fillrate||void 0;n&&(n=(Math.round(n*20)/20).toString(),window.adInfo.ufill=n)}catch{}try{let n=window?.gamera?.getUserMetrics()?.visits||void 0;n&&(n.last_7&&(window.adInfo.uvisits_7=n.last_7.toString()),n.last_14&&(window.adInfo.uvisits_14=n.last_14.toString()),n.last_30&&(window.adInfo.uvisits_30=n.last_30.toString()),n.lifetime&&(window.adInfo.uvisits_life=n.lifetime.toString()))}catch{}try{let n=window?.gamera?.getOnPageSegments()?.filter(c=>!/^user_/.test(c)).join(",")||void 0;n&&(window.adInfo.cohort=n)}catch{}try{let n=window?.gamera?.getPrebidSegments()?.user?.data[0]?.segment?.map(c=>c.id).join(",")||void 0;n&&(window.adInfo.iabatax=n)}catch(n){window.awxLogger?.withScope("Ads::setupGamera").debug("Error getting cohort from Gamera",n)}});const r=document.createElement("script");r.setAttribute("id","__gamera__"),r.setAttribute("async","true"),r.src=`https://metrics.rapidedge.io/gamera.js?domain=accuweather.com&ltv=${l}&tpcs=1`;const s=document.getElementsByTagName("script")[0];s?s.parentNode.insertBefore(r,s):window.logAdEvent("Error adding Gamera script tag")},le=()=>{const e=googletag.pubads(),t=window.adInfo??{};for(const[o,i]of Object.entries(t)){if(i==null||i===""){e.clearTargeting(o);continue}const a=Array.isArray(i)?i.map(String):String(i),l=e.getTargeting(o).join("|"),r=Array.isArray(a)?a.join("|"):a;l!==r&&e.setTargeting(o,a)}},ce=()=>{window.globalAdConfig.disableInitialAdLoad&&googletag.pubads().disableInitialLoad(),window.globalAdConfig.gptEnableSingleRequest&&googletag.pubads().enableSingleRequest(),window.globalAdConfig.gptLazyLoading&&googletag.pubads().enableLazyLoad(window.globalAdConfig.gptLazyLoading),googletag.enableServices(),googletag.pubads().enableAsyncRendering(),googletag.pubads().setCentering(!0),googletag.pubads().setSafeFrameConfig({allowOverlayExpansion:!1,allowPushExpansion:!0,sandbox:!0});for(const[t,o]of Object.entries(window.adInfo))o&&googletag.pubads().setTargeting(t,o);typeof window.ketch=="function"?window.ketch("once","consent",t=>{googletag.pubads().setTargeting("optout",t?.purposes?.targeted_advertising?"false":"true")}):googletag.pubads().setTargeting("optout","false");const e=window.globalAdConfig.hashedEmail||window.globalAdConfig.ppid;if(e&&googletag.pubads().setPublisherProvidedId(e),window.globalAdConfig.userData?.zipCodes?.length>0&&window.globalAdConfig.userData?.countryCode?.toLowerCase()==="us"){const t=window.globalAdConfig.userData.zipCodes[0].primary;googletag.pubads().setLocation(`${t},US`)}};window.googletag=window.googletag||{cmd:[]};window.pbjs=window.pbjs||{};window.pbjs.que=window.pbjs.que||[];window.oajs=window.oajs||{};window.oajs.que=window.oajs.que||[];let _=!1;window.adTimeline=[];window.logAdEvent=e=>{new URLSearchParams(window.location.search).has("debug")&&console.debug(`Ad event: ${e}`),window.adTimeline.push([performance.now().toFixed(2),e])};document.addEventListener("DOMContentLoaded",()=>{window.logAdEvent("DOM Ready")});window.addEventListener("onAwxAppMounted",()=>{window.logAdEvent("App mounted")});const H=()=>{const e=window.location.pathname.replace("/app","").replaceAll("/","");return window.tagEngineDataLayer.features?.raineAdsTracking&&e==="today"},b=(e,t,o)=>{H()&&window.trackRaineEvent?.(`${window.globalAdConfig?.platform}_ads`,e,t,o)},L=()=>{H()&&window.sendGenericEvents?.(!0)};Z();const T=!!window.tagEngineDataLayer.adData||!!window.tagEngineDataLayer.adDataAdc;if(T){const e=M();J(e),z(e),$(e),re(e)}window.prebidTimeoutPromise=new Promise(e=>{if(!T||window.globalAdConfig.isPrebidDisabled)return Promise.resolve();pbjs.que.push(()=>{pbjs.onEvent("auctionInit",()=>{setTimeout(e,window.globalAdConfig?.prebidTimeout)})})});const P=new Set,V=()=>!!window.globalAdConfig?.gptLazyLoading&&!window.globalAdConfig?.gptEnableSingleRequest,ge=()=>`${(window.globalAdConfig?.gptLazyLoading?.fetchMarginPercent??0)*2}% 0px`;let y=null;const pe=()=>{if(y)return y;const e=ge();return window.logAdEvent(`Lazy auction observer: rootMargin=${e}`),y=new IntersectionObserver(t=>{t.forEach(o=>{if(!o.isIntersecting)return;const i=o.target.id,a=Array.from(window.adsOnPage.values()).find(r=>r.adDivId===i);if(!a)return;const{adUnitCode:d,gptSlot:l}=a;P.has(d)||(P.add(d),y.unobserve(o.target),window.logAdEvent(`Lazy auction: fetching bids for ${i}`),Promise.all([I([d]),C([d])]).then(()=>{if(!l)return;const r=pbjs.getHighestCpmBids?.(d)||[],s=oajs.getHighestCpmBids?.(d)||[],c=[...r,...s].reduce((p,g)=>g.cpm>(p?.cpm??0)?g:p,null);if(c?.adserverTargeting){const p={...c.adserverTargeting};for(const[g,w]of Object.entries(p))typeof w=="string"&&w.includes(",")?p[g]=w.split(","):typeof w=="number"&&(p[g]=String(w));["bidder","size","pb"].forEach(g=>{const w=`oa_${g}`,f=`hb_${g}`;p[w]&&(p[f]=p[w])}),window.logAdEvent(`Lazy auction: set targeting for ${i} - ${JSON.stringify(p)}`),l.setConfig({targeting:p})}}))})},{rootMargin:e}),y},ue=()=>{y&&(y.disconnect(),y=null),P.clear()},K=()=>{if(V()){const e=Array.from(window.adsOnPage.values()).filter(t=>t.adDivId.includes("top")||t.adDivId.includes("adhesion")).map(t=>t.adUnitCode);return Promise.all([I(e),C(e)])}else return Promise.all([I(),C()])};W().then(()=>{if(!T)return;window.logAdEvent("Starting ad process");const e=oe();pbjs.que.push(()=>{window.logAdEvent("Prebid: Init"),ie(e),k()}),oajs.que.push(()=>{window.logAdEvent("OpenAds: Init"),oajs.setConfig({...e,s2sConfig:{accountId:"accuweather",bidders:["thetradedesk"],enabled:!0,endpoint:"https://openads.adsrvr.org/openrtb2/auction",syncEndpoint:"https://openads.adsrvr.org/cookie_sync",timeout:window.globalAdConfig.prebidTimeout}}),N()}),window.initialAuctionsPromise=K(),googletag.cmd.push(()=>{window.logAdEvent("GPT: Init"),ce(),googletag.pubads().addEventListener("slotResponseReceived",i=>{const a=i.slot.getSlotElementId();if(a.includes("top")){const d=document.getElementById(a),l=d.getBoundingClientRect(),r=window.getComputedStyle(d);b("top_ad_slotResponseReceived"),b("top_ad_propsOnRespReceived","divSize",`${l.width}x${l.height}`),b("top_ad_propsOnRespReceived","divDisplay",r.display),b("top_ad_propsOnRespReceived","divVisibility",r.visibility),b("top_ad_propsOnRespReceived","divOpacity",r.opacity),b("top_ad_propsOnRespReceived","hasHiddenAncestor",`${fe(d)}`),b("top_ad_propsOnRespReceived","visibilityState",document.visibilityState),L()}}),googletag.pubads().addEventListener("slotRenderEnded",i=>{const a=i.slot.getSlotElementId();if(a.includes("top")){b("top_ad_slotRenderEnded"),b("top_ad_propsOnRenderEnded","isEmpty",`${i.isEmpty}`),b("top_ad_propsOnRenderEnded","visibilityState",document.visibilityState);const d=document.getElementById(a);if(!d)b("top_ad_propsOnRenderEnded","divNotFound");else{const l=d.getBoundingClientRect();b("top_ad_propsOnRenderEnded","divSize",`${l.width}x${l.height}`)}L()}});let t=!1;const o=()=>{if(t)return;t=!0;const i=document.querySelector(".app.loaded"),a=window.tagEngineDataLayer?.adDataAdc;i||a?R():window.addEventListener("onAwxAppMounted",R)};window.globalAdConfig.disableInitialAdLoad?(setTimeout(o,window.globalAdConfig.awxTimeout),window.initialAuctionsPromise.then(o)):o(),googletag.pubads().addEventListener("slotResponseReceived",()=>{if(!_&&window.adsOnPage.has("interstitial")){_=!0;const{gptSlot:i}=window.adsOnPage.get("interstitial");i&&(googletag.display(i.getSlotElementId()),googletag.pubads().refresh([i]))}})})});const we=(e,t)=>{window.dispatchEvent(new CustomEvent("adsReload"));const o=M(e);o?.adSlots&&(_=!1,ue(),z(o),googletag.cmd.push(le),$(o),k(),N(),K().then(()=>{if(t){const a=googletag.pubads().getSlots().filter(d=>Object.keys(o.adSlots).includes(d.getSlotElementId()));a.length>0&&googletag.destroySlots(a)}else googletag.destroySlots();R()}))};let x;window.reloadAds=(e,t)=>{x&&clearTimeout(x),x=setTimeout(()=>{x=void 0,we(e,t)},100)};const R=()=>{window.dispatchEvent(new CustomEvent("refreshAdsOnPage"));const o=window.location.pathname.toLowerCase().replace("/app","").replaceAll("/","")==="today"&&window.globalAdConfig.gptEnableSingleRequest&&!!window.globalAdConfig.gptLazyLoading,i=[],a=[];window.adsOnPage.forEach(n=>{if(!document.getElementById(n?.adDivId)){window.logAdEvent(`Unable to find ad div for: ${n?.adDivId}`),n?.adDivId?.includes("top")&&(b("top_ad_slot_not_found_before_display"),L());return}const{sizes:c,adDivId:p,slot:g}=n;if(ae(n))return;let f;if(g==="oop"?f=googletag.defineOutOfPageSlot(n.adUnitCode,p):g==="interstitial"?f=googletag.defineOutOfPageSlot(n.adUnitCode,googletag.enums.OutOfPageFormat.INTERSTITIAL):f=googletag.defineSlot(n.adUnitCode,c,p),f){n.gptSlot=f,f.addService(googletag.pubads()),window.logAdEvent(`GPT: Display: ${p}`),googletag.display(f);for(const[m,u]of Object.entries(window.getUprTargeting(n)))u&&f.setTargeting(m,String(u));try{window.gamera._getAdPlacements().forEach(({divId:m,universalPlacementId:u})=>{m===n.adDivId&&u&&f.setTargeting("upid",u)})}catch{}if(V()&&!["interstitial","preroll","oop","adhesion","top"].includes(g)){const m=document.getElementById(p);m&&(pe().observe(m),window.logAdEvent(`Lazy auction: observing ${p}`))}g!=="interstitial"&&g!=="preroll"&&(o&&(p?.includes("middle")||p?.includes("bottom"))?a.push(f):i.push(f))}});const d=pbjs.getHighestCpmBids?.()||[],l=oajs.getHighestCpmBids?.()||[],r=[...d,...l],s=new Map;r.forEach(n=>{const c=s.get(n.adUnitCode);(!c||n.cpm>c.cpm)&&s.set(n.adUnitCode,n)}),s.forEach(n=>{const c=Array.from(window.adsOnPage.values()).find(p=>p.adUnitCode===n.adUnitCode);if(c?.gptSlot){const{adserverTargeting:p}=n;for(const[g,w]of Object.entries(p))typeof w=="string"&&w.includes(",")?p[g]=w.split(","):typeof w=="number"&&(p[g]=String(w));["bidder","size","pb"].forEach(g=>{const w=`oa_${g}`,f=`hb_${g}`;p[w]&&(p[f]=p[w])}),window.logAdEvent(`GPT: Set targeting for ${c.adDivId} - ${JSON.stringify(p)}`),c.gptSlot.setConfig({targeting:p})}}),window.globalAdConfig.disableInitialAdLoad&&document.visibilityState==="visible"&&(window.logAdEvent("GPT: Refresh"),o?(i.length&&googletag.pubads().refresh(i),a.length&&googletag.pubads().refresh(a)):window.globalAdConfig.gptEnableSingleRequest?googletag.pubads().refresh(i):i.forEach(n=>{googletag.pubads().refresh([n])}))};function fe(e){for(;e;){const t=window.getComputedStyle(e);if(t.display==="none"||t.visibility==="hidden"||t.opacity==="0")return!0;e=e.parentElement}return!1}
-//# sourceMappingURL=gpt-script.inline-d59b417c.js.map
 })();</script><script async="" src="https://securepubads.g.doubleclick.net/tag/js/gpt.js"></script>
 
 	
@@ -359,7 +361,7 @@ function getUserContentAffinity(categories) {
 
 
 	
-<script>bazadebezolkohpepadr="364973853"</script><script type="text/javascript" src="https://www.accuweather.com/akam/13/15c10ccf" defer=""></script><script type="text/javascript" async="" defer="" src="https://cdn.ketchjs.com/ketchtag/stable/v2.12/ketch-sdk.js"></script><meta http-equiv="origin-trial" content="AlK2UR5SkAlj8jjdEc9p3F3xuFYlF6LYjAML3EOqw1g26eCwWPjdmecULvBH5MVPoqKYrOfPhYVL71xAXI1IBQoAAAB8eyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiV2ViVmlld1hSZXF1ZXN0ZWRXaXRoRGVwcmVjYXRpb24iLCJleHBpcnkiOjE3NTgwNjcxOTksImlzU3ViZG9tYWluIjp0cnVlfQ=="><meta http-equiv="origin-trial" content="Amm8/NmvvQfhwCib6I7ZsmUxiSCfOxWxHayJwyU1r3gRIItzr7bNQid6O8ZYaE1GSQTa69WwhPC9flq/oYkRBwsAAACCeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiV2ViVmlld1hSZXF1ZXN0ZWRXaXRoRGVwcmVjYXRpb24iLCJleHBpcnkiOjE3NTgwNjcxOTksImlzU3ViZG9tYWluIjp0cnVlfQ=="><meta http-equiv="origin-trial" content="A9nrunKdU5m96PSN1XsSGr3qOP0lvPFUB2AiAylCDlN5DTl17uDFkpQuHj1AFtgWLxpLaiBZuhrtb2WOu7ofHwEAAACKeyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiQUlQcm9tcHRBUElNdWx0aW1vZGFsSW5wdXQiLCJleHBpcnkiOjE3NzQzMTA0MDAsImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"><meta http-equiv="origin-trial" content="A93bovR+QVXNx2/38qDbmeYYf1wdte9EO37K9eMq3r+541qo0byhYU899BhPB7Cv9QqD7wIbR1B6OAc9kEfYCA4AAACQeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiQUlQcm9tcHRBUElNdWx0aW1vZGFsSW5wdXQiLCJleHBpcnkiOjE3NzQzMTA0MDAsImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"><meta http-equiv="origin-trial" content="A1S5fojrAunSDrFbD8OfGmFHdRFZymSM/1ss3G+NEttCLfHkXvlcF6LGLH8Mo5PakLO1sCASXU1/gQf6XGuTBgwAAACQeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXRhZ3NlcnZpY2VzLmNvbTo0NDMiLCJmZWF0dXJlIjoiQUlQcm9tcHRBUElNdWx0aW1vZGFsSW5wdXQiLCJleHBpcnkiOjE3NzQzMTA0MDAsImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"><script src="https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202604140101/pubads_impl.js?cb=31097937" async=""></script><style>#lanyard_root {
+<meta http-equiv="origin-trial" content="AlK2UR5SkAlj8jjdEc9p3F3xuFYlF6LYjAML3EOqw1g26eCwWPjdmecULvBH5MVPoqKYrOfPhYVL71xAXI1IBQoAAAB8eyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiV2ViVmlld1hSZXF1ZXN0ZWRXaXRoRGVwcmVjYXRpb24iLCJleHBpcnkiOjE3NTgwNjcxOTksImlzU3ViZG9tYWluIjp0cnVlfQ=="><meta http-equiv="origin-trial" content="Amm8/NmvvQfhwCib6I7ZsmUxiSCfOxWxHayJwyU1r3gRIItzr7bNQid6O8ZYaE1GSQTa69WwhPC9flq/oYkRBwsAAACCeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiV2ViVmlld1hSZXF1ZXN0ZWRXaXRoRGVwcmVjYXRpb24iLCJleHBpcnkiOjE3NTgwNjcxOTksImlzU3ViZG9tYWluIjp0cnVlfQ=="><meta http-equiv="origin-trial" content="A9nrunKdU5m96PSN1XsSGr3qOP0lvPFUB2AiAylCDlN5DTl17uDFkpQuHj1AFtgWLxpLaiBZuhrtb2WOu7ofHwEAAACKeyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiQUlQcm9tcHRBUElNdWx0aW1vZGFsSW5wdXQiLCJleHBpcnkiOjE3NzQzMTA0MDAsImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"><meta http-equiv="origin-trial" content="A93bovR+QVXNx2/38qDbmeYYf1wdte9EO37K9eMq3r+541qo0byhYU899BhPB7Cv9QqD7wIbR1B6OAc9kEfYCA4AAACQeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiQUlQcm9tcHRBUElNdWx0aW1vZGFsSW5wdXQiLCJleHBpcnkiOjE3NzQzMTA0MDAsImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"><meta http-equiv="origin-trial" content="A1S5fojrAunSDrFbD8OfGmFHdRFZymSM/1ss3G+NEttCLfHkXvlcF6LGLH8Mo5PakLO1sCASXU1/gQf6XGuTBgwAAACQeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXRhZ3NlcnZpY2VzLmNvbTo0NDMiLCJmZWF0dXJlIjoiQUlQcm9tcHRBUElNdWx0aW1vZGFsSW5wdXQiLCJleHBpcnkiOjE3NzQzMTA0MDAsImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"><script src="https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202604210101/pubads_impl.js?cb=31098008" async=""></script><script type="text/javascript" async="" defer="" src="https://cdn.ketchjs.com/ketchtag/stable/v2.12/ketch-sdk.js"></script><style>#lanyard_root {
   *, ::before, ::after {
     --tw-border-spacing-x: 0;
     --tw-border-spacing-y: 0;
@@ -3483,9 +3485,9 @@ function getUserContentAffinity(categories) {
       #lanyard_root[data-screen*="TIZEN"] *:focus-visible { outline: 3px solid #9c63ff; }
     }
 }
-</style><style>.root__A7aXF{text-align:left}.root__A7aXF *{-webkit-box-sizing:border-box;box-sizing:border-box;font-family:Arial,Helvetica,sans-serif;font-weight:normal}</style><style>.root__H_E27{margin:0;position:fixed;width:48px;height:48px;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;border:none;border-radius:50%;-webkit-box-shadow:none;box-shadow:none;cursor:pointer;overflow:hidden;-webkit-transition:opacity .25s linear;transition:opacity .25s linear;z-index:2147483647}.root__H_E27:hover{opacity:.9}.icon__HrAtF{max-width:32px;max-height:32px}.bottomRight__ILequ{right:16px;bottom:16px}.bottomLeft__iB1Ik{left:16px;bottom:16px}</style><script src="https://securepubads.g.doubleclick.net/gampad/adx?iu=/6581/web/it/video_player/weather/local_home&amp;sz=3x3&amp;c=1776679085849&amp;m=text/javascript&amp;t=fdate%3D20260420%26lang%3Dit%26ut%3D1%26advelvet%3D5%26inview%3Dititrome213490weather-forecast213490%253Awbr%252Cwb%26bot%3D0%26pgview%3D1%26partner%3Dgoogle_search_accuweather%26ufdb%3DLII7%26city%3DRome%26country%3DIT%26state%3D62%26dma%3Dnull%26key%3D213490%26region%3Deur%26lat%3D41.901%26lon%3D12.48%26browser%3Dsafari%26connection%3Dmobile_vhigh_5000%26wx_seg%3D101100100%252C102102102%252C109101100%252C108102100%252C100108101%252C102100100%252C102101100%252C102103100%252C107100102%252C100111100%252C107101102%252C108103101%252C101103100%252C100113103%252C108104101%252C101105100%252C110100100%252C109104100%252C109105100%252C100106102%252C110101101%252C109100102%252C108101102%252C103100102%252C109103102%252C103101102%252C101106102%252C108100102%252C100109105%252C102104102%252C104100103%252C101104101%252C104101101%252C100109102%252C109102102%252C100114105%252C109106102%252C101107101%252C101108101%252C101102102%252C105100102%252C107103102%252C100114102%252C100114101%252C101101101%26alertscategory%3DSEVERE%252CSEVERE%26alertssource%3Dit%252Cit%26alertstypeid%3DIT312%252CIT312%26cuhd%3D64%26cuhi%3D67%26cuuv%3D6%26cuwd%3D8%26cuwx%3D3%26realfeel%3D75%252Ca80%252Cb75%252Cc75%252Cd75%26cuaq%3D3%26fc1hi%3D74%26fc1lo%3D54%26fc1wx%3D2%26lfscategory%3Drain%26lfsday%3D3%26lfsseverity%3D5%26lfs%3D5_rain_3%26pt%3D15918%26userid%3Dactive%26userid3p%3Dmissing%26sub%3Dfree%26auth%3Dfalse%26site%3Ddesktop%26hour%3D11%26viewport%3D1470x840%26iabctax%3DIAB15-10%252CIAB20-14%252CIAB20-19%252C390%252C659%26from%3Dnull&amp;ppid=7d695715xd89fx4158xab9bx5114c8ba51db&amp;userid3p=missing" id="videoPlayerAdUnitScript" async=""></script><script esp-signal="true" src="https://ads.pubmatic.com/AdServer/js/google-esp.js"></script><script esp-signal="true" src="https://invstatic101.creativecdn.com/encrypted-signals/encrypted-tag-g.js"></script><script esp-signal="true" src="https://oa.openxcdn.net/esp.js"></script><script esp-signal="true" src="https://cdn.id5-sync.com/api/1.0/esp.js"></script><script esp-signal="true" src="https://connectid.analytics.yahoo.com/connectId-gpt.js"></script><script esp-signal="true" src="https://static.criteo.net/js/ld/publishertag.ids.js"></script><script esp-signal="true" src="https://tags.crwdcntrl.net/lt/c/16589/sync.min.js"></script><style id="fullscreenRadarAnchor" type="text/css">@media (max-width: 767px) {html:has(ins[data-anchor-shown="true"]) .map-container-legacy.full-screen {padding-top: 0px;top: 0px;} .map-container-legacy.full-screen .play-bar{bottom:60px}}</style><script src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5771594739411148" id="google_adsense_script" async="" data-checked-head="true"></script><meta http-equiv="origin-trial" content="AlK2UR5SkAlj8jjdEc9p3F3xuFYlF6LYjAML3EOqw1g26eCwWPjdmecULvBH5MVPoqKYrOfPhYVL71xAXI1IBQoAAAB8eyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiV2ViVmlld1hSZXF1ZXN0ZWRXaXRoRGVwcmVjYXRpb24iLCJleHBpcnkiOjE3NTgwNjcxOTksImlzU3ViZG9tYWluIjp0cnVlfQ=="><meta http-equiv="origin-trial" content="Amm8/NmvvQfhwCib6I7ZsmUxiSCfOxWxHayJwyU1r3gRIItzr7bNQid6O8ZYaE1GSQTa69WwhPC9flq/oYkRBwsAAACCeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiV2ViVmlld1hSZXF1ZXN0ZWRXaXRoRGVwcmVjYXRpb24iLCJleHBpcnkiOjE3NTgwNjcxOTksImlzU3ViZG9tYWluIjp0cnVlfQ=="><meta http-equiv="origin-trial" content="A9nrunKdU5m96PSN1XsSGr3qOP0lvPFUB2AiAylCDlN5DTl17uDFkpQuHj1AFtgWLxpLaiBZuhrtb2WOu7ofHwEAAACKeyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiQUlQcm9tcHRBUElNdWx0aW1vZGFsSW5wdXQiLCJleHBpcnkiOjE3NzQzMTA0MDAsImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"><meta http-equiv="origin-trial" content="A93bovR+QVXNx2/38qDbmeYYf1wdte9EO37K9eMq3r+541qo0byhYU899BhPB7Cv9QqD7wIbR1B6OAc9kEfYCA4AAACQeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiQUlQcm9tcHRBUElNdWx0aW1vZGFsSW5wdXQiLCJleHBpcnkiOjE3NzQzMTA0MDAsImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"><meta http-equiv="origin-trial" content="A1S5fojrAunSDrFbD8OfGmFHdRFZymSM/1ss3G+NEttCLfHkXvlcF6LGLH8Mo5PakLO1sCASXU1/gQf6XGuTBgwAAACQeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXRhZ3NlcnZpY2VzLmNvbTo0NDMiLCJmZWF0dXJlIjoiQUlQcm9tcHRBUElNdWx0aW1vZGFsSW5wdXQiLCJleHBpcnkiOjE3NzQzMTA0MDAsImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"></head>
+</style><style>.root__A7aXF{text-align:left}.root__A7aXF *{-webkit-box-sizing:border-box;box-sizing:border-box;font-family:Arial,Helvetica,sans-serif;font-weight:normal}</style><style>.root__H_E27{margin:0;position:fixed;width:48px;height:48px;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;border:none;border-radius:50%;-webkit-box-shadow:none;box-shadow:none;cursor:pointer;overflow:hidden;-webkit-transition:opacity .25s linear;transition:opacity .25s linear;z-index:2147483647}.root__H_E27:hover{opacity:.9}.icon__HrAtF{max-width:32px;max-height:32px}.bottomRight__ILequ{right:16px;bottom:16px}.bottomLeft__iB1Ik{left:16px;bottom:16px}</style><script src="https://securepubads.g.doubleclick.net/gampad/adx?iu=/6581/web/it/video_player/weather/local_home&amp;sz=3x3&amp;c=1776780126743&amp;m=text/javascript&amp;t=fdate%3D20260421%26lang%3Dit%26ut%3D1%26advelvet%3D15%26inview%3Dititrome213490weather-forecast213490%253Awtr%252Cwbr%252Cwt%26bot%3D0%26pgview%3D10%26partner%3Dgoogle_search_accuweather%26ufdb%3DLII7%26city%3DRome%26country%3DIT%26state%3D62%26dma%3Dnull%26key%3D213490%26region%3Deur%26lat%3D41.901%26lon%3D12.48%26browser%3Dsafari%26connection%3Dmobile_vhigh_5000%26wx_seg%3D101100100%252C102102102%252C109101100%252C108102100%252C100108101%252C102100100%252C102101100%252C102103100%252C107100102%252C100111100%252C107101102%252C108103101%252C101103100%252C100113103%252C108104101%252C101105100%252C110100100%252C109104100%252C109105100%252C100106102%252C110101101%252C109100102%252C108101102%252C103100102%252C109103102%252C103101102%252C101106102%252C108100102%252C100109105%252C102104102%252C104100103%252C101104101%252C104101101%252C100109102%252C109102102%252C100114105%252C109106102%252C101107101%252C101108101%252C101102102%252C105100102%252C107103102%252C100114102%252C100114101%252C101101101%26alertscategory%3DSEVERE%252CSEVERE%252CSEVERE%252CWIND%26alertssource%3Dit%252Cit%252Cit%252Cit%26alertstypeid%3DIT312%252CIT312%252CIT312%252CIT169%26cuhd%3D61%26cuhi%3D72%26cuuv%3D4%26cuwd%3D15%26cuwx%3D3%26realfeel%3D70%252Ca75%252Cb75%252Cc75%252Cd80%26cuaq%3D3%26fc1hi%3D73%26fc1lo%3D53%26fc1wx%3D2%26lfscategory%3Dmild%26lfsday%3D5%26lfsseverity%3D4%26lfs%3D4_mild_5%26pt%3D846%26userid%3Dactive%26userid3p%3Dmissing%26sub%3Dfree%26auth%3Dfalse%26site%3Ddesktop%26hour%3D16%26viewport%3D1470x840%26iabctax%3DIAB15-10%252CIAB20-14%252CIAB20-19%252C390%252C659%26from%3Dnull%26idgraph%3Dshid%252Ccrt%252Clot&amp;ppid=7d695715xd89fx4158xab9bx5114c8ba51db&amp;userid3p=missing" id="videoPlayerAdUnitScript" async=""></script><script esp-signal="true" src="https://cdn.id5-sync.com/api/1.0/esp.js"></script><script src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5771594739411148" id="google_adsense_script" async="" data-checked-head="true"></script><meta http-equiv="origin-trial" content="AlK2UR5SkAlj8jjdEc9p3F3xuFYlF6LYjAML3EOqw1g26eCwWPjdmecULvBH5MVPoqKYrOfPhYVL71xAXI1IBQoAAAB8eyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiV2ViVmlld1hSZXF1ZXN0ZWRXaXRoRGVwcmVjYXRpb24iLCJleHBpcnkiOjE3NTgwNjcxOTksImlzU3ViZG9tYWluIjp0cnVlfQ=="><meta http-equiv="origin-trial" content="Amm8/NmvvQfhwCib6I7ZsmUxiSCfOxWxHayJwyU1r3gRIItzr7bNQid6O8ZYaE1GSQTa69WwhPC9flq/oYkRBwsAAACCeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiV2ViVmlld1hSZXF1ZXN0ZWRXaXRoRGVwcmVjYXRpb24iLCJleHBpcnkiOjE3NTgwNjcxOTksImlzU3ViZG9tYWluIjp0cnVlfQ=="><meta http-equiv="origin-trial" content="A9nrunKdU5m96PSN1XsSGr3qOP0lvPFUB2AiAylCDlN5DTl17uDFkpQuHj1AFtgWLxpLaiBZuhrtb2WOu7ofHwEAAACKeyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiQUlQcm9tcHRBUElNdWx0aW1vZGFsSW5wdXQiLCJleHBpcnkiOjE3NzQzMTA0MDAsImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"><meta http-equiv="origin-trial" content="A93bovR+QVXNx2/38qDbmeYYf1wdte9EO37K9eMq3r+541qo0byhYU899BhPB7Cv9QqD7wIbR1B6OAc9kEfYCA4AAACQeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiQUlQcm9tcHRBUElNdWx0aW1vZGFsSW5wdXQiLCJleHBpcnkiOjE3NzQzMTA0MDAsImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"><meta http-equiv="origin-trial" content="A1S5fojrAunSDrFbD8OfGmFHdRFZymSM/1ss3G+NEttCLfHkXvlcF6LGLH8Mo5PakLO1sCASXU1/gQf6XGuTBgwAAACQeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXRhZ3NlcnZpY2VzLmNvbTo0NDMiLCJmZWF0dXJlIjoiQUlQcm9tcHRBUElNdWx0aW1vZGFsSW5wdXQiLCJleHBpcnkiOjE3NzQzMTA0MDAsImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"></head>
 
-<body class="three-day    full-animation rfphrase-disabled" aria-hidden="false" style="">
+<body class="three-day    full-animation rfphrase-disabled">
 	<div class="template-root" style="display:none">
 		<div class="basic-header   " style="visibility: hidden;">
 
@@ -3508,7 +3510,7 @@ function getUserContentAffinity(categories) {
 			
 				<a class="header-city-link" href="/it/it/rome/213490/weather-forecast/213490">
 					<h1 class="header-loc">Roma, Lazio</h1>
-					<span class="header-temp">21°<span class="unit">C</span></span>
+					<span class="header-temp">22°<span class="unit">C</span></span>
 					<img class="header-weather-icon" src="/images/weathericons/v2a/03.svg" width="27" height="27">
 				</a>
 
@@ -3546,7 +3548,31 @@ function getUserContentAffinity(categories) {
 						<p class="recent-location__admin">Lazio</p>
 					</div>
 					<img class="recent-location__icon" src="/images/weathericons/v2a/03.svg" width="32" height="32">
-					<span class="recent-location__temp">21°</span>
+					<span class="recent-location__temp">22°</span>
+				</a>
+				<a class="recent-location" data-location-key="226396" data-fetch="true" data-place-name="" href="/web-api/three-day-redirect?key=226396&amp;target=">
+					<div class="recent-location__title-wrapper">
+						<p class="recent-location__name"></p>
+						<p class="recent-location__admin"></p>
+					</div>
+					
+					<span class="recent-location__temp"></span>
+				</a>
+				<a class="recent-location" data-location-key="214046" data-fetch="true" data-place-name="" href="/web-api/three-day-redirect?key=214046&amp;target=">
+					<div class="recent-location__title-wrapper">
+						<p class="recent-location__name"></p>
+						<p class="recent-location__admin"></p>
+					</div>
+					
+					<span class="recent-location__temp"></span>
+				</a>
+				<a class="recent-location" data-location-key="212293" data-fetch="true" data-place-name="" href="/web-api/three-day-redirect?key=212293&amp;target=">
+					<div class="recent-location__title-wrapper">
+						<p class="recent-location__name"></p>
+						<p class="recent-location__admin"></p>
+					</div>
+					
+					<span class="recent-location__temp"></span>
 				</a>
 		</div>
 		<div class="search-results">
@@ -3677,11 +3703,11 @@ function getUserContentAffinity(categories) {
 
 	</div>
 	
-		<div class="glacier-ad unrendered top config-top content-module" ad-type="top" id="top" data-google-query-id="CP6nya6V_JMDFRBCkQQdA2cIbA"><div id="google_ads_iframe_/6581/web/it/top/weather/local_home_0__container__" style="border: 0pt; margin: auto; text-align: center;"><iframe id="google_ads_iframe_/6581/web/it/top/weather/local_home_0" name="google_ads_iframe_/6581/web/it/top/weather/local_home_0" title="Contenuto dell'annuncio di terze parti" width="970" height="250" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" aria-label="Pubblicità" tabindex="0" data-load-complete="true" data-google-container-id="1" style="border: 0px; vertical-align: bottom;"></iframe></div></div>
+		<div class="glacier-ad unrendered top config-top content-module" ad-type="top" id="top" data-google-query-id="CO6hvOKN_5MDFRjVEQgd9SY4Aw"><script src="https://securepubads.g.doubleclick.net/gampad/adx?iu=/6581/web/postbid/top/weather/local_home&amp;sz=970x250&amp;c=1776780127&amp;t=fdate%3D20260421%26lang%3Dit%26ut%3D1%26advelvet%3D15%26inview%3Dititrome213490weather-forecast213490%3Awtr%2Cwbr%2Cwt%26bot%3D0%26pgview%3D10%26partner%3Dgoogle_search_accuweather%26ufdb%3DLII7%26city%3DRome%26country%3DIT%26state%3D62%26dma%3Dnull%26key%3D213490%26region%3Deur%26lat%3D41.901%26lon%3D12.48%26browser%3Dsafari%26connection%3Dmobile_vhigh_5000%26wx_seg%3D101100100%2C102102102%2C109101100%2C108102100%2C100108101%2C102100100%2C102101100%2C102103100%2C107100102%2C100111100%2C107101102%2C108103101%2C101103100%2C100113103%2C108104101%2C101105100%2C110100100%2C109104100%2C109105100%2C100106102%2C110101101%2C109100102%2C108101102%2C103100102%2C109103102%2C103101102%2C101106102%2C108100102%2C100109105%2C102104102%2C104100103%2C101104101%2C104101101%2C100109102%2C109102102%2C100114105%2C109106102%2C101107101%2C101108101%2C101102102%2C105100102%2C107103102%2C100114102%2C100114101%2C101101101%26alertscategory%3DSEVERE%2CSEVERE%2CSEVERE%2CWIND%26alertssource%3Dit%2Cit%2Cit%2Cit%26alertstypeid%3DIT312%2CIT312%2CIT312%2CIT169%26cuhd%3D61%26cuhi%3D72%26cuuv%3D4%26cuwd%3D15%26cuwx%3D3%26realfeel%3D70%2Ca75%2Cb75%2Cc75%2Cd80%26cuaq%3D3%26fc1hi%3D73%26fc1lo%3D53%26fc1wx%3D2%26lfscategory%3Dmild%26lfsday%3D5%26lfsseverity%3D4%26lfs%3D4_mild_5%26pt%3D846%26userid%3Dactive%26userid3p%3Dmissing%26sub%3Dfree%26auth%3Dfalse%26site%3Ddesktop%26hour%3D16%26viewport%3D1470x840%26iabctax%3DIAB15-10%2CIAB20-14%2CIAB20-19%2C390%2C659%26from%3Dnull%26idgraph%3Dshid%2Ccrt%2Clot%26interstitial%3D0%26upr%3D0.15%26upr_0%3D0.50%26upr_auction%3Dprebid%26userid3pbid%3Dmissing-0.50%26hb_bid_1st%3D0.30%26hb_bid_2nd%3D0.20%26ppid%3D7d695715xd89fx4158xab9bx5114c8ba51db&amp;m=text/javascript"></script><ins class="adsbygoogle" style="display:inline-block;margin:0 auto;width:970px;height:250px;" data-ad-client="ca-pub-5771594739411148" data-ad-slot="4150593412" data-adsbygoogle-status="done" data-ad-status="filled"><div id="aswift_1_host" style="border: medium; height: 250px; width: 970px; margin: 0px; padding: 0px; position: relative; visibility: visible; background-color: transparent; display: inline-block;"><iframe id="aswift_1" name="aswift_1" style="left:0;position:absolute;top:0;border:0;width:970px;height:250px;min-height:auto;max-height:none;min-width:auto;max-width:none;" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" width="970" height="250" frameborder="0" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" src="https://googleads.g.doubleclick.net/pagead/ads?gdpr=1&amp;us_privacy=1---&amp;gdpr_consent=CQjA2wAQjA2wAFUABAENCbFsAP_gAEPgACiQJzQKwAAwAKAAyAB4AIAAVgAuADIAHAAQAAkABkADQAIoASQAmABRAC3AF4AXwAwgCAAEFAI4AjwBKACcAFIALkAZQA5wB3AEIAMaAacA6oB7QEagKbAVcAvMBjIDJAGTgPMAf4BGYCcwJzQJgAAwAKAAyAB4AIAAVgAuADIAHAAQAAkABkADQAIoATAAogBbgC8AL4AYQBAACCgEcAR4AnABSADKAHOAO4AhABjQDTgHtAU2Aq4BeYDGQGSAMnAeYA_wCMwE5gAA.IJzQKwAAwAKAAyAB4AIAAVgAuADIAHAAQAAkABkADQAIoASQAmABRAC3AF4AXwAwgCAAEFAI4AjwBKACcAFIALkAZQA5wB3AEIAMaAacA6oB7QEagKbAVcAvMBjIDJAGTgPMAf4BGYCcwAAA.f_wACHwAAAAA&amp;addtl_consent=2~70.1092.3130&amp;gpp_sid=-1&amp;client=ca-pub-5771594739411148&amp;output=html&amp;h=250&amp;slotname=4150593412&amp;adk=219445339&amp;adf=3295086914&amp;pi=t.ma~as.4150593412&amp;w=970&amp;lmt=1776780127&amp;format=970x250&amp;url=https%3A%2F%2Fwww.accuweather.com%2Fit%2Fit%2Frome%2F213490%2Fweather-forecast%2F213490&amp;asro=0&amp;aiapmid=1&amp;aiactd=0&amp;aicctd=0&amp;ailctd=0&amp;aimartd=4&amp;aieuf=1&amp;aicrs=1&amp;abgtt=6&amp;dt=1776780127565&amp;bpp=1&amp;bdt=2908&amp;idt=30&amp;shv=r20260420&amp;mjsv=m202604160101&amp;ptt=9&amp;saldr=aa&amp;abxe=1&amp;cookie=ID%3D50b54bc676f3e279%3AT%3D1776353262%3ART%3D1776780126%3AS%3DALNI_MaYJn7Rj3fos7s6RW40iAkrmQwNRQ&amp;gpic=UID%3D000013a4a1bbcb98%3AT%3D1776353262%3ART%3D1776780126%3AS%3DALNI_MauOrbmlYjxtpVhWC264qsoeA92Ow&amp;eo_id_str=ID%3D724a6266e0a68339%3AT%3D1776353262%3ART%3D1776780126%3AS%3DAA-Afjbd8FlTRWtWRf5qdeFKs2Ny&amp;prev_fmts=0x0&amp;nras=1&amp;correlator=1141719437555&amp;frm=20&amp;pv=1&amp;u_tz=120&amp;u_his=6&amp;u_h=833&amp;u_w=1470&amp;u_ah=833&amp;u_aw=1470&amp;u_cd=24&amp;u_sd=2&amp;adx=250&amp;ady=123&amp;biw=1470&amp;bih=833&amp;scr_x=0&amp;scr_y=0&amp;eid=95384087%2C95387623%2C95386955&amp;oid=2&amp;pvsid=6179872356847787&amp;tmod=680543130&amp;uas=1&amp;nvt=1&amp;fc=1920&amp;brdim=0%2C0%2C0%2C0%2C1470%2C0%2C1470%2C833%2C1470%2C833&amp;vis=1&amp;rsz=%7C%7CeoE%7C&amp;abl=CS&amp;pfx=0&amp;fu=0&amp;bc=31&amp;plas=241x658_l%7C241x658_r&amp;bz=1&amp;ifi=7&amp;uci=a!7&amp;fsb=1&amp;dtd=40" data-google-container-id="a!7" tabindex="0" title="Advertisement" aria-label="Advertisement" data-google-query-id="CK7b_-KN_5MDFedTFQgdAvEGdQ" data-load-complete="true"></iframe></div></ins></div>
 
 	
 	
-		<div class="glacier-ad unrendered oop config-oop " ad-type="oop" id="oop" data-google-query-id="CPOYyK6V_JMDFZI-VQgd8_oh1w"><div id="google_ads_iframe_/6581/web/it/oop/weather/local_home_0__container__" style="border: 0pt; margin: auto; text-align: center;"></div></div>
+		<div class="glacier-ad unrendered oop config-oop " ad-type="oop" id="oop" data-google-query-id="CJGqwOKN_5MDFXCJgwcdwOwEwQ"><div id="google_ads_iframe_/6581/web/it/oop/weather/local_home_0__container__" style="border: 0pt; margin: auto; text-align: center;"></div></div>
 
 		<div class="glacier-ad unrendered interstitial config-interstitial " ad-type="interstitial" id="interstitial"></div>
 
@@ -3692,7 +3718,7 @@ function getUserContentAffinity(categories) {
 				
 					<a href="/it/it/rome/213490/weather-warnings/213490" class="severe-alert-banner content-module lbar-banner">
 	<svg class="severe-alert-banner__icon  alert-icon" xmlns="http://www.w3.org/2000/svg" width="25" height="22" viewBox="0 0 25 22"><path fill="#fff" d="M13.273.438L24.87 19.766c.36.6-.072 1.366-.773 1.366H.903c-.7 0-1.134-.765-.773-1.366L11.727.438c.35-.584 1.196-.584 1.546 0zm.129 14.638h-1.804v2.577h1.804v-2.577zm0-7.731h-1.804v6.442h1.804V7.345z" transform="translate(0 -8) translate(0 8)"></path></svg>
-	<span class="severe-alert-banner__count">2</span>
+	<span class="severe-alert-banner__count">4</span>
 	<div class="severe-alert-banner__separator"></div>
 	<span class="severe-alert-banner__type">Allarme giallo per temporali</span>
 	<svg class="icon-arrow" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18"><defs><path id="a" d="m8.495.505 5 5v.99l-5 5-.99-.99 3.805-3.806L0 6.7V5.3l11.31-.001-3.805-3.804.99-.99z"></path></defs><use fill="#000" fill-rule="nonzero" xlink:href="#a" transform="translate(2 3)"></use></svg>
@@ -3709,7 +3735,7 @@ function getUserContentAffinity(categories) {
 			Meteo attuale
 		</h2>
 		<p class="cur-con-weather-card__subtitle">
-			11:57
+			16:02
 		</p>
 	</div>
 	<div class="cur-con-weather-card__body">
@@ -3717,10 +3743,10 @@ function getUserContentAffinity(categories) {
 			<div class="forecast-container">
 				<img class="weather-icon" src="/images/weathericons/v2a/03.svg" width="88" height="88">
 				<div class="temp-container">
-					<div class="temp">21°<span class="after-temp">C</span></div>
+					<div class="temp">22°<span class="after-temp">C</span></div>
 					<div class="real-feel">
 						RealFeel®
-						24°
+						23°
 					</div>
 				</div>
 			</div>
@@ -3735,15 +3761,15 @@ function getUserContentAffinity(categories) {
 		<div class="cur-con-weather-card__panel details-container">
 			<div class="spaced-content detail">
 				<span class="label">RealFeel Shade™</span>
-				<span class="value">19°</span>
+				<span class="value">20°</span>
 			</div>
 			<div class="spaced-content detail">
 				<span class="label">Vento</span>
-				<span class="value">ESE 12 km/h</span>
+				<span class="value">SO 23 km/h</span>
 			</div>
 			<div class="spaced-content detail">
 				<span class="label">Raffiche vento</span>
-				<span class="value">25 km/h</span>
+				<span class="value">40 km/h</span>
 			</div>
 			<div class="spaced-content detail">
 				<span class="label">Qualità dell'aria</span>
@@ -3758,9 +3784,9 @@ function getUserContentAffinity(categories) {
 
 	
 		
-<a class="local-forecast-summary" href="/it/it/rome/213490/daily-weather-forecast/213490?day=3">
+<a class="local-forecast-summary" href="/it/it/rome/213490/daily-weather-forecast/213490?day=5">
 	<h2>Evoluzione</h2>
-	<p>Sono previsti rovesci mercoledì pomeriggio</p>
+	<p>Gradevole nel weekend</p>
 </a>
 
 	
@@ -3776,7 +3802,7 @@ function getUserContentAffinity(categories) {
 <a class="base-map-cta card static-radar-map-recommended " href="/it/it/rome/213490/weather-radar/213490" data-title="Roma - Radar meteo">
 	
 	
-	<img alt="Roma - Radar meteo" class="component-image responsive-img lazy" data-src="https://api.accuweather.com/maps/v1/radar/static/globalSIR/tile?apikey=de13920f574d420984d3080b1fa6132b&amp;zoom=3&amp;lon=12.833&amp;lat=42.833&amp;imgwidth=768&amp;imgheight=432&amp;language=it&amp;base_data=radar" data-srcset="https://api.accuweather.com/maps/v1/radar/static/globalSIR/tile?apikey=de13920f574d420984d3080b1fa6132b&amp;zoom=3&amp;lon=12.833&amp;lat=42.833&amp;imgwidth=768&amp;imgheight=432&amp;language=it&amp;base_data=radar, https://api.accuweather.com/maps/v1/radar/static/globalSIR/tile?apikey=de13920f574d420984d3080b1fa6132b&amp;zoom=4&amp;lon=12.833&amp;lat=42.833&amp;imgwidth=480&amp;imgheight=270&amp;language=it&amp;base_data=radar" sizes="" src="https://api.accuweather.com/maps/v1/radar/static/globalSIR/tile?apikey=de13920f574d420984d3080b1fa6132b&amp;zoom=3&amp;lon=12.833&amp;lat=42.833&amp;imgwidth=768&amp;imgheight=432&amp;language=it&amp;base_data=radar" title="Roma - Radar meteo" srcset="https://api.accuweather.com/maps/v1/radar/static/globalSIR/tile?apikey=de13920f574d420984d3080b1fa6132b&amp;zoom=3&amp;lon=12.833&amp;lat=42.833&amp;imgwidth=768&amp;imgheight=432&amp;language=it&amp;base_data=radar, https://api.accuweather.com/maps/v1/radar/static/globalSIR/tile?apikey=de13920f574d420984d3080b1fa6132b&amp;zoom=4&amp;lon=12.833&amp;lat=42.833&amp;imgwidth=480&amp;imgheight=270&amp;language=it&amp;base_data=radar">
+	<img alt="Roma - Radar meteo" class="component-image responsive-img lazy" data-src="https://api.accuweather.com/maps/v1/radar/static/globalSIR/tile?apikey=de13920f574d420984d3080b1fa6132b&amp;zoom=3&amp;lon=12.833&amp;lat=42.833&amp;imgwidth=768&amp;imgheight=432&amp;language=it&amp;base_data=radar" data-srcset="https://api.accuweather.com/maps/v1/radar/static/globalSIR/tile?apikey=de13920f574d420984d3080b1fa6132b&amp;zoom=3&amp;lon=12.833&amp;lat=42.833&amp;imgwidth=768&amp;imgheight=432&amp;language=it&amp;base_data=radar, https://api.accuweather.com/maps/v1/radar/static/globalSIR/tile?apikey=de13920f574d420984d3080b1fa6132b&amp;zoom=4&amp;lon=12.833&amp;lat=42.833&amp;imgwidth=480&amp;imgheight=270&amp;language=it&amp;base_data=radar" sizes="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAJAQMAAAAB5D5xAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAApJREFUCNdjwA0AABsAAQrj5HwAAAAASUVORK5CYII=" title="Roma - Radar meteo">
 
 	
 <div class="  map-error-message">
@@ -3823,124 +3849,124 @@ function getUserContentAffinity(categories) {
 		</button>
 		<div class="hourly-list__list-wrapper">
 			<div class="hourly-list__list" style="transform: translateX(4px);">
-					<a class="hourly-list__list__item" href="/it/it/rome/213490/hourly-weather-forecast/213490?hour=1776679200">
+					<a class="hourly-list__list__item" href="/it/it/rome/213490/hourly-weather-forecast/213490?hour=1776783600">
 						<span class="hourly-list__list__item-time">
-12						</span>
-						<img class="hourly-list__list__item-icon" height="40" width="40" src="https://www.awxcdn.com/adc-assets/images/weathericons/v2a/2.svg">
+17						</span>
+						<img class="hourly-list__list__item-icon" height="40" width="40" src="https://www.awxcdn.com/adc-assets/images/weathericons/v2a/1.svg">
 						<span class="hourly-list__list__item-temp">21°</span>
 						<div class="hourly-list__list__item-precip">
-							<img alt="rain drop" class="precip-icon" data-src="https://www.awxcdn.com/adc-assets/images/components/weather/hourly-card-nfl/drop-icon.svg" src="https://www.awxcdn.com/adc-assets/images/components/weather/hourly-card-nfl/drop-icon.svg">
+							<img alt="rain drop" class="precip-icon" data-src="https://www.awxcdn.com/adc-assets/images/components/weather/hourly-card-nfl/drop-icon.svg">
+							<span>1%</span>
+						</div>
+					</a>
+					<a class="hourly-list__list__item" href="/it/it/rome/213490/hourly-weather-forecast/213490?hour=1776787200">
+						<span class="hourly-list__list__item-time">
+18						</span>
+						<img class="hourly-list__list__item-icon" height="40" width="40" src="https://www.awxcdn.com/adc-assets/images/weathericons/v2a/1.svg">
+						<span class="hourly-list__list__item-temp">21°</span>
+						<div class="hourly-list__list__item-precip">
+							<img alt="rain drop" class="precip-icon" data-src="https://www.awxcdn.com/adc-assets/images/components/weather/hourly-card-nfl/drop-icon.svg">
+							<span>1%</span>
+						</div>
+					</a>
+					<a class="hourly-list__list__item" href="/it/it/rome/213490/hourly-weather-forecast/213490?hour=1776790800">
+						<span class="hourly-list__list__item-time">
+19						</span>
+						<img class="hourly-list__list__item-icon" height="40" width="40" src="https://www.awxcdn.com/adc-assets/images/weathericons/v2a/1.svg">
+						<span class="hourly-list__list__item-temp">20°</span>
+						<div class="hourly-list__list__item-precip">
+							<img alt="rain drop" class="precip-icon" data-src="https://www.awxcdn.com/adc-assets/images/components/weather/hourly-card-nfl/drop-icon.svg">
+							<span>1%</span>
+						</div>
+					</a>
+					<a class="hourly-list__list__item" href="/it/it/rome/213490/hourly-weather-forecast/213490?hour=1776794400">
+						<span class="hourly-list__list__item-time">
+20						</span>
+						<img class="hourly-list__list__item-icon" height="40" width="40" src="https://www.awxcdn.com/adc-assets/images/weathericons/v2a/33.svg">
+						<span class="hourly-list__list__item-temp">18°</span>
+						<div class="hourly-list__list__item-precip">
+							<img alt="rain drop" class="precip-icon" data-src="https://www.awxcdn.com/adc-assets/images/components/weather/hourly-card-nfl/drop-icon.svg">
 							<span>2%</span>
 						</div>
 					</a>
-					<a class="hourly-list__list__item" href="/it/it/rome/213490/hourly-weather-forecast/213490?hour=1776682800">
-						<span class="hourly-list__list__item-time">
-13						</span>
-						<img class="hourly-list__list__item-icon" height="40" width="40" src="https://www.awxcdn.com/adc-assets/images/weathericons/v2a/2.svg">
-						<span class="hourly-list__list__item-temp">22°</span>
-						<div class="hourly-list__list__item-precip">
-							<img alt="rain drop" class="precip-icon" data-src="https://www.awxcdn.com/adc-assets/images/components/weather/hourly-card-nfl/drop-icon.svg" src="https://www.awxcdn.com/adc-assets/images/components/weather/hourly-card-nfl/drop-icon.svg">
-							<span>1%</span>
-						</div>
-					</a>
-					<a class="hourly-list__list__item" href="/it/it/rome/213490/hourly-weather-forecast/213490?hour=1776686400">
-						<span class="hourly-list__list__item-time">
-14						</span>
-						<img class="hourly-list__list__item-icon" height="40" width="40" src="https://www.awxcdn.com/adc-assets/images/weathericons/v2a/1.svg">
-						<span class="hourly-list__list__item-temp">23°</span>
-						<div class="hourly-list__list__item-precip">
-							<img alt="rain drop" class="precip-icon" data-src="https://www.awxcdn.com/adc-assets/images/components/weather/hourly-card-nfl/drop-icon.svg" src="https://www.awxcdn.com/adc-assets/images/components/weather/hourly-card-nfl/drop-icon.svg">
-							<span>0%</span>
-						</div>
-					</a>
-					<a class="hourly-list__list__item" href="/it/it/rome/213490/hourly-weather-forecast/213490?hour=1776690000">
-						<span class="hourly-list__list__item-time">
-15						</span>
-						<img class="hourly-list__list__item-icon" height="40" width="40" src="https://www.awxcdn.com/adc-assets/images/weathericons/v2a/1.svg">
-						<span class="hourly-list__list__item-temp">23°</span>
-						<div class="hourly-list__list__item-precip">
-							<img alt="rain drop" class="precip-icon" data-src="https://www.awxcdn.com/adc-assets/images/components/weather/hourly-card-nfl/drop-icon.svg" src="https://www.awxcdn.com/adc-assets/images/components/weather/hourly-card-nfl/drop-icon.svg">
-							<span>0%</span>
-						</div>
-					</a>
-					<a class="hourly-list__list__item" href="/it/it/rome/213490/hourly-weather-forecast/213490?hour=1776693600">
-						<span class="hourly-list__list__item-time">
-16						</span>
-						<img class="hourly-list__list__item-icon" height="40" width="40" src="https://www.awxcdn.com/adc-assets/images/weathericons/v2a/1.svg">
-						<span class="hourly-list__list__item-temp">22°</span>
-						<div class="hourly-list__list__item-precip">
-							<img alt="rain drop" class="precip-icon" data-src="https://www.awxcdn.com/adc-assets/images/components/weather/hourly-card-nfl/drop-icon.svg" src="https://www.awxcdn.com/adc-assets/images/components/weather/hourly-card-nfl/drop-icon.svg">
-							<span>0%</span>
-						</div>
-					</a>
-					<a class="hourly-list__list__item" href="/it/it/rome/213490/hourly-weather-forecast/213490?hour=1776697200">
-						<span class="hourly-list__list__item-time">
-17						</span>
-						<img class="hourly-list__list__item-icon" height="40" width="40" src="https://www.awxcdn.com/adc-assets/images/weathericons/v2a/2.svg">
-						<span class="hourly-list__list__item-temp">22°</span>
-						<div class="hourly-list__list__item-precip">
-							<img alt="rain drop" class="precip-icon" data-src="https://www.awxcdn.com/adc-assets/images/components/weather/hourly-card-nfl/drop-icon.svg" src="https://www.awxcdn.com/adc-assets/images/components/weather/hourly-card-nfl/drop-icon.svg">
-							<span>0%</span>
-						</div>
-					</a>
-					<a class="hourly-list__list__item" href="/it/it/rome/213490/hourly-weather-forecast/213490?hour=1776700800">
-						<span class="hourly-list__list__item-time">
-18						</span>
-						<img class="hourly-list__list__item-icon" height="40" width="40" src="https://www.awxcdn.com/adc-assets/images/weathericons/v2a/2.svg">
-						<span class="hourly-list__list__item-temp">21°</span>
-						<div class="hourly-list__list__item-precip">
-							<img alt="rain drop" class="precip-icon" data-src="https://www.awxcdn.com/adc-assets/images/components/weather/hourly-card-nfl/drop-icon.svg" src="https://www.awxcdn.com/adc-assets/images/components/weather/hourly-card-nfl/drop-icon.svg">
-							<span>0%</span>
-						</div>
-					</a>
-					<a class="hourly-list__list__item" href="/it/it/rome/213490/hourly-weather-forecast/213490?hour=1776704400">
-						<span class="hourly-list__list__item-time">
-19						</span>
-						<img class="hourly-list__list__item-icon" height="40" width="40" src="https://www.awxcdn.com/adc-assets/images/weathericons/v2a/2.svg">
-						<span class="hourly-list__list__item-temp">20°</span>
-						<div class="hourly-list__list__item-precip">
-							<img alt="rain drop" class="precip-icon" data-src="https://www.awxcdn.com/adc-assets/images/components/weather/hourly-card-nfl/drop-icon.svg" src="https://www.awxcdn.com/adc-assets/images/components/weather/hourly-card-nfl/drop-icon.svg">
-							<span>0%</span>
-						</div>
-					</a>
-					<a class="hourly-list__list__item" href="/it/it/rome/213490/hourly-weather-forecast/213490?hour=1776708000">
-						<span class="hourly-list__list__item-time">
-20						</span>
-						<img class="hourly-list__list__item-icon" height="40" width="40" src="https://www.awxcdn.com/adc-assets/images/weathericons/v2a/34.svg">
-						<span class="hourly-list__list__item-temp">19°</span>
-						<div class="hourly-list__list__item-precip">
-							<img alt="rain drop" class="precip-icon" data-src="https://www.awxcdn.com/adc-assets/images/components/weather/hourly-card-nfl/drop-icon.svg" src="https://www.awxcdn.com/adc-assets/images/components/weather/hourly-card-nfl/drop-icon.svg">
-							<span>1%</span>
-						</div>
-					</a>
-					<a class="hourly-list__list__item hide" href="/it/it/rome/213490/hourly-weather-forecast/213490?hour=1776711600">
+					<a class="hourly-list__list__item" href="/it/it/rome/213490/hourly-weather-forecast/213490?hour=1776798000">
 						<span class="hourly-list__list__item-time">
 21						</span>
-						<img class="hourly-list__list__item-icon" height="40" width="40" src="https://www.awxcdn.com/adc-assets/images/weathericons/v2a/34.svg">
+						<img class="hourly-list__list__item-icon" height="40" width="40" src="https://www.awxcdn.com/adc-assets/images/weathericons/v2a/33.svg">
 						<span class="hourly-list__list__item-temp">17°</span>
 						<div class="hourly-list__list__item-precip">
 							<img alt="rain drop" class="precip-icon" data-src="https://www.awxcdn.com/adc-assets/images/components/weather/hourly-card-nfl/drop-icon.svg">
-							<span>1%</span>
+							<span>2%</span>
 						</div>
 					</a>
-					<a class="hourly-list__list__item hide" href="/it/it/rome/213490/hourly-weather-forecast/213490?hour=1776715200">
+					<a class="hourly-list__list__item" href="/it/it/rome/213490/hourly-weather-forecast/213490?hour=1776801600">
 						<span class="hourly-list__list__item-time">
 22						</span>
-						<img class="hourly-list__list__item-icon" height="40" width="40" src="https://www.awxcdn.com/adc-assets/images/weathericons/v2a/35.svg">
-						<span class="hourly-list__list__item-temp">16°</span>
+						<img class="hourly-list__list__item-icon" height="40" width="40" src="https://www.awxcdn.com/adc-assets/images/weathericons/v2a/33.svg">
+						<span class="hourly-list__list__item-temp">15°</span>
 						<div class="hourly-list__list__item-precip">
 							<img alt="rain drop" class="precip-icon" data-src="https://www.awxcdn.com/adc-assets/images/components/weather/hourly-card-nfl/drop-icon.svg">
-							<span>1%</span>
+							<span>2%</span>
 						</div>
 					</a>
-					<a class="hourly-list__list__item hide" href="/it/it/rome/213490/hourly-weather-forecast/213490?hour=1776718800">
+					<a class="hourly-list__list__item" href="/it/it/rome/213490/hourly-weather-forecast/213490?hour=1776805200">
 						<span class="hourly-list__list__item-time">
 23						</span>
-						<img class="hourly-list__list__item-icon" height="40" width="40" src="https://www.awxcdn.com/adc-assets/images/weathericons/v2a/35.svg">
-						<span class="hourly-list__list__item-temp">16°</span>
+						<img class="hourly-list__list__item-icon" height="40" width="40" src="https://www.awxcdn.com/adc-assets/images/weathericons/v2a/33.svg">
+						<span class="hourly-list__list__item-temp">14°</span>
 						<div class="hourly-list__list__item-precip">
 							<img alt="rain drop" class="precip-icon" data-src="https://www.awxcdn.com/adc-assets/images/components/weather/hourly-card-nfl/drop-icon.svg">
-							<span>1%</span>
+							<span>2%</span>
+						</div>
+					</a>
+					<a class="hourly-list__list__item" href="/it/it/rome/213490/hourly-weather-forecast/213490?hour=1776808800&amp;day=2">
+						<span class="hourly-list__list__item-time">
+00						</span>
+						<img class="hourly-list__list__item-icon" height="40" width="40" src="https://www.awxcdn.com/adc-assets/images/weathericons/v2a/33.svg">
+						<span class="hourly-list__list__item-temp">14°</span>
+						<div class="hourly-list__list__item-precip">
+							<img alt="rain drop" class="precip-icon" data-src="https://www.awxcdn.com/adc-assets/images/components/weather/hourly-card-nfl/drop-icon.svg">
+							<span>2%</span>
+						</div>
+					</a>
+					<a class="hourly-list__list__item" href="/it/it/rome/213490/hourly-weather-forecast/213490?hour=1776812400&amp;day=2">
+						<span class="hourly-list__list__item-time">
+01						</span>
+						<img class="hourly-list__list__item-icon" height="40" width="40" src="https://www.awxcdn.com/adc-assets/images/weathericons/v2a/34.svg">
+						<span class="hourly-list__list__item-temp">13°</span>
+						<div class="hourly-list__list__item-precip">
+							<img alt="rain drop" class="precip-icon" data-src="https://www.awxcdn.com/adc-assets/images/components/weather/hourly-card-nfl/drop-icon.svg">
+							<span>4%</span>
+						</div>
+					</a>
+					<a class="hourly-list__list__item hide" href="/it/it/rome/213490/hourly-weather-forecast/213490?hour=1776816000&amp;day=2">
+						<span class="hourly-list__list__item-time">
+02						</span>
+						<img class="hourly-list__list__item-icon" height="40" width="40" src="https://www.awxcdn.com/adc-assets/images/weathericons/v2a/34.svg">
+						<span class="hourly-list__list__item-temp">13°</span>
+						<div class="hourly-list__list__item-precip">
+							<img alt="rain drop" class="precip-icon" data-src="https://www.awxcdn.com/adc-assets/images/components/weather/hourly-card-nfl/drop-icon.svg">
+							<span>7%</span>
+						</div>
+					</a>
+					<a class="hourly-list__list__item hide" href="/it/it/rome/213490/hourly-weather-forecast/213490?hour=1776819600&amp;day=2">
+						<span class="hourly-list__list__item-time">
+03						</span>
+						<img class="hourly-list__list__item-icon" height="40" width="40" src="https://www.awxcdn.com/adc-assets/images/weathericons/v2a/34.svg">
+						<span class="hourly-list__list__item-temp">13°</span>
+						<div class="hourly-list__list__item-precip">
+							<img alt="rain drop" class="precip-icon" data-src="https://www.awxcdn.com/adc-assets/images/components/weather/hourly-card-nfl/drop-icon.svg">
+							<span>7%</span>
+						</div>
+					</a>
+					<a class="hourly-list__list__item hide" href="/it/it/rome/213490/hourly-weather-forecast/213490?hour=1776823200&amp;day=2">
+						<span class="hourly-list__list__item-time">
+04						</span>
+						<img class="hourly-list__list__item-icon" height="40" width="40" src="https://www.awxcdn.com/adc-assets/images/weathericons/v2a/35.svg">
+						<span class="hourly-list__list__item-temp">13°</span>
+						<div class="hourly-list__list__item-precip">
+							<img alt="rain drop" class="precip-icon" data-src="https://www.awxcdn.com/adc-assets/images/components/weather/hourly-card-nfl/drop-icon.svg">
+							<span>7%</span>
 						</div>
 					</a>
 			</div>
@@ -3960,10 +3986,10 @@ function getUserContentAffinity(categories) {
 <div class="daily-list content-module">
 	<h2 class="daily-list-header">Previsioni giorno</h2>
 	<div class="daily-list-body">
-			<a class="daily-list-item " href="/it/it/rome/213490/weather-today/213490">
+			<a class="daily-list-item has-alerts" href="/it/it/rome/213490/weather-today/213490">
 				<div class="date" style="width: 45px;">
 					<p class="day">Oggi</p>
-					<p>20/4</p>
+					<p>21/4</p>
 				</div>
 				<img class="icon" height="40" width="40" src="https://www.awxcdn.com/adc-assets/images/weathericons/v2a/2.svg">
 				<div class="temp-phrase-wrapper">
@@ -3975,42 +4001,17 @@ function getUserContentAffinity(categories) {
 				<div class="phrase">
 					<p class="no-wrap">Da soleggiato a parzialmente nuvoloso</p>
 					<span class="night">
-						<img class="night-icon" height="22" width="22" src="https://www.awxcdn.com/adc-assets/images/weathericons/v2a/35.svg">
-						<p class="no-wrap">Parzialmente nuvoloso</p>
+						<img class="night-icon" height="22" width="22" src="https://www.awxcdn.com/adc-assets/images/weathericons/v2a/34.svg">
+						<p class="no-wrap">Da sereno a parzialmente nuvoloso</p>
 					</span>
 				</div>
 
 				<div class="precip">
 					<svg class="precip-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 16"><path fill="none" fill-rule="nonzero" stroke="#000" stroke-width=".714" d="M5.532.891c1.723.952 5.315 5.477 5.775 8.756.028 1.718-.534 3.101-1.45 4.082C8.888 14.766 7.52 15.357 6 15.357a5.532 5.532 0 0 1-3.74-1.425c-.975-.89-1.587-2.124-1.616-3.49.503-4.035 4.013-8.49 4.888-9.551Zm-1.815 7.33a.336.336 0 0 0-.025.043c-.322.62-.59 1.255-.695 2.207.012.408.143.787.358 1.111.234.352.568.641.96.839.035.017.071.021.106.017a.201.201 0 0 0 .104-.044l.01-.005-.078-.1c-.328-.415-.82-1.067-.82-1.946 0-.752.076-1.613.08-2.121Z"></path></svg>
-					12%
+					14%
 				</div>
 			</a>
 			<a class="daily-list-item has-alerts" href="/it/it/rome/213490/weather-tomorrow/213490">
-				<div class="date" style="width: 45px;">
-					<p class="day">mar</p>
-					<p>21/4</p>
-				</div>
-				<img class="icon" height="40" width="40" src="https://www.awxcdn.com/adc-assets/images/weathericons/v2a/3.svg">
-				<div class="temp-phrase-wrapper">
-					<div class="temp">
-						<span class="temp-hi">23°</span>
-						<span class="temp-lo">12°</span>
-					</div>
-				</div>
-				<div class="phrase">
-					<p class="no-wrap">Sole con qualche nuvola</p>
-					<span class="night">
-						<img class="night-icon" height="22" width="22" src="https://www.awxcdn.com/adc-assets/images/weathericons/v2a/35.svg">
-						<p class="no-wrap">Parzialmente nuvoloso</p>
-					</span>
-				</div>
-
-				<div class="precip">
-					<svg class="precip-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 16"><path fill="none" fill-rule="nonzero" stroke="#000" stroke-width=".714" d="M5.532.891c1.723.952 5.315 5.477 5.775 8.756.028 1.718-.534 3.101-1.45 4.082C8.888 14.766 7.52 15.357 6 15.357a5.532 5.532 0 0 1-3.74-1.425c-.975-.89-1.587-2.124-1.616-3.49.503-4.035 4.013-8.49 4.888-9.551Zm-1.815 7.33a.336.336 0 0 0-.025.043c-.322.62-.59 1.255-.695 2.207.012.408.143.787.358 1.111.234.352.568.641.96.839.035.017.071.021.106.017a.201.201 0 0 0 .104-.044l.01-.005-.078-.1c-.328-.415-.82-1.067-.82-1.946 0-.752.076-1.613.08-2.121Z"></path></svg>
-					9%
-				</div>
-			</a>
-			<a class="daily-list-item has-alerts" href="/it/it/rome/213490/daily-weather-forecast/213490?day=3">
 				<div class="date" style="width: 45px;">
 					<p class="day">mer</p>
 					<p>22/4</p>
@@ -4019,7 +4020,7 @@ function getUserContentAffinity(categories) {
 				<div class="temp-phrase-wrapper">
 					<div class="temp">
 						<span class="temp-hi">20°</span>
-						<span class="temp-lo">9°</span>
+						<span class="temp-lo">8°</span>
 					</div>
 				</div>
 				<div class="phrase">
@@ -4032,10 +4033,10 @@ function getUserContentAffinity(categories) {
 
 				<div class="precip">
 					<svg class="precip-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 16"><path fill="none" fill-rule="nonzero" stroke="#000" stroke-width=".714" d="M5.532.891c1.723.952 5.315 5.477 5.775 8.756.028 1.718-.534 3.101-1.45 4.082C8.888 14.766 7.52 15.357 6 15.357a5.532 5.532 0 0 1-3.74-1.425c-.975-.89-1.587-2.124-1.616-3.49.503-4.035 4.013-8.49 4.888-9.551Zm-1.815 7.33a.336.336 0 0 0-.025.043c-.322.62-.59 1.255-.695 2.207.012.408.143.787.358 1.111.234.352.568.641.96.839.035.017.071.021.106.017a.201.201 0 0 0 .104-.044l.01-.005-.078-.1c-.328-.415-.82-1.067-.82-1.946 0-.752.076-1.613.08-2.121Z"></path></svg>
-					63%
+					57%
 				</div>
 			</a>
-			<a class="daily-list-item " href="/it/it/rome/213490/daily-weather-forecast/213490?day=4">
+			<a class="daily-list-item has-alerts" href="/it/it/rome/213490/daily-weather-forecast/213490?day=3">
 				<div class="date" style="width: 45px;">
 					<p class="day">gio</p>
 					<p>23/4</p>
@@ -4043,8 +4044,8 @@ function getUserContentAffinity(categories) {
 				<img class="icon" height="40" width="40" src="https://www.awxcdn.com/adc-assets/images/weathericons/v2a/1.svg">
 				<div class="temp-phrase-wrapper">
 					<div class="temp">
-						<span class="temp-hi">21°</span>
-						<span class="temp-lo">6°</span>
+						<span class="temp-hi">22°</span>
+						<span class="temp-lo">7°</span>
 					</div>
 				</div>
 				<div class="phrase">
@@ -4060,7 +4061,7 @@ function getUserContentAffinity(categories) {
 					0%
 				</div>
 			</a>
-			<a class="daily-list-item " href="/it/it/rome/213490/daily-weather-forecast/213490?day=5">
+			<a class="daily-list-item " href="/it/it/rome/213490/daily-weather-forecast/213490?day=4">
 				<div class="date" style="width: 45px;">
 					<p class="day">ven</p>
 					<p>24/4</p>
@@ -4070,6 +4071,56 @@ function getUserContentAffinity(categories) {
 					<div class="temp">
 						<span class="temp-hi">23°</span>
 						<span class="temp-lo">8°</span>
+					</div>
+				</div>
+				<div class="phrase">
+					<p class="no-wrap">Sole splendente</p>
+					<span class="night">
+						<img class="night-icon" height="22" width="22" src="https://www.awxcdn.com/adc-assets/images/weathericons/v2a/33.svg">
+						<p class="no-wrap">Sereno</p>
+					</span>
+				</div>
+
+				<div class="precip">
+					<svg class="precip-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 16"><path fill="none" fill-rule="nonzero" stroke="#000" stroke-width=".714" d="M5.532.891c1.723.952 5.315 5.477 5.775 8.756.028 1.718-.534 3.101-1.45 4.082C8.888 14.766 7.52 15.357 6 15.357a5.532 5.532 0 0 1-3.74-1.425c-.975-.89-1.587-2.124-1.616-3.49.503-4.035 4.013-8.49 4.888-9.551Zm-1.815 7.33a.336.336 0 0 0-.025.043c-.322.62-.59 1.255-.695 2.207.012.408.143.787.358 1.111.234.352.568.641.96.839.035.017.071.021.106.017a.201.201 0 0 0 .104-.044l.01-.005-.078-.1c-.328-.415-.82-1.067-.82-1.946 0-.752.076-1.613.08-2.121Z"></path></svg>
+					0%
+				</div>
+			</a>
+			<a class="daily-list-item " href="/it/it/rome/213490/daily-weather-forecast/213490?day=5">
+				<div class="date" style="width: 45px;">
+					<p class="day">sab</p>
+					<p>25/4</p>
+				</div>
+				<img class="icon" height="40" width="40" src="https://www.awxcdn.com/adc-assets/images/weathericons/v2a/2.svg">
+				<div class="temp-phrase-wrapper">
+					<div class="temp">
+						<span class="temp-hi">25°</span>
+						<span class="temp-lo">10°</span>
+					</div>
+				</div>
+				<div class="phrase">
+					<p class="no-wrap">Da soleggiato a parzialmente nuvoloso</p>
+					<span class="night">
+						<img class="night-icon" height="22" width="22" src="https://www.awxcdn.com/adc-assets/images/weathericons/v2a/33.svg">
+						<p class="no-wrap">Sereno</p>
+					</span>
+				</div>
+
+				<div class="precip">
+					<svg class="precip-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 16"><path fill="none" fill-rule="nonzero" stroke="#000" stroke-width=".714" d="M5.532.891c1.723.952 5.315 5.477 5.775 8.756.028 1.718-.534 3.101-1.45 4.082C8.888 14.766 7.52 15.357 6 15.357a5.532 5.532 0 0 1-3.74-1.425c-.975-.89-1.587-2.124-1.616-3.49.503-4.035 4.013-8.49 4.888-9.551Zm-1.815 7.33a.336.336 0 0 0-.025.043c-.322.62-.59 1.255-.695 2.207.012.408.143.787.358 1.111.234.352.568.641.96.839.035.017.071.021.106.017a.201.201 0 0 0 .104-.044l.01-.005-.078-.1c-.328-.415-.82-1.067-.82-1.946 0-.752.076-1.613.08-2.121Z"></path></svg>
+					0%
+				</div>
+			</a>
+			<a class="daily-list-item " href="/it/it/rome/213490/daily-weather-forecast/213490?day=6">
+				<div class="date" style="width: 45px;">
+					<p class="day">dom</p>
+					<p>26/4</p>
+				</div>
+				<img class="icon" height="40" width="40" src="https://www.awxcdn.com/adc-assets/images/weathericons/v2a/1.svg">
+				<div class="temp-phrase-wrapper">
+					<div class="temp">
+						<span class="temp-hi">24°</span>
+						<span class="temp-lo">11°</span>
 					</div>
 				</div>
 				<div class="phrase">
@@ -4085,82 +4136,32 @@ function getUserContentAffinity(categories) {
 					0%
 				</div>
 			</a>
-			<a class="daily-list-item " href="/it/it/rome/213490/daily-weather-forecast/213490?day=6">
-				<div class="date" style="width: 45px;">
-					<p class="day">sab</p>
-					<p>25/4</p>
-				</div>
-				<img class="icon" height="40" width="40" src="https://www.awxcdn.com/adc-assets/images/weathericons/v2a/3.svg">
-				<div class="temp-phrase-wrapper">
-					<div class="temp">
-						<span class="temp-hi">23°</span>
-						<span class="temp-lo">10°</span>
-					</div>
-				</div>
-				<div class="phrase">
-					<p class="no-wrap">Parzialmente soleggiato</p>
-					<span class="night">
-						<img class="night-icon" height="22" width="22" src="https://www.awxcdn.com/adc-assets/images/weathericons/v2a/33.svg">
-						<p class="no-wrap">Sereno</p>
-					</span>
-				</div>
-
-				<div class="precip">
-					<svg class="precip-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 16"><path fill="none" fill-rule="nonzero" stroke="#000" stroke-width=".714" d="M5.532.891c1.723.952 5.315 5.477 5.775 8.756.028 1.718-.534 3.101-1.45 4.082C8.888 14.766 7.52 15.357 6 15.357a5.532 5.532 0 0 1-3.74-1.425c-.975-.89-1.587-2.124-1.616-3.49.503-4.035 4.013-8.49 4.888-9.551Zm-1.815 7.33a.336.336 0 0 0-.025.043c-.322.62-.59 1.255-.695 2.207.012.408.143.787.358 1.111.234.352.568.641.96.839.035.017.071.021.106.017a.201.201 0 0 0 .104-.044l.01-.005-.078-.1c-.328-.415-.82-1.067-.82-1.946 0-.752.076-1.613.08-2.121Z"></path></svg>
-					0%
-				</div>
-			</a>
 			<a class="daily-list-item " href="/it/it/rome/213490/daily-weather-forecast/213490?day=7">
 				<div class="date" style="width: 45px;">
-					<p class="day">dom</p>
-					<p>26/4</p>
+					<p class="day">lun</p>
+					<p>27/4</p>
 				</div>
 				<img class="icon" height="40" width="40" src="https://www.awxcdn.com/adc-assets/images/weathericons/v2a/2.svg">
 				<div class="temp-phrase-wrapper">
 					<div class="temp">
-						<span class="temp-hi">22°</span>
-						<span class="temp-lo">11°</span>
+						<span class="temp-hi">24°</span>
+						<span class="temp-lo">12°</span>
 					</div>
 				</div>
 				<div class="phrase">
 					<p class="no-wrap">Prevalentemente soleggiato</p>
 					<span class="night">
-						<img class="night-icon" height="22" width="22" src="https://www.awxcdn.com/adc-assets/images/weathericons/v2a/35.svg">
-						<p class="no-wrap">Parzialmente nuvoloso</p>
+						<img class="night-icon" height="22" width="22" src="https://www.awxcdn.com/adc-assets/images/weathericons/v2a/34.svg">
+						<p class="no-wrap">Prevalentemente sereno</p>
 					</span>
 				</div>
 
 				<div class="precip">
 					<svg class="precip-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 16"><path fill="none" fill-rule="nonzero" stroke="#000" stroke-width=".714" d="M5.532.891c1.723.952 5.315 5.477 5.775 8.756.028 1.718-.534 3.101-1.45 4.082C8.888 14.766 7.52 15.357 6 15.357a5.532 5.532 0 0 1-3.74-1.425c-.975-.89-1.587-2.124-1.616-3.49.503-4.035 4.013-8.49 4.888-9.551Zm-1.815 7.33a.336.336 0 0 0-.025.043c-.322.62-.59 1.255-.695 2.207.012.408.143.787.358 1.111.234.352.568.641.96.839.035.017.071.021.106.017a.201.201 0 0 0 .104-.044l.01-.005-.078-.1c-.328-.415-.82-1.067-.82-1.946 0-.752.076-1.613.08-2.121Z"></path></svg>
-					0%
+					1%
 				</div>
 			</a>
 			<a class="daily-list-item " href="/it/it/rome/213490/daily-weather-forecast/213490?day=8">
-				<div class="date" style="width: 45px;">
-					<p class="day">lun</p>
-					<p>27/4</p>
-				</div>
-				<img class="icon" height="40" width="40" src="https://www.awxcdn.com/adc-assets/images/weathericons/v2a/6.svg">
-				<div class="temp-phrase-wrapper">
-					<div class="temp">
-						<span class="temp-hi">22°</span>
-						<span class="temp-lo">11°</span>
-					</div>
-				</div>
-				<div class="phrase">
-					<p class="no-wrap">Prevalentemente nuvoloso</p>
-					<span class="night">
-						<img class="night-icon" height="22" width="22" src="https://www.awxcdn.com/adc-assets/images/weathericons/v2a/7.svg">
-						<p class="no-wrap">Nuvoloso</p>
-					</span>
-				</div>
-
-				<div class="precip">
-					<svg class="precip-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 16"><path fill="none" fill-rule="nonzero" stroke="#000" stroke-width=".714" d="M5.532.891c1.723.952 5.315 5.477 5.775 8.756.028 1.718-.534 3.101-1.45 4.082C8.888 14.766 7.52 15.357 6 15.357a5.532 5.532 0 0 1-3.74-1.425c-.975-.89-1.587-2.124-1.616-3.49.503-4.035 4.013-8.49 4.888-9.551Zm-1.815 7.33a.336.336 0 0 0-.025.043c-.322.62-.59 1.255-.695 2.207.012.408.143.787.358 1.111.234.352.568.641.96.839.035.017.071.021.106.017a.201.201 0 0 0 .104-.044l.01-.005-.078-.1c-.328-.415-.82-1.067-.82-1.946 0-.752.076-1.613.08-2.121Z"></path></svg>
-					4%
-				</div>
-			</a>
-			<a class="daily-list-item " href="/it/it/rome/213490/daily-weather-forecast/213490?day=9">
 				<div class="date" style="width: 45px;">
 					<p class="day">mar</p>
 					<p>28/4</p>
@@ -4169,45 +4170,70 @@ function getUserContentAffinity(categories) {
 				<div class="temp-phrase-wrapper">
 					<div class="temp">
 						<span class="temp-hi">22°</span>
-						<span class="temp-lo">12°</span>
+						<span class="temp-lo">11°</span>
 					</div>
 				</div>
 				<div class="phrase">
 					<p class="no-wrap">Nuvoloso</p>
 					<span class="night">
-						<img class="night-icon" height="22" width="22" src="https://www.awxcdn.com/adc-assets/images/weathericons/v2a/38.svg">
-						<p class="no-wrap">Prevalentemente nuvoloso</p>
-					</span>
-				</div>
-
-				<div class="precip">
-					<svg class="precip-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 16"><path fill="none" fill-rule="nonzero" stroke="#000" stroke-width=".714" d="M5.532.891c1.723.952 5.315 5.477 5.775 8.756.028 1.718-.534 3.101-1.45 4.082C8.888 14.766 7.52 15.357 6 15.357a5.532 5.532 0 0 1-3.74-1.425c-.975-.89-1.587-2.124-1.616-3.49.503-4.035 4.013-8.49 4.888-9.551Zm-1.815 7.33a.336.336 0 0 0-.025.043c-.322.62-.59 1.255-.695 2.207.012.408.143.787.358 1.111.234.352.568.641.96.839.035.017.071.021.106.017a.201.201 0 0 0 .104-.044l.01-.005-.078-.1c-.328-.415-.82-1.067-.82-1.946 0-.752.076-1.613.08-2.121Z"></path></svg>
-					25%
-				</div>
-			</a>
-			<a class="daily-list-item " href="/it/it/rome/213490/daily-weather-forecast/213490?day=10">
-				<div class="date" style="width: 45px;">
-					<p class="day">mer</p>
-					<p>29/4</p>
-				</div>
-				<img class="icon" height="40" width="40" src="https://www.awxcdn.com/adc-assets/images/weathericons/v2a/4.svg">
-				<div class="temp-phrase-wrapper">
-					<div class="temp">
-						<span class="temp-hi">23°</span>
-						<span class="temp-lo">12°</span>
-					</div>
-				</div>
-				<div class="phrase">
-					<p class="no-wrap">Nuvole e sole</p>
-					<span class="night">
-						<img class="night-icon" height="22" width="22" src="https://www.awxcdn.com/adc-assets/images/weathericons/v2a/33.svg">
-						<p class="no-wrap">Sereno</p>
+						<img class="night-icon" height="22" width="22" src="https://www.awxcdn.com/adc-assets/images/weathericons/v2a/12.svg">
+						<p class="no-wrap">Un paio di rovesci</p>
 					</span>
 				</div>
 
 				<div class="precip">
 					<svg class="precip-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 16"><path fill="none" fill-rule="nonzero" stroke="#000" stroke-width=".714" d="M5.532.891c1.723.952 5.315 5.477 5.775 8.756.028 1.718-.534 3.101-1.45 4.082C8.888 14.766 7.52 15.357 6 15.357a5.532 5.532 0 0 1-3.74-1.425c-.975-.89-1.587-2.124-1.616-3.49.503-4.035 4.013-8.49 4.888-9.551Zm-1.815 7.33a.336.336 0 0 0-.025.043c-.322.62-.59 1.255-.695 2.207.012.408.143.787.358 1.111.234.352.568.641.96.839.035.017.071.021.106.017a.201.201 0 0 0 .104-.044l.01-.005-.078-.1c-.328-.415-.82-1.067-.82-1.946 0-.752.076-1.613.08-2.121Z"></path></svg>
 					19%
+				</div>
+			</a>
+			<a class="daily-list-item " href="/it/it/rome/213490/daily-weather-forecast/213490?day=9">
+				<div class="date" style="width: 45px;">
+					<p class="day">mer</p>
+					<p>29/4</p>
+				</div>
+				<img class="icon" height="40" width="40" src="https://www.awxcdn.com/adc-assets/images/weathericons/v2a/12.svg">
+				<div class="temp-phrase-wrapper">
+					<div class="temp">
+						<span class="temp-hi">21°</span>
+						<span class="temp-lo">11°</span>
+					</div>
+				</div>
+				<div class="phrase">
+					<p class="no-wrap">Possibilità di pioggia</p>
+					<span class="night">
+						<img class="night-icon" height="22" width="22" src="https://www.awxcdn.com/adc-assets/images/weathericons/v2a/40.svg">
+						<p class="no-wrap">Poca pioggia</p>
+					</span>
+				</div>
+
+				<div class="precip">
+					<svg class="precip-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 16"><path fill="none" fill-rule="nonzero" stroke="#000" stroke-width=".714" d="M5.532.891c1.723.952 5.315 5.477 5.775 8.756.028 1.718-.534 3.101-1.45 4.082C8.888 14.766 7.52 15.357 6 15.357a5.532 5.532 0 0 1-3.74-1.425c-.975-.89-1.587-2.124-1.616-3.49.503-4.035 4.013-8.49 4.888-9.551Zm-1.815 7.33a.336.336 0 0 0-.025.043c-.322.62-.59 1.255-.695 2.207.012.408.143.787.358 1.111.234.352.568.641.96.839.035.017.071.021.106.017a.201.201 0 0 0 .104-.044l.01-.005-.078-.1c-.328-.415-.82-1.067-.82-1.946 0-.752.076-1.613.08-2.121Z"></path></svg>
+					55%
+				</div>
+			</a>
+			<a class="daily-list-item " href="/it/it/rome/213490/daily-weather-forecast/213490?day=10">
+				<div class="date" style="width: 45px;">
+					<p class="day">gio</p>
+					<p>30/4</p>
+				</div>
+				<img class="icon" height="40" width="40" src="https://www.awxcdn.com/adc-assets/images/weathericons/v2a/18.svg">
+				<div class="temp-phrase-wrapper">
+					<div class="temp">
+						<span class="temp-hi">22°</span>
+						<span class="temp-lo">11°</span>
+					</div>
+				</div>
+				<div class="phrase">
+					<p class="no-wrap">Periodi di pioggia</p>
+					<span class="night">
+						<img class="night-icon" height="22" width="22" src="https://www.awxcdn.com/adc-assets/images/weathericons/v2a/18.svg">
+						<p class="no-wrap">Periodi di pioggia</p>
+					</span>
+				</div>
+
+				<div class="precip">
+					<svg class="precip-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 16"><path fill="none" fill-rule="nonzero" stroke="#000" stroke-width=".714" d="M5.532.891c1.723.952 5.315 5.477 5.775 8.756.028 1.718-.534 3.101-1.45 4.082C8.888 14.766 7.52 15.357 6 15.357a5.532 5.532 0 0 1-3.74-1.425c-.975-.89-1.587-2.124-1.616-3.49.503-4.035 4.013-8.49 4.888-9.551Zm-1.815 7.33a.336.336 0 0 0-.025.043c-.322.62-.59 1.255-.695 2.207.012.408.143.787.358 1.111.234.352.568.641.96.839.035.017.071.021.106.017a.201.201 0 0 0 .104-.044l.01-.005-.078-.1c-.328-.415-.82-1.067-.82-1.946 0-.752.076-1.613.08-2.121Z"></path></svg>
+					61%
 				</div>
 			</a>
 	</div>
@@ -4221,29 +4247,29 @@ function getUserContentAffinity(categories) {
 	<div class="sunrise-sunset__body">
 			<div class="sunrise-sunset__item">
 				<img class="sunrise-sunset__icon sun-icon" width="40" height="40" aria-hidden="true" src="/images/weathericons/v2a/1.svg">
-				<span class="sunrise-sunset__phrase">13 h 33 min</span>
+				<span class="sunrise-sunset__phrase">13 h 36 min</span>
 				<div class="sunrise-sunset__times">
 					<div class="sunrise-sunset__times-item">
 						<span class="sunrise-sunset__times-label">Alba</span>
-						<span class="sunrise-sunset__times-value">06:23</span>
+						<span class="sunrise-sunset__times-value">06:21</span>
 					</div>
 					<div class="sunrise-sunset__times-item">
 						<span class="sunrise-sunset__times-label">Tramontare</span>
-						<span class="sunrise-sunset__times-value">19:56</span>
+						<span class="sunrise-sunset__times-value">19:57</span>
 					</div>
 				</div>
 			</div>
 			<div class="sunrise-sunset__item">
 				<img class="sunrise-sunset__icon" width="40" height="40" aria-hidden="true" src="/images/moon-phases/colored/light/WaxingCrescent.svg">
-				<span class="sunrise-sunset__phrase">16 h 22 min</span>
+				<span class="sunrise-sunset__phrase">16 h 30 min</span>
 				<div class="sunrise-sunset__times">
 					<div class="sunrise-sunset__times-item">
 						<span class="sunrise-sunset__times-label">Alba</span>
-						<span class="sunrise-sunset__times-value">07:53</span>
+						<span class="sunrise-sunset__times-value">08:50</span>
 					</div>
 					<div class="sunrise-sunset__times-item">
 						<span class="sunrise-sunset__times-label">Tramontare</span>
-						<span class="sunrise-sunset__times-value">00:15</span>
+						<span class="sunrise-sunset__times-value">01:20</span>
 					</div>
 				</div>
 			</div>
@@ -4335,10 +4361,10 @@ function getUserContentAffinity(categories) {
 			<span class="health-activities__item__category" style="border-right: 3px solid #93c701">Bassa</span>
 			<span class="health-activities__item__category__unsupported" style="border-right: 3px solid transparent">Dati non supportati in questa posizione</span>
 		</a>
-		<a data-slug="dust-dander" href="/it/it/rome/213490/allergies-weather/213490?name=dust-dander" class="health-activities__item show " style="border-right-color: #f05514;">
+		<a data-slug="dust-dander" href="/it/it/rome/213490/allergies-weather/213490?name=dust-dander" class="health-activities__item show " style="border-right-color: #93c701;">
 			<svg class="health-activities__item__icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M11.3491 22.0558C10.1262 22.0558 9.01184 21.3852 8.44971 20.3596C8.20316 20.3892 7.95661 20.4089 7.71007 20.4089C4.76135 20.4089 2.3649 18.1012 2.3649 15.2609C2.3649 12.4207 4.76135 10.1032 7.71007 10.1032C7.91717 10.1032 8.12427 10.113 8.33137 10.1426C8.41026 10.1426 8.48916 10.1623 8.56805 10.1722C9.09074 10.2511 9.60356 10.4089 10.0769 10.6456L9.65287 11.5331C9.25839 11.3458 8.84419 11.2176 8.42013 11.1485L8.22289 11.1189C8.05523 11.0992 7.88758 11.0894 7.71007 11.0894C5.31362 11.0894 3.36095 12.9533 3.36095 15.2511C3.36095 17.5489 5.31362 19.4227 7.71007 19.4227C8.01579 19.4227 8.33137 19.3931 8.63709 19.3241L9.04143 19.2353L9.18936 19.6199C9.52466 20.4779 10.3925 21.0598 11.3491 21.0598C12.1972 21.0598 12.9763 20.616 13.3807 19.9059L13.5582 19.5903L13.9132 19.6692C14.3274 19.7678 14.7712 19.8172 15.215 19.8172C18.4103 19.8172 21.0138 17.3221 21.0138 14.255C21.0138 11.188 18.4103 8.6929 15.215 8.6929C14.4951 8.6929 13.7949 8.82111 13.1341 9.05779L12.789 8.13077C13.5582 7.84478 14.3767 7.69685 15.215 7.69685C18.9527 7.69685 22 10.6357 22 14.2452C22 17.8546 18.9527 20.7935 15.215 20.7935C14.8107 20.7935 14.4162 20.7639 14.0316 20.6949C13.4201 21.5331 12.4142 22.046 11.3393 22.046L11.3491 22.0558Z" fill="black"></path><path d="M7.19724 4.55089C7.19724 4.19586 6.91124 3.9 6.54635 3.9C6.18146 3.9 5.89546 4.186 5.89546 4.55089C5.89546 4.91578 6.18146 5.20178 6.54635 5.20178C6.91124 5.20178 7.19724 4.91578 7.19724 4.55089Z" fill="black"></path><path d="M5.24457 6.49369C5.24457 6.13866 4.95857 5.8428 4.59368 5.8428C4.22879 5.8428 3.94279 6.1288 3.94279 6.49369C3.94279 6.85858 4.22879 7.14458 4.59368 7.14458C4.95857 7.14458 5.24457 6.85858 5.24457 6.49369Z" fill="black"></path><path d="M8.49902 7.14458C8.85405 7.14458 9.1499 6.85858 9.1499 6.49369C9.1499 6.1288 8.86391 5.8428 8.49902 5.8428C8.13413 5.8428 7.84813 6.1288 7.84813 6.49369C7.84813 6.85858 8.13413 7.14458 8.49902 7.14458Z" fill="black"></path><path d="M3.30177 8.44635C3.30177 8.09132 3.01578 7.79546 2.65089 7.79546C2.286 7.79546 2 8.08146 2 8.44635C2 8.81124 2.286 9.09724 2.65089 9.09724C3.01578 9.09724 3.30177 8.81124 3.30177 8.44635Z" fill="black"></path><path d="M11.0927 8.44635C11.0927 8.09132 10.8067 7.79546 10.4418 7.79546C10.0769 7.79546 9.79092 8.08146 9.79092 8.44635C9.79092 8.81124 10.0769 9.09724 10.4418 9.09724C10.8067 9.09724 11.0927 8.81124 11.0927 8.44635Z" fill="black"></path><path d="M7.19724 8.44635C7.19724 8.09132 6.91124 7.79546 6.54635 7.79546C6.18146 7.79546 5.89546 8.08146 5.89546 8.44635C5.89546 8.81124 6.18146 9.09724 6.54635 9.09724C6.91124 9.09724 7.19724 8.81124 7.19724 8.44635Z" fill="black"></path><path d="M14.5049 17.0065C14.5049 17.3615 14.7909 17.6574 15.1558 17.6574C15.5207 17.6574 15.8067 17.3714 15.8067 17.0065C15.8067 16.6416 15.5207 16.3556 15.1558 16.3556C14.7909 16.3556 14.5049 16.6416 14.5049 17.0065Z" fill="black"></path><path d="M16.4477 15.0637C16.4477 15.4187 16.7337 15.7146 17.0986 15.7146C17.4635 15.7146 17.7495 15.4286 17.7495 15.0637C17.7495 14.6988 17.4635 14.4128 17.0986 14.4128C16.7337 14.4128 16.4477 14.6988 16.4477 15.0637Z" fill="black"></path><path d="M12.5523 15.0637C12.5523 15.4187 12.8383 15.7146 13.2031 15.7146C13.568 15.7146 13.854 15.4286 13.854 15.0637C13.854 14.6988 13.568 14.4128 13.2031 14.4128C12.8383 14.4128 12.5523 14.6988 12.5523 15.0637Z" fill="black"></path><path d="M18.4004 13.111C18.4004 13.4661 18.6864 13.7619 19.0513 13.7619C19.4162 13.7619 19.7022 13.4759 19.7022 13.111C19.7022 12.7462 19.4162 12.4602 19.0513 12.4602C18.6864 12.4602 18.4004 12.7462 18.4004 13.111Z" fill="black"></path><path d="M10.5996 13.111C10.5996 13.4661 10.8856 13.7619 11.2505 13.7619C11.6154 13.7619 11.9014 13.4759 11.9014 13.111C11.9014 12.7462 11.6154 12.4602 11.2505 12.4602C10.8856 12.4602 10.5996 12.7462 10.5996 13.111Z" fill="black"></path><path d="M14.5049 13.111C14.5049 13.4661 14.7909 13.7619 15.1558 13.7619C15.5207 13.7619 15.8067 13.4759 15.8067 13.111C15.8067 12.7462 15.5207 12.4602 15.1558 12.4602C14.7909 12.4602 14.5049 12.7462 14.5049 13.111Z" fill="black"></path></svg></svg>
 			<span class="health-activities__item__name">Polvere e forfora animale</span>
-			<span class="health-activities__item__category" style="border-right: 3px solid #f05514">Alto</span>
+			<span class="health-activities__item__category" style="border-right: 3px solid #93c701">Bassa</span>
 			<span class="health-activities__item__category__unsupported" style="border-right: 3px solid transparent">Dati non supportati in questa posizione</span>
 		</a>
 	<div class="health-activities__copernicus">
@@ -4362,11 +4388,11 @@ function getUserContentAffinity(categories) {
 				
 	
 <div class="right-rail">
-	<div class="glacier-ad unrendered top_right config-top_right content-module" ad-type="top_right" id="top_right" data-google-query-id="CNH1x66V_JMDFXcEVQgdJnsZ9w"><div id="google_ads_iframe_/6581/web/it/top_right/weather/local_home_0__container__" style="border: 0pt; margin: auto; text-align: center; width: 300px; height: 250px;"><iframe frameborder="0" src="https://2810cda93e3ea9046645a1a797ccdabf.safeframe.googlesyndication.com/safeframe/1-0-45/html/container.html" id="google_ads_iframe_/6581/web/it/top_right/weather/local_home_0" title="3rd party ad content" name="" scrolling="no" marginwidth="0" marginheight="0" width="300" height="250" data-is-safeframe="true" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" aria-label="Advertisement" tabindex="0" data-google-container-id="2" style="border: 0px; vertical-align: bottom;" data-load-complete="true"></iframe></div></div>
+	<div class="glacier-ad unrendered top_right config-top_right content-module" ad-type="top_right" id="top_right" data-google-query-id="CP6ovOKN_5MDFbwiVQgdx94Mfg"><script src="https://securepubads.g.doubleclick.net/gampad/adx?iu=/6581/web/postbid/top_right/weather/local_home&amp;sz=300x250&amp;c=1776780127&amp;t=fdate%3D20260421%26lang%3Dit%26ut%3D1%26advelvet%3D15%26inview%3Dititrome213490weather-forecast213490%3Awtr%2Cwbr%2Cwt%26bot%3D0%26pgview%3D10%26partner%3Dgoogle_search_accuweather%26ufdb%3DLII7%26city%3DRome%26country%3DIT%26state%3D62%26dma%3Dnull%26key%3D213490%26region%3Deur%26lat%3D41.901%26lon%3D12.48%26browser%3Dsafari%26connection%3Dmobile_vhigh_5000%26wx_seg%3D101100100%2C102102102%2C109101100%2C108102100%2C100108101%2C102100100%2C102101100%2C102103100%2C107100102%2C100111100%2C107101102%2C108103101%2C101103100%2C100113103%2C108104101%2C101105100%2C110100100%2C109104100%2C109105100%2C100106102%2C110101101%2C109100102%2C108101102%2C103100102%2C109103102%2C103101102%2C101106102%2C108100102%2C100109105%2C102104102%2C104100103%2C101104101%2C104101101%2C100109102%2C109102102%2C100114105%2C109106102%2C101107101%2C101108101%2C101102102%2C105100102%2C107103102%2C100114102%2C100114101%2C101101101%26alertscategory%3DSEVERE%2CSEVERE%2CSEVERE%2CWIND%26alertssource%3Dit%2Cit%2Cit%2Cit%26alertstypeid%3DIT312%2CIT312%2CIT312%2CIT169%26cuhd%3D61%26cuhi%3D72%26cuuv%3D4%26cuwd%3D15%26cuwx%3D3%26realfeel%3D70%2Ca75%2Cb75%2Cc75%2Cd80%26cuaq%3D3%26fc1hi%3D73%26fc1lo%3D53%26fc1wx%3D2%26lfscategory%3Dmild%26lfsday%3D5%26lfsseverity%3D4%26lfs%3D4_mild_5%26pt%3D846%26userid%3Dactive%26userid3p%3Dmissing%26sub%3Dfree%26auth%3Dfalse%26site%3Ddesktop%26hour%3D16%26viewport%3D1470x840%26iabctax%3DIAB15-10%2CIAB20-14%2CIAB20-19%2C390%2C659%26from%3Dnull%26idgraph%3Dshid%2Ccrt%2Clot%26interstitial%3D0%26upr%3D0.1%26upr_0%3Dno_bid%26upr_auction%3Dprebid%26userid3pbid%3Dmissing-no_bid%26hb_bid_1st%3D0.10%26hb_bid_2nd%3D0.10%26ppid%3D7d695715xd89fx4158xab9bx5114c8ba51db&amp;m=text/javascript"></script><ins class="adsbygoogle" style="display:inline-block;margin:0 auto;width:300px;height:250px;" data-ad-client="ca-pub-5771594739411148" data-ad-slot="8538566932" data-adsbygoogle-status="done" data-ad-status="filled"><div id="aswift_2_host" style="border: medium; height: 250px; width: 300px; margin: 0px; padding: 0px; position: relative; visibility: visible; background-color: transparent; display: inline-block;"><iframe id="aswift_2" name="aswift_2" style="left:0;position:absolute;top:0;border:0;width:300px;height:250px;min-height:auto;max-height:none;min-width:auto;max-width:none;" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" width="300" height="250" frameborder="0" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" src="https://googleads.g.doubleclick.net/pagead/ads?gdpr=1&amp;us_privacy=1---&amp;gdpr_consent=CQjA2wAQjA2wAFUABAENCbFsAP_gAEPgACiQJzQKwAAwAKAAyAB4AIAAVgAuADIAHAAQAAkABkADQAIoASQAmABRAC3AF4AXwAwgCAAEFAI4AjwBKACcAFIALkAZQA5wB3AEIAMaAacA6oB7QEagKbAVcAvMBjIDJAGTgPMAf4BGYCcwJzQJgAAwAKAAyAB4AIAAVgAuADIAHAAQAAkABkADQAIoATAAogBbgC8AL4AYQBAACCgEcAR4AnABSADKAHOAO4AhABjQDTgHtAU2Aq4BeYDGQGSAMnAeYA_wCMwE5gAA.IJzQKwAAwAKAAyAB4AIAAVgAuADIAHAAQAAkABkADQAIoASQAmABRAC3AF4AXwAwgCAAEFAI4AjwBKACcAFIALkAZQA5wB3AEIAMaAacA6oB7QEagKbAVcAvMBjIDJAGTgPMAf4BGYCcwAAA.f_wACHwAAAAA&amp;addtl_consent=2~70.1092.3130&amp;gpp_sid=-1&amp;client=ca-pub-5771594739411148&amp;output=html&amp;h=250&amp;slotname=8538566932&amp;adk=59343281&amp;adf=3938465540&amp;pi=t.ma~as.8538566932&amp;w=300&amp;lmt=1776780127&amp;format=300x250&amp;url=https%3A%2F%2Fwww.accuweather.com%2Fit%2Fit%2Frome%2F213490%2Fweather-forecast%2F213490&amp;asro=0&amp;aiapmid=1&amp;aiactd=0&amp;aicctd=0&amp;ailctd=0&amp;aimartd=4&amp;aieuf=1&amp;aicrs=1&amp;abgtt=6&amp;dt=1776780127609&amp;bpp=1&amp;bdt=2953&amp;idt=0&amp;shv=r20260420&amp;mjsv=m202604160101&amp;ptt=9&amp;saldr=aa&amp;abxe=1&amp;cookie=ID%3D50b54bc676f3e279%3AT%3D1776353262%3ART%3D1776780126%3AS%3DALNI_MaYJn7Rj3fos7s6RW40iAkrmQwNRQ&amp;gpic=UID%3D000013a4a1bbcb98%3AT%3D1776353262%3ART%3D1776780126%3AS%3DALNI_MauOrbmlYjxtpVhWC264qsoeA92Ow&amp;eo_id_str=ID%3D724a6266e0a68339%3AT%3D1776353262%3ART%3D1776780126%3AS%3DAA-Afjbd8FlTRWtWRf5qdeFKs2Ny&amp;prev_fmts=0x0%2C970x250&amp;nras=1&amp;correlator=1141719437555&amp;frm=20&amp;pv=1&amp;u_tz=120&amp;u_his=6&amp;u_h=833&amp;u_w=1470&amp;u_ah=833&amp;u_aw=1470&amp;u_cd=24&amp;u_sd=2&amp;adx=913&amp;ady=409&amp;biw=1470&amp;bih=833&amp;scr_x=0&amp;scr_y=0&amp;eid=95384087%2C95387623%2C95386955&amp;oid=2&amp;pvsid=6179872356847787&amp;tmod=680543130&amp;uas=1&amp;nvt=1&amp;fc=1920&amp;brdim=0%2C0%2C0%2C0%2C1470%2C0%2C1470%2C833%2C1470%2C833&amp;vis=1&amp;rsz=%7C%7CoeE%7C&amp;abl=CS&amp;pfx=0&amp;fu=0&amp;bc=31&amp;plas=241x658_l%7C241x658_r&amp;bz=1&amp;ifi=8&amp;uci=a!8&amp;fsb=1&amp;dtd=3" data-google-container-id="a!8" tabindex="0" title="Advertisement" aria-label="Advertisement" data-google-query-id="CODL_-KN_5MDFcdUFQgdLBMESA" data-load-complete="true"></iframe></div></ins></div>
 
 	
 	
-	<div class="glacier-ad unrendered bottom_right config-bottom_right content-module" ad-type="bottom_right" id="bottom_right" data-google-query-id="CMuNyK6V_JMDFXCMgwcd2p0Upw"><script src="https://securepubads.g.doubleclick.net/gampad/adx?iu=/6581/web/postbid/bottom_right/weather/local_home&amp;sz=300x250&amp;c=1776679087&amp;t=fdate%3D20260420%26lang%3Dit%26ut%3D1%26advelvet%3D5%26inview%3Dititrome213490weather-forecast213490%3Awbr%2Cwb%26bot%3D0%26pgview%3D1%26partner%3Dgoogle_search_accuweather%26ufdb%3DLII7%26city%3DRome%26country%3DIT%26state%3D62%26dma%3Dnull%26key%3D213490%26region%3Deur%26lat%3D41.901%26lon%3D12.48%26browser%3Dsafari%26connection%3Dmobile_vhigh_5000%26wx_seg%3D101100100%2C102102102%2C109101100%2C108102100%2C100108101%2C102100100%2C102101100%2C102103100%2C107100102%2C100111100%2C107101102%2C108103101%2C101103100%2C100113103%2C108104101%2C101105100%2C110100100%2C109104100%2C109105100%2C100106102%2C110101101%2C109100102%2C108101102%2C103100102%2C109103102%2C103101102%2C101106102%2C108100102%2C100109105%2C102104102%2C104100103%2C101104101%2C104101101%2C100109102%2C109102102%2C100114105%2C109106102%2C101107101%2C101108101%2C101102102%2C105100102%2C107103102%2C100114102%2C100114101%2C101101101%26alertscategory%3DSEVERE%2CSEVERE%26alertssource%3Dit%2Cit%26alertstypeid%3DIT312%2CIT312%26cuhd%3D64%26cuhi%3D67%26cuuv%3D6%26cuwd%3D8%26cuwx%3D3%26realfeel%3D75%2Ca80%2Cb75%2Cc75%2Cd75%26cuaq%3D3%26fc1hi%3D74%26fc1lo%3D54%26fc1wx%3D2%26lfscategory%3Drain%26lfsday%3D3%26lfsseverity%3D5%26lfs%3D5_rain_3%26pt%3D15918%26userid%3Dactive%26userid3p%3Dmissing%26sub%3Dfree%26auth%3Dfalse%26site%3Ddesktop%26hour%3D11%26viewport%3D1470x840%26iabctax%3DIAB15-10%2CIAB20-14%2CIAB20-19%2C390%2C659%26from%3Dnull%26interstitial%3D0%26upr%3D0.1%26upr_0%3Dno_bid%26upr_auction%3Dprebid%26userid3pbid%3Dmissing-no_bid%26hb_bid_1st%3Dno_bid%26hb_bid_2nd%3Dno_bid%26ppid%3D7d695715xd89fx4158xab9bx5114c8ba51db&amp;m=text/javascript"></script><ins class="adsbygoogle" style="display:inline-block;margin:0 auto;width:300px;height:250px;" data-ad-client="ca-pub-5771594739411148" data-ad-slot="9359203321" data-adsbygoogle-status="done" data-ad-status="filled"><div id="aswift_1_host" style="border: medium; height: 250px; width: 300px; margin: 0px; padding: 0px; position: relative; visibility: visible; background-color: transparent; display: inline-block;"><iframe id="aswift_1" name="aswift_1" style="left:0;position:absolute;top:0;border:0;width:300px;height:250px;min-height:auto;max-height:none;min-width:auto;max-width:none;" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" width="300" height="250" frameborder="0" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" src="https://googleads.g.doubleclick.net/pagead/ads?gdpr=1&amp;us_privacy=1---&amp;gdpr_consent=CQi9j0AQi9j0AFUABAENCaFsAP_gAEPgACiQJzQKwAAwAKAAyAB4AIAAVgAuADIAHAAQAAkABkADQAIoASQAmABRAC3AF4AXwAwgCAAEFAI4AjwBKACcAFIALkAZQA5wB3AEIAMaAacA6oB7QEagKbAVcAvMBjIDJAGTgPMAf4BGYCcwJzQJgAAwAKAAyAB4AIAAVgAuADIAHAAQAAkABkADQAIoATAAogBbgC8AL4AYQBAACCgEcAR4AnABSADKAHOAO4AhABjQDTgHtAU2Aq4BeYDGQGSAMnAeYA_wCMwE5gAA.IJzQKwAAwAKAAyAB4AIAAVgAuADIAHAAQAAkABkADQAIoASQAmABRAC3AF4AXwAwgCAAEFAI4AjwBKACcAFIALkAZQA5wB3AEIAMaAacA6oB7QEagKbAVcAvMBjIDJAGTgPMAf4BGYCcwAAA.f_wACHwAAAAA&amp;addtl_consent=2~70.1092.3130&amp;gpp_sid=-1&amp;client=ca-pub-5771594739411148&amp;output=html&amp;h=250&amp;slotname=9359203321&amp;adk=1225942916&amp;adf=3672151656&amp;pi=t.ma~as.9359203321&amp;w=300&amp;lmt=1776679088&amp;format=300x250&amp;url=https%3A%2F%2Fwww.accuweather.com%2Fit%2Fit%2Frome%2F213490%2Fweather-forecast%2F213490&amp;aiof=9&amp;asro=0&amp;aiapmid=0.0001&amp;aiactd=0&amp;aicctd=0&amp;ailctd=0&amp;aimartd=4&amp;aieuf=1&amp;aicrs=1&amp;abgtt=6&amp;dt=1776679087579&amp;bpp=1&amp;bdt=11661&amp;idt=545&amp;shv=r20260415&amp;mjsv=m202604140101&amp;ptt=9&amp;saldr=aa&amp;abxe=1&amp;cookie=ID%3D50b54bc676f3e279%3AT%3D1776353262%3ART%3D1776679086%3AS%3DALNI_MaYJn7Rj3fos7s6RW40iAkrmQwNRQ&amp;gpic=UID%3D000013a4a1bbcb98%3AT%3D1776353262%3ART%3D1776679086%3AS%3DALNI_MauOrbmlYjxtpVhWC264qsoeA92Ow&amp;eo_id_str=ID%3D724a6266e0a68339%3AT%3D1776353262%3ART%3D1776679086%3AS%3DAA-Afjbd8FlTRWtWRf5qdeFKs2Ny&amp;prev_fmts=0x0&amp;nras=1&amp;correlator=2027352221728&amp;frm=20&amp;pv=1&amp;u_tz=120&amp;u_his=3&amp;u_h=833&amp;u_w=1470&amp;u_ah=833&amp;u_aw=1470&amp;u_cd=24&amp;u_sd=2&amp;adx=913&amp;ady=679&amp;biw=1470&amp;bih=833&amp;scr_x=0&amp;scr_y=494&amp;eid=95385799%2C95387509%2C95388457%2C95387625%2C95386955&amp;oid=2&amp;pvsid=6504820882849348&amp;tmod=1857319862&amp;uas=3&amp;nvt=1&amp;fc=1920&amp;brdim=0%2C0%2C0%2C0%2C1470%2C0%2C1470%2C833%2C1470%2C833&amp;vis=1&amp;rsz=%7C%7CoeE%7C&amp;abl=CS&amp;pfx=0&amp;fu=0&amp;bc=31&amp;plas=241x658_l%7C241x658_r&amp;bz=1&amp;ifi=8&amp;uci=a!8&amp;fsb=1&amp;dtd=548" data-google-container-id="a!8" tabindex="0" title="Advertisement" aria-label="Advertisement" data-google-query-id="CM30y6-V_JMDFXUTigMdRAolIQ" data-load-complete="true"></iframe></div></ins></div>
+	<div class="glacier-ad unrendered bottom_right config-bottom_right content-module" ad-type="bottom_right" id="bottom_right" data-google-query-id="CMD-vuKN_5MDFVuJgwcdfpMPRg"><script src="https://securepubads.g.doubleclick.net/gampad/adx?iu=/6581/web/postbid/bottom_right/weather/local_home&amp;sz=300x250&amp;c=1776780127&amp;t=fdate%3D20260421%26lang%3Dit%26ut%3D1%26advelvet%3D15%26inview%3Dititrome213490weather-forecast213490%3Awtr%2Cwbr%2Cwt%26bot%3D0%26pgview%3D10%26partner%3Dgoogle_search_accuweather%26ufdb%3DLII7%26city%3DRome%26country%3DIT%26state%3D62%26dma%3Dnull%26key%3D213490%26region%3Deur%26lat%3D41.901%26lon%3D12.48%26browser%3Dsafari%26connection%3Dmobile_vhigh_5000%26wx_seg%3D101100100%2C102102102%2C109101100%2C108102100%2C100108101%2C102100100%2C102101100%2C102103100%2C107100102%2C100111100%2C107101102%2C108103101%2C101103100%2C100113103%2C108104101%2C101105100%2C110100100%2C109104100%2C109105100%2C100106102%2C110101101%2C109100102%2C108101102%2C103100102%2C109103102%2C103101102%2C101106102%2C108100102%2C100109105%2C102104102%2C104100103%2C101104101%2C104101101%2C100109102%2C109102102%2C100114105%2C109106102%2C101107101%2C101108101%2C101102102%2C105100102%2C107103102%2C100114102%2C100114101%2C101101101%26alertscategory%3DSEVERE%2CSEVERE%2CSEVERE%2CWIND%26alertssource%3Dit%2Cit%2Cit%2Cit%26alertstypeid%3DIT312%2CIT312%2CIT312%2CIT169%26cuhd%3D61%26cuhi%3D72%26cuuv%3D4%26cuwd%3D15%26cuwx%3D3%26realfeel%3D70%2Ca75%2Cb75%2Cc75%2Cd80%26cuaq%3D3%26fc1hi%3D73%26fc1lo%3D53%26fc1wx%3D2%26lfscategory%3Dmild%26lfsday%3D5%26lfsseverity%3D4%26lfs%3D4_mild_5%26pt%3D846%26userid%3Dactive%26userid3p%3Dmissing%26sub%3Dfree%26auth%3Dfalse%26site%3Ddesktop%26hour%3D16%26viewport%3D1470x840%26iabctax%3DIAB15-10%2CIAB20-14%2CIAB20-19%2C390%2C659%26from%3Dnull%26idgraph%3Dshid%2Ccrt%2Clot%26interstitial%3D0%26upr%3D0.05%26upr_0%3Dno_bid%26upr_auction%3Dprebid%26userid3pbid%3Dmissing-no_bid%26hb_bid_1st%3Dno_bid%26hb_bid_2nd%3Dno_bid%26ppid%3D7d695715xd89fx4158xab9bx5114c8ba51db&amp;m=text/javascript"></script><ins class="adsbygoogle" style="display:inline-block;margin:0 auto;width:300px;height:250px;" data-ad-client="ca-pub-5771594739411148" data-ad-slot="9359203321" data-adsbygoogle-status="done" data-ad-status="filled"><div id="aswift_3_host" style="border: medium; height: 250px; width: 300px; margin: 0px; padding: 0px; position: relative; visibility: visible; background-color: transparent; display: inline-block;"><iframe id="aswift_3" name="aswift_3" style="left:0;position:absolute;top:0;border:0;width:300px;height:250px;min-height:auto;max-height:none;min-width:auto;max-width:none;" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" width="300" height="250" frameborder="0" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" src="https://googleads.g.doubleclick.net/pagead/ads?gdpr=1&amp;us_privacy=1---&amp;gdpr_consent=CQjA2wAQjA2wAFUABAENCbFsAP_gAEPgACiQJzQKwAAwAKAAyAB4AIAAVgAuADIAHAAQAAkABkADQAIoASQAmABRAC3AF4AXwAwgCAAEFAI4AjwBKACcAFIALkAZQA5wB3AEIAMaAacA6oB7QEagKbAVcAvMBjIDJAGTgPMAf4BGYCcwJzQJgAAwAKAAyAB4AIAAVgAuADIAHAAQAAkABkADQAIoATAAogBbgC8AL4AYQBAACCgEcAR4AnABSADKAHOAO4AhABjQDTgHtAU2Aq4BeYDGQGSAMnAeYA_wCMwE5gAA.IJzQKwAAwAKAAyAB4AIAAVgAuADIAHAAQAAkABkADQAIoASQAmABRAC3AF4AXwAwgCAAEFAI4AjwBKACcAFIALkAZQA5wB3AEIAMaAacA6oB7QEagKbAVcAvMBjIDJAGTgPMAf4BGYCcwAAA.f_wACHwAAAAA&amp;addtl_consent=2~70.1092.3130&amp;gpp_sid=-1&amp;client=ca-pub-5771594739411148&amp;output=html&amp;h=250&amp;slotname=9359203321&amp;adk=1225942916&amp;adf=3672151656&amp;pi=t.ma~as.9359203321&amp;w=300&amp;lmt=1776780127&amp;format=300x250&amp;url=https%3A%2F%2Fwww.accuweather.com%2Fit%2Fit%2Frome%2F213490%2Fweather-forecast%2F213490&amp;asro=0&amp;aiapmid=1&amp;aiactd=0&amp;aicctd=0&amp;ailctd=0&amp;aimartd=4&amp;aieuf=1&amp;aicrs=1&amp;abgtt=6&amp;dt=1776780127723&amp;bpp=1&amp;bdt=3066&amp;idt=0&amp;shv=r20260420&amp;mjsv=m202604160101&amp;ptt=9&amp;saldr=aa&amp;abxe=1&amp;cookie=ID%3D50b54bc676f3e279%3AT%3D1776353262%3ART%3D1776780126%3AS%3DALNI_MaYJn7Rj3fos7s6RW40iAkrmQwNRQ&amp;gpic=UID%3D000013a4a1bbcb98%3AT%3D1776353262%3ART%3D1776780126%3AS%3DALNI_MauOrbmlYjxtpVhWC264qsoeA92Ow&amp;eo_id_str=ID%3D724a6266e0a68339%3AT%3D1776353262%3ART%3D1776780126%3AS%3DAA-Afjbd8FlTRWtWRf5qdeFKs2Ny&amp;prev_fmts=0x0%2C970x250%2C300x250&amp;nras=1&amp;correlator=1141719437555&amp;frm=20&amp;pv=1&amp;u_tz=120&amp;u_his=6&amp;u_h=833&amp;u_w=1470&amp;u_ah=833&amp;u_aw=1470&amp;u_cd=24&amp;u_sd=2&amp;adx=913&amp;ady=679&amp;biw=1470&amp;bih=833&amp;scr_x=0&amp;scr_y=0&amp;eid=95384087%2C95387623%2C95386955&amp;oid=2&amp;pvsid=6179872356847787&amp;tmod=680543130&amp;uas=1&amp;nvt=1&amp;fc=1920&amp;brdim=0%2C0%2C0%2C0%2C1470%2C0%2C1470%2C833%2C1470%2C833&amp;vis=1&amp;rsz=%7C%7CoeE%7C&amp;abl=CS&amp;pfx=0&amp;fu=0&amp;bc=31&amp;plas=241x658_l%7C241x658_r&amp;bz=1&amp;ifi=9&amp;uci=a!9&amp;fsb=1&amp;dtd=3" data-google-container-id="a!9" tabindex="0" title="Advertisement" aria-label="Advertisement" data-google-query-id="CJLW_-KN_5MDFT5qFQgdEQwBcg" data-load-complete="true"></iframe></div></ins></div>
 
 	
 </div>
@@ -4376,7 +4402,7 @@ function getUserContentAffinity(categories) {
 		
 	</div>
 	
-		<div class="glacier-ad unrendered bottom config-bottom content-module" ad-type="bottom" id="bottom" data-google-query-id="CI_fz7CV_JMDFYrORAcd5oo39w"><div id="google_ads_iframe_/6581/web/it/bottom/weather/local_home_0__container__" style="border: 0pt; margin: auto; text-align: center; width: 970px; height: 250px;"><iframe frameborder="0" src="https://2810cda93e3ea9046645a1a797ccdabf.safeframe.googlesyndication.com/safeframe/1-0-45/html/container.html" id="google_ads_iframe_/6581/web/it/bottom/weather/local_home_0" title="Contenuto dell'annuncio di terze parti" name="" scrolling="no" marginwidth="0" marginheight="0" width="970" height="250" data-is-safeframe="true" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" aria-label="Pubblicità" tabindex="0" data-google-container-id="7" style="border: 0px; vertical-align: bottom;" data-load-complete="true"></iframe></div></div><div id="bottom-dawn" style="position: absolute; inset: 0px; visibility: hidden; opacity: 0; pointer-events: none; z-index: 1;"><div id="google_ads_iframe_/6581/web/it/bottom/weather/breaking_dawn_0__container__" style="border: 0pt; margin: auto; text-align: center;"></div></div>
+		<div class="glacier-ad unrendered bottom config-bottom content-module" ad-type="bottom" id="bottom"></div>
 
 	
 	
@@ -4459,7 +4485,7 @@ function getUserContentAffinity(categories) {
 </div>
 
 	
-</div><iframe name="__gppLocator" style="display: none;"></iframe><iframe name="__tcfapiLocator" style="display: none;"></iframe>
+</div>
 
 
 	<script>
@@ -4537,43 +4563,38 @@ function getUserContentAffinity(categories) {
 		;
 		} catch (error) { }
 	</script>
-	<script async="" src="https://www.accuweather.com/tags/common/body/ad-script-3333932b.js"></script>
+	<script async="" src="https://www.accuweather.com/tags/common/body/ad-script-31cf4609.js"></script>
 	<script async="" src="https://www.accuweather.com/tags/glacier/body/search-bar-ad-5d1d21c7.js"></script><script>(async () => {(function(){function m(n,e){const c="https://sb.scorecardresearch.com/p?",t=Array.from(document.querySelectorAll('img[src^="'+c+'"]'));if(t.find(s=>s.src.includes(`cs_ucfr=${n}`)))return;const o=t.find(s=>s.src.includes("cs_ucfr=")&&!s.src.includes(`cs_ucfr=${n}`));o&&o.remove();const d=`${c}cs_fpid=${e.cs_fpid}&cs_fpit=c&c1=2&c2=6005068&c4=${encodeURIComponent(e.c4)}&c7=${encodeURIComponent(e.c7)}&c8=${encodeURIComponent(e.c8)}&c9=${encodeURIComponent(e.c9)}&cs_ucfr=${n}`,i=document.createElement("img");i.src=d,i.alt="ComScore",i.style.display="none",document.body.appendChild(i)}function a(){const n=window.tagEngineDataLayer?.comScore;if(!n)return;const e=100,c=2e3;let t=0;const r=()=>{typeof window.ketch=="function"?window.ketch("on","consent",function(o){const d=o?.purposes?.targeted_advertising;m(d===!0?1:0,n)}):t<c&&(t+=e,setTimeout(r,e))};r()}document.readyState==="complete"||document.readyState==="interactive"?a():document.addEventListener("DOMContentLoaded",a)})();
 //# sourceMappingURL=comscore.inline.5-abc6ca40.js.map
 })();</script>
-<noscript><img src="https://www.accuweather.com/akam/13/pixel_15c10ccf?a=dD0yYWUzYWNmMDdlYzhiODFiZWMxYjAxMTA1ZGMzMzUyMDFjMWJkNDU5JmpzPW9mZg==" style="visibility: hidden; position: absolute; left: -999px; top: -999px;" /></noscript>
 
 
-<iframe src="https://www.awxcdn.com/adc/3rdpartycheck.html" style="width:0;height:0;display:none"></iframe><iframe marginwidth="0" marginheight="0" scrolling="no" frameborder="0" id="13a3658de884f38" width="0" height="0" src="about:blank" name="__pb_locator__" style="display: none; height: 0px; width: 0px; border: 0px;"></iframe><img src="https://sb.scorecardresearch.com/p?cs_fpid=aabb62c2-3a89-44c2-86c5-ead1b04c96df&amp;cs_fpit=c&amp;c1=2&amp;c2=6005068&amp;c4=https%3A%2F%2Fwww.accuweather.com%2Fit%2Fit%2Frome%2F213490%2Fweather-forecast%2F213490&amp;c7=https%3A%2F%2Fwww.accuweather.com%2Fit%2Fit%2Frome%2F213490%2Fweather-forecast%2F213490&amp;c8=Roma%2C%20Lazio%2C%20Italia%20Previsioni%20meteo%20tre%20giorni%20%7C%20AccuWeather&amp;c9=https%3A%2F%2Fwww.google.com%2F&amp;cs_ucfr=1" alt="ComScore" style="display: none;"><iframe name="__uspapiLocator" style="display: none;"></iframe><iframe name="google_ads_top_frame" id="google_ads_top_frame" style="display: none; position: fixed; left: -999px; top: -999px; width: 0px; height: 0px;"></iframe><iframe src="https://www.google.com/recaptcha/api2/aframe" width="0" height="0" style="display: none;"></iframe><div><iframe src="https://google-bidout-d.openx.net/w/1.0/pd?plm=5" width="0" height="0" style="display:none;"></iframe></div><ins class="adsbygoogle adsbygoogle-noablate" data-ad-hi="true" data-adsbygoogle-status="done" style="display: none !important;" data-ad-status="unfilled"><div id="aswift_0_host" style="border: medium; height: 0px; width: 0px; margin: 0px; padding: 0px; position: relative; visibility: visible; background-color: transparent; display: inline-block;"><iframe id="aswift_0" name="aswift_0" style="left:0;position:absolute;top:0;border:0;width:undefinedpx;height:undefinedpx;min-height:auto;max-height:none;min-width:auto;max-width:none;" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" frameborder="0" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" src="https://googleads.g.doubleclick.net/pagead/ads?gdpr=1&amp;us_privacy=1---&amp;gdpr_consent=CQi9j0AQi9j0AFUABAENCaFsAP_gAEPgACiQJzQKwAAwAKAAyAB4AIAAVgAuADIAHAAQAAkABkADQAIoASQAmABRAC3AF4AXwAwgCAAEFAI4AjwBKACcAFIALkAZQA5wB3AEIAMaAacA6oB7QEagKbAVcAvMBjIDJAGTgPMAf4BGYCcwJzQJgAAwAKAAyAB4AIAAVgAuADIAHAAQAAkABkADQAIoATAAogBbgC8AL4AYQBAACCgEcAR4AnABSADKAHOAO4AhABjQDTgHtAU2Aq4BeYDGQGSAMnAeYA_wCMwE5gAA.IJzQKwAAwAKAAyAB4AIAAVgAuADIAHAAQAAkABkADQAIoASQAmABRAC3AF4AXwAwgCAAEFAI4AjwBKACcAFIALkAZQA5wB3AEIAMaAacA6oB7QEagKbAVcAvMBjIDJAGTgPMAf4BGYCcwAAA.f_wACHwAAAAA&amp;addtl_consent=2~70.1092.3130&amp;gpp_sid=-1&amp;client=ca-pub-5771594739411148&amp;output=html&amp;adk=1812271804&amp;adf=3025194257&amp;lmt=1776679088&amp;plaf=1%3A2%2C2%3A2%2C7%3A2&amp;plat=1%3A192%2C2%3A192%2C3%3A128%2C4%3A128%2C8%3A192%2C9%3A32776%2C16%3A8388608%2C17%3A32%2C24%3A32%2C25%3A32%2C30%3A1081344%2C32%3A32%2C41%3A32%2C42%3A32%2C43%3A32&amp;format=0x0&amp;url=https%3A%2F%2Fwww.accuweather.com%2Fit%2Fit%2Frome%2F213490%2Fweather-forecast%2F213490&amp;pra=5&amp;aiof=9&amp;asro=0&amp;aiapmid=0.0001&amp;aiactd=0&amp;aicctd=0&amp;ailctd=0&amp;aimartd=4&amp;aieuf=1&amp;aicrs=1&amp;abgtt=6&amp;dt=1776679087578&amp;bpp=1&amp;bdt=11660&amp;idt=530&amp;shv=r20260415&amp;mjsv=m202604140101&amp;ptt=9&amp;saldr=aa&amp;abxe=1&amp;cookie=ID%3D50b54bc676f3e279%3AT%3D1776353262%3ART%3D1776679086%3AS%3DALNI_MaYJn7Rj3fos7s6RW40iAkrmQwNRQ&amp;gpic=UID%3D000013a4a1bbcb98%3AT%3D1776353262%3ART%3D1776679086%3AS%3DALNI_MauOrbmlYjxtpVhWC264qsoeA92Ow&amp;eo_id_str=ID%3D724a6266e0a68339%3AT%3D1776353262%3ART%3D1776679086%3AS%3DAA-Afjbd8FlTRWtWRf5qdeFKs2Ny&amp;nras=1&amp;correlator=2027352221728&amp;frm=20&amp;pv=2&amp;u_tz=120&amp;u_his=3&amp;u_h=833&amp;u_w=1470&amp;u_ah=833&amp;u_aw=1470&amp;u_cd=24&amp;u_sd=2&amp;adx=-12245933&amp;ady=-12245933&amp;biw=1470&amp;bih=833&amp;scr_x=0&amp;scr_y=475&amp;eid=95385799%2C95387509%2C95388457%2C95387625%2C95386955&amp;oid=2&amp;pvsid=6504820882849348&amp;tmod=1857319862&amp;uas=3&amp;nvt=1&amp;fsapi=1&amp;fc=1920&amp;brdim=0%2C0%2C0%2C0%2C1470%2C0%2C1470%2C833%2C1470%2C833&amp;vis=1&amp;rsz=%7C%7Cs%7C&amp;abl=NS&amp;fu=32768&amp;bc=31&amp;plas=241x658_l%7C241x658_r&amp;bz=1&amp;ifi=7&amp;uci=a!7&amp;fsb=1&amp;dtd=543" data-google-container-id="a!7" tabindex="0" title="Advertisement" aria-label="Advertisement" data-load-complete="true"></iframe></div></ins><iframe src="https://gum.criteo.com/syncframe?origin=publishertagids&amp;topUrl=www.accuweather.com&amp;gdpr=1&amp;gdpr_consent=CQi9j0AQi9j0AFUABAENCaFsAP_gAEPgACiQJzQKwAAwAKAAyAB4AIAAVgAuADIAHAAQAAkABkADQAIoASQAmABRAC3AF4AXwAwgCAAEFAI4AjwBKACcAFIALkAZQA5wB3AEIAMaAacA6oB7QEagKbAVcAvMBjIDJAGTgPMAf4BGYCcwJzQJgAAwAKAAyAB4AIAAVgAuADIAHAAQAAkABkADQAIoATAAogBbgC8AL4AYQBAACCgEcAR4AnABSADKAHOAO4AhABjQDTgHtAU2Aq4BeYDGQGSAMnAeYA_wCMwE5gAA.IJzQKwAAwAKAAyAB4AIAAVgAuADIAHAAQAAkABkADQAIoASQAmABRAC3AF4AXwAwgCAAEFAI4AjwBKACcAFIALkAZQA5wB3AEIAMaAacA6oB7QEagKbAVcAvMBjIDJAGTgPMAf4BGYCcwAAA.f_wACHwAAAAA&amp;gpp=DBAA&amp;gpp_sid=-1#{&quot;bundle&quot;:{&quot;value&quot;:&quot;9bKLTV9LOTVRWjBITXJMN3d6T0V3ODcwRmpMWnJLNFN6VTJIc1h4TiUyRiUyRlolMkY3Ynk4S2hkMHF3aEMzM3BDUVF5QWtzZUpEY1JoQkx5NEdQSVVvdGt1dVZrdFVhUlZzeEFpZGtUWmVhMHJoanJWRm5GMlYlMkZNS0h6cyUyRkwlMkIlMkZ5MXRnWGVodTRORVlZZ1JHY1J2ZGFidm12QTZ0MDdTSiUyRnFXVlRWTmVXZGtJcllMSFJ2OVZvJTNE&quot;,&quot;origin&quot;:3},&quot;optout&quot;:{&quot;value&quot;:false,&quot;origin&quot;:0},&quot;tld&quot;:&quot;accuweather.com&quot;,&quot;topUrl&quot;:&quot;www.accuweather.com&quot;,&quot;version&quot;:106267,&quot;origin&quot;:&quot;publishertagids&quot;,&quot;requestId&quot;:&quot;0.9035721336528879&quot;}" width="0" height="0" frameborder="0" sandbox="allow-scripts allow-same-origin" aria-hidden="true" tabindex="-1" title="Criteo GUM iframe" style="border-width: 0px; margin: 0px; display: none;"></iframe></body><ins id="gpt_unit_/6581/web/it/interstitial/weather/local_home_0" data-google-query-id="CIqH3K6V_JMDFUP7EQgdomwRjw" aria-hidden="true" style="display: none !important; width: 100vw !important; height: 100vh !important; inset: 0px auto auto 0px !important; clear: none !important; float: none !important; margin: 0px !important; max-height: none !important; max-width: none !important; opacity: 1 !important; overflow: visible !important; padding: 0px !important; position: fixed !important; vertical-align: baseline !important; visibility: visible !important; z-index: 2147483647 !important; background: 0% 0% repeat !important;" data-vignette-loaded="true" tabindex="0"><div id="google_ads_iframe_/6581/web/it/interstitial/weather/local_home_0__container__" style="border: 0pt !important; margin: auto !important; text-align: center !important; width: 100vw !important; height: 100vh !important; inset: auto !important; clear: none !important; display: inline !important; float: none !important; max-height: none !important; max-width: none !important; opacity: 1 !important; overflow: visible !important; padding: 0px !important; position: static !important; vertical-align: baseline !important; visibility: visible !important; z-index: auto !important;"><iframe frameborder="0" src="https://2810cda93e3ea9046645a1a797ccdabf.safeframe.googlesyndication.com/safeframe/1-0-45/html/container.html" id="google_ads_iframe_/6581/web/it/interstitial/weather/local_home_0" title="Contenuto dell'annuncio di terze parti" name="" scrolling="no" marginwidth="0" marginheight="0" width="" height="" data-is-safeframe="true" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" allow="autoplay" aria-label="Pubblicità" tabindex="0" data-google-container-id="5" style="border: 0px !important; vertical-align: bottom !important; width: 100vw !important; height: 100vh !important; inset: 0px auto auto 0px !important; position: absolute !important; clear: none !important; display: inline !important; float: none !important; margin: 0px !important; max-height: none !important; max-width: none !important; opacity: 1 !important; overflow: visible !important; padding: 0px !important; visibility: visible !important; z-index: auto !important;" data-load-complete="true"></iframe></div></ins><iframe id="google_esf" name="google_esf" src="https://googleads.g.doubleclick.net/pagead/html/r20260415/r20190131/zrt_lookup_fy2021.html" style="display: none;"></iframe></html>"""
 
-gold_text = """OGGI
-ORARIO
-10 GIORNI
-RADAR
-MINUTECAST®
-MENSILE
-QUALITÀ DELL'ARIA
-SALUTE E ATTIVITÀ
+<iframe name="__tcfapiLocator" style="display: none;"></iframe><iframe name="__gppLocator" style="display: none;"></iframe><iframe marginwidth="0" marginheight="0" scrolling="no" frameborder="0" id="18094bcd808024" width="0" height="0" src="about:blank" name="__pb_locator__" style="display: none; height: 0px; width: 0px; border: 0px;"></iframe><img src="https://sb.scorecardresearch.com/p?cs_fpid=aabb62c2-3a89-44c2-86c5-ead1b04c96df&amp;cs_fpit=c&amp;c1=2&amp;c2=6005068&amp;c4=https%3A%2F%2Fwww.accuweather.com%2Fit%2Fit%2Frome%2F213490%2Fweather-forecast%2F213490&amp;c7=https%3A%2F%2Fwww.accuweather.com%2Fit%2Fit%2Frome%2F213490%2Fweather-forecast%2F213490&amp;c8=Roma%2C%20Lazio%2C%20Italia%20Previsioni%20meteo%20tre%20giorni%20%7C%20AccuWeather&amp;c9=https%3A%2F%2Fwww.google.com%2F&amp;cs_ucfr=1" alt="ComScore" style="display: none;"><iframe name="__uspapiLocator" style="display: none;"></iframe><ins class="adsbygoogle adsbygoogle-noablate" data-ad-hi="true" data-adsbygoogle-status="done" style="display: none !important;" data-ad-status="unfilled"><div id="aswift_0_host" style="border: medium; height: 0px; width: 0px; margin: 0px; padding: 0px; position: relative; visibility: visible; background-color: transparent; display: inline-block;"><iframe id="aswift_0" name="aswift_0" style="left:0;position:absolute;top:0;border:0;width:undefinedpx;height:undefinedpx;min-height:auto;max-height:none;min-width:auto;max-width:none;" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" frameborder="0" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" src="https://googleads.g.doubleclick.net/pagead/ads?gdpr=1&amp;us_privacy=1---&amp;gdpr_consent=CQjA2wAQjA2wAFUABAENCbFsAP_gAEPgACiQJzQKwAAwAKAAyAB4AIAAVgAuADIAHAAQAAkABkADQAIoASQAmABRAC3AF4AXwAwgCAAEFAI4AjwBKACcAFIALkAZQA5wB3AEIAMaAacA6oB7QEagKbAVcAvMBjIDJAGTgPMAf4BGYCcwJzQJgAAwAKAAyAB4AIAAVgAuADIAHAAQAAkABkADQAIoATAAogBbgC8AL4AYQBAACCgEcAR4AnABSADKAHOAO4AhABjQDTgHtAU2Aq4BeYDGQGSAMnAeYA_wCMwE5gAA.IJzQKwAAwAKAAyAB4AIAAVgAuADIAHAAQAAkABkADQAIoASQAmABRAC3AF4AXwAwgCAAEFAI4AjwBKACcAFIALkAZQA5wB3AEIAMaAacA6oB7QEagKbAVcAvMBjIDJAGTgPMAf4BGYCcwAAA.f_wACHwAAAAA&amp;addtl_consent=2~70.1092.3130&amp;gpp_sid=-1&amp;client=ca-pub-5771594739411148&amp;output=html&amp;adk=1812271804&amp;adf=3025194257&amp;lmt=1776780127&amp;plaf=1%3A2%2C2%3A2%2C7%3A2&amp;plat=1%3A128%2C2%3A128%2C3%3A128%2C4%3A128%2C8%3A192%2C9%3A134250504%2C16%3A8388608%2C17%3A32%2C24%3A32%2C25%3A32%2C30%3A1081344%2C32%3A32%2C41%3A32%2C42%3A32%2C43%3A32&amp;format=0x0&amp;url=https%3A%2F%2Fwww.accuweather.com%2Fit%2Fit%2Frome%2F213490%2Fweather-forecast%2F213490&amp;pra=5&amp;asro=0&amp;itsi=36&amp;aiapmid=1&amp;aiactd=0&amp;aicctd=0&amp;ailctd=0&amp;aimartd=4&amp;aieuf=1&amp;aicrs=1&amp;abgtt=6&amp;dt=1776780127563&amp;bpp=2&amp;bdt=2907&amp;idt=19&amp;shv=r20260420&amp;mjsv=m202604160101&amp;ptt=9&amp;saldr=aa&amp;abxe=1&amp;cookie=ID%3D50b54bc676f3e279%3AT%3D1776353262%3ART%3D1776780126%3AS%3DALNI_MaYJn7Rj3fos7s6RW40iAkrmQwNRQ&amp;gpic=UID%3D000013a4a1bbcb98%3AT%3D1776353262%3ART%3D1776780126%3AS%3DALNI_MauOrbmlYjxtpVhWC264qsoeA92Ow&amp;eo_id_str=ID%3D724a6266e0a68339%3AT%3D1776353262%3ART%3D1776780126%3AS%3DAA-Afjbd8FlTRWtWRf5qdeFKs2Ny&amp;nras=1&amp;correlator=1141719437555&amp;frm=20&amp;pv=2&amp;u_tz=120&amp;u_his=6&amp;u_h=833&amp;u_w=1470&amp;u_ah=833&amp;u_aw=1470&amp;u_cd=24&amp;u_sd=2&amp;adx=-12245933&amp;ady=-12245933&amp;biw=1470&amp;bih=833&amp;scr_x=0&amp;scr_y=0&amp;eid=95384087%2C95387623%2C95386955&amp;oid=2&amp;pvsid=6179872356847787&amp;tmod=680543130&amp;uas=1&amp;nvt=1&amp;fsapi=1&amp;fc=1920&amp;brdim=0%2C0%2C0%2C0%2C1470%2C0%2C1470%2C833%2C1470%2C833&amp;vis=1&amp;rsz=%7C%7Cs%7C&amp;abl=NS&amp;fu=32768&amp;bc=31&amp;plas=241x658_l%7C241x658_r&amp;bz=1&amp;ifi=6&amp;uci=a!6&amp;fsb=1&amp;dtd=30" data-google-container-id="a!6" tabindex="0" title="Advertisement" aria-label="Advertisement" data-load-complete="true"></iframe></div></ins><iframe src="https://www.google.com/recaptcha/api2/aframe" width="0" height="0" style="display: none;"></iframe></body><iframe id="google_esf" name="google_esf" src="https://googleads.g.doubleclick.net/pagead/html/r20260420/r20190131/zrt_lookup_fy2021.html" style="display: none;"></iframe></html>"""
 
-2
+
+gold_text = """Roma, Lazio
+22°C
+
+4
 Allarme giallo per temporali
 METEO ATTUALE
-11:57
+16:02
 
-21°C
-RealFeel® 24°
+22°C
+RealFeel® 23°
 Parzialmente soleggiato
 ALTRI DETTAGLI
 RealFeel Shade™
-19°
+20°
 Vento
-ESE 12 km/h
+SO 23 km/h
 Raffiche vento
-25 km/h
+40 km/h
 Qualità dell'aria
 Sfavorev.
 EVOLUZIONE
-Sono previsti rovesci mercoledì pomeriggio
+Gradevole nel weekend
 ROMA - RADAR METEO
 Roma - Radar meteo
 
@@ -4582,97 +4603,88 @@ Nuvole
 Temperatura
 PREVISIONI ORARIE
 
-12
+17
 
 21°
 rain drop
-2%
-13
-
-22°
-rain drop
 1%
-14
-
-23°
-rain drop
-0%
-15
-
-23°
-rain drop
-0%
-16
-
-22°
-rain drop
-0%
-17
-
-22°
-rain drop
-0%
 18
 
 21°
 rain drop
-0%
+1%
 19
 
 20°
 rain drop
-0%
+1%
 20
 
-19°
+18°
 rain drop
-1%
+2%
 21
 
 17°
-1%
+rain drop
+2%
 22
 
-16°
-1%
+15°
+rain drop
+2%
 23
 
-16°
-1%
+14°
+rain drop
+2%
+00
+
+14°
+rain drop
+2%
+01
+
+13°
+rain drop
+4%
+02
+
+13°
+7%
+03
+
+13°
+7%
+04
+
+13°
+7%
 
 PREVISIONI GIORNO
 OGGI
-20/4
+21/4
 
 23°
 12°
 Da soleggiato a parzialmente nuvoloso
 
-Parzialmente nuvoloso
-12%
-MAR
-21/4
-
-23°
-12°
-Sole con qualche nuvola
-
-Parzialmente nuvoloso
-9%
+Da sereno a parzialmente nuvoloso
+14%
 MER
 22/4
 
 20°
-9°
+8°
 Uno o due brevi rovesci
 
 Parzialmente nuvoloso
-63%
+57%
 GIO
 23/4
 
-21°
-6°
+22°
+7°
 Ampiamente soleggiato
 
 Sereno
@@ -4682,75 +4694,82 @@ VEN
 
 23°
 8°
-Ampiamente soleggiato
+Sole splendente
 
-Prevalentemente sereno
+Sereno
 0%
 SAB
 25/4
 
-23°
+25°
 10°
-Parzialmente soleggiato
+Da soleggiato a parzialmente nuvoloso
 
 Sereno
 0%
 DOM
 26/4
 
-22°
+24°
 11°
-Prevalentemente soleggiato
+Ampiamente soleggiato
 
-Parzialmente nuvoloso
+Prevalentemente sereno
 0%
 LUN
 27/4
 
-22°
-11°
-Prevalentemente nuvoloso
+24°
+12°
+Prevalentemente soleggiato
 
-Nuvoloso
-4%
+Prevalentemente sereno
+1%
 MAR
 28/4
 
 22°
-12°
+11°
 Nuvoloso
 
-Prevalentemente nuvoloso
-25%
+Un paio di rovesci
+19%
 MER
 29/4
 
-23°
-12°
-Nuvole e sole
+21°
+11°
+Possibilità di pioggia
 
-Sereno
-19%
+Poca pioggia
+55%
+GIO
+30/4
+
+22°
+11°
+Periodi di pioggia
+
+Periodi di pioggia
+61%
 SOLE E LUNA
 
-13 h 33 min
+13 h 36 min
 Alba
-06:23
+06:21
 Tramontare
-19:56
+19:57
 
-16 h 22 min
+16 h 30 min
 Alba
-07:53
+08:50
 Tramontare
-00:15
+01:20
 QUALITÀ DELL'ARIA
-VISUALIZZA ALTRO
 Qualità dell'aria
 Sfavorev.
 L'aria ha raggiunto un livello elevato di inquinamento ed è malsana per i gruppi sensibili. Riduci il tempo trascorso all'aperto se hai sintomi quali difficoltà respiratoria o irritazione della gola.
 SITUAZIONE ALLERGIE
-VEDI TUTTO
 Polline di albero
 Bassa
 Polline di ambrosia
@@ -4760,19 +4779,18 @@ Alto
 Polline dell’erba
 Bassa
 Polvere e forfora animale
-Alto
-"""
+Bassa"""
 data = [
     {
         "url": "",
         "domain": "accuweather.com",
-        "title": "rome",
+        "title": "roma",
         "html_text": html_text,
         "gold_text": gold_text
     }
 ]
 
-with open("accuweather.json", "w", encoding="utf-8") as f:
+with open("accuweather_make.json", "w", encoding="utf-8") as f:
     json.dump(data, f, ensure_ascii=False, indent=2)
 
 print("File JSON creato correttamente!")

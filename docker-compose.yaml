@@ -16,5 +16,6 @@ services:
       - "8004:8000"
     environment:
       - BACKEND_URL=http://backend:8003
+      - ATPTOUR_HEADLESS=true
     depends_on:
       - backend

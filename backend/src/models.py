@@ -1,4 +1,6 @@
 from pydantic import BaseModel
+from typing import List
+
 
 class ParseResponse(BaseModel):
     url: str
@@ -7,8 +9,9 @@ class ParseResponse(BaseModel):
     html_text: str
     parsed_text: str
 
+
 class DomainsResponse(BaseModel):
-    domains: list[str]
+    domains: List[str]
 
 
 class GoldStandardEntry(BaseModel):
@@ -20,7 +23,12 @@ class GoldStandardEntry(BaseModel):
 
 
 class FullGoldStandardResponse(BaseModel):
-    gold_standard: list[GoldStandardEntry]
+    gold_standard: List[GoldStandardEntry]
+
+
+class ParseHtmlRequest(BaseModel):
+    url: str
+    html_text: str
 
 
 class EvalRequest(BaseModel):
@@ -28,12 +36,12 @@ class EvalRequest(BaseModel):
     gold_text: str
 
 
-class MetricScores(BaseModel):
+class EvalMetrics(BaseModel):
     precision: float
     recall: float
     f1: float
 
 
 class EvalResponse(BaseModel):
-    token_level_eval: MetricScores
+    token_level_eval: EvalMetrics
     x_eval: dict
