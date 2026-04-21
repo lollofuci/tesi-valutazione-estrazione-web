@@ -13,9 +13,9 @@ html_text = """<html lang="it" class="accuweather"><head>
 <link rel="dns-prefetch" href="https://securepubads.g.doubleclick.net">
 <link rel="dns-prefetch" href="https://pubads.g.doubleclick.net">
 
-	<link rel="canonical" href="https://www.accuweather.com/it/it/rome/213490/weather-forecast/213490">
-	<title>Roma, Lazio, Italia Previsioni meteo tre giorni | AccuWeather</title>
-	<meta name="Description" content="Roma, Lazio, Italia Weather Forecast, with current conditions, wind, air quality, and what to expect for the next 3 days.">
+	<link rel="canonical" href="https://www.accuweather.com/it/hurricane">
+	<title>Tracciatura degli uragani e radar delle tempeste | AccuWeather</title>
+	<meta name="Description" content="Keep up with the latest hurricane watches and warnings with AccuWeather's Hurricane Center. Hurricane tracking maps, current sea temperatures, and more.">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="referrer" content="origin">
 	
@@ -25,18 +25,18 @@ html_text = """<html lang="it" class="accuweather"><head>
 <meta property="fb:app_id" content="132437483467956">
 <meta property="fb:pages" content="71781612888">
 <meta property="og:type" content="website">
-<meta property="og:title" content="Roma, Lazio, Italia Previsioni meteo tre giorni | AccuWeather">
-<meta property="og:description" content="Roma, Lazio, Italia Weather Forecast, with current conditions, wind, air quality, and what to expect for the next 3 days.">
+<meta property="og:title" content="Tracciatura degli uragani e radar delle tempeste | AccuWeather">
+<meta property="og:description" content="Keep up with the latest hurricane watches and warnings with AccuWeather's Hurricane Center. Hurricane tracking maps, current sea temperatures, and more.">
 <meta property="site_name" content="AccuWeather">
-<meta property="og:url" content="https://www.accuweather.com/it/it/rome/213490/weather-forecast/213490">
+<meta property="og:url" content="https://www.accuweather.com/it/hurricane">
 <meta property="og:image" content="https://www.accuweather.com/images/logos/aw-logo-og-meta.png">
 <meta property="og:image:url" content="https://www.accuweather.com/images/logos/aw-logo-og-meta.png">
 <meta property="og:image:secure_url" content="https://www.accuweather.com/images/logos/aw-logo-og-meta.png">
 <meta name="twitter:site" content="https://twitter.com/accuweather">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:text:title" content="Roma, Lazio, Italia Previsioni meteo tre giorni | AccuWeather">
-<meta name="twitter:title" content="Roma, Lazio, Italia Previsioni meteo tre giorni | AccuWeather">
-<meta name="twitter:description" content="Roma, Lazio, Italia Weather Forecast, with current conditions, wind, air quality, and what to expect for the next 3 days.">
+<meta name="twitter:text:title" content="Tracciatura degli uragani e radar delle tempeste | AccuWeather">
+<meta name="twitter:title" content="Tracciatura degli uragani e radar delle tempeste | AccuWeather">
+<meta name="twitter:description" content="Keep up with the latest hurricane watches and warnings with AccuWeather's Hurricane Center. Hurricane tracking maps, current sea temperatures, and more.">
 <meta name="twitter:site:id" content="https://twitter.com/accuweather">
 <meta name="twitter:creator" content="https://twitter.com/accuweather">
 <meta name="twitter:creator:id" content="https://twitter.com/accuweather">
@@ -51,7 +51,7 @@ html_text = """<html lang="it" class="accuweather"><head>
 <meta name="twitter:app:id:googleplay" content="com.accuweather.android">
 <meta name="twitter:app:url:googleplay" content="https://play.google.com/store/apps/details?id=com.accuweather.android">
 
-	<script src="https://pagead2.googlesyndication.com/pagead/managed/js/adsense/m202604160101/show_ads_impl_fy2021.js"></script><script src="https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202604210101/pubads_impl_page_level_ads.js?cb=31098008"></script><script type="application/ld+json">
+	<script src="https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202604090101/pubads_impl_page_level_ads.js?cb=31097905"></script><script type="application/ld+json">
 {
 	"@context": "https://schema.org",
 	"@type": "Organization",
@@ -66,35 +66,15 @@ html_text = """<html lang="it" class="accuweather"><head>
 }
 </script>
 
-		<script type="application/ld+json">
-	{
-		"@context": "https://schema.org",
-		"@type": "Place",
-		"address": {
-			"@type": "PostalAddress",
-			"addressLocality": "Roma, Italia",
-			"addressRegion": "Lazio",
-			"postalCode": ""
-		},
-		"geo": {
-			"@type": "GeoCoordinates",
-			"latitude": "41.901",
-			"longitude": "12.48",
-			"addressCountry": "IT",
-			"postalCode": ""
-		},
-		"name": "Roma, Lazio, Italia"
-	}
-	</script>
-
+	
 	<script type="application/ld+json">
 {
 	"@context": "https://schema.org",
 	"@type": "WebSite",
 	"mainEntityOfPage": {
 		"@type": "WebPage",
-		"@id": "https://www.accuweather.com/it/it/rome/213490/weather-forecast/213490",
-		"relatedLink": "https://www.accuweather.com/it/it/rome/213490/weather-forecast/213490"
+		"@id": "https://www.accuweather.com/it/hurricane",
+		"relatedLink": "https://www.accuweather.com/it/hurricane"
 	},
 	"image": {
 		"@type": "ImageObject",
@@ -118,9 +98,9 @@ html_text = """<html lang="it" class="accuweather"><head>
 			"height": 23
 		}
 	},
-	"url": "https://www.accuweather.com/it/it/rome/213490/weather-forecast/213490",
-	"headline": "Roma, Lazio, Italia Previsioni meteo tre giorni",
-	"description": "Roma, Lazio, Italia Weather Forecast, with current conditions, wind, air quality, and what to expect for the next 3 days."
+	"url": "https://www.accuweather.com/it/hurricane",
+	"headline": "Tracciatura degli uragani e radar delle tempeste",
+	"description": "Keep up with the latest hurricane watches and warnings with AccuWeather&#x27;s Hurricane Center. Hurricane tracking maps, current sea temperatures, and more."
 }
 </script>
 
@@ -130,13 +110,13 @@ html_text = """<html lang="it" class="accuweather"><head>
 		window.tagEngineDataLayer = window.tagEngineDataLayer || {};
 		Object.assign(window.tagEngineDataLayer, {
 			adDataAdc: {
-				adInfo: {"fdate":"20260421","lang":"it","ut":"1","advelvet":"15","inview":"ititrome213490weather-forecast213490:wtr,wbr,wt","bot":"0","pgview":"1","partner":"google_search_accuweather","ufdb":"LII7","city":"Rome","country":"IT","state":"62","dma":null,"key":"213490","region":"eur","lat":"41.901","lon":"12.48","browser":"safari","connection":"mobile_vhigh_5000","wx_seg":"101100100,102102102,109101100,108102100,100108101,102100100,102101100,102103100,107100102,100111100,107101102,108103101,101103100,100113103,108104101,101105100,110100100,109104100,109105100,100106102,110101101,109100102,108101102,103100102,109103102,103101102,101106102,108100102,100109105,102104102,104100103,101104101,104101101,100109102,109102102,100114105,109106102,101107101,101108101,101102102,105100102,107103102,100114102,100114101,101101101","alertscategory":"SEVERE,SEVERE,SEVERE,WIND","alertssource":"it,it,it,it","alertstypeid":"IT312,IT312,IT312,IT169","cuhd":"61","cuhi":"72","cuuv":"4","cuwd":"15","cuwx":"3","realfeel":"70,a75,b75,c75,d80","cuaq":"3","fc1hi":"73","fc1lo":"53","fc1wx":"2","lfscategory":"mild","lfsday":"5","lfsseverity":"4","lfs":"4_mild_5","pt":"0","userid":"active","userid3p":"missing","sub":"free","auth":"false","site":"adc"},
-				adSlots: {"top":{"bidders":[{"bidder":"google","params":{"sizes":"970x250,728x90,fluid,970x90","Is_Buy_It_Now":false},"isBuyItNow":false},{"bidder":"rubicon","params":{"accountId":12562,"siteId":135890,"zoneId":640474,"position":"atf","userId":"7d695715xd89fx4158xab9bx5114c8ba51db","floor":0.02,"Is_Buy_It_Now":false},"isBuyItNow":false},{"bidder":"triplelift","params":{"inventoryCode":"accuweather_d_top_leaderboard_pbjs","floor":0.02,"Is_Buy_It_Now":false},"isBuyItNow":false},{"bidder":"criteo","params":{"networkId":12212,"pubid":"3852","uid":"472391","bidFloor":0.02,"bidFloorCur":"USD","Is_Buy_It_Now":false},"isBuyItNow":false},{"bidder":"pubmatic","params":{"publisherId":"34576","adSlot":"Web_Top","lat":"41.9","lon":"12.48","kadfloor":"0.02","currency":"USD","Is_Buy_It_Now":false},"isBuyItNow":false},{"bidder":"ix","params":{"siteId":"197759","bidFloor":0.02,"bidFloorCur":"USD","Is_Buy_It_Now":false},"isBuyItNow":false},{"bidder":"openx","params":{"delDomain":"accuweather-d.openx.net","unit":"539580665","customParams":{"fdate":["20260421"],"advelvet":["15"],"pgview":["1"],"partner":["google_search_accuweather"],"ufdb":["LII7"],"country":["IT"],"state":["62"],"wx_seg":["101100100","102102102","109101100","108102100","100108101","102100100","102101100","102103100","107100102","100111100","107101102","108103101","101103100","100113103","108104101","101105100","110100100","109104100","109105100","100106102","110101101","109100102","108101102","103100102","109103102","103101102","101106102","108100102","100109105","102104102","104100103","101104101","104101101","100109102","109102102","100114105","109106102","101107101","101108101","101102102","105100102","107103102","100114102","100114101","101101101"],"alertscategory":["SEVERE","SEVERE","SEVERE","WIND"],"alertssource":["it","it","it","it"],"alertstypeid":["IT312","IT312","IT312","IT169"],"cuhd":["61"],"cuhi":["72"],"cuuv":["4"],"cuwd":["15"],"cuwx":["3"],"realfeel":["70","a75","b75","c75","d80"],"fc1hi":["73"],"fc1lo":["53"],"fc1wx":["2"],"lfscategory":["mild"],"lfsday":["5"],"lfsseverity":["4"],"lfs":["4_mild_5"],"pt":["0"],"adunit":["/6581/web/it/top/weather/local_home"]},"customFloor":0.02,"Is_Buy_It_Now":false},"isBuyItNow":false},{"bidder":"ttd","params":{"supplySourceId":"accuweather","publisherId":"1","bidfloor":0.02,"currency":"USD","Is_Buy_It_Now":false},"isBuyItNow":false},{"bidder":"google","params":{"sizes":"970x250,728x90,fluid,970x90","Is_Buy_It_Now":true},"isBuyItNow":true},{"bidder":"rubicon","params":{"accountId":12562,"siteId":135890,"zoneId":1518598,"position":"atf","userId":"7d695715xd89fx4158xab9bx5114c8ba51db","floor":0.7,"Is_Buy_It_Now":true},"isBuyItNow":true},{"bidder":"triplelift","params":{"inventoryCode":"Acccuweather_Prebid_web_top_BIN","floor":0.9,"Is_Buy_It_Now":true},"isBuyItNow":true}],"slot":"top","adDivId":"top","adUnitCode":"/6581/web/it/top/weather/local_home","upr":0.15,"tid":"cf6ab95b-7e43-4548-b841-a5907cc82ec1"},"oop":{"bidders":[{"bidder":"google","params":{"sizes":"oop","Is_Buy_It_Now":false},"isBuyItNow":false}],"slot":"oop","adDivId":"oop","adUnitCode":"/6581/web/it/oop/weather/local_home","upr":0.02,"tid":"042e1711-5ea5-40ff-8007-28025ec95b44"},"interstitial":{"bidders":[{"bidder":"google","params":{"sizes":"interstitial","Is_Buy_It_Now":false},"isBuyItNow":false}],"slot":"interstitial","adDivId":"interstitial","adUnitCode":"/6581/web/it/interstitial/weather/local_home","upr":3.5,"tid":"f4fe34eb-47db-4e2b-b4cd-56709afd48ce"},"top_right":{"bidders":[{"bidder":"google","params":{"sizes":"300x250,300x600,160x600,120x600,fluid","Is_Buy_It_Now":false},"isBuyItNow":false},{"bidder":"rubicon","params":{"accountId":12562,"siteId":135890,"zoneId":2745920,"position":"atf","userId":"7d695715xd89fx4158xab9bx5114c8ba51db","floor":0.02,"Is_Buy_It_Now":false},"isBuyItNow":false},{"bidder":"triplelift","params":{"inventoryCode":"accuweather_d_topright_rectangle_pbjs","floor":0.02,"Is_Buy_It_Now":false},"isBuyItNow":false},{"bidder":"criteo","params":{"networkId":12212,"pubid":"3852","uid":"472390","bidFloor":0.02,"bidFloorCur":"USD","Is_Buy_It_Now":false},"isBuyItNow":false},{"bidder":"pubmatic","params":{"publisherId":"34576","adSlot":"Web_TopRight","lat":"41.9","lon":"12.48","kadfloor":"0.02","currency":"USD","Is_Buy_It_Now":false},"isBuyItNow":false},{"bidder":"ix","params":{"siteId":"197760","bidFloor":0.02,"bidFloorCur":"USD","Is_Buy_It_Now":false},"isBuyItNow":false},{"bidder":"openx","params":{"delDomain":"accuweather-d.openx.net","unit":"539580668","customParams":{"fdate":["20260421"],"advelvet":["15"],"pgview":["1"],"partner":["google_search_accuweather"],"ufdb":["LII7"],"country":["IT"],"state":["62"],"wx_seg":["101100100","102102102","109101100","108102100","100108101","102100100","102101100","102103100","107100102","100111100","107101102","108103101","101103100","100113103","108104101","101105100","110100100","109104100","109105100","100106102","110101101","109100102","108101102","103100102","109103102","103101102","101106102","108100102","100109105","102104102","104100103","101104101","104101101","100109102","109102102","100114105","109106102","101107101","101108101","101102102","105100102","107103102","100114102","100114101","101101101"],"alertscategory":["SEVERE","SEVERE","SEVERE","WIND"],"alertssource":["it","it","it","it"],"alertstypeid":["IT312","IT312","IT312","IT169"],"cuhd":["61"],"cuhi":["72"],"cuuv":["4"],"cuwd":["15"],"cuwx":["3"],"realfeel":["70","a75","b75","c75","d80"],"fc1hi":["73"],"fc1lo":["53"],"fc1wx":["2"],"lfscategory":["mild"],"lfsday":["5"],"lfsseverity":["4"],"lfs":["4_mild_5"],"pt":["0"],"adunit":["/6581/web/it/top_right/weather/local_home"]},"customFloor":0.02,"Is_Buy_It_Now":false},"isBuyItNow":false},{"bidder":"ttd","params":{"supplySourceId":"accuweather","publisherId":"1","bidfloor":0.02,"currency":"USD","Is_Buy_It_Now":false},"isBuyItNow":false},{"bidder":"google","params":{"sizes":"300x250,300x600,160x600,120x600,fluid","Is_Buy_It_Now":true},"isBuyItNow":true},{"bidder":"rubicon","params":{"accountId":12562,"siteId":135890,"zoneId":2745916,"position":"atf","userId":"7d695715xd89fx4158xab9bx5114c8ba51db","floor":0.7,"Is_Buy_It_Now":true},"isBuyItNow":true},{"bidder":"triplelift","params":{"inventoryCode":"Acccuweather_Prebid_web_topright_BIN","floor":0.9,"Is_Buy_It_Now":true},"isBuyItNow":true}],"slot":"top_right","adDivId":"top_right","adUnitCode":"/6581/web/it/top_right/weather/local_home","upr":0.1,"tid":"04b75528-fb02-4a62-bfb5-74e4a1b006de"},"bottom_right":{"bidders":[{"bidder":"google","params":{"sizes":"300x250,300x600,160x600,120x600,300x251,300x601,fluid","Is_Buy_It_Now":false},"isBuyItNow":false},{"bidder":"rubicon","params":{"accountId":12562,"siteId":135890,"zoneId":2745918,"position":"btf","userId":"7d695715xd89fx4158xab9bx5114c8ba51db","floor":0.02,"Is_Buy_It_Now":false},"isBuyItNow":false},{"bidder":"pubmatic","params":{"publisherId":"34576","adSlot":"Web_BottomRight","lat":"41.9","lon":"12.48","kadfloor":"0.02","currency":"USD","Is_Buy_It_Now":false},"isBuyItNow":false},{"bidder":"ix","params":{"siteId":"197765","bidFloor":0.02,"bidFloorCur":"USD","Is_Buy_It_Now":false},"isBuyItNow":false},{"bidder":"openx","params":{"delDomain":"accuweather-d.openx.net","unit":"539580673","customParams":{"fdate":["20260421"],"advelvet":["15"],"pgview":["1"],"partner":["google_search_accuweather"],"ufdb":["LII7"],"country":["IT"],"state":["62"],"wx_seg":["101100100","102102102","109101100","108102100","100108101","102100100","102101100","102103100","107100102","100111100","107101102","108103101","101103100","100113103","108104101","101105100","110100100","109104100","109105100","100106102","110101101","109100102","108101102","103100102","109103102","103101102","101106102","108100102","100109105","102104102","104100103","101104101","104101101","100109102","109102102","100114105","109106102","101107101","101108101","101102102","105100102","107103102","100114102","100114101","101101101"],"alertscategory":["SEVERE","SEVERE","SEVERE","WIND"],"alertssource":["it","it","it","it"],"alertstypeid":["IT312","IT312","IT312","IT169"],"cuhd":["61"],"cuhi":["72"],"cuuv":["4"],"cuwd":["15"],"cuwx":["3"],"realfeel":["70","a75","b75","c75","d80"],"fc1hi":["73"],"fc1lo":["53"],"fc1wx":["2"],"lfscategory":["mild"],"lfsday":["5"],"lfsseverity":["4"],"lfs":["4_mild_5"],"pt":["0"],"adunit":["/6581/web/it/bottom_right/weather/local_home"]},"customFloor":0.02,"Is_Buy_It_Now":false},"isBuyItNow":false},{"bidder":"google","params":{"sizes":"300x250,300x600,160x600,120x600,300x251,300x601,fluid","Is_Buy_It_Now":true},"isBuyItNow":true},{"bidder":"rubicon","params":{"accountId":12562,"siteId":135890,"zoneId":2745914,"position":"btf","userId":"7d695715xd89fx4158xab9bx5114c8ba51db","floor":0.35,"Is_Buy_It_Now":true},"isBuyItNow":true},{"bidder":"triplelift","params":{"inventoryCode":"Acccuweather_Prebid_Web_bottomright_BIN","floor":0.4,"Is_Buy_It_Now":true},"isBuyItNow":true}],"slot":"bottom_right","adDivId":"bottom_right","adUnitCode":"/6581/web/it/bottom_right/weather/local_home","upr":0.05,"tid":"2734917d-5bc5-4ea1-9e0f-43f623fc584f"},"bottom":{"bidders":[{"bidder":"google","params":{"sizes":"970x250,728x90,728x91,970x251,fluid","Is_Buy_It_Now":false},"isBuyItNow":false},{"bidder":"rubicon","params":{"accountId":12562,"siteId":135890,"zoneId":640476,"position":"btf","userId":"7d695715xd89fx4158xab9bx5114c8ba51db","floor":0.02,"Is_Buy_It_Now":false},"isBuyItNow":false},{"bidder":"pubmatic","params":{"publisherId":"34576","adSlot":"Web_Bottom","lat":"41.9","lon":"12.48","kadfloor":"0.02","currency":"USD","Is_Buy_It_Now":false},"isBuyItNow":false},{"bidder":"ix","params":{"siteId":"197764","bidFloor":0.02,"bidFloorCur":"USD","Is_Buy_It_Now":false},"isBuyItNow":false},{"bidder":"openx","params":{"delDomain":"accuweather-d.openx.net","unit":"539580672","customParams":{"fdate":["20260421"],"advelvet":["15"],"pgview":["1"],"partner":["google_search_accuweather"],"ufdb":["LII7"],"country":["IT"],"state":["62"],"wx_seg":["101100100","102102102","109101100","108102100","100108101","102100100","102101100","102103100","107100102","100111100","107101102","108103101","101103100","100113103","108104101","101105100","110100100","109104100","109105100","100106102","110101101","109100102","108101102","103100102","109103102","103101102","101106102","108100102","100109105","102104102","104100103","101104101","104101101","100109102","109102102","100114105","109106102","101107101","101108101","101102102","105100102","107103102","100114102","100114101","101101101"],"alertscategory":["SEVERE","SEVERE","SEVERE","WIND"],"alertssource":["it","it","it","it"],"alertstypeid":["IT312","IT312","IT312","IT169"],"cuhd":["61"],"cuhi":["72"],"cuuv":["4"],"cuwd":["15"],"cuwx":["3"],"realfeel":["70","a75","b75","c75","d80"],"fc1hi":["73"],"fc1lo":["53"],"fc1wx":["2"],"lfscategory":["mild"],"lfsday":["5"],"lfsseverity":["4"],"lfs":["4_mild_5"],"pt":["0"],"adunit":["/6581/web/it/bottom/weather/local_home"]},"customFloor":0.02,"Is_Buy_It_Now":false},"isBuyItNow":false},{"bidder":"google","params":{"sizes":"970x250,728x90,728x91,970x251,fluid","Is_Buy_It_Now":true},"isBuyItNow":true},{"bidder":"rubicon","params":{"accountId":12562,"siteId":135890,"zoneId":2745912,"position":"btf","userId":"7d695715xd89fx4158xab9bx5114c8ba51db","floor":0.15,"Is_Buy_It_Now":true},"isBuyItNow":true},{"bidder":"triplelift","params":{"inventoryCode":"Acccuweather_Prebid_Web_bottom_BIN","floor":0.15,"Is_Buy_It_Now":true},"isBuyItNow":true}],"slot":"bottom","adDivId":"bottom","adUnitCode":"/6581/web/it/bottom/weather/local_home","upr":0.05,"tid":"f8190e68-8974-4397-adb4-7a2228bce258"}},
+				adInfo: {"fdate":"20260421","lang":"it","ut":"1","advelvet":"7","inview":"ithurricane:wtr,wt,wn","bot":"0","pgview":"11","partner":"accuweather","ufdb":"IY0087","city":"Trivigliano","country":"IT","state":"62","dma":null,"key":"2278470","region":"eur","lat":"41.776","lon":"13.273","browser":"safari","connection":"dsl_vhigh_5000","wx_seg":"102103100,101100100,100108101,102101100,108101100,108102100,102100100,100111100,100100,101104101,109101100,107103101,108104100,101105100,101103100,102102102,100106104,109102100,101108101,107101100,109100100,103100100,103101101,107100100,108100100,109106100,105100100,109103100,101107101,110100100,104100103,102104102,100114105,101102102,104101101,110101102,109105100,100113103,108103101,101106102,100109105,101101101,100109102,109104100,100114101","alertscategory":"SEVERE,SEVERE,SEVERE,WIND","alertssource":"it,it,it,it","alertstypeid":"IT312,IT312,IT312,IT169","cuhd":"84","cuhi":"65","cuuv":"0","cuwd":"10","cuwx":"3","realfeel":"55","pt":"0","userid":"active","userid3p":"missing","sub":"free","auth":"false","site":"adc"},
+				adSlots: {"top_right":{"bidders":[{"bidder":"google","params":{"sizes":"300x250,300x600,160x600,120x600,fluid","Is_Buy_It_Now":false},"isBuyItNow":false},{"bidder":"rubicon","params":{"accountId":12562,"siteId":135890,"zoneId":2745920,"position":"atf","userId":"7d695715xd89fx4158xab9bx5114c8ba51db","floor":0.02,"Is_Buy_It_Now":false},"isBuyItNow":false},{"bidder":"triplelift","params":{"inventoryCode":"accuweather_d_topright_rectangle_pbjs","floor":0.02,"Is_Buy_It_Now":false},"isBuyItNow":false},{"bidder":"criteo","params":{"networkId":12212,"pubid":"3852","uid":"472390","bidFloor":0.02,"bidFloorCur":"USD","Is_Buy_It_Now":false},"isBuyItNow":false},{"bidder":"pubmatic","params":{"publisherId":"34576","adSlot":"Web_TopRight","lat":"41.78","lon":"13.27","kadfloor":"0.02","currency":"USD","Is_Buy_It_Now":false},"isBuyItNow":false},{"bidder":"ix","params":{"siteId":"197760","bidFloor":0.02,"bidFloorCur":"USD","Is_Buy_It_Now":false},"isBuyItNow":false},{"bidder":"openx","params":{"delDomain":"accuweather-d.openx.net","unit":"539580668","customParams":{"fdate":["20260421"],"advelvet":["7"],"pgview":["11"],"partner":["accuweather"],"ufdb":["IY0087"],"country":["IT"],"state":["62"],"wx_seg":["102103100","101100100","100108101","102101100","108101100","108102100","102100100","100111100","100100","101104101","109101100","107103101","108104100","101105100","101103100","102102102","100106104","109102100","101108101","107101100","109100100","103100100","103101101","107100100","108100100","109106100","105100100","109103100","101107101","110100100","104100103","102104102","100114105","101102102","104101101","110101102","109105100","100113103","108103101","101106102","100109105","101101101","100109102","109104100","100114101"],"alertscategory":["SEVERE","SEVERE","SEVERE","WIND"],"alertssource":["it","it","it","it"],"alertstypeid":["IT312","IT312","IT312","IT169"],"cuhd":["84"],"cuhi":["65"],"cuuv":["0"],"cuwd":["10"],"cuwx":["3"],"realfeel":["55"],"pt":["0"],"adunit":["/6581/web/it/top_right/news_info/hurricane"]},"customFloor":0.02,"Is_Buy_It_Now":false},"isBuyItNow":false},{"bidder":"ttd","params":{"supplySourceId":"accuweather","publisherId":"1","bidfloor":0.02,"currency":"USD","Is_Buy_It_Now":false},"isBuyItNow":false},{"bidder":"google","params":{"sizes":"300x250,300x600,160x600,120x600,fluid","Is_Buy_It_Now":true},"isBuyItNow":true},{"bidder":"rubicon","params":{"accountId":12562,"siteId":135890,"zoneId":2745916,"position":"atf","userId":"7d695715xd89fx4158xab9bx5114c8ba51db","floor":0.65,"Is_Buy_It_Now":true},"isBuyItNow":true},{"bidder":"triplelift","params":{"inventoryCode":"Acccuweather_Prebid_web_topright_BIN","floor":0.8,"Is_Buy_It_Now":true},"isBuyItNow":true}],"slot":"top_right","adDivId":"top_right","adUnitCode":"/6581/web/it/top_right/news_info/hurricane","upr":0.1,"tid":"874a0bfa-63f8-44ee-9341-9fcf8b9f7b6b"},"top":{"bidders":[{"bidder":"google","params":{"sizes":"970x250,728x90,fluid,970x90","Is_Buy_It_Now":false},"isBuyItNow":false},{"bidder":"rubicon","params":{"accountId":12562,"siteId":135890,"zoneId":640474,"position":"atf","userId":"7d695715xd89fx4158xab9bx5114c8ba51db","floor":0.02,"Is_Buy_It_Now":false},"isBuyItNow":false},{"bidder":"triplelift","params":{"inventoryCode":"accuweather_d_top_leaderboard_pbjs","floor":0.02,"Is_Buy_It_Now":false},"isBuyItNow":false},{"bidder":"criteo","params":{"networkId":12212,"pubid":"3852","uid":"472391","bidFloor":0.02,"bidFloorCur":"USD","Is_Buy_It_Now":false},"isBuyItNow":false},{"bidder":"pubmatic","params":{"publisherId":"34576","adSlot":"Web_Top","lat":"41.78","lon":"13.27","kadfloor":"0.02","currency":"USD","Is_Buy_It_Now":false},"isBuyItNow":false},{"bidder":"ix","params":{"siteId":"197759","bidFloor":0.02,"bidFloorCur":"USD","Is_Buy_It_Now":false},"isBuyItNow":false},{"bidder":"openx","params":{"delDomain":"accuweather-d.openx.net","unit":"539580665","customParams":{"fdate":["20260421"],"advelvet":["7"],"pgview":["11"],"partner":["accuweather"],"ufdb":["IY0087"],"country":["IT"],"state":["62"],"wx_seg":["102103100","101100100","100108101","102101100","108101100","108102100","102100100","100111100","100100","101104101","109101100","107103101","108104100","101105100","101103100","102102102","100106104","109102100","101108101","107101100","109100100","103100100","103101101","107100100","108100100","109106100","105100100","109103100","101107101","110100100","104100103","102104102","100114105","101102102","104101101","110101102","109105100","100113103","108103101","101106102","100109105","101101101","100109102","109104100","100114101"],"alertscategory":["SEVERE","SEVERE","SEVERE","WIND"],"alertssource":["it","it","it","it"],"alertstypeid":["IT312","IT312","IT312","IT169"],"cuhd":["84"],"cuhi":["65"],"cuuv":["0"],"cuwd":["10"],"cuwx":["3"],"realfeel":["55"],"pt":["0"],"adunit":["/6581/web/it/top/news_info/hurricane"]},"customFloor":0.02,"Is_Buy_It_Now":false},"isBuyItNow":false},{"bidder":"ttd","params":{"supplySourceId":"accuweather","publisherId":"1","bidfloor":0.02,"currency":"USD","Is_Buy_It_Now":false},"isBuyItNow":false},{"bidder":"google","params":{"sizes":"970x250,728x90,fluid,970x90","Is_Buy_It_Now":true},"isBuyItNow":true},{"bidder":"rubicon","params":{"accountId":12562,"siteId":135890,"zoneId":1518598,"position":"atf","userId":"7d695715xd89fx4158xab9bx5114c8ba51db","floor":0.65,"Is_Buy_It_Now":true},"isBuyItNow":true},{"bidder":"triplelift","params":{"inventoryCode":"Acccuweather_Prebid_web_top_BIN","floor":0.8,"Is_Buy_It_Now":true},"isBuyItNow":true}],"slot":"top","adDivId":"top","adUnitCode":"/6581/web/it/top/news_info/hurricane","upr":0.15,"tid":"1ff47e5a-d037-44f1-a3a4-d35f6afc96f1"},"oop":{"bidders":[{"bidder":"google","params":{"sizes":"oop","Is_Buy_It_Now":false},"isBuyItNow":false}],"slot":"oop","adDivId":"oop","adUnitCode":"/6581/web/it/oop/news_info/hurricane","upr":0.02,"tid":"2a81a1dd-5945-43b1-86da-ed6daaeae518"},"interstitial":{"bidders":[{"bidder":"google","params":{"sizes":"interstitial","Is_Buy_It_Now":false},"isBuyItNow":false}],"slot":"interstitial","adDivId":"interstitial","adUnitCode":"/6581/web/it/interstitial/news_info/hurricane","upr":3.25,"tid":"eb036e72-acca-4fad-8f25-550cb31f4e2a"},"native":{"bidders":[{"bidder":"google","params":{"sizes":"300x250,fluid,2x2","Is_Buy_It_Now":false},"isBuyItNow":false},{"bidder":"triplelift","params":{"inventoryCode":"accuweather_d_weather_native_pbjs","floor":0.02,"Is_Buy_It_Now":false},"isBuyItNow":false}],"slot":"native","adDivId":"native","adUnitCode":"/6581/web/it/native/news_info/hurricane","upr":0.05,"tid":"bda7d5bc-53d6-4ab1-a6f8-4409afc98d4a"}},
 				globalAdConfig: {"prebidTimeout":1000,"awxTimeout":1000,"gptEnableSingleRequest":false,"gptLazyLoading":"{fetchMarginPercent:150,renderMarginPercent:75,mobileScaling:1.0}","skipGoogleAdManager":true,"prebidBundleId":"a","testVariant":"","disableInitialAdLoad":true,"javascriptHead":"","javascriptBody":""},
-				ortbConfig: {"name":"AccuWeather","domain":"accuweather.com","categories":["IAB7","IAB10","IAB15","IAB20","223","274","390","464","653"],"sectionCategories":[""],"pageCategories":["IAB15-10","IAB20-14","IAB20-19","390","659"],"keywords":"","pageUrl":"","referrerUrl":"","isOptimizedForMobile":true,"hasPrivacyPolicy":true,"publisher":{"name":"AccuWeather","domain":"accuweather.com","categories":["IAB7","IAB10","IAB15","IAB20","223","274","390","464","653"]},"content":{"title":"","url":"","categories":["IAB15-10","IAB20-14","IAB20-19","390","659"],"productQuality":"1","context":"5","keywords":"","sourceRelationship":1,"language":"","data":{"name":"accuweather.com","extensions":{"segtax":"4"},"segments":[{"name":"id","value":"390"},{"name":"id","value":"659"}]}}},
+				ortbConfig: {"name":"AccuWeather","domain":"accuweather.com","categories":["IAB7","IAB10","IAB15","IAB20","223","274","390","464","653"],"sectionCategories":[""],"pageCategories":["IAB15-10","390"],"keywords":"","pageUrl":"","referrerUrl":"","isOptimizedForMobile":true,"hasPrivacyPolicy":true,"publisher":{"name":"AccuWeather","domain":"accuweather.com","categories":["IAB7","IAB10","IAB15","IAB20","223","274","390","464","653"]},"content":{"title":"","url":"","categories":["IAB15-10","390"],"productQuality":"1","context":"5","keywords":"","sourceRelationship":1,"language":"","data":{"name":"accuweather.com","extensions":{"segtax":"4"},"segments":[{"name":"id","value":"390"}]}}},
 				platform: 'web',
 				ppid: '7d695715xd89fx4158xab9bx5114c8ba51db',
-				userData: {"city":"SIZIANO","continent":2,"countryCode":"IT","county":"","lat":45.33,"long":9.2,"regionCode":"25","throughput":"vhigh","bw":"5000","networkType":"mobile","network":"fastweb","zipCodes":[{"primary":""}],"device":{"browserVersion":"26"}},
+				userData: {"city":"ROME","continent":2,"countryCode":"IT","county":"","lat":41.9,"long":12.48,"regionCode":"62","throughput":"vhigh","bw":"5000","networkType":"dsl","network":"fastweb","zipCodes":[{"primary":""}],"device":{"browserVersion":"26"}},
 			}
 		});
 	</script>
@@ -179,11 +159,11 @@ html_text = """<html lang="it" class="accuweather"><head>
   "postEventCta": true,
   "winterCenterMap": true
 };
-	var userCookie = {"cDate":"2026-04-16","isDarkMapStyle":false,"lang":"it","rl":["213490","226396","214046","212293"],"tp":"C","clk":"undefined","ccb":true,"userContentAffinity":{}};
-	var recentLocations = [{"adminArea":{"englishName":"Lazio","id":"62","localizedName":"Lazio"},"alertCount":0,"country":{"englishName":"Italy","id":"IT","localizedName":"Italia"},"icon":3,"key":"213490","localizedName":"Roma","postalCode":"","temp":"22°","realFeel":"23°","isDayTime":true},{"alertCount":0,"key":"226396","isDayTime":false},{"alertCount":0,"key":"214046","isDayTime":false},{"alertCount":0,"key":"212293","isDayTime":false}];
-	var currentLocation = {"plumeLabsLink":"https://air.plumelabs.com/air-quality-in-rome-diq2","englishName":"Rome","gmtOffset":2.0,"hasAlerts":true,"hasForecastConfidence":true,"hasPollen":true,"hasMinuteCast":true,"hasFutureRadar":true,"lat":41.901,"lon":12.48,"region":{"englishName":"Europe","id":"EUR","localizedName":"Europa"},"timeZone":"CEST","timeZoneCode":"CEST","administrativeArea":{"englishName":"Lazio","id":"62","localizedName":"Lazio"},"country":{"englishName":"Italy","id":"IT","localizedName":"Italia"},"key":"213490","localizedName":"Roma","primaryPostalCode":"","source":"AccuWeather"};
+	var userCookie = {"cDate":"2026-04-16","isDarkMapStyle":false,"lang":"it","rl":["2278470","212466","213490","226396","214046"],"tp":"C","clk":"undefined","ccb":true,"userContentAffinity":{}};
+	var recentLocations = [{"adminArea":{"englishName":"Lazio","id":"62","localizedName":"Lazio"},"alertCount":0,"country":{"englishName":"Italy","id":"IT","localizedName":"Italia"},"icon":3,"key":"2278470","localizedName":"Trivigliano","postalCode":"","temp":"15°","realFeel":"12°","isDayTime":true},{"alertCount":0,"key":"212466","isDayTime":false},{"alertCount":0,"key":"213490","isDayTime":false},{"alertCount":0,"key":"226396","isDayTime":false},{"alertCount":0,"key":"214046","isDayTime":false}];
+	var currentLocation = {"plumeLabsLink":"https://air.plumelabs.com/air-quality-in-trivigliano-aw-2278470","englishName":"Trivigliano","gmtOffset":2.0,"hasAlerts":true,"hasForecastConfidence":true,"hasPollen":true,"hasMinuteCast":true,"hasFutureRadar":true,"lat":41.776,"lon":13.273,"region":{"englishName":"Europe","id":"EUR","localizedName":"Europa"},"timeZone":"CEST","timeZoneCode":"CEST","administrativeArea":{"englishName":"Lazio","id":"62","localizedName":"Lazio"},"country":{"englishName":"Italy","id":"IT","localizedName":"Italia"},"key":"2278470","localizedName":"Trivigliano","primaryPostalCode":"","source":"AccuWeather"};
 	var weatherEvents = [];
-	var userData = {"city":"SIZIANO","continent":2,"countryCode":"IT","county":"","lat":45.33,"long":9.2,"regionCode":"25","throughput":"vhigh","bw":"5000","networkType":"mobile","network":"fastweb","zipCodes":[{"primary":""}],"device":{"browserVersion":"26"}};
+	var userData = {"city":"ROME","continent":2,"countryCode":"IT","county":"","lat":41.9,"long":12.48,"regionCode":"62","throughput":"vhigh","bw":"5000","networkType":"dsl","network":"fastweb","zipCodes":[{"primary":""}],"device":{"browserVersion":"26"}};
 	var maplibre = { style: 'https://accutilerprod.z14.web.core.windows.net/Styles/accu-light-row.json' };
 	var dts = { token: 'de13920f574d420984d3080b1fa6132b' };
 	setTimeout(function () {
@@ -206,7 +186,7 @@ html_text = """<html lang="it" class="accuweather"><head>
 
 	Object.assign(window.tagEngineDataLayer, {
 		isSPA: false,
-		pageGroup: "three-day",
+		pageGroup: "hurricane",
 		raine: {
 			raineV1Host: "https://raine.accuweather.com",
 			raineV2Host: "https://raine.accuweather.com",
@@ -215,7 +195,7 @@ html_text = """<html lang="it" class="accuweather"><head>
 				pageView: null,
 			},
 			raineV2: {
-				pageView: {"testGroup":"raine_variant","platformVersion":"2.3.27.0","pageInfo":{"group":"three-day","url":"/it/it/rome/213490/weather-forecast/213490","referrer":"https://www.google.com/"},"adInfo":{"code":"/6581/web/it/top/weather/local_home","status":"active","cookie3p":"missing"},"sessionInfo":{"id":"8f63c7d6-8835-4d66-9066-efe7c7cdfc4e","partner":"google_search_accuweather","utm":{}},"userInfo":{"userPartner":"","id":"aabb62c2-3a89-44c2-86c5-ead1b04c96df","language":"it","country":"IT","region":"25","city":"SIZIANO","start":"2026-04-16"},"isBot":false,"infra":"glacier","id":"110c0549-0bf9-4cfe-8280-84fd736489be","platform":"web","weather":{"key":"213490"},"device":{"name":"safari","brand":"Apple","version":"26","category":"desktop"},"time":"2026-04-21T14:02:04Z"},
+				pageView: {"testGroup":"raine_variant","platformVersion":"2.3.27.0","pageInfo":{"group":"hurricane","url":"/it/hurricane","referrer":"https://www.accuweather.com/"},"adInfo":{"code":"/6581/web/it/top/news_info/hurricane","status":"active","cookie3p":"missing"},"sessionInfo":{"id":"3a82a550-3395-4800-9578-843ceb876e41","utm":{}},"userInfo":{"userPartner":"","id":"aabb62c2-3a89-44c2-86c5-ead1b04c96df","language":"it","country":"IT","region":"62","city":"ROME","start":"2026-04-16"},"isBot":false,"infra":"glacier","id":"23bb4068-da56-42f3-8f71-2f0ffc485770","platform":"web","weather":{"key":"2278470"},"device":{"name":"safari","brand":"Apple","version":"26","category":"desktop"},"time":"2026-04-21T16:58:26Z"},
 			},
 		}
 	});
@@ -322,8 +302,10 @@ function getUserContentAffinity(categories) {
 		window.dataLayer = window.dataLayer || [];
 		function gtag() { dataLayer.push(arguments); }
 	</script>
-				<link rel="stylesheet" href="https://www.awxcdn.com/adc-assets/bundles/city.three-day-desktop.aba4addc70757dd0c0a5.css">
+				<link rel="stylesheet" href="https://www.awxcdn.com/adc-assets/bundles/Hurricane.hurricane-desktop.f7ef1e82292be2c48e1f.css">
+		<link rel="stylesheet" href="https://www.awxcdn.com/adc-assets/bundles/2833.bc5ccd6b0194900786d8.css">
 		<link rel="stylesheet" href="https://www.awxcdn.com/adc-assets/bundles/4207.67441d56684b2bca10e9.css">
+		<link rel="stylesheet" href="https://www.awxcdn.com/adc-assets/bundles/6432.202437dd46eeca5b74e6.css">
 
 				<link rel="stylesheet" href="https://www.awxcdn.com/adc-assets/bundles/legacy-header.db68efe94cf86bd9e422.css">
 
@@ -361,7 +343,7 @@ function getUserContentAffinity(categories) {
 
 
 	
-<meta http-equiv="origin-trial" content="AlK2UR5SkAlj8jjdEc9p3F3xuFYlF6LYjAML3EOqw1g26eCwWPjdmecULvBH5MVPoqKYrOfPhYVL71xAXI1IBQoAAAB8eyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiV2ViVmlld1hSZXF1ZXN0ZWRXaXRoRGVwcmVjYXRpb24iLCJleHBpcnkiOjE3NTgwNjcxOTksImlzU3ViZG9tYWluIjp0cnVlfQ=="><meta http-equiv="origin-trial" content="Amm8/NmvvQfhwCib6I7ZsmUxiSCfOxWxHayJwyU1r3gRIItzr7bNQid6O8ZYaE1GSQTa69WwhPC9flq/oYkRBwsAAACCeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiV2ViVmlld1hSZXF1ZXN0ZWRXaXRoRGVwcmVjYXRpb24iLCJleHBpcnkiOjE3NTgwNjcxOTksImlzU3ViZG9tYWluIjp0cnVlfQ=="><meta http-equiv="origin-trial" content="A9nrunKdU5m96PSN1XsSGr3qOP0lvPFUB2AiAylCDlN5DTl17uDFkpQuHj1AFtgWLxpLaiBZuhrtb2WOu7ofHwEAAACKeyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiQUlQcm9tcHRBUElNdWx0aW1vZGFsSW5wdXQiLCJleHBpcnkiOjE3NzQzMTA0MDAsImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"><meta http-equiv="origin-trial" content="A93bovR+QVXNx2/38qDbmeYYf1wdte9EO37K9eMq3r+541qo0byhYU899BhPB7Cv9QqD7wIbR1B6OAc9kEfYCA4AAACQeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiQUlQcm9tcHRBUElNdWx0aW1vZGFsSW5wdXQiLCJleHBpcnkiOjE3NzQzMTA0MDAsImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"><meta http-equiv="origin-trial" content="A1S5fojrAunSDrFbD8OfGmFHdRFZymSM/1ss3G+NEttCLfHkXvlcF6LGLH8Mo5PakLO1sCASXU1/gQf6XGuTBgwAAACQeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXRhZ3NlcnZpY2VzLmNvbTo0NDMiLCJmZWF0dXJlIjoiQUlQcm9tcHRBUElNdWx0aW1vZGFsSW5wdXQiLCJleHBpcnkiOjE3NzQzMTA0MDAsImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"><script src="https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202604210101/pubads_impl.js?cb=31098008" async=""></script><script type="text/javascript" async="" defer="" src="https://cdn.ketchjs.com/ketchtag/stable/v2.12/ketch-sdk.js"></script><style>#lanyard_root {
+<script type="text/javascript" async="" defer="" src="https://cdn.ketchjs.com/ketchtag/stable/v2.12/ketch-sdk.js"></script><meta http-equiv="origin-trial" content="AlK2UR5SkAlj8jjdEc9p3F3xuFYlF6LYjAML3EOqw1g26eCwWPjdmecULvBH5MVPoqKYrOfPhYVL71xAXI1IBQoAAAB8eyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiV2ViVmlld1hSZXF1ZXN0ZWRXaXRoRGVwcmVjYXRpb24iLCJleHBpcnkiOjE3NTgwNjcxOTksImlzU3ViZG9tYWluIjp0cnVlfQ=="><meta http-equiv="origin-trial" content="Amm8/NmvvQfhwCib6I7ZsmUxiSCfOxWxHayJwyU1r3gRIItzr7bNQid6O8ZYaE1GSQTa69WwhPC9flq/oYkRBwsAAACCeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiV2ViVmlld1hSZXF1ZXN0ZWRXaXRoRGVwcmVjYXRpb24iLCJleHBpcnkiOjE3NTgwNjcxOTksImlzU3ViZG9tYWluIjp0cnVlfQ=="><meta http-equiv="origin-trial" content="A9nrunKdU5m96PSN1XsSGr3qOP0lvPFUB2AiAylCDlN5DTl17uDFkpQuHj1AFtgWLxpLaiBZuhrtb2WOu7ofHwEAAACKeyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiQUlQcm9tcHRBUElNdWx0aW1vZGFsSW5wdXQiLCJleHBpcnkiOjE3NzQzMTA0MDAsImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"><meta http-equiv="origin-trial" content="A93bovR+QVXNx2/38qDbmeYYf1wdte9EO37K9eMq3r+541qo0byhYU899BhPB7Cv9QqD7wIbR1B6OAc9kEfYCA4AAACQeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiQUlQcm9tcHRBUElNdWx0aW1vZGFsSW5wdXQiLCJleHBpcnkiOjE3NzQzMTA0MDAsImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"><meta http-equiv="origin-trial" content="A1S5fojrAunSDrFbD8OfGmFHdRFZymSM/1ss3G+NEttCLfHkXvlcF6LGLH8Mo5PakLO1sCASXU1/gQf6XGuTBgwAAACQeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXRhZ3NlcnZpY2VzLmNvbTo0NDMiLCJmZWF0dXJlIjoiQUlQcm9tcHRBUElNdWx0aW1vZGFsSW5wdXQiLCJleHBpcnkiOjE3NzQzMTA0MDAsImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"><script src="https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202604090101/pubads_impl.js?cb=31097905" async=""></script><script id="elements-player-script" src="//cd.connatix.com/connatix.player.js" async="" type="text/javascript"></script><style>#lanyard_root {
   *, ::before, ::after {
     --tw-border-spacing-x: 0;
     --tw-border-spacing-y: 0;
@@ -3485,9 +3467,9 @@ function getUserContentAffinity(categories) {
       #lanyard_root[data-screen*="TIZEN"] *:focus-visible { outline: 3px solid #9c63ff; }
     }
 }
-</style><style>.root__A7aXF{text-align:left}.root__A7aXF *{-webkit-box-sizing:border-box;box-sizing:border-box;font-family:Arial,Helvetica,sans-serif;font-weight:normal}</style><style>.root__H_E27{margin:0;position:fixed;width:48px;height:48px;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;border:none;border-radius:50%;-webkit-box-shadow:none;box-shadow:none;cursor:pointer;overflow:hidden;-webkit-transition:opacity .25s linear;transition:opacity .25s linear;z-index:2147483647}.root__H_E27:hover{opacity:.9}.icon__HrAtF{max-width:32px;max-height:32px}.bottomRight__ILequ{right:16px;bottom:16px}.bottomLeft__iB1Ik{left:16px;bottom:16px}</style><script src="https://securepubads.g.doubleclick.net/gampad/adx?iu=/6581/web/it/video_player/weather/local_home&amp;sz=3x3&amp;c=1776780126743&amp;m=text/javascript&amp;t=fdate%3D20260421%26lang%3Dit%26ut%3D1%26advelvet%3D15%26inview%3Dititrome213490weather-forecast213490%253Awtr%252Cwbr%252Cwt%26bot%3D0%26pgview%3D10%26partner%3Dgoogle_search_accuweather%26ufdb%3DLII7%26city%3DRome%26country%3DIT%26state%3D62%26dma%3Dnull%26key%3D213490%26region%3Deur%26lat%3D41.901%26lon%3D12.48%26browser%3Dsafari%26connection%3Dmobile_vhigh_5000%26wx_seg%3D101100100%252C102102102%252C109101100%252C108102100%252C100108101%252C102100100%252C102101100%252C102103100%252C107100102%252C100111100%252C107101102%252C108103101%252C101103100%252C100113103%252C108104101%252C101105100%252C110100100%252C109104100%252C109105100%252C100106102%252C110101101%252C109100102%252C108101102%252C103100102%252C109103102%252C103101102%252C101106102%252C108100102%252C100109105%252C102104102%252C104100103%252C101104101%252C104101101%252C100109102%252C109102102%252C100114105%252C109106102%252C101107101%252C101108101%252C101102102%252C105100102%252C107103102%252C100114102%252C100114101%252C101101101%26alertscategory%3DSEVERE%252CSEVERE%252CSEVERE%252CWIND%26alertssource%3Dit%252Cit%252Cit%252Cit%26alertstypeid%3DIT312%252CIT312%252CIT312%252CIT169%26cuhd%3D61%26cuhi%3D72%26cuuv%3D4%26cuwd%3D15%26cuwx%3D3%26realfeel%3D70%252Ca75%252Cb75%252Cc75%252Cd80%26cuaq%3D3%26fc1hi%3D73%26fc1lo%3D53%26fc1wx%3D2%26lfscategory%3Dmild%26lfsday%3D5%26lfsseverity%3D4%26lfs%3D4_mild_5%26pt%3D846%26userid%3Dactive%26userid3p%3Dmissing%26sub%3Dfree%26auth%3Dfalse%26site%3Ddesktop%26hour%3D16%26viewport%3D1470x840%26iabctax%3DIAB15-10%252CIAB20-14%252CIAB20-19%252C390%252C659%26from%3Dnull%26idgraph%3Dshid%252Ccrt%252Clot&amp;ppid=7d695715xd89fx4158xab9bx5114c8ba51db&amp;userid3p=missing" id="videoPlayerAdUnitScript" async=""></script><script esp-signal="true" src="https://cdn.id5-sync.com/api/1.0/esp.js"></script><script src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5771594739411148" id="google_adsense_script" async="" data-checked-head="true"></script><meta http-equiv="origin-trial" content="AlK2UR5SkAlj8jjdEc9p3F3xuFYlF6LYjAML3EOqw1g26eCwWPjdmecULvBH5MVPoqKYrOfPhYVL71xAXI1IBQoAAAB8eyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiV2ViVmlld1hSZXF1ZXN0ZWRXaXRoRGVwcmVjYXRpb24iLCJleHBpcnkiOjE3NTgwNjcxOTksImlzU3ViZG9tYWluIjp0cnVlfQ=="><meta http-equiv="origin-trial" content="Amm8/NmvvQfhwCib6I7ZsmUxiSCfOxWxHayJwyU1r3gRIItzr7bNQid6O8ZYaE1GSQTa69WwhPC9flq/oYkRBwsAAACCeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiV2ViVmlld1hSZXF1ZXN0ZWRXaXRoRGVwcmVjYXRpb24iLCJleHBpcnkiOjE3NTgwNjcxOTksImlzU3ViZG9tYWluIjp0cnVlfQ=="><meta http-equiv="origin-trial" content="A9nrunKdU5m96PSN1XsSGr3qOP0lvPFUB2AiAylCDlN5DTl17uDFkpQuHj1AFtgWLxpLaiBZuhrtb2WOu7ofHwEAAACKeyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiQUlQcm9tcHRBUElNdWx0aW1vZGFsSW5wdXQiLCJleHBpcnkiOjE3NzQzMTA0MDAsImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"><meta http-equiv="origin-trial" content="A93bovR+QVXNx2/38qDbmeYYf1wdte9EO37K9eMq3r+541qo0byhYU899BhPB7Cv9QqD7wIbR1B6OAc9kEfYCA4AAACQeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiQUlQcm9tcHRBUElNdWx0aW1vZGFsSW5wdXQiLCJleHBpcnkiOjE3NzQzMTA0MDAsImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"><meta http-equiv="origin-trial" content="A1S5fojrAunSDrFbD8OfGmFHdRFZymSM/1ss3G+NEttCLfHkXvlcF6LGLH8Mo5PakLO1sCASXU1/gQf6XGuTBgwAAACQeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXRhZ3NlcnZpY2VzLmNvbTo0NDMiLCJmZWF0dXJlIjoiQUlQcm9tcHRBUElNdWx0aW1vZGFsSW5wdXQiLCJleHBpcnkiOjE3NzQzMTA0MDAsImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"></head>
+</style><style>.root__A7aXF{text-align:left}.root__A7aXF *{-webkit-box-sizing:border-box;box-sizing:border-box;font-family:Arial,Helvetica,sans-serif;font-weight:normal}</style><style>.root__H_E27{margin:0;position:fixed;width:48px;height:48px;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;border:none;border-radius:50%;-webkit-box-shadow:none;box-shadow:none;cursor:pointer;overflow:hidden;-webkit-transition:opacity .25s linear;transition:opacity .25s linear;z-index:2147483647}.root__H_E27:hover{opacity:.9}.icon__HrAtF{max-width:32px;max-height:32px}.bottomRight__ILequ{right:16px;bottom:16px}.bottomLeft__iB1Ik{left:16px;bottom:16px}</style><script src="//cds.connatix.com/p/plugins/prebid-cache-scraper-3.js" async="" type="text/javascript"></script><script src="https://securepubads.g.doubleclick.net/gampad/adx?iu=/6581/web/it/video_player/news_info/hurricane&amp;sz=3x3&amp;c=1776790707629&amp;m=text/javascript&amp;t=fdate%3D20260421%26lang%3Dit%26ut%3D1%26advelvet%3D7%26inview%3Dithurricane%253Awtr%252Cwt%252Cwn%26bot%3D0%26pgview%3D24%26partner%3Daccuweather%26ufdb%3DIY0087%26city%3DTrivigliano%26country%3DIT%26state%3D62%26dma%3Dnull%26key%3D2278470%26region%3Deur%26lat%3D41.776%26lon%3D13.273%26browser%3Dsafari%26connection%3Ddsl_vhigh_5000%26wx_seg%3D102103100%252C101100100%252C100108101%252C102101100%252C108101100%252C108102100%252C102100100%252C100111100%252C100100%252C101104101%252C109101100%252C107103101%252C108104100%252C101105100%252C101103100%252C102102102%252C100106104%252C109102100%252C101108101%252C107101100%252C109100100%252C103100100%252C103101101%252C107100100%252C108100100%252C109106100%252C105100100%252C109103100%252C101107101%252C110100100%252C104100103%252C102104102%252C100114105%252C101102102%252C104101101%252C110101102%252C109105100%252C100113103%252C108103101%252C101106102%252C100109105%252C101101101%252C100109102%252C109104100%252C100114101%26alertscategory%3DSEVERE%252CSEVERE%252CSEVERE%252CWIND%26alertssource%3Dit%252Cit%252Cit%252Cit%26alertstypeid%3DIT312%252CIT312%252CIT312%252CIT169%26cuhd%3D84%26cuhi%3D65%26cuuv%3D0%26cuwd%3D10%26cuwx%3D3%26realfeel%3D55%26pt%3D4%26userid%3Dactive%26userid3p%3Dmissing%26sub%3Dfree%26auth%3Dfalse%26site%3Ddesktop%26hour%3D18%26viewport%3D1470x840%26iabctax%3DIAB15-10%252C390%26from%3Dnull%26idgraph%3Dcrt&amp;ppid=7d695715xd89fx4158xab9bx5114c8ba51db&amp;userid3p=missing" id="videoPlayerAdUnitScript" async=""></script><script esp-signal="true" src="https://cdn.id5-sync.com/api/1.0/esp.js"></script></head>
 
-<body class="three-day    full-animation rfphrase-disabled">
+<body class="hurricane white-background   full-animation rfphrase-disabled">
 	<div class="template-root" style="display:none">
 		<div class="basic-header   " style="visibility: hidden;">
 
@@ -3508,9 +3490,9 @@ function getUserContentAffinity(categories) {
 			</a>
 
 			
-				<a class="header-city-link" href="/it/it/rome/213490/weather-forecast/213490">
-					<h1 class="header-loc">Roma, Lazio</h1>
-					<span class="header-temp">22°<span class="unit">C</span></span>
+				<a class="header-city-link" href="/it/it/trivigliano/2278470/weather-forecast/2278470">
+					<h1 class="header-loc">Trivigliano, Lazio</h1>
+					<span class="header-temp">15°<span class="unit">C</span></span>
 					<img class="header-weather-icon" src="/images/weathericons/v2a/03.svg" width="27" height="27">
 				</a>
 
@@ -3542,13 +3524,29 @@ function getUserContentAffinity(categories) {
 		
 		<div class="recent-locations-dropdown">
 			<div class="recent-title">Recenti</div>
-				<a class="recent-location" data-location-key="213490" data-fetch="false" data-place-name="" href="/web-api/three-day-redirect?key=213490&amp;target=">
+				<a class="recent-location" data-location-key="2278470" data-fetch="false" data-place-name="" href="/web-api/three-day-redirect?key=2278470&amp;target=">
 					<div class="recent-location__title-wrapper">
-						<p class="recent-location__name">Roma</p>
+						<p class="recent-location__name">Trivigliano</p>
 						<p class="recent-location__admin">Lazio</p>
 					</div>
 					<img class="recent-location__icon" src="/images/weathericons/v2a/03.svg" width="32" height="32">
-					<span class="recent-location__temp">22°</span>
+					<span class="recent-location__temp">15°</span>
+				</a>
+				<a class="recent-location" data-location-key="212466" data-fetch="true" data-place-name="" href="/web-api/three-day-redirect?key=212466&amp;target=">
+					<div class="recent-location__title-wrapper">
+						<p class="recent-location__name"></p>
+						<p class="recent-location__admin"></p>
+					</div>
+					
+					<span class="recent-location__temp"></span>
+				</a>
+				<a class="recent-location" data-location-key="213490" data-fetch="true" data-place-name="" href="/web-api/three-day-redirect?key=213490&amp;target=">
+					<div class="recent-location__title-wrapper">
+						<p class="recent-location__name"></p>
+						<p class="recent-location__admin"></p>
+					</div>
+					
+					<span class="recent-location__temp"></span>
 				</a>
 				<a class="recent-location" data-location-key="226396" data-fetch="true" data-place-name="" href="/web-api/three-day-redirect?key=226396&amp;target=">
 					<div class="recent-location__title-wrapper">
@@ -3559,14 +3557,6 @@ function getUserContentAffinity(categories) {
 					<span class="recent-location__temp"></span>
 				</a>
 				<a class="recent-location" data-location-key="214046" data-fetch="true" data-place-name="" href="/web-api/three-day-redirect?key=214046&amp;target=">
-					<div class="recent-location__title-wrapper">
-						<p class="recent-location__name"></p>
-						<p class="recent-location__admin"></p>
-					</div>
-					
-					<span class="recent-location__temp"></span>
-				</a>
-				<a class="recent-location" data-location-key="212293" data-fetch="true" data-place-name="" href="/web-api/three-day-redirect?key=212293&amp;target=">
 					<div class="recent-location__title-wrapper">
 						<p class="recent-location__name"></p>
 						<p class="recent-location__admin"></p>
@@ -3621,17 +3611,17 @@ function getUserContentAffinity(categories) {
 		<a class="header-link" target="_blank" href="https://support.accuweather.com/faq/">
 			Guida
 		</a>
-		<div class="header-loc-weather">Meteo di Roma, Lazio</div>
-			<a data-page-id="three-day" data-ga-page-id="today" class="header-link active" href="/it/it/rome/213490/weather-forecast/213490">Oggi</a>
-			<a data-page-id="wintercast" data-ga-page-id="wintercast" class="header-link nav-red-dot hidden winter-link " href="/it/it/rome/213490/winter-weather-forecast/213490">WinterCast</a>
-			<a data-page-id="tropical" data-ga-page-id="local_{stormName}_tracker" class="header-link nav-red-tropical-image northern side-item hidden tropical-link " href="/it/it/rome/213490/tropical-weather-forecast/213490?eventkey={eventkey}">Tracciamento locale di {stormName}</a>
-			<a data-page-id="hourly" data-ga-page-id="hourly" class="header-link " href="/it/it/rome/213490/hourly-weather-forecast/213490">Orario</a>
-			<a data-page-id="daily" data-ga-page-id="daily" class="header-link " href="/it/it/rome/213490/10-day-weather-forecast/213490">10 giorni</a>
-			<a data-page-id="city-radar" data-ga-page-id="radar" class="header-link " href="/it/it/rome/213490/weather-radar/213490">Radar</a>
-			<a data-page-id="minutecast" data-ga-page-id="minutecast" class="header-link " href="/it/it/rome/213490/minute-weather-forecast/213490">MinuteCast®</a>
-			<a data-page-id="monthly" data-ga-page-id="monthly" class="header-link " href="/it/it/rome/213490/april-weather/213490">Mensile</a>
-			<a data-page-id="air-quality" data-ga-page-id="air_quality" class="header-link " href="/it/it/rome/213490/air-quality-index/213490">Qualità dell'aria</a>
-			<a data-page-id="lifestyle-home" data-ga-page-id="health_and_activities" class="header-link " href="/it/it/rome/213490/health-activities/213490">Salute e attività</a>
+		<div class="header-loc-weather">Meteo di Trivigliano, Lazio</div>
+			<a data-page-id="three-day" data-ga-page-id="today" class="header-link " href="/it/it/trivigliano/2278470/weather-forecast/2278470">Oggi</a>
+			<a data-page-id="wintercast" data-ga-page-id="wintercast" class="header-link nav-red-dot hidden winter-link " href="/it/it/trivigliano/2278470/winter-weather-forecast/2278470">WinterCast</a>
+			<a data-page-id="tropical" data-ga-page-id="local_{stormName}_tracker" class="header-link nav-red-tropical-image northern side-item hidden tropical-link " href="/it/it/trivigliano/2278470/tropical-weather-forecast/2278470?eventkey={eventkey}">Tracciamento locale di {stormName}</a>
+			<a data-page-id="hourly" data-ga-page-id="hourly" class="header-link " href="/it/it/trivigliano/2278470/hourly-weather-forecast/2278470">Orario</a>
+			<a data-page-id="daily" data-ga-page-id="daily" class="header-link " href="/it/it/trivigliano/2278470/10-day-weather-forecast/2278470">10 giorni</a>
+			<a data-page-id="city-radar" data-ga-page-id="radar" class="header-link " href="/it/it/trivigliano/2278470/weather-radar/2278470">Radar</a>
+			<a data-page-id="minutecast" data-ga-page-id="minutecast" class="header-link " href="/it/it/trivigliano/2278470/minute-weather-forecast/2278470">MinuteCast®</a>
+			<a data-page-id="monthly" data-ga-page-id="monthly" class="header-link " href="/it/it/trivigliano/2278470/april-weather/2278470">Mensile</a>
+			<a data-page-id="air-quality" data-ga-page-id="air_quality" class="header-link " href="/it/it/trivigliano/2278470/air-quality-index/2278470">Qualità dell'aria</a>
+			<a data-page-id="lifestyle-home" data-ga-page-id="health_and_activities" class="header-link " href="/it/it/trivigliano/2278470/health-activities/2278470">Salute e attività</a>
 		
 <div class="more-cta-links ">
 	<h2 class="more-cta-title">
@@ -3661,7 +3651,7 @@ function getUserContentAffinity(categories) {
 
 	<div class="page-subnav">
 		
-	<div class="subnav secondary-nav" data-gatype="city">
+<div class="subnav secondary-nav" data-gatype="severe">
 	<div class="overflow overflow-left" data-qa="leftArrow">
 		<svg class="arrow chevron-icon left" xmlns="http://www.w3.org/2000/svg" width="10" height="6" viewBox="0 0 10 6"><path d="M10 .969L9.037 0 5 4.063.963 0 0 .969 5 6z"></path></svg>
 	</div>
@@ -3669,29 +3659,11 @@ function getUserContentAffinity(categories) {
 		<svg class="arrow chevron-icon right" xmlns="http://www.w3.org/2000/svg" width="10" height="6" viewBox="0 0 10 6"><path d="M10 .969L9.037 0 5 4.063.963 0 0 .969 5 6z"></path></svg>
 	</div>
 	<div class="subnav-items">
-				<a class="subnav-item active" href="/it/it/rome/213490/weather-forecast/213490" data-qa="now" data-gaid="now" data-pageid="three-day">
-						<h2>Oggi</h2>
+				<a class="subnav-item active tropical nav-red-tropical-image northern" href="/it/hurricane" data-qa="hurricane" data-gaid="hurricane" data-pageid="hurricane">
+						<h1>Tracciamento uragani</h1>
 				</a>
-				<a class="subnav-item " href="/it/it/rome/213490/hourly-weather-forecast/213490" data-qa="hourly" data-gaid="hourly" data-pageid="hourly">
-						<span>Orario</span>
-				</a>
-				<a class="subnav-item " href="/it/it/rome/213490/10-day-weather-forecast/213490" data-qa="daily" data-gaid="daily" data-pageid="daily">
-						<span>10 giorni</span>
-				</a>
-				<a class="subnav-item " href="/it/it/rome/213490/weather-radar/213490" data-qa="radar" data-gaid="radar" data-pageid="city-radar">
-						<span>Radar</span>
-				</a>
-				<a class="subnav-item " href="/it/it/rome/213490/minute-weather-forecast/213490" data-qa="minutecast" data-gaid="minutecast" data-pageid="minutecast">
-						<span>MinuteCast®</span>
-				</a>
-				<a class="subnav-item " href="/it/it/rome/213490/april-weather/213490" data-qa="monthly" data-gaid="monthly" data-pageid="monthly">
-						<span>Mensile</span>
-				</a>
-				<a class="subnav-item " href="/it/it/rome/213490/air-quality-index/213490" data-qa="airQuality" data-gaid="airQuality" data-pageid="air-quality">
-						<span>Qualità dell'aria</span>
-				</a>
-				<a class="subnav-item " href="/it/it/rome/213490/health-activities/213490" data-qa="lifestyles" data-gaid="lifestyles" data-pageid="lifestyle-home">
-						<span>Salute e attività</span>
+				<a class="subnav-item " href="/it/it/severe-weather" data-qa="severe" data-gaid="severe" data-pageid="severe-weather">
+						<span>Clima avverso</span>
 				</a>
 		<div class="subnav-item filler"></div>
 	</div>
@@ -3703,20 +3675,20 @@ function getUserContentAffinity(categories) {
 
 	</div>
 	
-		<div class="glacier-ad unrendered top config-top content-module" ad-type="top" id="top" data-google-query-id="CO6hvOKN_5MDFRjVEQgd9SY4Aw"><script src="https://securepubads.g.doubleclick.net/gampad/adx?iu=/6581/web/postbid/top/weather/local_home&amp;sz=970x250&amp;c=1776780127&amp;t=fdate%3D20260421%26lang%3Dit%26ut%3D1%26advelvet%3D15%26inview%3Dititrome213490weather-forecast213490%3Awtr%2Cwbr%2Cwt%26bot%3D0%26pgview%3D10%26partner%3Dgoogle_search_accuweather%26ufdb%3DLII7%26city%3DRome%26country%3DIT%26state%3D62%26dma%3Dnull%26key%3D213490%26region%3Deur%26lat%3D41.901%26lon%3D12.48%26browser%3Dsafari%26connection%3Dmobile_vhigh_5000%26wx_seg%3D101100100%2C102102102%2C109101100%2C108102100%2C100108101%2C102100100%2C102101100%2C102103100%2C107100102%2C100111100%2C107101102%2C108103101%2C101103100%2C100113103%2C108104101%2C101105100%2C110100100%2C109104100%2C109105100%2C100106102%2C110101101%2C109100102%2C108101102%2C103100102%2C109103102%2C103101102%2C101106102%2C108100102%2C100109105%2C102104102%2C104100103%2C101104101%2C104101101%2C100109102%2C109102102%2C100114105%2C109106102%2C101107101%2C101108101%2C101102102%2C105100102%2C107103102%2C100114102%2C100114101%2C101101101%26alertscategory%3DSEVERE%2CSEVERE%2CSEVERE%2CWIND%26alertssource%3Dit%2Cit%2Cit%2Cit%26alertstypeid%3DIT312%2CIT312%2CIT312%2CIT169%26cuhd%3D61%26cuhi%3D72%26cuuv%3D4%26cuwd%3D15%26cuwx%3D3%26realfeel%3D70%2Ca75%2Cb75%2Cc75%2Cd80%26cuaq%3D3%26fc1hi%3D73%26fc1lo%3D53%26fc1wx%3D2%26lfscategory%3Dmild%26lfsday%3D5%26lfsseverity%3D4%26lfs%3D4_mild_5%26pt%3D846%26userid%3Dactive%26userid3p%3Dmissing%26sub%3Dfree%26auth%3Dfalse%26site%3Ddesktop%26hour%3D16%26viewport%3D1470x840%26iabctax%3DIAB15-10%2CIAB20-14%2CIAB20-19%2C390%2C659%26from%3Dnull%26idgraph%3Dshid%2Ccrt%2Clot%26interstitial%3D0%26upr%3D0.15%26upr_0%3D0.50%26upr_auction%3Dprebid%26userid3pbid%3Dmissing-0.50%26hb_bid_1st%3D0.30%26hb_bid_2nd%3D0.20%26ppid%3D7d695715xd89fx4158xab9bx5114c8ba51db&amp;m=text/javascript"></script><ins class="adsbygoogle" style="display:inline-block;margin:0 auto;width:970px;height:250px;" data-ad-client="ca-pub-5771594739411148" data-ad-slot="4150593412" data-adsbygoogle-status="done" data-ad-status="filled"><div id="aswift_1_host" style="border: medium; height: 250px; width: 970px; margin: 0px; padding: 0px; position: relative; visibility: visible; background-color: transparent; display: inline-block;"><iframe id="aswift_1" name="aswift_1" style="left:0;position:absolute;top:0;border:0;width:970px;height:250px;min-height:auto;max-height:none;min-width:auto;max-width:none;" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" width="970" height="250" frameborder="0" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" src="https://googleads.g.doubleclick.net/pagead/ads?gdpr=1&amp;us_privacy=1---&amp;gdpr_consent=CQjA2wAQjA2wAFUABAENCbFsAP_gAEPgACiQJzQKwAAwAKAAyAB4AIAAVgAuADIAHAAQAAkABkADQAIoASQAmABRAC3AF4AXwAwgCAAEFAI4AjwBKACcAFIALkAZQA5wB3AEIAMaAacA6oB7QEagKbAVcAvMBjIDJAGTgPMAf4BGYCcwJzQJgAAwAKAAyAB4AIAAVgAuADIAHAAQAAkABkADQAIoATAAogBbgC8AL4AYQBAACCgEcAR4AnABSADKAHOAO4AhABjQDTgHtAU2Aq4BeYDGQGSAMnAeYA_wCMwE5gAA.IJzQKwAAwAKAAyAB4AIAAVgAuADIAHAAQAAkABkADQAIoASQAmABRAC3AF4AXwAwgCAAEFAI4AjwBKACcAFIALkAZQA5wB3AEIAMaAacA6oB7QEagKbAVcAvMBjIDJAGTgPMAf4BGYCcwAAA.f_wACHwAAAAA&amp;addtl_consent=2~70.1092.3130&amp;gpp_sid=-1&amp;client=ca-pub-5771594739411148&amp;output=html&amp;h=250&amp;slotname=4150593412&amp;adk=219445339&amp;adf=3295086914&amp;pi=t.ma~as.4150593412&amp;w=970&amp;lmt=1776780127&amp;format=970x250&amp;url=https%3A%2F%2Fwww.accuweather.com%2Fit%2Fit%2Frome%2F213490%2Fweather-forecast%2F213490&amp;asro=0&amp;aiapmid=1&amp;aiactd=0&amp;aicctd=0&amp;ailctd=0&amp;aimartd=4&amp;aieuf=1&amp;aicrs=1&amp;abgtt=6&amp;dt=1776780127565&amp;bpp=1&amp;bdt=2908&amp;idt=30&amp;shv=r20260420&amp;mjsv=m202604160101&amp;ptt=9&amp;saldr=aa&amp;abxe=1&amp;cookie=ID%3D50b54bc676f3e279%3AT%3D1776353262%3ART%3D1776780126%3AS%3DALNI_MaYJn7Rj3fos7s6RW40iAkrmQwNRQ&amp;gpic=UID%3D000013a4a1bbcb98%3AT%3D1776353262%3ART%3D1776780126%3AS%3DALNI_MauOrbmlYjxtpVhWC264qsoeA92Ow&amp;eo_id_str=ID%3D724a6266e0a68339%3AT%3D1776353262%3ART%3D1776780126%3AS%3DAA-Afjbd8FlTRWtWRf5qdeFKs2Ny&amp;prev_fmts=0x0&amp;nras=1&amp;correlator=1141719437555&amp;frm=20&amp;pv=1&amp;u_tz=120&amp;u_his=6&amp;u_h=833&amp;u_w=1470&amp;u_ah=833&amp;u_aw=1470&amp;u_cd=24&amp;u_sd=2&amp;adx=250&amp;ady=123&amp;biw=1470&amp;bih=833&amp;scr_x=0&amp;scr_y=0&amp;eid=95384087%2C95387623%2C95386955&amp;oid=2&amp;pvsid=6179872356847787&amp;tmod=680543130&amp;uas=1&amp;nvt=1&amp;fc=1920&amp;brdim=0%2C0%2C0%2C0%2C1470%2C0%2C1470%2C833%2C1470%2C833&amp;vis=1&amp;rsz=%7C%7CeoE%7C&amp;abl=CS&amp;pfx=0&amp;fu=0&amp;bc=31&amp;plas=241x658_l%7C241x658_r&amp;bz=1&amp;ifi=7&amp;uci=a!7&amp;fsb=1&amp;dtd=40" data-google-container-id="a!7" tabindex="0" title="Advertisement" aria-label="Advertisement" data-google-query-id="CK7b_-KN_5MDFedTFQgdAvEGdQ" data-load-complete="true"></iframe></div></ins></div>
+		<div id="top" data-google-query-id="CMyqzLG1_5MDFcAyVQgdMCgTLw" class="glacier-ad unrendered top config-top content-module" style="position: static; visibility: visible; opacity: 1;"><div id="google_ads_iframe_/6581/web/it/top/news_info/breaking_dawn_0__container__" style="border: 0pt; margin: auto; text-align: center; width: 970px; height: 250px;"><iframe frameborder="0" src="https://6543d0328726c4028247e79e4521086e.safeframe.googlesyndication.com/safeframe/1-0-45/html/container.html" id="google_ads_iframe_/6581/web/it/top/news_info/breaking_dawn_0" title="Contenuto dell'annuncio di terze parti" name="" scrolling="no" marginwidth="0" marginheight="0" width="970" height="250" data-is-safeframe="true" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" aria-label="Pubblicità" tabindex="0" data-google-container-id="6" data-load-complete="true" style="border: 0px; vertical-align: bottom;"></iframe></div></div>
 
 	
 	
-		<div class="glacier-ad unrendered oop config-oop " ad-type="oop" id="oop" data-google-query-id="CJGqwOKN_5MDFXCJgwcdwOwEwQ"><div id="google_ads_iframe_/6581/web/it/oop/weather/local_home_0__container__" style="border: 0pt; margin: auto; text-align: center;"></div></div>
+		<div class="glacier-ad unrendered oop config-oop " ad-type="oop" id="oop" data-google-query-id="CPmk6Ze1_5MDFamGgwcdV9kNwg"><div id="google_ads_iframe_/6581/web/it/oop/news_info/hurricane_0__container__" style="border: 0pt; margin: auto; text-align: center;"></div></div>
 
 		<div class="glacier-ad unrendered interstitial config-interstitial " ad-type="interstitial" id="interstitial"></div>
 
 	
 	<div class="two-column-page-content ">
 		<div class="page-column-1">
-			<div class="page-content content-module">
+			<div class="page-content ">
 				
-					<a href="/it/it/rome/213490/weather-warnings/213490" class="severe-alert-banner content-module lbar-banner">
+					<a href="/it/it/trivigliano/2278470/weather-warnings/2278470" class="severe-alert-banner content-module lbar-banner">
 	<svg class="severe-alert-banner__icon  alert-icon" xmlns="http://www.w3.org/2000/svg" width="25" height="22" viewBox="0 0 25 22"><path fill="#fff" d="M13.273.438L24.87 19.766c.36.6-.072 1.366-.773 1.366H.903c-.7 0-1.134-.765-.773-1.366L11.727.438c.35-.584 1.196-.584 1.546 0zm.129 14.638h-1.804v2.577h1.804v-2.577zm0-7.731h-1.804v6.442h1.804V7.345z" transform="translate(0 -8) translate(0 8)"></path></svg>
 	<span class="severe-alert-banner__count">4</span>
 	<div class="severe-alert-banner__separator"></div>
@@ -3726,656 +3698,149 @@ function getUserContentAffinity(categories) {
 
 				
 				
-
-	
-
-	<a class="cur-con-weather-card is-desktop lbar-panel content-module " href="/it/it/rome/213490/current-weather/213490">
-	<div class="title-container">
-		<h2 class="cur-con-weather-card__title">
-			Meteo attuale
-		</h2>
-		<p class="cur-con-weather-card__subtitle">
-			16:02
-		</p>
-	</div>
-	<div class="cur-con-weather-card__body">
-		<div class="cur-con-weather-card__panel">
-			<div class="forecast-container">
-				<img class="weather-icon" src="/images/weathericons/v2a/03.svg" width="88" height="88">
-				<div class="temp-container">
-					<div class="temp">22°<span class="after-temp">C</span></div>
-					<div class="real-feel">
-						RealFeel®
-						23°
-					</div>
-				</div>
-			</div>
-			<div>
-				<span class="phrase">Parzialmente soleggiato</span>
-				<span class="cur-con-weather-card__cta">
-					<span class="text">Altri dettagli</span>
-					<svg class="icon-chevron chevron-icon right" xmlns="http://www.w3.org/2000/svg" width="10" height="6" viewBox="0 0 10 6"><path d="M10 .969L9.037 0 5 4.063.963 0 0 .969 5 6z"></path></svg>
-				</span>
-			</div>
-		</div>
-		<div class="cur-con-weather-card__panel details-container">
-			<div class="spaced-content detail">
-				<span class="label">RealFeel Shade™</span>
-				<span class="value">20°</span>
-			</div>
-			<div class="spaced-content detail">
-				<span class="label">Vento</span>
-				<span class="value">SO 23 km/h</span>
-			</div>
-			<div class="spaced-content detail">
-				<span class="label">Raffiche vento</span>
-				<span class="value">40 km/h</span>
-			</div>
-			<div class="spaced-content detail">
-				<span class="label">Qualità dell'aria</span>
-				<span class="value" style="color: #FDB80D">Sfavorev.</span>
-			</div>
-		</div>
-	</div>
-</a>
-
-
-	
-
-	
+<div class="page-intro-2">
+	<div class="share" data-url="https://www.accuweather.com/it/hurricane" data-title="">
+	<div class="share-wrapper custom-share ">
 		
-<a class="local-forecast-summary" href="/it/it/rome/213490/daily-weather-forecast/213490?day=5">
-	<h2>Evoluzione</h2>
-	<p>Gradevole nel weekend</p>
-</a>
 
-	
-
-	
-	
-
-	
-<div class="recommended-map-container  " data-title="Roma - Radar meteo">
-	<h2 class="title">Roma - Radar meteo</h2>
-	
-
-<a class="base-map-cta card static-radar-map-recommended " href="/it/it/rome/213490/weather-radar/213490" data-title="Roma - Radar meteo">
-	
-	
-	<img alt="Roma - Radar meteo" class="component-image responsive-img lazy" data-src="https://api.accuweather.com/maps/v1/radar/static/globalSIR/tile?apikey=de13920f574d420984d3080b1fa6132b&amp;zoom=3&amp;lon=12.833&amp;lat=42.833&amp;imgwidth=768&amp;imgheight=432&amp;language=it&amp;base_data=radar" data-srcset="https://api.accuweather.com/maps/v1/radar/static/globalSIR/tile?apikey=de13920f574d420984d3080b1fa6132b&amp;zoom=3&amp;lon=12.833&amp;lat=42.833&amp;imgwidth=768&amp;imgheight=432&amp;language=it&amp;base_data=radar, https://api.accuweather.com/maps/v1/radar/static/globalSIR/tile?apikey=de13920f574d420984d3080b1fa6132b&amp;zoom=4&amp;lon=12.833&amp;lat=42.833&amp;imgwidth=480&amp;imgheight=270&amp;language=it&amp;base_data=radar" sizes="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAJAQMAAAAB5D5xAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAApJREFUCNdjwA0AABsAAQrj5HwAAAAASUVORK5CYII=" title="Roma - Radar meteo">
-
-	
-<div class="  map-error-message">
-	<div class="map-error-message-content">
-		<div class="error-heading"><span id="mapName">Static Radar</span> Temporarily Unavailable</div>
-		<div class="error-thanks">Thank you for your patience as we work to get everything up and running again.</div>
-		<div class="error-refresh" onclick="javascript: location.reload()">Refresh Page</div>
-	</div>
-</div>
-
-	
-</a>
-
-	<div class="cta-container">
 		
-<div class="recommended-maps">
-	<a href="/it/it/rome/213490/satellite/213490">	
-		<div class="recommended-maps__item">
-			<img src="https://www.awxcdn.com/adc-assets/images/components/maps/mapping-layers/realvue-satellite.jpg" height="40" width="40" class="recommended-maps__item-image">
-			<span class="recommended-maps__item-name">Nuvole</span>
-		</div>
-	</a>
-	<a href="/it/it/lazio/current-weather-maps">	
-		<div class="recommended-maps__item">
-			<img src="https://www.awxcdn.com/adc-assets/images/components/maps/mapping-layers/temperature.jpg" height="40" width="40" class="recommended-maps__item-image">
-			<span class="recommended-maps__item-name">Temperatura</span>
-		</div>
-	</a>
-</div>
-
-	</div>
-</div>
-
-
-	<div class="hourly-list-wrapper content-module">
-	<h2 class="hourly-list-header">Previsioni orarie</h2>
-	<div class="hourly-list has-arrow-right">
-		<button class="hourly-list__arrow hourly-list__arrow-left hide">
-			<svg class="icon-chevron left arrow" xmlns="http://www.w3.org/2000/svg" width="10" height="6" viewBox="0 0 10 6" role="img" aria-labelledby="chevronSVG">
-	<title id="chevronSVG">Chevron left</title>
-	<path d="M10 .969L9.037 0 5 4.063.963 0 0 .969 5 6z"></path>
-</svg>
-
-		</button>
-		<div class="hourly-list__list-wrapper">
-			<div class="hourly-list__list" style="transform: translateX(4px);">
-					<a class="hourly-list__list__item" href="/it/it/rome/213490/hourly-weather-forecast/213490?hour=1776783600">
-						<span class="hourly-list__list__item-time">
-17						</span>
-						<img class="hourly-list__list__item-icon" height="40" width="40" src="https://www.awxcdn.com/adc-assets/images/weathericons/v2a/1.svg">
-						<span class="hourly-list__list__item-temp">21°</span>
-						<div class="hourly-list__list__item-precip">
-							<img alt="rain drop" class="precip-icon" data-src="https://www.awxcdn.com/adc-assets/images/components/weather/hourly-card-nfl/drop-icon.svg">
-							<span>1%</span>
-						</div>
-					</a>
-					<a class="hourly-list__list__item" href="/it/it/rome/213490/hourly-weather-forecast/213490?hour=1776787200">
-						<span class="hourly-list__list__item-time">
-18						</span>
-						<img class="hourly-list__list__item-icon" height="40" width="40" src="https://www.awxcdn.com/adc-assets/images/weathericons/v2a/1.svg">
-						<span class="hourly-list__list__item-temp">21°</span>
-						<div class="hourly-list__list__item-precip">
-							<img alt="rain drop" class="precip-icon" data-src="https://www.awxcdn.com/adc-assets/images/components/weather/hourly-card-nfl/drop-icon.svg">
-							<span>1%</span>
-						</div>
-					</a>
-					<a class="hourly-list__list__item" href="/it/it/rome/213490/hourly-weather-forecast/213490?hour=1776790800">
-						<span class="hourly-list__list__item-time">
-19						</span>
-						<img class="hourly-list__list__item-icon" height="40" width="40" src="https://www.awxcdn.com/adc-assets/images/weathericons/v2a/1.svg">
-						<span class="hourly-list__list__item-temp">20°</span>
-						<div class="hourly-list__list__item-precip">
-							<img alt="rain drop" class="precip-icon" data-src="https://www.awxcdn.com/adc-assets/images/components/weather/hourly-card-nfl/drop-icon.svg">
-							<span>1%</span>
-						</div>
-					</a>
-					<a class="hourly-list__list__item" href="/it/it/rome/213490/hourly-weather-forecast/213490?hour=1776794400">
-						<span class="hourly-list__list__item-time">
-20						</span>
-						<img class="hourly-list__list__item-icon" height="40" width="40" src="https://www.awxcdn.com/adc-assets/images/weathericons/v2a/33.svg">
-						<span class="hourly-list__list__item-temp">18°</span>
-						<div class="hourly-list__list__item-precip">
-							<img alt="rain drop" class="precip-icon" data-src="https://www.awxcdn.com/adc-assets/images/components/weather/hourly-card-nfl/drop-icon.svg">
-							<span>2%</span>
-						</div>
-					</a>
-					<a class="hourly-list__list__item" href="/it/it/rome/213490/hourly-weather-forecast/213490?hour=1776798000">
-						<span class="hourly-list__list__item-time">
-21						</span>
-						<img class="hourly-list__list__item-icon" height="40" width="40" src="https://www.awxcdn.com/adc-assets/images/weathericons/v2a/33.svg">
-						<span class="hourly-list__list__item-temp">17°</span>
-						<div class="hourly-list__list__item-precip">
-							<img alt="rain drop" class="precip-icon" data-src="https://www.awxcdn.com/adc-assets/images/components/weather/hourly-card-nfl/drop-icon.svg">
-							<span>2%</span>
-						</div>
-					</a>
-					<a class="hourly-list__list__item" href="/it/it/rome/213490/hourly-weather-forecast/213490?hour=1776801600">
-						<span class="hourly-list__list__item-time">
-22						</span>
-						<img class="hourly-list__list__item-icon" height="40" width="40" src="https://www.awxcdn.com/adc-assets/images/weathericons/v2a/33.svg">
-						<span class="hourly-list__list__item-temp">15°</span>
-						<div class="hourly-list__list__item-precip">
-							<img alt="rain drop" class="precip-icon" data-src="https://www.awxcdn.com/adc-assets/images/components/weather/hourly-card-nfl/drop-icon.svg">
-							<span>2%</span>
-						</div>
-					</a>
-					<a class="hourly-list__list__item" href="/it/it/rome/213490/hourly-weather-forecast/213490?hour=1776805200">
-						<span class="hourly-list__list__item-time">
-23						</span>
-						<img class="hourly-list__list__item-icon" height="40" width="40" src="https://www.awxcdn.com/adc-assets/images/weathericons/v2a/33.svg">
-						<span class="hourly-list__list__item-temp">14°</span>
-						<div class="hourly-list__list__item-precip">
-							<img alt="rain drop" class="precip-icon" data-src="https://www.awxcdn.com/adc-assets/images/components/weather/hourly-card-nfl/drop-icon.svg">
-							<span>2%</span>
-						</div>
-					</a>
-					<a class="hourly-list__list__item" href="/it/it/rome/213490/hourly-weather-forecast/213490?hour=1776808800&amp;day=2">
-						<span class="hourly-list__list__item-time">
-00						</span>
-						<img class="hourly-list__list__item-icon" height="40" width="40" src="https://www.awxcdn.com/adc-assets/images/weathericons/v2a/33.svg">
-						<span class="hourly-list__list__item-temp">14°</span>
-						<div class="hourly-list__list__item-precip">
-							<img alt="rain drop" class="precip-icon" data-src="https://www.awxcdn.com/adc-assets/images/components/weather/hourly-card-nfl/drop-icon.svg">
-							<span>2%</span>
-						</div>
-					</a>
-					<a class="hourly-list__list__item" href="/it/it/rome/213490/hourly-weather-forecast/213490?hour=1776812400&amp;day=2">
-						<span class="hourly-list__list__item-time">
-01						</span>
-						<img class="hourly-list__list__item-icon" height="40" width="40" src="https://www.awxcdn.com/adc-assets/images/weathericons/v2a/34.svg">
-						<span class="hourly-list__list__item-temp">13°</span>
-						<div class="hourly-list__list__item-precip">
-							<img alt="rain drop" class="precip-icon" data-src="https://www.awxcdn.com/adc-assets/images/components/weather/hourly-card-nfl/drop-icon.svg">
-							<span>4%</span>
-						</div>
-					</a>
-					<a class="hourly-list__list__item hide" href="/it/it/rome/213490/hourly-weather-forecast/213490?hour=1776816000&amp;day=2">
-						<span class="hourly-list__list__item-time">
-02						</span>
-						<img class="hourly-list__list__item-icon" height="40" width="40" src="https://www.awxcdn.com/adc-assets/images/weathericons/v2a/34.svg">
-						<span class="hourly-list__list__item-temp">13°</span>
-						<div class="hourly-list__list__item-precip">
-							<img alt="rain drop" class="precip-icon" data-src="https://www.awxcdn.com/adc-assets/images/components/weather/hourly-card-nfl/drop-icon.svg">
-							<span>7%</span>
-						</div>
-					</a>
-					<a class="hourly-list__list__item hide" href="/it/it/rome/213490/hourly-weather-forecast/213490?hour=1776819600&amp;day=2">
-						<span class="hourly-list__list__item-time">
-03						</span>
-						<img class="hourly-list__list__item-icon" height="40" width="40" src="https://www.awxcdn.com/adc-assets/images/weathericons/v2a/34.svg">
-						<span class="hourly-list__list__item-temp">13°</span>
-						<div class="hourly-list__list__item-precip">
-							<img alt="rain drop" class="precip-icon" data-src="https://www.awxcdn.com/adc-assets/images/components/weather/hourly-card-nfl/drop-icon.svg">
-							<span>7%</span>
-						</div>
-					</a>
-					<a class="hourly-list__list__item hide" href="/it/it/rome/213490/hourly-weather-forecast/213490?hour=1776823200&amp;day=2">
-						<span class="hourly-list__list__item-time">
-04						</span>
-						<img class="hourly-list__list__item-icon" height="40" width="40" src="https://www.awxcdn.com/adc-assets/images/weathericons/v2a/35.svg">
-						<span class="hourly-list__list__item-temp">13°</span>
-						<div class="hourly-list__list__item-precip">
-							<img alt="rain drop" class="precip-icon" data-src="https://www.awxcdn.com/adc-assets/images/components/weather/hourly-card-nfl/drop-icon.svg">
-							<span>7%</span>
-						</div>
-					</a>
-			</div>
-		</div>
-		<button class="hourly-list__arrow hourly-list__arrow-right">
-			<svg class="icon-chevron right arrow" xmlns="http://www.w3.org/2000/svg" width="10" height="6" viewBox="0 0 10 6" role="img" aria-labelledby="chevronSVG">
-	<title id="chevronSVG">Chevron right</title>
-	<path d="M10 .969L9.037 0 5 4.063.963 0 0 .969 5 6z"></path>
-</svg>
-
-		</button>
-	</div>
-</div>
-
-
+			<span class="more-share all-collapsed">
+				
+		<div class="notification">Copia completata</div>
+		
+		<a id="shareEmail" class="share-button-margin" href="mailto:?subject=&amp;body=https://www.accuweather.com/it/hurricane">
+			<svg class="share-icon emailvariant share-button " xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 22 14"><g fill="#878787" fill-rule="evenodd"><path d="M22 .681L11.52 8.328c-.346.227-.694.227-.971 0L0 .681V13.78h22V.681z"></path><path d="M1.596 0l8.953 6.511c.277.227.625.227.972 0L20.404 0H1.596z"></path></g></svg>
+		</a>
+		<svg class="share-icon print share-button-margin share-button print-button " xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 19 18"><g fill="#878787" fill-rule="evenodd"><path fill-rule="nonzero" d="M16.745 4.8v3.178H2.427V4.8H0v9.044h2.427V18h14.108l.018-4.156h2.396L19 4.8h-2.255zm-2.184 11.489H4.368v-2.2h10.193v2.2z"></path><path d="M15.438 4.863V0H3.562v6h11.876z"></path></g></svg>
 	
-<div class="daily-list content-module">
-	<h2 class="daily-list-header">Previsioni giorno</h2>
-	<div class="daily-list-body">
-			<a class="daily-list-item has-alerts" href="/it/it/rome/213490/weather-today/213490">
-				<div class="date" style="width: 45px;">
-					<p class="day">Oggi</p>
-					<p>21/4</p>
-				</div>
-				<img class="icon" height="40" width="40" src="https://www.awxcdn.com/adc-assets/images/weathericons/v2a/2.svg">
-				<div class="temp-phrase-wrapper">
-					<div class="temp">
-						<span class="temp-hi">23°</span>
-						<span class="temp-lo">12°</span>
-					</div>
-				</div>
-				<div class="phrase">
-					<p class="no-wrap">Da soleggiato a parzialmente nuvoloso</p>
-					<span class="night">
-						<img class="night-icon" height="22" width="22" src="https://www.awxcdn.com/adc-assets/images/weathericons/v2a/34.svg">
-						<p class="no-wrap">Da sereno a parzialmente nuvoloso</p>
-					</span>
-				</div>
+				
+		<a id="shareFacebook" class="share-button-margin" data-track-click="Facebook" href="https://www.facebook.com/sharer/sharer.php?t=&amp;u=https://www.accuweather.com/it/hurricane" target="_blank">
+			<svg class="share-icon facebookvariant share-button " xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 36 36"><g fill="none"><path fill="none" d="M20.8 5.069c-9.946 0-11.514 4.3-11.514 14.247 0 8.092-1.997 5.082 5.346 7.352C16.315 27.188 16.145 36 18 36c1.72 0 3.383-.24 4.957-.69 2.408-.688 4.466-4.135 6.173-10.342 1.644-2.179 2.466-4.696 2.466-7.55 0-9.947-.85-12.35-10.796-12.35z"></path><path d="M18 0C8.053 0 0 8.053 0 18c0 9.893 7.987 17.933 17.867 18V23.653h-4.16V18.84h4.16v-3.547c0-4.12 2.52-6.36 6.186-6.36 1.76 0 3.267.134 3.707.187v4.307h-2.547c-2 0-2.386.946-2.386 2.346v3.067H27.6l-.627 4.813h-4.146v11.694C30.427 33.227 36 26.267 36 18c0-9.947-8.053-18-18-18" <="" g=""></path></g></svg>
+		</a>
 
-				<div class="precip">
-					<svg class="precip-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 16"><path fill="none" fill-rule="nonzero" stroke="#000" stroke-width=".714" d="M5.532.891c1.723.952 5.315 5.477 5.775 8.756.028 1.718-.534 3.101-1.45 4.082C8.888 14.766 7.52 15.357 6 15.357a5.532 5.532 0 0 1-3.74-1.425c-.975-.89-1.587-2.124-1.616-3.49.503-4.035 4.013-8.49 4.888-9.551Zm-1.815 7.33a.336.336 0 0 0-.025.043c-.322.62-.59 1.255-.695 2.207.012.408.143.787.358 1.111.234.352.568.641.96.839.035.017.071.021.106.017a.201.201 0 0 0 .104-.044l.01-.005-.078-.1c-.328-.415-.82-1.067-.82-1.946 0-.752.076-1.613.08-2.121Z"></path></svg>
-					14%
-				</div>
-			</a>
-			<a class="daily-list-item has-alerts" href="/it/it/rome/213490/weather-tomorrow/213490">
-				<div class="date" style="width: 45px;">
-					<p class="day">mer</p>
-					<p>22/4</p>
-				</div>
-				<img class="icon" height="40" width="40" src="https://www.awxcdn.com/adc-assets/images/weathericons/v2a/14.svg">
-				<div class="temp-phrase-wrapper">
-					<div class="temp">
-						<span class="temp-hi">20°</span>
-						<span class="temp-lo">8°</span>
-					</div>
-				</div>
-				<div class="phrase">
-					<p class="no-wrap">Uno o due brevi rovesci</p>
-					<span class="night">
-						<img class="night-icon" height="22" width="22" src="https://www.awxcdn.com/adc-assets/images/weathericons/v2a/35.svg">
-						<p class="no-wrap">Parzialmente nuvoloso</p>
-					</span>
-				</div>
+		<a id="shareTwitter" class="share-button-margin" data-track-click="Twitter" href="https://twitter.com/intent/tweet?text=&amp;url=https://www.accuweather.com/it/hurricane&amp;via=accuweather" target="_blank">
+			<svg class="share-icon twittervariant share-button " xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 20 16"><path fill="#878787" fill-rule="evenodd" d="M20 1.894a8.314 8.314 0 0 1-2.357.636A4.063 4.063 0 0 0 19.448.295a8.308 8.308 0 0 1-2.606.98A4.129 4.129 0 0 0 13.847 0C11.58 0 9.744 1.808 9.744 4.04c0 .315.036.624.106.92A11.711 11.711 0 0 1 1.393.739a3.975 3.975 0 0 0-.556 2.03c0 1.402.724 2.639 1.825 3.363a4.132 4.132 0 0 1-1.858-.505v.05c0 1.958 1.413 3.59 3.291 3.961a4.172 4.172 0 0 1-1.853.07c.522 1.604 2.037 2.772 3.833 2.805a8.316 8.316 0 0 1-5.096 1.729c-.332 0-.658-.02-.979-.056A11.75 11.75 0 0 0 6.29 16c7.548 0 11.674-6.155 11.674-11.493 0-.175-.003-.349-.011-.523A8.251 8.251 0 0 0 20 1.894"></path></svg>
+		</a>
 
-				<div class="precip">
-					<svg class="precip-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 16"><path fill="none" fill-rule="nonzero" stroke="#000" stroke-width=".714" d="M5.532.891c1.723.952 5.315 5.477 5.775 8.756.028 1.718-.534 3.101-1.45 4.082C8.888 14.766 7.52 15.357 6 15.357a5.532 5.532 0 0 1-3.74-1.425c-.975-.89-1.587-2.124-1.616-3.49.503-4.035 4.013-8.49 4.888-9.551Zm-1.815 7.33a.336.336 0 0 0-.025.043c-.322.62-.59 1.255-.695 2.207.012.408.143.787.358 1.111.234.352.568.641.96.839.035.017.071.021.106.017a.201.201 0 0 0 .104-.044l.01-.005-.078-.1c-.328-.415-.82-1.067-.82-1.946 0-.752.076-1.613.08-2.121Z"></path></svg>
-					57%
-				</div>
-			</a>
-			<a class="daily-list-item has-alerts" href="/it/it/rome/213490/daily-weather-forecast/213490?day=3">
-				<div class="date" style="width: 45px;">
-					<p class="day">gio</p>
-					<p>23/4</p>
-				</div>
-				<img class="icon" height="40" width="40" src="https://www.awxcdn.com/adc-assets/images/weathericons/v2a/1.svg">
-				<div class="temp-phrase-wrapper">
-					<div class="temp">
-						<span class="temp-hi">22°</span>
-						<span class="temp-lo">7°</span>
-					</div>
-				</div>
-				<div class="phrase">
-					<p class="no-wrap">Ampiamente soleggiato</p>
-					<span class="night">
-						<img class="night-icon" height="22" width="22" src="https://www.awxcdn.com/adc-assets/images/weathericons/v2a/33.svg">
-						<p class="no-wrap">Sereno</p>
-					</span>
-				</div>
-
-				<div class="precip">
-					<svg class="precip-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 16"><path fill="none" fill-rule="nonzero" stroke="#000" stroke-width=".714" d="M5.532.891c1.723.952 5.315 5.477 5.775 8.756.028 1.718-.534 3.101-1.45 4.082C8.888 14.766 7.52 15.357 6 15.357a5.532 5.532 0 0 1-3.74-1.425c-.975-.89-1.587-2.124-1.616-3.49.503-4.035 4.013-8.49 4.888-9.551Zm-1.815 7.33a.336.336 0 0 0-.025.043c-.322.62-.59 1.255-.695 2.207.012.408.143.787.358 1.111.234.352.568.641.96.839.035.017.071.021.106.017a.201.201 0 0 0 .104-.044l.01-.005-.078-.1c-.328-.415-.82-1.067-.82-1.946 0-.752.076-1.613.08-2.121Z"></path></svg>
-					0%
-				</div>
-			</a>
-			<a class="daily-list-item " href="/it/it/rome/213490/daily-weather-forecast/213490?day=4">
-				<div class="date" style="width: 45px;">
-					<p class="day">ven</p>
-					<p>24/4</p>
-				</div>
-				<img class="icon" height="40" width="40" src="https://www.awxcdn.com/adc-assets/images/weathericons/v2a/1.svg">
-				<div class="temp-phrase-wrapper">
-					<div class="temp">
-						<span class="temp-hi">23°</span>
-						<span class="temp-lo">8°</span>
-					</div>
-				</div>
-				<div class="phrase">
-					<p class="no-wrap">Sole splendente</p>
-					<span class="night">
-						<img class="night-icon" height="22" width="22" src="https://www.awxcdn.com/adc-assets/images/weathericons/v2a/33.svg">
-						<p class="no-wrap">Sereno</p>
-					</span>
-				</div>
-
-				<div class="precip">
-					<svg class="precip-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 16"><path fill="none" fill-rule="nonzero" stroke="#000" stroke-width=".714" d="M5.532.891c1.723.952 5.315 5.477 5.775 8.756.028 1.718-.534 3.101-1.45 4.082C8.888 14.766 7.52 15.357 6 15.357a5.532 5.532 0 0 1-3.74-1.425c-.975-.89-1.587-2.124-1.616-3.49.503-4.035 4.013-8.49 4.888-9.551Zm-1.815 7.33a.336.336 0 0 0-.025.043c-.322.62-.59 1.255-.695 2.207.012.408.143.787.358 1.111.234.352.568.641.96.839.035.017.071.021.106.017a.201.201 0 0 0 .104-.044l.01-.005-.078-.1c-.328-.415-.82-1.067-.82-1.946 0-.752.076-1.613.08-2.121Z"></path></svg>
-					0%
-				</div>
-			</a>
-			<a class="daily-list-item " href="/it/it/rome/213490/daily-weather-forecast/213490?day=5">
-				<div class="date" style="width: 45px;">
-					<p class="day">sab</p>
-					<p>25/4</p>
-				</div>
-				<img class="icon" height="40" width="40" src="https://www.awxcdn.com/adc-assets/images/weathericons/v2a/2.svg">
-				<div class="temp-phrase-wrapper">
-					<div class="temp">
-						<span class="temp-hi">25°</span>
-						<span class="temp-lo">10°</span>
-					</div>
-				</div>
-				<div class="phrase">
-					<p class="no-wrap">Da soleggiato a parzialmente nuvoloso</p>
-					<span class="night">
-						<img class="night-icon" height="22" width="22" src="https://www.awxcdn.com/adc-assets/images/weathericons/v2a/33.svg">
-						<p class="no-wrap">Sereno</p>
-					</span>
-				</div>
-
-				<div class="precip">
-					<svg class="precip-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 16"><path fill="none" fill-rule="nonzero" stroke="#000" stroke-width=".714" d="M5.532.891c1.723.952 5.315 5.477 5.775 8.756.028 1.718-.534 3.101-1.45 4.082C8.888 14.766 7.52 15.357 6 15.357a5.532 5.532 0 0 1-3.74-1.425c-.975-.89-1.587-2.124-1.616-3.49.503-4.035 4.013-8.49 4.888-9.551Zm-1.815 7.33a.336.336 0 0 0-.025.043c-.322.62-.59 1.255-.695 2.207.012.408.143.787.358 1.111.234.352.568.641.96.839.035.017.071.021.106.017a.201.201 0 0 0 .104-.044l.01-.005-.078-.1c-.328-.415-.82-1.067-.82-1.946 0-.752.076-1.613.08-2.121Z"></path></svg>
-					0%
-				</div>
-			</a>
-			<a class="daily-list-item " href="/it/it/rome/213490/daily-weather-forecast/213490?day=6">
-				<div class="date" style="width: 45px;">
-					<p class="day">dom</p>
-					<p>26/4</p>
-				</div>
-				<img class="icon" height="40" width="40" src="https://www.awxcdn.com/adc-assets/images/weathericons/v2a/1.svg">
-				<div class="temp-phrase-wrapper">
-					<div class="temp">
-						<span class="temp-hi">24°</span>
-						<span class="temp-lo">11°</span>
-					</div>
-				</div>
-				<div class="phrase">
-					<p class="no-wrap">Ampiamente soleggiato</p>
-					<span class="night">
-						<img class="night-icon" height="22" width="22" src="https://www.awxcdn.com/adc-assets/images/weathericons/v2a/34.svg">
-						<p class="no-wrap">Prevalentemente sereno</p>
-					</span>
-				</div>
-
-				<div class="precip">
-					<svg class="precip-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 16"><path fill="none" fill-rule="nonzero" stroke="#000" stroke-width=".714" d="M5.532.891c1.723.952 5.315 5.477 5.775 8.756.028 1.718-.534 3.101-1.45 4.082C8.888 14.766 7.52 15.357 6 15.357a5.532 5.532 0 0 1-3.74-1.425c-.975-.89-1.587-2.124-1.616-3.49.503-4.035 4.013-8.49 4.888-9.551Zm-1.815 7.33a.336.336 0 0 0-.025.043c-.322.62-.59 1.255-.695 2.207.012.408.143.787.358 1.111.234.352.568.641.96.839.035.017.071.021.106.017a.201.201 0 0 0 .104-.044l.01-.005-.078-.1c-.328-.415-.82-1.067-.82-1.946 0-.752.076-1.613.08-2.121Z"></path></svg>
-					0%
-				</div>
-			</a>
-			<a class="daily-list-item " href="/it/it/rome/213490/daily-weather-forecast/213490?day=7">
-				<div class="date" style="width: 45px;">
-					<p class="day">lun</p>
-					<p>27/4</p>
-				</div>
-				<img class="icon" height="40" width="40" src="https://www.awxcdn.com/adc-assets/images/weathericons/v2a/2.svg">
-				<div class="temp-phrase-wrapper">
-					<div class="temp">
-						<span class="temp-hi">24°</span>
-						<span class="temp-lo">12°</span>
-					</div>
-				</div>
-				<div class="phrase">
-					<p class="no-wrap">Prevalentemente soleggiato</p>
-					<span class="night">
-						<img class="night-icon" height="22" width="22" src="https://www.awxcdn.com/adc-assets/images/weathericons/v2a/34.svg">
-						<p class="no-wrap">Prevalentemente sereno</p>
-					</span>
-				</div>
-
-				<div class="precip">
-					<svg class="precip-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 16"><path fill="none" fill-rule="nonzero" stroke="#000" stroke-width=".714" d="M5.532.891c1.723.952 5.315 5.477 5.775 8.756.028 1.718-.534 3.101-1.45 4.082C8.888 14.766 7.52 15.357 6 15.357a5.532 5.532 0 0 1-3.74-1.425c-.975-.89-1.587-2.124-1.616-3.49.503-4.035 4.013-8.49 4.888-9.551Zm-1.815 7.33a.336.336 0 0 0-.025.043c-.322.62-.59 1.255-.695 2.207.012.408.143.787.358 1.111.234.352.568.641.96.839.035.017.071.021.106.017a.201.201 0 0 0 .104-.044l.01-.005-.078-.1c-.328-.415-.82-1.067-.82-1.946 0-.752.076-1.613.08-2.121Z"></path></svg>
-					1%
-				</div>
-			</a>
-			<a class="daily-list-item " href="/it/it/rome/213490/daily-weather-forecast/213490?day=8">
-				<div class="date" style="width: 45px;">
-					<p class="day">mar</p>
-					<p>28/4</p>
-				</div>
-				<img class="icon" height="40" width="40" src="https://www.awxcdn.com/adc-assets/images/weathericons/v2a/7.svg">
-				<div class="temp-phrase-wrapper">
-					<div class="temp">
-						<span class="temp-hi">22°</span>
-						<span class="temp-lo">11°</span>
-					</div>
-				</div>
-				<div class="phrase">
-					<p class="no-wrap">Nuvoloso</p>
-					<span class="night">
-						<img class="night-icon" height="22" width="22" src="https://www.awxcdn.com/adc-assets/images/weathericons/v2a/12.svg">
-						<p class="no-wrap">Un paio di rovesci</p>
-					</span>
-				</div>
-
-				<div class="precip">
-					<svg class="precip-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 16"><path fill="none" fill-rule="nonzero" stroke="#000" stroke-width=".714" d="M5.532.891c1.723.952 5.315 5.477 5.775 8.756.028 1.718-.534 3.101-1.45 4.082C8.888 14.766 7.52 15.357 6 15.357a5.532 5.532 0 0 1-3.74-1.425c-.975-.89-1.587-2.124-1.616-3.49.503-4.035 4.013-8.49 4.888-9.551Zm-1.815 7.33a.336.336 0 0 0-.025.043c-.322.62-.59 1.255-.695 2.207.012.408.143.787.358 1.111.234.352.568.641.96.839.035.017.071.021.106.017a.201.201 0 0 0 .104-.044l.01-.005-.078-.1c-.328-.415-.82-1.067-.82-1.946 0-.752.076-1.613.08-2.121Z"></path></svg>
-					19%
-				</div>
-			</a>
-			<a class="daily-list-item " href="/it/it/rome/213490/daily-weather-forecast/213490?day=9">
-				<div class="date" style="width: 45px;">
-					<p class="day">mer</p>
-					<p>29/4</p>
-				</div>
-				<img class="icon" height="40" width="40" src="https://www.awxcdn.com/adc-assets/images/weathericons/v2a/12.svg">
-				<div class="temp-phrase-wrapper">
-					<div class="temp">
-						<span class="temp-hi">21°</span>
-						<span class="temp-lo">11°</span>
-					</div>
-				</div>
-				<div class="phrase">
-					<p class="no-wrap">Possibilità di pioggia</p>
-					<span class="night">
-						<img class="night-icon" height="22" width="22" src="https://www.awxcdn.com/adc-assets/images/weathericons/v2a/40.svg">
-						<p class="no-wrap">Poca pioggia</p>
-					</span>
-				</div>
-
-				<div class="precip">
-					<svg class="precip-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 16"><path fill="none" fill-rule="nonzero" stroke="#000" stroke-width=".714" d="M5.532.891c1.723.952 5.315 5.477 5.775 8.756.028 1.718-.534 3.101-1.45 4.082C8.888 14.766 7.52 15.357 6 15.357a5.532 5.532 0 0 1-3.74-1.425c-.975-.89-1.587-2.124-1.616-3.49.503-4.035 4.013-8.49 4.888-9.551Zm-1.815 7.33a.336.336 0 0 0-.025.043c-.322.62-.59 1.255-.695 2.207.012.408.143.787.358 1.111.234.352.568.641.96.839.035.017.071.021.106.017a.201.201 0 0 0 .104-.044l.01-.005-.078-.1c-.328-.415-.82-1.067-.82-1.946 0-.752.076-1.613.08-2.121Z"></path></svg>
-					55%
-				</div>
-			</a>
-			<a class="daily-list-item " href="/it/it/rome/213490/daily-weather-forecast/213490?day=10">
-				<div class="date" style="width: 45px;">
-					<p class="day">gio</p>
-					<p>30/4</p>
-				</div>
-				<img class="icon" height="40" width="40" src="https://www.awxcdn.com/adc-assets/images/weathericons/v2a/18.svg">
-				<div class="temp-phrase-wrapper">
-					<div class="temp">
-						<span class="temp-hi">22°</span>
-						<span class="temp-lo">11°</span>
-					</div>
-				</div>
-				<div class="phrase">
-					<p class="no-wrap">Periodi di pioggia</p>
-					<span class="night">
-						<img class="night-icon" height="22" width="22" src="https://www.awxcdn.com/adc-assets/images/weathericons/v2a/18.svg">
-						<p class="no-wrap">Periodi di pioggia</p>
-					</span>
-				</div>
-
-				<div class="precip">
-					<svg class="precip-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 16"><path fill="none" fill-rule="nonzero" stroke="#000" stroke-width=".714" d="M5.532.891c1.723.952 5.315 5.477 5.775 8.756.028 1.718-.534 3.101-1.45 4.082C8.888 14.766 7.52 15.357 6 15.357a5.532 5.532 0 0 1-3.74-1.425c-.975-.89-1.587-2.124-1.616-3.49.503-4.035 4.013-8.49 4.888-9.551Zm-1.815 7.33a.336.336 0 0 0-.025.043c-.322.62-.59 1.255-.695 2.207.012.408.143.787.358 1.111.234.352.568.641.96.839.035.017.071.021.106.017a.201.201 0 0 0 .104-.044l.01-.005-.078-.1c-.328-.415-.82-1.067-.82-1.946 0-.752.076-1.613.08-2.121Z"></path></svg>
-					61%
-				</div>
-			</a>
-	</div>
-</div>
-
-
-	<div class="sunrise-sunset content-module ">
-	<h2 class="sunrise-sunset__title">
-		Sole e luna
-	</h2>
-	<div class="sunrise-sunset__body">
-			<div class="sunrise-sunset__item">
-				<img class="sunrise-sunset__icon sun-icon" width="40" height="40" aria-hidden="true" src="/images/weathericons/v2a/1.svg">
-				<span class="sunrise-sunset__phrase">13 h 36 min</span>
-				<div class="sunrise-sunset__times">
-					<div class="sunrise-sunset__times-item">
-						<span class="sunrise-sunset__times-label">Alba</span>
-						<span class="sunrise-sunset__times-value">06:21</span>
-					</div>
-					<div class="sunrise-sunset__times-item">
-						<span class="sunrise-sunset__times-label">Tramontare</span>
-						<span class="sunrise-sunset__times-value">19:57</span>
-					</div>
-				</div>
-			</div>
-			<div class="sunrise-sunset__item">
-				<img class="sunrise-sunset__icon" width="40" height="40" aria-hidden="true" src="/images/moon-phases/colored/light/WaxingCrescent.svg">
-				<span class="sunrise-sunset__phrase">16 h 30 min</span>
-				<div class="sunrise-sunset__times">
-					<div class="sunrise-sunset__times-item">
-						<span class="sunrise-sunset__times-label">Alba</span>
-						<span class="sunrise-sunset__times-value">08:50</span>
-					</div>
-					<div class="sunrise-sunset__times-item">
-						<span class="sunrise-sunset__times-label">Tramontare</span>
-						<span class="sunrise-sunset__times-value">01:20</span>
-					</div>
-				</div>
-			</div>
-	</div>
-</div>
-
-
-	<script>
-	window.collapseConnatix = () => {
-		const connatixEl = document.getElementById('connatix');
-		if (connatixEl) {
-			connatixEl.style.display = "none";
-		}
-	}
-</script>
-
-
-
+		<a id="shareLinkedIn" class="share-button-margin" data-track-click="LinkedIn" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https://www.accuweather.com/it/hurricane&amp;title=" target="_blank">
+			<svg class="share-icon linkedinvariant share-button " xmlns="http://www.w3.org/2000/svg" width="30" height="30" aria-labelledby="svglinkedin" viewBox="0 0 24 25"><defs><path id="svglinkedin" d="M4.386 19.826H.351V6.61h4.21v13.217h-.175zM2.456 4.87C1.053 4.87 0 3.652 0 2.435 0 1.043 1.053 0 2.456 0 3.86 0 4.912 1.043 4.912 2.435 4.737 3.652 3.684 4.87 2.456 4.87zM20 19.826h-4.21v-6.435c0-1.565 0-3.478-2.106-3.478-2.105 0-2.456 1.74-2.456 3.478V20h-4.21V6.609h4.035v1.739c.526-1.044 1.93-2.087 3.86-2.087 4.21 0 4.912 2.782 4.912 6.26v7.305H2z"></path></defs><use fill="#2E2E2E" fill-rule="evenodd" transform="translate(2 2.049)" xlink:href="#svglinkedin"></use></svg>
+		</a>
 	
-
-	<a href="/it/it/rome/213490/air-quality-index/213490" class="air-quality-module-wrapper">
-
-	<div class="air-quality-module__title">
-		<h2>Qualità dell'aria</h2>
-		<span>Visualizza altro</span>
-	</div>
-	<div class="air-quality-module content-module">
-		<div class="air-quality-module__row">
-			<span class="air-quality-module__row__1">
-				<svg class="air-quality-module__icon" width="24" height="25" viewBox="5 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-					<g clip-path="url(#clip0_4782_28057)">
-						<path d="M6.75 6.16675C6.75 4.92411 7.75736 3.91675 9 3.91675H15C16.2426 3.91675 17.25 4.92411 17.25 6.16675V18.1667C17.25 19.4094 16.2426 20.4167 15 20.4167H9C7.75736 20.4167 6.75 19.4094 6.75 18.1667V6.16675Z" stroke="black" stroke-width="1.5"></path>
-						<path d="M11.25 8.41675L12.8991 7.53828C14.4959 6.68762 16.4223 6.73896 17.9716 7.67344V7.67344C19.5089 8.6007 21.4185 8.65888 23.0094 7.82695L24.75 6.91675" stroke="black" stroke-width="1.5"></path>
-						<path d="M11.25 12.9167L12.8991 12.0383C14.4959 11.1876 16.4223 11.239 17.9716 12.1734V12.1734C19.5089 13.1007 21.4185 13.1589 23.0094 12.3269L24.75 11.4167" stroke="black" stroke-width="1.5"></path>
-						<path d="M11.25 17.4167L12.8991 16.5383C14.4959 15.6876 16.4223 15.739 17.9716 16.6734V16.6734C19.5089 17.6007 21.4185 17.6589 23.0094 16.8269L24.75 15.9167" stroke="black" stroke-width="1.5"></path>
-					</g>
-					<defs>
-						<clipPath id="clip0_4782_28057">
-							<rect width="24" height="24" fill="white" transform="translate(0 0.166748)"></rect>
-						</clipPath>
-					</defs>
-				</svg>
-				<span>Qualità dell'aria</span>
 			</span>
-			<span class="air-quality-module__row__category" style="border-color: #FDB80D;">Sfavorev.</span>
-		</div>
-		<p class="air-quality-module__statement">
-			L'aria ha raggiunto un livello elevato di inquinamento ed è malsana per i gruppi sensibili. Riduci il tempo trascorso all'aperto se hai sintomi quali difficoltà respiratoria o irritazione della gola.
-		</p>
 		
+
+		<div class="toggle-share">
+			<svg class="close-button  close-icon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18"><g fill-rule="evenodd" transform="translate(-1 -1)"><rect width="2" height="24" x="9" y="-2" rx="1" transform="rotate(45 10 10)"></rect><rect width="2" height="24" x="9" y="-2" rx="1" transform="rotate(-45 10 10)"></rect></g></svg>
+			<svg class="share-icon moreshare share-button more-share-button " xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 17 21"><path fill="#878787" fill-rule="evenodd" d="M17 19.8V21H0v-9h2.267v6.6h12.466V12H17v7.8zM9.61 4.36V16H7.37V4.38L3.583 8.248 2 6.632l5.371-5.485v-.004L8.491 0l.567.58.008-.009L15 6.632 13.417 8.25 9.61 4.359v.001z"></path></svg>
+		</div>
 	</div>
-
-	</a>
-
-
-
 	
-
-
-<div class="health-activities__title">
-	<h2>
-		Situazione allergie
-	</h2>
-	<a href="/it/it/rome/213490/health-activities/213490">Vedi tutto</a>
 </div>
 
-<div class="health-activities  health-activities-free">
-		<a data-slug="tree-pollen" href="/it/it/rome/213490/allergies-weather/213490?name=tree-pollen" class="health-activities__item show " style="border-right-color: #93c701;">
-			<svg class="health-activities__item__icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12.4257 2H11.5175L2.89999 18.6196L3.34399 19.3562H8.3894V18.3471H4.16135L11.9817 3.33199L19.8425 18.3471H15.3117V19.3562H20.6699L21.124 18.6095L12.4257 2Z" fill="black"></path><path d="M15.2814 14.3209L12.3651 17.4188V22H11.3561V16.1675L8.73245 13.3824L9.46908 12.6862L11.3561 14.6943V9.6993H12.3651V12.3532L14.0099 10.6176L14.7365 11.3138L12.3651 13.8264V15.9455L14.5347 13.6347L15.2814 14.3209Z" fill="black"></path></svg></svg>
-			<span class="health-activities__item__name">Polline di albero</span>
-			<span class="health-activities__item__category" style="border-right: 3px solid #93c701">Bassa</span>
-			<span class="health-activities__item__category__unsupported" style="border-right: 3px solid transparent">Dati non supportati in questa posizione</span>
-		</a>
-		<a data-slug="ragweed-pollen" href="/it/it/rome/213490/allergies-weather/213490?name=ragweed-pollen" class="health-activities__item show " style="border-right-color: #93c701;">
-			<svg class="health-activities__item__icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9.76971 15.58C7.67593 15.58 5.87549 14.56 5.05618 14C3.18494 12.74 1.95092 11.04 2.0015 9.77L2.02173 9.37L2.41621 9.3C9.4258 7.99 12.3996 14.37 12.4299 14.43L12.6423 14.89L12.177 15.09C11.3577 15.44 10.5486 15.58 9.77982 15.58H9.76971ZM3.06356 10.2C3.27597 11 4.15596 12.19 5.62262 13.17C7.49387 14.43 9.5573 14.86 11.2465 14.35C10.4777 13.03 7.95915 9.52 3.06356 10.19V10.2Z" fill="black"></path><path d="M21.9783 9.2L21.5839 9.13C17.8312 8.41 15.3025 9.74 13.7246 11.25L14.4124 11.93C15.7476 10.68 17.8414 9.58 20.9466 10.04C20.7342 11.05 19.6721 12.38 18.2763 13.31C17.3761 13.91 15.1103 15.15 12.6423 14.32L11.9039 13.59C11.6308 14.08 11.4993 14.41 11.4892 14.42L11.3274 14.86L11.7623 15.05C12.5816 15.41 13.4616 15.59 14.3618 15.59C15.8588 15.59 17.4064 15.1 18.8427 14.14C20.7544 12.87 22.0491 11 21.9986 9.6L21.9783 9.2Z" fill="black"></path><path d="M12.4704 14.47H11.4589V22H12.4704V14.47Z" fill="black"></path><path d="M11.115 7.48C11.115 7.91 11.469 8.26 11.9039 8.26C12.3389 8.26 12.6929 7.91 12.6929 7.48C12.6929 7.05 12.3389 6.7 11.9039 6.7C11.469 6.7 11.115 7.05 11.115 7.48Z" fill="black"></path><path d="M13.492 5.13C13.492 5.56 13.846 5.91 14.2809 5.91C14.7159 5.91 15.0699 5.56 15.0699 5.13C15.0699 4.7 14.7159 4.35 14.2809 4.35C13.846 4.35 13.492 4.7 13.492 5.13Z" fill="black"></path><path d="M8.73798 5.13C8.73798 5.56 9.092 5.91 9.52694 5.91C9.96187 5.91 10.3159 5.56 10.3159 5.13C10.3159 4.7 9.96187 4.35 9.52694 4.35C9.092 4.35 8.73798 4.7 8.73798 5.13Z" fill="black"></path><path d="M15.869 2.78C15.869 3.21 16.223 3.56 16.6579 3.56C17.0929 3.56 17.4469 3.21 17.4469 2.78C17.4469 2.35 17.0929 2 16.6579 2C16.223 2 15.869 2.35 15.869 2.78Z" fill="black"></path><path d="M6.36099 2.78C6.36099 3.21 6.71501 3.56 7.14995 3.56C7.58489 3.56 7.93891 3.21 7.93891 2.78C7.93891 2.35 7.59501 2 7.14995 2C6.7049 2 6.36099 2.35 6.36099 2.78Z" fill="black"></path><path d="M11.115 2.78C11.115 3.21 11.469 3.56 11.9039 3.56C12.3389 3.56 12.6929 3.21 12.6929 2.78C12.6929 2.35 12.3389 2 11.9039 2C11.469 2 11.115 2.35 11.115 2.78Z" fill="black"></path><path d="M12.4701 14.92V14.97L12.4501 14.92H12.4701Z" fill="black"></path></svg></svg>
-			<span class="health-activities__item__name">Polline di ambrosia</span>
-			<span class="health-activities__item__category" style="border-right: 3px solid #93c701">Bassa</span>
-			<span class="health-activities__item__category__unsupported" style="border-right: 3px solid transparent">Dati non supportati in questa posizione</span>
-		</a>
-		<a data-slug="mold" href="/it/it/rome/213490/allergies-weather/213490?name=mold" class="health-activities__item show " style="border-right-color: #f05514;">
-			<svg class="health-activities__item__icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M22.2912 13.4197V12.4108H20.8975C20.8559 11.7764 20.7415 11.1524 20.5543 10.5699L21.7088 10.0811L21.324 9.15549L20.1799 9.63391C19.8783 9.00988 19.5039 8.42746 19.0567 7.90744L20.0343 6.9194L19.3271 6.20177L18.339 7.17941C17.8294 6.71139 17.2366 6.32657 16.6022 6.01456L17.0598 4.90172L16.1342 4.5169L15.6765 5.61935C15.0525 5.41134 14.3869 5.27613 13.7109 5.23453V3.84087H12.702V5.23453C11.9636 5.27613 11.2564 5.42174 10.5907 5.67135L10.1019 4.5273L9.17628 4.91212L9.66509 6.07696C9.36348 6.24337 9.07227 6.40978 8.80186 6.60738L9.52989 7.31461C10.5907 6.61779 11.8492 6.21217 13.2116 6.21217C16.9038 6.21217 19.9199 9.21789 19.9199 12.9204C19.9199 15.6141 18.3182 18.027 15.8325 19.0879L15.7909 19.1087C14.9797 19.4519 14.1061 19.6183 13.2116 19.6183C9.50909 19.6183 6.49297 16.6126 6.49297 12.91C6.49297 11.6412 6.85698 10.4555 7.48101 9.4363L6.73218 8.71867C6.54497 9.03068 6.35776 9.34269 6.21216 9.67551L4.9329 9.15549L4.54809 10.0811L5.83774 10.6115C5.66093 11.1836 5.55693 11.7868 5.51533 12.4108H4.13207V13.4197H5.51533C5.56733 14.1581 5.71294 14.8549 5.95215 15.5205L4.54809 16.103L4.9329 17.0286L6.35776 16.4462C6.65937 17.0286 7.04419 17.5798 7.48101 18.0582L6.50337 19.0359L7.221 19.7535L8.19864 18.7655C8.68746 19.1815 9.22828 19.5455 9.8003 19.8263L9.19708 21.2928L10.1227 21.6776L10.7259 20.2215C11.3604 20.4295 12.0156 20.5647 12.7124 20.6167V22H13.7213V20.6167C14.3453 20.5751 14.9589 20.4607 15.5517 20.2735L16.1342 21.6776L17.0598 21.2928L16.4878 19.8887C17.143 19.5767 17.7462 19.1815 18.287 18.7239L19.3375 19.7639L20.0447 19.0463L19.0151 18.0062C19.4103 17.5486 19.7535 17.039 20.0343 16.5086L21.324 17.039L21.7088 16.1134L20.4399 15.5829C20.6895 14.9069 20.8455 14.1789 20.8975 13.4405H22.3016L22.2912 13.4197Z" fill="black"></path><path d="M13.2116 12.0572C12.7332 12.0572 12.3588 12.442 12.3588 12.91C12.3588 13.3781 12.7436 13.7629 13.2116 13.7629C13.6797 13.7629 14.0645 13.3781 14.0645 12.91C14.0645 12.442 13.6797 12.0572 13.2116 12.0572Z" fill="black"></path><path d="M9.7795 10.3411C10.2505 10.3411 10.6323 9.95931 10.6323 9.4883C10.6323 9.01729 10.2505 8.63547 9.7795 8.63547C9.30849 8.63547 8.92667 9.01729 8.92667 9.4883C8.92667 9.95931 9.30849 10.3411 9.7795 10.3411Z" fill="black"></path><path d="M9.7795 15.4893C9.30108 15.4893 8.92667 15.8742 8.92667 16.3422C8.92667 16.8102 9.31148 17.195 9.7795 17.195C10.2475 17.195 10.6323 16.8102 10.6323 16.3422C10.6323 15.8742 10.2475 15.4893 9.7795 15.4893Z" fill="black"></path><path d="M16.6438 10.3411C17.1148 10.3411 17.4966 9.95931 17.4966 9.4883C17.4966 9.01729 17.1148 8.63547 16.6438 8.63547C16.1728 8.63547 15.7909 9.01729 15.7909 9.4883C15.7909 9.95931 16.1728 10.3411 16.6438 10.3411Z" fill="black"></path><path d="M16.6438 15.4893C16.1758 15.4893 15.7909 15.8742 15.7909 16.3422C15.7909 16.8102 16.1758 17.195 16.6438 17.195C17.1118 17.195 17.4966 16.8102 17.4966 16.3422C17.4966 15.8742 17.1118 15.4893 16.6438 15.4893Z" fill="black"></path><path d="M13.2116 18.9111C13.6827 18.9111 14.0645 18.5293 14.0645 18.0582C14.0645 17.5872 13.6827 17.2054 13.2116 17.2054C12.7406 17.2054 12.3588 17.5872 12.3588 18.0582C12.3588 18.5293 12.7406 18.9111 13.2116 18.9111Z" fill="black"></path><path d="M13.2116 6.9194C12.7332 6.9194 12.3588 7.30421 12.3588 7.77223C12.3588 8.24025 12.7436 8.62506 13.2116 8.62506C13.6797 8.62506 14.0645 8.24025 14.0645 7.77223C14.0645 7.30421 13.6797 6.9194 13.2116 6.9194Z" fill="black"></path><path d="M19.2127 12.91C19.2127 12.4316 18.8279 12.0572 18.3598 12.0572C17.8918 12.0572 17.507 12.442 17.507 12.91C17.507 13.3781 17.8918 13.7629 18.3598 13.7629C18.8279 13.7629 19.2127 13.3781 19.2127 12.91Z" fill="black"></path><path d="M8.07383 12.0572C7.60581 12.0572 7.22099 12.442 7.22099 12.91C7.22099 13.3781 7.60581 13.7629 8.07383 13.7629C8.54185 13.7629 8.92666 13.3781 8.92666 12.91C8.92666 12.442 8.54185 12.0572 8.07383 12.0572Z" fill="black"></path><path d="M2.78003 4.84971C2.82163 5.04732 2.90484 5.22413 3.00884 5.39054L2.45762 5.94176L2.99844 6.48258L3.54966 5.93136C3.71607 6.03536 3.89288 6.10816 4.09048 6.16017V6.9402H4.86011V6.16017C5.05772 6.11857 5.23453 6.03536 5.40094 5.93136L5.95216 6.48258L6.49298 5.94176L5.94176 5.39054C6.04576 5.22413 6.11857 5.04732 6.17057 4.84971H6.9506V4.08008H6.17057C6.12897 3.88248 6.04576 3.70567 5.94176 3.53926L6.49298 2.98804L5.95216 2.44722L5.40094 2.99844C5.23453 2.89444 5.05772 2.82163 4.86011 2.76963V2H4.09048V2.78003C3.89288 2.82163 3.71607 2.90484 3.54966 3.00884L2.99844 2.45762L2.45762 2.99844L3.00884 3.54966C2.90484 3.71607 2.83203 3.89288 2.78003 4.09048H2V4.86011H2.78003V4.84971ZM3.49766 4.4649C3.49766 3.93448 3.93448 3.49766 4.4649 3.49766C4.99532 3.49766 5.43214 3.93448 5.43214 4.4649C5.43214 4.99532 4.99532 5.43214 4.4649 5.43214C3.93448 5.43214 3.49766 4.99532 3.49766 4.4649Z" fill="black"></path></svg></svg>
-			<span class="health-activities__item__name">Spore</span>
-			<span class="health-activities__item__category" style="border-right: 3px solid #f05514">Alto</span>
-			<span class="health-activities__item__category__unsupported" style="border-right: 3px solid transparent">Dati non supportati in questa posizione</span>
-		</a>
-		<a data-slug="grass-pollen" href="/it/it/rome/213490/allergies-weather/213490?name=grass-pollen" class="health-activities__item show " style="border-right-color: #93c701;">
-			<svg class="health-activities__item__icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M19.9016 21.0594H18.8976V20.8687C19.1486 14.2622 21.257 12.8667 21.498 12.7261L22 13.5996C22 13.5996 20.1325 14.8546 19.9116 20.8887V21.0594H19.9016Z" fill="black"></path><path d="M17.4618 21.0594H16.4578V20.8887C16.3775 17.0735 14.6205 14.8245 14.5803 14.7843L15.3635 14.1518C15.4137 14.2221 16.2972 15.3165 16.8996 17.2643C17.3715 14.9751 18.3655 12.0333 20.4438 9.81446L21.1767 10.4972C17.6325 14.2924 17.4719 20.5875 17.4618 20.8486V21.0594Z" fill="black"></path><path d="M11.9197 21.1297C11.8695 20.8185 11.8494 20.5173 11.8494 20.2261C11.8494 17.8365 13.2249 15.8486 13.2851 15.7482L14.1084 16.3205C14.1084 16.3205 12.8534 18.1578 12.8534 20.2261C12.8534 20.4671 12.8735 20.7181 12.9137 20.9691L11.9197 21.1197V21.1297Z" fill="black"></path><path d="M10.3133 21.0594H9.30923V20.8687C9.30923 20.5373 9.56024 13.1076 12.753 8.951L13.5462 9.56345C10.5542 13.449 10.3133 20.8084 10.3133 20.8787V21.0494V21.0594Z" fill="black"></path><path d="M7.85341 21.0594H6.84939V20.8787C6.76907 15.6277 4.23895 11.5213 4.20883 11.4811L5.06224 10.949C5.14257 11.0695 6.43775 13.1879 7.24096 16.3506C7.69276 13.2783 8.6767 9.23212 10.7851 6.2L11.6084 6.77229C7.95381 12.0132 7.85341 20.7984 7.85341 20.8787V21.0594Z" fill="black"></path><path d="M4.69076 21.1297L3.69679 20.9891C3.69679 20.9891 3.74699 20.5976 3.74699 19.965C3.74699 18.6096 3.50602 16.1297 2 13.7904L2.84337 13.2482C4.47992 15.7883 4.751 18.4389 4.751 19.9249C4.751 20.6277 4.69076 21.0695 4.68072 21.1297H4.69076Z" fill="black"></path></svg></svg>
-			<span class="health-activities__item__name">Polline dell’erba</span>
-			<span class="health-activities__item__category" style="border-right: 3px solid #93c701">Bassa</span>
-			<span class="health-activities__item__category__unsupported" style="border-right: 3px solid transparent">Dati non supportati in questa posizione</span>
-		</a>
-		<a data-slug="dust-dander" href="/it/it/rome/213490/allergies-weather/213490?name=dust-dander" class="health-activities__item show " style="border-right-color: #93c701;">
-			<svg class="health-activities__item__icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M11.3491 22.0558C10.1262 22.0558 9.01184 21.3852 8.44971 20.3596C8.20316 20.3892 7.95661 20.4089 7.71007 20.4089C4.76135 20.4089 2.3649 18.1012 2.3649 15.2609C2.3649 12.4207 4.76135 10.1032 7.71007 10.1032C7.91717 10.1032 8.12427 10.113 8.33137 10.1426C8.41026 10.1426 8.48916 10.1623 8.56805 10.1722C9.09074 10.2511 9.60356 10.4089 10.0769 10.6456L9.65287 11.5331C9.25839 11.3458 8.84419 11.2176 8.42013 11.1485L8.22289 11.1189C8.05523 11.0992 7.88758 11.0894 7.71007 11.0894C5.31362 11.0894 3.36095 12.9533 3.36095 15.2511C3.36095 17.5489 5.31362 19.4227 7.71007 19.4227C8.01579 19.4227 8.33137 19.3931 8.63709 19.3241L9.04143 19.2353L9.18936 19.6199C9.52466 20.4779 10.3925 21.0598 11.3491 21.0598C12.1972 21.0598 12.9763 20.616 13.3807 19.9059L13.5582 19.5903L13.9132 19.6692C14.3274 19.7678 14.7712 19.8172 15.215 19.8172C18.4103 19.8172 21.0138 17.3221 21.0138 14.255C21.0138 11.188 18.4103 8.6929 15.215 8.6929C14.4951 8.6929 13.7949 8.82111 13.1341 9.05779L12.789 8.13077C13.5582 7.84478 14.3767 7.69685 15.215 7.69685C18.9527 7.69685 22 10.6357 22 14.2452C22 17.8546 18.9527 20.7935 15.215 20.7935C14.8107 20.7935 14.4162 20.7639 14.0316 20.6949C13.4201 21.5331 12.4142 22.046 11.3393 22.046L11.3491 22.0558Z" fill="black"></path><path d="M7.19724 4.55089C7.19724 4.19586 6.91124 3.9 6.54635 3.9C6.18146 3.9 5.89546 4.186 5.89546 4.55089C5.89546 4.91578 6.18146 5.20178 6.54635 5.20178C6.91124 5.20178 7.19724 4.91578 7.19724 4.55089Z" fill="black"></path><path d="M5.24457 6.49369C5.24457 6.13866 4.95857 5.8428 4.59368 5.8428C4.22879 5.8428 3.94279 6.1288 3.94279 6.49369C3.94279 6.85858 4.22879 7.14458 4.59368 7.14458C4.95857 7.14458 5.24457 6.85858 5.24457 6.49369Z" fill="black"></path><path d="M8.49902 7.14458C8.85405 7.14458 9.1499 6.85858 9.1499 6.49369C9.1499 6.1288 8.86391 5.8428 8.49902 5.8428C8.13413 5.8428 7.84813 6.1288 7.84813 6.49369C7.84813 6.85858 8.13413 7.14458 8.49902 7.14458Z" fill="black"></path><path d="M3.30177 8.44635C3.30177 8.09132 3.01578 7.79546 2.65089 7.79546C2.286 7.79546 2 8.08146 2 8.44635C2 8.81124 2.286 9.09724 2.65089 9.09724C3.01578 9.09724 3.30177 8.81124 3.30177 8.44635Z" fill="black"></path><path d="M11.0927 8.44635C11.0927 8.09132 10.8067 7.79546 10.4418 7.79546C10.0769 7.79546 9.79092 8.08146 9.79092 8.44635C9.79092 8.81124 10.0769 9.09724 10.4418 9.09724C10.8067 9.09724 11.0927 8.81124 11.0927 8.44635Z" fill="black"></path><path d="M7.19724 8.44635C7.19724 8.09132 6.91124 7.79546 6.54635 7.79546C6.18146 7.79546 5.89546 8.08146 5.89546 8.44635C5.89546 8.81124 6.18146 9.09724 6.54635 9.09724C6.91124 9.09724 7.19724 8.81124 7.19724 8.44635Z" fill="black"></path><path d="M14.5049 17.0065C14.5049 17.3615 14.7909 17.6574 15.1558 17.6574C15.5207 17.6574 15.8067 17.3714 15.8067 17.0065C15.8067 16.6416 15.5207 16.3556 15.1558 16.3556C14.7909 16.3556 14.5049 16.6416 14.5049 17.0065Z" fill="black"></path><path d="M16.4477 15.0637C16.4477 15.4187 16.7337 15.7146 17.0986 15.7146C17.4635 15.7146 17.7495 15.4286 17.7495 15.0637C17.7495 14.6988 17.4635 14.4128 17.0986 14.4128C16.7337 14.4128 16.4477 14.6988 16.4477 15.0637Z" fill="black"></path><path d="M12.5523 15.0637C12.5523 15.4187 12.8383 15.7146 13.2031 15.7146C13.568 15.7146 13.854 15.4286 13.854 15.0637C13.854 14.6988 13.568 14.4128 13.2031 14.4128C12.8383 14.4128 12.5523 14.6988 12.5523 15.0637Z" fill="black"></path><path d="M18.4004 13.111C18.4004 13.4661 18.6864 13.7619 19.0513 13.7619C19.4162 13.7619 19.7022 13.4759 19.7022 13.111C19.7022 12.7462 19.4162 12.4602 19.0513 12.4602C18.6864 12.4602 18.4004 12.7462 18.4004 13.111Z" fill="black"></path><path d="M10.5996 13.111C10.5996 13.4661 10.8856 13.7619 11.2505 13.7619C11.6154 13.7619 11.9014 13.4759 11.9014 13.111C11.9014 12.7462 11.6154 12.4602 11.2505 12.4602C10.8856 12.4602 10.5996 12.7462 10.5996 13.111Z" fill="black"></path><path d="M14.5049 13.111C14.5049 13.4661 14.7909 13.7619 15.1558 13.7619C15.5207 13.7619 15.8067 13.4759 15.8067 13.111C15.8067 12.7462 15.5207 12.4602 15.1558 12.4602C14.7909 12.4602 14.5049 12.7462 14.5049 13.111Z" fill="black"></path></svg></svg>
-			<span class="health-activities__item__name">Polvere e forfora animale</span>
-			<span class="health-activities__item__category" style="border-right: 3px solid #93c701">Bassa</span>
-			<span class="health-activities__item__category__unsupported" style="border-right: 3px solid transparent">Dati non supportati in questa posizione</span>
-		</a>
-	<div class="health-activities__copernicus">
-		Include informazioni Copernicus Atmosphere Monitoring Service modificate 2026
+	<div>
+		<p class="page-intro__title">Non ci sono tempeste attive</p>
+		<p class="page-intro__desc">Visualizza le tempeste recenti e passate qui sotto</p>
 	</div>
 </div>
 
 
-	
 
-	
+
+<div class="recent-past-storms content-module full-mobile-width">
+	<div class="recent-past-storms-header">
+		<h2>Tempeste passate</h2>
+		<a href="/it/hurricane/history">Vedi tutto <svg class="cta-arrow" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><defs><path id="a" d="m8.495.505 5 5v.99l-5 5-.99-.99 3.805-3.806L0 6.7V5.3l11.31-.001-3.805-3.804.99-.99z"></path></defs><use fill="#000" fill-rule="nonzero" xlink:href="#a" transform="translate(2 3)"></use></svg></a>
+	</div>
+		<a class="storm-row" href="/it/hurricane/south-pacific/maila-2026">
+    <div class="storm-row__left">
+        <div>
+            <img class="past-storm-list__list__item__icon" src="https://www.awxcdn.com/adc-assets/images/storms/v2/southern/historical/category3.svg" alt="Category3" width="32" height="32">
+        </div>
+        <div class="storm-row__name">
+            MAILA
+        </div>
+    </div>
+    <div class="storm-row__right">
+        <div class="storm-row__status">Ciclone tropicale - Categoria 3</div>
+        <div class="storm-row__date">aprile 2026</div>
+        <div class="storm-row__basin">Sud Pacifico</div>
+    </div>
+    <svg class="icon-arrow" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><defs><path id="a" d="m8.495.505 5 5v.99l-5 5-.99-.99 3.805-3.806L0 6.7V5.3l11.31-.001-3.805-3.804.99-.99z"></path></defs><use fill="#000" fill-rule="nonzero" xlink:href="#a" transform="translate(2 3)"></use></svg>
+</a>
+
+		<a class="storm-row" href="/it/hurricane/south-pacific/vaianu-2026">
+    <div class="storm-row__left">
+        <div>
+            <img class="past-storm-list__list__item__icon" src="https://www.awxcdn.com/adc-assets/images/storms/v2/southern/historical/category2.svg" alt="Category2" width="32" height="32">
+        </div>
+        <div class="storm-row__name">
+            VAIANU
+        </div>
+    </div>
+    <div class="storm-row__right">
+        <div class="storm-row__status">Ciclone tropicale - Categoria 2</div>
+        <div class="storm-row__date">aprile 2026</div>
+        <div class="storm-row__basin">Sud Pacifico</div>
+    </div>
+    <svg class="icon-arrow" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><defs><path id="a" d="m8.495.505 5 5v.99l-5 5-.99-.99 3.805-3.806L0 6.7V5.3l11.31-.001-3.805-3.804.99-.99z"></path></defs><use fill="#000" fill-rule="nonzero" xlink:href="#a" transform="translate(2 3)"></use></svg>
+</a>
+
+		<a class="storm-row" href="/it/hurricane/west-pacific/sinlaku-2026">
+    <div class="storm-row__left">
+        <div>
+            <img class="past-storm-list__list__item__icon" src="https://www.awxcdn.com/adc-assets/images/storms/v2/northern/historical/category0.svg" alt="Category0" width="32" height="32">
+        </div>
+        <div class="storm-row__name">
+            SINLAKU
+        </div>
+    </div>
+    <div class="storm-row__right">
+        <div class="storm-row__status">Tifone violento</div>
+        <div class="storm-row__date">aprile 2026</div>
+        <div class="storm-row__basin">Pacifico Orientale</div>
+    </div>
+    <svg class="icon-arrow" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><defs><path id="a" d="m8.495.505 5 5v.99l-5 5-.99-.99 3.805-3.806L0 6.7V5.3l11.31-.001-3.805-3.804.99-.99z"></path></defs><use fill="#000" fill-rule="nonzero" xlink:href="#a" transform="translate(2 3)"></use></svg>
+</a>
+
+		<a class="storm-row" href="/it/hurricane/south-pacific/twentyeight-2026">
+    <div class="storm-row__left">
+        <div>
+            <img class="past-storm-list__list__item__icon" src="https://www.awxcdn.com/adc-assets/images/storms/v2/southern/historical/category1.svg" alt="Category1" width="32" height="32">
+        </div>
+        <div class="storm-row__name">
+            TWENTYEIGHT
+        </div>
+    </div>
+    <div class="storm-row__right">
+        <div class="storm-row__status">Ciclone tropicale - Categoria 1</div>
+        <div class="storm-row__date">marzo 2026</div>
+        <div class="storm-row__basin">Sud Pacifico</div>
+    </div>
+    <svg class="icon-arrow" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><defs><path id="a" d="m8.495.505 5 5v.99l-5 5-.99-.99 3.805-3.806L0 6.7V5.3l11.31-.001-3.805-3.804.99-.99z"></path></defs><use fill="#000" fill-rule="nonzero" xlink:href="#a" transform="translate(2 3)"></use></svg>
+</a>
+
+		<a class="storm-row" href="/it/hurricane/south-pacific/narelle-2026">
+    <div class="storm-row__left">
+        <div>
+            <img class="past-storm-list__list__item__icon" src="https://www.awxcdn.com/adc-assets/images/storms/v2/southern/historical/category5.svg" alt="Category5" width="32" height="32">
+        </div>
+        <div class="storm-row__name">
+            NARELLE
+        </div>
+    </div>
+    <div class="storm-row__right">
+        <div class="storm-row__status">Ciclone tropicale - Categoria 5</div>
+        <div class="storm-row__date">marzo 2026</div>
+        <div class="storm-row__basin">Sud Pacifico</div>
+    </div>
+    <svg class="icon-arrow" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><defs><path id="a" d="m8.495.505 5 5v.99l-5 5-.99-.99 3.805-3.806L0 6.7V5.3l11.31-.001-3.805-3.804.99-.99z"></path></defs><use fill="#000" fill-rule="nonzero" xlink:href="#a" transform="translate(2 3)"></use></svg>
+</a>
+
+</div>
+
+<div class="glacier-ad unrendered native config-native content-module" ad-type="native" id="native" data-google-query-id="CJLg6pe1_5MDFVE7vwQd0PYWBg"><div id="google_ads_iframe_/6581/web/it/native/news_info/hurricane_0__container__" style="border: 0pt; margin: auto; text-align: center; width: 100%; height: auto;"><iframe frameborder="0" src="https://6543d0328726c4028247e79e4521086e.safeframe.googlesyndication.com/safeframe/1-0-45/html/container.html" id="google_ads_iframe_/6581/web/it/native/news_info/hurricane_0" title="Contenuto dell'annuncio di terze parti" name="" scrolling="no" marginwidth="0" marginheight="0" width="0" height="159" data-is-safeframe="true" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" aria-label="Pubblicità" tabindex="0" data-google-container-id="3" style="border: 0px; vertical-align: bottom; min-width: 100%;" data-load-complete="true"></iframe></div></div>
+
+
 
 			</div>
 			
@@ -4386,24 +3851,16 @@ function getUserContentAffinity(categories) {
 		
 			<div class="page-column-2">
 				
-	
-<div class="right-rail">
-	<div class="glacier-ad unrendered top_right config-top_right content-module" ad-type="top_right" id="top_right" data-google-query-id="CP6ovOKN_5MDFbwiVQgdx94Mfg"><script src="https://securepubads.g.doubleclick.net/gampad/adx?iu=/6581/web/postbid/top_right/weather/local_home&amp;sz=300x250&amp;c=1776780127&amp;t=fdate%3D20260421%26lang%3Dit%26ut%3D1%26advelvet%3D15%26inview%3Dititrome213490weather-forecast213490%3Awtr%2Cwbr%2Cwt%26bot%3D0%26pgview%3D10%26partner%3Dgoogle_search_accuweather%26ufdb%3DLII7%26city%3DRome%26country%3DIT%26state%3D62%26dma%3Dnull%26key%3D213490%26region%3Deur%26lat%3D41.901%26lon%3D12.48%26browser%3Dsafari%26connection%3Dmobile_vhigh_5000%26wx_seg%3D101100100%2C102102102%2C109101100%2C108102100%2C100108101%2C102100100%2C102101100%2C102103100%2C107100102%2C100111100%2C107101102%2C108103101%2C101103100%2C100113103%2C108104101%2C101105100%2C110100100%2C109104100%2C109105100%2C100106102%2C110101101%2C109100102%2C108101102%2C103100102%2C109103102%2C103101102%2C101106102%2C108100102%2C100109105%2C102104102%2C104100103%2C101104101%2C104101101%2C100109102%2C109102102%2C100114105%2C109106102%2C101107101%2C101108101%2C101102102%2C105100102%2C107103102%2C100114102%2C100114101%2C101101101%26alertscategory%3DSEVERE%2CSEVERE%2CSEVERE%2CWIND%26alertssource%3Dit%2Cit%2Cit%2Cit%26alertstypeid%3DIT312%2CIT312%2CIT312%2CIT169%26cuhd%3D61%26cuhi%3D72%26cuuv%3D4%26cuwd%3D15%26cuwx%3D3%26realfeel%3D70%2Ca75%2Cb75%2Cc75%2Cd80%26cuaq%3D3%26fc1hi%3D73%26fc1lo%3D53%26fc1wx%3D2%26lfscategory%3Dmild%26lfsday%3D5%26lfsseverity%3D4%26lfs%3D4_mild_5%26pt%3D846%26userid%3Dactive%26userid3p%3Dmissing%26sub%3Dfree%26auth%3Dfalse%26site%3Ddesktop%26hour%3D16%26viewport%3D1470x840%26iabctax%3DIAB15-10%2CIAB20-14%2CIAB20-19%2C390%2C659%26from%3Dnull%26idgraph%3Dshid%2Ccrt%2Clot%26interstitial%3D0%26upr%3D0.1%26upr_0%3Dno_bid%26upr_auction%3Dprebid%26userid3pbid%3Dmissing-no_bid%26hb_bid_1st%3D0.10%26hb_bid_2nd%3D0.10%26ppid%3D7d695715xd89fx4158xab9bx5114c8ba51db&amp;m=text/javascript"></script><ins class="adsbygoogle" style="display:inline-block;margin:0 auto;width:300px;height:250px;" data-ad-client="ca-pub-5771594739411148" data-ad-slot="8538566932" data-adsbygoogle-status="done" data-ad-status="filled"><div id="aswift_2_host" style="border: medium; height: 250px; width: 300px; margin: 0px; padding: 0px; position: relative; visibility: visible; background-color: transparent; display: inline-block;"><iframe id="aswift_2" name="aswift_2" style="left:0;position:absolute;top:0;border:0;width:300px;height:250px;min-height:auto;max-height:none;min-width:auto;max-width:none;" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" width="300" height="250" frameborder="0" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" src="https://googleads.g.doubleclick.net/pagead/ads?gdpr=1&amp;us_privacy=1---&amp;gdpr_consent=CQjA2wAQjA2wAFUABAENCbFsAP_gAEPgACiQJzQKwAAwAKAAyAB4AIAAVgAuADIAHAAQAAkABkADQAIoASQAmABRAC3AF4AXwAwgCAAEFAI4AjwBKACcAFIALkAZQA5wB3AEIAMaAacA6oB7QEagKbAVcAvMBjIDJAGTgPMAf4BGYCcwJzQJgAAwAKAAyAB4AIAAVgAuADIAHAAQAAkABkADQAIoATAAogBbgC8AL4AYQBAACCgEcAR4AnABSADKAHOAO4AhABjQDTgHtAU2Aq4BeYDGQGSAMnAeYA_wCMwE5gAA.IJzQKwAAwAKAAyAB4AIAAVgAuADIAHAAQAAkABkADQAIoASQAmABRAC3AF4AXwAwgCAAEFAI4AjwBKACcAFIALkAZQA5wB3AEIAMaAacA6oB7QEagKbAVcAvMBjIDJAGTgPMAf4BGYCcwAAA.f_wACHwAAAAA&amp;addtl_consent=2~70.1092.3130&amp;gpp_sid=-1&amp;client=ca-pub-5771594739411148&amp;output=html&amp;h=250&amp;slotname=8538566932&amp;adk=59343281&amp;adf=3938465540&amp;pi=t.ma~as.8538566932&amp;w=300&amp;lmt=1776780127&amp;format=300x250&amp;url=https%3A%2F%2Fwww.accuweather.com%2Fit%2Fit%2Frome%2F213490%2Fweather-forecast%2F213490&amp;asro=0&amp;aiapmid=1&amp;aiactd=0&amp;aicctd=0&amp;ailctd=0&amp;aimartd=4&amp;aieuf=1&amp;aicrs=1&amp;abgtt=6&amp;dt=1776780127609&amp;bpp=1&amp;bdt=2953&amp;idt=0&amp;shv=r20260420&amp;mjsv=m202604160101&amp;ptt=9&amp;saldr=aa&amp;abxe=1&amp;cookie=ID%3D50b54bc676f3e279%3AT%3D1776353262%3ART%3D1776780126%3AS%3DALNI_MaYJn7Rj3fos7s6RW40iAkrmQwNRQ&amp;gpic=UID%3D000013a4a1bbcb98%3AT%3D1776353262%3ART%3D1776780126%3AS%3DALNI_MauOrbmlYjxtpVhWC264qsoeA92Ow&amp;eo_id_str=ID%3D724a6266e0a68339%3AT%3D1776353262%3ART%3D1776780126%3AS%3DAA-Afjbd8FlTRWtWRf5qdeFKs2Ny&amp;prev_fmts=0x0%2C970x250&amp;nras=1&amp;correlator=1141719437555&amp;frm=20&amp;pv=1&amp;u_tz=120&amp;u_his=6&amp;u_h=833&amp;u_w=1470&amp;u_ah=833&amp;u_aw=1470&amp;u_cd=24&amp;u_sd=2&amp;adx=913&amp;ady=409&amp;biw=1470&amp;bih=833&amp;scr_x=0&amp;scr_y=0&amp;eid=95384087%2C95387623%2C95386955&amp;oid=2&amp;pvsid=6179872356847787&amp;tmod=680543130&amp;uas=1&amp;nvt=1&amp;fc=1920&amp;brdim=0%2C0%2C0%2C0%2C1470%2C0%2C1470%2C833%2C1470%2C833&amp;vis=1&amp;rsz=%7C%7CoeE%7C&amp;abl=CS&amp;pfx=0&amp;fu=0&amp;bc=31&amp;plas=241x658_l%7C241x658_r&amp;bz=1&amp;ifi=8&amp;uci=a!8&amp;fsb=1&amp;dtd=3" data-google-container-id="a!8" tabindex="0" title="Advertisement" aria-label="Advertisement" data-google-query-id="CODL_-KN_5MDFcdUFQgdLBMESA" data-load-complete="true"></iframe></div></ins></div>
 
-	
-	
-	<div class="glacier-ad unrendered bottom_right config-bottom_right content-module" ad-type="bottom_right" id="bottom_right" data-google-query-id="CMD-vuKN_5MDFVuJgwcdfpMPRg"><script src="https://securepubads.g.doubleclick.net/gampad/adx?iu=/6581/web/postbid/bottom_right/weather/local_home&amp;sz=300x250&amp;c=1776780127&amp;t=fdate%3D20260421%26lang%3Dit%26ut%3D1%26advelvet%3D15%26inview%3Dititrome213490weather-forecast213490%3Awtr%2Cwbr%2Cwt%26bot%3D0%26pgview%3D10%26partner%3Dgoogle_search_accuweather%26ufdb%3DLII7%26city%3DRome%26country%3DIT%26state%3D62%26dma%3Dnull%26key%3D213490%26region%3Deur%26lat%3D41.901%26lon%3D12.48%26browser%3Dsafari%26connection%3Dmobile_vhigh_5000%26wx_seg%3D101100100%2C102102102%2C109101100%2C108102100%2C100108101%2C102100100%2C102101100%2C102103100%2C107100102%2C100111100%2C107101102%2C108103101%2C101103100%2C100113103%2C108104101%2C101105100%2C110100100%2C109104100%2C109105100%2C100106102%2C110101101%2C109100102%2C108101102%2C103100102%2C109103102%2C103101102%2C101106102%2C108100102%2C100109105%2C102104102%2C104100103%2C101104101%2C104101101%2C100109102%2C109102102%2C100114105%2C109106102%2C101107101%2C101108101%2C101102102%2C105100102%2C107103102%2C100114102%2C100114101%2C101101101%26alertscategory%3DSEVERE%2CSEVERE%2CSEVERE%2CWIND%26alertssource%3Dit%2Cit%2Cit%2Cit%26alertstypeid%3DIT312%2CIT312%2CIT312%2CIT169%26cuhd%3D61%26cuhi%3D72%26cuuv%3D4%26cuwd%3D15%26cuwx%3D3%26realfeel%3D70%2Ca75%2Cb75%2Cc75%2Cd80%26cuaq%3D3%26fc1hi%3D73%26fc1lo%3D53%26fc1wx%3D2%26lfscategory%3Dmild%26lfsday%3D5%26lfsseverity%3D4%26lfs%3D4_mild_5%26pt%3D846%26userid%3Dactive%26userid3p%3Dmissing%26sub%3Dfree%26auth%3Dfalse%26site%3Ddesktop%26hour%3D16%26viewport%3D1470x840%26iabctax%3DIAB15-10%2CIAB20-14%2CIAB20-19%2C390%2C659%26from%3Dnull%26idgraph%3Dshid%2Ccrt%2Clot%26interstitial%3D0%26upr%3D0.05%26upr_0%3Dno_bid%26upr_auction%3Dprebid%26userid3pbid%3Dmissing-no_bid%26hb_bid_1st%3Dno_bid%26hb_bid_2nd%3Dno_bid%26ppid%3D7d695715xd89fx4158xab9bx5114c8ba51db&amp;m=text/javascript"></script><ins class="adsbygoogle" style="display:inline-block;margin:0 auto;width:300px;height:250px;" data-ad-client="ca-pub-5771594739411148" data-ad-slot="9359203321" data-adsbygoogle-status="done" data-ad-status="filled"><div id="aswift_3_host" style="border: medium; height: 250px; width: 300px; margin: 0px; padding: 0px; position: relative; visibility: visible; background-color: transparent; display: inline-block;"><iframe id="aswift_3" name="aswift_3" style="left:0;position:absolute;top:0;border:0;width:300px;height:250px;min-height:auto;max-height:none;min-width:auto;max-width:none;" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" width="300" height="250" frameborder="0" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" src="https://googleads.g.doubleclick.net/pagead/ads?gdpr=1&amp;us_privacy=1---&amp;gdpr_consent=CQjA2wAQjA2wAFUABAENCbFsAP_gAEPgACiQJzQKwAAwAKAAyAB4AIAAVgAuADIAHAAQAAkABkADQAIoASQAmABRAC3AF4AXwAwgCAAEFAI4AjwBKACcAFIALkAZQA5wB3AEIAMaAacA6oB7QEagKbAVcAvMBjIDJAGTgPMAf4BGYCcwJzQJgAAwAKAAyAB4AIAAVgAuADIAHAAQAAkABkADQAIoATAAogBbgC8AL4AYQBAACCgEcAR4AnABSADKAHOAO4AhABjQDTgHtAU2Aq4BeYDGQGSAMnAeYA_wCMwE5gAA.IJzQKwAAwAKAAyAB4AIAAVgAuADIAHAAQAAkABkADQAIoASQAmABRAC3AF4AXwAwgCAAEFAI4AjwBKACcAFIALkAZQA5wB3AEIAMaAacA6oB7QEagKbAVcAvMBjIDJAGTgPMAf4BGYCcwAAA.f_wACHwAAAAA&amp;addtl_consent=2~70.1092.3130&amp;gpp_sid=-1&amp;client=ca-pub-5771594739411148&amp;output=html&amp;h=250&amp;slotname=9359203321&amp;adk=1225942916&amp;adf=3672151656&amp;pi=t.ma~as.9359203321&amp;w=300&amp;lmt=1776780127&amp;format=300x250&amp;url=https%3A%2F%2Fwww.accuweather.com%2Fit%2Fit%2Frome%2F213490%2Fweather-forecast%2F213490&amp;asro=0&amp;aiapmid=1&amp;aiactd=0&amp;aicctd=0&amp;ailctd=0&amp;aimartd=4&amp;aieuf=1&amp;aicrs=1&amp;abgtt=6&amp;dt=1776780127723&amp;bpp=1&amp;bdt=3066&amp;idt=0&amp;shv=r20260420&amp;mjsv=m202604160101&amp;ptt=9&amp;saldr=aa&amp;abxe=1&amp;cookie=ID%3D50b54bc676f3e279%3AT%3D1776353262%3ART%3D1776780126%3AS%3DALNI_MaYJn7Rj3fos7s6RW40iAkrmQwNRQ&amp;gpic=UID%3D000013a4a1bbcb98%3AT%3D1776353262%3ART%3D1776780126%3AS%3DALNI_MauOrbmlYjxtpVhWC264qsoeA92Ow&amp;eo_id_str=ID%3D724a6266e0a68339%3AT%3D1776353262%3ART%3D1776780126%3AS%3DAA-Afjbd8FlTRWtWRf5qdeFKs2Ny&amp;prev_fmts=0x0%2C970x250%2C300x250&amp;nras=1&amp;correlator=1141719437555&amp;frm=20&amp;pv=1&amp;u_tz=120&amp;u_his=6&amp;u_h=833&amp;u_w=1470&amp;u_ah=833&amp;u_aw=1470&amp;u_cd=24&amp;u_sd=2&amp;adx=913&amp;ady=679&amp;biw=1470&amp;bih=833&amp;scr_x=0&amp;scr_y=0&amp;eid=95384087%2C95387623%2C95386955&amp;oid=2&amp;pvsid=6179872356847787&amp;tmod=680543130&amp;uas=1&amp;nvt=1&amp;fc=1920&amp;brdim=0%2C0%2C0%2C0%2C1470%2C0%2C1470%2C833%2C1470%2C833&amp;vis=1&amp;rsz=%7C%7CoeE%7C&amp;abl=CS&amp;pfx=0&amp;fu=0&amp;bc=31&amp;plas=241x658_l%7C241x658_r&amp;bz=1&amp;ifi=9&amp;uci=a!9&amp;fsb=1&amp;dtd=3" data-google-container-id="a!9" tabindex="0" title="Advertisement" aria-label="Advertisement" data-google-query-id="CJLW_-KN_5MDFT5qFQgdEQwBcg" data-load-complete="true"></iframe></div></ins></div>
+<div class="sticky-container" style="top: 78px;">
+	<div id="top_right" data-google-query-id="CML1y7G1_5MDFduhgwcdiZM9Sg" class="glacier-ad unrendered top_right config-top_right " style="position: static; visibility: visible; opacity: 1;"><div id="google_ads_iframe_/6581/web/it/top_right/news_info/breaking_dawn_0__container__" style="border: 0pt; margin: auto; text-align: center;"><iframe id="google_ads_iframe_/6581/web/it/top_right/news_info/breaking_dawn_0" name="google_ads_iframe_/6581/web/it/top_right/news_info/breaking_dawn_0" title="Contenuto dell'annuncio di terze parti" width="300" height="600" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" aria-label="Pubblicità" tabindex="0" data-load-complete="true" data-google-container-id="7" style="border: 0px; vertical-align: bottom;"></iframe></div></div>
 
-	
 </div>
 
 
 			</div>
 		
 	</div>
-	
-		<div class="glacier-ad unrendered bottom config-bottom content-module" ad-type="bottom" id="bottom"></div>
-
 	
 	
 		<div class="breadcrumbs ">
@@ -4416,7 +3873,7 @@ function getUserContentAffinity(categories) {
 			<svg class="breadcrumbs__chevron chevron-icon right" xmlns="http://www.w3.org/2000/svg" width="10" height="6" viewBox="0 0 10 6"><path d="M10 .969L9.037 0 5 4.063.963 0 0 .969 5 6z"></path></svg>
 			<a href="/it/it/62/lazio-weather" class="breadcrumbs__link">Lazio</a>
 			<svg class="breadcrumbs__chevron chevron-icon right" xmlns="http://www.w3.org/2000/svg" width="10" height="6" viewBox="0 0 10 6"><path d="M10 .969L9.037 0 5 4.063.963 0 0 .969 5 6z"></path></svg>
-			<a href="/it/it/rome/213490/weather-forecast/213490" class="breadcrumbs__link">Roma</a>
+			<a href="/it/it/trivigliano/2278470/weather-forecast/2278470" class="breadcrumbs__link">Trivigliano</a>
 			
 	</div>
 </div>
@@ -4424,34 +3881,6 @@ function getUserContentAffinity(categories) {
 	
 	
 		
-<div class="neighbors-wrapper">
-	<div class="neighbors-wrapper__content">
-			<h2 class="neighbors-title">Luoghi vicini:</h2>
-		<div class="neighbors-scroll">
-			<ul id="neighbors" class="neighbor-items">
-					<li class="neighbor-item" itemprop="address" itemscope="true" itemtype="https://schema.org/PostalAddress">
-						<a href="/it/it/acilia-castel-fusano-ostia-antica/2567497/weather-forecast/2567497" class="neighbor-link" data-from-string="nearby_locations">
-							<span itemprop="addressLocality">Acilia-Castel Fusano-Ostia Antica</span>,
-							<span itemprop="addressRegion">Lazio</span>
-						</a>
-					</li>
-					<li class="neighbor-item" itemprop="address" itemscope="true" itemtype="https://schema.org/PostalAddress">
-						<a href="/it/it/frascati/213390/weather-forecast/213390" class="neighbor-link" data-from-string="nearby_locations">
-							<span itemprop="addressLocality">Frascati</span>,
-							<span itemprop="addressRegion">Lazio</span>
-						</a>
-					</li>
-					<li class="neighbor-item" itemprop="address" itemscope="true" itemtype="https://schema.org/PostalAddress">
-						<a href="/it/it/ostia/2567489/weather-forecast/2567489" class="neighbor-link" data-from-string="nearby_locations">
-							<span itemprop="addressLocality">Lido di Ostia</span>,
-							<span itemprop="addressRegion">Lazio</span>
-						</a>
-					</li>
-			</ul>
-		</div>
-	</div>
-</div>
-
 	
 	<div class="base-footer   ">
 	<span class="">
@@ -4501,7 +3930,10 @@ function getUserContentAffinity(categories) {
 
 		
 
-			<script charset="utf-8" src="https://www.awxcdn.com/adc-assets/bundles/city.three-day-desktop.e8554de08f35914a35cb.js" async=""></script>
+			<script charset="utf-8" src="https://www.awxcdn.com/adc-assets/bundles/Hurricane.hurricane-desktop.d6b19212f88e74b10378.js" async=""></script>
+		<script charset="utf-8" src="https://www.awxcdn.com/adc-assets/bundles/2833.628b3056a64ef326aad8.js" async=""></script>
+		<script charset="utf-8" src="https://www.awxcdn.com/adc-assets/bundles/9071.42ce77b59fc27f0d47a3.js" async=""></script>
+		<script charset="utf-8" src="https://www.awxcdn.com/adc-assets/bundles/6432.db8b11c36a1effe54ff3.js" async=""></script>
 
 			<script charset="utf-8" src="https://www.awxcdn.com/adc-assets/bundles/legacy-header.59998cf2e2a578ed27b9.js" async=""></script>
 
@@ -4513,10 +3945,10 @@ function getUserContentAffinity(categories) {
         window.tagEngineDataLayer = window.tagEngineDataLayer || {};
         window.tagEngineDataLayer.comScore = {
             cs_fpid: "aabb62c2-3a89-44c2-86c5-ead1b04c96df",
-            c4: "https://www.accuweather.com/it/it/rome/213490/weather-forecast/213490",
-            c7: "https://www.accuweather.com/it/it/rome/213490/weather-forecast/213490",
-            c8: "Roma, Lazio, Italia Previsioni meteo tre giorni | AccuWeather",
-            c9: "https://www.google.com/"
+            c4: "https://www.accuweather.com/it/hurricane",
+            c7: "https://www.accuweather.com/it/hurricane",
+            c8: "Tracciatura degli uragani e radar delle tempeste | AccuWeather",
+            c9: "https://www.accuweather.com/"
         };
     </script>
 
@@ -4570,221 +4002,45 @@ function getUserContentAffinity(categories) {
 
 
 
-<iframe name="__tcfapiLocator" style="display: none;"></iframe><iframe name="__gppLocator" style="display: none;"></iframe><iframe marginwidth="0" marginheight="0" scrolling="no" frameborder="0" id="18094bcd808024" width="0" height="0" src="about:blank" name="__pb_locator__" style="display: none; height: 0px; width: 0px; border: 0px;"></iframe><img src="https://sb.scorecardresearch.com/p?cs_fpid=aabb62c2-3a89-44c2-86c5-ead1b04c96df&amp;cs_fpit=c&amp;c1=2&amp;c2=6005068&amp;c4=https%3A%2F%2Fwww.accuweather.com%2Fit%2Fit%2Frome%2F213490%2Fweather-forecast%2F213490&amp;c7=https%3A%2F%2Fwww.accuweather.com%2Fit%2Fit%2Frome%2F213490%2Fweather-forecast%2F213490&amp;c8=Roma%2C%20Lazio%2C%20Italia%20Previsioni%20meteo%20tre%20giorni%20%7C%20AccuWeather&amp;c9=https%3A%2F%2Fwww.google.com%2F&amp;cs_ucfr=1" alt="ComScore" style="display: none;"><iframe name="__uspapiLocator" style="display: none;"></iframe><ins class="adsbygoogle adsbygoogle-noablate" data-ad-hi="true" data-adsbygoogle-status="done" style="display: none !important;" data-ad-status="unfilled"><div id="aswift_0_host" style="border: medium; height: 0px; width: 0px; margin: 0px; padding: 0px; position: relative; visibility: visible; background-color: transparent; display: inline-block;"><iframe id="aswift_0" name="aswift_0" style="left:0;position:absolute;top:0;border:0;width:undefinedpx;height:undefinedpx;min-height:auto;max-height:none;min-width:auto;max-width:none;" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" frameborder="0" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" src="https://googleads.g.doubleclick.net/pagead/ads?gdpr=1&amp;us_privacy=1---&amp;gdpr_consent=CQjA2wAQjA2wAFUABAENCbFsAP_gAEPgACiQJzQKwAAwAKAAyAB4AIAAVgAuADIAHAAQAAkABkADQAIoASQAmABRAC3AF4AXwAwgCAAEFAI4AjwBKACcAFIALkAZQA5wB3AEIAMaAacA6oB7QEagKbAVcAvMBjIDJAGTgPMAf4BGYCcwJzQJgAAwAKAAyAB4AIAAVgAuADIAHAAQAAkABkADQAIoATAAogBbgC8AL4AYQBAACCgEcAR4AnABSADKAHOAO4AhABjQDTgHtAU2Aq4BeYDGQGSAMnAeYA_wCMwE5gAA.IJzQKwAAwAKAAyAB4AIAAVgAuADIAHAAQAAkABkADQAIoASQAmABRAC3AF4AXwAwgCAAEFAI4AjwBKACcAFIALkAZQA5wB3AEIAMaAacA6oB7QEagKbAVcAvMBjIDJAGTgPMAf4BGYCcwAAA.f_wACHwAAAAA&amp;addtl_consent=2~70.1092.3130&amp;gpp_sid=-1&amp;client=ca-pub-5771594739411148&amp;output=html&amp;adk=1812271804&amp;adf=3025194257&amp;lmt=1776780127&amp;plaf=1%3A2%2C2%3A2%2C7%3A2&amp;plat=1%3A128%2C2%3A128%2C3%3A128%2C4%3A128%2C8%3A192%2C9%3A134250504%2C16%3A8388608%2C17%3A32%2C24%3A32%2C25%3A32%2C30%3A1081344%2C32%3A32%2C41%3A32%2C42%3A32%2C43%3A32&amp;format=0x0&amp;url=https%3A%2F%2Fwww.accuweather.com%2Fit%2Fit%2Frome%2F213490%2Fweather-forecast%2F213490&amp;pra=5&amp;asro=0&amp;itsi=36&amp;aiapmid=1&amp;aiactd=0&amp;aicctd=0&amp;ailctd=0&amp;aimartd=4&amp;aieuf=1&amp;aicrs=1&amp;abgtt=6&amp;dt=1776780127563&amp;bpp=2&amp;bdt=2907&amp;idt=19&amp;shv=r20260420&amp;mjsv=m202604160101&amp;ptt=9&amp;saldr=aa&amp;abxe=1&amp;cookie=ID%3D50b54bc676f3e279%3AT%3D1776353262%3ART%3D1776780126%3AS%3DALNI_MaYJn7Rj3fos7s6RW40iAkrmQwNRQ&amp;gpic=UID%3D000013a4a1bbcb98%3AT%3D1776353262%3ART%3D1776780126%3AS%3DALNI_MauOrbmlYjxtpVhWC264qsoeA92Ow&amp;eo_id_str=ID%3D724a6266e0a68339%3AT%3D1776353262%3ART%3D1776780126%3AS%3DAA-Afjbd8FlTRWtWRf5qdeFKs2Ny&amp;nras=1&amp;correlator=1141719437555&amp;frm=20&amp;pv=2&amp;u_tz=120&amp;u_his=6&amp;u_h=833&amp;u_w=1470&amp;u_ah=833&amp;u_aw=1470&amp;u_cd=24&amp;u_sd=2&amp;adx=-12245933&amp;ady=-12245933&amp;biw=1470&amp;bih=833&amp;scr_x=0&amp;scr_y=0&amp;eid=95384087%2C95387623%2C95386955&amp;oid=2&amp;pvsid=6179872356847787&amp;tmod=680543130&amp;uas=1&amp;nvt=1&amp;fsapi=1&amp;fc=1920&amp;brdim=0%2C0%2C0%2C0%2C1470%2C0%2C1470%2C833%2C1470%2C833&amp;vis=1&amp;rsz=%7C%7Cs%7C&amp;abl=NS&amp;fu=32768&amp;bc=31&amp;plas=241x658_l%7C241x658_r&amp;bz=1&amp;ifi=6&amp;uci=a!6&amp;fsb=1&amp;dtd=30" data-google-container-id="a!6" tabindex="0" title="Advertisement" aria-label="Advertisement" data-load-complete="true"></iframe></div></ins><iframe src="https://www.google.com/recaptcha/api2/aframe" width="0" height="0" style="display: none;"></iframe></body><iframe id="google_esf" name="google_esf" src="https://googleads.g.doubleclick.net/pagead/html/r20260420/r20190131/zrt_lookup_fy2021.html" style="display: none;"></iframe></html>"""
+<iframe name="__tcfapiLocator" style="display: none;"></iframe><iframe marginwidth="0" marginheight="0" scrolling="no" frameborder="0" id="13b7c90b4d86a48" width="0" height="0" src="about:blank" name="__pb_locator__" style="display: none; height: 0px; width: 0px; border: 0px;"></iframe><iframe name="__gppLocator" style="display: none;"></iframe><script src="//cds.connatix.com/p/320936758/elLoader.js" async="1" type="text/javascript"></script><script src="//cds.connatix.com/p/320936758/connatix.player.js" crossorigin="anonymous" async="1" type="text/javascript"></script><img src="https://sb.scorecardresearch.com/p?cs_fpid=aabb62c2-3a89-44c2-86c5-ead1b04c96df&amp;cs_fpit=c&amp;c1=2&amp;c2=6005068&amp;c4=https%3A%2F%2Fwww.accuweather.com%2Fit%2Fhurricane&amp;c7=https%3A%2F%2Fwww.accuweather.com%2Fit%2Fhurricane&amp;c8=Tracciatura%20degli%20uragani%20e%20radar%20delle%20tempeste%20%7C%20AccuWeather&amp;c9=https%3A%2F%2Fwww.accuweather.com%2F&amp;cs_ucfr=1" alt="ComScore" style="display: none;"><iframe name="__uspapiLocator" style="display: none;"></iframe><iframe src="https://www.google.com/recaptcha/api2/aframe" width="0" height="0" style="display: none;"></iframe><iframe name="google_ads_top_frame" id="google_ads_top_frame" style="display: none; position: fixed; left: -999px; top: -999px; width: 0px; height: 0px;"></iframe></body></html>"""
 
 
-gold_text = """Roma, Lazio
-22°C
-
-4
+gold_text = """3
 Allarme giallo per temporali
-METEO ATTUALE
-16:02
-
-22°C
-RealFeel® 23°
-Parzialmente soleggiato
-ALTRI DETTAGLI
-RealFeel Shade™
-20°
-Vento
-SO 23 km/h
-Raffiche vento
-40 km/h
-Qualità dell'aria
-Sfavorev.
-EVOLUZIONE
-Gradevole nel weekend
-ROMA - RADAR METEO
-Roma - Radar meteo
-
-Nuvole
-
-Temperatura
-PREVISIONI ORARIE
-
-17
-
-21°
-rain drop
-1%
-18
-
-21°
-rain drop
-1%
-19
-
-20°
-rain drop
-1%
-20
-
-18°
-rain drop
-2%
-21
-
-17°
-rain drop
-2%
-22
-
-15°
-rain drop
-2%
-23
-
-14°
-rain drop
-2%
-00
-
-14°
-rain drop
-2%
-01
-
-13°
-rain drop
-4%
-02
-
-13°
-7%
-03
-
-13°
-7%
-04
-
-13°
-7%
-
-PREVISIONI GIORNO
-OGGI
-21/4
-
-23°
-12°
-Da soleggiato a parzialmente nuvoloso
-
-Da sereno a parzialmente nuvoloso
-14%
-MER
-22/4
-
-20°
-8°
-Uno o due brevi rovesci
-
-Parzialmente nuvoloso
-57%
-GIO
-23/4
-
-22°
-7°
-Ampiamente soleggiato
-
-Sereno
-0%
-VEN
-24/4
-
-23°
-8°
-Sole splendente
-
-Sereno
-0%
-SAB
-25/4
-
-25°
-10°
-Da soleggiato a parzialmente nuvoloso
-
-Sereno
-0%
-DOM
-26/4
-
-24°
-11°
-Ampiamente soleggiato
-
-Prevalentemente sereno
-0%
-LUN
-27/4
-
-24°
-12°
-Prevalentemente soleggiato
-
-Prevalentemente sereno
-1%
-MAR
-28/4
-
-22°
-11°
-Nuvoloso
-
-Un paio di rovesci
-19%
-MER
-29/4
-
-21°
-11°
-Possibilità di pioggia
-
-Poca pioggia
-55%
-GIO
-30/4
-
-22°
-11°
-Periodi di pioggia
-
-Periodi di pioggia
-61%
-SOLE E LUNA
-
-13 h 36 min
-Alba
-06:21
-Tramontare
-19:57
-
-16 h 30 min
-Alba
-08:50
-Tramontare
-01:20
-QUALITÀ DELL'ARIA
-Qualità dell'aria
-Sfavorev.
-L'aria ha raggiunto un livello elevato di inquinamento ed è malsana per i gruppi sensibili. Riduci il tempo trascorso all'aperto se hai sintomi quali difficoltà respiratoria o irritazione della gola.
-SITUAZIONE ALLERGIE
-Polline di albero
-Bassa
-Polline di ambrosia
-Bassa
-Spore
-Alto
-Polline dell’erba
-Bassa
-Polvere e forfora animale
-Bassa"""
+Copia completata
+Non ci sono tempeste attive
+Visualizza le tempeste recenti e passate qui sotto
+Tempeste passate
+Category3
+MAILA
+Ciclone tropicale - Categoria 3
+aprile 2026
+Sud Pacifico
+Category2
+VAIANU
+Ciclone tropicale - Categoria 2
+aprile 2026
+Sud Pacifico
+Category0
+SINLAKU
+Tifone violento
+aprile 2026
+Pacifico Orientale
+Category1
+TWENTYEIGHT
+Ciclone tropicale - Categoria 1
+marzo 2026
+Sud Pacifico
+Category5
+NARELLE
+Ciclone tropicale - Categoria 5
+marzo 2026
+Sud Pacifico"""
 data = [
     {
-        "url": "",
+        "url": "https://www.accuweather.com/it/hurricane",
         "domain": "accuweather.com",
-        "title": "roma",
+        "title": "hurricane",
         "html_text": html_text,
         "gold_text": gold_text
     }
