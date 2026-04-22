@@ -1,6 +1,5 @@
 import re
 from urllib.parse import urlparse
-
 from crawl4ai import AsyncWebCrawler, BrowserConfig, CrawlerRunConfig
 from crawl4ai.async_configs import CacheMode
 
@@ -11,15 +10,12 @@ except ModuleNotFoundError:
 
 
 class TradingEconomicsParser(BaseParser):
-    """Parser per pagine TradingEconomics."""
 
     def __init__(self) -> None:
         self.browser_config = BrowserConfig(
             headless=True,
-            user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
+            user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
         )
-
-        # Config live: più robusta per pagine dinamiche
         self.run_config_live = CrawlerRunConfig(
             cache_mode=CacheMode.BYPASS,
             page_timeout=90000,
@@ -27,133 +23,74 @@ class TradingEconomicsParser(BaseParser):
             wait_until="networkidle",
             js_code="""
                 const btn = Array.from(document.querySelectorAll('button'))
-                    .find(b => /accept all/i.test(b.textContent.trim()));
+                    .find(b => b.textContent.trim() === 'Accept all');
                 if (btn) { btn.click(); }
             """,
-        )
-
-        # Config html diretto: più leggera
+         )
         self.run_config_html = CrawlerRunConfig(
             cache_mode=CacheMode.BYPASS,
             page_timeout=90000,
             delay_before_return_html=0.5,
             wait_until="domcontentloaded",
         )
-
     async def parse(self, url: str) -> dict:
+        
         domain = urlparse(url).netloc
-
         async with AsyncWebCrawler(config=self.browser_config) as crawler:
             res = await crawler.arun(url=url, config=self.run_config_live)
-
         if not res.success:
-            raise RuntimeError(
-                f"Crawl fallito: {getattr(res, 'error_message', 'Errore sconosciuto')}"
-            )
-
-        title = self._estrai_titolo(res.markdown or "", res.html or "")
-        parsed_text = self._pulisci_markdown(res.markdown or "")
-
+            raise RuntimeError(f"Crawl fallito: {getattr(res, 'error_message', 'Errore sconosciuto')}")
         return {
-            "url": url,
-            "domain": domain,
-            "title": title,
-            "html_text": res.html or "",
-            "parsed_text": parsed_text,
+             "url": url,
+             "domain": domain,
+             "title": self._estrai_titolo(res.markdown),
+             "html_text": res.html,
+             "parsed_text": self._pulisci_markdown(res.markdown),
         }
 
-    async def parse_from_html(self, url: str, html: str) -> dict:
-        domain = urlparse(url).netloc
-
-        # alleggerimento html per evitare rumore grafici/script
-        html_clean = re.sub(
-            r"<script\b[^>]*>.*?</script>",
-            "",
-            html,
-            flags=re.DOTALL | re.IGNORECASE,
-        )
-        html_clean = re.sub(
-            r"<iframe\b[^>]*>.*?</iframe>",
-            "",
-            html_clean,
-            flags=re.DOTALL | re.IGNORECASE,
-        )
-        html_clean = re.sub(
-            r'<div[^>]*(class|id)="[^"]*(chart|graph|highcharts)[^"]*"[^>]*>.*?</div>',
-            "",
-            html_clean,
-            flags=re.DOTALL | re.IGNORECASE,
-        )
-
-        async with AsyncWebCrawler(config=self.browser_config) as crawler:
-            res = await crawler.arun(url=f"raw:{html_clean}", config=self.run_config_html)
-
-        if not res.success:
-            raise RuntimeError(
-                f"Parse fallito: {getattr(res, 'error_message', 'Errore sconosciuto')}"
-            )
-
-        title = self._estrai_titolo(res.markdown or "", html_clean)
-        parsed_text = self._pulisci_markdown(res.markdown or "")
-
-        return {
-            "url": url,
-            "domain": domain,
-            "title": title,
-            "html_text": html,
-            "parsed_text": parsed_text,
-        }
-
-    def _estrai_titolo(self, md: str, html: str = "") -> str:
-        # priorità al tag <title>
+    def _estrai_titolo(self, md: str,html: str="") -> str:
         m = re.search(r"<title>\s*(.*?)\s*</title>", html, re.IGNORECASE | re.DOTALL)
-        if m:
-            title = re.sub(r"\s+", " ", m.group(1)).strip()
-            title = re.sub(r"\s*\|\s*Trading Economics\s*$", "", title, flags=re.IGNORECASE)
-            return title
-
-        # fallback al primo header markdown
-        m = re.search(r"^#\s+(.+)$", md, re.MULTILINE)
         if m:
             return m.group(1).strip()
 
-        # fallback ulteriore
-        m = re.search(r"^##\s+(.+)$", md, re.MULTILINE)
+        m = re.search(r"^# (.+)$", md, re.MULTILINE)
         return m.group(1).strip() if m else ""
 
     def _pulisci_markdown(self, md: str) -> str:
-        if not md:
-            return ""
+        # 1) Taglia testa (menu)
+        md_originale = md
+        inizio = re.search(r"^## [A-Z].{20,}", md, re.MULTILINE)
+        if not inizio:
+            return md.strip()
+        md = md[inizio.start():]
 
-        md = md.replace("\r\n", "\n").replace("\r", "\n")
-
-        # 1) taglia testa/menu cercando un primo blocco "serio"
-        inizio = re.search(r"^##\s+[A-Z].{10,}", md, re.MULTILINE)
-        if inizio:
-            md = md[inizio.start():]
-        else:
-            md = md.strip()
-
-        # 2) taglia coda non utile
-        fine = re.search(r"\nRelated\n|\nCompare:|\nNews Stream\n", md, flags=re.IGNORECASE)
+        # 2) Taglia coda — più aggressivo, prende il primo match
+        fine = re.search(r"\nRelated\n|\n\*\*[A-Z]|\nCompare:", md)
         if fine:
             md = md[:fine.start()]
 
         match_cookie = re.search(r"Welcome to TRADING ECONOMICS", md, re.IGNORECASE)
         if match_cookie:
             md = md[:match_cookie.start()]
-
-        # 3) se c'è blocco grafico prima della tabella, toglilo
         inizio_grafico = md.find("\n1D\n")
         inizio_tabella = md.find("Price    Day  Month  Year  Date")
+
         if inizio_grafico != -1 and inizio_tabella != -1 and inizio_grafico < inizio_tabella:
             md = md[:inizio_grafico] + md[inizio_tabella:]
 
-        # 4) pulizia regex senza distruggere il Markdown
-        substitutions = [
-            (r"\[([^\]]+)\]\([^\)]+\)", r"\1"),     # link markdown -> testo
-            (r"!\[[^\]]*\]\([^\)]*\)", ""),         # immagini markdown via
+        pos_news_stream = md.find("News Stream")
+        if pos_news_stream != -1:
+            md = md[:pos_news_stream]
+            
+
+
+        # 3) Pulizia regex
+        for pattern, repl in [
+            (r"(?m)^#{1,6}\s+", ""),
+            (r"\[([^\]]+)\]\([^\)]+\)", r"\1"),
+            (r"!\[[^\]]*\]\([^\)]*\)", ""),
             (r"https?://\S+", ""),
+            (r"(?m)source:\s*[^\n]*", ""),
             (r"(?m)^.*(Highcharts|Loading\.\.\.|Export API).*$", ""),
             (r"(?m)^\s*OK\s*$", ""),
             (r"(?m)^\s*\|?\s*World Bank[^\n]*$", ""),
@@ -162,11 +99,15 @@ class TradingEconomicsParser(BaseParser):
             (r"(?m)^\s*\|.*?GMT.*$", ""),
             (r"(?m)^\d{4}-\d{2}-\d{2}\s*\|.*$", ""),
             (r"(?m)^\s*more\s*$", ""),
-            # etichette asse grafico
+            (r"\*\*.*?\*\*", ""),
+            # Etichette asse X del grafico (mesi+anno attaccati es. MayJulSepNov2026Mar)
             (r"(?m)^(?:[A-Z][a-z]{2}){2,}\d*[A-Z]?[a-z]*\s*$", ""),
-            # intestazione grafico
+
+            # Intestazione grafico con nome ente + ValueChgChg%
             (r"(?m)^\|.*?Value\s*Chg\s*Chg%.*$", ""),
-            # cookie/privacy
+
+            # FIX righe calendario con ora (11:00 AM)
+            (r"(?m)^\|?\s*\d{4}-\d{2}-\d{2}.*$", ""),
             (r"(?mi)^.*Cookie duration.*$", ""),
             (r"(?mi)^.*Data collected and processed:.*$", ""),
             (r"(?mi)^.*Privacy policy.*$", ""),
@@ -179,59 +120,71 @@ class TradingEconomicsParser(BaseParser):
             (r"(?mi)^.*Legitimate interest.*$", ""),
             (r"(?mi)^.*Doesn't use cookies.*$", ""),
             (r"(?mi)^.*Uses other forms of storage.*$", ""),
-        ]
-        for pattern, repl in substitutions:
+        ]:
             md = re.sub(pattern, repl, md, flags=re.MULTILINE)
 
-        # 5) filtro riga per riga
+        # 4) Filtraggio riga per riga
         linee = []
         for riga in md.splitlines():
             riga = riga.strip()
-
-            if not riga:
-                continue
-
-            if any(x.lower() in riga.lower() for x in [
-                "cookie duration",
-                "data collected and processed:",
-                "privacy policy",
-                "storage details",
-                "view details",
-                "accept all",
-                "confirm choices",
-                "consentlegitimate interest",
-                "legitimate interest",
-                "doesn't use cookies",
-                "uses other forms of storage",
+            if any(x in riga for x in [
+                "Cookie duration",
+                "Data collected and processed:",
+                "Privacy policy",
+                "Storage details",
+                "View details",
+                "Accept all",
+                "Confirm choices",
+                "ConsentLegitimate interest",
+                "Legitimate interest",
+                "Doesn't use cookies",
+                "Uses other forms of storage",
             ]):
                 continue
-
-            # riga separatore tabella markdown vuota
+            if not riga:
+                continue
             if re.match(r"^\|[\s\-\|]+$", riga):
                 continue
-
-            # tabelle markdown: tienile
             if riga.startswith("|") and len(riga) > 5:
                 linee.append(riga)
                 continue
-
-            # righe brevissime non informative
             if len(riga) < 20 and not re.search(r"\d", riga):
-                if re.match(r"^[A-Za-z\s%/,\-]+$", riga):
+                if re.match(r"^[A-Za-z\s]+$", riga):  
                     linee.append(riga)
                 continue
-
-            # solo numeri/simboli inutili
             if re.match(r"^[\d\s\.\,KMB\|\-]+$", riga):
                 continue
-
+            
             linee.append(riga)
 
         md = "\n".join(linee)
-
-        # 6) pulizia finale mantenendo markdown
         md = re.sub(r"\n{3,}", "\n\n", md)
         md = re.sub(r"[ \t]{2,}", " ", md)
-        md = "\n".join(line.strip() for line in md.splitlines())
-
+        md = md.replace("|", "")  
+        md = "\n".join(line.strip() for line in md.splitlines())  
         return md.strip()
+    async def parse_from_html(self, url: str, html: str) -> dict:
+        domain = urlparse(url).netloc
+        html = re.sub(r"<script\b[^>]*>.*?</script>", "", html, flags=re.DOTALL | re.IGNORECASE)
+        html = re.sub(r"<iframe\b[^>]*>.*?</iframe>", "", html, flags=re.DOTALL | re.IGNORECASE)
+        html = re.sub(
+            r'<div[^>]*(class|id)="[^"]*(chart|graph|highcharts)[^"]*"[^>]*>.*?</div>',
+            "",
+            html,
+            flags=re.DOTALL | re.IGNORECASE
+        )
+        async with AsyncWebCrawler(config=self.browser_config) as crawler:
+            res = await crawler.arun(url=f"raw://{html}", config=self.run_config_html)
+        if not res.success:
+            raise RuntimeError("Parse fallito")
+        return {
+            "url": url,
+            "domain": domain,
+            "title": self._estrai_titolo(res.markdown),
+            "html_text":html,
+            "parsed_text": self._pulisci_markdown(res.markdown),
+        }
+    
+
+
+
