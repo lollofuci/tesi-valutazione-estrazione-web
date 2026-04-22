@@ -1,4 +1,25 @@
 import re
+import mistune
+from bs4 import BeautifulSoup
+
+
+def remove_markdown(md: str) -> str:
+    """
+    Rimuove il Markdown da una stringa, restituendo solo il testo pulito.
+    """
+    if not md:
+        return ""
+
+    html = mistune.html(md)
+    soup = BeautifulSoup(html, "html.parser")
+
+    for tag in soup.find_all(True):
+        tag.unwrap()
+
+    text = re.sub(r"[ \t]+", " ", str(soup))
+    text = re.sub(r"\n+", "\n", text)
+
+    return text.strip()
 
 
 def tokenized_text(text: str) -> set[str]:
@@ -11,12 +32,19 @@ def tokenized_text(text: str) -> set[str]:
     normalized = re.sub(r"\s+", " ", text.lower()).strip()
     if not normalized:
         return set()
-    return set(normalized.split(" "))
+    return set(normalized.split())
 
 
 def token_level_eval(parsed_text: str, gold_text: str) -> dict[str, float]:
-    parsed_tokens = tokenized_text(parsed_text)
-    gold_tokens = tokenized_text(gold_text)
+    """
+    Confronta parsed_text e gold_text a livello di token.
+    Rimuove il Markdown da entrambi, per maggiore robustezza.
+    """
+    parsed_plain = remove_markdown(parsed_text)
+    gold_plain = remove_markdown(gold_text)
+
+    parsed_tokens = tokenized_text(parsed_plain)
+    gold_tokens = tokenized_text(gold_plain)
 
     intersection = parsed_tokens & gold_tokens
 

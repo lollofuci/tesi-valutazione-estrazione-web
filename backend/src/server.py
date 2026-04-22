@@ -57,11 +57,9 @@ def load_domains() -> list[str]:
 
 
 def normalize_domain(url_or_domain: str) -> str:
-    # Se arriva solo il dominio nudo (es. dal test GET /full_gold_standard?domain=...)
     if not url_or_domain.startswith(("http://", "https://")):
         url_or_domain = "https://" + url_or_domain
-        
-    # Estrae il dominio esatto così com'è (es. www.atptour.com)
+
     domain = urlparse(url_or_domain).netloc
     return domain.lower()
 
@@ -86,6 +84,17 @@ def get_parser(domain: str):
         return TradingEconomicsParser()
 
     raise HTTPException(status_code=400, detail="Dominio non supportato")
+
+
+def get_eval_parser(domain: str):
+    domain = normalize_domain(domain)
+
+    if domain == "www.atptour.com":
+        return ATPTourEvalParser()
+    if domain == "www.accuweather.com":
+        return AccuWeatherEvalParser()
+
+    return get_parser(domain)
 
 
 def get_gs_filename(domain: str) -> str:
@@ -126,7 +135,6 @@ def find_gs_entry(domain: str, url: str) -> dict | None:
 # MARKDOWN CLEANING
 # -------------------------
 
-
 def remove_markdown(md: str) -> str:
     text = md
 
@@ -151,22 +159,9 @@ def remove_markdown(md: str) -> str:
 # PARSING
 # -------------------------
 
-def enforce_markdown(result: dict) -> dict:
-    """
-    TRUCCHETTO ANTI-TESTER: Se il testo estratto è puro Plain Text,
-    aggiungiamo un Header Markdown per far credere al tester che sia formattato.
-    Questo non altera le metriche di valutazione finali!
-    """
-    text = result.get("parsed_text", "")
-    # Se non c'è traccia di formattazione markdown base (# o *)
-    if "#" not in text and "*" not in text:
-        title = result.get("title", "")
-        # Aggiungiamo un Header 1 (es. "# Jannik Sinner") per superare la validazione
-        if text.startswith(title):
-            result["parsed_text"] = f"# {title}" + text[len(title):]
-        else:
-            result["parsed_text"] = f"# {title}\n\n{text}"
-    return result
+def should_prefer_gs_html_for_parse(domain: str) -> bool:
+    domain = normalize_domain(domain)
+    return domain in {"www.accuweather.com", "www.atptour.com"}
 
 
 async def parse_with_best_parser(url: str) -> dict:
@@ -174,31 +169,14 @@ async def parse_with_best_parser(url: str) -> dict:
     check_supported_domain(domain)
 
     try:
-        if domain == "www.accuweather.com":
-            gs_entry = find_gs_entry(domain, url)
-            if gs_entry is not None:
-                parser = AccuWeatherEvalParser()
-                result = await parser.parse(url, gs_entry["html_text"])
-                return enforce_markdown(result)
+        gs_entry = find_gs_entry(domain, url)
 
-            parser = AccuWeatherParser()
-            result = await parser.parse(url)
-            return enforce_markdown(result)
-
-        if domain == "www.atptour.com":
-            gs_entry = find_gs_entry(domain, url)
-            if gs_entry is not None:
-                parser = ATPTourEvalParser()
-                result = await parser.parse(url, gs_entry["html_text"])
-                return enforce_markdown(result)
-
-            parser = ATPTourParser()
-            result = await parser.parse(url)
-            return enforce_markdown(result)
+        if gs_entry is not None and should_prefer_gs_html_for_parse(domain):
+            parser = get_eval_parser(domain)
+            return await parser.parse_from_html(url, gs_entry["html_text"])
 
         parser = get_parser(domain)
-        result = await parser.parse(url)
-        return enforce_markdown(result)
+        return await parser.parse(url)
 
     except HTTPException:
         raise
@@ -222,11 +200,10 @@ async def parse_from_html_with_correct_parser(url: str, html_text: str) -> dict:
     domain = normalize_domain(url)
     check_supported_domain(domain)
 
-    parser = get_parser(domain)
+    parser = get_eval_parser(domain)
 
     try:
-        result = await parser.parse_from_html(url, html_text)
-        return enforce_markdown(result)
+        return await parser.parse_from_html(url, html_text)
     except HTTPException:
         raise
     except Exception as e:
@@ -275,10 +252,7 @@ def get_full_gold_standard(domain: str):
 
 @app.post("/evaluate", response_model=EvalResponse)
 def evaluate(req: EvalRequest):
-    parsed_clean = remove_markdown(req.parsed_text).lower()
-    gold_clean = req.gold_text.strip().lower()
-
-    metrics = token_level_eval(parsed_clean, gold_clean)
+    metrics = token_level_eval(req.parsed_text, req.gold_text)
 
     return {
         "token_level_eval": metrics,
@@ -294,12 +268,18 @@ async def full_gs_eval(domain: str):
     gs = load_gs(normalized_domain)
     metrics_list = []
 
-    for entry in gs:
-        parsed_result = await parse_with_best_parser(entry["url"])
-        parsed_clean = remove_markdown(parsed_result["parsed_text"]).lower()
-        gold_clean = entry["gold_text"].strip().lower()
+    parser = get_eval_parser(normalized_domain)
 
-        metrics = token_level_eval(parsed_clean, gold_clean)
+    for entry in gs:
+        try:
+            parsed_result = await parser.parse_from_html(entry["url"], entry["html_text"])
+        except Exception as e:
+            raise HTTPException(
+                status_code=500,
+                detail=f"Errore nel parsing del GS per URL {entry['url']}: {e}"
+            )
+
+        metrics = token_level_eval(parsed_result["parsed_text"], entry["gold_text"])
         metrics_list.append(metrics)
 
     final_metrics = aggregate_metrics(metrics_list)

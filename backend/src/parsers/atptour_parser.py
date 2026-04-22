@@ -1,60 +1,29 @@
-import os
 import re
-import tempfile
-import asyncio
 from urllib.parse import urlparse, unquote
 
 from crawl4ai import AsyncWebCrawler, BrowserConfig, CrawlerRunConfig, CacheMode
 from parsers.base_parser import BaseParser
 
+
 class ATPTourParser(BaseParser):
     def __init__(self) -> None:
         self.browser_config = BrowserConfig(
-            headless=True,  # Mantieni True per il server
+            headless=True,
             headers={
-                "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
-                "Accept-Language": "en-US,en;q=0.9"
-            }
+                "User-Agent": (
+                    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+                    "AppleWebKit/537.36 (KHTML, like Gecko) "
+                    "Chrome/122.0.0.0 Safari/537.36"
+                ),
+                "Accept-Language": "en-US,en;q=0.9",
+            },
         )
         self.run_config = CrawlerRunConfig(
             magic=False,
             cache_mode=CacheMode.BYPASS,
             page_timeout=120000,
-            delay_before_return_html=5.0
+            delay_before_return_html=5.0,
         )
-
-    async def parse_from_html(self, url: str, html: str) -> dict:
-        domain = urlparse(url).netloc
-        title = self._estrai_titolo_da_url(url)
-
-        with tempfile.NamedTemporaryFile(delete=False, suffix=".html", mode="w", encoding="utf-8") as tmp_file:
-            tmp_file.write(html)
-            tmp_file_path = tmp_file.name
-
-        try:
-            local_url = f"file:///{tmp_file_path.replace(os.sep, '/')}"
-
-            async with AsyncWebCrawler(config=self.browser_config) as crawler:
-                result = await crawler.arun(url=local_url, config=self.run_config)
-
-            if not result.success:
-                raise RuntimeError("Crawl fallito durante l'elaborazione dell'HTML offline.")
-
-            raw_markdown = result.markdown or ""
-            # Torniamo a usare il Markdown, non l'HTML!
-            parsed_text = self._smista_e_pulisci(url, raw_markdown, title)
-
-        finally:
-            if os.path.exists(tmp_file_path):
-                os.remove(tmp_file_path)
-
-        return {
-            "url": url,
-            "domain": domain,
-            "title": title,
-            "html_text": html,
-            "parsed_text": parsed_text,
-        }
 
     async def parse(self, url: str) -> dict:
         domain = urlparse(url).netloc
@@ -80,6 +49,30 @@ class ATPTourParser(BaseParser):
             "parsed_text": parsed_text,
         }
 
+    async def parse_from_html(self, url: str, html: str) -> dict:
+        domain = urlparse(url).netloc
+        title = self._estrai_titolo_da_url(url)
+
+        async with AsyncWebCrawler(config=self.browser_config) as crawler:
+            result = await crawler.arun(url=f"raw:{html}", config=self.run_config)
+
+        if not result.success:
+            error_message = getattr(result, "error_message", "Errore sconosciuto")
+            raise RuntimeError(
+                f"Crawl fallito durante l'elaborazione dell'HTML diretto: {error_message}"
+            )
+
+        raw_markdown = result.markdown or ""
+        parsed_text = self._smista_e_pulisci(url, raw_markdown, title)
+
+        return {
+            "url": url,
+            "domain": domain,
+            "title": title,
+            "html_text": html,
+            "parsed_text": parsed_text,
+        }
+
     def _estrai_titolo_da_url(self, url: str) -> str:
         path_parts = urlparse(url).path.strip("/").split("/")
 
@@ -97,14 +90,16 @@ class ATPTourParser(BaseParser):
         return slug.title().strip()
 
     def _smista_e_pulisci(self, url: str, md: str, titolo: str) -> str:
+        md = self.clean_markdown(md)
+
         if "/news" in url:
             return self._pulisci_news(md, titolo)
-        elif "/atp-head-2-head" in url or "/head-2-head" in url:
+        if "/atp-head-2-head" in url or "/head-2-head" in url:
             return self._pulisci_h2h(md, titolo)
-        elif "/players/" in url:
-            return self._pulisci_player(md, titolo) 
-        else:
-            return self._pulisci_news(md, titolo)
+        if "/players/" in url:
+            return self._pulisci_player(md, titolo)
+
+        return self._pulisci_news(md, titolo)
 
     def _pulisci_news(self, md: str, titolo: str) -> str:
         md = re.sub(r"\r\n?", "\n", md)
@@ -120,51 +115,108 @@ class ATPTourParser(BaseParser):
                 if match_titolo:
                     md = md[match_titolo.start():]
 
-        pattern_coda = r"(?ms)^(###\s+(Read More News|View Related|Stats widget|DOWNLOAD)|## Header 2|NEWSLETTERS|## Partners|#### Corporate|## Privacy Preference Center|Premier Partner).*$"
+        pattern_coda = (
+            r"(?ms)^(###\s+(Read More News|View Related|Stats widget|DOWNLOAD)|"
+            r"## Header 2|NEWSLETTERS|## Partners|#### Corporate|"
+            r"## Privacy Preference Center|Premier Partner).*$"
+        )
         match_bottom = re.search(pattern_coda, md)
         if match_bottom:
             md = md[:match_bottom.start()]
 
-        md = re.sub(r"(?is)Video Player is loading\..*?(?:Close Modal Dialog|End of dialog window\.|Reset restore all settings to the default valuesDone)", "", md)
-        md = re.sub(r"(?mi)^(Close Modal Dialog|End of dialog window\.|This is a modal window\..*?)\s*$", "", md)
+        md = re.sub(
+            r"(?is)Video Player is loading\..*?(?:Close Modal Dialog|End of dialog window\.|Reset restore all settings to the default valuesDone)",
+            "",
+            md,
+        )
+        md = re.sub(
+            r"(?mi)^(Close Modal Dialog|End of dialog window\.|This is a modal window\..*?)\s*$",
+            "",
+            md,
+        )
 
         linee_valide = []
         for line in md.splitlines():
             s = line.strip()
-            if not s: continue
+            if not s:
+                continue
 
             s = re.sub(r"!\[.*?\]\([^)]+\)", "", s)
             s = re.sub(r"\[?\s*\]\([^)]+\)", "", s)
             s = re.sub(r"\[([^\]]+)\]\([^)]+\)", r"\1", s)
-            s = s.replace("[", "").replace("]", "")
-            
-            if not s: continue
 
-            if re.match(r"^(January|February|March|April|May|June|July|August|September|October|November|December)\s\d{1,2},\s\d{4}$", s):
+            if not s:
+                continue
+
+            if re.match(
+                r"^(January|February|March|April|May|June|July|August|September|October|November|December)\s\d{1,2},\s\d{4}$",
+                s,
+            ):
                 continue
 
             s_lower = s.replace("#", "").replace("*", "").strip().lower()
             selettori_spazzatura = {
-                "share", "play", "mute", "chapters", "getty images", "/", "1x", "done",
-                "match report", "play video", "audio track", "descriptions", "captions",
-                "picture-in-picturefullscreen", "en", "es", "close modal dialog", "end of dialog window.",
-                "shop", "premier partner"
+                "share",
+                "play",
+                "mute",
+                "chapters",
+                "getty images",
+                "/",
+                "1x",
+                "done",
+                "match report",
+                "play video",
+                "audio track",
+                "descriptions",
+                "captions",
+                "picture-in-picturefullscreen",
+                "en",
+                "es",
+                "close modal dialog",
+                "end of dialog window.",
+                "shop",
+                "premier partner",
             }
-            if s_lower in selettori_spazzatura: continue
-            if s_lower.startswith((
-                "descriptions off", "captions settings", "captions off", "text colorwhite", "background color", "window color",
-                "font size", "text edge", "font family", "reset restore", "current time", "duration", "loaded:", "stream type", "seek to live",
-                "remaining time", "playback rate", "beginning of dialog window", "this is a modal window" 
-            )): continue
+            if s_lower in selettori_spazzatura:
+                continue
+            if s_lower.startswith(
+                (
+                    "descriptions off",
+                    "captions settings",
+                    "captions off",
+                    "text colorwhite",
+                    "background color",
+                    "window color",
+                    "font size",
+                    "text edge",
+                    "font family",
+                    "reset restore",
+                    "current time",
+                    "duration",
+                    "loaded:",
+                    "stream type",
+                    "seek to live",
+                    "remaining time",
+                    "playback rate",
+                    "beginning of dialog window",
+                    "this is a modal window",
+                )
+            ):
+                continue
 
             linee_valide.append(s)
 
         testo_finale = "\n\n".join(linee_valide)
         testo_finale = re.sub(r"[ \t]{2,}", " ", testo_finale)
-        return re.sub(r"\n{3,}", "\n\n", testo_finale).strip()
+        testo_finale = re.sub(r"\n{3,}", "\n\n", testo_finale).strip()
+
+        if testo_finale and not testo_finale.startswith("#"):
+            testo_finale = f"# {titolo}\n\n{testo_finale}"
+
+        return testo_finale
 
     def _pulisci_h2h(self, md: str, titolo: str) -> str:
-        md = re.sub(r"\[([^\]]+)\]\([^)]+\)", r"\1", md) 
+        md = re.sub(r"\[([^\]]+)\]\([^)]+\)", r"\1", md)
         md = re.sub(r"!\[.*?\]\([^)]+\)", "", md)
 
         lines = [line.strip() for line in md.splitlines() if line.strip()]
@@ -178,9 +230,17 @@ class ATPTourParser(BaseParser):
                 start_idx = i + 1
 
         voci_coda = (
-            "riveting rivalries", "download official", "privacy preference center", 
-            "related players", "view all", "partners", "newsletters", "fierce feuds",
-            "corporate", "media", "related links"
+            "riveting rivalries",
+            "download official",
+            "privacy preference center",
+            "related players",
+            "view all",
+            "partners",
+            "newsletters",
+            "fierce feuds",
+            "corporate",
+            "media",
+            "related links",
         )
         for i in range(start_idx, len(lines)):
             l_clean = lines[i].replace("#", "").replace("*", "").strip().lower()
@@ -190,46 +250,56 @@ class ATPTourParser(BaseParser):
 
         risultato = []
         garbage = {
-            "en", "es", "buy tickets", "search", "shop", "premier partner", 
-            "atp fantasy", "gaming", "breakdown", "events breakdown",
-            "players", "players home", "atp coach members", "header 2"
+            "en",
+            "es",
+            "buy tickets",
+            "search",
+            "shop",
+            "premier partner",
+            "atp fantasy",
+            "gaming",
+            "breakdown",
+            "events breakdown",
+            "players",
+            "players home",
+            "atp coach members",
+            "header 2",
         }
-
-        # Dobbiamo tenere traccia se stiamo processando le info del giocatore 1 o 2
-        # per formattare i dati "Rank", "Age" ecc.
-        is_player_2 = False
 
         for i in range(start_idx, end_idx):
             s = lines[i].replace("*", "").replace("#", "").replace("!", "").strip()
 
             if not s or re.match(r"^[\s\|\:\-]+$", s):
                 continue
+
             s = re.sub(r"player-photo-[a-z0-9]+", "", s, flags=re.IGNORECASE)
-            s = s.replace("|", "\t") # Tabulazione per la tabella finale
+            s = s.replace("|", "\t")
             s = re.sub(r"\s{2,}", " ", s).strip()
 
             s_low = s.lower()
-            
+
             if s_low in garbage:
                 continue
             if s_low.startswith(("latest news", "search icon", "filter icon", "related players")):
                 continue
 
-            # --- Formattazione Specifica H2H ---
-
-            # Gestione della riga fusa YTD/Career (es: 9/9YTD W/L9/8)
-            # Cerchiamo un numero (o '-'), poi il testo dell'etichetta, poi un altro numero (o '-')
-            match_stats = re.match(r"^([\d/,\$\.-]+)\s*(YTD W/L|YTD titles|Career W/L|Career titles|Career prize money)\s*([\d/,\$\.-]+)$", s, re.IGNORECASE)
+            match_stats = re.match(
+                r"^([\d/,\$\.-]+)\s*(YTD W/L|YTD titles|Career W/L|Career titles|Career prize money)\s*([\d/,\$\.-]+)$",
+                s,
+                re.IGNORECASE,
+            )
             if match_stats:
                 val1, label, val2 = match_stats.groups()
                 risultato.append(val1.strip())
                 risultato.append(label.strip())
                 risultato.append(val2.strip())
-                is_player_2 = True # Dopo le stats combinate iniziano i dati base del giocatore 2
                 continue
 
-            # Gestione dati anagrafici (es: Rank44 o Age26)
-            match_bio = re.match(r"^(Rank|Age|Weight|Height|Plays|Backhand|Turned Pro)(.*)$", s, re.IGNORECASE)
+            match_bio = re.match(
+                r"^(Rank|Age|Weight|Height|Plays|Backhand|Turned Pro)(.*)$",
+                s,
+                re.IGNORECASE,
+            )
             if match_bio:
                 label, val = match_bio.groups()
                 risultato.append(label.strip())
@@ -237,67 +307,64 @@ class ATPTourParser(BaseParser):
                     risultato.append(val.strip())
                 continue
 
-            # Gestione tabella finale (se c'è una riga di tabella, la teniamo così com'è, tabulata)
             if s_low.startswith(("year\twinner", "202", "199", "198")):
-                 # Se la riga è fusa, proviamo a dividerla (semplificazione)
-                 s = s.replace("\t", " ")
-                 risultato.append(s)
-                 continue
+                s = s.replace("\t", " ")
+                risultato.append(s)
+                continue
 
-            # Se non corrisponde a nulla di specifico, aggiungiamo la riga
             risultato.append(s)
 
         if not risultato:
             return f"# {titolo}\n\nDati non trovati."
 
-        # Rimuoviamo i nomi dei giocatori doppi all'inizio se presenti
         if len(risultato) > 4:
-           if risultato[0].lower() == titolo.lower() and risultato[1].lower() == titolo.lower():
-               risultato = risultato[1:]
+            if risultato[0].lower() == titolo.lower() and risultato[1].lower() == titolo.lower():
+                risultato = risultato[1:]
 
-        # Aggiungiamo l'hashtag alla prima riga per il tester
         if not risultato[0].startswith("#"):
             risultato[0] = f"# {risultato[0]}"
 
         return "\n".join(risultato).strip()
 
     def _pulisci_player(self, md: str, titolo: str) -> str:
-        # Usa il markdown generato da Crawl4AI
         md = re.sub(r"\[([^\]]+)\]\([^)]+\)", r"\1", md)
         md = re.sub(r"!\[.*?\]\([^)]+\)", "", md)
-        md = md.replace('\r\n', '\n')
+        md = md.replace("\r\n", "\n")
 
         lines = [line.strip() for line in md.splitlines() if line.strip()]
 
         start_idx = 0
         end_idx = len(lines)
 
-        # 1. ANCORA INFALLIBILE: Cerchiamo "YTD" e andiamo a ritroso per trovare il nome
         for i, line in enumerate(lines):
             l_clean = line.lower().replace("*", "").replace("#", "").strip()
             if l_clean == "ytd" or l_clean.startswith("ytd "):
-                for j in range(i, max(-1, i-10), -1):
+                for j in range(i, max(-1, i - 10), -1):
                     prev_clean = lines[j].lower().replace("*", "").replace("#", "").strip()
                     if titolo.lower() in prev_clean:
                         start_idx = j
                         break
                 else:
-                    start_idx = max(0, i-2)
+                    start_idx = max(0, i - 2)
                 break
         else:
-            # Fallback se non trova YTD
             for i in range(len(lines)):
                 if titolo.lower() in lines[i].lower():
                     start_idx = i
                     break
 
-        # 2. GHIGLIOTTINA DI CODA: Tagliamo i widget finali
         voci_coda = [
-            "latest news", "editor's picks", "last event played", "see more player", 
-            "newsletters", "corporate", "privacy preference center", "related players", 
-            "search opponent"
+            "latest news",
+            "editor's picks",
+            "last event played",
+            "see more player",
+            "newsletters",
+            "corporate",
+            "privacy preference center",
+            "related players",
+            "search opponent",
         ]
-        
+
         for i in range(start_idx + 5, len(lines)):
             l_clean = lines[i].lower().replace("*", "").replace("#", "").strip()
             if any(l_clean.startswith(vc) for vc in voci_coda) or l_clean in voci_coda:
@@ -305,21 +372,39 @@ class ATPTourParser(BaseParser):
                 break
 
         risultato = []
-        
-        # Abbiamo rimosso "follow player" dalla spazzatura, ma aggiunto "insta"!
+
         garbage = {
-            "en", "es", "buy tickets", "search", "shop", "premier partner", "atp fantasy", 
-            "gaming", "players", "players home", "atp coach members", "overview", "bio", 
-            "activity", "stats", "ranking", "facebook", "x", "tiktok", "email", 
-            "header 2", "more navigation links", "vs", "insta"
+            "en",
+            "es",
+            "buy tickets",
+            "search",
+            "shop",
+            "premier partner",
+            "atp fantasy",
+            "gaming",
+            "players",
+            "players home",
+            "atp coach members",
+            "overview",
+            "bio",
+            "activity",
+            "stats",
+            "ranking",
+            "facebook",
+            "x",
+            "tiktok",
+            "email",
+            "header 2",
+            "more navigation links",
+            "vs",
+            "insta",
         }
 
         titolo_low = titolo.lower()
 
         for i in range(start_idx, end_idx):
-            # Togliamo anche il punto esclamativo per distruggere i "!Jannik Sinner" residui
             s = lines[i].replace("*", "").replace("#", "").replace("!", "").strip()
-            
+
             if not s or re.match(r"^[\s\|\:\-]+$", s):
                 continue
 
@@ -327,18 +412,20 @@ class ATPTourParser(BaseParser):
             if s_low in garbage:
                 continue
 
-            # Filtriamo il widget nascosto con il riassunto Rank
             if s_low.startswith(("headshot-", "filter icon", "search icon", "ytd rank:")):
                 continue
-                
-            # Se abbiamo già inserito il nome del giocatore all'inizio, saltiamo i cloni
+
             if s_low == titolo_low and len(risultato) > 0:
                 continue
 
-            # Separiamo Età e Peso dai numeri se Crawl4AI li ha fusi (es. Age24 -> Age \n 24)
-            s = re.sub(r"^(Age|Weight|Height|Turned pro|Country|Birthplace|Plays|Coach)(.*)$", r"\1\n\2", s, flags=re.IGNORECASE)
-            
-            for part in s.split('\n'):
+            s = re.sub(
+                r"^(Age|Weight|Height|Turned pro|Country|Birthplace|Plays|Coach)(.*)$",
+                r"\1\n\2",
+                s,
+                flags=re.IGNORECASE,
+            )
+
+            for part in s.split("\n"):
                 p = part.strip()
                 if p:
                     risultato.append(p)
@@ -346,7 +433,6 @@ class ATPTourParser(BaseParser):
         if not risultato:
             return f"# {titolo}\n\nDati non trovati."
 
-        # Aggiungiamo l'hashtag alla prima riga per far scattare il "Formato Markdown" al tester
         if not risultato[0].startswith("#"):
             risultato[0] = f"# {risultato[0]}"
 
