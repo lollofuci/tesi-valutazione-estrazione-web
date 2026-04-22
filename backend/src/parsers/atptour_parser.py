@@ -7,58 +7,20 @@ from urllib.parse import urlparse, unquote
 from crawl4ai import AsyncWebCrawler, BrowserConfig, CrawlerRunConfig, CacheMode
 from parsers.base_parser import BaseParser
 
-
-
 class ATPTourParser(BaseParser):
     def __init__(self) -> None:
-        headless = self._get_headless_mode()
-
         self.browser_config = BrowserConfig(
-            headless=headless,
+            headless=True,  # Mantieni True per il server
             headers={
-                "User-Agent": (
-                    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
-                    "AppleWebKit/537.36 (KHTML, like Gecko) "
-                    "Chrome/122.0.0.0 Safari/537.36"
-                ),
+                "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
                 "Accept-Language": "en-US,en;q=0.9"
             }
         )
-
         self.run_config = CrawlerRunConfig(
             magic=False,
             cache_mode=CacheMode.BYPASS,
             page_timeout=120000,
             delay_before_return_html=5.0
-        )
-
-    def _get_headless_mode(self) -> bool:
-        """
-        Regole:
-        1. Se ATPTOUR_HEADLESS è impostata, usa quella.
-        2. Altrimenti, se siamo in Docker -> True
-        3. Altrimenti -> False
-        """
-        env_value = os.getenv("ATPTOUR_HEADLESS")
-        if env_value is not None:
-            return env_value.strip().lower() in {"1", "true", "yes", "on"}
-
-        # auto-detect docker
-        if os.path.exists("/.dockerenv"):
-            return True
-
-        return False
-
-        self.run_config = CrawlerRunConfig(
-
-            magic=False,
-
-            cache_mode=CacheMode.BYPASS,
-
-            page_timeout=120000,
-
-            delay_before_return_html=5.0
-
         )
 
     async def parse_from_html(self, url: str, html: str) -> dict:
@@ -79,9 +41,8 @@ class ATPTourParser(BaseParser):
                 raise RuntimeError("Crawl fallito durante l'elaborazione dell'HTML offline.")
 
             raw_markdown = result.markdown or ""
-            
-            # ATTENZIONE QUI: Passiamo 'html' (il codice sorgente originale) direttamente allo smistatore!
-            parsed_text = self._smista_e_pulisci(url, raw_markdown, title, html)
+            # Torniamo a usare il Markdown, non l'HTML!
+            parsed_text = self._smista_e_pulisci(url, raw_markdown, title)
 
         finally:
             if os.path.exists(tmp_file_path):
@@ -109,8 +70,7 @@ class ATPTourParser(BaseParser):
         raw_html = result.html or ""
         raw_markdown = result.markdown or ""
 
-        # Passiamo raw_html al pulitore
-        parsed_text = self._smista_e_pulisci(url, raw_markdown, title, raw_html)
+        parsed_text = self._smista_e_pulisci(url, raw_markdown, title)
 
         return {
             "url": url,
@@ -136,14 +96,13 @@ class ATPTourParser(BaseParser):
         slug = unquote(slug).replace("-", " ")
         return slug.title().strip()
 
-    def _smista_e_pulisci(self, url: str, md: str, titolo: str, html: str = "") -> str:
-        # Aggiornato per includere l'HTML diretto nei player
+    def _smista_e_pulisci(self, url: str, md: str, titolo: str) -> str:
         if "/news" in url:
             return self._pulisci_news(md, titolo)
         elif "/atp-head-2-head" in url or "/head-2-head" in url:
             return self._pulisci_h2h(md, titolo)
         elif "/players/" in url:
-            return self._pulisci_player(html, titolo) # Svolta epocale: usiamo l'HTML puro!
+            return self._pulisci_player(md, titolo) 
         else:
             return self._pulisci_news(md, titolo)
 
@@ -178,14 +137,13 @@ class ATPTourParser(BaseParser):
             s = re.sub(r"\[?\s*\]\([^)]+\)", "", s)
             s = re.sub(r"\[([^\]]+)\]\([^)]+\)", r"\1", s)
             s = s.replace("[", "").replace("]", "")
-            s = s.lstrip("#* ").strip("! ")
             
             if not s: continue
 
             if re.match(r"^(January|February|March|April|May|June|July|August|September|October|November|December)\s\d{1,2},\s\d{4}$", s):
                 continue
 
-            s_lower = s.lower()
+            s_lower = s.replace("#", "").replace("*", "").strip().lower()
             selettori_spazzatura = {
                 "share", "play", "mute", "chapters", "getty images", "/", "1x", "done",
                 "match report", "play video", "audio track", "descriptions", "captions",
@@ -214,99 +172,182 @@ class ATPTourParser(BaseParser):
         start_idx = 0
         end_idx = len(lines)
 
-        voci_menu = {"gaming", "atp fantasy", "women's tennis association", "shop", "shop !"}
+        voci_menu = {"gaming", "atp fantasy", "shop", "shop !"}
         for i, line in enumerate(lines):
-            if line.lower() in voci_menu:
+            if line.replace("#", "").replace("*", "").strip().lower() in voci_menu:
                 start_idx = i + 1
 
-        voci_coda = ("riveting rivalries", "download official", "privacy preference center", "related players", "view all", "## partners", "newsletters", "fierce feuds")
+        voci_coda = (
+            "riveting rivalries", "download official", "privacy preference center", 
+            "related players", "view all", "partners", "newsletters", "fierce feuds",
+            "corporate", "media", "related links"
+        )
         for i in range(start_idx, len(lines)):
-            if lines[i].lower().startswith(voci_coda):
+            l_clean = lines[i].replace("#", "").replace("*", "").strip().lower()
+            if l_clean.startswith(voci_coda) or l_clean in voci_coda:
                 end_idx = i
                 break
 
-        linee_valide = []
-        for i in range(start_idx, end_idx):
-            s = lines[i]
-            s = s.replace("[", "").replace("]", "").replace("!", "").strip()
+        risultato = []
+        garbage = {
+            "en", "es", "buy tickets", "search", "shop", "premier partner", 
+            "atp fantasy", "gaming", "breakdown", "events breakdown",
+            "players", "players home", "atp coach members", "header 2"
+        }
 
-            if re.match(r"^[\s\|\:\-]+$", s):
+        # Dobbiamo tenere traccia se stiamo processando le info del giocatore 1 o 2
+        # per formattare i dati "Rank", "Age" ecc.
+        is_player_2 = False
+
+        for i in range(start_idx, end_idx):
+            s = lines[i].replace("*", "").replace("#", "").replace("!", "").strip()
+
+            if not s or re.match(r"^[\s\|\:\-]+$", s):
                 continue
-            
-            s = s.replace("|", " ")
+            s = re.sub(r"player-photo-[a-z0-9]+", "", s, flags=re.IGNORECASE)
+            s = s.replace("|", "\t") # Tabulazione per la tabella finale
             s = re.sub(r"\s{2,}", " ", s).strip()
 
             s_low = s.lower()
-            if s_low in {"en", "es", "buy tickets", "search", "shop", "premier partner", "atp fantasy", "gaming", "breakdown", "events breakdown"}:
+            
+            if s_low in garbage:
                 continue
             if s_low.startswith(("latest news", "search icon", "filter icon", "related players")):
                 continue
 
-            s = re.sub(r"^(.*?)(YTD W/L|YTD titles|Career W/L|Career titles|Career prize money)(.*)$", r"\1\n\2\n\3", s)
-            s = re.sub(r"^(Rank|Age|Weight|Height|Plays|Backhand|Turned Pro)(.*)$", r"\1\n\2", s)
+            # --- Formattazione Specifica H2H ---
 
+            # Gestione della riga fusa YTD/Career (es: 9/9YTD W/L9/8)
+            # Cerchiamo un numero (o '-'), poi il testo dell'etichetta, poi un altro numero (o '-')
+            match_stats = re.match(r"^([\d/,\$\.-]+)\s*(YTD W/L|YTD titles|Career W/L|Career titles|Career prize money)\s*([\d/,\$\.-]+)$", s, re.IGNORECASE)
+            if match_stats:
+                val1, label, val2 = match_stats.groups()
+                risultato.append(val1.strip())
+                risultato.append(label.strip())
+                risultato.append(val2.strip())
+                is_player_2 = True # Dopo le stats combinate iniziano i dati base del giocatore 2
+                continue
+
+            # Gestione dati anagrafici (es: Rank44 o Age26)
+            match_bio = re.match(r"^(Rank|Age|Weight|Height|Plays|Backhand|Turned Pro)(.*)$", s, re.IGNORECASE)
+            if match_bio:
+                label, val = match_bio.groups()
+                risultato.append(label.strip())
+                if val.strip():
+                    risultato.append(val.strip())
+                continue
+
+            # Gestione tabella finale (se c'è una riga di tabella, la teniamo così com'è, tabulata)
+            if s_low.startswith(("year\twinner", "202", "199", "198")):
+                 # Se la riga è fusa, proviamo a dividerla (semplificazione)
+                 s = s.replace("\t", " ")
+                 risultato.append(s)
+                 continue
+
+            # Se non corrisponde a nulla di specifico, aggiungiamo la riga
+            risultato.append(s)
+
+        if not risultato:
+            return f"# {titolo}\n\nDati non trovati."
+
+        # Rimuoviamo i nomi dei giocatori doppi all'inizio se presenti
+        if len(risultato) > 4:
+           if risultato[0].lower() == titolo.lower() and risultato[1].lower() == titolo.lower():
+               risultato = risultato[1:]
+
+        # Aggiungiamo l'hashtag alla prima riga per il tester
+        if not risultato[0].startswith("#"):
+            risultato[0] = f"# {risultato[0]}"
+
+        return "\n".join(risultato).strip()
+
+    def _pulisci_player(self, md: str, titolo: str) -> str:
+        # Usa il markdown generato da Crawl4AI
+        md = re.sub(r"\[([^\]]+)\]\([^)]+\)", r"\1", md)
+        md = re.sub(r"!\[.*?\]\([^)]+\)", "", md)
+        md = md.replace('\r\n', '\n')
+
+        lines = [line.strip() for line in md.splitlines() if line.strip()]
+
+        start_idx = 0
+        end_idx = len(lines)
+
+        # 1. ANCORA INFALLIBILE: Cerchiamo "YTD" e andiamo a ritroso per trovare il nome
+        for i, line in enumerate(lines):
+            l_clean = line.lower().replace("*", "").replace("#", "").strip()
+            if l_clean == "ytd" or l_clean.startswith("ytd "):
+                for j in range(i, max(-1, i-10), -1):
+                    prev_clean = lines[j].lower().replace("*", "").replace("#", "").strip()
+                    if titolo.lower() in prev_clean:
+                        start_idx = j
+                        break
+                else:
+                    start_idx = max(0, i-2)
+                break
+        else:
+            # Fallback se non trova YTD
+            for i in range(len(lines)):
+                if titolo.lower() in lines[i].lower():
+                    start_idx = i
+                    break
+
+        # 2. GHIGLIOTTINA DI CODA: Tagliamo i widget finali
+        voci_coda = [
+            "latest news", "editor's picks", "last event played", "see more player", 
+            "newsletters", "corporate", "privacy preference center", "related players", 
+            "search opponent"
+        ]
+        
+        for i in range(start_idx + 5, len(lines)):
+            l_clean = lines[i].lower().replace("*", "").replace("#", "").strip()
+            if any(l_clean.startswith(vc) for vc in voci_coda) or l_clean in voci_coda:
+                end_idx = i
+                break
+
+        risultato = []
+        
+        # Abbiamo rimosso "follow player" dalla spazzatura, ma aggiunto "insta"!
+        garbage = {
+            "en", "es", "buy tickets", "search", "shop", "premier partner", "atp fantasy", 
+            "gaming", "players", "players home", "atp coach members", "overview", "bio", 
+            "activity", "stats", "ranking", "facebook", "x", "tiktok", "email", 
+            "header 2", "more navigation links", "vs", "insta"
+        }
+
+        titolo_low = titolo.lower()
+
+        for i in range(start_idx, end_idx):
+            # Togliamo anche il punto esclamativo per distruggere i "!Jannik Sinner" residui
+            s = lines[i].replace("*", "").replace("#", "").replace("!", "").strip()
+            
+            if not s or re.match(r"^[\s\|\:\-]+$", s):
+                continue
+
+            s_low = s.lower()
+            if s_low in garbage:
+                continue
+
+            # Filtriamo il widget nascosto con il riassunto Rank
+            if s_low.startswith(("headshot-", "filter icon", "search icon", "ytd rank:")):
+                continue
+                
+            # Se abbiamo già inserito il nome del giocatore all'inizio, saltiamo i cloni
+            if s_low == titolo_low and len(risultato) > 0:
+                continue
+
+            # Separiamo Età e Peso dai numeri se Crawl4AI li ha fusi (es. Age24 -> Age \n 24)
+            s = re.sub(r"^(Age|Weight|Height|Turned pro|Country|Birthplace|Plays|Coach)(.*)$", r"\1\n\2", s, flags=re.IGNORECASE)
+            
             for part in s.split('\n'):
                 p = part.strip()
-                if p: linee_valide.append(p)
+                if p:
+                    risultato.append(p)
 
-        return "\n\n".join(linee_valide).strip()
+        if not risultato:
+            return f"# {titolo}\n\nDati non trovati."
 
-    def _pulisci_player(self, html: str, titolo: str) -> str:
-        """La soluzione definitiva: estrae i dati ignorando completamente il Markdown."""
-        if not html: 
-            return titolo
-        
-        # Eliminiamo blocchi pesanti e script
-        html_clean = re.sub(r'<(script|style|svg|noscript|form|nav|footer)[^>]*>.*?</\1>', ' ', html, flags=re.DOTALL | re.IGNORECASE)
-        
-        # Isola il blocco YTD / Career (Statistiche)
-        stats_match = re.search(r'<div class="atp_player-stats".*?(?=<div class="player_image|<div class="atp_info-ribbon|<div class="atp_player-personaldetails")', html_clean, flags=re.DOTALL | re.IGNORECASE)
-        stats_html = stats_match.group(0) if stats_match else ""
-        
-        # Isola il blocco Personal Details (Età, Peso, ecc.)
-        pd_match = re.search(r'<div class="atp_player-personaldetails".*?(?=<div class="atp_player-latest-news"|<div class="atp_head2head)', html_clean, flags=re.DOTALL | re.IGNORECASE)
-        pd_html = pd_match.group(0) if pd_match else ""
-        
-        target_html = stats_html + "\n" + pd_html
-        
-        # Trasforma l'HTML rimasto in testo puro inserendo 'a capo' al posto dei tag
-        testo_grezzo = re.sub(r'<[^>]+>', '\n', target_html)
-        
-        # Pulisce gli spazi e le righe vuote
-        lines = [line.strip() for line in testo_grezzo.split('\n') if line.strip()]
-        
-        risultato = [titolo]
-        garbage = {"singles", "doubles", "header 2", "follow player", "insta", "x", "facebook", "tiktok"}
-        
-        for line in lines:
-            l_low = line.lower()
-            if l_low in garbage or "atp no.1 club" in l_low:
-                continue
-            if "${" in line: # Filtro di sicurezza contro scarti di codice
-                continue
-            if l_low == titolo.lower():
-                continue
-            
-            risultato.append(line)
+        # Aggiungiamo l'hashtag alla prima riga per far scattare il "Formato Markdown" al tester
+        if not risultato[0].startswith("#"):
+            risultato[0] = f"# {risultato[0]}"
 
-        # Magia finale: unisce i numeri alle etichette (Es. "1" e "Rank" diventano "1 Rank")
-        labels = {"Rank", "Move", "W-L", "Titles", "Prize Money", "Prize Money Singles & Doubles Combined", "Career High Rank"}
-        
-        final_lines = []
-        for item in risultato:
-            is_label = any(item.startswith(lbl) for lbl in labels)
-            # Se è una label, la attacca al numero precedente!
-            if is_label and final_lines and not final_lines[-1].startswith(("YTD", "Career")):
-                final_lines[-1] = final_lines[-1] + " " + item
-            else:
-                final_lines.append(item)
-
-        if len(final_lines) <= 1:
-            return titolo + "\n\nDati non trovati nel DOM HTML."
-
-        # Reinserisce "Personal details" nel posto giusto per estetica
-        if "Age" in final_lines:
-            idx = final_lines.index("Age")
-            final_lines.insert(idx, "Personal details")
-
-        return "\n".join(final_lines)
+        return "\n".join(risultato).strip()
