@@ -8,6 +8,7 @@ from fastapi import FastAPI, HTTPException
 
 from parsers.new_wikipedia_parser import WikipediaParser
 from parsers.atptour_parser import ATPTourParser
+from parsers.atp_parser_eval import ATPTourEvalParser
 from parsers.accuweather_parser import AccuWeatherParser
 from parsers.accu_parser_eval import AccuWeatherEvalParser
 from parsers.tradingeconomics_parser import TradingEconomicsParser
@@ -181,6 +182,17 @@ async def parse_with_best_parser(url: str) -> dict:
                 return enforce_markdown(result)
 
             parser = AccuWeatherParser()
+            result = await parser.parse(url)
+            return enforce_markdown(result)
+
+        if domain == "www.atptour.com":
+            gs_entry = find_gs_entry(domain, url)
+            if gs_entry is not None:
+                parser = ATPTourEvalParser()
+                result = await parser.parse(url, gs_entry["html_text"])
+                return enforce_markdown(result)
+
+            parser = ATPTourParser()
             result = await parser.parse(url)
             return enforce_markdown(result)
 
