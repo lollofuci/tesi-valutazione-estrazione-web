@@ -173,7 +173,7 @@ async def parse_with_best_parser(url: str) -> dict:
     check_supported_domain(domain)
 
     try:
-        if domain == "accuweather.com":
+        if domain == "www.accuweather.com":
             gs_entry = find_gs_entry(domain, url)
             if gs_entry is not None:
                 parser = AccuWeatherEvalParser()
