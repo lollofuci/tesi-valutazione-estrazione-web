@@ -33,8 +33,8 @@ class TradingEconomicsParser(BaseParser):
             delay_before_return_html=0.5,
             wait_until="domcontentloaded",
         )
-    async def parse(self, url: str) -> dict:
         
+    async def parse(self, url: str) -> dict:
         domain = urlparse(url).netloc
         async with AsyncWebCrawler(config=self.browser_config) as crawler:
             res = await crawler.arun(url=url, config=self.run_config_live)
@@ -43,20 +43,23 @@ class TradingEconomicsParser(BaseParser):
         return {
              "url": url,
              "domain": domain,
-             "title": self._estrai_titolo(res.markdown),
+             "title": self._estrai_titolo(res.markdown, res.html),
              "html_text": res.html,
              "parsed_text": self._pulisci_markdown(res.markdown),
         }
 
-    def _estrai_titolo(self, md: str,html: str="") -> str:
-        m = re.search(r"<title>\s*(.*?)\s*</title>", html, re.IGNORECASE | re.DOTALL)
-        if m:
-            return m.group(1).strip()
+    def _estrai_titolo(self, md: str, html: str="") -> str:
+        if html:
+            m = re.search(r"<title>\s*(.*?)\s*</title>", html, re.IGNORECASE | re.DOTALL)
+            if m:
+                return m.group(1).strip()
 
         m = re.search(r"^# (.+)$", md, re.MULTILINE)
-        return m.group(1).strip() if m else ""
+        return m.group(1).strip() if m else "Trading Economics"
 
     def _pulisci_markdown(self, md: str) -> str:
+        if not md: return ""
+        
         # 1) Taglia testa (menu)
         md_originale = md
         inizio = re.search(r"^## [A-Z].{20,}", md, re.MULTILINE)
@@ -82,8 +85,6 @@ class TradingEconomicsParser(BaseParser):
         if pos_news_stream != -1:
             md = md[:pos_news_stream]
             
-
-
         # 3) Pulizia regex
         for pattern, repl in [
             (r"(?m)^#{1,6}\s+", ""),
@@ -152,8 +153,10 @@ class TradingEconomicsParser(BaseParser):
                 if re.match(r"^[A-Za-z\s]+$", riga):  
                     linee.append(riga)
                 continue
-            if re.match(r"^[\d\s\.\,KMB\|\-]+$", riga):
-                continue
+                
+            # CORREZIONE LETALE: Commentata la riga che distruggeva le tabelle abbassando la F1!
+            # if re.match(r"^[\d\s\.\,KMB\|\-]+$", riga):
+            #     continue
             
             linee.append(riga)
 
@@ -163,28 +166,31 @@ class TradingEconomicsParser(BaseParser):
         md = md.replace("|", "")  
         md = "\n".join(line.strip() for line in md.splitlines())  
         return md.strip()
+
     async def parse_from_html(self, url: str, html: str) -> dict:
         domain = urlparse(url).netloc
-        html = re.sub(r"<script\b[^>]*>.*?</script>", "", html, flags=re.DOTALL | re.IGNORECASE)
-        html = re.sub(r"<iframe\b[^>]*>.*?</iframe>", "", html, flags=re.DOTALL | re.IGNORECASE)
-        html = re.sub(
+        
+        # Pulizia HTML prima di passarlo a Crawl4AI
+        clean_html = re.sub(r"<script\b[^>]*>.*?</script>", "", html, flags=re.DOTALL | re.IGNORECASE)
+        clean_html = re.sub(r"<iframe\b[^>]*>.*?</iframe>", "", clean_html, flags=re.DOTALL | re.IGNORECASE)
+        clean_html = re.sub(
             r'<div[^>]*(class|id)="[^"]*(chart|graph|highcharts)[^"]*"[^>]*>.*?</div>',
             "",
-            html,
+            clean_html,
             flags=re.DOTALL | re.IGNORECASE
         )
+        
         async with AsyncWebCrawler(config=self.browser_config) as crawler:
-            res = await crawler.arun(url=f"raw://{html}", config=self.run_config_html)
+            # CORREZIONE LETALE: "raw:" al posto di "raw://" che causava "incoerente" per parsing buggato
+            res = await crawler.arun(url=f"raw:{clean_html}", config=self.run_config_html)
+            
         if not res.success:
             raise RuntimeError("Parse fallito")
+            
         return {
             "url": url,
             "domain": domain,
-            "title": self._estrai_titolo(res.markdown),
-            "html_text":html,
-            "parsed_text": self._pulisci_markdown(res.markdown),
+            "title": self._estrai_titolo(res.markdown or "", html),
+            "html_text": html,  # Ritorniamo l'html originale intatto come richiede il professore
+            "parsed_text": self._pulisci_markdown(res.markdown or ""),
         }
-    
-
-
-
