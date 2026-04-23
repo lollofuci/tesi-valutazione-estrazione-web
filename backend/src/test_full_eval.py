@@ -1,7 +1,7 @@
 import asyncio
 import json
 
-from parsers.new_wikipedia_parser import WikipediaParser
+from parsers.wikipedia_parser import WikipediaParser
 from parsers.tradingeconomics_parser import TradingEconomicsParser
 from parsers.atptour_parser import ATPTourParser
 from evaluation.evaluator import token_level_eval, aggregate_metrics

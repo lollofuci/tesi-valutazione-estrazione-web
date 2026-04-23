@@ -1,6 +1,6 @@
 import asyncio
 
-from parsers.new_wikipedia_parser import WikipediaParser
+from parsers.wikipedia_parser import WikipediaParser
 
 
 async def main():

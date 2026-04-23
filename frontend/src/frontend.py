@@ -13,19 +13,18 @@ BACKEND_URL = os.getenv("BACKEND_URL", "http://backend:8003")
 
 
 def get_domains() -> list[str]:
-    response = requests.get(f"{BACKEND_URL}/domains", timeout=60)
-    response.raise_for_status()
-    data = response.json()
-    return data.get("domains", [])
+    try:
+        response = requests.get(f"{BACKEND_URL}/domains", timeout=60)
+        response.raise_for_status()
+        data = response.json()
+        return data.get("domains", [])
+    except Exception:
+        return []
 
 
 def get_all_gs_urls() -> list[str]:
     urls: list[str] = []
-
-    try:
-        domains = get_domains()
-    except Exception:
-        return []
+    domains = get_domains()
 
     for domain in domains:
         try:
@@ -73,26 +72,44 @@ def parse_url(request: Request, url: str = Form(...)):
     error = None
 
     try:
-        parse_response = requests.get(
-            f"{BACKEND_URL}/parse",
+        # 1. Prima verifichiamo se l'URL è nel Gold Standard
+        gold_response = requests.get(
+            f"{BACKEND_URL}/gold_standard",
             params={"url": url},
             timeout=120,
         )
 
-        if parse_response.status_code != 200:
-            error = f"Errore in /parse: {parse_response.text}"
+        if gold_response.status_code == 200:
+            # SCENARIO A: L'URL è nel Gold Standard! 
+            # Estraiamo l'HTML salvato e usiamo la POST per il parsing offline
+            gold_data = gold_response.json()
+            html_text = gold_data.get("html_text", "")
+            
+            parse_response = requests.post(
+                f"{BACKEND_URL}/parse",
+                json={
+                    "url": url,
+                    "html_text": html_text
+                },
+                timeout=120,
+            )
         else:
-            parse_data = parse_response.json()
-
-            gold_response = requests.get(
-                f"{BACKEND_URL}/gold_standard",
+            # SCENARIO B: L'URL non è nel Gold Standard (è un URL nuovo inserito a mano).
+            # Andiamo live su internet con la GET
+            parse_response = requests.get(
+                f"{BACKEND_URL}/parse",
                 params={"url": url},
                 timeout=120,
             )
 
-            if gold_response.status_code == 200:
-                gold_data = gold_response.json()
+        # 2. Gestiamo il risultato del parsing (sia esso live o offline)
+        if parse_response.status_code != 200:
+            error = f"Errore nel parsing: {parse_response.text}"
+        else:
+            parse_data = parse_response.json()
 
+            # 3. Se avevamo i dati del Gold Standard, calcoliamo le metriche
+            if gold_data:
                 eval_response = requests.post(
                     f"{BACKEND_URL}/evaluate",
                     json={
