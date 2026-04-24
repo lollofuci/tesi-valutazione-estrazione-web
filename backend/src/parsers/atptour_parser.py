@@ -104,7 +104,9 @@ class ATPTourParser(BaseParser):
 
     def _pulisci_news(self, md: str, titolo: str) -> str:
         md = re.sub(r"\r\n?", "\n", md)
-        match_inizio = re.search(r"(?im)^\s*\*\s*Email\s*\n(Match Report\s*\n)?", md)
+        
+        # 1. RISOLTO MENU INIZIALE: Rendo l'asterisco opzionale (\*?)
+        match_inizio = re.search(r"(?im)^\s*\*?\s*Email\s*\n(Match Report\s*\n)?", md)
         if match_inizio:
             md = md[match_inizio.end():]
         else:
@@ -114,6 +116,9 @@ class ATPTourParser(BaseParser):
                 match_titolo = re.search(rf"(?im)^{re.escape(inizio_titolo)}", md)
                 if match_titolo:
                     md = md[match_titolo.start():]
+
+        # 2. RISOLTO WIDGET A METÀ PAGINA: Rimuovo il blocco Top Videos in mezzo all'articolo
+        md = re.sub(r"(?is)###\s+Top Videos.*?Powered by\s*\n?", "", md)
 
         pattern_coda = r"(?ms)^(###\s+(Read More News|View Related|Stats widget|DOWNLOAD)|## Header 2|NEWSLETTERS|## Partners|#### Corporate|## Privacy Preference Center|Premier Partner).*$"
         match_bottom = re.search(pattern_coda, md)
@@ -135,12 +140,17 @@ class ATPTourParser(BaseParser):
                 continue
             if re.match(r"^(January|February|March|April|May|June|July|August|September|October|November|December)\s\d{1,2},\s\d{4}$", s):
                 continue
+                
             s_lower = s.replace("#", "").replace("*", "").strip().lower()
-            selettori_spazzatura = {"share", "play", "mute", "chapters", "getty images", "/", "1x", "done", "match report", "play video", "audio track", "descriptions", "captions", "picture-in-picturefullscreen", "en", "es", "close modal dialog", "end of dialog window.", "shop", "premier partner"}
+            
+            # Aggiunto "reset" nei selettori esatti
+            selettori_spazzatura = {"share", "play", "mute", "chapters", "getty images", "/", "1x", "done", "match report", "play video", "audio track", "descriptions", "captions", "picture-in-picturefullscreen", "en", "es", "close modal dialog", "end of dialog window.", "shop", "premier partner", "reset"}
             if s_lower in selettori_spazzatura:
                 continue
-            if s_lower.startswith(("descriptions off", "captions settings", "captions off", "text colorwhite", "background color", "window color", "font size", "text edge", "font family", "reset restore", "current time", "duration", "loaded:", "stream type", "seek to live", "remaining time", "playback rate", "beginning of dialog window", "this is a modal window")):
+            
+            if s_lower.startswith(("descriptions off", "captions settings", "captions off", "text color", "background color", "window color", "font size", "text edge", "font family", "reset restore", "restore all settings", "transparency", "current time", "duration", "loaded:", "stream type", "seek to live", "remaining time", "playback rate", "beginning of dialog window", "this is a modal window")):
                 continue
+                
             linee_valide.append(s)
 
         testo_finale = "\n\n".join(linee_valide)
