@@ -63,7 +63,7 @@ def get_gs_filename(domain: str) -> str:
     if domain == "www.atptour.com":
         return "atptour_gs.json"
     if domain == "www.accuweather.com":
-        return "accuweather.json"
+        return "accuweather_gs.json"
     if domain == "tradingeconomics.com":
         return "tradingeconomics_gs.json"
     raise HTTPException(status_code=400, detail="Dominio non supportato")

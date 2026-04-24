@@ -9,7 +9,7 @@ class TradingEconomicsParser(BaseParser):
 
     def __init__(self) -> None:
         self.browser_config = BrowserConfig(headless=True, user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36")
-        self.run_config_live = CrawlerRunConfig(cache_mode=CacheMode.BYPASS,page_timeout=90000,delay_before_return_html=12.0,wait_until="networkidle",js_code="""const btn = Array.from(document.querySelectorAll('button')).find(b => b.textContent.trim() === 'Accept all');if (btn) { btn.click(); }""",)
+        self.run_config_live = CrawlerRunConfig(cache_mode=CacheMode.BYPASS,page_timeout=90000,delay_before_return_html=12.0,wait_until="networkidle",)
         self.run_config_html = CrawlerRunConfig(cache_mode=CacheMode.BYPASS,delay_before_return_html=0.5,wait_until="domcontentloaded")
         
         
