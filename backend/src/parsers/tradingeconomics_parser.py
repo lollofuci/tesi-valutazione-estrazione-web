@@ -2,37 +2,16 @@ import re
 from urllib.parse import urlparse
 from crawl4ai import AsyncWebCrawler, BrowserConfig, CrawlerRunConfig
 from crawl4ai.async_configs import CacheMode
-
-try:
-    from parsers.base_parser import BaseParser
-except ModuleNotFoundError:
-    from base_parser import BaseParser
+from parsers.base_parser import BaseParser
 
 
 class TradingEconomicsParser(BaseParser):
 
     def __init__(self) -> None:
-        self.browser_config = BrowserConfig(
-            headless=True,
-            user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-        )
-        self.run_config_live = CrawlerRunConfig(
-            cache_mode=CacheMode.BYPASS,
-            page_timeout=90000,
-            delay_before_return_html=12.0,
-            wait_until="networkidle",
-            js_code="""
-                const btn = Array.from(document.querySelectorAll('button'))
-                    .find(b => b.textContent.trim() === 'Accept all');
-                if (btn) { btn.click(); }
-            """,
-         )
-        self.run_config_html = CrawlerRunConfig(
-            cache_mode=CacheMode.BYPASS,
-            page_timeout=90000,
-            delay_before_return_html=0.5,
-            wait_until="domcontentloaded",
-        )
+        self.browser_config = BrowserConfig(headless=True, user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36")
+        self.run_config_live = CrawlerRunConfig(cache_mode=CacheMode.BYPASS,page_timeout=90000,delay_before_return_html=12.0,wait_until="networkidle",js_code="""const btn = Array.from(document.querySelectorAll('button')).find(b => b.textContent.trim() === 'Accept all');if (btn) { btn.click(); }""",)
+        self.run_config_html = CrawlerRunConfig(cache_mode=CacheMode.BYPASS,delay_before_return_html=0.5,wait_until="domcontentloaded")
+        
         
     async def parse(self, url: str) -> dict:
         domain = urlparse(url).netloc
@@ -60,14 +39,11 @@ class TradingEconomicsParser(BaseParser):
     def _pulisci_markdown(self, md: str) -> str:
         if not md: return ""
         
-        # 1) Taglia testa (menu)
-        md_originale = md
         inizio = re.search(r"^## [A-Z].{20,}", md, re.MULTILINE)
         if not inizio:
             return md.strip()
         md = md[inizio.start():]
 
-        # 2) Taglia coda — più aggressivo, prende il primo match
         fine = re.search(r"\nRelated\n|\n\*\*[A-Z]|\nCompare:", md)
         if fine:
             md = md[:fine.start()]
@@ -75,6 +51,7 @@ class TradingEconomicsParser(BaseParser):
         match_cookie = re.search(r"Welcome to TRADING ECONOMICS", md, re.IGNORECASE)
         if match_cookie:
             md = md[:match_cookie.start()]
+        
         inizio_grafico = md.find("\n1D\n")
         inizio_tabella = md.find("Price    Day  Month  Year  Date")
 
@@ -85,7 +62,6 @@ class TradingEconomicsParser(BaseParser):
         if pos_news_stream != -1:
             md = md[:pos_news_stream]
             
-        # 3) Pulizia regex
         for pattern, repl in [
             (r"(?m)^#{1,6}\s+", ""),
             (r"\[([^\]]+)\]\([^\)]+\)", r"\1"),
@@ -101,13 +77,8 @@ class TradingEconomicsParser(BaseParser):
             (r"(?m)^\d{4}-\d{2}-\d{2}\s*\|.*$", ""),
             (r"(?m)^\s*more\s*$", ""),
             (r"\*\*.*?\*\*", ""),
-            # Etichette asse X del grafico (mesi+anno attaccati es. MayJulSepNov2026Mar)
             (r"(?m)^(?:[A-Z][a-z]{2}){2,}\d*[A-Z]?[a-z]*\s*$", ""),
-
-            # Intestazione grafico con nome ente + ValueChgChg%
             (r"(?m)^\|.*?Value\s*Chg\s*Chg%.*$", ""),
-
-            # FIX righe calendario con ora (11:00 AM)
             (r"(?m)^\|?\s*\d{4}-\d{2}-\d{2}.*$", ""),
             (r"(?mi)^.*Cookie duration.*$", ""),
             (r"(?mi)^.*Data collected and processed:.*$", ""),
@@ -124,23 +95,10 @@ class TradingEconomicsParser(BaseParser):
         ]:
             md = re.sub(pattern, repl, md, flags=re.MULTILINE)
 
-        # 4) Filtraggio riga per riga
         linee = []
         for riga in md.splitlines():
             riga = riga.strip()
-            if any(x in riga for x in [
-                "Cookie duration",
-                "Data collected and processed:",
-                "Privacy policy",
-                "Storage details",
-                "View details",
-                "Accept all",
-                "Confirm choices",
-                "ConsentLegitimate interest",
-                "Legitimate interest",
-                "Doesn't use cookies",
-                "Uses other forms of storage",
-            ]):
+            if any(x in riga for x in ["Cookie duration","Data collected and processed:","Privacy policy","Storage details","View details","Accept all","Confirm choices","ConsentLegitimate interest","Legitimate interest","Doesn't use cookies","Uses other forms of storage"]):
                 continue
             if not riga:
                 continue
@@ -153,11 +111,6 @@ class TradingEconomicsParser(BaseParser):
                 if re.match(r"^[A-Za-z\s]+$", riga):  
                     linee.append(riga)
                 continue
-                
-            # CORREZIONE LETALE: Commentata la riga che distruggeva le tabelle abbassando la F1!
-            # if re.match(r"^[\d\s\.\,KMB\|\-]+$", riga):
-            #     continue
-            
             linee.append(riga)
 
         md = "\n".join(linee)
@@ -170,18 +123,16 @@ class TradingEconomicsParser(BaseParser):
     async def parse_from_html(self, url: str, html: str) -> dict:
         domain = urlparse(url).netloc
         
-        # Pulizia HTML prima di passarlo a Crawl4AI
         clean_html = re.sub(r"<script\b[^>]*>.*?</script>", "", html, flags=re.DOTALL | re.IGNORECASE)
         clean_html = re.sub(r"<iframe\b[^>]*>.*?</iframe>", "", clean_html, flags=re.DOTALL | re.IGNORECASE)
         clean_html = re.sub(
-            r'<div[^>]*(class|id)="[^"]*(chart|graph|highcharts)[^"]*"[^>]*>.*?</div>',
+            r'<div[^>]*(class|id)="[^\"]*(chart|graph|highcharts)[^\"]*"[^>]*>.*?</div>',
             "",
             clean_html,
             flags=re.DOTALL | re.IGNORECASE
         )
         
         async with AsyncWebCrawler(config=self.browser_config) as crawler:
-            # CORREZIONE LETALE: "raw:" al posto di "raw://" che causava "incoerente" per parsing buggato
             res = await crawler.arun(url=f"raw:{clean_html}", config=self.run_config_html)
             
         if not res.success:
@@ -191,6 +142,6 @@ class TradingEconomicsParser(BaseParser):
             "url": url,
             "domain": domain,
             "title": self._estrai_titolo(res.markdown or "", html),
-            "html_text": html,  # Ritorniamo l'html originale intatto come richiede il professore
+            "html_text": html,  
             "parsed_text": self._pulisci_markdown(res.markdown or ""),
         }

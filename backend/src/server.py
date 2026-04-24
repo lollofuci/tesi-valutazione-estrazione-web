@@ -3,31 +3,15 @@ from urllib.parse import urlparse
 import json
 import re
 import html
-
 from fastapi import FastAPI, HTTPException
-
 from parsers.wikipedia_parser import WikipediaParser
 from parsers.atptour_parser import ATPTourParser
 from parsers.accuweather_parser import AccuWeatherParser
 from parsers.tradingeconomics_parser import TradingEconomicsParser
-
-from models import (
-    ParseResponse,
-    DomainsResponse,
-    GoldStandardEntry,
-    FullGoldStandardResponse,
-    EvalRequest,
-    EvalResponse,
-    ParseHtmlRequest,
-)
-
+from models import (ParseResponse,DomainsResponse,GoldStandardEntry,FullGoldStandardResponse,EvalRequest,EvalResponse,ParseHtmlRequest)
 from evaluation.evaluator import token_level_eval, aggregate_metrics
 
 app = FastAPI()
-
-# -------------------------
-# PATH PROGETTO
-# -------------------------
 
 def find_project_root(start: Path) -> Path:
     current = start.resolve()
@@ -39,10 +23,6 @@ def find_project_root(start: Path) -> Path:
 BASE_DIR = find_project_root(Path(__file__))
 DOMAINS_PATH = BASE_DIR / "domains.json"
 GS_DATA_DIR = BASE_DIR / "gs_data"
-
-# -------------------------
-# DOMAINS / GS
-# -------------------------
 
 def load_domains() -> list[str]:
     with open(DOMAINS_PATH, "r", encoding="utf-8") as f:
@@ -74,7 +54,6 @@ def get_parser(domain: str):
     raise HTTPException(status_code=400, detail="Dominio non supportato")
 
 def get_eval_parser(domain: str):
-    # Ora che i parser principali gestiscono bene l'offline, usiamo sempre e solo quelli.
     return get_parser(domain)
 
 def get_gs_filename(domain: str) -> str:
@@ -104,10 +83,6 @@ def find_gs_entry(domain: str, url: str) -> dict | None:
         if entry["url"] == url:
             return entry
     return None
-
-# -------------------------
-# ENDPOINTS
-# -------------------------
 
 @app.get("/domains", response_model=DomainsResponse)
 def get_domains():
@@ -175,7 +150,6 @@ async def full_gs_eval(domain: str):
 
     for entry in gs:
         try:
-            # Passiamo l'HTML salvato nel GS per l'analisi offline e deterministica
             parsed_result = await parser.parse_from_html(entry["url"], entry.get("html_text", ""))
         except Exception as e:
             raise HTTPException(status_code=500, detail=f"Errore nel parsing del GS per URL {entry['url']}: {e}")

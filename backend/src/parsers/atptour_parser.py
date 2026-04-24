@@ -6,23 +6,8 @@ from parsers.base_parser import BaseParser
 
 class ATPTourParser(BaseParser):
     def __init__(self) -> None:
-        self.browser_config = BrowserConfig(
-            headless=True,
-            headers={
-                "User-Agent": (
-                    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
-                    "AppleWebKit/537.36 (KHTML, like Gecko) "
-                    "Chrome/122.0.0.0 Safari/537.36"
-                ),
-                "Accept-Language": "en-US,en;q=0.9",
-            },
-        )
-        self.run_config = CrawlerRunConfig(
-            magic=False,
-            cache_mode=CacheMode.BYPASS,
-            page_timeout=120000,
-            delay_before_return_html=5.0,
-        )
+        self.browser_config = BrowserConfig(headless=True,headers={"User-Agent": ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) ""AppleWebKit/537.36 (KHTML, like Gecko) ""Chrome/122.0.0.0 Safari/537.36"),"Accept-Language": "en-US,en;q=0.9",},)
+        self.run_config = CrawlerRunConfig(magic=False,cache_mode=CacheMode.BYPASS,page_timeout=120000,delay_before_return_html=5.0)
 
     async def parse(self, url: str) -> dict:
         domain = urlparse(url).netloc
@@ -52,7 +37,6 @@ class ATPTourParser(BaseParser):
         domain = urlparse(url).netloc
         title = self._estrai_titolo_da_url(url)
 
-        # Logica offline deterministica ereditata da atp_parser_eval
         text = self._html_to_text_offline(html_text)
         parsed_text = self._smista_e_pulisci(url, text, title)
 

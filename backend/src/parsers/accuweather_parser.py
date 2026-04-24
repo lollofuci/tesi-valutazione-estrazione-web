@@ -7,13 +7,7 @@ from parsers.base_parser import BaseParser
 class AccuWeatherParser(BaseParser):
     def __init__(self) -> None:
         self.browser_config = BrowserConfig(headless=True)
-        self.run_config = CrawlerRunConfig(
-            word_count_threshold=1,
-            remove_overlay_elements=True,
-            exclude_social_media_links=True,
-            process_iframes=False,
-            css_selector="body",
-        )
+        self.run_config = CrawlerRunConfig(word_count_threshold=1,remove_overlay_elements=True,exclude_social_media_links=True,process_iframes=False,css_selector="body")
 
     async def parse(self, url: str) -> dict:
         async with AsyncWebCrawler(config=self.browser_config) as crawler:
@@ -27,7 +21,6 @@ class AccuWeatherParser(BaseParser):
         return self._build_result(url, html, base_text)
 
     async def parse_from_html(self, url: str, html: str) -> dict:
-        # Metodo offline deterministico 
         base_text = self._html_to_text(html)
         return self._build_result(url, html, base_text)
 
