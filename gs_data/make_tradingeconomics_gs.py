@@ -1,8 +1,8 @@
 import json
 
 html_text = """<html><head id="ctl00_Head1"><meta charset="utf-8"><title>
-	Crude Oil - Price - Chart - Historical Data - News
-</title><meta id="metaDesc" name="description" content="Crude Oil fell to 95.13 USD/Bbl on April 24, 2026, down 0.76% from the previous day. Over the past month, Crude Oil's price has risen 5.32%, and is up 50.95% compared to the same time last year, according to trading on a contract for difference (CFD) that tracks the benchmark market for this commodity. Crude Oil - values, historical data, forecasts and news - updated on April of 2026."><meta id="metaKeyword" name="keywords" content="Commodity,price,data,chart,actual,historical,values,forecast,graph,2025,2026,2027"><meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1,maximum-scale=1"><meta name="theme-color" content="#333333"><link rel="preconnect" href="https://d3e5kp2e91w0k0.cloudfront.net" crossorigin="anonymous"><link rel="preconnect" href="https://d2n2sd20z6hutz.cloudfront.net" crossorigin="anonymous"><link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin="anonymous">
+	Germany GDP
+</title><meta id="metaDesc" name="description" content="The Gross Domestic Product (GDP) in Germany was worth 4659.93 billion US dollars in 2024, according to official data from the World Bank. The GDP value of Germany represents 4.39 percent of the world economy. This page provides the latest reported value for - Germany GDP - plus previous releases, historical high and low, short-term forecast and long-term prediction, economic calendar, survey consensus and news."><meta id="metaKeyword" name="keywords" content="Germany,GDP,data,chart,actual,historical,values,calendar,forecast,graph,2025,2026,2027"><meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1,maximum-scale=1"><meta name="theme-color" content="#333333"><link rel="preconnect" href="https://d3e5kp2e91w0k0.cloudfront.net" crossorigin="anonymous"><link rel="preconnect" href="https://d2n2sd20z6hutz.cloudfront.net" crossorigin="anonymous"><link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin="anonymous">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/css/bootstrap.min.css" integrity="sha512-SbiR/eusphKoMVVXysTKG/7VseWii+Y3FdHrt0EpKgpToZeemhqHeZeLWLhJutz/2ut2Vw1uQEj2MbRF+TVBUA==" crossorigin="anonymous" referrerpolicy="no-referrer">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.2/font/bootstrap-icons.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
 <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.2/font/bootstrap-icons.min.css"></noscript>
@@ -12,7 +12,7 @@ html_text = """<html><head id="ctl00_Head1"><meta charset="utf-8"><title>
     <link href="https://d2n2sd20z6hutz.cloudfront.net/stylesheet.min.css" rel="stylesheet">
 
 
-<script type="text/javascript">var TEChartSettings = {}; var TESymbol = ''; var TECountry = ''; var TECategory = ''; var TEFrequency = ''; var TELanguage = ''; var TELastUpdate = '20260331000000'; var TEChartVersion = ''; var symbol = ''; var symbolType = ''; var hasCalendar = false; var isLoggedIn = false; var TERole = ""; var TEAlertsName = ''; var TEChartsDatasource = 'https://d3ii0wo49og5mi.cloudfront.net'; var IsMobile =  false; var TEChartsMeta = ''; var TEForecast = []; var TEAuthorization = ''; var TESecurify = ''; var TESecurifyUrl = ''; var TEType = ''; var TEChartUrl = '/commodity/crude-oil'; var TEComparable = 0; var isAlertsLoaded = false; var IsDarkMode = false; var isPakoLoaded = false; var TEChartsToken = '20260324:loboantunes'; var TEObfuscationkey = 'tradingeconomics-charts-core-api-key'; var isCopyright = false;var TEStreamId= '';</script>
+<script type="text/javascript">var TEChartSettings = {}; var TESymbol = ''; var TECountry = ''; var TECategory = ''; var TEFrequency = ''; var TELanguage = ''; var TELastUpdate = '20260331000000'; var TEChartVersion = ''; var symbol = ''; var symbolType = ''; var hasCalendar = false; var isLoggedIn = false; var TERole = ""; var TEAlertsName = ''; var TEChartsDatasource = 'https://d3ii0wo49og5mi.cloudfront.net'; var IsMobile =  false; var TEChartsMeta = ''; var TEForecast = []; var TEAuthorization = ''; var TESecurify = ''; var TESecurifyUrl = ''; var TEType = ''; var TEChartUrl = '/germany/gdp'; var TEComparable = 0; var isAlertsLoaded = false; var IsDarkMode = false; var isPakoLoaded = false; var TEChartsToken = '20260324:loboantunes'; var TEObfuscationkey = 'tradingeconomics-charts-core-api-key'; var isCopyright = false;var TEStreamId= '';</script>
 <script type="text/javascript">var DEBUG = false; if (window.location.host.indexOf('localhost') > -1) DEBUG = true; else if (window.location.href.indexOf('debug') > -1) DEBUG = true; if (!DEBUG) { if (!window.console) window.console = {}; var methods = ["log", "debug", "info"]; for (var i = 0; i < methods.length; i++) { console[methods[i]] = function () { }; } }</script>
 <script>window.googletag = window.googletag || { cmd: [] };</script>
 
@@ -21,12 +21,12 @@ html_text = """<html><head id="ctl00_Head1"><meta charset="utf-8"><title>
 <link rel="icon" href="https://d3e5kp2e91w0k0.cloudfront.net/favicon.svg" type="image/svg+xml">
 <script type="application/ld+json">{"@context":"https://schema.org/","@graph":[
     {"@context": "https://schema.org","@type": "Organization","url": "https://tradingeconomics.com","name": "TRADING ECONOMICS","logo": {"@type": "ImageObject","url": "https://tradingeconomics.com/images/logo.png?v=schema"}},
-        {"@type": "Dataset","name": "Crude Oil - Price Data","alternateName": "Crude Oil - Historical Dataset (1983-03-30/2026-04-24)","description": "Crude Oil fell to 95.13 USD/Bbl on April 24, 2026, down 0.76% from the previous day. Over the past month, Crude Oil's price has risen 5.32%, and is up 50.95% compared to the same time last year, according to trading on a contract for difference (CFD) that tracks the benchmark market for this commodity. Crude Oil - values, historical data, forecasts and news - updated on April of 2026.","url":"https://tradingeconomics.com/commodity/crude-oil","keywords": "Commodity,price,data,chart,actual,historical,values,forecast,graph,2025,2026,2027","temporalCoverage": "1983-03-30/2026-04-24","spatialCoverage": "World",
+        {"@type": "Dataset","name": "Germany GDP","alternateName": "Germany GDP - Historical Dataset (1970-12-31/2024-12-31)","description": "The Gross Domestic Product (GDP) in Germany was worth 4659.93 billion US dollars in 2024, according to official data from the World Bank. The GDP value of Germany represents 4.39 percent of the world economy. This dataset provides the latest reported value for - Germany GDP - plus previous releases, historical high and low, short-term forecast and long-term prediction, economic calendar, survey consensus and news.","url":"https://tradingeconomics.com/germany/gdp","keywords": "Germany,GDP,data,chart,actual,historical,values,calendar,forecast,graph,2025,2026,2027","temporalCoverage": "1970-12-31/2024-12-31","spatialCoverage": "Germany",
             "creator": {"@type": "Organization","url": "https://tradingeconomics.com","name": "TRADING ECONOMICS","logo": {"@type": "ImageObject","url": "https://tradingeconomics.com/images/logo.png?v=schema"}},
-            "distribution": [{"@type": "DataDownload","encodingFormat": "CSV","contentUrl": "https://tradingeconomics.com/commodity/crude-oil"},{"@type": "DataDownload","encodingFormat": "JSON","contentUrl": "https://tradingeconomics.com/commodity/crude-oil"},{"@type": "DataDownload","encodingFormat": "XML","contentUrl": "https://tradingeconomics.com/commodity/crude-oil"},{"@type": "DataDownload","encodingFormat": "Excel","contentUrl": "https://tradingeconomics.com/commodity/crude-oil"}],
-            "includedInDataCatalog": {"@type": "DataCatalog","name": "TRADING ECONOMICS"},"version": "20260424","dateModified": "20260424T12:00:00.00Z", "isAccessibleForFree": true,"license" : "https://creativecommons.org/licenses/by/4.0/"
+            "distribution": [{"@type": "DataDownload","encodingFormat": "CSV","contentUrl": "https://tradingeconomics.com/germany/gdp"},{"@type": "DataDownload","encodingFormat": "JSON","contentUrl": "https://tradingeconomics.com/germany/gdp"},{"@type": "DataDownload","encodingFormat": "XML","contentUrl": "https://tradingeconomics.com/germany/gdp"},{"@type": "DataDownload","encodingFormat": "Excel","contentUrl": "https://tradingeconomics.com/germany/gdp"}],
+            "includedInDataCatalog": {"@type": "DataCatalog","name": "TRADING ECONOMICS"},"version": "20241231","dateModified": "20241231T12:00:00.00Z", "isAccessibleForFree": true,"license" : "https://creativecommons.org/licenses/by/4.0/"
  }]}</script>
-<link rel="canonical" href="https://tradingeconomics.com/commodity/crude-oil"><script async="" src="https://securepubads.g.doubleclick.net/tag/js/gpt.js"></script><style data-te-chat="">
+<link rel="canonical" href="https://tradingeconomics.com/germany/gdp"><script async="" src="https://securepubads.g.doubleclick.net/tag/js/gpt.js"></script><style data-te-chat="">
       .te-chat-widget {
         --te-primary: #2563eb;
         --te-primary-hover: color-mix(in srgb, #2563eb 85%, black);
@@ -244,15 +244,15 @@ html_text = """<html><head id="ctl00_Head1"><meta charset="utf-8"><title>
         color: white;
         border-color: var(--te-primary);
       }
-    </style><script async="" src="https://d2wzsg5ocyioop.cloudfront.net/prebid10.19.0.js"></script><meta http-equiv="origin-trial" content="AlK2UR5SkAlj8jjdEc9p3F3xuFYlF6LYjAML3EOqw1g26eCwWPjdmecULvBH5MVPoqKYrOfPhYVL71xAXI1IBQoAAAB8eyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiV2ViVmlld1hSZXF1ZXN0ZWRXaXRoRGVwcmVjYXRpb24iLCJleHBpcnkiOjE3NTgwNjcxOTksImlzU3ViZG9tYWluIjp0cnVlfQ=="><meta http-equiv="origin-trial" content="Amm8/NmvvQfhwCib6I7ZsmUxiSCfOxWxHayJwyU1r3gRIItzr7bNQid6O8ZYaE1GSQTa69WwhPC9flq/oYkRBwsAAACCeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiV2ViVmlld1hSZXF1ZXN0ZWRXaXRoRGVwcmVjYXRpb24iLCJleHBpcnkiOjE3NTgwNjcxOTksImlzU3ViZG9tYWluIjp0cnVlfQ=="><meta http-equiv="origin-trial" content="A9nrunKdU5m96PSN1XsSGr3qOP0lvPFUB2AiAylCDlN5DTl17uDFkpQuHj1AFtgWLxpLaiBZuhrtb2WOu7ofHwEAAACKeyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiQUlQcm9tcHRBUElNdWx0aW1vZGFsSW5wdXQiLCJleHBpcnkiOjE3NzQzMTA0MDAsImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"><meta http-equiv="origin-trial" content="A93bovR+QVXNx2/38qDbmeYYf1wdte9EO37K9eMq3r+541qo0byhYU899BhPB7Cv9QqD7wIbR1B6OAc9kEfYCA4AAACQeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiQUlQcm9tcHRBUElNdWx0aW1vZGFsSW5wdXQiLCJleHBpcnkiOjE3NzQzMTA0MDAsImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"><meta http-equiv="origin-trial" content="A1S5fojrAunSDrFbD8OfGmFHdRFZymSM/1ss3G+NEttCLfHkXvlcF6LGLH8Mo5PakLO1sCASXU1/gQf6XGuTBgwAAACQeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXRhZ3NlcnZpY2VzLmNvbTo0NDMiLCJmZWF0dXJlIjoiQUlQcm9tcHRBUElNdWx0aW1vZGFsSW5wdXQiLCJleHBpcnkiOjE3NzQzMTA0MDAsImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"><script src="https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202604200101/pubads_impl.js" async=""></script><link href="https://securepubads.g.doubleclick.net/pagead/managed/dict/m202604230101/gpt" rel="compression-dictionary"><script async="" src="https://fundingchoicesmessages.google.com/i/23288354674?ers=3"></script><script async="" src="https://fundingchoicesmessages.google.com/f/AGSKWxVEzRuPN8tPue8HY0o7DosDVXV28zOO3Z8cUGeW-9pj8e-eHJJocAk_juWWaxOJjBqKG5tR3tlvjPlOE3Kr_WBy11WMvkFtuJsO73vFrPS3eqYbKhnYTXer7XHIyVeMvyvCO_T-HA==?fccs=W1siQUtzUm9sX2MwVnotZ1IzZ3NMX3pxUTFXQlJfXzB5U3ZxWGloaWFua3BET2cxNi1yOFdsUTUwd0RpcmZReG45V082OFRqWDRWeC01ck9leVNYZTVPVk1rdkd4NWw2T3JfeGhvdkRuTGhNT2JUdEdfRUhwcXgyWU1ibkRXTFczWkRNRGlfM3A0cTdCdWVwcUhISV83YTZlOUFNVFZoSU1ZTHlnPT0iXSxudWxsLFsiQ1FpOWowQVFpOWowQUVzQUNCRU5DYkZvQVBfZ0FFUGdBQ2lRSzNvQl9DN0ViQ0ZDaURKM0lLTUVNQWhIZ0JCQVlzQXdBQVlCQXdBQURCSVFJQlFDZ2tFWUJBeUFGQ0FDQ0FBQUtBU0JBQUFnQ0FBQUFVQUFJQUFGQUFCRUFBd0FJQkFJSUFBQWdBQUFBRUFJQUFBQUNJQUFFUUNBQUFJRUFFQUFrQWdBQUFJQVNFQUFBQUFBQUFDQkFBQUFBQkFBQUFBQUFBQUFCQUVBQVFBQVFBQUFBQUFBaUFBQUFBQUFBQkFJQUFBQUFBQUFBQUFBQUFBQUFBQUFBQWdBQUFBQUFBQUFBQkFBQUFBQUFRZ3NJZ0g4THNSc0lVS0lNRmNnb3dRd0NGZUFFQUJpd0RBQUJnRURBQUFNRWhBZ0JBS1NRUklFQ0lBUUlBQUlBQUFnQkFFQUFDZ0lDQUFBUUFBQUFCVUFBRVFBREFBZ0VBZ0FRQUNBQUFCQVFBQUFBQUFJZ0FBUkFJQUFBZ1FBUUFDQUNBQUFBZ0JJUUFBQUFBQUFBSUVBQUFBQUVBQUFBQUFBQUFBQUFRQUFJQURBQUFBQUFBQ0lBQUFBQUFBQUVBZ1FBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQ0FBQVFBQS5JTENJQl9DN0ViQ0ZDaURKM0lLTUVNQWhYZ0JCQVlzQXdBQVlCQXdBQURCSVFJQlFDa2tFYUJBeUFGQ0FDQ0FBQUtBU0JBQUFvQ0FnQUFVQUFJQUFWQUFCRUFBd0FJQkFJSUVBQWdBQUFRRUFJQUFBQUNJQUFFUUNBQUFJRUFFQUFrQWdBQUFJQVNFQUFBQUFBQUFDQkFBQUFBQkFBQUFBQUFBQUFCQUVBQVNBQXdBQUFBQUFBaUFBQUFBQUFBQkFJRUFBQUFBQUFBQUFBQUFBQUFBQUFBQWdBQUFBQUFBQUFBQkFBQUFBQUFRZ0FBRSIsIjJ-NjEuODkuMTIyLjE2MS4xODQuMTk2LjIzMC4zMTQuMzg1LjQ0Mi40NDUuNDk0LjU1MC41NzYuODI3LjEwMjkuMTAzMy4xMDQ2LjEwNDcuMTA1MS4xMDY3LjEwOTcuMTEyNi4xMTY2LjEzMDEuMTMyOS4xMzQyLjE0MTUuMTUxNi4xNjE2LjE3MjUuMTczNS4xNzY1LjE3ODIuMTkxNy4xOTQyLjE5NTguMTk4NS4xOTg3LjIwNjguMjA3Mi4yMDc0LjIxMDcuMjIxMy4yMjE5LjIyMjMuMjIyNC4yMzI4LjIzMzEuMjQxNi4yNTAxLjI1NjcuMjU2OC4yNTc1LjI2NTcuMjY4Ni4yNzc4LjI4NjkuMjg3OC4yODk4LjI5MDguMjkyMC4yOTYzLjMwMDUuMzAyMy4zMTI2LjMyMzQuMzIzNS4zMjUzLjMzMDkuMzczMS42OTMxLjg5MzEuMTM3MzEuMTU3MzEuMzM5MzF-ZHYuIl0sbnVsbCxudWxsLG51bGwsWzE3NzcwNDA1MTEsMTE5MDAwMDAwXSxudWxsLG51bGwsbnVsbCxbbnVsbCxbN11dLCJodHRwczovL3RyYWRpbmdlY29ub21pY3MuY29tL2NvbW1vZGl0eS9jcnVkZS1vaWwiLG51bGwsW1s4LCJYUncyVnVQVEZ0byJdLFs5LCJpdCJdLFsxOCwiW1tbbnVsbCwzMjUxXV1dIl0sWzIzLCIxNzc2NzE3NDcxIl0sWzM1LCIxNzc2NzE3NDcwIl0sWzI2LCI1Il0sWzMzLCIxNiJdLFsxOSwiMSJdLFsxNywiWzBdIl0sWzI0LCIiXSxbMjUsIltbMzEwOTc2MDFdXSJdLFsyOSwiZmFsc2UiXV1d"></script><script async="" src="https://fundingchoicesmessages.google.com/f/AGSKWxUnv6TVpF0NuwThZf8TJeJQPnf4OgytI5KxmoJRkw4tWSa8QUGj64zMWW3MASdKEP_QqoKmJbuDy3MC8lGbqU703AzR8sfVeGvx85FLDhJavXWuZYqcOnjmZj7HQNp7rLU7pMQbNQ==?fccs=W1siQUtzUm9sX2MwVnotZ1IzZ3NMX3pxUTFXQlJfXzB5U3ZxWGloaWFua3BET2cxNi1yOFdsUTUwd0RpcmZReG45V082OFRqWDRWeC01ck9leVNYZTVPVk1rdkd4NWw2T3JfeGhvdkRuTGhNT2JUdEdfRUhwcXgyWU1ibkRXTFczWkRNRGlfM3A0cTdCdWVwcUhISV83YTZlOUFNVFZoSU1ZTHlnPT0iXSxudWxsLFsiQ1FpOWowQVFpOWowQUVzQUNCRU5DYkZvQVBfZ0FFUGdBQ2lRSzNvQl9DN0ViQ0ZDaURKM0lLTUVNQWhIZ0JCQVlzQXdBQVlCQXdBQURCSVFJQlFDZ2tFWUJBeUFGQ0FDQ0FBQUtBU0JBQUFnQ0FBQUFVQUFJQUFGQUFCRUFBd0FJQkFJSUFBQWdBQUFBRUFJQUFBQUNJQUFFUUNBQUFJRUFFQUFrQWdBQUFJQVNFQUFBQUFBQUFDQkFBQUFBQkFBQUFBQUFBQUFCQUVBQVFBQVFBQUFBQUFBaUFBQUFBQUFBQkFJQUFBQUFBQUFBQUFBQUFBQUFBQUFBQWdBQUFBQUFBQUFBQkFBQUFBQUFRZ3NJZ0g4THNSc0lVS0lNRmNnb3dRd0NGZUFFQUJpd0RBQUJnRURBQUFNRWhBZ0JBS1NRUklFQ0lBUUlBQUlBQUFnQkFFQUFDZ0lDQUFBUUFBQUFCVUFBRVFBREFBZ0VBZ0FRQUNBQUFCQVFBQUFBQUFJZ0FBUkFJQUFBZ1FBUUFDQUNBQUFBZ0JJUUFBQUFBQUFBSUVBQUFBQUVBQUFBQUFBQUFBQUFRQUFJQURBQUFBQUFBQ0lBQUFBQUFBQUVBZ1FBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQ0FBQVFBQS5JTENJQl9DN0ViQ0ZDaURKM0lLTUVNQWhYZ0JCQVlzQXdBQVlCQXdBQURCSVFJQlFDa2tFYUJBeUFGQ0FDQ0FBQUtBU0JBQUFvQ0FnQUFVQUFJQUFWQUFCRUFBd0FJQkFJSUVBQWdBQUFRRUFJQUFBQUNJQUFFUUNBQUFJRUFFQUFrQWdBQUFJQVNFQUFBQUFBQUFDQkFBQUFBQkFBQUFBQUFBQUFCQUVBQVNBQXdBQUFBQUFBaUFBQUFBQUFBQkFJRUFBQUFBQUFBQUFBQUFBQUFBQUFBQWdBQUFBQUFBQUFBQkFBQUFBQUFRZ0FBRSIsIjJ-NjEuODkuMTIyLjE2MS4xODQuMTk2LjIzMC4zMTQuMzg1LjQ0Mi40NDUuNDk0LjU1MC41NzYuODI3LjEwMjkuMTAzMy4xMDQ2LjEwNDcuMTA1MS4xMDY3LjEwOTcuMTEyNi4xMTY2LjEzMDEuMTMyOS4xMzQyLjE0MTUuMTUxNi4xNjE2LjE3MjUuMTczNS4xNzY1LjE3ODIuMTkxNy4xOTQyLjE5NTguMTk4NS4xOTg3LjIwNjguMjA3Mi4yMDc0LjIxMDcuMjIxMy4yMjE5LjIyMjMuMjIyNC4yMzI4LjIzMzEuMjQxNi4yNTAxLjI1NjcuMjU2OC4yNTc1LjI2NTcuMjY4Ni4yNzc4LjI4NjkuMjg3OC4yODk4LjI5MDguMjkyMC4yOTYzLjMwMDUuMzAyMy4zMTI2LjMyMzQuMzIzNS4zMjUzLjMzMDkuMzczMS42OTMxLjg5MzEuMTM3MzEuMTU3MzEuMzM5MzF-ZHYuIl0sbnVsbCxudWxsLG51bGwsWzE3NzcwNDA1MTIsMTk2MDAwMDAwXSxudWxsLG51bGwsbnVsbCxbbnVsbCxbNyw5XSxudWxsLDEsbnVsbCwiZW4iXSwiaHR0cHM6Ly90cmFkaW5nZWNvbm9taWNzLmNvbS9jb21tb2RpdHkvY3J1ZGUtb2lsIixudWxsLFtbOCwiWFJ3MlZ1UFRGdG8iXSxbOSwiaXQiXSxbMTgsIltbW251bGwsMzI1MV1dXSJdLFsyMywiMTc3NjcxNzQ3MSJdLFszNSwiMTc3NjcxNzQ3MCJdLFsyNiwiNSJdLFszMywiMTYiXSxbMTksIjEiXSxbMTcsIlswXSJdLFsyNCwiIl0sWzI1LCJbWzMxMDk3NjAxXV0iXSxbMjksImZhbHNlIl1dXQ"></script><script async="" src="https://fundingchoicesmessages.google.com/f/AGSKWxWVXimrDZzeh2XvaXk8ejHrb7QxfkesNXvTS_rumIpSeFscQQ5cMq3Y1k7_O1We3yEdBf_4iS3Zdp9t_4koaL5-bknpAdV8WxMSt7YD7LyDxoXxCVH54sMpu1yF-skRUCwVwcxx5Q==?fccs=W1siQUtzUm9sX2MwVnotZ1IzZ3NMX3pxUTFXQlJfXzB5U3ZxWGloaWFua3BET2cxNi1yOFdsUTUwd0RpcmZReG45V082OFRqWDRWeC01ck9leVNYZTVPVk1rdkd4NWw2T3JfeGhvdkRuTGhNT2JUdEdfRUhwcXgyWU1ibkRXTFczWkRNRGlfM3A0cTdCdWVwcUhISV83YTZlOUFNVFZoSU1ZTHlnPT0iXSxudWxsLFsiQ1FpOWowQVFpOWowQUVzQUNCRU5DYkZvQVBfZ0FFUGdBQ2lRSzNvQl9DN0ViQ0ZDaURKM0lLTUVNQWhIZ0JCQVlzQXdBQVlCQXdBQURCSVFJQlFDZ2tFWUJBeUFGQ0FDQ0FBQUtBU0JBQUFnQ0FBQUFVQUFJQUFGQUFCRUFBd0FJQkFJSUFBQWdBQUFBRUFJQUFBQUNJQUFFUUNBQUFJRUFFQUFrQWdBQUFJQVNFQUFBQUFBQUFDQkFBQUFBQkFBQUFBQUFBQUFCQUVBQVFBQVFBQUFBQUFBaUFBQUFBQUFBQkFJQUFBQUFBQUFBQUFBQUFBQUFBQUFBQWdBQUFBQUFBQUFBQkFBQUFBQUFRZ3NJZ0g4THNSc0lVS0lNRmNnb3dRd0NGZUFFQUJpd0RBQUJnRURBQUFNRWhBZ0JBS1NRUklFQ0lBUUlBQUlBQUFnQkFFQUFDZ0lDQUFBUUFBQUFCVUFBRVFBREFBZ0VBZ0FRQUNBQUFCQVFBQUFBQUFJZ0FBUkFJQUFBZ1FBUUFDQUNBQUFBZ0JJUUFBQUFBQUFBSUVBQUFBQUVBQUFBQUFBQUFBQUFRQUFJQURBQUFBQUFBQ0lBQUFBQUFBQUVBZ1FBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQ0FBQVFBQS5JTENJQl9DN0ViQ0ZDaURKM0lLTUVNQWhYZ0JCQVlzQXdBQVlCQXdBQURCSVFJQlFDa2tFYUJBeUFGQ0FDQ0FBQUtBU0JBQUFvQ0FnQUFVQUFJQUFWQUFCRUFBd0FJQkFJSUVBQWdBQUFRRUFJQUFBQUNJQUFFUUNBQUFJRUFFQUFrQWdBQUFJQVNFQUFBQUFBQUFDQkFBQUFBQkFBQUFBQUFBQUFCQUVBQVNBQXdBQUFBQUFBaUFBQUFBQUFBQkFJRUFBQUFBQUFBQUFBQUFBQUFBQUFBQWdBQUFBQUFBQUFBQkFBQUFBQUFRZ0FBRSIsIjJ-NjEuODkuMTIyLjE2MS4xODQuMTk2LjIzMC4zMTQuMzg1LjQ0Mi40NDUuNDk0LjU1MC41NzYuODI3LjEwMjkuMTAzMy4xMDQ2LjEwNDcuMTA1MS4xMDY3LjEwOTcuMTEyNi4xMTY2LjEzMDEuMTMyOS4xMzQyLjE0MTUuMTUxNi4xNjE2LjE3MjUuMTczNS4xNzY1LjE3ODIuMTkxNy4xOTQyLjE5NTguMTk4NS4xOTg3LjIwNjguMjA3Mi4yMDc0LjIxMDcuMjIxMy4yMjE5LjIyMjMuMjIyNC4yMzI4LjIzMzEuMjQxNi4yNTAxLjI1NjcuMjU2OC4yNTc1LjI2NTcuMjY4Ni4yNzc4LjI4NjkuMjg3OC4yODk4LjI5MDguMjkyMC4yOTYzLjMwMDUuMzAyMy4zMTI2LjMyMzQuMzIzNS4zMjUzLjMzMDkuMzczMS42OTMxLjg5MzEuMTM3MzEuMTU3MzEuMzM5MzF-ZHYuIl0sbnVsbCxudWxsLG51bGwsWzE3NzcwNDA1MTYsMTMwMDAwMDBdLG51bGwsbnVsbCxudWxsLFtudWxsLFs3LDksNl0sbnVsbCwxLG51bGwsImVuIixudWxsLG51bGwsbnVsbCxudWxsLG51bGwsMV0sImh0dHBzOi8vdHJhZGluZ2Vjb25vbWljcy5jb20vY29tbW9kaXR5L2NydWRlLW9pbCIsbnVsbCxbWzgsIlhSdzJWdVBURnRvIl0sWzksIml0Il0sWzE4LCJbW1tudWxsLDMyNTFdXV0iXSxbMjMsIjE3NzY3MTc0NzEiXSxbMzUsIjE3NzY3MTc0NzAiXSxbMjYsIjUiXSxbMzMsIjE2Il0sWzE5LCIxIl0sWzE3LCJbMF0iXSxbMjQsIiJdLFsyNSwiW1szMTA5NzYwMV1dIl0sWzI5LCJmYWxzZSJdXV0"></script></head>
+    </style><script async="" src="https://d2wzsg5ocyioop.cloudfront.net/prebid10.19.0.js"></script><meta http-equiv="origin-trial" content="AlK2UR5SkAlj8jjdEc9p3F3xuFYlF6LYjAML3EOqw1g26eCwWPjdmecULvBH5MVPoqKYrOfPhYVL71xAXI1IBQoAAAB8eyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiV2ViVmlld1hSZXF1ZXN0ZWRXaXRoRGVwcmVjYXRpb24iLCJleHBpcnkiOjE3NTgwNjcxOTksImlzU3ViZG9tYWluIjp0cnVlfQ=="><meta http-equiv="origin-trial" content="Amm8/NmvvQfhwCib6I7ZsmUxiSCfOxWxHayJwyU1r3gRIItzr7bNQid6O8ZYaE1GSQTa69WwhPC9flq/oYkRBwsAAACCeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiV2ViVmlld1hSZXF1ZXN0ZWRXaXRoRGVwcmVjYXRpb24iLCJleHBpcnkiOjE3NTgwNjcxOTksImlzU3ViZG9tYWluIjp0cnVlfQ=="><meta http-equiv="origin-trial" content="A9nrunKdU5m96PSN1XsSGr3qOP0lvPFUB2AiAylCDlN5DTl17uDFkpQuHj1AFtgWLxpLaiBZuhrtb2WOu7ofHwEAAACKeyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiQUlQcm9tcHRBUElNdWx0aW1vZGFsSW5wdXQiLCJleHBpcnkiOjE3NzQzMTA0MDAsImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"><meta http-equiv="origin-trial" content="A93bovR+QVXNx2/38qDbmeYYf1wdte9EO37K9eMq3r+541qo0byhYU899BhPB7Cv9QqD7wIbR1B6OAc9kEfYCA4AAACQeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiQUlQcm9tcHRBUElNdWx0aW1vZGFsSW5wdXQiLCJleHBpcnkiOjE3NzQzMTA0MDAsImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"><meta http-equiv="origin-trial" content="A1S5fojrAunSDrFbD8OfGmFHdRFZymSM/1ss3G+NEttCLfHkXvlcF6LGLH8Mo5PakLO1sCASXU1/gQf6XGuTBgwAAACQeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXRhZ3NlcnZpY2VzLmNvbTo0NDMiLCJmZWF0dXJlIjoiQUlQcm9tcHRBUElNdWx0aW1vZGFsSW5wdXQiLCJleHBpcnkiOjE3NzQzMTA0MDAsImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"><script src="https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202604220101/pubads_impl.js?cb=31098035" async=""></script><link href="https://securepubads.g.doubleclick.net/pagead/managed/dict/m202604230101/gpt" rel="compression-dictionary"><script async="" src="https://fundingchoicesmessages.google.com/i/23288354674?ers=3"></script><script async="" src="https://fundingchoicesmessages.google.com/f/AGSKWxU-DH4Idxz1p5Z9pd1VMCnECGaZwrquRfgiYQgO3oxiFlduZfBmE6nmrCbF-Lh1tlHukyRXMNLxb-wDBvcvpWTpGbi2Pz7mNOb-FbTKzsWw8O8LgtBX3sIooukT4aj53Kx7UXxmiw==?fccs=W1siQUtzUm9sXzF1NURaaC1sWDgxTW5MbFA1RnZWTkVVRmljaGpibGZUdFh2YmVmS2p0ZTBMTndpS2F5SHp5RFRzdE5laUVZaXExd0M5ejRmbWlBaGNhY1doUXJZWjk2WHFlMER6ZlJkYi1NajR5c3h4d0pMQnJURkxXNm9JTl85dzM5YTZrWER5RGxOUnZiWHRMYkREUlQwNzBQcDVLNlhSZmZ3PT0iXSxudWxsLFsiQ1FqS3ZrQVFqS3ZrQUVzQUNCRU5DY0ZvQVBfZ0FFUGdBQ2lRSzNvQl9DN0ViQ0ZDaURKM0lLTUVNQWhIZ0JCQVlzQXdBQVlCQXdBQURCSVFJQlFDZ2tFWUJBeUFGQ0FDQ0FBQUtBU0JBQUFnQ0FBQUFVQUFJQUFGQUFCRUFBd0FJQkFJSUFBQWdBQUFBRUFJQUFBQUNJQUFFUUNBQUFJRUFFQUFrQWdBQUFJQVNFQUFBQUFBQUFDQkFBQUFBQkFBQUFBQUFBQUFCQUVBQVFBQVFBQUFBQUFBaUFBQUFBQUFBQkFJQUFBQUFBQUFBQUFBQUFBQUFBQUFBQWdBQUFBQUFBQUFBQkFBQUFBQUFRZ3NJZ0g4THNSc0lVS0lNRmNnb3dRd0NGZUFFQUJpd0RBQUJnRURBQUFNRWhBZ0JBS1NRUklFQ0lBUUlBQUlBQUFnQkFFQUFDZ0lDQUFBUUFBQUFCVUFBRVFBREFBZ0VBZ0FRQUNBQUFCQVFBQUFBQUFJZ0FBUkFJQUFBZ1FBUUFDQUNBQUFBZ0JJUUFBQUFBQUFBSUVBQUFBQUVBQUFBQUFBQUFBQUFRQUFJQURBQUFBQUFBQ0lBQUFBQUFBQUVBZ1FBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQ0FBQVFBQS5JTENJQl9DN0ViQ0ZDaURKM0lLTUVNQWhYZ0JCQVlzQXdBQVlCQXdBQURCSVFJQlFDa2tFYUJBeUFGQ0FDQ0FBQUtBU0JBQUFvQ0FnQUFVQUFJQUFWQUFCRUFBd0FJQkFJSUVBQWdBQUFRRUFJQUFBQUNJQUFFUUNBQUFJRUFFQUFrQWdBQUFJQVNFQUFBQUFBQUFDQkFBQUFBQkFBQUFBQUFBQUFCQUVBQVNBQXdBQUFBQUFBaUFBQUFBQUFBQkFJRUFBQUFBQUFBQUFBQUFBQUFBQUFBQWdBQUFBQUFBQUFBQkFBQUFBQUFRZ0FBRSIsIjJ-NjEuODkuMTIyLjE2MS4xODQuMTk2LjIzMC4zMTQuMzg1LjQ0Mi40NDUuNDk0LjU1MC41NzYuODI3LjEwMjkuMTAzMy4xMDQ2LjEwNDcuMTA1MS4xMDY3LjEwOTcuMTEyNi4xMTY2LjEzMDEuMTMyOS4xMzQyLjE0MTUuMTUxNi4xNjE2LjE3MjUuMTczNS4xNzY1LjE3ODIuMTkxNy4xOTQyLjE5NTguMTk4NS4xOTg3LjIwNjguMjA3Mi4yMDc0LjIxMDcuMjIxMy4yMjE5LjIyMjMuMjIyNC4yMzI4LjIzMzEuMjQxNi4yNTAxLjI1NjcuMjU2OC4yNTc1LjI2NTcuMjY4Ni4yNzc4LjI4NjkuMjg3OC4yODk4LjI5MDguMjkyMC4yOTYzLjMwMDUuMzAyMy4zMTI2LjMyMzQuMzIzNS4zMjUzLjMzMDkuMzczMS42OTMxLjg5MzEuMTM3MzEuMTU3MzEuMzM5MzF-ZHYuIl0sbnVsbCxudWxsLG51bGwsWzE3NzcwNDczNTEsNTA2MDAwMDAwXSxudWxsLG51bGwsbnVsbCxbbnVsbCxbN11dLCJodHRwczovL3RyYWRpbmdlY29ub21pY3MuY29tL2dlcm1hbnkvZ2RwIixudWxsLFtbOCwiWFJ3MlZ1UFRGdG8iXSxbOSwiaXQiXSxbMTgsIltbW251bGwsNjQzXV1dIl0sWzIzLCIxNzc3MDE5ODY3Il0sWzM1LCIxNzc3MDE5ODY1Il0sWzE5LCIxIl0sWzE3LCJbMF0iXSxbMjQsInd3dy5iaW5nLmNvbSJdLFsyOSwiZmFsc2UiXV1d"></script><script async="" src="https://fundingchoicesmessages.google.com/f/AGSKWxUM5Ifzv0tHW8IqnYulJY7YjoZ1n0h6LKZCfjQgvK99JQCE5LIkE0gb_acxupv8jKnhpQpy_cJ9_FErc3_0XVaD-Y9FbNfwbYqTj1jdTj-Um6m7jyj8FHg6mIZu7XzJSCyCRuG08g==?fccs=W1siQUtzUm9sXzF1NURaaC1sWDgxTW5MbFA1RnZWTkVVRmljaGpibGZUdFh2YmVmS2p0ZTBMTndpS2F5SHp5RFRzdE5laUVZaXExd0M5ejRmbWlBaGNhY1doUXJZWjk2WHFlMER6ZlJkYi1NajR5c3h4d0pMQnJURkxXNm9JTl85dzM5YTZrWER5RGxOUnZiWHRMYkREUlQwNzBQcDVLNlhSZmZ3PT0iXSxudWxsLFsiQ1FqS3ZrQVFqS3ZrQUVzQUNCRU5DY0ZvQVBfZ0FFUGdBQ2lRSzNvQl9DN0ViQ0ZDaURKM0lLTUVNQWhIZ0JCQVlzQXdBQVlCQXdBQURCSVFJQlFDZ2tFWUJBeUFGQ0FDQ0FBQUtBU0JBQUFnQ0FBQUFVQUFJQUFGQUFCRUFBd0FJQkFJSUFBQWdBQUFBRUFJQUFBQUNJQUFFUUNBQUFJRUFFQUFrQWdBQUFJQVNFQUFBQUFBQUFDQkFBQUFBQkFBQUFBQUFBQUFCQUVBQVFBQVFBQUFBQUFBaUFBQUFBQUFBQkFJQUFBQUFBQUFBQUFBQUFBQUFBQUFBQWdBQUFBQUFBQUFBQkFBQUFBQUFRZ3NJZ0g4THNSc0lVS0lNRmNnb3dRd0NGZUFFQUJpd0RBQUJnRURBQUFNRWhBZ0JBS1NRUklFQ0lBUUlBQUlBQUFnQkFFQUFDZ0lDQUFBUUFBQUFCVUFBRVFBREFBZ0VBZ0FRQUNBQUFCQVFBQUFBQUFJZ0FBUkFJQUFBZ1FBUUFDQUNBQUFBZ0JJUUFBQUFBQUFBSUVBQUFBQUVBQUFBQUFBQUFBQUFRQUFJQURBQUFBQUFBQ0lBQUFBQUFBQUVBZ1FBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQ0FBQVFBQS5JTENJQl9DN0ViQ0ZDaURKM0lLTUVNQWhYZ0JCQVlzQXdBQVlCQXdBQURCSVFJQlFDa2tFYUJBeUFGQ0FDQ0FBQUtBU0JBQUFvQ0FnQUFVQUFJQUFWQUFCRUFBd0FJQkFJSUVBQWdBQUFRRUFJQUFBQUNJQUFFUUNBQUFJRUFFQUFrQWdBQUFJQVNFQUFBQUFBQUFDQkFBQUFBQkFBQUFBQUFBQUFCQUVBQVNBQXdBQUFBQUFBaUFBQUFBQUFBQkFJRUFBQUFBQUFBQUFBQUFBQUFBQUFBQWdBQUFBQUFBQUFBQkFBQUFBQUFRZ0FBRSIsIjJ-NjEuODkuMTIyLjE2MS4xODQuMTk2LjIzMC4zMTQuMzg1LjQ0Mi40NDUuNDk0LjU1MC41NzYuODI3LjEwMjkuMTAzMy4xMDQ2LjEwNDcuMTA1MS4xMDY3LjEwOTcuMTEyNi4xMTY2LjEzMDEuMTMyOS4xMzQyLjE0MTUuMTUxNi4xNjE2LjE3MjUuMTczNS4xNzY1LjE3ODIuMTkxNy4xOTQyLjE5NTguMTk4NS4xOTg3LjIwNjguMjA3Mi4yMDc0LjIxMDcuMjIxMy4yMjE5LjIyMjMuMjIyNC4yMzI4LjIzMzEuMjQxNi4yNTAxLjI1NjcuMjU2OC4yNTc1LjI2NTcuMjY4Ni4yNzc4LjI4NjkuMjg3OC4yODk4LjI5MDguMjkyMC4yOTYzLjMwMDUuMzAyMy4zMTI2LjMyMzQuMzIzNS4zMjUzLjMzMDkuMzczMS42OTMxLjg5MzEuMTM3MzEuMTU3MzEuMzM5MzF-ZHYuIl0sbnVsbCxudWxsLG51bGwsWzE3NzcwNDczNTEsNjM3MDAwMDAwXSxudWxsLG51bGwsbnVsbCxbbnVsbCxbNyw5XSxudWxsLDEsbnVsbCwiZW4iXSwiaHR0cHM6Ly90cmFkaW5nZWNvbm9taWNzLmNvbS9nZXJtYW55L2dkcCIsbnVsbCxbWzgsIlhSdzJWdVBURnRvIl0sWzksIml0Il0sWzE4LCJbW1tudWxsLDY0M11dXSJdLFsyMywiMTc3NzAxOTg2NyJdLFszNSwiMTc3NzAxOTg2NSJdLFsxOSwiMSJdLFsxNywiWzBdIl0sWzI0LCJ3d3cuYmluZy5jb20iXSxbMjksImZhbHNlIl1dXQ"></script><meta http-equiv="origin-trial" content="AlK2UR5SkAlj8jjdEc9p3F3xuFYlF6LYjAML3EOqw1g26eCwWPjdmecULvBH5MVPoqKYrOfPhYVL71xAXI1IBQoAAAB8eyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiV2ViVmlld1hSZXF1ZXN0ZWRXaXRoRGVwcmVjYXRpb24iLCJleHBpcnkiOjE3NTgwNjcxOTksImlzU3ViZG9tYWluIjp0cnVlfQ=="><meta http-equiv="origin-trial" content="Amm8/NmvvQfhwCib6I7ZsmUxiSCfOxWxHayJwyU1r3gRIItzr7bNQid6O8ZYaE1GSQTa69WwhPC9flq/oYkRBwsAAACCeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiV2ViVmlld1hSZXF1ZXN0ZWRXaXRoRGVwcmVjYXRpb24iLCJleHBpcnkiOjE3NTgwNjcxOTksImlzU3ViZG9tYWluIjp0cnVlfQ=="><meta http-equiv="origin-trial" content="A9nrunKdU5m96PSN1XsSGr3qOP0lvPFUB2AiAylCDlN5DTl17uDFkpQuHj1AFtgWLxpLaiBZuhrtb2WOu7ofHwEAAACKeyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiQUlQcm9tcHRBUElNdWx0aW1vZGFsSW5wdXQiLCJleHBpcnkiOjE3NzQzMTA0MDAsImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"><meta http-equiv="origin-trial" content="A93bovR+QVXNx2/38qDbmeYYf1wdte9EO37K9eMq3r+541qo0byhYU899BhPB7Cv9QqD7wIbR1B6OAc9kEfYCA4AAACQeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiQUlQcm9tcHRBUElNdWx0aW1vZGFsSW5wdXQiLCJleHBpcnkiOjE3NzQzMTA0MDAsImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"><meta http-equiv="origin-trial" content="A1S5fojrAunSDrFbD8OfGmFHdRFZymSM/1ss3G+NEttCLfHkXvlcF6LGLH8Mo5PakLO1sCASXU1/gQf6XGuTBgwAAACQeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXRhZ3NlcnZpY2VzLmNvbTo0NDMiLCJmZWF0dXJlIjoiQUlQcm9tcHRBUElNdWx0aW1vZGFsSW5wdXQiLCJleHBpcnkiOjE3NzQzMTA0MDAsImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"><script async="" src="https://fundingchoicesmessages.google.com/f/AGSKWxUXOsnBWmNY5-wD753kELegsa1GZjjc7v15dWamRd82TuOxaZBlIbI57cQjdQHOc-EYyf8ANVBCyVEF4OQwIR8kKPFEMk-ePmmkLwwRt39AUZfb5UGvWPBZK6HniKFrFnU56m7JpA==?fccs=W1siQUtzUm9sXzF1NURaaC1sWDgxTW5MbFA1RnZWTkVVRmljaGpibGZUdFh2YmVmS2p0ZTBMTndpS2F5SHp5RFRzdE5laUVZaXExd0M5ejRmbWlBaGNhY1doUXJZWjk2WHFlMER6ZlJkYi1NajR5c3h4d0pMQnJURkxXNm9JTl85dzM5YTZrWER5RGxOUnZiWHRMYkREUlQwNzBQcDVLNlhSZmZ3PT0iXSxudWxsLFsiQ1FqS3ZrQVFqS3ZrQUVzQUNCRU5DY0ZvQVBfZ0FFUGdBQ2lRSzNvQl9DN0ViQ0ZDaURKM0lLTUVNQWhIZ0JCQVlzQXdBQVlCQXdBQURCSVFJQlFDZ2tFWUJBeUFGQ0FDQ0FBQUtBU0JBQUFnQ0FBQUFVQUFJQUFGQUFCRUFBd0FJQkFJSUFBQWdBQUFBRUFJQUFBQUNJQUFFUUNBQUFJRUFFQUFrQWdBQUFJQVNFQUFBQUFBQUFDQkFBQUFBQkFBQUFBQUFBQUFCQUVBQVFBQVFBQUFBQUFBaUFBQUFBQUFBQkFJQUFBQUFBQUFBQUFBQUFBQUFBQUFBQWdBQUFBQUFBQUFBQkFBQUFBQUFRZ3NJZ0g4THNSc0lVS0lNRmNnb3dRd0NGZUFFQUJpd0RBQUJnRURBQUFNRWhBZ0JBS1NRUklFQ0lBUUlBQUlBQUFnQkFFQUFDZ0lDQUFBUUFBQUFCVUFBRVFBREFBZ0VBZ0FRQUNBQUFCQVFBQUFBQUFJZ0FBUkFJQUFBZ1FBUUFDQUNBQUFBZ0JJUUFBQUFBQUFBSUVBQUFBQUVBQUFBQUFBQUFBQUFRQUFJQURBQUFBQUFBQ0lBQUFBQUFBQUVBZ1FBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQ0FBQVFBQS5JTENJQl9DN0ViQ0ZDaURKM0lLTUVNQWhYZ0JCQVlzQXdBQVlCQXdBQURCSVFJQlFDa2tFYUJBeUFGQ0FDQ0FBQUtBU0JBQUFvQ0FnQUFVQUFJQUFWQUFCRUFBd0FJQkFJSUVBQWdBQUFRRUFJQUFBQUNJQUFFUUNBQUFJRUFFQUFrQWdBQUFJQVNFQUFBQUFBQUFDQkFBQUFBQkFBQUFBQUFBQUFCQUVBQVNBQXdBQUFBQUFBaUFBQUFBQUFBQkFJRUFBQUFBQUFBQUFBQUFBQUFBQUFBQWdBQUFBQUFBQUFBQkFBQUFBQUFRZ0FBRSIsIjJ-NjEuODkuMTIyLjE2MS4xODQuMTk2LjIzMC4zMTQuMzg1LjQ0Mi40NDUuNDk0LjU1MC41NzYuODI3LjEwMjkuMTAzMy4xMDQ2LjEwNDcuMTA1MS4xMDY3LjEwOTcuMTEyNi4xMTY2LjEzMDEuMTMyOS4xMzQyLjE0MTUuMTUxNi4xNjE2LjE3MjUuMTczNS4xNzY1LjE3ODIuMTkxNy4xOTQyLjE5NTguMTk4NS4xOTg3LjIwNjguMjA3Mi4yMDc0LjIxMDcuMjIxMy4yMjE5LjIyMjMuMjIyNC4yMzI4LjIzMzEuMjQxNi4yNTAxLjI1NjcuMjU2OC4yNTc1LjI2NTcuMjY4Ni4yNzc4LjI4NjkuMjg3OC4yODk4LjI5MDguMjkyMC4yOTYzLjMwMDUuMzAyMy4zMTI2LjMyMzQuMzIzNS4zMjUzLjMzMDkuMzczMS42OTMxLjg5MzEuMTM3MzEuMTU3MzEuMzM5MzF-ZHYuIl0sbnVsbCxudWxsLG51bGwsWzE3NzcwNDczNTIsMzQ3MDAwMDAwXSxudWxsLG51bGwsbnVsbCxbbnVsbCxbNyw5LDZdLG51bGwsMSxudWxsLCJlbiIsbnVsbCxudWxsLG51bGwsbnVsbCxudWxsLDFdLCJodHRwczovL3RyYWRpbmdlY29ub21pY3MuY29tL2dlcm1hbnkvZ2RwIixudWxsLFtbOCwiWFJ3MlZ1UFRGdG8iXSxbOSwiaXQiXSxbMTgsIltbW251bGwsNjQzXV1dIl0sWzIzLCIxNzc3MDE5ODY3Il0sWzM1LCIxNzc3MDE5ODY1Il0sWzE5LCIxIl0sWzE3LCJbMF0iXSxbMjQsInd3dy5iaW5nLmNvbSJdLFsyOSwiZmFsc2UiXV1d"></script></head>
 <body>
     <script>IsDarkMode=false;</script>
-    <form method="post" action="/commodity/crude-oil" id="aspnetForm">
+    <form method="post" action="/germany/gdp" id="aspnetForm">
 <div class="aspNetHidden">
-<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="lXcCMUgClyyF0BGhvzAmwM0rUi0AbbhIfC8sp7knbn8dDQN311s2XYDzJiTdBIB0jXsabQt09mudhtyXzO45UcFQKT0=">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="PjhsoP76WSgmqY/PRqp837RxNjuMHGCza8x2Udrul6m70y8/3vmYihdRmT2ZlP8xJwZnXWWmp0ujhbxlXmu6LsyySYA=">
 </div>
 
-<script type="text/javascript" language="Javascript">var TEChartSettings = '{"type":"area"}'; console.log('TEChartSettings:', TEChartSettings);</script><script type="text/javascript" language="Javascript">var isCopyright = false;</script><script type="text/javascript" language="Javascript">var TESymbol = 'CL1'; console.log('TESymbol:', TESymbol);var TELanguage = ''; console.log('TELanguage:', TELanguage);TELastUpdate = '202604241420'; console.log('TELastUpdate:', TELastUpdate);TEChart = 'MK'; console.log('TEChart:', TEChart);var TEAlertsName= 'Crude Oil'; console.log('TEAlertsName:', TEAlertsName);</script><script type="text/javascript" language="Javascript">TEChartUrl = 'https://d3fy651gv2fhd3.cloudfront.net/charts/commodity-crude-oil.png?s=cl1&v=202604241420V20230410';TECountry = 'Commodity';TECategory = 'Commodity';TEType = 'te';TEFrequency = 'Daily';TEForecast =   [90.29,94.74,98.56,102.54];</script><script type="text/javascript" language="Javascript">symbol = 'cl1:com'; console.log('symbol:', symbol);symbolType = 'com'; console.log('symbolType:', symbolType);</script><script type="text/javascript" language="Javascript">TEChartsMeta = [{"value":95.126100000000,"converted_value":95.126100000000,"symbol":"CL1:COM","first_date":"\/Date(417830400000)\/","last":95.126100000000,"type":"Commodity","name":"Crude Oil","full_name":"Crude Oil WTI","ticker":"CL1:COM","description":"Crude Oil","timezone":"UTC","supported_resolutions":["1","5","15","30","60","120","180","240","D","W","M"],"has_daily":true,"has_weekly_and_monthly":true,"has_no_volume":true,"minmov":1,"minmov2":1,"pricescale":10000,"ieconomics_url":null,"allowed_interval":"1m","default_interval":"1d","has_intraday":true,"industry":null,"sector":null,"chart_type":null}]; console.log('TEChartsMeta:', TEChartsMeta);</script>
+<script type="text/javascript" language="Javascript">var isCopyright = false;</script><script type="text/javascript" language="Javascript">var TESymbol = 'WGDPGERM'; console.log('TESymbol:', TESymbol);var TELanguage = ''; console.log('TELanguage:', TELanguage);TELastUpdate = '202507011451'; console.log('TELastUpdate:', TELastUpdate);TEChart = 'EC'; console.log('TEChart:', TEChart);var TEAlertsName= 'Germany GDP'; console.log('TEAlertsName:', TEAlertsName);</script><script type="text/javascript" language="Javascript">TEChartUrl = 'https://d3fy651gv2fhd3.cloudfront.net/charts/germany-gdp.png?s=wgdpgerm&projection=te&v=202507011451V20230410';TECountry = 'Germany';TECategory = 'GDP';TEType = 'te';TEFrequency = 'Yearly';</script>
 <div class="aspNetHidden">
 
 	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="9ED6FB81">
@@ -264,7 +264,7 @@ html_text = """<html><head id="ctl00_Head1"><meta charset="utf-8"><title>
         <div class="navbar-header navbar-header-search" id="searchMobileHeader">
             <div class="d-flex justify-content-between">
                 <a class="navbar-brand" style="width: 100%" role="form">
-                    <input type="text" placeholder="Search" id="thisIstheTinySearchBoxIdTag" autocomplete="off" class="nav-search-input-class navbar-search-2 ieconomics-352936-logic">
+                    <input type="text" placeholder="Search" id="thisIstheTinySearchBoxIdTag" autocomplete="off" class="nav-search-input-class navbar-search-2 ieconomics-731189-logic">
                 </a>
                 <ul id="thisIstheTinySearchResultsIdTag" class="dropdown-menu navbar-search-1">
                     <li>
@@ -330,7 +330,7 @@ html_text = """<html><head id="ctl00_Head1"><meta charset="utf-8"><title>
                         <div class="search-li d-none d-lg-block">
                             <a noref="" id="thisIsTheSearchPlaceholderId" class="nav-searchbox-class stickydropdown d-block" title="Search">
                                 <div id="thisIsTheSearchBoxWrapperId" class="typeahead-searchbox-glyphicon-wrapper d-flex ">
-                                    <input type="text" placeholder="Search" aria-label="Search" id="thisIstheSearchBoxIdTag" autocomplete="off" class="d-none d-md-block nav-search-input-class ieconomics-901373-logic">
+                                    <input type="text" placeholder="Search" aria-label="Search" id="thisIstheSearchBoxIdTag" autocomplete="off" class="d-none d-md-block nav-search-input-class ieconomics-48694-logic">
                                 </div>
                             </a>
 
@@ -398,7 +398,7 @@ html_text = """<html><head id="ctl00_Head1"><meta charset="utf-8"><title>
                 <div class="list-group list-group-user">
 
                     
-                        <a class="user-item list-group-item" href="https://sso.tradingeconomics.com/sso/login?returnurl=https://tradingeconomics.com/commodity/crude-oil"><i class="bi bi-person-fill"></i> Already a user? <b>Login</b></a>
+                        <a class="user-item list-group-item" href="https://sso.tradingeconomics.com/sso/login?returnurl=https://tradingeconomics.com/germany/gdp"><i class="bi bi-person-fill"></i> Already a user? <b>Login</b></a>
                     
                 </div>
                 
@@ -517,7 +517,7 @@ html_text = """<html><head id="ctl00_Head1"><meta charset="utf-8"><title>
                                 </button>
 
                             </div>
-                            <div id="collapseMarkets" class="accordion-collapse collapse show" data-bs-parent="#accordionNavbar">
+                            <div id="collapseMarkets" class="accordion-collapse collapse " data-bs-parent="#accordionNavbar">
                                 <div class="accordion-body mobile-accordion-body">
                                     <ul class="nav navbar-nav navbarMobile">
                                         <li><a class="navmobile-link nav-link" href="/commodities" target="_self">Commodities</a></li>
@@ -567,7 +567,7 @@ html_text = """<html><head id="ctl00_Head1"><meta charset="utf-8"><title>
                                 </button>
 
                             </div>
-                            <div id="collapseIndicators" class="accordion-collapse collapse  " data-bs-parent="#accordionNavbar">
+                            <div id="collapseIndicators" class="accordion-collapse collapse  show" data-bs-parent="#accordionNavbar">
                                 <div class="accordion-body mobile-accordion-body">
                                     <ul class="nav navbar-nav navbarMobile">
                                         <li><a class="navmobile-link nav-link" href="/country-list/interest-rate" target="_self">Interest Rate</a></li>
@@ -743,7 +743,7 @@ html_text = """<html><head id="ctl00_Head1"><meta charset="utf-8"><title>
         <div class="container">
             <div class="row">
                 <div class="col-xl-12" style="display: flex; flex-direction: row">
-                    <h1 style="width: 100%"><span class="page-title">Crude Oil</span><span class="title-notes hidden-sm hidden-md hidden-xs">Price - Chart - Historical Data - News</span></h1>
+                    <h1 class="page-title">Germany GDP</h1>
                 </div>
             </div>
         </div>
@@ -777,14 +777,14 @@ html_text = """<html><head id="ctl00_Head1"><meta charset="utf-8"><title>
                     </a>
                 </li>
             
-                <li role="presentation" class="nav-item scroll-top-on-click">
-                    <a role="tab" class="nav-link  " href="#alerts" data-bs-toggle="tab" data-bs-target="#alerts-desc" aria-selected="false" tabindex="-1">
-                        Alerts 
+                <li role="presentation" class="nav-item ">
+                    <a role="tab" class="nav-link dropdown-toggle" href="" id="menu-download-btn" data-bs-toggle="dropdown">
+                        Download 
                          
-                    </a>
+                    </a><ul id="menu-download-dropdown" class="dropdown-menu"><li><a href="#" data-download="csv"><img src="https://d3e5kp2e91w0k0.cloudfront.net/images/downloadicons/download-csv-filled.svg" alt="CSV download button" style="height: 25px; width: 25px">&nbsp;&nbsp;Download Data</a></li><li><a href="#" data-download="excel"><img src="https://d3e5kp2e91w0k0.cloudfront.net/images/downloadicons/microsoft-excel-filled.svg" alt="Excel download button" style="height: 25px; width: 25px">&nbsp;&nbsp;Excel Add-in</a></li><li><a href="#" data-download="api"><img src="https://d3e5kp2e91w0k0.cloudfront.net/images/downloadicons/download-api.svg" alt="API download button" style="height: 25px; width: 25px">&nbsp;&nbsp;API Access</a></li></ul>
                 </li>
             
-                <li class="nav-item" role="presentation"><a role="tab" class="nav-link dropdown-toggle" href="" id="menu-download-btn" data-bs-toggle="dropdown" aria-expanded="false"><i class="bi bi-download"></i><span class="export-text-tab">&nbsp;Export</span></a><ul id="menu-download-dropdown" class="dropdown-menu"><li class="dropdown-item"><a href="#" data-download="csv"><img src="https://d3e5kp2e91w0k0.cloudfront.net/images/downloadicons/download-csv-filled.svg" alt="CSV download button" style="height: 25px; width: 25px">&nbsp;&nbsp;Download Data</a></li><li class="dropdown-item"><a href="#" data-download="excel"><img src="https://d3e5kp2e91w0k0.cloudfront.net/images/downloadicons/microsoft-excel-filled.svg" alt="Excel download button" style="height: 25px; width: 25px">&nbsp;&nbsp;Excel Add-in</a></li><li class="dropdown-item"><a href="#" data-download="api"><img src="https://d3e5kp2e91w0k0.cloudfront.net/images/downloadicons/download-api.svg" alt="API download button" style="height: 25px; width: 25px">&nbsp;&nbsp;API Access</a></li></ul></li></ul>
+                </ul>
             
 
          
@@ -817,12 +817,12 @@ html_text = """<html><head id="ctl00_Head1"><meta charset="utf-8"><title>
 <div id="ctl00_ContentPlaceHolder1_ctl00_Panel1">
 	
     <div class="tab-content te-tab-content">
-            <div role="tabpanel" class="tab-pane active show" id="historical-desc"><h2 id="description" style="line-height: 1.45em;">WTI crude oil futures slipped to $94.8 per barrel on Friday, reversing earlier gains and snapping a four-session winning streak as hopes of diplomatic progress between the US and Iran improved sentiment. Reports indicated Iranian Foreign Minister Abbas Araghchi was expected to arrive in Islamabad, with sources suggesting a high likelihood of a breakthrough in negotiations involving mediators such as Pakistan. Despite the pullback, oil remains on track for a weekly gain of about 14%. Markets continue to be influenced by US policy signals, including President Donald Trump’s continuation of a naval blockade on Iranian ports, which has restricted crude exports from the Persian Gulf since the conflict began. The blockade remains a key obstacle in negotiations. A sanctioned tanker carrying Iranian oil was also seen attempting to leave the Strait of Hormuz, highlighting ongoing tensions in the vital shipping route that has seen sharply reduced flows since the war began.</h2></div>
+            <div role="tabpanel" class="tab-pane active show" id="historical-desc"><h2 id="description" style="line-height: 1.45em;">The Gross Domestic Product (GDP) in Germany was worth 4659.93 billion US dollars in 2024, according to official data from the World Bank. The GDP value of Germany represents 4.39 percent of the world economy. <span class="source-present">source: <a class="source-name" target="_blank" href="https://www.worldbank.org/">World Bank</a></span></h2></div>
         
          
-        <div role="tabpanel" class="tab-pane" id="stats"><h2 style="line-height: 1.45em;">Crude Oil fell to 95.13 USD/Bbl on April 24, 2026, down 0.76% from the previous day. Over the past month, Crude Oil's price has risen 5.32%, and is up 50.95% compared to the same time last year, according to trading on a contract for difference (CFD) that tracks the benchmark market for this commodity.  Historically, Crude Oil reached an all time high of 410.45 in December of 2025. Crude Oil - data, forecasts, historical chart - was last updated on  April 24 of 2026.</h2></div>
+        <div role="tabpanel" class="tab-pane" id="stats"><h2 style="line-height: 1.45em;"> GDP in Germany averaged 2251.58 USD Billion from 1970 until 2024, reaching an all time high of 4659.93 USD Billion in 2024 and a record low of 216.63 USD Billion in 1970. This page provides the latest reported value for - Germany GDP - plus previous releases, historical high and low, short-term forecast and long-term prediction, economic calendar, survey consensus and news. Germany GDP - values, historical data and charts - was last updated on  April of 2026. </h2></div>
         
-        <div role="tabpanel" class="tab-pane" id="forecast-desc"><h3 style="line-height: 1.45em;">Crude Oil fell to 95.13 USD/Bbl on April 24, 2026, down 0.76% from the previous day. Over the past month, Crude Oil's price has risen 5.32%, and is up 50.95% compared to the same time last year, according to trading on a contract for difference (CFD) that tracks the benchmark market for this commodity. Crude Oil is expected to trade at 90.29 USD/BBL by the end of this quarter, according to Trading Economics global macro models and analysts expectations. Looking forward, we estimate it to trade at 102.54 in 12 months time.</h3></div>
+        <div role="tabpanel" class="tab-pane" id="forecast-desc"><h3 style="line-height: 1.45em;">GDP in Germany is expected to reach 4683.00 USD Billion by the end of 2026, according to Trading Economics global macro models and analysts expectations. In the long-term, the Germany GDP is projected to trend around 4725.00 USD Billion in 2027 and 4782.00 USD Billion in 2028, according to our econometric models.</h3></div>
         
         <div role="tabpanel" class="tab-pane" id="alerts-desc"><div id="alerts-chart" style="padding: 5px 15px 5px 15px;display: inline-block; width: 100%;"></div></div>
     </div>
@@ -834,7 +834,7 @@ html_text = """<html><head id="ctl00_Head1"><meta charset="utf-8"><title>
 <div id="ctl00_ContentPlaceHolder1_ctl00_ChartUC_ctl00_adManager" class="ad-container">
 	
     <script type="text/javascript">console.log("[GPT] div placed above chart");</script>
-    <div class="ad-slot" id="charts-banner" data-google-query-id="CLTI7uLXhpQDFb2OgwcdnOAtSQ" style=""><div id="google_ads_iframe_/23288354674/charts-banner_0__container__" style="border: 0pt; margin: auto; text-align: center;"><iframe id="google_ads_iframe_/23288354674/charts-banner_0" name="google_ads_iframe_/23288354674/charts-banner_0" title="3rd party ad content" width="435" height="300" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" aria-label="Advertisement" tabindex="0" allow="private-state-token-redemption;attribution-reporting" data-load-complete="true" data-google-container-id="1" style="border: 0px; vertical-align: bottom;"></iframe></div></div>
+    <div class="ad-slot" id="charts-banner" data-google-query-id="CMyhqqHxhpQDFTH-EQgdRjwz0A" style=""><div id="google_ads_iframe_/23288354674/charts-banner_0__container__" style="border: 0pt; margin: auto; text-align: center; width: 728px; height: 90px;"><iframe frameborder="0" src="https://4003af1da709adf5925dfbdccec92e30.safeframe.googlesyndication.com/safeframe/1-0-45/html/container.html" id="google_ads_iframe_/23288354674/charts-banner_0" title="Contenuto dell'annuncio di terze parti" name="" scrolling="no" marginwidth="0" marginheight="0" width="728" height="90" data-is-safeframe="true" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" allow="private-state-token-redemption;attribution-reporting" aria-label="Pubblicità" tabindex="0" data-google-container-id="1" style="border: 0px; vertical-align: bottom;" data-load-complete="true"></iframe></div></div>
 
 </div>
 
@@ -842,7 +842,7 @@ html_text = """<html><head id="ctl00_Head1"><meta charset="utf-8"><title>
 <div id="UpdatePanelChart">
 	
     
-    <div id="chart"><div id="trading_chart" style="position: relative; height: 500px"><div class="iChart iChart-wrapper" style="border: 1px solid var(--borderlightcolor);"><div class="iChart-wrapper-header"><div class="iChart-headerMenu2"><div class="topnav-flex-container"><div title="Search" class="expand-search iChart-header-option iChart-headerLabel-name-input topnav-left-group"><span class="expand-search-span" style="float:left;"> Search...</span></div><div id="iChartHeader-interval-button" title="Frequency" class="iChart-header-option topnav-left-group iChartHeader-button iChartHeader-interval-button"><a id="intv-btn" href="#">1D </a></div><div class="iChart-header-option-small ddIArrowDiv d-none"><a href="#"></a></div><div id="iChartHeader-type-button" title="Chart Types" class="iChart-header-option topnav-left-group iChartHeader-button iChartHeader-type-button d-sm-none-down" style=""><a href="#" class="iChart-headerTypeSelector" style="margin: 0 !important;" aria-label="Chart type Picker"><svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24" shape-rendering="geometricPrecision" text-rendering="geometricPrecision"><path d="M3.1,18.09l6.4-6.36l4,4l8.1-9.21-.61-.61-7.49,8.32-4-4-7.1,7.16.7.7Z"></path></svg></a></div><div class="iChart-header-option-small ddTArrowDiv d-sm-none-down d-none"><a href="#"></a></div><div id="iChartHeader-datePicker-button" title="Custom Dates" class="iChart-header-option iChartHeader-button topnav-left-group iChartHeader-datePicker-button d-sm-none-down"><a href="#" id="datePickerSvg" class="iChart-headerTypeSelector iChart-datePickerSelector" aria-label="Datepicker" style="margin: 0 !important;"><svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24" shape-rendering="geometricPrecision" text-rendering="geometricPrecision"><path d="M7,11h2v2h-2v-2ZM21,6v14c0,1.1-.9,2-2,2h-14c-1.11,0-2-.9-2-2L3.01,6c0-1.1.88-2,1.99-2h1v-2h1v2h10v-2h1v2h1c1.1,0,2,.9,2,2ZM4,8h16v-3.000001h-16L4,8ZM20,20.999999v-12h-16v12h16ZM15,13h2v-2h-2v2Zm-4,0h2c0-.618156,0-1.639661,0-2h-2v2Z" transform="translate(0 0.000001)"></path></svg></a></div><div class="iChart-header-option-small ddDArrowDiv d-none"><a href="#"></a></div><div id="iChartHeader-annotationPicker-button" title="Add Annotations"></div><div id="compareBtn" title="Compare" class="iChart-menu-btn-add iChart-header-option d-sm-none-down hover-bg-grey compareBtn" style="display: block;"><span class="header-buttons" style="transform:translate(-8%,-10%)"><svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24" shape-rendering="geometricPrecision" text-rendering="geometricPrecision"><path d="M19,3L5,3C3.89,3,3,3.9,3,5v14c0,1.1.89,2,2,2h14c1.1,0,2-.9,2-2v-14c0-1.1-.9-2-2-2Zm1,17h-16L4,4h16v16Zm-8.5-3h1v-4.5h4.5v-1h-4.5v-4.5h-1v4.5h-4.5v1h4.5v4.5Z"></path></svg></span><span class="mobile-compare-input">Compare</span></div><div id="superMenuBtn" title="Options" class="iChart-menu-btn-superMenu d-sm-none-down iChart-header-option hover-bg-grey superMenuBtn" style="display: flex;"><span id="superMenuIcon" class="header-buttons"><i class="bi bi-wrench"></i></span></div><input id="compareButtonInputId" class="compareButtonInput searchInput" type="text" placeholder="Search..." style="display: none;"><div id="downloadBtn" class="iChart-menu-btn-download topnav-right-group iChart-header-option-download " title="Export Data" style=""><svg class="downloadArrow" width="24" height="24" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24" shape-rendering="geometricPrecision" text-rendering="geometricPrecision"><path class="svg-icon" d="M19.35,10.04C18.67,6.59,15.64,4,12,4C9.11,4,6.6,5.64,5.35,8.04C2.34,8.36,0,10.91,0,14c0,3.31,2.69,6,6,6h13c2.76,0,5-2.24,5-5c0-2.64-2.05-4.78-4.65-4.96ZM19,19h-13c-2.21,0-5-2.79-5-5c0-2.05,1.82-4.47,3.85-4.68l1.07-.11.5-.95C7.37,6.43,9.94,5,12,5c2.62,0,5.5,2.15,6.01,4.72l.39,1.5l1.53.11C21.49,11.43,23,13.45,23,15c0,1.65-2.35,4-4,4Zm-5.55-9h-2.9v3L8,13l4,4l4-4h-2.55v-3Z"></path></svg><span class="export-label"> Export</span></div><div id="apibtn" class="iChart-menu-btn-download topnav-right-group iChart-header-option-download " title="API Data" style=""><i class="bi bi-database"></i><span> API</span></div><div id="fullscreenBtn" class="iChart-header-option topnav-right-group d-sm-none-down hover-bg-grey fullscreenBtn" title="View in full screen" style="display: block;"><svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24" shape-rendering="geometricPrecision" text-rendering="geometricPrecision"><path d="M16,3l2.35,1.95-3.59,3.57.72.72l3.57-3.59L21,8v-5h-5ZM3,8L4.95,5.65L8.52,9.24l.72-.72L5.65,4.95L8,3h-5v5ZM8,21L5.65,19.05l3.59-3.57-.72-.72-3.57,3.59L3,16v5h5Zm13-5l-1.95,2.35-3.57-3.59-.72.72l3.59,3.57L16,21h5v-5Z"></path></svg></div><div id="exportBtn" title="Download" class="iChart-menu-btn-export topnav-right-group iChart-header-option-export" style=""><svg class="exportingBtnSvg" width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="6" r="1.5"></circle><circle cx="12" cy="12" r="1.5"></circle><circle cx="12" cy="18" r="1.5"></circle></svg></div></div><div class="iChart-menu-cnt-labels header-buttons"><div class="iChart-headerLabel"><div style="float: left; display: none;" class="iChart-inputGroup"></div></div></div><div class="iChart-headerSearch d-none searchInput2" style="display: none;"><a noref="" id="expandedSBid" class="nav-searchbox-class stickydropdown-toggle" title="Search" style="max-width: 95%; display:block;"><div id="thisIsTheSearchBoxWrapperId2"><input type="text" placeholder="Search..." id="expandedSearchBarBoxId" autocomplete="off" class="nav-search-input-class" style="display: none;"></div></a></div></div></div><div tabindex="0" class="iChart-chart" data-highcharts-chart="0" style="overflow: hidden; cursor: default;"><div class="mkspinner" style="display: none;"></div><div id="highcharts-71ckvj6-0" dir="ltr" class="highcharts-container " style="position: relative; overflow: hidden; width: 694px; height: 468px; text-align: left; line-height: normal; z-index: 0; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); user-select: none; touch-action: manipulation; outline: none; font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif;"><svg version="1.1" class="highcharts-root" style="font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 12px;" xmlns="http://www.w3.org/2000/svg" width="694" height="468" viewBox="0 0 694 468"><desc>Created with Highcharts 10.1.0</desc><defs><clipPath id="highcharts-71ckvj6-1-"><rect x="0" y="0" width="623" height="396" fill="none"></rect></clipPath><clipPath id="highcharts-71ckvj6-2-"><rect x="8" y="40" width="623" height="396" fill="none"></rect></clipPath><clipPath id="highcharts-71ckvj6-257-"><rect x="0" y="0" width="623" height="396" fill="none"></rect></clipPath></defs><rect fill="#ffffff" class="highcharts-background" x="0" y="0" width="694" height="468" rx="0" ry="0"></rect><rect fill="none" class="highcharts-plot-background" x="8" y="40" width="623" height="396"></rect><rect fill="none" class="highcharts-plot-border" data-z-index="1" x="8" y="40" width="623" height="396"></rect><g class="highcharts-grid highcharts-xaxis-grid" data-z-index="1"><path fill="none" stroke="#EDF3F6" stroke-width="1" stroke-dasharray="none" data-z-index="1" class="highcharts-grid-line" d="M 116.5 40 L 116.5 436" opacity="1"></path><path fill="none" stroke="#EDF3F6" stroke-width="1" stroke-dasharray="none" data-z-index="1" class="highcharts-grid-line" d="M 222.5 40 L 222.5 436" opacity="1"></path><path fill="none" stroke="#EDF3F6" stroke-width="1" stroke-dasharray="none" data-z-index="1" class="highcharts-grid-line" d="M 329.5 40 L 329.5 436" opacity="1"></path><path fill="none" stroke="#EDF3F6" stroke-width="1" stroke-dasharray="none" data-z-index="1" class="highcharts-grid-line" d="M 431.5 40 L 431.5 436" opacity="1"></path><path fill="none" stroke="#EDF3F6" stroke-width="1" stroke-dasharray="none" data-z-index="1" class="highcharts-grid-line" d="M 525.5 40 L 525.5 436" opacity="1"></path></g><g class="highcharts-grid highcharts-yaxis-grid" data-z-index="1"><path fill="none" stroke="#E7E7E7" stroke-width="1" stroke-dasharray="none" data-z-index="1" class="highcharts-grid-line" d="M 8 436.5 L 631 436.5" opacity="1"></path><path fill="none" stroke="#E7E7E7" stroke-width="1" stroke-dasharray="none" data-z-index="1" class="highcharts-grid-line" d="M 8 387.5 L 631 387.5" opacity="1"></path><path fill="none" stroke="#E7E7E7" stroke-width="1" stroke-dasharray="none" data-z-index="1" class="highcharts-grid-line" d="M 8 337.5 L 631 337.5" opacity="1"></path><path fill="none" stroke="#E7E7E7" stroke-width="1" stroke-dasharray="none" data-z-index="1" class="highcharts-grid-line" d="M 8 288.5 L 631 288.5" opacity="1"></path><path fill="none" stroke="#E7E7E7" stroke-width="1" stroke-dasharray="none" data-z-index="1" class="highcharts-grid-line" d="M 8 238.5 L 631 238.5" opacity="1"></path><path fill="none" stroke="#E7E7E7" stroke-width="1" stroke-dasharray="none" data-z-index="1" class="highcharts-grid-line" d="M 8 189.5 L 631 189.5" opacity="1"></path><path fill="none" stroke="#E7E7E7" stroke-width="1" stroke-dasharray="none" data-z-index="1" class="highcharts-grid-line" d="M 8 139.5 L 631 139.5" opacity="1"></path><path fill="none" stroke="#E7E7E7" stroke-width="1" stroke-dasharray="none" data-z-index="1" class="highcharts-grid-line" d="M 8 90.5 L 631 90.5" opacity="1"></path><path fill="none" stroke="#E7E7E7" stroke-width="1" stroke-dasharray="none" data-z-index="1" class="highcharts-grid-line" d="M 8 39.5 L 631 39.5" opacity="1"></path></g><g class="highcharts-grid highcharts-yaxis-grid" data-z-index="1"></g><g class="highcharts-grid highcharts-yaxis-grid" data-z-index="1"></g><g class="highcharts-axis highcharts-xaxis" data-z-index="2"><path fill="none" class="highcharts-axis-line" stroke="#E6E6E6" stroke-width="1" data-z-index="7" d="M 8 436.5 L 631 436.5"></path></g><g class="highcharts-axis highcharts-yaxis" data-z-index="2"><path fill="none" class="highcharts-axis-line" data-z-index="7" d="M 664 40 L 664 436"></path></g><g class="highcharts-axis highcharts-yaxis" data-z-index="2"><path fill="none" class="highcharts-axis-line" data-z-index="7" d="M 6.5 40 L 6.5 436"></path></g><g class="highcharts-series-group" data-z-index="3"><g class="highcharts-series highcharts-series-0 highcharts-line-series" data-z-index="90" opacity="1" transform="translate(8,40) scale(1 1)" clip-path="url(#highcharts-71ckvj6-257-)"><path fill="none" d="M 0 331.551 L 2.4147286821693 336.3525 L 4.8294573643434 344.421 L 7.2441860465127 355.3605 L 9.6589147286821 350.262 L 12.073643410851 354.9645 L 14.488372093025 360.7065 L 16.903100775195 351.0045 L 19.317829457364 356.0535 L 21.732558139533 346.9455 L 24.147286821708 341.451 L 26.562015503877 336.84749999999997 L 28.976744186046 328.3335 L 31.391472868215 330.9075 L 33.80620155039 340.8075 L 36.220930232559 336.7485 L 38.635658914728 335.907 L 41.050387596898 336.4515 L 43.465116279072 338.7285 L 45.879844961241 340.56 L 48.29457364341 338.9265 L 50.70930232558 342.0945 L 53.124031007754 337.392 L 55.538759689923 341.847 L 57.953488372092 342.5895 L 60.368217054262 334.026 L 62.782945736436 329.6205 L 65.197674418605 332.3925 L 67.612403100774 329.8185 L 70.027131782944 323.829 L 72.441860465118 320.3145 L 74.856589147287 321.849 L 77.271317829456 306.1575 L 79.686046511626 306.702 L 82.1007751938 282.249 L 84.515503875969 295.7625 L 86.930232558139 280.8135 L 89.344961240308 279.675 L 91.759689922482 277.992 L 94.174418604651 304.3755 L 96.589147286821 324.8685 L 99.00387596899 322.146 L 101.41860465116 320.562 L 103.83333333333 319.176 L 106.2480620155 321.20550000000003 L 108.66279069768 319.5225 L 111.07751937985 309.6225 L 113.49224806202 312.6915 L 115.90697674418 314.54676 L 118.32170542636 307.24649999999997 L 120.73643410853 305.2665 L 123.1511627907 305.019 L 125.56589147287 313.9785 L 127.98062015504 304.6725 L 130.39534883721 311.949 L 132.81007751938 314.226 L 135.22480620155 320.8095 L 137.63953488372 315.6615 L 140.05426356589 316.5525 L 142.46899224806 317.0475 L 144.88372093023 320.2155 L 147.2984496124 320.5125 L 149.71317829457 316.6515 L 152.12790697674 320.95799999999997 L 154.54263565891 313.2855 L 156.95736434109 300.9105 L 159.37209302326 297 L 161.78682170543 300.663 L 164.2015503876 310.2165 L 166.61627906977 315.3645 L 169.03100775194 320.95799999999997 L 171.44573643411 324.9675 L 173.86046511628 327.294 L 176.27519379845 327.294 L 178.68992248062 326.898 L 181.10465116279 330.8085 L 183.51937984496 333.3825 L 185.93410852713 326.898 L 188.3488372093 336.699 L 190.76356589147 333.135 L 193.17829457364 337.7385 L 195.59302325582 333.0855 L 198.00775193798 329.076 L 200.42248062015 328.383 L 202.83720930232 322.74 L 205.2519379845 330.4125 L 207.66666666667 325.9575 L 210.08139534884 323.73 L 212.49612403101 326.65049999999997 L 214.91085271318 323.572095 L 217.32558139535 318.8295 L 219.74031007752 326.8485 L 222.15503875969 329.274 L 224.56976744186 337.2435 L 226.98449612403 335.313 L 229.3992248062 333.4815 L 231.81395348837 328.3335 L 234.22868217054 334.7685 L 236.64341085271 333.1845 L 239.05813953488 330.165 L 241.47286821706 324.126 L 243.88759689923 328.185 L 246.30232558139 330.363 L 248.71705426356 334.62 L 251.13178294574 335.214 L 253.54651162791 329.6205 L 255.96124031008 321.79949999999997 L 258.37596899225 321.849 L 260.79069767442 318.18600000000004 L 263.20542635659 329.4225 L 265.62015503876 334.7685 L 268.03488372093 337.689 L 270.4496124031 344.124 L 272.86434108527 342.144 L 275.27906976744 338.1345 L 277.69379844961 337.9365 L 280.10852713178 333.8775 L 282.52325581395 339.0255 L 284.93798449612 351.945 L 287.35271317829 349.0245 L 289.76744186047 352.935 L 292.18217054264 355.0635 L 294.59689922481 361.3995 L 297.01162790697 360.6075 L 299.42635658915 361.251 L 301.84108527132 360.162 L 304.25581395349 353.925 L 306.67054263566 337.6395 L 309.08527131783 339.075 L 311.5 340.0155 L 313.91472868217 345.7575 L 316.32945736434 344.124 L 318.74418604651 343.6785 L 321.15891472868 341.649 L 323.57364341085 341.3025 L 325.98837209303 343.728 L 328.40310077519 348.48 L 330.81782945736 349.3215 L 333.23255813953 347.7375 L 335.64728682171 345.8565 L 338.06201550388 341.352 L 340.47674418605 353.9745 L 342.89147286822 352.9845 L 345.30620155039 346.0545 L 347.72093023256 347.193 L 350.13565891473 343.1835 L 352.5503875969 350.2125 L 354.96511627907 351.45 L 357.37984496124 356.103 L 359.79457364341 352.242 L 362.20930232558 356.6475 L 364.62403100775 353.1825 L 367.03875968992 353.1825 L 369.45348837209 353.6775 L 371.86821705426 349.866 L 374.28294573644 353.23199999999997 L 376.69767441861 351.6975 L 379.11240310077 348.1335 L 381.52713178294 346.104 L 383.94186046512 352.044 L 386.35658914729 355.1625 L 388.77131782946 354.123 L 391.18604651163 358.38 L 393.6007751938 359.172 L 396.01550387597 362.241 L 398.43023255814 369.9135 L 400.84496124031 367.2405 L 403.25968992248 366.3 L 405.67441860465 363.726 L 408.08914728682 356.3505 L 410.50387596899 354.519 L 412.91860465116 354.6675 L 415.33333333333 362.637 L 417.7480620155 356.004 L 420.16279069768 356.6475 L 422.57751937985 359.271 L 424.99224806202 359.766 L 427.40697674418 354.81600000000003 L 429.82170542636 360.7065 L 432.23643410853 366.3495 L 434.6511627907 357.588 L 437.06589147287 350.856 L 439.48062015504 348.975 L 441.89534883721 340.8075 L 444.31007751938 336.501 L 446.72480620155 351.054 L 449.13953488372 349.767 L 451.55426356589 344.718 L 453.96899224806 343.431 L 456.38372093023 349.668 L 458.7984496124 341.2035 L 461.21317829457 343.3815 L 463.62790697674 334.66949999999997 L 466.04263565891 330.6105 L 468.45736434109 319.671 L 470.87209302326 320.7105 L 473.28682170543 335.907 L 475.70155038759 330.6105 L 478.11627906977 321.057 L 480.53100775194 330.2145 L 482.94573643411 328.9275 L 485.36046511628 324.918 L 487.77519379845 326.898 L 490.18992248062 323.5815 L 492.60465116279 332.442 L 495.01937984496 332.1945 L 497.43410852713 334.9665 L 499.8488372093 321.5025 L 502.26356589147 314.82 L 504.67829457364 314.424 L 507.09302325582 315.2655 L 509.50775193798 318.6315 L 511.92248062015 319.671 L 514.33720930232 320.7105 L 516.7519379845 311.751 L 519.16666666667 290.9115 L 521.58139534884 274.428 L 523.99612403101 273.933 L 526.41085271318 242.5005 L 528.82558139535 193.545 L 531.24031007752 174.3885 L 533.65503875969 230.4225 L 536.06976744186 211.6125 L 538.48449612403 169.6365 L 540.8992248062 154.8855 L 543.31395348837 180.675 L 545.72868217054 167.2605 L 548.14341085271 170.973 L 550.55813953488 170.5275 L 552.97286821706 157.2615 L 555.38759689923 207.2565 L 557.80232558139 186.3675 L 560.21705426356 196.416 L 562.63178294574 175.824 L 565.04651162791 150.282 L 567.46124031008 134.24400000000003 L 569.87596899225 141.669 L 572.29069767442 147.906 L 574.70542635659 91.37700000000001 L 577.12015503876 87.07049999999998 L 579.53488372093 84.39749999999998 L 581.9496124031 176.1705 L 584.36434108527 159.0435 L 586.77906976744 165.4785 L 589.19379844961 153.054 L 591.60852713178 191.664 L 594.02325581395 191.6145 L 596.43798449612 174.7845 L 598.85271317829 234.6795 L 601.26744186047 210.771 L 603.68217054264 199.6335 L 606.09689922481 183.348 L 608.51162790697 169.0425 L 610.92635658915 172.0818" class="highcharts-graph" data-z-index="1" stroke="#2962FF" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"></path><path fill="none" d="M 0 331.551 L 2.4147286821693 336.3525 L 4.8294573643434 344.421 L 7.2441860465127 355.3605 L 9.6589147286821 350.262 L 12.073643410851 354.9645 L 14.488372093025 360.7065 L 16.903100775195 351.0045 L 19.317829457364 356.0535 L 21.732558139533 346.9455 L 24.147286821708 341.451 L 26.562015503877 336.84749999999997 L 28.976744186046 328.3335 L 31.391472868215 330.9075 L 33.80620155039 340.8075 L 36.220930232559 336.7485 L 38.635658914728 335.907 L 41.050387596898 336.4515 L 43.465116279072 338.7285 L 45.879844961241 340.56 L 48.29457364341 338.9265 L 50.70930232558 342.0945 L 53.124031007754 337.392 L 55.538759689923 341.847 L 57.953488372092 342.5895 L 60.368217054262 334.026 L 62.782945736436 329.6205 L 65.197674418605 332.3925 L 67.612403100774 329.8185 L 70.027131782944 323.829 L 72.441860465118 320.3145 L 74.856589147287 321.849 L 77.271317829456 306.1575 L 79.686046511626 306.702 L 82.1007751938 282.249 L 84.515503875969 295.7625 L 86.930232558139 280.8135 L 89.344961240308 279.675 L 91.759689922482 277.992 L 94.174418604651 304.3755 L 96.589147286821 324.8685 L 99.00387596899 322.146 L 101.41860465116 320.562 L 103.83333333333 319.176 L 106.2480620155 321.20550000000003 L 108.66279069768 319.5225 L 111.07751937985 309.6225 L 113.49224806202 312.6915 L 115.90697674418 314.54676 L 118.32170542636 307.24649999999997 L 120.73643410853 305.2665 L 123.1511627907 305.019 L 125.56589147287 313.9785 L 127.98062015504 304.6725 L 130.39534883721 311.949 L 132.81007751938 314.226 L 135.22480620155 320.8095 L 137.63953488372 315.6615 L 140.05426356589 316.5525 L 142.46899224806 317.0475 L 144.88372093023 320.2155 L 147.2984496124 320.5125 L 149.71317829457 316.6515 L 152.12790697674 320.95799999999997 L 154.54263565891 313.2855 L 156.95736434109 300.9105 L 159.37209302326 297 L 161.78682170543 300.663 L 164.2015503876 310.2165 L 166.61627906977 315.3645 L 169.03100775194 320.95799999999997 L 171.44573643411 324.9675 L 173.86046511628 327.294 L 176.27519379845 327.294 L 178.68992248062 326.898 L 181.10465116279 330.8085 L 183.51937984496 333.3825 L 185.93410852713 326.898 L 188.3488372093 336.699 L 190.76356589147 333.135 L 193.17829457364 337.7385 L 195.59302325582 333.0855 L 198.00775193798 329.076 L 200.42248062015 328.383 L 202.83720930232 322.74 L 205.2519379845 330.4125 L 207.66666666667 325.9575 L 210.08139534884 323.73 L 212.49612403101 326.65049999999997 L 214.91085271318 323.572095 L 217.32558139535 318.8295 L 219.74031007752 326.8485 L 222.15503875969 329.274 L 224.56976744186 337.2435 L 226.98449612403 335.313 L 229.3992248062 333.4815 L 231.81395348837 328.3335 L 234.22868217054 334.7685 L 236.64341085271 333.1845 L 239.05813953488 330.165 L 241.47286821706 324.126 L 243.88759689923 328.185 L 246.30232558139 330.363 L 248.71705426356 334.62 L 251.13178294574 335.214 L 253.54651162791 329.6205 L 255.96124031008 321.79949999999997 L 258.37596899225 321.849 L 260.79069767442 318.18600000000004 L 263.20542635659 329.4225 L 265.62015503876 334.7685 L 268.03488372093 337.689 L 270.4496124031 344.124 L 272.86434108527 342.144 L 275.27906976744 338.1345 L 277.69379844961 337.9365 L 280.10852713178 333.8775 L 282.52325581395 339.0255 L 284.93798449612 351.945 L 287.35271317829 349.0245 L 289.76744186047 352.935 L 292.18217054264 355.0635 L 294.59689922481 361.3995 L 297.01162790697 360.6075 L 299.42635658915 361.251 L 301.84108527132 360.162 L 304.25581395349 353.925 L 306.67054263566 337.6395 L 309.08527131783 339.075 L 311.5 340.0155 L 313.91472868217 345.7575 L 316.32945736434 344.124 L 318.74418604651 343.6785 L 321.15891472868 341.649 L 323.57364341085 341.3025 L 325.98837209303 343.728 L 328.40310077519 348.48 L 330.81782945736 349.3215 L 333.23255813953 347.7375 L 335.64728682171 345.8565 L 338.06201550388 341.352 L 340.47674418605 353.9745 L 342.89147286822 352.9845 L 345.30620155039 346.0545 L 347.72093023256 347.193 L 350.13565891473 343.1835 L 352.5503875969 350.2125 L 354.96511627907 351.45 L 357.37984496124 356.103 L 359.79457364341 352.242 L 362.20930232558 356.6475 L 364.62403100775 353.1825 L 367.03875968992 353.1825 L 369.45348837209 353.6775 L 371.86821705426 349.866 L 374.28294573644 353.23199999999997 L 376.69767441861 351.6975 L 379.11240310077 348.1335 L 381.52713178294 346.104 L 383.94186046512 352.044 L 386.35658914729 355.1625 L 388.77131782946 354.123 L 391.18604651163 358.38 L 393.6007751938 359.172 L 396.01550387597 362.241 L 398.43023255814 369.9135 L 400.84496124031 367.2405 L 403.25968992248 366.3 L 405.67441860465 363.726 L 408.08914728682 356.3505 L 410.50387596899 354.519 L 412.91860465116 354.6675 L 415.33333333333 362.637 L 417.7480620155 356.004 L 420.16279069768 356.6475 L 422.57751937985 359.271 L 424.99224806202 359.766 L 427.40697674418 354.81600000000003 L 429.82170542636 360.7065 L 432.23643410853 366.3495 L 434.6511627907 357.588 L 437.06589147287 350.856 L 439.48062015504 348.975 L 441.89534883721 340.8075 L 444.31007751938 336.501 L 446.72480620155 351.054 L 449.13953488372 349.767 L 451.55426356589 344.718 L 453.96899224806 343.431 L 456.38372093023 349.668 L 458.7984496124 341.2035 L 461.21317829457 343.3815 L 463.62790697674 334.66949999999997 L 466.04263565891 330.6105 L 468.45736434109 319.671 L 470.87209302326 320.7105 L 473.28682170543 335.907 L 475.70155038759 330.6105 L 478.11627906977 321.057 L 480.53100775194 330.2145 L 482.94573643411 328.9275 L 485.36046511628 324.918 L 487.77519379845 326.898 L 490.18992248062 323.5815 L 492.60465116279 332.442 L 495.01937984496 332.1945 L 497.43410852713 334.9665 L 499.8488372093 321.5025 L 502.26356589147 314.82 L 504.67829457364 314.424 L 507.09302325582 315.2655 L 509.50775193798 318.6315 L 511.92248062015 319.671 L 514.33720930232 320.7105 L 516.7519379845 311.751 L 519.16666666667 290.9115 L 521.58139534884 274.428 L 523.99612403101 273.933 L 526.41085271318 242.5005 L 528.82558139535 193.545 L 531.24031007752 174.3885 L 533.65503875969 230.4225 L 536.06976744186 211.6125 L 538.48449612403 169.6365 L 540.8992248062 154.8855 L 543.31395348837 180.675 L 545.72868217054 167.2605 L 548.14341085271 170.973 L 550.55813953488 170.5275 L 552.97286821706 157.2615 L 555.38759689923 207.2565 L 557.80232558139 186.3675 L 560.21705426356 196.416 L 562.63178294574 175.824 L 565.04651162791 150.282 L 567.46124031008 134.24400000000003 L 569.87596899225 141.669 L 572.29069767442 147.906 L 574.70542635659 91.37700000000001 L 577.12015503876 87.07049999999998 L 579.53488372093 84.39749999999998 L 581.9496124031 176.1705 L 584.36434108527 159.0435 L 586.77906976744 165.4785 L 589.19379844961 153.054 L 591.60852713178 191.664 L 594.02325581395 191.6145 L 596.43798449612 174.7845 L 598.85271317829 234.6795 L 601.26744186047 210.771 L 603.68217054264 199.6335 L 606.09689922481 183.348 L 608.51162790697 169.0425 L 610.92635658915 172.0818" data-z-index="2" class="highcharts-tracker-line" stroke-linecap="round" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22"></path></g><g class="highcharts-markers highcharts-series-0 highcharts-line-series highcharts-tracker" data-z-index="90" opacity="1" transform="translate(8,40) scale(1 1)" clip-path="none"><path fill="#2962FF" d="M 812 154.282 A 4 4 0 1 1 812.0039999993334 154.2819980000002 Z" stroke="#2962FF" stroke-width="1" opacity="1" class="highcharts-point" visibility="hidden"></path></g><g class="highcharts-series highcharts-series-1 highcharts-line-series" data-z-index="90" opacity="1" transform="translate(8,40) scale(1 1)" clip-path="url(#highcharts-71ckvj6-257-)" display="none"><path fill="none" d="M 0 331.551 L 2.4147286821693 336.3525 L 4.8294573643434 344.421 L 7.2441860465127 355.3605 L 9.6589147286821 350.262 L 12.073643410851 354.9645 L 14.488372093025 360.7065 L 16.903100775195 351.0045 L 19.317829457364 356.0535 L 21.732558139533 346.9455 L 24.147286821708 341.451 L 26.562015503877 336.84749999999997 L 28.976744186046 328.3335 L 31.391472868215 330.9075 L 33.80620155039 340.8075 L 36.220930232559 336.7485 L 38.635658914728 335.907 L 41.050387596898 336.4515 L 43.465116279072 338.7285 L 45.879844961241 340.56 L 48.29457364341 338.9265 L 50.70930232558 342.0945 L 53.124031007754 337.392 L 55.538759689923 341.847 L 57.953488372092 342.5895 L 60.368217054262 334.026 L 62.782945736436 329.6205 L 65.197674418605 332.3925 L 67.612403100774 329.8185 L 70.027131782944 323.829 L 72.441860465118 320.3145 L 74.856589147287 321.849 L 77.271317829456 306.1575 L 79.686046511626 306.702 L 82.1007751938 282.249 L 84.515503875969 295.7625 L 86.930232558139 280.8135 L 89.344961240308 279.675 L 91.759689922482 277.992 L 94.174418604651 304.3755 L 96.589147286821 324.8685 L 99.00387596899 322.146 L 101.41860465116 320.562 L 103.83333333333 319.176 L 106.2480620155 321.20550000000003 L 108.66279069768 319.5225 L 111.07751937985 309.6225 L 113.49224806202 312.6915 L 115.90697674418 314.54676 L 118.32170542636 307.24649999999997 L 120.73643410853 305.2665 L 123.1511627907 305.019 L 125.56589147287 313.9785 L 127.98062015504 304.6725 L 130.39534883721 311.949 L 132.81007751938 314.226 L 135.22480620155 320.8095 L 137.63953488372 315.6615 L 140.05426356589 316.5525 L 142.46899224806 317.0475 L 144.88372093023 320.2155 L 147.2984496124 320.5125 L 149.71317829457 316.6515 L 152.12790697674 320.95799999999997 L 154.54263565891 313.2855 L 156.95736434109 300.9105 L 159.37209302326 297 L 161.78682170543 300.663 L 164.2015503876 310.2165 L 166.61627906977 315.3645 L 169.03100775194 320.95799999999997 L 171.44573643411 324.9675 L 173.86046511628 327.294 L 176.27519379845 327.294 L 178.68992248062 326.898 L 181.10465116279 330.8085 L 183.51937984496 333.3825 L 185.93410852713 326.898 L 188.3488372093 336.699 L 190.76356589147 333.135 L 193.17829457364 337.7385 L 195.59302325582 333.0855 L 198.00775193798 329.076 L 200.42248062015 328.383 L 202.83720930232 322.74 L 205.2519379845 330.4125 L 207.66666666667 325.9575 L 210.08139534884 323.73 L 212.49612403101 326.65049999999997 L 214.91085271318 323.572095 L 217.32558139535 318.8295 L 219.74031007752 326.8485 L 222.15503875969 329.274 L 224.56976744186 337.2435 L 226.98449612403 335.313 L 229.3992248062 333.4815 L 231.81395348837 328.3335 L 234.22868217054 334.7685 L 236.64341085271 333.1845 L 239.05813953488 330.165 L 241.47286821706 324.126 L 243.88759689923 328.185 L 246.30232558139 330.363 L 248.71705426356 334.62 L 251.13178294574 335.214 L 253.54651162791 329.6205 L 255.96124031008 321.79949999999997 L 258.37596899225 321.849 L 260.79069767442 318.18600000000004 L 263.20542635659 329.4225 L 265.62015503876 334.7685 L 268.03488372093 337.689 L 270.4496124031 344.124 L 272.86434108527 342.144 L 275.27906976744 338.1345 L 277.69379844961 337.9365 L 280.10852713178 333.8775 L 282.52325581395 339.0255 L 284.93798449612 351.945 L 287.35271317829 349.0245 L 289.76744186047 352.935 L 292.18217054264 355.0635 L 294.59689922481 361.3995 L 297.01162790697 360.6075 L 299.42635658915 361.251 L 301.84108527132 360.162 L 304.25581395349 353.925 L 306.67054263566 337.6395 L 309.08527131783 339.075 L 311.5 340.0155 L 313.91472868217 345.7575 L 316.32945736434 344.124 L 318.74418604651 343.6785 L 321.15891472868 341.649 L 323.57364341085 341.3025 L 325.98837209303 343.728 L 328.40310077519 348.48 L 330.81782945736 349.3215 L 333.23255813953 347.7375 L 335.64728682171 345.8565 L 338.06201550388 341.352 L 340.47674418605 353.9745 L 342.89147286822 352.9845 L 345.30620155039 346.0545 L 347.72093023256 347.193 L 350.13565891473 343.1835 L 352.5503875969 350.2125 L 354.96511627907 351.45 L 357.37984496124 356.103 L 359.79457364341 352.242 L 362.20930232558 356.6475 L 364.62403100775 353.1825 L 367.03875968992 353.1825 L 369.45348837209 353.6775 L 371.86821705426 349.866 L 374.28294573644 353.23199999999997 L 376.69767441861 351.6975 L 379.11240310077 348.1335 L 381.52713178294 346.104 L 383.94186046512 352.044 L 386.35658914729 355.1625 L 388.77131782946 354.123 L 391.18604651163 358.38 L 393.6007751938 359.172 L 396.01550387597 362.241 L 398.43023255814 369.9135 L 400.84496124031 367.2405 L 403.25968992248 366.3 L 405.67441860465 363.726 L 408.08914728682 356.3505 L 410.50387596899 354.519 L 412.91860465116 354.6675 L 415.33333333333 362.637 L 417.7480620155 356.004 L 420.16279069768 356.6475 L 422.57751937985 359.271 L 424.99224806202 359.766 L 427.40697674418 354.81600000000003 L 429.82170542636 360.7065 L 432.23643410853 366.3495 L 434.6511627907 357.588 L 437.06589147287 350.856 L 439.48062015504 348.975 L 441.89534883721 340.8075 L 444.31007751938 336.501 L 446.72480620155 351.054 L 449.13953488372 349.767 L 451.55426356589 344.718 L 453.96899224806 343.431 L 456.38372093023 349.668 L 458.7984496124 341.2035 L 461.21317829457 343.3815 L 463.62790697674 334.66949999999997 L 466.04263565891 330.6105 L 468.45736434109 319.671 L 470.87209302326 320.7105 L 473.28682170543 335.907 L 475.70155038759 330.6105 L 478.11627906977 321.057 L 480.53100775194 330.2145 L 482.94573643411 328.9275 L 485.36046511628 324.918 L 487.77519379845 326.898 L 490.18992248062 323.5815 L 492.60465116279 332.442 L 495.01937984496 332.1945 L 497.43410852713 334.9665 L 499.8488372093 321.5025 L 502.26356589147 314.82 L 504.67829457364 314.424 L 507.09302325582 315.2655 L 509.50775193798 318.6315 L 511.92248062015 319.671 L 514.33720930232 320.7105 L 516.7519379845 311.751 L 519.16666666667 290.9115 L 521.58139534884 274.428 L 523.99612403101 273.933 L 526.41085271318 242.5005 L 528.82558139535 193.545 L 531.24031007752 174.3885 L 533.65503875969 230.4225 L 536.06976744186 211.6125 L 538.48449612403 169.6365 L 540.8992248062 154.8855 L 543.31395348837 180.675 L 545.72868217054 167.2605 L 548.14341085271 170.973 L 550.55813953488 170.5275 L 552.97286821706 157.2615 L 555.38759689923 207.2565 L 557.80232558139 186.3675 L 560.21705426356 196.416 L 562.63178294574 175.824 L 565.04651162791 150.282 L 567.46124031008 134.24400000000003 L 569.87596899225 141.669 L 572.29069767442 147.906 L 574.70542635659 91.37700000000001 L 577.12015503876 87.07049999999998 L 579.53488372093 84.39749999999998 L 581.9496124031 176.1705 L 584.36434108527 159.0435 L 586.77906976744 165.4785 L 589.19379844961 153.054 L 591.60852713178 191.664 L 594.02325581395 191.6145 L 596.43798449612 174.7845 L 598.85271317829 234.6795 L 601.26744186047 210.771 L 603.68217054264 199.6335 L 606.09689922481 183.348 L 608.51162790697 169.0425 L 610.92635658915 173.4678 L 613.34108527132 173.4678 L 615.75581395349 173.4678 L 618.17054263566 173.4678 L 620.58527131783 173.4678 L 623 173.4678" class="highcharts-graph" data-z-index="1" stroke="#459a63" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" display="none"></path><path fill="none" d="M 0 331.551 L 2.4147286821693 336.3525 L 4.8294573643434 344.421 L 7.2441860465127 355.3605 L 9.6589147286821 350.262 L 12.073643410851 354.9645 L 14.488372093025 360.7065 L 16.903100775195 351.0045 L 19.317829457364 356.0535 L 21.732558139533 346.9455 L 24.147286821708 341.451 L 26.562015503877 336.84749999999997 L 28.976744186046 328.3335 L 31.391472868215 330.9075 L 33.80620155039 340.8075 L 36.220930232559 336.7485 L 38.635658914728 335.907 L 41.050387596898 336.4515 L 43.465116279072 338.7285 L 45.879844961241 340.56 L 48.29457364341 338.9265 L 50.70930232558 342.0945 L 53.124031007754 337.392 L 55.538759689923 341.847 L 57.953488372092 342.5895 L 60.368217054262 334.026 L 62.782945736436 329.6205 L 65.197674418605 332.3925 L 67.612403100774 329.8185 L 70.027131782944 323.829 L 72.441860465118 320.3145 L 74.856589147287 321.849 L 77.271317829456 306.1575 L 79.686046511626 306.702 L 82.1007751938 282.249 L 84.515503875969 295.7625 L 86.930232558139 280.8135 L 89.344961240308 279.675 L 91.759689922482 277.992 L 94.174418604651 304.3755 L 96.589147286821 324.8685 L 99.00387596899 322.146 L 101.41860465116 320.562 L 103.83333333333 319.176 L 106.2480620155 321.20550000000003 L 108.66279069768 319.5225 L 111.07751937985 309.6225 L 113.49224806202 312.6915 L 115.90697674418 314.54676 L 118.32170542636 307.24649999999997 L 120.73643410853 305.2665 L 123.1511627907 305.019 L 125.56589147287 313.9785 L 127.98062015504 304.6725 L 130.39534883721 311.949 L 132.81007751938 314.226 L 135.22480620155 320.8095 L 137.63953488372 315.6615 L 140.05426356589 316.5525 L 142.46899224806 317.0475 L 144.88372093023 320.2155 L 147.2984496124 320.5125 L 149.71317829457 316.6515 L 152.12790697674 320.95799999999997 L 154.54263565891 313.2855 L 156.95736434109 300.9105 L 159.37209302326 297 L 161.78682170543 300.663 L 164.2015503876 310.2165 L 166.61627906977 315.3645 L 169.03100775194 320.95799999999997 L 171.44573643411 324.9675 L 173.86046511628 327.294 L 176.27519379845 327.294 L 178.68992248062 326.898 L 181.10465116279 330.8085 L 183.51937984496 333.3825 L 185.93410852713 326.898 L 188.3488372093 336.699 L 190.76356589147 333.135 L 193.17829457364 337.7385 L 195.59302325582 333.0855 L 198.00775193798 329.076 L 200.42248062015 328.383 L 202.83720930232 322.74 L 205.2519379845 330.4125 L 207.66666666667 325.9575 L 210.08139534884 323.73 L 212.49612403101 326.65049999999997 L 214.91085271318 323.572095 L 217.32558139535 318.8295 L 219.74031007752 326.8485 L 222.15503875969 329.274 L 224.56976744186 337.2435 L 226.98449612403 335.313 L 229.3992248062 333.4815 L 231.81395348837 328.3335 L 234.22868217054 334.7685 L 236.64341085271 333.1845 L 239.05813953488 330.165 L 241.47286821706 324.126 L 243.88759689923 328.185 L 246.30232558139 330.363 L 248.71705426356 334.62 L 251.13178294574 335.214 L 253.54651162791 329.6205 L 255.96124031008 321.79949999999997 L 258.37596899225 321.849 L 260.79069767442 318.18600000000004 L 263.20542635659 329.4225 L 265.62015503876 334.7685 L 268.03488372093 337.689 L 270.4496124031 344.124 L 272.86434108527 342.144 L 275.27906976744 338.1345 L 277.69379844961 337.9365 L 280.10852713178 333.8775 L 282.52325581395 339.0255 L 284.93798449612 351.945 L 287.35271317829 349.0245 L 289.76744186047 352.935 L 292.18217054264 355.0635 L 294.59689922481 361.3995 L 297.01162790697 360.6075 L 299.42635658915 361.251 L 301.84108527132 360.162 L 304.25581395349 353.925 L 306.67054263566 337.6395 L 309.08527131783 339.075 L 311.5 340.0155 L 313.91472868217 345.7575 L 316.32945736434 344.124 L 318.74418604651 343.6785 L 321.15891472868 341.649 L 323.57364341085 341.3025 L 325.98837209303 343.728 L 328.40310077519 348.48 L 330.81782945736 349.3215 L 333.23255813953 347.7375 L 335.64728682171 345.8565 L 338.06201550388 341.352 L 340.47674418605 353.9745 L 342.89147286822 352.9845 L 345.30620155039 346.0545 L 347.72093023256 347.193 L 350.13565891473 343.1835 L 352.5503875969 350.2125 L 354.96511627907 351.45 L 357.37984496124 356.103 L 359.79457364341 352.242 L 362.20930232558 356.6475 L 364.62403100775 353.1825 L 367.03875968992 353.1825 L 369.45348837209 353.6775 L 371.86821705426 349.866 L 374.28294573644 353.23199999999997 L 376.69767441861 351.6975 L 379.11240310077 348.1335 L 381.52713178294 346.104 L 383.94186046512 352.044 L 386.35658914729 355.1625 L 388.77131782946 354.123 L 391.18604651163 358.38 L 393.6007751938 359.172 L 396.01550387597 362.241 L 398.43023255814 369.9135 L 400.84496124031 367.2405 L 403.25968992248 366.3 L 405.67441860465 363.726 L 408.08914728682 356.3505 L 410.50387596899 354.519 L 412.91860465116 354.6675 L 415.33333333333 362.637 L 417.7480620155 356.004 L 420.16279069768 356.6475 L 422.57751937985 359.271 L 424.99224806202 359.766 L 427.40697674418 354.81600000000003 L 429.82170542636 360.7065 L 432.23643410853 366.3495 L 434.6511627907 357.588 L 437.06589147287 350.856 L 439.48062015504 348.975 L 441.89534883721 340.8075 L 444.31007751938 336.501 L 446.72480620155 351.054 L 449.13953488372 349.767 L 451.55426356589 344.718 L 453.96899224806 343.431 L 456.38372093023 349.668 L 458.7984496124 341.2035 L 461.21317829457 343.3815 L 463.62790697674 334.66949999999997 L 466.04263565891 330.6105 L 468.45736434109 319.671 L 470.87209302326 320.7105 L 473.28682170543 335.907 L 475.70155038759 330.6105 L 478.11627906977 321.057 L 480.53100775194 330.2145 L 482.94573643411 328.9275 L 485.36046511628 324.918 L 487.77519379845 326.898 L 490.18992248062 323.5815 L 492.60465116279 332.442 L 495.01937984496 332.1945 L 497.43410852713 334.9665 L 499.8488372093 321.5025 L 502.26356589147 314.82 L 504.67829457364 314.424 L 507.09302325582 315.2655 L 509.50775193798 318.6315 L 511.92248062015 319.671 L 514.33720930232 320.7105 L 516.7519379845 311.751 L 519.16666666667 290.9115 L 521.58139534884 274.428 L 523.99612403101 273.933 L 526.41085271318 242.5005 L 528.82558139535 193.545 L 531.24031007752 174.3885 L 533.65503875969 230.4225 L 536.06976744186 211.6125 L 538.48449612403 169.6365 L 540.8992248062 154.8855 L 543.31395348837 180.675 L 545.72868217054 167.2605 L 548.14341085271 170.973 L 550.55813953488 170.5275 L 552.97286821706 157.2615 L 555.38759689923 207.2565 L 557.80232558139 186.3675 L 560.21705426356 196.416 L 562.63178294574 175.824 L 565.04651162791 150.282 L 567.46124031008 134.24400000000003 L 569.87596899225 141.669 L 572.29069767442 147.906 L 574.70542635659 91.37700000000001 L 577.12015503876 87.07049999999998 L 579.53488372093 84.39749999999998 L 581.9496124031 176.1705 L 584.36434108527 159.0435 L 586.77906976744 165.4785 L 589.19379844961 153.054 L 591.60852713178 191.664 L 594.02325581395 191.6145 L 596.43798449612 174.7845 L 598.85271317829 234.6795 L 601.26744186047 210.771 L 603.68217054264 199.6335 L 606.09689922481 183.348 L 608.51162790697 169.0425 L 610.92635658915 173.4678 L 613.34108527132 173.4678 L 615.75581395349 173.4678 L 618.17054263566 173.4678 L 620.58527131783 173.4678 L 623 173.4678" data-z-index="2" class="highcharts-tracker-line" stroke-linecap="round" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" display="none"></path></g><g class="highcharts-markers highcharts-series-1 highcharts-line-series highcharts-tracker" data-z-index="90" opacity="1" transform="translate(8,40) scale(1 1)" clip-path="none" display="none"><path fill="#459a63" d="M 812 154.282 A 4 4 0 1 1 812.0039999993334 154.2819980000002 Z" stroke="#459a63" stroke-width="1" opacity="1" class="highcharts-point" visibility="hidden"></path></g></g><g class="highcharts-exporting-group" data-z-index="3"><g class="highcharts-no-tooltip highcharts-button highcharts-contextbutton" stroke-linecap="round" style="cursor: pointer;" transform="translate(2654,5)"><title>Context Menu</title><rect fill="#ffffff" class="highcharts-button-box" x="0.5" y="0.5" width="30" height="22" rx="2" ry="2" stroke="none" stroke-width="1"></rect><path fill="#666666" d="M 6 6.5 L 20 6.5 M 6 11.5 L 20 11.5 M 6 16.5 L 20 16.5" class="highcharts-button-symbol" data-z-index="1" stroke="#666666" stroke-width="3"></path><text x="0" data-z-index="1" y="15.5" style="color: rgb(51, 51, 51); font-weight: normal; fill: rgb(51, 51, 51);"></text></g><g class="highcharts-no-tooltip highcharts-button" stroke-linecap="round" style="cursor: pointer;" transform="translate(627,5)"><title></title><rect fill="#ffffff" class="highcharts-button-box" x="0.5" y="0.5" width="24" height="22" rx="2" ry="2" stroke="none" stroke-width="1"></rect><text x="0" data-z-index="1" y="15.5" style="color: rgb(51, 51, 51); font-weight: normal; fill: rgb(51, 51, 51);"></text></g></g><text x="342" text-anchor="middle" class="highcharts-title" data-z-index="4" style="color: rgb(51, 51, 51); font-size: 16px; fill: rgb(51, 51, 51);" y="17"></text><text x="342" text-anchor="middle" class="highcharts-subtitle" data-z-index="4" style="color: rgb(102, 102, 102); fill: rgb(102, 102, 102);" y="19"></text><text x="0" text-anchor="start" class="highcharts-caption" data-z-index="4" style="color: rgb(102, 102, 102); fill: rgb(102, 102, 102);" y="475"></text><g class="highcharts-control-points" data-z-index="99" clip-path="url(#highcharts-71ckvj6-2-)"></g><path fill="none" d="M 0 0 L 1536 0" stroke="#524f4f" stroke-width="1" stroke-dasharray="8,3" data-z-index="6" class="crosshair-fix-horizontal" transform="translate(0,84.60000610351562)" visibility="hidden"></path><path fill="none" d="M 0 40 L 0 904" stroke="#524f4f" stroke-width="1" stroke-dasharray="8,3" data-z-index="6" class="crosshair-fix-vertical" transform="translate(821.7999992370605,0)" visibility="hidden"></path><g class="highcharts-axis-labels highcharts-xaxis-labels" data-z-index="7"></g><g class="highcharts-axis-labels highcharts-yaxis-labels" data-z-index="7"><text x="0" text-anchor="start" transform="translate(0,0)" style="color: unset; cursor: default; font-size: 15px; fill: unset;" visibility="hidden">50</text><text x="639" text-anchor="start" transform="translate(0,0)" style="color: unset; cursor: default; font-size: 15px; fill: unset;" y="391" opacity="1">60</text><text x="639" text-anchor="start" transform="translate(0,0)" style="color: unset; cursor: default; font-size: 15px; fill: unset;" y="342" opacity="1">70</text><text x="639" text-anchor="start" transform="translate(0,0)" style="color: unset; cursor: default; font-size: 15px; fill: unset;" y="292" opacity="1">80</text><text x="639" text-anchor="start" transform="translate(0,0)" style="color: unset; cursor: default; font-size: 15px; fill: unset;" y="243" opacity="1">90</text><text x="639" text-anchor="start" transform="translate(0,0)" style="color: unset; cursor: default; font-size: 15px; fill: unset;" y="193" opacity="1">100</text><text x="639" text-anchor="start" transform="translate(0,0)" style="color: unset; cursor: default; font-size: 15px; fill: unset;" y="144" opacity="1">110</text><text x="639" text-anchor="start" transform="translate(0,0)" style="color: unset; cursor: default; font-size: 15px; fill: unset;" y="94" opacity="1">120</text><text x="0" text-anchor="start" transform="translate(0,0)" style="color: unset; cursor: default; font-size: 15px; fill: unset;" visibility="hidden">130</text></g><g class="highcharts-axis-labels highcharts-yaxis-labels" data-z-index="7"></g><g class="highcharts-axis-labels highcharts-yaxis-labels" data-z-index="7"></g><g class="highcharts-axis highcharts-yaxis" data-z-index="9999"><path fill="none" class="highcharts-tick" stroke="#E7E7E7" stroke-width="1" d="M 632 436.5 L 637 436.5" opacity="1"></path><path fill="none" class="highcharts-tick" stroke="#E7E7E7" stroke-width="1" d="M 632 387.5 L 637 387.5" opacity="1"></path><path fill="none" class="highcharts-tick" stroke="#E7E7E7" stroke-width="1" d="M 632 337.5 L 637 337.5" opacity="1"></path><path fill="none" class="highcharts-tick" stroke="#E7E7E7" stroke-width="1" d="M 632 288.5 L 637 288.5" opacity="1"></path><path fill="none" class="highcharts-tick" stroke="#E7E7E7" stroke-width="1" d="M 632 238.5 L 637 238.5" opacity="1"></path><path fill="none" class="highcharts-tick" stroke="#E7E7E7" stroke-width="1" d="M 632 189.5 L 637 189.5" opacity="1"></path><path fill="none" class="highcharts-tick" stroke="#E7E7E7" stroke-width="1" d="M 632 139.5 L 637 139.5" opacity="1"></path><path fill="none" class="highcharts-tick" stroke="#E7E7E7" stroke-width="1" d="M 632 90.5 L 637 90.5" opacity="1"></path><path fill="none" class="highcharts-tick" stroke="#E7E7E7" stroke-width="1" d="M 632 39.5 L 637 39.5" opacity="1"></path><path fill="none" class="highcharts-axis-line" stroke="#E6E6E6" stroke-width="1" data-z-index="7" d="M 632.5 40 L 632.5 436"></path></g><path fill="none" d="M 8 0 L 1552 0" data-z-index="10" stroke-dasharray="1,1" class="closeLine" id="closeLine-cl1" transform="translate(0,212.0818)" style="stroke: rgb(41, 98, 255);"></path></svg><div class="highcharts-stocktools-wrapper highcharts-bindings-wrapper tools-container" style="height: 100%;"><div class="highcharts-arrow-wrapper" style="display: block;"><div class="highcharts-arrow-up" style="background-image: url(&quot;https://code.highcharts.com/10.1.0/gfx/stock-icons/arrow-right.svg&quot;);"></div><div class="highcharts-arrow-down" style="background-image: url(&quot;https://code.highcharts.com/10.1.0/gfx/stock-icons/arrow-right.svg&quot;);"></div></div><div class="highcharts-menu-wrapper"><ul class="highcharts-stocktools-toolbar stocktools-toolbar"><li class="highcharts-segment" title="Lines"><span class="highcharts-menu-item-btn" style="background-image: url(&quot;https://code.highcharts.com/10.1.0/gfx/stock-icons/segment.svg&quot;);"></span><span class="highcharts-submenu-item-arrow highcharts-arrow-right" style="background-image: url(&quot;https://code.highcharts.com/10.1.0/gfx/stock-icons/arrow-bottom.svg&quot;);"></span><ul class="highcharts-submenu-wrapper"><li class="highcharts-segment" title="Segment"><span class="highcharts-menu-item-btn" style="background-image: url(&quot;https://code.highcharts.com/10.1.0/gfx/stock-icons/segment.svg&quot;);"></span></li><li class="highcharts-infinity-line " title="Line"><span class="highcharts-menu-item-btn" style="background-image: url(&quot;https://code.highcharts.com/10.1.0/gfx/stock-icons/line.svg&quot;);"></span></li><li class="highcharts-horizontal-line" title="Horizontal line"><span class="highcharts-menu-item-btn" style="background-image: url(&quot;https://code.highcharts.com/10.1.0/gfx/stock-icons/horizontal-line.svg&quot;);"></span></li></ul></li><li class="highcharts-label-annotation" title="Simple shapes"><span class="highcharts-menu-item-btn" style="background-image: url(&quot;https://code.highcharts.com/10.1.0/gfx/stock-icons/label.svg&quot;);"></span><span class="highcharts-submenu-item-arrow highcharts-arrow-right" style="background-image: url(&quot;https://code.highcharts.com/10.1.0/gfx/stock-icons/arrow-bottom.svg&quot;);"></span><ul class="highcharts-submenu-wrapper"><li class="highcharts-label-annotation" title="Label"><span class="highcharts-menu-item-btn" style="background-image: url(&quot;https://code.highcharts.com/10.1.0/gfx/stock-icons/label.svg&quot;);"></span></li></ul></li></ul></div><div class="highcharts-toggle-toolbar highcharts-arrow-left" style="background-image: url(&quot;https://code.highcharts.com/10.1.0/gfx/stock-icons/arrow-right.svg&quot;); top: 0px; left: 0px;"></div></div><div class="xLabelDrag" style="position: absolute; text-align: center; background-color: rgb(75, 82, 94); font-size: 15px; z-index: 11; color: rgb(255, 255, 255); padding: 5px 0px 4px; right: -2px; top: 74.6px; width: 63px; display: none;">120.91</div><div class="xLabelDrag2" style="position: absolute; text-align: center; background-color: rgb(75, 82, 94); font-size: 15px; z-index: 11; color: rgb(255, 255, 255); padding: 5px 0px 4px; left: -2px; display: none;"></div><div class="yLabelDrag" style="position: absolute; text-align: center; background-color: rgb(75, 82, 94); font-size: 15px; z-index: 11; color: rgb(255, 255, 255); padding: 5px 6px; bottom: 5px; left: 773.8px; margin-bottom: -1px; display: none;">Mar 27 2026</div><div class="highcharts-axis-labels highcharts-xaxis-labels" style="position: absolute; left: 0px; top: 0px; opacity: 1;"><span opacity="1" style="position: absolute; font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 15px; white-space: nowrap; margin-left: 0px; margin-top: 0px; left: 107.163px; top: 442px; color: black; cursor: default; font-weight: 400; transform: rotate(0deg); transform-origin: 50% 14px; text-overflow: clip; opacity: 1; visibility: inherit;">Jul</span><span opacity="1" style="position: absolute; font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 15px; white-space: nowrap; margin-left: 0px; margin-top: 0px; left: 209.411px; top: 442px; color: black; cursor: default; font-weight: 400; transform: rotate(0deg); transform-origin: 50% 14px; text-overflow: clip; opacity: 1; visibility: inherit;">Sep</span><span opacity="1" style="position: absolute; font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 15px; white-space: nowrap; margin-left: 0px; margin-top: 0px; left: 316.464px; top: 442px; color: black; cursor: default; font-weight: 400; transform: rotate(0deg); transform-origin: 50% 14px; text-overflow: clip; opacity: 1; visibility: inherit;">Nov</span><span opacity="1" style="position: absolute; font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 15px; white-space: nowrap; margin-left: 0px; margin-top: 0px; left: 415.285px; top: 442px; color: black; cursor: default; font-weight: 400; transform: rotate(0deg); transform-origin: 50% 14px; text-overflow: clip; opacity: 1; visibility: inherit;">2026</span><span opacity="1" style="position: absolute; font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 15px; white-space: nowrap; margin-left: 0px; margin-top: 0px; left: 513.362px; top: 442px; color: black; cursor: default; font-weight: 400; transform: rotate(0deg); transform-origin: 50% 14px; text-overflow: clip; opacity: 1; visibility: inherit;">Mar</span></div><div id="Label-cl1" class="iChart-plotLabel" style="position: absolute; background-color: rgb(41, 98, 255); text-align: center; color: rgb(255, 255, 255); font-size: 15px; padding: 5px 0px 4px; right: 0px; width: 61px; top: 201.082px;">95.236</div></div></div><div class="iChart-wrapper-footer"><div id="iChart-bottom-left-horizontal" class="iChart-menu2-bottom-left-horizontal" style="display: none;"><div id="cogWheel-y_axis_2" class="iChart-active" style="width: 62px;"><svg width="20" height="20" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M19.4322 12.98C19.4722 12.66 19.5022 12.34 19.5022 12C19.5022 11.66 19.4722 11.34 19.4322 11.02L21.5422 9.37C21.7322 9.22 21.7822 8.95 21.6622 8.73L19.6622 5.27C19.5722 5.11 19.4022 5.02 19.2222 5.02C19.1622 5.02 19.1022 5.03 19.0522 5.05L16.5622 6.05C16.0422 5.65 15.4822 5.32 14.8722 5.07L14.4922 2.42C14.4622 2.18 14.2522 2 14.0022 2H10.0022C9.75216 2 9.54216 2.18 9.51216 2.42L9.13216 5.07C8.52216 5.32 7.96216 5.66 7.44216 6.05L4.95216 5.05C4.89216 5.03 4.83216 5.02 4.77216 5.02C4.60216 5.02 4.43216 5.11 4.34216 5.27L2.34216 8.73C2.21216 8.95 2.27216 9.22 2.46216 9.37L4.57216 11.02C4.53216 11.34 4.50216 11.67 4.50216 12C4.50216 12.33 4.53216 12.66 4.57216 12.98L2.46216 14.63C2.27216 14.78 2.22216 15.05 2.34216 15.27L4.34216 18.73C4.43216 18.89 4.60216 18.98 4.78216 18.98C4.84216 18.98 4.90216 18.97 4.95216 18.95L7.44216 17.95C7.96216 18.35 8.52216 18.68 9.13216 18.93L9.51216 21.58C9.54216 21.82 9.75216 22 10.0022 22H14.0022C14.2522 22 14.4622 21.82 14.4922 21.58L14.8722 18.93C15.4822 18.68 16.0422 18.34 16.5622 17.95L19.0522 18.95C19.1122 18.97 19.1722 18.98 19.2322 18.98C19.4022 18.98 19.5722 18.89 19.6622 18.73L21.6622 15.27C21.7822 15.05 21.7322 14.78 21.5422 14.63L19.4322 12.98ZM17.4522 11.27C17.4922 11.58 17.5022 11.79 17.5022 12C17.5022 12.21 17.4822 12.43 17.4522 12.73L17.3122 13.86L18.2022 14.56L19.2822 15.4L18.5822 16.61L17.3122 16.1L16.2722 15.68L15.3722 16.36C14.9422 16.68 14.5322 16.92 14.1222 17.09L13.0622 17.52L12.9022 18.65L12.7022 20H11.3022L10.9522 17.52L9.89216 17.09C9.46216 16.91 9.06216 16.68 8.66216 16.38L7.75216 15.68L6.69216 16.11L5.42216 16.62L4.72216 15.41L5.80216 14.57L6.69216 13.87L6.55216 12.74C6.52216 12.43 6.50216 12.2 6.50216 12C6.50216 11.8 6.52216 11.57 6.55216 11.27L6.69216 10.14L5.80216 9.44L4.72216 8.6L5.42216 7.39L6.69216 7.9L7.73216 8.32L8.63216 7.64C9.06216 7.32 9.47216 7.08 9.88216 6.91L10.9422 6.48L11.1022 5.35L11.3022 4H12.6922L13.0422 6.48L14.1022 6.91C14.5322 7.09 14.9322 7.32 15.3322 7.62L16.2422 8.32L17.3022 7.89L18.5722 7.38L19.2722 8.59L18.2022 9.44L17.3122 10.14L17.4522 11.27ZM12.0022 8C9.79216 8 8.00216 9.79 8.00216 12C8.00216 14.21 9.79216 16 12.0022 16C14.2122 16 16.0022 14.21 16.0022 12C16.0022 9.79 14.2122 8 12.0022 8ZM12.0022 14C10.9022 14 10.0022 13.1 10.0022 12C10.0022 10.9 10.9022 10 12.0022 10C13.1022 10 14.0022 10.9 14.0022 12C14.0022 13.1 13.1022 14 12.0022 14Z"></path></svg></div></div><div class="iChart-menu2-bottom-cnt-horizontal" style="margin-left: 45px;"><a class="" title="1 Day" data-span="1d" role="button" tabindex="0">1D</a><a class="" title="1 Week" data-span="1w" role="button" tabindex="0">1W</a><a class="" title="1 Month" data-span="1m" role="button" tabindex="0">1M</a><a class="" title="6 Month" data-span="6m" role="button" tabindex="0">6M</a><a class="selected" title="1 Year" data-span="1y" role="button" tabindex="0">1Y</a><a class="" title="5 Year" data-span="5y" role="button" tabindex="0">5Y</a><a class="" title="10 Year" data-span="10y" role="button" tabindex="0">10Y</a><a class="" title="25 Year" data-span="25y" role="button" tabindex="0">25Y</a><a class="" title="All" data-span="max" role="button" tabindex="0">All</a></div><div id="iChart-bottom-right-horizontal" class="iChart-menu2-bottom-right-horizontal cogPush"><div id="cogWheel-y_axis_main" class="" style="width: 62px;"><svg width="20" height="20" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M19.4322 12.98C19.4722 12.66 19.5022 12.34 19.5022 12C19.5022 11.66 19.4722 11.34 19.4322 11.02L21.5422 9.37C21.7322 9.22 21.7822 8.95 21.6622 8.73L19.6622 5.27C19.5722 5.11 19.4022 5.02 19.2222 5.02C19.1622 5.02 19.1022 5.03 19.0522 5.05L16.5622 6.05C16.0422 5.65 15.4822 5.32 14.8722 5.07L14.4922 2.42C14.4622 2.18 14.2522 2 14.0022 2H10.0022C9.75216 2 9.54216 2.18 9.51216 2.42L9.13216 5.07C8.52216 5.32 7.96216 5.66 7.44216 6.05L4.95216 5.05C4.89216 5.03 4.83216 5.02 4.77216 5.02C4.60216 5.02 4.43216 5.11 4.34216 5.27L2.34216 8.73C2.21216 8.95 2.27216 9.22 2.46216 9.37L4.57216 11.02C4.53216 11.34 4.50216 11.67 4.50216 12C4.50216 12.33 4.53216 12.66 4.57216 12.98L2.46216 14.63C2.27216 14.78 2.22216 15.05 2.34216 15.27L4.34216 18.73C4.43216 18.89 4.60216 18.98 4.78216 18.98C4.84216 18.98 4.90216 18.97 4.95216 18.95L7.44216 17.95C7.96216 18.35 8.52216 18.68 9.13216 18.93L9.51216 21.58C9.54216 21.82 9.75216 22 10.0022 22H14.0022C14.2522 22 14.4622 21.82 14.4922 21.58L14.8722 18.93C15.4822 18.68 16.0422 18.34 16.5622 17.95L19.0522 18.95C19.1122 18.97 19.1722 18.98 19.2322 18.98C19.4022 18.98 19.5722 18.89 19.6622 18.73L21.6622 15.27C21.7822 15.05 21.7322 14.78 21.5422 14.63L19.4322 12.98ZM17.4522 11.27C17.4922 11.58 17.5022 11.79 17.5022 12C17.5022 12.21 17.4822 12.43 17.4522 12.73L17.3122 13.86L18.2022 14.56L19.2822 15.4L18.5822 16.61L17.3122 16.1L16.2722 15.68L15.3722 16.36C14.9422 16.68 14.5322 16.92 14.1222 17.09L13.0622 17.52L12.9022 18.65L12.7022 20H11.3022L10.9522 17.52L9.89216 17.09C9.46216 16.91 9.06216 16.68 8.66216 16.38L7.75216 15.68L6.69216 16.11L5.42216 16.62L4.72216 15.41L5.80216 14.57L6.69216 13.87L6.55216 12.74C6.52216 12.43 6.50216 12.2 6.50216 12C6.50216 11.8 6.52216 11.57 6.55216 11.27L6.69216 10.14L5.80216 9.44L4.72216 8.6L5.42216 7.39L6.69216 7.9L7.73216 8.32L8.63216 7.64C9.06216 7.32 9.47216 7.08 9.88216 6.91L10.9422 6.48L11.1022 5.35L11.3022 4H12.6922L13.0422 6.48L14.1022 6.91C14.5322 7.09 14.9322 7.32 15.3322 7.62L16.2422 8.32L17.3022 7.89L18.5722 7.38L19.2722 8.59L18.2022 9.44L17.3122 10.14L17.4522 11.27ZM12.0022 8C9.79216 8 8.00216 9.79 8.00216 12C8.00216 14.21 9.79216 16 12.0022 16C14.2122 16 16.0022 14.21 16.0022 12C16.0022 9.79 14.2122 8 12.0022 8ZM12.0022 14C10.9022 14 10.0022 13.1 10.0022 12C10.0022 10.9 10.9022 10 12.0022 10C13.1022 10 14.0022 10.9 14.0022 12C14.0022 13.1 13.1022 14 12.0022 14Z"></path></svg></div></div></div><div class="thin scrollbar-black bordered-black iChart-dpMenu-typeahead" style="top: -327.6px; left: 12.6px;"><ul></ul></div><div id="iChart-bodyLabels-cntx" style="left: 7px; top: 50px;"><div id="iChart-bodyLabels-cnt" class="iChart-bodyLabels-cnt cl1:com" style="width: fit-content; border: 0px;"><div class="iChart-bodylabels-name"></div><div class="iChart-bodylabels-ohlc" style="vertical-align: sub"><span class="ohlc_span ohlc_span_undefined">Crude Oil WTI (USD/Bbl)</span><span> <span class="closeLabel" style="color:#2962FF">95.236</span>&nbsp; <span class="red nChange nc6">-0.614</span> <span class="red percChange"> (-0.64%)</span> </span></div></div><div id="iChart-bodyLabels-cnt2" style="display: none;"><div class="iChart-bodylabels-ohlc" style="vertical-align: sub"></div><div class="pencil-svg"><svg style="width:18px;height:18px" viewBox="0 0 24 24"><path d="M16.84,2.73C16.45,2.73 16.07,2.88 15.77,3.17L13.65,5.29L18.95,10.6L21.07,8.5C21.67,7.89 21.67,6.94 21.07,6.36L17.9,3.17C17.6,2.88 17.22,2.73 16.84,2.73M12.94,6L4.84,14.11L7.4,14.39L7.58,16.68L9.86,16.85L10.15,19.41L18.25,11.3M4.25,15.04L2.5,21.73L9.2,19.94L8.96,17.78L6.65,17.61L6.47,15.29"></path></svg></div></div><div id="iChart-bodyLabels-cnt3" style="display: none;"><div class="iChart-bodylabels-ohlc" style="vertical-align: sub"></div><div class="pencil-svg"><svg style="width:18px;height:18px" viewBox="0 0 24 24"><path d="M16.84,2.73C16.45,2.73 16.07,2.88 15.77,3.17L13.65,5.29L18.95,10.6L21.07,8.5C21.67,7.89 21.67,6.94 21.07,6.36L17.9,3.17C17.6,2.88 17.22,2.73 16.84,2.73M12.94,6L4.84,14.11L7.4,14.39L7.58,16.68L9.86,16.85L10.15,19.41L18.25,11.3M4.25,15.04L2.5,21.73L9.2,19.94L8.96,17.78L6.65,17.61L6.47,15.29"></path></svg></div></div><div id="iChart-bodyLabels-cnt4" style="display: none;"><div class="iChart-bodylabels-ohlc" style="vertical-align: sub"></div><div class="pencil-svg"><svg style="width:18px;height:18px" viewBox="0 0 24 24"><path d="M16.84,2.73C16.45,2.73 16.07,2.88 15.77,3.17L13.65,5.29L18.95,10.6L21.07,8.5C21.67,7.89 21.67,6.94 21.07,6.36L17.9,3.17C17.6,2.88 17.22,2.73 16.84,2.73M12.94,6L4.84,14.11L7.4,14.39L7.58,16.68L9.86,16.85L10.15,19.41L18.25,11.3M4.25,15.04L2.5,21.73L9.2,19.94L8.96,17.78L6.65,17.61L6.47,15.29"></path></svg></div></div><div id="iChart-bodyLabels-cnt5" style="display: none;"><div class="iChart-bodylabels-ohlc" style="vertical-align: sub"></div><div class="pencil-svg"><svg style="width:18px;height:18px" viewBox="0 0 24 24"><path d="M16.84,2.73C16.45,2.73 16.07,2.88 15.77,3.17L13.65,5.29L18.95,10.6L21.07,8.5C21.67,7.89 21.67,6.94 21.07,6.36L17.9,3.17C17.6,2.88 17.22,2.73 16.84,2.73M12.94,6L4.84,14.11L7.4,14.39L7.58,16.68L9.86,16.85L10.15,19.41L18.25,11.3M4.25,15.04L2.5,21.73L9.2,19.94L8.96,17.78L6.65,17.61L6.47,15.29"></path></svg></div></div></div><div id="control-bar-wrapper" class="iChart-control-bar-wrapper" style="display: block;"><div class="iChart-control-bar"><div class="iChart-zoomControl"><span class="iChart-control-bar-- chartHoverZoomInOut"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" class="zoom-out-right-button-control-bar"><path fill-rule="evenodd" clip-rule="evenodd" d="M28 50h65v17H28z"></path></svg></span><span class="iChart-control-bar-+ chartHoverZoomInOut"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 140 140" class="zoom-in-button-control-bar"><path fill-rule="evenodd" clip-rule="evenodd" d="M112 60H78V26H61v34H27v17h34v34h17V77h34z"></path></svg></span><span class="iChart-control-bar-move_left chartHoverZoomInOut"><svg xmlns="http://www.w3.org/2000/svg" viewBox="-80 -25 140 140" class="move-left-button-control-bar"><path fill-rule="evenodd" clip-rule="evenodd" d="M10 12L-.7.7-41 43.2l.1.1-.1.1L-.7 85.9l10-10.6-29.7-31.2z"></path></svg></span><span class="iChart-control-bar-move_right chartHoverZoomInOut"><svg xmlns="http://www.w3.org/2000/svg" viewBox="-90 -55 140 140" class="move-right-button-control-bar"><path fill-rule="evenodd" clip-rule="evenodd" d="M10 12l-40.3-42.5-10 10.6 29.7 31.2L-41 43.4l10.7 11.3L10 12.2l-.1-.1z"></path></svg></span><span class="iChart-control-bar-reset chartHoverZoomInOut"><svg xmlns="http://www.w3.org/2000/svg" viewBox="-58 -18 120 120" class="turn-button-control-bar"><path fill="" fill-rule="evenodd" clip-rule="evenodd" d="M31 13C23.4 5.3 12.8.5 1.1.5c-23.3 0-42.3 19-42.3 42.5s18.9 42.5 42.3 42.5c13.8 0 26-6.6 33.7-16.9l-16.5-1.8C13.5 70.4 7.5 72.5 1 72.5c-16.2 0-29.3-13.2-29.3-29.4S-15.2 13.7 1 13.7c8.1 0 15.4 3.3 20.7 8.6l-10.9 11h32.5V.5L31 13z"></path></svg></span></div></div></div><div class="iChart-Popup"><div id="iChart-serie-edit-menu" class="iChart-serie-menu"><div class="iChart-serie-menu-header" style="border-color: #2962FF;"><span class="iChart-title" style="color: #2962FF">Crude Oil</span><span class="iChart-close"> X </span></div><div class="iChart-serie-menu-content"><a href="#" class="iChart-menu-color" style="display:none;background-color: #2962FF;"></a><a href="#" data-color="#459a63" class="iChart-menu-color" style="background-color: #459a63;margin-right: 2px; border-radius: 4px;"></a><a href="#" data-color="#df9a63" class="iChart-menu-color" style="background-color: #df9a63;margin-right: 2px; border-radius: 4px;"></a><a href="#" data-color="#059BAF" class="iChart-menu-color" style="background-color: #059BAF;margin-right: 2px; border-radius: 4px;"></a><a href="#" data-color="#C86D80" class="iChart-menu-color" style="background-color: #C86D80;margin-right: 2px; border-radius: 4px;"></a><a href="#" data-color="#df2d1c" class="iChart-menu-color" style="background-color: #df2d1c;margin-right: 2px; border-radius: 4px;"></a><a href="#" data-color="#8fb915" class="iChart-menu-color" style="background-color: #8fb915;margin-right: 2px; border-radius: 4px;"></a><a href="#" data-color="#525266" class="iChart-menu-color" style="background-color: #525266;margin-right: 2px; border-radius: 4px;"></a><div class="axisPickWrapper"><span id="invertL-cl1:com" data-color="#2962FF" data-type="leftAxis" class="iChart-axis"><svg id="e7DB6YepzZR1" xmlns="http://www.w3.org/2000/svg" style="width:22px; height:26px" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24" shape-rendering="geometricPrecision" text-rendering="geometricPrecision"><line x1="-10.476689" y1="-0.020953" x2="10.476689" y2="0.020953" transform="translate(12 22.984094)" fill="none" stroke="#080809" stroke-width="1.5"></line><text dx="0" dy="0" font-family="&quot;e7DB6YepzZR1:::Roboto&quot;" font-size="1.2" font-weight="400" transform="matrix(18 0 0 18 6.188808 19.58007)" stroke-width="0"><tspan y="0" font-weight="400" stroke-width="0">L</tspan></text><line x1="0" y1="-10.540327" x2="0" y2="10.540327" transform="matrix(-1 0 0 1.068085 2.278023 12)" fill="none" stroke="#000" stroke-width="1.5"></line><style>@font-face {font-family: 'e7DB6YepzZR1:::Roboto';font-style: normal;font-weight: 400;src: url(data:font/ttf;charset=utf-8;base64,AAEAAAASAQAABAAgR0RFRgBKAAYAAAHgAAAAJkdQT1NEdEx1AAABXAAAAB5HU1VCkw2CAgAAAggAAAA0T1MvMnSaAagAAAMEAAAAYGNtYXAAigBRAAACdAAAADxjdnQgK6gHnQAAArAAAABUZnBnbXf4YKsAAAcwAAABvGdhc3AACAATAAABNAAAAAxnbHlmRcJHKwAAA2QAAAEKaGRteA4FBAsAAAFMAAAAEGhlYWT8atJ6AAACPAAAADZoaGVhCroFowAAAbwAAAAkaG10eAnVAQ0AAAFAAAAADGxvY2EAYQDmAAABLAAAAAhtYXhwAjMDCQAAAXwAAAAgbmFtZRudOGoAAAW8AAABdHBvc3T/bQBkAAABnAAAACBwcmVwomb6yQAABHAAAAFJAAAAYQBhAIUAAQACAAgAAv//AA8DjABkAfsAAAROAKkAAAABAAAACAkFBAIFAAAAAAEAAAAKABwAHAABREZMVAAIAAQAAAAA//8AAAAAAAAAAQAAAAMAjwAWAFQABQABAAAAAAAOAAACAAIkAAYAAQADAAAAAAAA/2oAZAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAds/gwAAAlJ+hv+SgkwAAEAAAAAAAAAAAAAAAAAAAADAAEAAgAeAAAAAAAAAA4AAQACAAAADAAAAAwAAQAAAAEAAgABAAEAAAABAAAACgAyADIABERGTFQAHmN5cmwAGmdyZWsAGmxhdG4AGgAAAAAABAAAAAD//wAAAAAAAQAAAAIjEprLQaBfDzz1ABkIAAAAAADE8BEuAAAAANUBUvT6G/3VCTAIcwAAAAkAAgAAAAAAAAAAAAIAAAADAAAAFAADAAEAAAAUAAQAKAAAAAYABAABAAIAIABM//8AAAAgAEz////h/7YAAQAAAAAAAAAqAJ0AgACKAHgA1ABkAE4AWgCHAGAAVgA0AjwAvACyAI4AxAAAABT+YAAUApsAIAMhAAsEOgAUBI0AEAWwABQGGAAVAaYAEQbAAA4G2QAGAAAAAAADBIYBkAAFAAAFmgUzAAABHwWaBTMAAAPRAGYCAAAAAgAAAAAAAAAAAIAAACcAAABLAAAAIAAAAABHT09HAEAAAP/9BgD+AABmB5oCACAAAZ8AAAAABDoFsAAgACAAAwAFAGQAAAMoBbAAAwAGAAkADAAPAHGyDBARERI5sAwQsADQsAwQsAbQsAwQsAnQsAwQsA3QALAARViwAi8bsQIePlmwAEVYsAAvG7EAEj5ZsgQCABESObIFAgAREjmyBwIAERI5sggCABESObEKDPSyDAIAERI5sg0CABESObACELEODPQwMSEhESEDEQEBEQEDIQE1ASEDKP08AsQ2/u7+ugEM5AID/v4BAv39BbD6pAUH/X0Cd/sRAnj9XgJeiAJeAAEAqQAABBwFsAAFACkAsABFWLAELxuxBB4+WbAARViwAi8bsQISPlmxAAGwCitYIdgb9FkwMSUhFSERMwFqArL8jcGdnQWwAACwDCuwACsAsgEQAisBshEBAisBtxE6MCUbEAAIKwC3AUg7LiEUAAgrtwJYSDgoFAAIK7cDUkM0JRYACCu3BF5NPCsZAAgrtwU2LCIZDwAIK7cGcV1GMhsACCu3B5F3XDojAAgrtwh+Z1A5GgAIK7cJVEU2JhQACCu3CnZgSzYdAAgrtwuDZE46IwAIK7cM2bKKYzwACCu3DRQQDAkGAAgrtw48MiccEQAIK7cPQDQpHRQACCu3EFBBLiEUAAgrALISCwcrsAAgRX1pGESyPxoBc7JfGgFzsn8aAXOyLxoBdLJPGgF0sm8aAXSyjxoBdLKvGgF0sv8aAXSyHxoBdbI/GgF1sl8aAXWyfxoBdbIPHgFzsn8eAXOy7x4Bc7IfHgF0sl8eAXSyjx4BdLLPHgF0sv8eAXSyPx4BdbJvHgF1si8gAXOybyABcwAAAAAAAAgAZgADAAEECQAAAF4AsAADAAEECQABAAwApAADAAEECQACAA4AlgADAAEECQADAAwApAADAAEECQAEAAwApAADAAEECQAFACYAcAADAAEECQAGABwAVAADAAEECQAOAFQAAABoAHQAdABwADoALwAvAHcAdwB3AC4AYQBwAGEAYwBoAGUALgBvAHIAZwAvAGwAaQBjAGUAbgBzAGUAcwAvAEwASQBDAEUATgBTAEUALQAyAC4AMABSAG8AYgBvAHQAbwAtAFIAZQBnAHUAbABhAHIAVgBlAHIAcwBpAG8AbgAgADIALgAxADMANwA7ACAAMgAwADEANwBSAGUAZwB1AGwAYQByAFIAbwBiAG8AdABvAEMAbwBwAHkAcgBpAGcAaAB0ACAAMgAwADEAMQAgAEcAbwBvAGcAbABlACAASQBuAGMALgAgAEEAbABsACAAUgBpAGcAaAB0AHMAIABSAGUAcwBlAHIAdgBlAGQALrAALEuwCVBYsQEBjlm4Af+FsIQdsQkDX14tsAEsICBFaUSwAWAtsAIssAEqIS2wAywgRrADJUZSWCNZIIogiklkiiBGIGhhZLAEJUYgaGFkUlgjZYpZLyCwAFNYaSCwAFRYIbBAWRtpILAAVFghsEBlWVk6LbAELCBGsAQlRlJYI4pZIEYgamFksAQlRiBqYWRSWCOKWS/9LbAFLEsgsAMmUFhRWLCARBuwQERZGyEhIEWwwFBYsMBEGyFZWS2wBiwgIEVpRLABYCAgRX1pGESwAWAtsAcssAYqLbAILEsgsAMmU1iwQBuwAFmKiiCwAyZTWCMhsICKihuKI1kgsAMmU1gjIbDAioobiiNZILADJlNYIyG4AQCKihuKI1kgsAMmU1gjIbgBQIqKG4ojWSCwAyZTWLADJUW4AYBQWCMhuAGAIyEbsAMlRSMhIyFZGyFZRC2wCSxLU1hFRBshIVktsAossChFLbALLLApRS2wDCyxJwGIIIpTWLlAAAQAY7gIAIhUWLkAKAPocFkbsCNTWLAgiLgQAFRYuQAoA+hwWVlZLbANLLBAiLggAFpYsSkARBu5ACkD6ERZLQ==) format('truetype');}</style></svg></span><span id="invertN-cl1:com" data-color="#2962FF" data-type="leftAxis" class="iChart-axis"><svg id="emkW3vAeLV81" xmlns="http://www.w3.org/2000/svg" style="width:22px; height:26px" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24" shape-rendering="geometricPrecision" text-rendering="geometricPrecision"><line x1="-10.476689" y1="-0.020953" x2="10.476689" y2="0.020953" transform="translate(12 22.984094)" fill="none" stroke="#080809" stroke-width="1.5"></line><text dx="0" dy="0" font-family="&quot;emkW3vAeLV81:::Roboto&quot;" font-size="1.2" font-weight="400" transform="matrix(18 0 0 18 4.300194 19.58007)" stroke-width="0"><tspan y="0" font-weight="400" stroke-width="0">N</tspan></text><style>@font-face {font-family: 'emkW3vAeLV81:::Roboto';font-style: normal;font-weight: 400;src: url(data:font/ttf;charset=utf-8;base64,AAEAAAASAQAABAAgR0RFRgBKAAYAAAHgAAAAJkdQT1NEdEx1AAABXAAAAB5HU1VCkw2CAgAAAggAAAA0T1MvMnSaAagAAAMEAAAAYGNtYXAAjgBPAAACdAAAADxjdnQgK6gHnQAAArAAAABUZnBnbXf4YKsAAAdgAAABvGdhc3AACAATAAABNAAAAAxnbHlmppKqwwAAA2QAAAE6aGRteA8GBAsAAAFMAAAAEGhlYWT8atJ6AAACPAAAADZoaGVhCroFowAAAbwAAAAkaG10eAs7AQ0AAAFAAAAADGxvY2EAYQD+AAABLAAAAAhtYXhwAjMDCQAAAXwAAAAgbmFtZRudOGoAAAXsAAABdHBvc3T/bQBkAAABnAAAACBwcmVwomb6yQAABKAAAAFJAAAAYQBhAJ0AAQACAAgAAv//AA8DjABkAfsAAAW0AKkAAAABAAAACAkGBAIGAAAAAAEAAAAKABwAHAABREZMVAAIAAQAAAAA//8AAAAAAAAAAQAAAAMAjwAWAFQABQABAAAAAAAOAAACAAIkAAYAAQADAAAAAAAA/2oAZAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAds/gwAAAlJ+hv+SgkwAAEAAAAAAAAAAAAAAAAAAAADAAEAAgAeAAAAAAAAAA4AAQACAAAADAAAAAwAAQAAAAEAAgABAAEAAAABAAAACgAyADIABERGTFQAHmN5cmwAGmdyZWsAGmxhdG4AGgAAAAAABAAAAAD//wAAAAAAAQAAAAIjEtRUeYRfDzz1ABkIAAAAAADE8BEuAAAAANUBUvT6G/3VCTAIcwAAAAkAAgAAAAAAAAAAAAIAAAADAAAAFAADAAEAAAAUAAQAKAAAAAYABAABAAIAIABO//8AAAAgAE7////h/7QAAQAAAAAAAAAqAJ0AgACKAHgA1ABkAE4AWgCHAGAAVgA0AjwAvACyAI4AxAAAABT+YAAUApsAIAMhAAsEOgAUBI0AEAWwABQGGAAVAaYAEQbAAA4G2QAGAAAAAAADBIYBkAAFAAAFmgUzAAABHwWaBTMAAAPRAGYCAAAAAgAAAAAAAAAAAIAAACcAAABLAAAAIAAAAABHT09HAEAAAP/9BgD+AABmB5oCACAAAZ8AAAAABDoFsAAgACAAAwAFAGQAAAMoBbAAAwAGAAkADAAPAHGyDBARERI5sAwQsADQsAwQsAbQsAwQsAnQsAwQsA3QALAARViwAi8bsQIePlmwAEVYsAAvG7EAEj5ZsgQCABESObIFAgAREjmyBwIAERI5sggCABESObEKDPSyDAIAERI5sg0CABESObACELEODPQwMSEhESEDEQEBEQEDIQE1ASEDKP08AsQ2/u7+ugEM5AID/v4BAv39BbD6pAUH/X0Cd/sRAnj9XgJeiAJeAAEAqQAABQgFsAAJAEyyAQoLERI5ALAARViwBS8bsQUePlmwAEVYsAgvG7EIHj5ZsABFWLAALxuxABI+WbAARViwAy8bsQMSPlmyAgUAERI5sgcFABESOTAxISMBESMRMwERMwUIwf0jwcEC378EYvueBbD7mQRnAACwDCuwACsAsgEQAisBshEBAisBtxE6MCUbEAAIKwC3AUg7LiEUAAgrtwJYSDgoFAAIK7cDUkM0JRYACCu3BF5NPCsZAAgrtwU2LCIZDwAIK7cGcV1GMhsACCu3B5F3XDojAAgrtwh+Z1A5GgAIK7cJVEU2JhQACCu3CnZgSzYdAAgrtwuDZE46IwAIK7cM2bKKYzwACCu3DRQQDAkGAAgrtw48MiccEQAIK7cPQDQpHRQACCu3EFBBLiEUAAgrALISCwcrsAAgRX1pGESyPxoBc7JfGgFzsn8aAXOyLxoBdLJPGgF0sm8aAXSyjxoBdLKvGgF0sv8aAXSyHxoBdbI/GgF1sl8aAXWyfxoBdbIPHgFzsn8eAXOy7x4Bc7IfHgF0sl8eAXSyjx4BdLLPHgF0sv8eAXSyPx4BdbJvHgF1si8gAXOybyABcwAAAAAAAAgAZgADAAEECQAAAF4AsAADAAEECQABAAwApAADAAEECQACAA4AlgADAAEECQADAAwApAADAAEECQAEAAwApAADAAEECQAFACYAcAADAAEECQAGABwAVAADAAEECQAOAFQAAABoAHQAdABwADoALwAvAHcAdwB3AC4AYQBwAGEAYwBoAGUALgBvAHIAZwAvAGwAaQBjAGUAbgBzAGUAcwAvAEwASQBDAEUATgBTAEUALQAyAC4AMABSAG8AYgBvAHQAbwAtAFIAZQBnAHUAbABhAHIAVgBlAHIAcwBpAG8AbgAgADIALgAxADMANwA7ACAAMgAwADEANwBSAGUAZwB1AGwAYQByAFIAbwBiAG8AdABvAEMAbwBwAHkAcgBpAGcAaAB0ACAAMgAwADEAMQAgAEcAbwBvAGcAbABlACAASQBuAGMALgAgAEEAbABsACAAUgBpAGcAaAB0AHMAIABSAGUAcwBlAHIAdgBlAGQALrAALEuwCVBYsQEBjlm4Af+FsIQdsQkDX14tsAEsICBFaUSwAWAtsAIssAEqIS2wAywgRrADJUZSWCNZIIogiklkiiBGIGhhZLAEJUYgaGFkUlgjZYpZLyCwAFNYaSCwAFRYIbBAWRtpILAAVFghsEBlWVk6LbAELCBGsAQlRlJYI4pZIEYgamFksAQlRiBqYWRSWCOKWS/9LbAFLEsgsAMmUFhRWLCARBuwQERZGyEhIEWwwFBYsMBEGyFZWS2wBiwgIEVpRLABYCAgRX1pGESwAWAtsAcssAYqLbAILEsgsAMmU1iwQBuwAFmKiiCwAyZTWCMhsICKihuKI1kgsAMmU1gjIbDAioobiiNZILADJlNYIyG4AQCKihuKI1kgsAMmU1gjIbgBQIqKG4ojWSCwAyZTWLADJUW4AYBQWCMhuAGAIyEbsAMlRSMhIyFZGyFZRC2wCSxLU1hFRBshIVktsAossChFLbALLLApRS2wDCyxJwGIIIpTWLlAAAQAY7gIAIhUWLkAKAPocFkbsCNTWLAgiLgQAFRYuQAoA+hwWVlZLbANLLBAiLggAFpYsSkARBu5ACkD6ERZLQ==) format('truetype');}</style></svg></span><span id="invertR-cl1:com" data-color="#2962FF" data-type="leftAxis" class="iChart-axis"><svg id="eY8TWFlBSm01" xmlns="http://www.w3.org/2000/svg" style="width:22px; height:26px" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24" shape-rendering="geometricPrecision" text-rendering="geometricPrecision"><line x1="-10.476689" y1="-0.020953" x2="10.476689" y2="0.020953" transform="translate(12 22.984094)" fill="none" stroke="#080809" stroke-width="1.5"></line><text dx="0" dy="0" font-family="&quot;eY8TWFlBSm01:::Roboto&quot;" font-size="1.2" font-weight="400" transform="matrix(18 0 0 18 4.351478 19.564725)" stroke-width="0"><tspan y="0" font-weight="400" stroke-width="0">R</tspan><tspan x="0" y="2.4" font-weight="400" stroke-width="0"></tspan></text><line x1="0" y1="-10.540327" x2="0" y2="10.540327" transform="matrix(-1 0 0 1.068085 21.9 12)" fill="none" stroke="#000" stroke-width="1.5"></line><style>@font-face {font-family: 'eY8TWFlBSm01:::Roboto';font-style: normal;font-weight: 400;src: url(data:font/ttf;charset=utf-8;base64,AAEAAAASAQAABAAgR0RFRgBKAAYAAAHgAAAAJkdQT1NEdEx1AAABXAAAAB5HU1VCkw2CAgAAAggAAAA0T1MvMnSaAagAAAMEAAAAYGNtYXAAlgBLAAACdAAAADxjdnQgK6gHnQAAArAAAABUZnBnbXf4YKsAAAegAAABvGdhc3AACAATAAABNAAAAAxnbHlmrOg1vgAABiQAAAF8aGRteA8GBAsAAAFMAAAAEGhlYWT8atJ6AAACPAAAADZoaGVhCroFowAAAbwAAAAkaG10eAp0AQwAAAFAAAAADGxvY2EAYQEfAAABLAAAAAhtYXhwAjMDCQAAAXwAAAAgbmFtZRudOGoAAASwAAABdHBvc3T/bQBkAAABnAAAACBwcmVwomb6yQAAA2QAAAFJAAAAYQBhAL4AAQACAAgAAv//AA8DjABkAfsAAATtAKgAAAABAAAACAkGBAIGAAAAAAEAAAAKABwAHAABREZMVAAIAAQAAAAA//8AAAAAAAAAAQAAAAMAjwAWAFQABQABAAAAAAAOAAACAAIkAAYAAQADAAAAAAAA/2oAZAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAds/gwAAAlJ+hv+SgkwAAEAAAAAAAAAAAAAAAAAAAADAAEAAgAeAAAAAAAAAA4AAQACAAAADAAAAAwAAQAAAAEAAgABAAEAAAABAAAACgAyADIABERGTFQAHmN5cmwAGmdyZWsAGmxhdG4AGgAAAAAABAAAAAD//wAAAAAAAQAAAAIjEsknYoxfDzz1ABkIAAAAAADE8BEuAAAAANUBUvT6G/3VCTAIcwAAAAkAAgAAAAAAAAAAAAIAAAADAAAAFAADAAEAAAAUAAQAKAAAAAYABAABAAIAIABS//8AAAAgAFL////h/7AAAQAAAAAAAAAqAJ0AgACKAHgA1ABkAE4AWgCHAGAAVgA0AjwAvACyAI4AxAAAABT+YAAUApsAIAMhAAsEOgAUBI0AEAWwABQGGAAVAaYAEQbAAA4G2QAGAAAAAAADBIYBkAAFAAAFmgUzAAABHwWaBTMAAAPRAGYCAAAAAgAAAAAAAAAAAIAAACcAAABLAAAAIAAAAABHT09HAEAAAP/9BgD+AABmB5oCACAAAZ8AAAAABDoFsAAgACAAA7AMK7AAKwCyARACKwGyEQECKwG3ETowJRsQAAgrALcBSDsuIRQACCu3AlhIOCgUAAgrtwNSQzQlFgAIK7cEXk08KxkACCu3BTYsIhkPAAgrtwZxXUYyGwAIK7cHkXdcOiMACCu3CH5nUDkaAAgrtwlURTYmFAAIK7cKdmBLNh0ACCu3C4NkTjojAAgrtwzZsopjPAAIK7cNFBAMCQYACCu3DjwyJxwRAAgrtw9ANCkdFAAIK7cQUEEuIRQACCsAshILByuwACBFfWkYRLI/GgFzsl8aAXOyfxoBc7IvGgF0sk8aAXSybxoBdLKPGgF0sq8aAXSy/xoBdLIfGgF1sj8aAXWyXxoBdbJ/GgF1sg8eAXOyfx4Bc7LvHgFzsh8eAXSyXx4BdLKPHgF0ss8eAXSy/x4BdLI/HgF1sm8eAXWyLyABc7JvIAFzAAAAAAAACABmAAMAAQQJAAAAXgCwAAMAAQQJAAEADACkAAMAAQQJAAIADgCWAAMAAQQJAAMADACkAAMAAQQJAAQADACkAAMAAQQJAAUAJgBwAAMAAQQJAAYAHABUAAMAAQQJAA4AVAAAAGgAdAB0AHAAOgAvAC8AdwB3AHcALgBhAHAAYQBjAGgAZQAuAG8AcgBnAC8AbABpAGMAZQBuAHMAZQBzAC8ATABJAEMARQBOAFMARQAtADIALgAwAFIAbwBiAG8AdABvAC0AUgBlAGcAdQBsAGEAcgBWAGUAcgBzAGkAbwBuACAAMgAuADEAMwA3ADsAIAAyADAAMQA3AFIAZQBnAHUAbABhAHIAUgBvAGIAbwB0AG8AQwBvAHAAeQByAGkAZwBoAHQAIAAyADAAMQAxACAARwBvAG8AZwBsAGUAIABJAG4AYwAuACAAQQBsAGwAIABSAGkAZwBoAHQAcwAgAFIAZQBzAGUAcgB2AGUAZAAuAAUAZAAAAygFsAADAAYACQAMAA8AcbIMEBEREjmwDBCwANCwDBCwBtCwDBCwCdCwDBCwDdAAsABFWLACLxuxAh4+WbAARViwAC8bsQASPlmyBAIAERI5sgUCABESObIHAgAREjmyCAIAERI5sQoM9LIMAgAREjmyDQIAERI5sAIQsQ4M9DAxISERIQMRAQERAQMhATUBIQMo/TwCxDb+7v66AQzkAgP+/gEC/f0FsPqkBQf9fQJ3+xECeP1eAl6IAl4AAgCoAAAEyQWwAA4AFwBjsgUYGRESObAFELAW0ACwAEVYsAQvG7EEHj5ZsABFWLACLxuxAhI+WbAARViwDS8bsQ0SPlmyEAQCERI5sBAvsQABsAorWCHYG/RZsgsABBESObAEELEWAbAKK1gh2Bv0WTAxASERIxEhMgQVFAYHARUjASEyNjU0JichAr/+qsEB4vYBCZODAVbO/W4BJ4+poZj+2gJN/bMFsODWiMoy/ZYMAuqUfIeQAQCwACxLsAlQWLEBAY5ZuAH/hbCEHbEJA19eLbABLCAgRWlEsAFgLbACLLABKiEtsAMsIEawAyVGUlgjWSCKIIpJZIogRiBoYWSwBCVGIGhhZFJYI2WKWS8gsABTWGkgsABUWCGwQFkbaSCwAFRYIbBAZVlZOi2wBCwgRrAEJUZSWCOKWSBGIGphZLAEJUYgamFkUlgjilkv/S2wBSxLILADJlBYUViwgEQbsEBEWRshISBFsMBQWLDARBshWVktsAYsICBFaUSwAWAgIEV9aRhEsAFgLbAHLLAGKi2wCCxLILADJlNYsEAbsABZioogsAMmU1gjIbCAioobiiNZILADJlNYIyGwwIqKG4ojWSCwAyZTWCMhuAEAioobiiNZILADJlNYIyG4AUCKihuKI1kgsAMmU1iwAyVFuAGAUFgjIbgBgCMhG7ADJUUjISMhWRshWUQtsAksS1NYRUQbISFZLbAKLLAoRS2wCyywKUUtsAwssScBiCCKU1i5QAAEAGO4CACIVFi5ACgD6HBZG7AjU1iwIIi4EABUWLkAKAPocFlZWS2wDSywQIi4IABaWLEpAEQbuQApA+hEWS0=) format('truetype');}</style></svg></span></div><div class="iChart-serie-menu-types"><span data-color="#2962FF" data-type="line" class="iChart-type iChart-active"><svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24" shape-rendering="geometricPrecision" text-rendering="geometricPrecision"><path d="M3.1,18.09l6.4-6.36l4,4l8.1-9.21-.61-.61-7.49,8.32-4-4-7.1,7.16.7.7Z"></path></svg></span><span data-color="#2962FF" data-type="area" class="iChart-type"><svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24" shape-rendering="geometricPrecision" text-rendering="geometricPrecision"><path d="M17,7.5l-5-4-5,7-4-3v13h18v-13h-4Zm3,9.95L12,12L8,17.5L4,15.1v-5.459833L7.414226,12L12.2,5.2l4.1,3.3h3.7v8.95Z"></path></svg></span><span data-color="#2962FF" data-type="candlestick" class="iChart-type"><svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24" shape-rendering="geometricPrecision" text-rendering="geometricPrecision"><path d="M8.5,4h-1v2L5,6v12h2.5v2h1v-2h2.5v-12h-2.5v-2ZM10,17h-4L6,7h4v10Z"></path><path d="M19,8h-2.5v-4h-1v4L13,8v7h2.5v5h1v-5h2.5v-7Zm-1,6h-4v-5h4v5Z"></path></svg></span><span data-color="#2962FF" data-type="ohlc" class="iChart-type"><svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24" shape-rendering="geometricPrecision" text-rendering="geometricPrecision"><path d="M7.5,4v16h1v-16h-1Z"></path><path d="M15.5,4v16h1v-16h-1Z"></path><path d="M6.5,7.5h1v1h-1v-1Z"></path><path d="M8.5,14.5h1v1h-1v-1Z"></path><path d="M14.5,11.5h1v1h-1v-1Z"></path><path d="M16.5,17.5h1v1h-1v-1Z" fill="none"></path><path d="M16.5,6.5h1v1h-1v-1Z"></path></svg></span></div></div></div></div><div class="iChart-Popup"><div id="iChart-serie-edit-menu" class="iChart-serie-menu"><div class="iChart-serie-menu-header" style="border-color: #459a63;"><span class="iChart-title" style="color: #459a63">null:cur</span><span class="iChart-close"> X </span></div><div class="iChart-serie-menu-content"><a href="#" class="iChart-menu-color" style="display:none;background-color: #459a63;"></a><a href="#" data-color="#459a63" class="iChart-menu-color" style="background-color: #459a63;margin-right: 2px; border-radius: 4px;"></a><a href="#" data-color="#df9a63" class="iChart-menu-color" style="background-color: #df9a63;margin-right: 2px; border-radius: 4px;"></a><a href="#" data-color="#059BAF" class="iChart-menu-color" style="background-color: #059BAF;margin-right: 2px; border-radius: 4px;"></a><a href="#" data-color="#C86D80" class="iChart-menu-color" style="background-color: #C86D80;margin-right: 2px; border-radius: 4px;"></a><a href="#" data-color="#df2d1c" class="iChart-menu-color" style="background-color: #df2d1c;margin-right: 2px; border-radius: 4px;"></a><a href="#" data-color="#8fb915" class="iChart-menu-color" style="background-color: #8fb915;margin-right: 2px; border-radius: 4px;"></a><a href="#" data-color="#525266" class="iChart-menu-color" style="background-color: #525266;margin-right: 2px; border-radius: 4px;"></a><div class="axisPickWrapper"><span id="invertL-null:cur" data-color="#459a63" data-type="leftAxis" class="iChart-axis"><svg id="e7DB6YepzZR1" xmlns="http://www.w3.org/2000/svg" style="width:22px; height:26px" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24" shape-rendering="geometricPrecision" text-rendering="geometricPrecision"><line x1="-10.476689" y1="-0.020953" x2="10.476689" y2="0.020953" transform="translate(12 22.984094)" fill="none" stroke="#080809" stroke-width="1.5"></line><text dx="0" dy="0" font-family="&quot;e7DB6YepzZR1:::Roboto&quot;" font-size="1.2" font-weight="400" transform="matrix(18 0 0 18 6.188808 19.58007)" stroke-width="0"><tspan y="0" font-weight="400" stroke-width="0">L</tspan></text><line x1="0" y1="-10.540327" x2="0" y2="10.540327" transform="matrix(-1 0 0 1.068085 2.278023 12)" fill="none" stroke="#000" stroke-width="1.5"></line><style>@font-face {font-family: 'e7DB6YepzZR1:::Roboto';font-style: normal;font-weight: 400;src: url(data:font/ttf;charset=utf-8;base64,AAEAAAASAQAABAAgR0RFRgBKAAYAAAHgAAAAJkdQT1NEdEx1AAABXAAAAB5HU1VCkw2CAgAAAggAAAA0T1MvMnSaAagAAAMEAAAAYGNtYXAAigBRAAACdAAAADxjdnQgK6gHnQAAArAAAABUZnBnbXf4YKsAAAcwAAABvGdhc3AACAATAAABNAAAAAxnbHlmRcJHKwAAA2QAAAEKaGRteA4FBAsAAAFMAAAAEGhlYWT8atJ6AAACPAAAADZoaGVhCroFowAAAbwAAAAkaG10eAnVAQ0AAAFAAAAADGxvY2EAYQDmAAABLAAAAAhtYXhwAjMDCQAAAXwAAAAgbmFtZRudOGoAAAW8AAABdHBvc3T/bQBkAAABnAAAACBwcmVwomb6yQAABHAAAAFJAAAAYQBhAIUAAQACAAgAAv//AA8DjABkAfsAAAROAKkAAAABAAAACAkFBAIFAAAAAAEAAAAKABwAHAABREZMVAAIAAQAAAAA//8AAAAAAAAAAQAAAAMAjwAWAFQABQABAAAAAAAOAAACAAIkAAYAAQADAAAAAAAA/2oAZAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAds/gwAAAlJ+hv+SgkwAAEAAAAAAAAAAAAAAAAAAAADAAEAAgAeAAAAAAAAAA4AAQACAAAADAAAAAwAAQAAAAEAAgABAAEAAAABAAAACgAyADIABERGTFQAHmN5cmwAGmdyZWsAGmxhdG4AGgAAAAAABAAAAAD//wAAAAAAAQAAAAIjEprLQaBfDzz1ABkIAAAAAADE8BEuAAAAANUBUvT6G/3VCTAIcwAAAAkAAgAAAAAAAAAAAAIAAAADAAAAFAADAAEAAAAUAAQAKAAAAAYABAABAAIAIABM//8AAAAgAEz////h/7YAAQAAAAAAAAAqAJ0AgACKAHgA1ABkAE4AWgCHAGAAVgA0AjwAvACyAI4AxAAAABT+YAAUApsAIAMhAAsEOgAUBI0AEAWwABQGGAAVAaYAEQbAAA4G2QAGAAAAAAADBIYBkAAFAAAFmgUzAAABHwWaBTMAAAPRAGYCAAAAAgAAAAAAAAAAAIAAACcAAABLAAAAIAAAAABHT09HAEAAAP/9BgD+AABmB5oCACAAAZ8AAAAABDoFsAAgACAAAwAFAGQAAAMoBbAAAwAGAAkADAAPAHGyDBARERI5sAwQsADQsAwQsAbQsAwQsAnQsAwQsA3QALAARViwAi8bsQIePlmwAEVYsAAvG7EAEj5ZsgQCABESObIFAgAREjmyBwIAERI5sggCABESObEKDPSyDAIAERI5sg0CABESObACELEODPQwMSEhESEDEQEBEQEDIQE1ASEDKP08AsQ2/u7+ugEM5AID/v4BAv39BbD6pAUH/X0Cd/sRAnj9XgJeiAJeAAEAqQAABBwFsAAFACkAsABFWLAELxuxBB4+WbAARViwAi8bsQISPlmxAAGwCitYIdgb9FkwMSUhFSERMwFqArL8jcGdnQWwAACwDCuwACsAsgEQAisBshEBAisBtxE6MCUbEAAIKwC3AUg7LiEUAAgrtwJYSDgoFAAIK7cDUkM0JRYACCu3BF5NPCsZAAgrtwU2LCIZDwAIK7cGcV1GMhsACCu3B5F3XDojAAgrtwh+Z1A5GgAIK7cJVEU2JhQACCu3CnZgSzYdAAgrtwuDZE46IwAIK7cM2bKKYzwACCu3DRQQDAkGAAgrtw48MiccEQAIK7cPQDQpHRQACCu3EFBBLiEUAAgrALISCwcrsAAgRX1pGESyPxoBc7JfGgFzsn8aAXOyLxoBdLJPGgF0sm8aAXSyjxoBdLKvGgF0sv8aAXSyHxoBdbI/GgF1sl8aAXWyfxoBdbIPHgFzsn8eAXOy7x4Bc7IfHgF0sl8eAXSyjx4BdLLPHgF0sv8eAXSyPx4BdbJvHgF1si8gAXOybyABcwAAAAAAAAgAZgADAAEECQAAAF4AsAADAAEECQABAAwApAADAAEECQACAA4AlgADAAEECQADAAwApAADAAEECQAEAAwApAADAAEECQAFACYAcAADAAEECQAGABwAVAADAAEECQAOAFQAAABoAHQAdABwADoALwAvAHcAdwB3AC4AYQBwAGEAYwBoAGUALgBvAHIAZwAvAGwAaQBjAGUAbgBzAGUAcwAvAEwASQBDAEUATgBTAEUALQAyAC4AMABSAG8AYgBvAHQAbwAtAFIAZQBnAHUAbABhAHIAVgBlAHIAcwBpAG8AbgAgADIALgAxADMANwA7ACAAMgAwADEANwBSAGUAZwB1AGwAYQByAFIAbwBiAG8AdABvAEMAbwBwAHkAcgBpAGcAaAB0ACAAMgAwADEAMQAgAEcAbwBvAGcAbABlACAASQBuAGMALgAgAEEAbABsACAAUgBpAGcAaAB0AHMAIABSAGUAcwBlAHIAdgBlAGQALrAALEuwCVBYsQEBjlm4Af+FsIQdsQkDX14tsAEsICBFaUSwAWAtsAIssAEqIS2wAywgRrADJUZSWCNZIIogiklkiiBGIGhhZLAEJUYgaGFkUlgjZYpZLyCwAFNYaSCwAFRYIbBAWRtpILAAVFghsEBlWVk6LbAELCBGsAQlRlJYI4pZIEYgamFksAQlRiBqYWRSWCOKWS/9LbAFLEsgsAMmUFhRWLCARBuwQERZGyEhIEWwwFBYsMBEGyFZWS2wBiwgIEVpRLABYCAgRX1pGESwAWAtsAcssAYqLbAILEsgsAMmU1iwQBuwAFmKiiCwAyZTWCMhsICKihuKI1kgsAMmU1gjIbDAioobiiNZILADJlNYIyG4AQCKihuKI1kgsAMmU1gjIbgBQIqKG4ojWSCwAyZTWLADJUW4AYBQWCMhuAGAIyEbsAMlRSMhIyFZGyFZRC2wCSxLU1hFRBshIVktsAossChFLbALLLApRS2wDCyxJwGIIIpTWLlAAAQAY7gIAIhUWLkAKAPocFkbsCNTWLAgiLgQAFRYuQAoA+hwWVlZLbANLLBAiLggAFpYsSkARBu5ACkD6ERZLQ==) format('truetype');}</style></svg></span><span id="invertN-null:cur" data-color="#459a63" data-type="leftAxis" class="iChart-axis"><svg id="emkW3vAeLV81" xmlns="http://www.w3.org/2000/svg" style="width:22px; height:26px" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24" shape-rendering="geometricPrecision" text-rendering="geometricPrecision"><line x1="-10.476689" y1="-0.020953" x2="10.476689" y2="0.020953" transform="translate(12 22.984094)" fill="none" stroke="#080809" stroke-width="1.5"></line><text dx="0" dy="0" font-family="&quot;emkW3vAeLV81:::Roboto&quot;" font-size="1.2" font-weight="400" transform="matrix(18 0 0 18 4.300194 19.58007)" stroke-width="0"><tspan y="0" font-weight="400" stroke-width="0">N</tspan></text><style>@font-face {font-family: 'emkW3vAeLV81:::Roboto';font-style: normal;font-weight: 400;src: url(data:font/ttf;charset=utf-8;base64,AAEAAAASAQAABAAgR0RFRgBKAAYAAAHgAAAAJkdQT1NEdEx1AAABXAAAAB5HU1VCkw2CAgAAAggAAAA0T1MvMnSaAagAAAMEAAAAYGNtYXAAjgBPAAACdAAAADxjdnQgK6gHnQAAArAAAABUZnBnbXf4YKsAAAdgAAABvGdhc3AACAATAAABNAAAAAxnbHlmppKqwwAAA2QAAAE6aGRteA8GBAsAAAFMAAAAEGhlYWT8atJ6AAACPAAAADZoaGVhCroFowAAAbwAAAAkaG10eAs7AQ0AAAFAAAAADGxvY2EAYQD+AAABLAAAAAhtYXhwAjMDCQAAAXwAAAAgbmFtZRudOGoAAAXsAAABdHBvc3T/bQBkAAABnAAAACBwcmVwomb6yQAABKAAAAFJAAAAYQBhAJ0AAQACAAgAAv//AA8DjABkAfsAAAW0AKkAAAABAAAACAkGBAIGAAAAAAEAAAAKABwAHAABREZMVAAIAAQAAAAA//8AAAAAAAAAAQAAAAMAjwAWAFQABQABAAAAAAAOAAACAAIkAAYAAQADAAAAAAAA/2oAZAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAds/gwAAAlJ+hv+SgkwAAEAAAAAAAAAAAAAAAAAAAADAAEAAgAeAAAAAAAAAA4AAQACAAAADAAAAAwAAQAAAAEAAgABAAEAAAABAAAACgAyADIABERGTFQAHmN5cmwAGmdyZWsAGmxhdG4AGgAAAAAABAAAAAD//wAAAAAAAQAAAAIjEtRUeYRfDzz1ABkIAAAAAADE8BEuAAAAANUBUvT6G/3VCTAIcwAAAAkAAgAAAAAAAAAAAAIAAAADAAAAFAADAAEAAAAUAAQAKAAAAAYABAABAAIAIABO//8AAAAgAE7////h/7QAAQAAAAAAAAAqAJ0AgACKAHgA1ABkAE4AWgCHAGAAVgA0AjwAvACyAI4AxAAAABT+YAAUApsAIAMhAAsEOgAUBI0AEAWwABQGGAAVAaYAEQbAAA4G2QAGAAAAAAADBIYBkAAFAAAFmgUzAAABHwWaBTMAAAPRAGYCAAAAAgAAAAAAAAAAAIAAACcAAABLAAAAIAAAAABHT09HAEAAAP/9BgD+AABmB5oCACAAAZ8AAAAABDoFsAAgACAAAwAFAGQAAAMoBbAAAwAGAAkADAAPAHGyDBARERI5sAwQsADQsAwQsAbQsAwQsAnQsAwQsA3QALAARViwAi8bsQIePlmwAEVYsAAvG7EAEj5ZsgQCABESObIFAgAREjmyBwIAERI5sggCABESObEKDPSyDAIAERI5sg0CABESObACELEODPQwMSEhESEDEQEBEQEDIQE1ASEDKP08AsQ2/u7+ugEM5AID/v4BAv39BbD6pAUH/X0Cd/sRAnj9XgJeiAJeAAEAqQAABQgFsAAJAEyyAQoLERI5ALAARViwBS8bsQUePlmwAEVYsAgvG7EIHj5ZsABFWLAALxuxABI+WbAARViwAy8bsQMSPlmyAgUAERI5sgcFABESOTAxISMBESMRMwERMwUIwf0jwcEC378EYvueBbD7mQRnAACwDCuwACsAsgEQAisBshEBAisBtxE6MCUbEAAIKwC3AUg7LiEUAAgrtwJYSDgoFAAIK7cDUkM0JRYACCu3BF5NPCsZAAgrtwU2LCIZDwAIK7cGcV1GMhsACCu3B5F3XDojAAgrtwh+Z1A5GgAIK7cJVEU2JhQACCu3CnZgSzYdAAgrtwuDZE46IwAIK7cM2bKKYzwACCu3DRQQDAkGAAgrtw48MiccEQAIK7cPQDQpHRQACCu3EFBBLiEUAAgrALISCwcrsAAgRX1pGESyPxoBc7JfGgFzsn8aAXOyLxoBdLJPGgF0sm8aAXSyjxoBdLKvGgF0sv8aAXSyHxoBdbI/GgF1sl8aAXWyfxoBdbIPHgFzsn8eAXOy7x4Bc7IfHgF0sl8eAXSyjx4BdLLPHgF0sv8eAXSyPx4BdbJvHgF1si8gAXOybyABcwAAAAAAAAgAZgADAAEECQAAAF4AsAADAAEECQABAAwApAADAAEECQACAA4AlgADAAEECQADAAwApAADAAEECQAEAAwApAADAAEECQAFACYAcAADAAEECQAGABwAVAADAAEECQAOAFQAAABoAHQAdABwADoALwAvAHcAdwB3AC4AYQBwAGEAYwBoAGUALgBvAHIAZwAvAGwAaQBjAGUAbgBzAGUAcwAvAEwASQBDAEUATgBTAEUALQAyAC4AMABSAG8AYgBvAHQAbwAtAFIAZQBnAHUAbABhAHIAVgBlAHIAcwBpAG8AbgAgADIALgAxADMANwA7ACAAMgAwADEANwBSAGUAZwB1AGwAYQByAFIAbwBiAG8AdABvAEMAbwBwAHkAcgBpAGcAaAB0ACAAMgAwADEAMQAgAEcAbwBvAGcAbABlACAASQBuAGMALgAgAEEAbABsACAAUgBpAGcAaAB0AHMAIABSAGUAcwBlAHIAdgBlAGQALrAALEuwCVBYsQEBjlm4Af+FsIQdsQkDX14tsAEsICBFaUSwAWAtsAIssAEqIS2wAywgRrADJUZSWCNZIIogiklkiiBGIGhhZLAEJUYgaGFkUlgjZYpZLyCwAFNYaSCwAFRYIbBAWRtpILAAVFghsEBlWVk6LbAELCBGsAQlRlJYI4pZIEYgamFksAQlRiBqYWRSWCOKWS/9LbAFLEsgsAMmUFhRWLCARBuwQERZGyEhIEWwwFBYsMBEGyFZWS2wBiwgIEVpRLABYCAgRX1pGESwAWAtsAcssAYqLbAILEsgsAMmU1iwQBuwAFmKiiCwAyZTWCMhsICKihuKI1kgsAMmU1gjIbDAioobiiNZILADJlNYIyG4AQCKihuKI1kgsAMmU1gjIbgBQIqKG4ojWSCwAyZTWLADJUW4AYBQWCMhuAGAIyEbsAMlRSMhIyFZGyFZRC2wCSxLU1hFRBshIVktsAossChFLbALLLApRS2wDCyxJwGIIIpTWLlAAAQAY7gIAIhUWLkAKAPocFkbsCNTWLAgiLgQAFRYuQAoA+hwWVlZLbANLLBAiLggAFpYsSkARBu5ACkD6ERZLQ==) format('truetype');}</style></svg></span><span id="invertR-null:cur" data-color="#459a63" data-type="leftAxis" class="iChart-axis"><svg id="eY8TWFlBSm01" xmlns="http://www.w3.org/2000/svg" style="width:22px; height:26px" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24" shape-rendering="geometricPrecision" text-rendering="geometricPrecision"><line x1="-10.476689" y1="-0.020953" x2="10.476689" y2="0.020953" transform="translate(12 22.984094)" fill="none" stroke="#080809" stroke-width="1.5"></line><text dx="0" dy="0" font-family="&quot;eY8TWFlBSm01:::Roboto&quot;" font-size="1.2" font-weight="400" transform="matrix(18 0 0 18 4.351478 19.564725)" stroke-width="0"><tspan y="0" font-weight="400" stroke-width="0">R</tspan><tspan x="0" y="2.4" font-weight="400" stroke-width="0"></tspan></text><line x1="0" y1="-10.540327" x2="0" y2="10.540327" transform="matrix(-1 0 0 1.068085 21.9 12)" fill="none" stroke="#000" stroke-width="1.5"></line><style>@font-face {font-family: 'eY8TWFlBSm01:::Roboto';font-style: normal;font-weight: 400;src: url(data:font/ttf;charset=utf-8;base64,AAEAAAASAQAABAAgR0RFRgBKAAYAAAHgAAAAJkdQT1NEdEx1AAABXAAAAB5HU1VCkw2CAgAAAggAAAA0T1MvMnSaAagAAAMEAAAAYGNtYXAAlgBLAAACdAAAADxjdnQgK6gHnQAAArAAAABUZnBnbXf4YKsAAAegAAABvGdhc3AACAATAAABNAAAAAxnbHlmrOg1vgAABiQAAAF8aGRteA8GBAsAAAFMAAAAEGhlYWT8atJ6AAACPAAAADZoaGVhCroFowAAAbwAAAAkaG10eAp0AQwAAAFAAAAADGxvY2EAYQEfAAABLAAAAAhtYXhwAjMDCQAAAXwAAAAgbmFtZRudOGoAAASwAAABdHBvc3T/bQBkAAABnAAAACBwcmVwomb6yQAAA2QAAAFJAAAAYQBhAL4AAQACAAgAAv//AA8DjABkAfsAAATtAKgAAAABAAAACAkGBAIGAAAAAAEAAAAKABwAHAABREZMVAAIAAQAAAAA//8AAAAAAAAAAQAAAAMAjwAWAFQABQABAAAAAAAOAAACAAIkAAYAAQADAAAAAAAA/2oAZAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAds/gwAAAlJ+hv+SgkwAAEAAAAAAAAAAAAAAAAAAAADAAEAAgAeAAAAAAAAAA4AAQACAAAADAAAAAwAAQAAAAEAAgABAAEAAAABAAAACgAyADIABERGTFQAHmN5cmwAGmdyZWsAGmxhdG4AGgAAAAAABAAAAAD//wAAAAAAAQAAAAIjEsknYoxfDzz1ABkIAAAAAADE8BEuAAAAANUBUvT6G/3VCTAIcwAAAAkAAgAAAAAAAAAAAAIAAAADAAAAFAADAAEAAAAUAAQAKAAAAAYABAABAAIAIABS//8AAAAgAFL////h/7AAAQAAAAAAAAAqAJ0AgACKAHgA1ABkAE4AWgCHAGAAVgA0AjwAvACyAI4AxAAAABT+YAAUApsAIAMhAAsEOgAUBI0AEAWwABQGGAAVAaYAEQbAAA4G2QAGAAAAAAADBIYBkAAFAAAFmgUzAAABHwWaBTMAAAPRAGYCAAAAAgAAAAAAAAAAAIAAACcAAABLAAAAIAAAAABHT09HAEAAAP/9BgD+AABmB5oCACAAAZ8AAAAABDoFsAAgACAAA7AMK7AAKwCyARACKwGyEQECKwG3ETowJRsQAAgrALcBSDsuIRQACCu3AlhIOCgUAAgrtwNSQzQlFgAIK7cEXk08KxkACCu3BTYsIhkPAAgrtwZxXUYyGwAIK7cHkXdcOiMACCu3CH5nUDkaAAgrtwlURTYmFAAIK7cKdmBLNh0ACCu3C4NkTjojAAgrtwzZsopjPAAIK7cNFBAMCQYACCu3DjwyJxwRAAgrtw9ANCkdFAAIK7cQUEEuIRQACCsAshILByuwACBFfWkYRLI/GgFzsl8aAXOyfxoBc7IvGgF0sk8aAXSybxoBdLKPGgF0sq8aAXSy/xoBdLIfGgF1sj8aAXWyXxoBdbJ/GgF1sg8eAXOyfx4Bc7LvHgFzsh8eAXSyXx4BdLKPHgF0ss8eAXSy/x4BdLI/HgF1sm8eAXWyLyABc7JvIAFzAAAAAAAACABmAAMAAQQJAAAAXgCwAAMAAQQJAAEADACkAAMAAQQJAAIADgCWAAMAAQQJAAMADACkAAMAAQQJAAQADACkAAMAAQQJAAUAJgBwAAMAAQQJAAYAHABUAAMAAQQJAA4AVAAAAGgAdAB0AHAAOgAvAC8AdwB3AHcALgBhAHAAYQBjAGgAZQAuAG8AcgBnAC8AbABpAGMAZQBuAHMAZQBzAC8ATABJAEMARQBOAFMARQAtADIALgAwAFIAbwBiAG8AdABvAC0AUgBlAGcAdQBsAGEAcgBWAGUAcgBzAGkAbwBuACAAMgAuADEAMwA3ADsAIAAyADAAMQA3AFIAZQBnAHUAbABhAHIAUgBvAGIAbwB0AG8AQwBvAHAAeQByAGkAZwBoAHQAIAAyADAAMQAxACAARwBvAG8AZwBsAGUAIABJAG4AYwAuACAAQQBsAGwAIABSAGkAZwBoAHQAcwAgAFIAZQBzAGUAcgB2AGUAZAAuAAUAZAAAAygFsAADAAYACQAMAA8AcbIMEBEREjmwDBCwANCwDBCwBtCwDBCwCdCwDBCwDdAAsABFWLACLxuxAh4+WbAARViwAC8bsQASPlmyBAIAERI5sgUCABESObIHAgAREjmyCAIAERI5sQoM9LIMAgAREjmyDQIAERI5sAIQsQ4M9DAxISERIQMRAQERAQMhATUBIQMo/TwCxDb+7v66AQzkAgP+/gEC/f0FsPqkBQf9fQJ3+xECeP1eAl6IAl4AAgCoAAAEyQWwAA4AFwBjsgUYGRESObAFELAW0ACwAEVYsAQvG7EEHj5ZsABFWLACLxuxAhI+WbAARViwDS8bsQ0SPlmyEAQCERI5sBAvsQABsAorWCHYG/RZsgsABBESObAEELEWAbAKK1gh2Bv0WTAxASERIxEhMgQVFAYHARUjASEyNjU0JichAr/+qsEB4vYBCZODAVbO/W4BJ4+poZj+2gJN/bMFsODWiMoy/ZYMAuqUfIeQAQCwACxLsAlQWLEBAY5ZuAH/hbCEHbEJA19eLbABLCAgRWlEsAFgLbACLLABKiEtsAMsIEawAyVGUlgjWSCKIIpJZIogRiBoYWSwBCVGIGhhZFJYI2WKWS8gsABTWGkgsABUWCGwQFkbaSCwAFRYIbBAZVlZOi2wBCwgRrAEJUZSWCOKWSBGIGphZLAEJUYgamFkUlgjilkv/S2wBSxLILADJlBYUViwgEQbsEBEWRshISBFsMBQWLDARBshWVktsAYsICBFaUSwAWAgIEV9aRhEsAFgLbAHLLAGKi2wCCxLILADJlNYsEAbsABZioogsAMmU1gjIbCAioobiiNZILADJlNYIyGwwIqKG4ojWSCwAyZTWCMhuAEAioobiiNZILADJlNYIyG4AUCKihuKI1kgsAMmU1iwAyVFuAGAUFgjIbgBgCMhG7ADJUUjISMhWRshWUQtsAksS1NYRUQbISFZLbAKLLAoRS2wCyywKUUtsAwssScBiCCKU1i5QAAEAGO4CACIVFi5ACgD6HBZG7AjU1iwIIi4EABUWLkAKAPocFlZWS2wDSywQIi4IABaWLEpAEQbuQApA+hEWS0=) format('truetype');}</style></svg></span></div><div class="iChart-serie-menu-types"><span data-color="#459a63" data-type="line" class="iChart-type iChart-active"><svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24" shape-rendering="geometricPrecision" text-rendering="geometricPrecision"><path d="M3.1,18.09l6.4-6.36l4,4l8.1-9.21-.61-.61-7.49,8.32-4-4-7.1,7.16.7.7Z"></path></svg></span><span data-color="#459a63" data-type="area" class="iChart-type"><svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24" shape-rendering="geometricPrecision" text-rendering="geometricPrecision"><path d="M17,7.5l-5-4-5,7-4-3v13h18v-13h-4Zm3,9.95L12,12L8,17.5L4,15.1v-5.459833L7.414226,12L12.2,5.2l4.1,3.3h3.7v8.95Z"></path></svg></span><span data-color="#459a63" data-type="candlestick" class="iChart-type"><svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24" shape-rendering="geometricPrecision" text-rendering="geometricPrecision"><path d="M8.5,4h-1v2L5,6v12h2.5v2h1v-2h2.5v-12h-2.5v-2ZM10,17h-4L6,7h4v10Z"></path><path d="M19,8h-2.5v-4h-1v4L13,8v7h2.5v5h1v-5h2.5v-7Zm-1,6h-4v-5h4v5Z"></path></svg></span><span data-color="#459a63" data-type="ohlc" class="iChart-type"><svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24" shape-rendering="geometricPrecision" text-rendering="geometricPrecision"><path d="M7.5,4v16h1v-16h-1Z"></path><path d="M15.5,4v16h1v-16h-1Z"></path><path d="M6.5,7.5h1v1h-1v-1Z"></path><path d="M8.5,14.5h1v1h-1v-1Z"></path><path d="M14.5,11.5h1v1h-1v-1Z"></path><path d="M16.5,17.5h1v1h-1v-1Z" fill="none"></path><path d="M16.5,6.5h1v1h-1v-1Z"></path></svg></span></div><div class="iChart-delete"><span><svg width="24" height="27" viewBox="0 0 24 27" xmlns="http://www.w3.org/2000/svg"><path d="M16 10V21.1111H8V10H16ZM14.5 3.33334H9.5L8.5 4.44445H5V6.66667H19V4.44445H15.5L14.5 3.33334ZM18 7.77778H6V21.1111C6 22.3333 6.9 23.3333 8 23.3333H16C17.1 23.3333 18 22.3333 18 21.1111V7.77778Z"></path></svg></span></div></div></div></div><div class="thin scrollbar-black bordered-black iChart-dpMenu-typeahead" style="top: 40px; left: 103px;"><ul></ul></div><div id="iChart-dpMenu-cnt-type" class="iChart-dpMenu-cnt"><a data-type="line" role="button" tabindex="0"><svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24" shape-rendering="geometricPrecision" text-rendering="geometricPrecision"><path d="M3.1,18.09l6.4-6.36l4,4l8.1-9.21-.61-.61-7.49,8.32-4-4-7.1,7.16.7.7Z"></path></svg></a><a data-type="area" role="button" tabindex="0"><svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24" shape-rendering="geometricPrecision" text-rendering="geometricPrecision"><path d="M17,7.5l-5-4-5,7-4-3v13h18v-13h-4Zm3,9.95L12,12L8,17.5L4,15.1v-5.459833L7.414226,12L12.2,5.2l4.1,3.3h3.7v8.95Z"></path></svg></a><a data-type="candlestick" role="button" tabindex="0"><svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24" shape-rendering="geometricPrecision" text-rendering="geometricPrecision"><path d="M8.5,4h-1v2L5,6v12h2.5v2h1v-2h2.5v-12h-2.5v-2ZM10,17h-4L6,7h4v10Z"></path><path d="M19,8h-2.5v-4h-1v4L13,8v7h2.5v5h1v-5h2.5v-7Zm-1,6h-4v-5h4v5Z"></path></svg></a><a data-type="ohlc" role="button" tabindex="0"><svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24" shape-rendering="geometricPrecision" text-rendering="geometricPrecision"><path d="M7.5,4v16h1v-16h-1Z"></path><path d="M15.5,4v16h1v-16h-1Z"></path><path d="M6.5,7.5h1v1h-1v-1Z"></path><path d="M8.5,14.5h1v1h-1v-1Z"></path><path d="M14.5,11.5h1v1h-1v-1Z"></path><path d="M16.5,17.5h1v1h-1v-1Z" fill="none"></path><path d="M16.5,6.5h1v1h-1v-1Z"></path></svg></a></div><div id="iChart-dpMenu-cnt-interval" class="iChart-dpMenu-cnt intVal"><a class="intervalExpand icon-up" role="button" tabindex="0">Intraday</a><a id="intv-options" class="iChart-dpMenu-interval minuteInterval" data-span="6h" data-interval="1m" style="">1 Minute</a><a id="intv-options" class="iChart-dpMenu-interval minuteInterval" data-span="1d" data-interval="5m" style="">5 Minutes</a><a id="intv-options" class="iChart-dpMenu-interval minuteInterval" data-span="1w" data-interval="15m" style="">15 Minutes</a><a id="intv-options" class="iChart-dpMenu-interval minuteInterval" data-span="1m" data-interval="1h" style="">1 Hour</a><a class="intervalExpand icon-up" role="button" tabindex="0">Days</a><a id="intv-options" class="iChart-dpMenu-interval dayInterval iChart-active" data-span="1y" data-interval="1d" style="">1 Day</a><a id="intv-options" class="iChart-dpMenu-interval dayInterval" data-span="5y" data-interval="1w" style="">1 Week</a><a id="intv-options" class="iChart-dpMenu-interval dayInterval" data-span="25y" data-interval="1month" style="">1 Month</a></div><div id="iChart-dpMenu-cnt-date" class="iChart-dpMenu-cnt iChart-dpMenu-cnt-date"><input type="text" title="Start (YYYY-MM-DD)" id="start" name="trip-start" value="2025-04-25" min="1983-03-30" max="2026-04-24" required="" pattern="(?:19|20)[0-9]{2}-(?:(?:0[1-9]|1[0-2])/(?:0[1-9]|1[0-9]|2[0-9])|(?:(?!02)(?:0[1-9]|1[0-2])/(?:30))|(?:(?:0[13578]|1[02])-31))"><input type="text" id="end" title="End (YYYY-MM-DD)" name="trip-end" value="2026-04-24" min="1983-03-30" max="2026-04-24" required="" pattern="(?:19|20)[0-9]{2}-(?:(?:0[1-9]|1[0-2])/(?:0[1-9]|1[0-9]|2[0-9])|(?:(?!02)(?:0[1-9]|1[0-2])/(?:30))|(?:(?:0[13578]|1[02])-31))"><button id="btnOK" type="button">Submit</button></div><div id="iChart-dpMenu-cnt-annotation" class="iChart-dpMenu-cnt"><a title="Draw trendline" data-type="trendline" role="button" tabindex="0"><svg xmlns="http://www.w3.org/2000/svg" style="height:22px;width:22px" viewBox="0 0 256 256"><rect width="256" height="256" fill="none"></rect><path d="M214.6,86.6A31.6,31.6,0,0,1,192,96a32.7,32.7,0,0,1-16.3-4.4L91.6,175.7a32,32,0,0,1-5,38.9,31.9,31.9,0,0,1-45.2,0,31.9,31.9,0,0,1,0-45.2h0a32,32,0,0,1,38.9-5l84.1-84.1a32,32,0,1,1,50.2,6.3Z"></path></svg></a><a title="Draw horizontal line" data-type="horizontal line" role="button" tabindex="0"><svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20 9H4V11H20V9ZM4 15H20V13H4V15Z"></path></svg></a><a title="Draw vertical line" data-type="vertical line" role="button" tabindex="0"><svg width="24" height="24" style="transform: rotate(90deg);" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20 9H4V11H20V9ZM4 15H20V13H4V15Z"></path></svg></a><a title="Draw text annotation" data-type="text annotation" role="button" tabindex="0"><svg width="25" height="25" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 30 30" enable-background="new 0 0 32 32" xml:space="preserve"><g><path stroke="#050709" stroke-width="0.1" d="M3.75,7.749v14.5h7.939L16,26.561l4.31-4.312h7.94v-14.5H3.75z M26.75,20.749h-7.062L16,24.439l-3.689-3.69 H5.25v-11.5h21.5V20.749z"></path><polygon stroke="#050709" stroke-width="0.1" points="9.291,18 10.735,18 10.735,13.251 12.426,13.251 12.426,12.018 7.601,12.018 7.601,13.251 9.291,13.251"></polygon><polygon stroke="#050709" stroke-width="0.1" points="14.712,18 15.971,15.888 17.28,18 19.063,18 16.9,14.84 18.793,12.018 17.111,12.018 16.013,13.876 14.897,12.018 13.157,12.018 15.084,14.84 12.988,18"></polygon><polygon stroke="#050709" stroke-width="0.1" points="21.265,18 22.709,18 22.709,13.251 24.399,13.251 24.399,12.018 19.574,12.018 19.574,13.251 21.265,13.251"></polygon></g></svg></a></div></div></div></div>
+    <div id="chart"><div id="trading_chart" style="position: relative; height: 445px;" class=""><div style="height: 100%; width: 100%;"><div class="chartCompareDiv" style="height: 100%;"><div id="chart" class="chart_module chart1 undertaker-section" style="margin-top: 10px; height: 410px;"><div id="" class="chart_preview undertaker_chart logic-new-charts-no" data-iids=""><div class="hawk-totalWrapper" style="position: absolute; top:0; left:0; width:100%; background-color: #FFFFFF;"><div class="hawk-header" id="header2" style="height: 42px; padding-top: 2.5px; opacity: 1;">  <div class="topnav-flex-container"><div class="hawk-chartOptions-datePicker-cnt"><div id="singleIndChartUnit2" class="fade-in " style="display: block;">USD Billion</div><div id="dateSpansDiv" style=""><div id="dateInputsToggle" class="dkLabels-label-btn"><svg class="svg-icon  calendarSvg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24" shape-rendering="geometricPrecision" text-rendering="geometricPrecision"><path d="M7,11h2v2h-2v-2ZM21,6v14c0,1.1-.9,2-2,2h-14c-1.11,0-2-.9-2-2L3.01,6c0-1.1.88-2,1.99-2h1v-2h1v2h10v-2h1v2h1c1.1,0,2,.9,2,2ZM4,8h16v-3.000001h-16L4,8ZM20,20.999999v-12h-16v12h16ZM15,13h2v-2h-2v2Zm-4,0h2c0-.618156,0-1.639661,0-2h-2v2Z" transform="translate(0 0.000001)"></path></svg></div><a href="#" class="hawk-chartOptions-datePicker-cnt-btn " data-span="157680000000" data-span_str="5Y">5Y</a><a href="#" class="hawk-chartOptions-datePicker-cnt-btn " data-span="315360000000" data-span_str="10Y">10Y</a><a href="#" class="hawk-chartOptions-datePicker-cnt-btn " data-span="788400000000" data-span_str="25Y">25Y</a><a href="#" class="hawk-chartOptions-datePicker-cnt-btn " data-span="3153600000000" data-span_str="MAX">MAX</a></div></div><div class="pickChartTypes"><div class="PREselectedChartType"><button aria-label="Chart Type" class="dkLabels-label-btn selectedChartType"><svg class="svg-icon " xmlns:xlink="http://www.w3.org/1999/xlink" id="egO2pqkewoD1" viewBox="0 0 24 24" shape-rendering="geometricPrecision" text-rendering="geometricPrecision"><path d="M4,9.2h2.057143v9.8L4,19v-9.8ZM9.04,5h1.92v14h-1.92v-14Zm5.04,8h1.92v6h-1.92v-6Z" transform="translate(2 0)"></path></svg> </button><div class="chartTypesWrapper dropDownStyle" style="display: none;"><div title="Column" class="barChart"><button class="dkLabels-label-btn selectedChartType"><svg class="svg-icon " xmlns:xlink="http://www.w3.org/1999/xlink" id="egO2pqkewoD1" viewBox="0 0 24 24" shape-rendering="geometricPrecision" text-rendering="geometricPrecision"><path d="M4,9.2h2.057143v9.8L4,19v-9.8ZM9.04,5h1.92v14h-1.92v-14Zm5.04,8h1.92v6h-1.92v-6Z" transform="translate(2 0)"></path></svg></button></div><div title="Spline" class="splineChart"><button class="dkLabels-label-btn"><svg class="svg-icon" style="transform: translate(16%, 16%);" width="24" height="24" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path fill="black" d="M1 15v-15h-1v16h16v-1h-15z"></path><path fill="black" d="M12 5c-0.69 1-1.41 2-2 2-0.026 0.001-0.056 0.001-0.087 0.001-0.601 0-1.164-0.16-1.65-0.44-0.623-0.35-1.387-0.562-2.2-0.562-0.022 0-0.045 0-0.067 0-1.6 0.116-3.009 0.864-3.991 1.993l-0.006 2.347c0.77-1.12 2.32-2.84 4-2.84 0.014-0 0.031-0 0.048-0 0.579 0 1.121 0.156 1.587 0.428 0.643 0.358 1.429 0.573 2.264 0.573 0.035 0 0.071-0 0.106-0.001 1.395 0 2.335-1.32 3.245-2.6s1.75-2.4 2.75-2.4v-1.5c-1.81 0-3 1.61-4 3z"></path></svg></button></div><div title="Areaspline" class="areasplineChart"><button class="dkLabels-label-btn chart_areasplineBtn"><svg class="svg-icon" style="transform: translate(16%, 16%);" width="24" height="24" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path fill="black" d="M1 15v-15h-1v16h16v-1h-15z"></path><path fill="black" d="M10 7c-2 0-2.080-1-4-1-2.34 0-4 3-4 3v5h14v-12c-2 0-3.86 5-6 5z"></path></svg></button><div></div></div><div title="Stepline" class="stepLine"><button class="dkLabels-label-btn"><svg class="svg-icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="eKxCrQjpSzb1" viewBox="0 0 24 24" shape-rendering="geometricPrecision" text-rendering="geometricPrecision"><rect width="10.1919" height="0.8" rx="0" ry="0" transform="translate(2.2081 12.419091)" stroke-width="0"></rect><rect width="10.1919" height="0.8" rx="0" ry="0" transform="translate(11.6 5.619091)" stroke-width="0"></rect><rect width="0.8" height="4.30521" rx="0" ry="0" transform="matrix(1 0 0 1.19897 2.2081 13.219091)" stroke-width="0"></rect><rect width="0.8" height="4.832902" rx="0" ry="0" transform="matrix(1 0 0 1.24149 11.6 6.419091)" stroke-width="0"></rect></svg></button></div><div title="Line" class="lineChart"><button class="dkLabels-label-btn"><svg class="svg-icon lineChart_" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24" shape-rendering="geometricPrecision" text-rendering="geometricPrecision"><path d="M3.1,18.09l6.4-6.36l4,4l8.1-9.21-.61-.61-7.49,8.32-4-4-7.1,7.16.7.7Z"></path></svg></button></div><div class="areaChart" title="Area"><button class="dkLabels-label-btn chart_areaBtn"><svg class="svg-icon  areaSvg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24" shape-rendering="geometricPrecision" text-rendering="geometricPrecision"><path d="M17,7.5l-5-4-5,7-4-3v13h18v-13h-4Zm3,9.95L12,12L8,17.5L4,15.1v-5.459833L7.414226,12L12.2,5.2l4.1,3.3h3.7v8.95Z"></path></svg></button><div></div></div></div></div></div><div class="searchAndResultDiv justify-content-center" style="width: 14vw;"><input class="newIndicatorSearchInput largestSearchInput" type="text" placeholder="Compare +"></div><button class="showCompareBtn" type="button" title="Compare"><svg class="svg-icon  compareIcon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24" shape-rendering="geometricPrecision" text-rendering="geometricPrecision"><path d="M19,3L5,3C3.89,3,3,3.9,3,5v14c0,1.1.89,2,2,2h14c1.1,0,2-.9,2-2v-14c0-1.1-.9-2-2-2Zm1,17h-16L4,4h16v16Zm-8.5-3h1v-4.5h4.5v-1h-4.5v-4.5h-1v4.5h-4.5v1h4.5v4.5Z"></path></svg></button><button class="exportBtn " type="button" title="Export Data"><svg class="svg-icon  downloadIcon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24" shape-rendering="geometricPrecision" text-rendering="geometricPrecision"><path class="svg-icon" d="M19.35,10.04C18.67,6.59,15.64,4,12,4C9.11,4,6.6,5.64,5.35,8.04C2.34,8.36,0,10.91,0,14c0,3.31,2.69,6,6,6h13c2.76,0,5-2.24,5-5c0-2.64-2.05-4.78-4.65-4.96ZM19,19h-13c-2.21,0-5-2.79-5-5c0-2.05,1.82-4.47,3.85-4.68l1.07-.11.5-.95C7.37,6.43,9.94,5,12,5c2.62,0,5.5,2.15,6.01,4.72l.39,1.5l1.53.11C21.49,11.43,23,13.45,23,15c0,1.65-2.35,4-4,4Zm-5.55-9h-2.9v3L8,13l4,4l4-4h-2.55v-3Z"></path></svg><span style="padding-left:5px;"> Export</span></button><button class="apiBtn " type="button" title="API"><svg class="svg-icon  databaseIcon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16"><path d="M4.318 2.687C5.234 2.271 6.536 2 8 2s2.766.27 3.682.687C12.644 3.125 13 3.627 13 4c0 .374-.356.875-1.318 1.313C10.766 5.729 9.464 6 8 6s-2.766-.27-3.682-.687C3.356 4.875 3 4.373 3 4c0-.374.356-.875 1.318-1.313M13 5.698V7c0 .374-.356.875-1.318 1.313C10.766 8.729 9.464 9 8 9s-2.766-.27-3.682-.687C3.356 7.875 3 7.373 3 7V5.698c.271.202.58.378.904.525C4.978 6.711 6.427 7 8 7s3.022-.289 4.096-.777A5 5 0 0 0 13 5.698M14 4c0-1.007-.875-1.755-1.904-2.223C11.022 1.289 9.573 1 8 1s-3.022.289-4.096.777C2.875 2.245 2 2.993 2 4v9c0 1.007.875 1.755 1.904 2.223C4.978 15.71 6.427 16 8 16s3.022-.289 4.096-.777C13.125 14.755 14 14.007 14 13zm-1 4.698V10c0 .374-.356.875-1.318 1.313C10.766 11.729 9.464 12 8 12s-2.766-.27-3.682-.687C3.356 10.875 3 10.373 3 10V8.698c.271.202.58.378.904.525C4.978 9.71 6.427 10 8 10s3.022-.289 4.096-.777A5 5 0 0 0 13 8.698m0 3V13c0 .374-.356.875-1.318 1.313C10.766 14.729 9.464 15 8 15s-2.766-.27-3.682-.687C3.356 13.875 3 13.373 3 13v-1.302c.271.202.58.378.904.525C4.978 12.71 6.427 13 8 13s3.022-.289 4.096-.777c.324-.147.633-.323.904-.525"></path></svg><span style="padding-left:3px;"> API</span></button><button aria-label="Export Menu" class=" auxExportingBtn" type="button"><svg class="svg-icon exportingSvg" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 -3 24 24" fill="none"><path d="M12 8C13.1 8 14 7.1 14 6C14 4.9 13.1 4 12 4C10.9 4 10 4.9 10 6C10 7.1 10.9 8 12 8ZM12 10C10.9 10 10 10.9 10 12C10 13.1 10.9 14 12 14C13.1 14 14 13.1 14 12C14 10.9 13.1 10 12 10ZM12 16C10.9 16 10 16.9 10 18C10 19.1 10.9 20 12 20C13.1 20 14 19.1 14 18C14 16.9 13.1 16 12 16Z" fill="black"></path></svg></button><div id="dateInputs" class="hawk-chartOptions-cnt" style="display: none;"><input id="d1" type="text" name="date_range_start"><br><input id="d2" type="text" name="date_range_end"><button id="btnOK" type="button">OK</button></div></div> </div><div id="fullscreenVisualization" style="position: absolute; bottom: 0px; top: 30px; padding: 0px; overflow: hidden;" data-highcharts-chart="0"><div id="highcharts-4ugxph0-0" dir="ltr" class="highcharts-container " style="position: relative; overflow: hidden; width: 613px; height: 410px; text-align: left; line-height: normal; z-index: 0; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); user-select: none; touch-action: manipulation; outline: none;"><svg version="1.1" class="highcharts-root" style="font-family: &quot;Lucida Grande&quot;, &quot;Lucida Sans Unicode&quot;, Arial, Helvetica, sans-serif; font-size: 12px;" xmlns="http://www.w3.org/2000/svg" width="613" height="410" viewBox="0 0 613 410"><desc>Created with Highcharts 10.1.0</desc><defs><clipPath id="highcharts-4ugxph0-1-"><rect x="0" y="0" width="542" height="295" fill="none"></rect></clipPath><clipPath id="highcharts-4ugxph0-2-"><rect x="25" y="40" width="542" height="295" fill="none"></rect></clipPath><clipPath id="highcharts-4ugxph0-15-"><rect x="0" y="0" width="542" height="295" fill="none"></rect></clipPath></defs><rect fill="#ffffff" class="highcharts-background" x="0" y="0" width="613" height="410" rx="0" ry="0"></rect><rect fill="none" class="highcharts-plot-background" x="25" y="40" width="542" height="295"></rect><rect fill="none" class="highcharts-plot-border" data-z-index="1" x="25" y="40" width="542" height="295"></rect><g class="highcharts-grid highcharts-xaxis-grid" data-z-index="1"><path fill="none" stroke="#E7E7E7" stroke-width="1" stroke-dasharray="1,1" data-z-index="1" class="highcharts-grid-line" d="M 47.5 40 L 47.5 335" opacity="1"></path><path fill="none" stroke="#E7E7E7" stroke-width="1" stroke-dasharray="1,1" data-z-index="1" class="highcharts-grid-line" d="M 227.5 40 L 227.5 335" opacity="1"></path><path fill="none" stroke="#E7E7E7" stroke-width="1" stroke-dasharray="1,1" data-z-index="1" class="highcharts-grid-line" d="M 408.5 40 L 408.5 335" opacity="1"></path></g><g class="highcharts-grid highcharts-yaxis-grid" data-z-index="1"></g><g class="highcharts-grid highcharts-yaxis-grid" data-z-index="1"><path fill="none" stroke="#E7E7E7" stroke-width="1" stroke-dasharray="1,1" data-z-index="1" class="highcharts-grid-line" d="M 25 335.5 L 567 335.5" opacity="1"></path><path fill="none" stroke="#E7E7E7" stroke-width="1" stroke-dasharray="1,1" data-z-index="1" class="highcharts-grid-line" d="M 25 315.5 L 567 315.5" opacity="1"></path><path fill="none" stroke="#E7E7E7" stroke-width="1" stroke-dasharray="1,1" data-z-index="1" class="highcharts-grid-line" d="M 25 276.5 L 567 276.5" opacity="1"></path><path fill="none" stroke="#E7E7E7" stroke-width="1" stroke-dasharray="1,1" data-z-index="1" class="highcharts-grid-line" d="M 25 237.5 L 567 237.5" opacity="1"></path><path fill="none" stroke="#E7E7E7" stroke-width="1" stroke-dasharray="1,1" data-z-index="1" class="highcharts-grid-line" d="M 25 197.5 L 567 197.5" opacity="1"></path><path fill="none" stroke="#E7E7E7" stroke-width="1" stroke-dasharray="1,1" data-z-index="1" class="highcharts-grid-line" d="M 25 158.5 L 567 158.5" opacity="1"></path><path fill="none" stroke="#E7E7E7" stroke-width="1" stroke-dasharray="1,1" data-z-index="1" class="highcharts-grid-line" d="M 25 119.5 L 567 119.5" opacity="1"></path><path fill="none" stroke="#E7E7E7" stroke-width="1" stroke-dasharray="1,1" data-z-index="1" class="highcharts-grid-line" d="M 25 79.5 L 567 79.5" opacity="1"></path><path fill="none" stroke="#E7E7E7" stroke-width="1" stroke-dasharray="1,1" data-z-index="1" class="highcharts-grid-line" d="M 25 39.5 L 567 39.5" opacity="1"></path></g><g class="highcharts-axis highcharts-xaxis" data-z-index="2"><path fill="none" class="highcharts-axis-line" stroke="#E6E6E6" stroke-width="1" data-z-index="7" d="M 25 335.5 L 567 335.5"></path></g><g class="highcharts-axis highcharts-yaxis" data-z-index="2"><path fill="none" class="highcharts-axis-line" stroke="#E6E6E6" stroke-width="1" data-z-index="7" d="M 24.5 40 L 24.5 335"></path></g><g class="highcharts-axis highcharts-yaxis" data-z-index="2"><path fill="none" class="highcharts-tick" stroke="#E7E7E7" stroke-width="0.5" d="M 567 335.25 L 577 335.25" opacity="1"></path><path fill="none" class="highcharts-tick" stroke="#E7E7E7" stroke-width="0.5" d="M 567 315.25 L 577 315.25" opacity="1"></path><path fill="none" class="highcharts-tick" stroke="#E7E7E7" stroke-width="0.5" d="M 567 276.25 L 577 276.25" opacity="1"></path><path fill="none" class="highcharts-tick" stroke="#E7E7E7" stroke-width="0.5" d="M 567 237.25 L 577 237.25" opacity="1"></path><path fill="none" class="highcharts-tick" stroke="#E7E7E7" stroke-width="0.5" d="M 567 197.25 L 577 197.25" opacity="1"></path><path fill="none" class="highcharts-tick" stroke="#E7E7E7" stroke-width="0.5" d="M 567 158.25 L 577 158.25" opacity="1"></path><path fill="none" class="highcharts-tick" stroke="#E7E7E7" stroke-width="0.5" d="M 567 119.25 L 577 119.25" opacity="1"></path><path fill="none" class="highcharts-tick" stroke="#E7E7E7" stroke-width="0.5" d="M 567 79.25 L 577 79.25" opacity="1"></path><path fill="none" class="highcharts-tick" stroke="#E7E7E7" stroke-width="0.5" d="M 567 39.75 L 577 39.75" opacity="1"></path><path fill="none" class="highcharts-axis-line" stroke="#E6E6E6" stroke-width="1" data-z-index="7" d="M 567.5 40 L 567.5 335"></path></g><g class="highcharts-series-group" data-z-index="3"><g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-tracker" data-z-index="1" opacity="1" transform="translate(25,40) scale(1 1)" clip-path="url(#highcharts-4ugxph0-15-)"><rect x="5" y="165" width="36" height="131" fill="#4f81bd" opacity="1" class="highcharts-point"></rect><rect x="50" y="272" width="36" height="24" fill="#4f81bd" opacity="1" class="highcharts-point"></rect><rect x="95" y="249" width="36" height="47" fill="#4f81bd" opacity="1" class="highcharts-point"></rect><rect x="140" y="205" width="36" height="91" fill="#4f81bd" opacity="1" class="highcharts-point"></rect><rect x="186" y="148" width="36" height="148" fill="#4f81bd" opacity="1" class="highcharts-point"></rect><rect x="231" y="167" width="36" height="129" fill="#4f81bd" opacity="1" class="highcharts-point"></rect><rect x="276" y="170" width="36" height="126" fill="#4f81bd" opacity="1" class="highcharts-point"></rect><rect x="321" y="90" width="36" height="206" fill="#4f81bd" opacity="1" class="highcharts-point"></rect><rect x="366" y="126" width="36" height="170" fill="#4f81bd" opacity="1" class="highcharts-point"></rect><rect x="411" y="55" width="36" height="241" fill="#4f81bd" opacity="1" class="highcharts-point"></rect><rect x="457" y="29" width="36" height="267" fill="#4f81bd" opacity="1" class="highcharts-point"></rect><rect x="502" y="26" width="36" height="270" fill="#6e6e6e" opacity="1" class="highcharts-point"></rect></g><g class="highcharts-markers highcharts-series-0 highcharts-column-series" data-z-index="1" opacity="1" transform="translate(25,40) scale(1 1)" clip-path="none"></g></g><g class="highcharts-exporting-group" data-z-index="3"><g class="highcharts-no-tooltip highcharts-button highcharts-contextbutton" stroke-linecap="round" style="cursor: pointer;" transform="translate(573,0)"><title>Chart context menu</title><rect fill="#ffffff" class="highcharts-button-box" x="0.5" y="0.5" width="30" height="30" rx="2" ry="2" stroke="none" stroke-width="1"></rect><path fill="#666666" d="M 6 6.5 L 20 6.5 M 6 11.5 L 20 11.5 M 6 16.5 L 20 16.5" class="highcharts-button-symbol" data-z-index="1" stroke="#666666" stroke-width="3"></path><text x="0" data-z-index="1" y="19.5" style="color: rgb(51, 51, 51); font-weight: normal; fill: rgb(51, 51, 51);"></text></g></g><text x="307" text-anchor="middle" class="highcharts-title" data-z-index="4" style="color: rgb(51, 51, 51); font-size: 16px; fill: rgb(51, 51, 51);" y="22"></text><text x="307" text-anchor="middle" class="highcharts-subtitle" data-z-index="4" style="color: rgb(102, 102, 102); fill: rgb(102, 102, 102);" y="24"></text><text x="10" text-anchor="start" class="highcharts-caption" data-z-index="4" style="color: rgb(102, 102, 102); fill: rgb(102, 102, 102);" y="407"></text><g class="highcharts-axis-labels highcharts-xaxis-labels" data-z-index="7"></g><g class="highcharts-axis-labels highcharts-yaxis-labels" data-z-index="7"></g><g class="highcharts-axis-labels highcharts-yaxis-labels" data-z-index="7"><text x="0" text-anchor="start" transform="translate(0,0)" style="color: rgb(51, 51, 51); cursor: default; font-size: 1em; font-family: Helvetica; fill: rgb(51, 51, 51);" visibility="hidden"><tspan class="yLabels_">3.3K</tspan></text><text x="572" text-anchor="start" transform="translate(0,0)" style="color: rgb(51, 51, 51); cursor: default; font-size: 1em; font-family: Helvetica; fill: rgb(51, 51, 51);" y="318" opacity="1"><tspan class="yLabels_">3.4K</tspan></text><text x="572" text-anchor="start" transform="translate(0,0)" style="color: rgb(51, 51, 51); cursor: default; font-size: 1em; font-family: Helvetica; fill: rgb(51, 51, 51);" y="279" opacity="1"><tspan class="yLabels_">3.6K</tspan></text><text x="572" text-anchor="start" transform="translate(0,0)" style="color: rgb(51, 51, 51); cursor: default; font-size: 1em; font-family: Helvetica; fill: rgb(51, 51, 51);" y="240" opacity="1"><tspan class="yLabels_">3.8K</tspan></text><text x="572" text-anchor="start" transform="translate(0,0)" style="color: rgb(51, 51, 51); cursor: default; font-size: 1em; font-family: Helvetica; fill: rgb(51, 51, 51);" y="200" opacity="1"><tspan class="yLabels_">4K</tspan></text><text x="572" text-anchor="start" transform="translate(0,0)" style="color: rgb(51, 51, 51); cursor: default; font-size: 1em; font-family: Helvetica; fill: rgb(51, 51, 51);" y="161" opacity="1"><tspan class="yLabels_">4.2K</tspan></text><text x="572" text-anchor="start" transform="translate(0,0)" style="color: rgb(51, 51, 51); cursor: default; font-size: 1em; font-family: Helvetica; fill: rgb(51, 51, 51);" y="122" opacity="1"><tspan class="yLabels_">4.4K</tspan></text><text x="572" text-anchor="start" transform="translate(0,0)" style="color: rgb(51, 51, 51); cursor: default; font-size: 1em; font-family: Helvetica; fill: rgb(51, 51, 51);" y="82" opacity="1"><tspan class="yLabels_">4.6K</tspan></text><text x="0" text-anchor="start" transform="translate(0,0)" style="color: rgb(51, 51, 51); cursor: default; font-size: 1em; font-family: Helvetica; fill: rgb(51, 51, 51);" visibility="hidden"><tspan class="yLabels_">4.8K</tspan></text></g><g class="highcharts-control-points" data-z-index="99" clip-path="url(#highcharts-4ugxph0-2-)"></g></svg><div class="highcharts-stocktools-wrapper highcharts-bindings-wrapper highcharts-bindings-container" style="height: 100%;"><div class="highcharts-arrow-wrapper" style="display: block;"><div class="highcharts-arrow-up" style="background-image: url(&quot;https://code.highcharts.com/10.1.0/gfx/stock-icons/arrow-right.svg&quot;);"></div><div class="highcharts-arrow-down" style="background-image: url(&quot;https://code.highcharts.com/10.1.0/gfx/stock-icons/arrow-right.svg&quot;);"></div></div><div class="highcharts-menu-wrapper"><ul class="highcharts-stocktools-toolbar stocktools-toolbar"><li class="highcharts-indicators" title="Indicators"><span class="highcharts-menu-item-btn" style="background-image: url(&quot;https://code.highcharts.com/10.1.0/gfx/stock-icons/indicators.svg&quot;);"></span></li><li class="highcharts-separator " title="separator"><span class="highcharts-menu-item-btn" style="background-image: url(&quot;https://code.highcharts.com/10.1.0/gfx/stock-icons/separator.svg&quot;);"></span></li><li class="highcharts-label-annotation" title="Simple shapes"><span class="highcharts-menu-item-btn" style="background-image: url(&quot;https://code.highcharts.com/10.1.0/gfx/stock-icons/label.svg&quot;);"></span><span class="highcharts-submenu-item-arrow highcharts-arrow-right" style="background-image: url(&quot;https://code.highcharts.com/10.1.0/gfx/stock-icons/arrow-bottom.svg&quot;);"></span><ul class="highcharts-submenu-wrapper"><li class="highcharts-label-annotation" title="Label"><span class="highcharts-menu-item-btn" style="background-image: url(&quot;https://code.highcharts.com/10.1.0/gfx/stock-icons/label.svg&quot;);"></span></li></ul></li><li class="highcharts-segment" title="Lines"><span class="highcharts-menu-item-btn" style="background-image: url(&quot;https://code.highcharts.com/10.1.0/gfx/stock-icons/segment.svg&quot;);"></span><span class="highcharts-submenu-item-arrow highcharts-arrow-right" style="background-image: url(&quot;https://code.highcharts.com/10.1.0/gfx/stock-icons/arrow-bottom.svg&quot;);"></span><ul class="highcharts-submenu-wrapper"><li class="highcharts-segment" title="Segment"><span class="highcharts-menu-item-btn" style="background-image: url(&quot;https://code.highcharts.com/10.1.0/gfx/stock-icons/segment.svg&quot;);"></span></li><li class="highcharts-infinity-line " title="Line"><span class="highcharts-menu-item-btn" style="background-image: url(&quot;https://code.highcharts.com/10.1.0/gfx/stock-icons/line.svg&quot;);"></span></li><li class="highcharts-horizontal-line" title="Horizontal line"><span class="highcharts-menu-item-btn" style="background-image: url(&quot;https://code.highcharts.com/10.1.0/gfx/stock-icons/horizontal-line.svg&quot;);"></span></li></ul></li><li class="highcharts-elliott3" title="Crooked lines"><span class="highcharts-menu-item-btn" style="background-image: url(&quot;https://code.highcharts.com/10.1.0/gfx/stock-icons/elliott-3.svg&quot;);"></span><span class="highcharts-submenu-item-arrow highcharts-arrow-right" style="background-image: url(&quot;https://code.highcharts.com/10.1.0/gfx/stock-icons/arrow-bottom.svg&quot;);"></span><ul class="highcharts-submenu-wrapper"><li class="highcharts-elliott3" title="Elliott 3 line"><span class="highcharts-menu-item-btn" style="background-image: url(&quot;https://code.highcharts.com/10.1.0/gfx/stock-icons/elliott-3.svg&quot;);"></span></li></ul></li><li class="highcharts-measure-xy" title="Measure"><span class="highcharts-menu-item-btn" style="background-image: url(&quot;https://code.highcharts.com/10.1.0/gfx/stock-icons/measure-xy.svg&quot;);"></span><span class="highcharts-submenu-item-arrow highcharts-arrow-right" style="background-image: url(&quot;https://code.highcharts.com/10.1.0/gfx/stock-icons/arrow-bottom.svg&quot;);"></span><ul class="highcharts-submenu-wrapper"><li class="highcharts-measure-xy" title="Measure XY"><span class="highcharts-menu-item-btn" style="background-image: url(&quot;https://code.highcharts.com/10.1.0/gfx/stock-icons/measure-xy.svg&quot;);"></span></li></ul></li><li class="highcharts-fibonacci" title="Advanced"><span class="highcharts-menu-item-btn" style="background-image: url(&quot;https://code.highcharts.com/10.1.0/gfx/stock-icons/fibonacci.svg&quot;);"></span><span class="highcharts-submenu-item-arrow highcharts-arrow-right" style="background-image: url(&quot;https://code.highcharts.com/10.1.0/gfx/stock-icons/arrow-bottom.svg&quot;);"></span><ul class="highcharts-submenu-wrapper"><li class="highcharts-fibonacci" title="Fibonacci"><span class="highcharts-menu-item-btn" style="background-image: url(&quot;https://code.highcharts.com/10.1.0/gfx/stock-icons/fibonacci.svg&quot;);"></span></li></ul></li><li class="highcharts-toggle-annotations" title="Toggle annotations"><span class="highcharts-menu-item-btn" style="background-image: url(&quot;https://code.highcharts.com/10.1.0/gfx/stock-icons/annotations-visible.svg&quot;);"></span></li><li class="highcharts-separator " title="separator"><span class="highcharts-menu-item-btn" style="background-image: url(&quot;https://code.highcharts.com/10.1.0/gfx/stock-icons/separator.svg&quot;);"></span></li><li class="highcharts-flag-simplepin" title="Flags"><span class="highcharts-menu-item-btn" style="background-image: url(&quot;https://code.highcharts.com/10.1.0/gfx/stock-icons/flag-basic.svg&quot;);"></span><span class="highcharts-submenu-item-arrow highcharts-arrow-right" style="background-image: url(&quot;https://code.highcharts.com/10.1.0/gfx/stock-icons/arrow-bottom.svg&quot;);"></span><ul class="highcharts-submenu-wrapper"><li class="highcharts-flag-simplepin" title="Flag simple"><span class="highcharts-menu-item-btn" style="background-image: url(&quot;https://code.highcharts.com/10.1.0/gfx/stock-icons/flag-basic.svg&quot;);"></span></li></ul></li></ul></div><div class="highcharts-toggle-toolbar highcharts-arrow-left" style="background-image: url(&quot;https://code.highcharts.com/10.1.0/gfx/stock-icons/arrow-right.svg&quot;); top: 0px; left: 0px;"></div></div><div class="highcharts-loading highcharts-loading-hidden" style="position: absolute; background-color: rgb(255, 255, 255); opacity: 0; text-align: center; z-index: 10; left: 25px; top: 40px; width: 542px; height: 295px; display: none;"><span class="highcharts-loading-inner" style="font-weight: bold; position: relative; top: 45%;">Loading...</span></div><div class="highcharts-axis-labels highcharts-xaxis-labels" style="position: absolute; left: 0px; top: 0px; opacity: 1;"><span opacity="1" style="position: absolute; font-family: Helvetica; font-size: 1em; white-space: nowrap; margin-left: 0px; margin-top: 0px; left: 29.5679px; top: 335px; color: rgb(51, 51, 51); cursor: default; transform: rotate(0deg); transform-origin: 50% 15px; text-overflow: clip; opacity: 1; visibility: inherit;">2014</span><span opacity="1" style="position: absolute; font-family: Helvetica; font-size: 1em; white-space: nowrap; margin-left: 0px; margin-top: 0px; left: 210.235px; top: 335px; color: rgb(51, 51, 51); cursor: default; transform: rotate(0deg); transform-origin: 50% 15px; text-overflow: clip; opacity: 1; visibility: inherit;">2018</span><span opacity="1" style="position: absolute; font-family: Helvetica; font-size: 1em; white-space: nowrap; margin-left: 0px; margin-top: 0px; left: 390.901px; top: 335px; color: rgb(51, 51, 51); cursor: default; transform: rotate(0deg); transform-origin: 50% 15px; text-overflow: clip; opacity: 1; visibility: inherit;">2022</span></div></div></div></div></div></div><div id="chart-legend-options" class="chart_module undertaker-section chart-legend-options" style="margin-top: -15px;"><div><table class="table table-hover center-table iec-drilldown-table hawk-controltable" style="background-color: transparent; border-width: medium; border-style: none; border-color: currentcolor; border-image: initial;"><tr class="row"></tr></table></div><td></td><div class="manipulateData"><div id="singleIndChartUnit" class="fade-in" style="display: block;">World Bank</div><div class="chartCtrlButtonsDiv"><button type="button" id="value" class="selectedBtn" style="border: 0px !important;">Value</button><button type="button" id="chgBtn" style="border: 0px !important;">Chg</button><button type="button" id="chg%Btn" style="border: 0px !important;">Chg% </button></div></div></div></div></div></div></div>
     
 
 </div>
@@ -851,265 +851,10 @@ html_text = """<html><head id="ctl00_Head1"><meta charset="utf-8"><title>
 
 <br>
 
-<script>const data = [];const language = "";</script>
-<div class="table-responsive markets2 market-border">
-    
-            <br>
-            <div class="table-minimize" data-minimizer-height="800" style="position: relative; overflow: hidden;">
-                <div class="card">
-                    <table class="table table-hover sortable-theme-minimal table-heatmap table-striped" data-sortable="" data-sortable-initialized="true">
-                        <thead>
-                            <tr>
-                                <th></th>
-                                <th>Price</th>
-                                <th></th>
-                                <th></th>
-                                <th data-heatmap="1" data-heatmap-limit="5" style="text-align: center;cursor:pointer;">Day</th>
-                                <th data-heatmap="1" data-heatmap-limit="20" style="text-align: center;cursor:pointer" class="d-none d-sm-table-cell">Month</th>
-                                <th class="d-none d-sm-table-cell" data-heatmap="1" data-heatmap-limit="100" style="text-align: center;cursor:pointer">Year</th>
-                                <th style="text-align: center;" class="d-none d-md-table-cell">Date</th>
-                            </tr>
-                        </thead>
-        
-        <tbody><tr data-decimals="3" data-symbol="CL1:COM" data-subscribe="CL1:COM">              <td>
-                    <a href="/commodity/crude-oil">
-                        Crude Oil                                                                                            
-                    </a>
-                </td>
-                <td id="p" style="background-color: transparent;">95.236</td>
-                <td id="triangle"><span class="market-negative-image"></span></td>
-                <td id="nch" data-no-triangle="true" style="text-align: center; color: darkred;" data-value="-0.614">0.614</td>
-                <td id="pch" style="text-align: center; background-color: rgb(254, 235, 235); color: darkred;" data-value="-0.64">-0.64%</td>
-                <td class="d-none d-sm-table-cell" style="text-align: center; background-color: rgb(214, 247, 223);">5.17%</td>
-                <td class="d-none d-sm-table-cell" style="text-align: center; background-color: rgb(154, 235, 175);">50.73%</td>
-                <td id="date" style="text-align: center;" class="d-none d-md-table-cell">16:21</td>
-            </tr>
-        
-        <tr data-decimals="3" data-symbol="CO1:COM" data-subscribe="CO1:COM">              <td>
-                    <a href="/commodity/brent-crude-oil">
-                        Brent                                                                                                
-                    </a>
-                </td>
-                <td id="p" style="background-color: rgb(205, 235, 249);">105.204</td>
-                <td id="triangle"><span class="market-positive-image"></span></td>
-                <td id="nch" data-no-triangle="true" style="text-align: center; color: darkgreen;" data-value="0.1337">0.134</td>
-                <td id="pch" style="text-align: center; background-color: rgb(255, 255, 255); color: darkgreen;" data-value="0.13">0.13%</td>
-                <td class="d-none d-sm-table-cell" style="text-align: center; background-color: rgb(235, 251, 239);">2.59%</td>
-                <td class="d-none d-sm-table-cell" style="text-align: center; background-color: rgb(154, 235, 175);">59.37%</td>
-                <td id="date" style="text-align: center;" class="d-none d-md-table-cell">16:21</td>
-            </tr>
-        
-        <tr data-decimals="4" data-symbol="NG1:COM" data-subscribe="NG1:COM">              <td>
-                    <a href="/commodity/natural-gas">
-                        Natural gas                                                                                          
-                    </a>
-                </td>
-                <td id="p" style="background-color: transparent;">2.5280</td>
-                <td id="triangle"><span class="market-negative-image"></span></td>
-                <td id="nch" data-no-triangle="true" style="text-align: center; color: darkred;" data-value="-0.086">0.086</td>
-                <td id="pch" style="text-align: center; background-color: rgb(251, 134, 136); color: darkred;" data-value="-3.29">-3.29%</td>
-                <td class="d-none d-sm-table-cell" style="text-align: center; background-color: rgb(251, 134, 136);">-13.22%</td>
-                <td class="d-none d-sm-table-cell" style="text-align: center; background-color: rgb(254, 235, 235);">-18.85%</td>
-                <td id="date" style="text-align: center;" class="d-none d-md-table-cell">16:21</td>
-            </tr>
-        
-        <tr data-decimals="4" data-symbol="XB1:COM" data-subscribe="XB1:COM">              <td>
-                    <a href="/commodity/gasoline">
-                        Gasoline                                                                                             
-                    </a>
-                </td>
-                <td id="p" style="background-color: rgb(205, 235, 249);">3.4319</td>
-                <td id="triangle"><span class="market-negative-image"></span></td>
-                <td id="nch" data-no-triangle="true" style="text-align: center; color: darkred;" data-value="-0.0302">0.0302</td>
-                <td id="pch" style="text-align: center; background-color: rgb(254, 215, 215); color: darkred;" data-value="-0.87">-0.87%</td>
-                <td class="d-none d-sm-table-cell" style="text-align: center; background-color: rgb(133, 230, 159);">13.76%</td>
-                <td class="d-none d-sm-table-cell" style="text-align: center; background-color: rgb(133, 230, 159);">61.62%</td>
-                <td id="date" style="text-align: center;" class="d-none d-md-table-cell">16:21</td>
-            </tr>
-        
-        <tr data-decimals="4" data-symbol="HO1:COM" data-subscribe="HO1:COM">              <td>
-                    <a href="/commodity/heating-oil">
-                        Heating Oil                                                                                          
-                    </a>
-                </td>
-                <td id="p" style="background-color: rgb(205, 235, 249);">3.9736</td>
-                <td id="triangle"><span class="market-negative-image"></span></td>
-                <td id="nch" data-no-triangle="true" style="text-align: center; color: darkred;" data-value="-0.0146">0.0146</td>
-                <td id="pch" style="text-align: center; background-color: rgb(254, 235, 235); color: darkred;" data-value="-0.37">-0.37%</td>
-                <td class="d-none d-sm-table-cell" style="text-align: center; background-color: rgb(255, 255, 255);">-1.14%</td>
-                <td class="d-none d-sm-table-cell" style="text-align: center; background-color: rgb(93, 222, 127);">82.75%</td>
-                <td id="date" style="text-align: center;" class="d-none d-md-table-cell">16:21</td>
-            </tr>
-        
-        <tr data-decimals="2" data-symbol="XAL1:COM">              <td>
-                    <a href="/commodity/coal">
-                        Coal                                                                                                 
-                    </a>
-                </td>
-                <td id="p">129.10 </td>
-                <td id="triangle">
-                    <span class="market-negative-image"></span>
-                </td>
-                <td id="nch" data-no-triangle="true" style="text-align: center;">-3.70</td>
-                <td id="pch" style="text-align: center; background-color: rgb(252, 155, 156);">-2.79%</td>
-                <td class="d-none d-sm-table-cell" style="text-align: center; background-color: rgb(253, 195, 196);">-7.62%</td>
-                <td class="d-none d-sm-table-cell" style="text-align: center; background-color: rgb(194, 243, 207);">36.25%</td>
-                <td id="date" style="text-align: center;" class="d-none d-md-table-cell">Apr/23 </td>
-            </tr>
-        
-        <tr data-decimals="4" data-symbol="DL1:COM">              <td>
-                    <a href="/commodity/ethanol">
-                        Ethanol                                                                                              
-                    </a>
-                </td>
-                <td id="p">1.92 </td>
-                <td id="triangle">
-                    <span class="market-positive-image"></span>
-                </td>
-                <td id="nch" data-no-triangle="true" style="text-align: center;">0</td>
-                <td id="pch" style="text-align: center;">0%</td>
-                <td class="d-none d-sm-table-cell" style="text-align: center; background-color: rgb(254, 215, 215);">-4.00%</td>
-                <td class="d-none d-sm-table-cell" style="text-align: center; background-color: rgb(255, 255, 255);">6.82%</td>
-                <td id="date" style="text-align: center;" class="d-none d-md-table-cell">Apr/23 </td>
-            </tr>
-        
-        <tr data-decimals="2" data-symbol="URDB:COM">              <td>
-                    <a href="/commodity/urals-oil">
-                        Urals Oil                                                                                            
-                    </a>
-                </td>
-                <td id="p">107.49 </td>
-                <td id="triangle">
-                    <span class="market-positive-image"></span>
-                </td>
-                <td id="nch" data-no-triangle="true" style="text-align: center;">3.41</td>
-                <td id="pch" style="text-align: center; background-color: rgb(133, 230, 159);">3.28%</td>
-                <td class="d-none d-sm-table-cell" style="text-align: center; background-color: rgb(174, 239, 191);">8.59%</td>
-                <td class="d-none d-sm-table-cell" style="text-align: center; background-color: rgb(113, 226, 143);">77.73%</td>
-                <td id="date" style="text-align: center;" class="d-none d-md-table-cell">Apr/23 </td>
-            </tr>
-        
-            </tbody></table>
-            <div class="card-footer card-footer-top-border">
-                <a href="/commodities" class="btn-group btn-group-sm" aria-label="More Commodities">
-                    <div class="btn btn-outline-secondary"><i class="bi bi-plus-lg"></i></div>
-                </a>
-            </div>
-            </div></div>
-        
-    
-    
- 
-    
-    
-    
-    
-    
-    
-    
 
-    
-</div>
-<br>
-
-<script>
-    document.addEventListener("DOMContentLoaded", function () {
-        const btn = document.getElementById('markets-expand-table');
-        if (btn) {
-            btn.addEventListener('click', async function (e) {
-                e.preventDefault();
-                if (window.TableExpander && typeof TableExpander.init === "function") {
-                    TableExpander.loadMoreTableRows();
-                    return;
-                }
-            });
-        }
-    });
-
-
-    window.onload = function () {
-        const trigger_treemap_el = document.getElementById('trigger_treemap')
-        if (trigger_treemap_el != null) {
-            console.log("add event listener")
-            trigger_treemap_el.addEventListener('click', trigger_treemap)
-        }
-    }
-    async function load_treemap() {
-        try {
-            const module = await import('../scripts/stock-treemap.js')
-            if (window.create_stock_treemap != null) {
-                $('#treemap_trigger').hide()
-                $('#hide_treemap').show()
-                create_stock_treemap(data, 'treemap_container', language)
-                const treemap = document.getElementById('treemap_container')
-                if (treemap != null) {
-                    treemap.scrollIntoView({ behavior: "smooth", block: "center", inline: "nearest" })
-                }
-            } else {
-                console.error('Failed to load treemap')
-            }
-        } catch (e) {
-            console.error(e)
-        }
-    }
-    function hide_treemap() {
-        try {
-            $('#treemap_container').hide()
-            $('#hide_treemap').hide()
-            //$('#show_treemap').show()
-            //const show_treemap = document.getElementById('show_treemap')
-            //if (show_treemap != null) {
-            //    show_treemap.scrollIntoView({ behavior: "smooth", block: "center", inline: "nearest" })
-            //}
-        } catch (e) {
-            console.error(e)
-        }
-    }
-    function show_treemap() {
-        try {
-            $('#treemap_container').show()
-            $('#hide_treemap').show()
-            //$('#show_treemap').hide()
-            const treemap = document.getElementById('treemap_container')
-            if (treemap != null) {
-                treemap.scrollIntoView({ behavior: "smooth", block: "center", inline: "nearest" })
-            }
-
-        } catch (e) {
-            console.error(e)
-        }
-    }
-    function trigger_treemap(event) {
-        try {
-            console.log("trigger treemap")
-            event.stopPropagation();
-            const treemap = document.getElementById('stock_treemap')
-            if (treemap != null) {
-                const treemap_container = document.getElementById('treemap_container')
-                if (treemap_container != null) {
-                    if ($('#treemap_container').is(':visible')) {
-                        hide_treemap()
-                    } else {
-                        show_treemap()
-                    }
-                }
-            } else {
-                load_treemap()
-            }
-        } catch (error) {
-            console.error(error)
-        }
-    }
-</script><div id="ctl00_ContentPlaceHolder1_ctl00_ctl01_adManager" class="ad-container">
+<div id="ctl00_ContentPlaceHolder1_ctl00_ctl00_PanelPeers">
 	
-    <script type="text/javascript">console.log("[GPT] div placed below chart");</script>
-    <div class="ad-slot" id="charts-btf" data-google-query-id="CJbps-PXhpQDFbyJgwcdsp4J9g" style=""><div id="google_ads_iframe_/23288354674/charts-btf_0__container__" style="border: 0pt; margin: auto; text-align: center;"><iframe id="google_ads_iframe_/23288354674/charts-btf_0" name="google_ads_iframe_/23288354674/charts-btf_0" title="3rd party ad content" width="435" height="300" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" aria-label="Advertisement" tabindex="0" allow="private-state-token-redemption;attribution-reporting" data-load-complete="true" data-google-container-id="3" style="border: 0px; vertical-align: bottom;"></iframe></div></div>
-
-</div>
-
-<br><div id="ctl00_ContentPlaceHolder1_ctl00_ctl02_Panel1">
-	
-     <br>
+    <br>
     <div class="card">
         <div class="table-responsive">
             <table class="table table-hover">
@@ -1131,104 +876,98 @@ html_text = """<html><head id="ctl00_Head1"><meta charset="utf-8"><title>
                 
                         <tbody><tr class="datatable-row">
                             <td style="padding-left: 10px; text-align: left;">
-                                <a href="/united-states/api-crude-oil-stock-change">
-                                    United States API Crude Oil Stock Change
+                                <a href="/germany/full-year-gdp-growth">
+                                    Full Year GDP Growth
                                 </a>
                             </td>
-
-                            <td>-4.40</td>
+                            <td>0.20</td>
                             
-                            <td>6.10</td>
+                            <td>-0.50</td>
                             
                             <td>
-                                BBL/1Million</td>
-                            <td>Apr 2026</td>
+                                percent</td>
+                            <td>Dec 2025</td>
                         </tr>
                     
                         <tr class="datatable-row-alternating">
                             <td style="padding-left: 10px; text-align: left;">
-                                <a href="/saudi-arabia/crude-oil-production">
-                                    Saudi Arabia Crude Oil Production
+                                <a href="/germany/gdp">
+                                    GDP
                                 </a>
                             </td>
-
-                            <td>7763.00</td>
+                            <td>4659.93</td>
                             
-                            <td>10111.00</td>
+                            <td>4525.70</td>
                             
                             <td>
-                                BBL/D/1K</td>
-                            <td>Mar 2026</td>
+                                USD Billion</td>
+                            <td>Dec 2024</td>
                         </tr>
                     
                         <tr class="datatable-row">
                             <td style="padding-left: 10px; text-align: left;">
-                                <a href="/united-states/crude-oil-production">
-                                    United States Crude Oil Production
+                                <a href="/germany/gdp-growth-annual">
+                                    GDP Growth Rate YoY
                                 </a>
                             </td>
-
-                            <td>13246.00</td>
+                            <td>0.40</td>
                             
-                            <td>13656.00</td>
+                            <td>0.30</td>
                             
                             <td>
-                                BBL/D/1K</td>
-                            <td>Jan 2026</td>
+                                percent</td>
+                            <td>Dec 2025</td>
                         </tr>
                     
                         <tr class="datatable-row-alternating">
                             <td style="padding-left: 10px; text-align: left;">
-                                <a href="/russia/crude-oil-production">
-                                    Russia Crude Oil Production
+                                <a href="/germany/gdp-growth">
+                                    GDP Growth Rate
                                 </a>
                             </td>
-
-                            <td>9977.00</td>
+                            <td>0.30</td>
                             
-                            <td>10056.00</td>
+                            <td>0.00</td>
                             
                             <td>
-                                BBL/D/1K</td>
+                                percent</td>
                             <td>Dec 2025</td>
                         </tr>
                     
                         <tr class="datatable-row">
                             <td style="padding-left: 10px; text-align: left;">
-                                <a href="/united-states/crude-oil-stocks-change">
-                                    United States Crude Oil Stocks Change
+                                <a href="/germany/gdp-per-capita">
+                                    GDP per Capita
                                 </a>
                             </td>
-
-                            <td>1.93</td>
+                            <td>44108.70</td>
                             
-                            <td>-0.91</td>
+                            <td>44008.13</td>
                             
                             <td>
-                                BBL/1Million</td>
-                            <td>Apr 2026</td>
+                                USD</td>
+                            <td>Dec 2024</td>
                         </tr>
                     
                         <tr class="datatable-row-alternating">
                             <td style="padding-left: 10px; text-align: left;">
-                                <a href="/united-states/weekly-crude-oil-production">
-                                    United States Weekly Crude Oil Production
+                                <a href="/germany/gdp-per-capita-ppp">
+                                    GDP per Capita PPP
                                 </a>
                             </td>
-
-                            <td>13585.00</td>
+                            <td>62829.80</td>
                             
-                            <td>13596.00</td>
+                            <td>62686.54</td>
                             
                             <td>
-                                Thousand Barrels Per Day</td>
-                            <td>Apr 2026</td>
+                                USD</td>
+                            <td>Dec 2024</td>
                         </tr>
                     
             </tbody></table>
         </div>
         <div class="card-footer card-footer-top-border">
-            <a href="/indicators" aria-label="More">
+            <a href="/germany/indicators" aria-label="More">
                 <div class="btn btn-outline-secondary">
                     <i class="bi bi-plus-lg"></i>
                 </div>
@@ -1239,17 +978,23 @@ html_text = """<html><head id="ctl00_Head1"><meta charset="utf-8"><title>
 
 </div>
 
+<div id="ctl00_ContentPlaceHolder1_ctl00_ctl01_adManager" class="ad-container">
+	
+    <script type="text/javascript">console.log("[GPT] div placed below chart");</script>
+    <div class="ad-slot" id="charts-btf" data-google-query-id="CMnQqKHxhpQDFTYJVQgdTIUk9A" style=""><div id="google_ads_iframe_/23288354674/charts-btf_0__container__" style="border: 0pt; margin: auto; text-align: center; width: 728px; height: 90px;"><iframe frameborder="0" src="https://4003af1da709adf5925dfbdccec92e30.safeframe.googlesyndication.com/safeframe/1-0-45/html/container.html" id="google_ads_iframe_/23288354674/charts-btf_0" title="Contenuto dell'annuncio di terze parti" name="" scrolling="no" marginwidth="0" marginheight="0" width="728" height="90" data-is-safeframe="true" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" allow="private-state-token-redemption;attribution-reporting" aria-label="Pubblicità" tabindex="0" data-google-container-id="2" style="border: 0px; vertical-align: bottom;" data-load-complete="true"></iframe></div></div>
 
+</div>
 
+<br>
 <style>
     #item_definition {border-bottom:none}
     #item_definition > .card-body{text-align:justify}
 </style>
-<div id="ctl00_ContentPlaceHolder1_ctl00_ctl03_Panel1">
+<div id="ctl00_ContentPlaceHolder1_ctl00_ctl02_Panel1">
 	
     <div class="card" id="item_definition">
-        <div class="card-header">Crude Oil</div>
-        <div class="card-body">Crude oil is one of the most widely followed commodities in the world due to its central role in the global economy. It is a key source of energy, a critical input for transportation and manufacturing, and a major driver of inflation and geopolitical dynamics. As a result, movements in oil prices are closely monitored by governments, businesses, and investors alike. West Texas Intermediate (WTI) crude oil is classified as light and sweet, where “light” refers to its low density and “sweet” indicates its low sulfur content. The delivery point for WTI crude oil futures is the Cushing Hub in Oklahoma, and each futures contract represents 1,000 barrels of crude oil. Crude oil prices displayed on Trading Economics are based on over-the-counter (OTC) and contract for difference (CFD) financial instruments and are intended to provide a general market reference only. These prices do not represent official WTI crude oil prices. Official pricing and settlement data for WTI crude oil futures should be obtained directly from NYMEX. The data is supplied by a third party and, while efforts are made to ensure its reliability, Trading Economics does not verify the data and makes no representations or warranties.</div>
+        <div class="card-header">Germany GDP</div>
+         
         
                 <div class="table-responsive">
                     <table class="table" style="margin-bottom: 0px;">
@@ -1278,19 +1023,19 @@ html_text = """<html><head id="ctl00_Head1"><meta charset="utf-8"><title>
             
                 <tbody><tr>
                     <td></td>
-                    <td>95.13</td>
-                    <td>95.85</td>
-                    <td>410.45</td>
-                    <td>-40.32</td>
+                    <td>4659.93</td>
+                    <td>4525.70</td>
+                    <td>4659.93</td>
+                    <td>216.63</td>
                     
-                    <td>1983 - 2026</td>
+                    <td>1970 - 2024</td>
                     <td>
-                        USD/BBL </td>
+                        USD Billion</td>
                     <td>
-                        Daily</td>
+                        Yearly</td>
                     <td>
                         <div style="max-width: 150px; overflow: hidden;">
-                            
+                            Current USD
                         </div>
                     </td>
                 </tr>
@@ -1301,51 +1046,117 @@ html_text = """<html><head id="ctl00_Head1"><meta charset="utf-8"><title>
     </div><br>
 
 </div>
-
-
-
-<div id="ctl00_ContentPlaceHolder1_ctl00_ctl04_Panel1">
+<div id="ctl00_ContentPlaceHolder1_ctl00_ctl02_Panel2">
 	
-    <style>.te-stream-date {color: #808080}.te-stream-repeater{border-bottom: 1px solid #ddd; border-left: none !important; border-right: none !important; border-top: none !important}</style>
     <div class="card">
-        <div class="card-header">News Stream</div>
-        
-                <div class="list-group-item indc_news_stream te-stream-repeater">
-                    <b>
-                        <a href="/commodity/crude-oil/news/544824">Oil Pulls Back on Hopes for Second Round of US-Iran talks</a>
-                    </b>
-                    <div class="comment more" data-shortened="true">WTI crude oil futures slipped to $94.8 per barrel on Friday, reversing earlier gains and snapping a four-session winning streak as hopes of diplomatic progress between the US and Iran improved sentiment. Reports indicated Iranian Foreign Minister Abbas Araghchi was expected to arrive in Islamabad, w<span class="moreellipses">...</span><span class="morecontent"><span style="display: none;">ith sources suggesting a high likelihood of a breakthrough in negotiations involving mediators such as Pakistan. Despite the pullback, oil remains on track for a weekly gain of about 14%. Markets continue to be influenced by US policy signals, including President Donald Trump’s continuation of a naval blockade on Iranian ports, which has restricted crude exports from the Persian Gulf since the conflict began. The blockade remains a key obstacle in negotiations. A sanctioned tanker carrying Iranian oil was also seen attempting to leave the Strait of Hormuz, highlighting ongoing tensions in the vital shipping route that has seen sharply reduced flows since the war began.</span>&nbsp;<a href="#" class="morelink">more</a></span></div>
-                    <small class="te-stream-date">2026-04-24</small><br>
+        <div class="card-body" style="text-align: justify">
+            
+            Compare: <a href="http://tradingeconomics.com/country-list/gdp" target="_blank" style="text-decoration: underline">GDP by Country</a>
+                     
+        </div>
+    </div><br>
+
+</div>
+
+
+
+<script type="application/ld+json">{"@context": "http://schema.org","@type": "BreadcrumbList","itemListElement": [{"@type": "ListItem","position": 0,"item": {"@id": "https://tradingeconomics.com","name": "tradingeconomics.com"}},{"@type": "ListItem","position": 1,"item": {"@id": "https://tradingeconomics.com/germany/indicators","name": "Germany"}},{"@type": "ListItem","position": 2,"item": {"@id": "/germany/gdp","name": "GDP"}}]}</script>
+
+
+
+
+
+<style>.news-link {padding-bottom: 5px;}</style>
+<div id="ctl00_ContentPlaceHolder1_ctl03_DivArticles">
+    <div class="row">
+        <div id="ctl00_ContentPlaceHolder1_ctl03_tdRelatedNews" class="col-md-6">
+            <div class="card">
+                <div class="card-header">Related</div>
+                <div class="card-body">
+                    
+                            <div class="news-link"><a href="/germany/government-bond-yield">Germany’s Bund Yield Hovers Above 3% on Inflation Concerns</a></div>
+                            
+                        
+                            <div class="news-link"><a href="/germany/business-confidence">German Business Sentiment Plunges to Six-Year Low</a></div>
+                            
+                        
+                            <div class="news-link"><a href="/germany/stock-market">DAX on Cautious Note</a></div>
+                            
+                        
+                            <div class="news-link"><a href="/sap:gr:eps">SAP earnings above expectations at 1.72 EUR</a></div>
+                            
+                        
+                            <div class="news-link"><a href="/sap:us:eps">SAP earnings below expectations at 1.92 USD</a></div>
+                            
+                        
+                            <div class="news-link"><a href="/germany/manufacturing-pmi">Germany Factory Growth Slows in April</a></div>
+                            
+                        
+                            <div class="news-link"><a href="/germany/services-pmi">German Service Sector Contracts in April</a></div>
+                            
+                        
+                            <div class="news-link"><a href="/germany/composite-pmi">Germany’s Private Sector Contracts in April</a></div>
+                            
+                        
+                            <div class="news-link"><a href="/germany/zew-economic-sentiment-index">German Economic Sentiment Falls to Over 3-Year Low</a></div>
+                            
+                        
+                            <div class="news-link"><a href="/germany/news">German Tax Revenues Rise 3.6% in March</a></div>
+                            
+                        
+                    <br>
+                    <a id="ctl00_ContentPlaceHolder1_ctl03_moreNews" href="news">
+                    <div class="btn-group btn-group-sm">
+                        <button type="button" class="btn btn-outline-secondary" aria-label="More">
+                        <i class="bi bi-plus-lg"></i>
+                        </button>
+                    </div>
+                    </a>
+
                 </div>
-            
-                <div class="list-group-item indc_news_stream te-stream-repeater">
-                    <b>
-                        <a href="/commodity/crude-oil/news/544534">Oil Set for Strong Weekly Surge</a>
-                    </b>
-                    <div class="comment more" data-shortened="true">WTI crude futures rose above $97 per barrel on Friday, on track to gain more than 17% for the week as stalled US-Iran peace negotiations and the continued closure of the Strait of Hormuz fueled supply concerns. Reports indicated that President Donald Trump’s Truth Social posts, along with his decisi<span class="moreellipses">...</span><span class="morecontent"><span style="display: none;">on to maintain a naval blockade of Iranian ports, have complicated prospects for renewed negotiations with Tehran. In a post on Thursday, Trump said he had ordered the US Navy to “shoot and kill” vessels laying mines in the strait, while US forces also boarded a supertanker carrying Iranian oil in the Indian Ocean. Meanwhile, the US-Iran ceasefire has been extended indefinitely as Washington awaits a new formal proposal from Tehran, while the truce between Israel and Lebanon has also been prolonged by three weeks. The ongoing disruption has led to a sharp decline in shipments from major Middle Eastern oil and gas producers, substantially tightening global supply.</span>&nbsp;<a href="#" class="morelink">more</a></span></div>
-                    <small class="te-stream-date">2026-04-23</small><br>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div id="ctl00_ContentPlaceHolder1_ctl03_tdTopNews">
+                <div class="card">
+                    <div class="card-header">Latest</div>
+                    <div class="card-body">
+                        
+                                <div class="news-link"><a href="/euro-area/stock-market">European Stocks Close Lower for 5th Session</a></div>
+                            
+                                <div class="news-link"><a href="/italy/stock-market">FTSE MIB Falls as Middle East Tensions Weigh</a></div>
+                            
+                                <div class="news-link"><a href="/united-kingdom/stock-market">FTSE 100 Falls for 5th Session</a></div>
+                            
+                                <div class="news-link"><a href="/commodity/sugar">Sugar Futures at Over 1-Week High</a></div>
+                            
+                                <div class="news-link"><a href="/canada/government-budget-value">Canada Government Budget Surplus Shrinks in February</a></div>
+                            
+                                <div class="news-link"><a href="/brazil/stock-market">Ibovespa Inches Down as Middle East Tensions Weigh</a></div>
+                            
+                                <div class="news-link"><a href="/united-states/michigan-inflation-expectations">US 1-Year Inflation Outlook at 7-Month High</a></div>
+                            
+                                <div class="news-link"><a href="/united-states/consumer-confidence">US Consumer Sentiment Lowest on Record</a></div>
+                            
+                                <div class="news-link"><a href="/south-africa/government-bond-yield">South Africa 10-Year Bond Yield at Over 2-Week High</a></div>
+                            
+                                <div class="news-link"><a href="/canada/stock-market">TSX Slips Amid US-Iran Standoff</a></div>
+                            
+                        <br>
+                        <a id="ctl00_ContentPlaceHolder1_ctl03_moreTopNews" href="../stream">
+                    <div class="btn-group btn-group-sm">
+                        <button type="button" class="btn btn-outline-secondary" aria-label="More">
+                        <i class="bi bi-plus-lg"></i>
+                        </button>
+                    </div>
+                        </a>
+                    </div>
                 </div>
-            
-                <div class="list-group-item indc_news_stream te-stream-repeater">
-                    <b>
-                        <a href="/commodity/crude-oil/news/544516">Crude Oil Up More Than 4%</a>
-                    </b>
-                    <div class="comment more" data-shortened="true">WTI crude oil futures rose over 4% to around $97 per barrel on Thursday, extending gains for a 4th consecutive session, as Middle East hostilities escalated, the Strait of Hormuz remained closed, and no clear timeline emerged for the resumption of talks. Air defense systems were reportedly activated<span class="moreellipses">...</span><span class="morecontent"><span style="display: none;"> in parts of Tehran today amid signs of hostile aerial activity. Earlier, US President Trump ordered the US Navy to target any vessels laying mines in the Strait and pledged to intensify efforts to secure the waterway. Ceasefire talks were extended indefinitely as the US awaited a new formal proposal, while the blockade remained in effect. Iran signaled no immediate willingness to negotiate under continued US naval restrictions on its ports. The standoff has already led to US interceptions of Iranian tankers, while Tehran has tightened its control over the Strait of Hormuz. The disruption has curtailed flows from key Gulf producers, further tightening global oil supply.</span>&nbsp;<a href="#" class="morelink">more</a></span></div>
-                    <small class="te-stream-date">2026-04-23</small><br>
-                </div>
-            
-            
-        <div id="stream"></div>
-        <div class="card-footer" style="border: none">
-            <div id="stream-btn" class="btn btn-outline-secondary">
-                <i class="bi bi-plus-lg"></i>
             </div>
         </div>
     </div>
-    <br>
-
-</div><script type="application/ld+json">{"@context": "http://schema.org","@type": "BreadcrumbList","itemListElement": [{"@type": "ListItem","position": 0,"item": {"@id": "https://tradingeconomics.com","name": "tradingeconomics.com"}},{"@type": "ListItem","position": 1,"item": {"@id": "https://tradingeconomics.com/commodity/indicators","name": "Commodity"}},{"@type": "ListItem","position": 2,"item": {"@id": "/commodity/crude-oil","name": "Commodity"}}]}</script>
-
+</div>
+<br>
 
 
 
@@ -1367,1534 +1178,862 @@ html_text = """<html><head id="ctl00_Head1"><meta charset="utf-8"><title>
     </div><div id="sidebar">
     <div id="PanelAllMenus">
 	
-        
+        <div id="ctl00_SidebarUC1_ctl00_countrySelectionPanel" style="padding-bottom: 5px;">
+    
+<select aria-label="Select Countries" id="SelectCountries" class="form-select" onchange="window.location=this.options[this.selectedIndex].value">
+    <option value="" selected="selected">
+         Germany
+    </option>
+    <option value="/united-states/indicators">United States</option>
+    <option value="/united-kingdom/indicators">United Kingdom</option>
+    <option value="/euro-area/indicators">Euro area</option>
+    <option value="/china/indicators">China</option>
+    <option value="/afghanistan/indicators">Afghanistan</option>
+    <option value="/albania/indicators">Albania</option>
+    <option value="/algeria/indicators">Algeria</option>
+    <option value="/andorra/indicators">Andorra</option>
+    <option value="/angola/indicators">Angola</option>
+    <option value="/antigua-and-barbuda/indicators">Antigua and Barbuda</option>
+    <option value="/argentina/indicators">Argentina</option>
+    <option value="/armenia/indicators">Armenia</option>
+    <option value="/aruba/indicators">Aruba</option>
+    <option value="/australia/indicators">Australia</option>
+    <option value="/austria/indicators">Austria</option>
+    <option value="/azerbaijan/indicators">Azerbaijan</option>
+    <option value="/bahamas/indicators">Bahamas</option>
+    <option value="/bahrain/indicators">Bahrain</option>
+    <option value="/bangladesh/indicators">Bangladesh</option>
+    <option value="/barbados/indicators">Barbados</option>
+    <option value="/belarus/indicators">Belarus</option>
+    <option value="/belgium/indicators">Belgium</option>
+    <option value="/belize/indicators">Belize</option>
+    <option value="/benin/indicators">Benin</option>
+    <option value="/bermuda/indicators">Bermuda</option>
+    <option value="/bhutan/indicators">Bhutan</option>
+    <option value="/bolivia/indicators">Bolivia</option>
+    <option value="/bosnia-and-herzegovina/indicators">Bosnia</option>
+    <option value="/botswana/indicators">Botswana</option>
+    <option value="/brazil/indicators">Brazil</option>
+    <option value="/brunei/indicators">Brunei</option>
+    <option value="/bulgaria/indicators">Bulgaria</option>
+    <option value="/burkina-faso/indicators">Burkina Faso</option>
+    <option value="/burundi/indicators">Burundi</option>
+    <option value="/cambodia/indicators">Cambodia</option>
+    <option value="/cameroon/indicators">Cameroon</option>
+    <option value="/canada/indicators">Canada</option>
+    <option value="/cape-verde/indicators">Cape Verde</option>
+    <option value="/cayman-islands/indicators">Cayman Islands</option>
+    <option value="/central-african-republic/indicators">Central African Republic</option>
+    <option value="/chad/indicators">Chad</option>
+    <option value="/channel-islands/indicators">Channel Islands</option>
+    <option value="/chile/indicators">Chile</option>
+    <option value="/china/indicators">China</option>
+    <option value="/colombia/indicators">Colombia</option>
+    <option value="/comoros/indicators">Comoros</option>
+    <option value="/congo/indicators">Congo</option>
+    <option value="/costa-rica/indicators">Costa Rica</option>
+    <option value="/cote-d-ivoire/indicators">Cote d Ivoire</option>
+    <option value="/croatia/indicators">Croatia</option>
+    <option value="/cuba/indicators">Cuba</option>
+    <option value="/cyprus/indicators">Cyprus</option>
+    <option value="/czech-republic/indicators">Czech Republic</option>
+    <option value="/denmark/indicators">Denmark</option>
+    <option value="/djibouti/indicators">Djibouti</option>
+    <option value="/dominica/indicators">Dominica</option>
+    <option value="/dominican-republic/indicators">Dominican Republic</option>
+    <option value="/east-asia-and-pacific/indicators">East Asia and Pacific</option>
+    <option value="/east-timor/indicators">East Timor</option>
+    <option value="/ecuador/indicators">Ecuador</option>
+    <option value="/egypt/indicators">Egypt</option>
+    <option value="/el-salvador/indicators">El Salvador</option>
+    <option value="/equatorial-guinea/indicators">Equatorial Guinea</option>
+    <option value="/eritrea/indicators">Eritrea</option>
+    <option value="/estonia/indicators">Estonia</option>
+    <option value="/ethiopia/indicators">Ethiopia</option>
+    <option value="/euro-area/indicators">Euro area</option>
+    <option value="/european-union/indicators">European Union</option>
+    <option value="/europe-and-central-asia/indicators">Europe and Central Asia</option>
+    <option value="/faeroe-islands/indicators">Faeroe Islands</option>
+    <option value="/fiji/indicators">Fiji</option>
+    <option value="/finland/indicators">Finland</option>
+    <option value="/france/indicators">France</option>
+    <option value="/french-polynesia/indicators">French Polynesia</option>
+    <option value="/gabon/indicators">Gabon</option>
+    <option value="/gambia/indicators">Gambia</option>
+    <option value="/georgia/indicators">Georgia</option>
+    <option value="/germany/indicators">Germany</option>
+    <option value="/ghana/indicators">Ghana</option>
+    <option value="/greece/indicators">Greece</option>
+    <option value="/greenland/indicators">Greenland</option>
+    <option value="/grenada/indicators">Grenada</option>
+    <option value="/guam/indicators">Guam</option>
+    <option value="/guatemala/indicators">Guatemala</option>
+    <option value="/guinea/indicators">Guinea</option>
+    <option value="/guinea-bissau/indicators">Guinea Bissau</option>
+    <option value="/guyana/indicators">Guyana</option>
+    <option value="/haiti/indicators">Haiti</option>
+    <option value="/honduras/indicators">Honduras</option>
+    <option value="/hong-kong/indicators">Hong Kong</option>
+    <option value="/hungary/indicators">Hungary</option>
+    <option value="/iceland/indicators">Iceland</option>
+    <option value="/india/indicators">India</option>
+    <option value="/indonesia/indicators">Indonesia</option>
+    <option value="/iran/indicators">Iran</option>
+    <option value="/iraq/indicators">Iraq</option>
+    <option value="/ireland/indicators">Ireland</option>
+    <option value="/isle-of-man/indicators">Isle of Man</option>
+    <option value="/israel/indicators">Israel</option>
+    <option value="/italy/indicators">Italy</option>
+    <option value="/ivory-coast/indicators">Ivory Coast</option>
+    <option value="/jamaica/indicators">Jamaica</option>
+    <option value="/japan/indicators">Japan</option>
+    <option value="/jordan/indicators">Jordan</option>
+    <option value="/kazakhstan/indicators">Kazakhstan</option>
+    <option value="/kenya/indicators">Kenya</option>
+    <option value="/kiribati/indicators">Kiribati</option>
+    <option value="/kosovo/indicators">Kosovo</option>
+    <option value="/kuwait/indicators">Kuwait</option>
+    <option value="/kyrgyzstan/indicators">Kyrgyzstan</option>
+    <option value="/laos/indicators">Laos</option>
+    <option value="/latvia/indicators">Latvia</option>
+    <option value="/lebanon/indicators">Lebanon</option>
+    <option value="/lesotho/indicators">Lesotho</option>
+    <option value="/liberia/indicators">Liberia</option>
+    <option value="/libya/indicators">Libya</option>
+    <option value="/liechtenstein/indicators">Liechtenstein</option>
+    <option value="/lithuania/indicators">Lithuania</option>
+    <option value="/luxembourg/indicators">Luxembourg</option>
+    <option value="/macau/indicators">Macau</option>
+    <option value="/macedonia/indicators">Macedonia</option>
+    <option value="/madagascar/indicators">Madagascar</option>
+    <option value="/malawi/indicators">Malawi</option>
+    <option value="/malaysia/indicators">Malaysia</option>
+    <option value="/maldives/indicators">Maldives</option>
+    <option value="/mali/indicators">Mali</option>
+    <option value="/malta/indicators">Malta</option>
+    <option value="/marshall-islands/indicators">Marshall Islands</option>
+    <option value="/mauritania/indicators">Mauritania</option>
+    <option value="/mauritius/indicators">Mauritius</option>
+    <option value="/mayotte/indicators">Mayotte</option>
+    <option value="/mexico/indicators">Mexico</option>
+    <option value="/micronesia/indicators">Micronesia</option>
+    <option value="/moldova/indicators">Moldova</option>
+    <option value="/monaco/indicators">Monaco</option>
+    <option value="/mongolia/indicators">Mongolia</option>
+    <option value="/montenegro/indicators">Montenegro</option>
+    <option value="/morocco/indicators">Morocco</option>
+    <option value="/mozambique/indicators">Mozambique</option>
+    <option value="/myanmar/indicators">Myanmar</option>
+    <option value="/namibia/indicators">Namibia</option>
+    <option value="/nepal/indicators">Nepal</option>
+    <option value="/netherlands/indicators">Netherlands</option>
+    <option value="/netherlands-antilles/indicators">Netherlands Antilles</option>
+    <option value="/new-caledonia/indicators">New Caledonia</option>
+    <option value="/new-zealand/indicators">New Zealand</option>
+    <option value="/nicaragua/indicators">Nicaragua</option>
+    <option value="/niger/indicators">Niger</option>
+    <option value="/nigeria/indicators">Nigeria</option>
+    <option value="/north-korea/indicators">North Korea</option>
+    <option value="/norway/indicators">Norway</option>
+    <option value="/oman/indicators">Oman</option>
+    <option value="/pakistan/indicators">Pakistan</option>
+    <option value="/palau/indicators">Palau</option>
+    <option value="/panama/indicators">Panama</option>
+    <option value="/palestine/indicators">Palestine</option>
+    <option value="/papua-new-guinea/indicators">Papua New Guinea</option>
+    <option value="/paraguay/indicators">Paraguay</option>
+    <option value="/peru/indicators">Peru</option>
+    <option value="/philippines/indicators">Philippines</option>
+    <option value="/poland/indicators">Poland</option>
+    <option value="/portugal/indicators">Portugal</option>
+    <option value="/puerto-rico/indicators">Puerto Rico</option>
+    <option value="/qatar/indicators">Qatar</option>
+    <option value="/republic-of-the-congo/indicators">Republic of the Congo</option>
+    <option value="/romania/indicators">Romania</option>
+    <option value="/russia/indicators">Russia</option>
+    <option value="/rwanda/indicators">Rwanda</option>
+    <option value="/samoa/indicators">Samoa</option>
+    <option value="/sao-tome-and-principe/indicators">Sao Tome and Principe</option>
+    <option value="/saudi-arabia/indicators">Saudi Arabia</option>
+    <option value="/senegal/indicators">Senegal</option>
+    <option value="/serbia/indicators">Serbia</option>
+    <option value="/seychelles/indicators">Seychelles</option>
+    <option value="/sierra-leone/indicators">Sierra Leone</option>
+    <option value="/singapore/indicators">Singapore</option>
+    <option value="/slovakia/indicators">Slovakia</option>
+    <option value="/slovenia/indicators">Slovenia</option>
+    <option value="/solomon-islands/indicators">Solomon Islands</option>
+    <option value="/somalia/indicators">Somalia</option>
+    <option value="/south-africa/indicators">South Africa</option>
+    <option value="/south-asia/indicators">South Asia</option>
+    <option value="/south-korea/indicators">South Korea</option>
+    <option value="/south-sudan/indicators">South Sudan</option>
+    <option value="/spain/indicators">Spain</option>
+    <option value="/sri-lanka/indicators">Sri Lanka</option>
+    <option value="/sudan/indicators">Sudan</option>
+    <option value="/suriname/indicators">Suriname</option>
+    <option value="/swaziland/indicators">Swaziland</option>
+    <option value="/sweden/indicators">Sweden</option>
+    <option value="/switzerland/indicators">Switzerland</option>
+    <option value="/syria/indicators">Syria</option>
+    <option value="/taiwan/indicators">Taiwan</option>
+    <option value="/tajikistan/indicators">Tajikistan</option>
+    <option value="/tanzania/indicators">Tanzania</option>
+    <option value="/thailand/indicators">Thailand</option>
+    <option value="/timor-leste/indicators">Timor Leste</option>
+    <option value="/togo/indicators">Togo</option>
+    <option value="/tonga/indicators">Tonga</option>
+    <option value="/trinidad-and-tobago/indicators">Trinidad and Tobago</option>
+    <option value="/tunisia/indicators">Tunisia</option>
+    <option value="/turkey/indicators">Turkey</option>
+    <option value="/turkmenistan/indicators">Turkmenistan</option>
+    <option value="/uganda/indicators">Uganda</option>
+    <option value="/ukraine/indicators">Ukraine</option>
+    <option value="/united-arab-emirates/indicators">United Arab Emirates</option>
+    <option value="/united-kingdom/indicators">United Kingdom</option>
+    <option value="/united-states/indicators">United States</option>
+    <option value="/uruguay/indicators">Uruguay</option>
+    <option value="/uzbekistan/indicators">Uzbekistan</option>
+    <option value="/vanuatu/indicators">Vanuatu</option>
+    <option value="/venezuela/indicators">Venezuela</option>
+    <option value="/vietnam/indicators">Vietnam</option>
+    <option value="/virgin-islands/indicators">Virgin Islands</option>
+    <option value="/yemen/indicators">Yemen</option>
+    <option value="/zambia/indicators">Zambia</option>
+    <option value="/zimbabwe/indicators">Zimbabwe</option>
+</select>
 
-<style>
-#market-widget .nav {flex-wrap:nowrap;justify-content:space-between;align-items:center}#market-widget .nav>li {flex:1;display:grid}#market-widget .nav>li>a {text-align:center;padding-left: 3px;padding-right: 3px;outline:none;}
 
-.market-widget-thead{font-size: 12px;}.market-widget-th-left{text-align: left;}.market-widget-th-center{text-align: center;}.market-widget-row{padding: 0px;}.market-widget-first{padding-left: 10px!important; max-width: 80px; overflow: hidden;}.market-widget-last{text-align: center;max-width: 70px; overflow: hidden;}.market-widget-change{text-align: left; min-width: 70px}.market-widget-pct{text-align: center;}
-@media only screen and (min-width: 992px) and (max-width: 1536px) {#market-widget .nav>li>a { font-size: 13px;}}
-@media only screen and (max-width: 380px) {#market-widget .nav > li > a {padding-left: 3px;padding-right: 3px;font-size:14px}.market-widget-last{max-width: 63px;}}
-.modal{ --bs-modal-header-border-color: none !important; --bs-modal-footer-border-color:none !important; }
-</style>
-
-
-<div id="ctl00_SidebarUC1__ffdd03206af41b93_Panel1">
-	
-<div id="market-widget" class="card">
-    <ul class="nav nav-tabs " role="tablist" id="mainWidget">
-       <li role="presentation" class="nav-item"><a aria-current="page" href="#Commodity" class="active  nav-link d-table-cell" role="tab" data-bs-toggle="tab" aria-label="Navigate to Commodity tab" aria-selected="true">Commodity</a></li>
-       <li role="presentation" class="nav-item"><a aria-current="page" href="#Index" class="  nav-link d-table-cell" role="tab" data-bs-toggle="tab" aria-label="Navigate to Index tab" aria-selected="false" tabindex="-1">Index</a></li>
-       <li role="presentation" class="nav-item d-lg-none d-xl-flex"><a aria-current="page" href="#Share" class="  nav-link d-table-cell flex-fill" role="tab" data-bs-toggle="tab" aria-label="Navigate to Stocks tab" aria-selected="false" tabindex="-1">Stocks</a></li>
-       <li role="presentation" class="nav-item"><a aria-current="page" href="#FX" class="  nav-link d-table-cell" role="tab" data-bs-toggle="tab" aria-label="Navigate to Forex tab" aria-selected="false" tabindex="-1">Forex</a></li>
-       <li role="presentation" class="nav-item"><a aria-current="page" href="#Crypto" class=" nav-link d-table-cell" role="tab" data-bs-toggle="tab" aria-label="Navigate to Crypto tab" aria-selected="false" tabindex="-1">Crypto</a></li>
-       <li role="presentation" class="nav-item"><a aria-current="page" href="#Bond" class=" nav-link d-table-cell" role="tab" data-bs-toggle="tab" aria-label="Navigate to Bond tab" aria-selected="false" tabindex="-1">Bond</a></li>
-    </ul>
-    <div class="tab-content" style="margin-bottom: -15px">
-        
-                <input type="hidden" name="ctl00$SidebarUC1$_ffdd03206af41b93$Repeater1$ctl00$group" id="ctl00_SidebarUC1__ffdd03206af41b93_Repeater1_ctl00_group" value="Commodity">
-                <div role="tabpanel" class="tab-pane fade show active" id="Commodity">
-                        <table class="table table-condensed" style="padding-bottom: -10px;">
-                            <thead class="market-widget-thead">
-                                <tr>
-                                    <th>
-                                        
-                                    </th>
-                                    <th style="text-align: center;">Actual</th>
-                                    <th style="text-align: left;" class="d-lg-none d-xl-table-cell">Chg</th>
-                                    <th style="text-align: center;">%Chg</th>
-                                    
-                                </tr>
-                            </thead>
-                            <tbody>
-                                
-                                        <tr class="datatable-row" data-symbol="CL1:COM" data-decimals="3">
-                                            <td class="datatable-item-first" style="text-wrap: auto">
-                                                <a href="/commodity/crude-oil">Crude Oil</a>
-                                            </td>
-                                            <td id="p" class="market-widget-last" style="background-color: transparent;">95.236</td>
-                                            <td id="nch" class="datatable-item  d-lg-none d-xl-table-cell " style="text-align: left; min-width: 63px; color: darkred;" data-value="-0.614"><span class="market-negative-image"></span> 0.614</td>
-                                            <td id="pch" class="market-widget-pct calendar-item calendar-item-negative" data-value="-0.64" style="color: darkred;">-0.64%</td>
-                                          
-                                        </tr>
-                                    
-                                        <tr class="datatable-row-alternating" data-symbol="CO1:COM" data-decimals="3">
-                                            <td class="datatable-item-first" style="text-wrap: auto">
-                                                <a href="/commodity/brent-crude-oil">Brent</a>
-                                            </td>
-                                            <td id="p" class="market-widget-last" style="background-color: rgb(205, 235, 249);">105.204</td>
-                                            <td id="nch" class="datatable-item  d-lg-none d-xl-table-cell " style="text-align: left; min-width: 63px; color: darkgreen;" data-value="0.1337"><span class="market-positive-image"></span> 0.134</td>
-                                            <td id="pch" class="market-widget-pct calendar-item calendar-item-positive" data-value="0.13" style="color: darkgreen;">0.13%</td>
-                                          
-                                        </tr>
-                                    
-                                        <tr class="datatable-row" data-symbol="NG1:COM" data-decimals="4">
-                                            <td class="datatable-item-first" style="text-wrap: auto">
-                                                <a href="/commodity/natural-gas">Natural gas</a>
-                                            </td>
-                                            <td id="p" class="market-widget-last" style="background-color: transparent;">2.5280</td>
-                                            <td id="nch" class="datatable-item  d-lg-none d-xl-table-cell " style="text-align: left; min-width: 63px; color: darkred;" data-value="-0.086"><span class="market-negative-image"></span> 0.086</td>
-                                            <td id="pch" class="market-widget-pct calendar-item calendar-item-negative" data-value="-3.29" style="color: darkred;">-3.29%</td>
-                                          
-                                        </tr>
-                                    
-                                        <tr class="datatable-row-alternating" data-symbol="XB1:COM" data-decimals="4">
-                                            <td class="datatable-item-first" style="text-wrap: auto">
-                                                <a href="/commodity/gasoline">Gasoline</a>
-                                            </td>
-                                            <td id="p" class="market-widget-last" style="background-color: rgb(205, 235, 249);">3.4319</td>
-                                            <td id="nch" class="datatable-item  d-lg-none d-xl-table-cell " style="text-align: left; min-width: 63px; color: darkred;" data-value="-0.0302"><span class="market-negative-image"></span> 0.0302</td>
-                                            <td id="pch" class="market-widget-pct calendar-item calendar-item-negative" data-value="-0.87" style="color: darkred;">-0.87%</td>
-                                          
-                                        </tr>
-                                    
-                                        <tr class="datatable-row" data-symbol="HO1:COM" data-decimals="4">
-                                            <td class="datatable-item-first" style="text-wrap: auto">
-                                                <a href="/commodity/heating-oil">Heating Oil</a>
-                                            </td>
-                                            <td id="p" class="market-widget-last" style="background-color: rgb(205, 235, 249);">3.9736</td>
-                                            <td id="nch" class="datatable-item  d-lg-none d-xl-table-cell " style="text-align: left; min-width: 63px; color: darkred;" data-value="-0.0146"><span class="market-negative-image"></span> 0.0146</td>
-                                            <td id="pch" class="market-widget-pct calendar-item calendar-item-negative" data-value="-0.37" style="color: darkred;">-0.37%</td>
-                                          
-                                        </tr>
-                                    
-                                        <tr class="datatable-row-alternating" data-symbol="XAUUSD:CUR" data-decimals="2">
-                                            <td class="datatable-item-first" style="text-wrap: auto">
-                                                <a href="/commodity/gold">Gold</a>
-                                            </td>
-                                            <td id="p" class="market-widget-last" style="background-color: transparent;">4727.79</td>
-                                            <td id="nch" class="datatable-item  d-lg-none d-xl-table-cell " style="text-align: left; min-width: 63px; color: darkgreen;" data-value="29.73"><span class="market-positive-image"></span> 29.73</td>
-                                            <td id="pch" class="market-widget-pct calendar-item calendar-item-positive" data-value="0.63" style="color: darkgreen;">0.63%</td>
-                                          
-                                        </tr>
-                                    
-                                        <tr class="datatable-row" data-symbol="XAGUSD:CUR" data-decimals="3">
-                                            <td class="datatable-item-first" style="text-wrap: auto">
-                                                <a href="/commodity/silver">Silver</a>
-                                            </td>
-                                            <td id="p" class="market-widget-last" style="background-color: transparent;">76.015</td>
-                                            <td id="nch" class="datatable-item  d-lg-none d-xl-table-cell " style="text-align: left; min-width: 63px; color: darkgreen;" data-value="0.635"><span class="market-positive-image"></span> 0.635</td>
-                                            <td id="pch" class="market-widget-pct calendar-item calendar-item-positive" data-value="0.84" style="color: darkgreen;">0.84%</td>
-                                          
-                                        </tr>
-                                    
-                                        <tr class="datatable-row-alternating" data-symbol="HG1:COM" data-decimals="4">
-                                            <td class="datatable-item-first" style="text-wrap: auto">
-                                                <a href="/commodity/copper">Copper</a>
-                                            </td>
-                                            <td id="p" class="market-widget-last">
-                                                 
-                                                6.0235 
-                                            </td>
-                                            <td id="nch" class="datatable-item  d-lg-none d-xl-table-cell " style="text-align: left; min-width: 63px">
-                                                <span class="market-negative-image"></span>
-                                                0.05 
-                                            </td>
-                                            <td id="pch" class="market-widget-pct calendar-item calendar-item-negative">
-                                                -0.86%
-                                            </td>
-                                          
-                                        </tr>
-                                    
-                                        <tr class="datatable-row" data-symbol="S 1:COM" data-decimals="2">
-                                            <td class="datatable-item-first" style="text-wrap: auto">
-                                                <a href="/commodity/soybeans">Soybeans</a>
-                                            </td>
-                                            <td id="p" class="market-widget-last" style="background-color: transparent;">1159.80</td>
-                                            <td id="nch" class="datatable-item  d-lg-none d-xl-table-cell " style="text-align: left; min-width: 63px; color: darkgreen;" data-value="0.0472"><span class="market-positive-image"></span> 0.05</td>
-                                            <td id="pch" class="market-widget-pct calendar-item calendar-item-negative" data-value="0" style="color: darkgreen;">0.00%</td>
-                                          
-                                        </tr>
-                                    
-                                        <tr class="datatable-row-alternating" data-symbol="W 1:COM" data-decimals="2">
-                                            <td class="datatable-item-first" style="text-wrap: auto">
-                                                <a href="/commodity/wheat">Wheat</a>
-                                            </td>
-                                            <td id="p" class="market-widget-last">
-                                                 
-                                                606.04 
-                                            </td>
-                                            <td id="nch" class="datatable-item  d-lg-none d-xl-table-cell " style="text-align: left; min-width: 63px">
-                                                <span class="market-negative-image"></span>
-                                                4.71 
-                                            </td>
-                                            <td id="pch" class="market-widget-pct calendar-item calendar-item-negative">
-                                                -0.77%
-                                            </td>
-                                          
-                                        </tr>
-                                    
-                                        <tr class="datatable-row" data-symbol="XAL1:COM" data-decimals="2">
-                                            <td class="datatable-item-first" style="text-wrap: auto">
-                                                <a href="/commodity/coal">Coal</a>
-                                            </td>
-                                            <td id="p" class="market-widget-last">
-                                                 
-                                                129.10 
-                                            </td>
-                                            <td id="nch" class="datatable-item  d-lg-none d-xl-table-cell " style="text-align: left; min-width: 63px">
-                                                <span class="market-negative-image"></span>
-                                                3.70 
-                                            </td>
-                                            <td id="pch" class="market-widget-pct calendar-item calendar-item-negative">
-                                                -2.79%
-                                            </td>
-                                          
-                                        </tr>
-                                    
-                                        <tr class="datatable-row-alternating" data-symbol="JBP:COM" data-decimals="2">
-                                            <td class="datatable-item-first" style="text-wrap: auto">
-                                                <a href="/commodity/steel">Steel</a>
-                                            </td>
-                                            <td id="p" class="market-widget-last">
-                                                 
-                                                3155.00 
-                                            </td>
-                                            <td id="nch" class="datatable-item  d-lg-none d-xl-table-cell " style="text-align: left; min-width: 63px">
-                                                <span class="market-positive-image"></span>
-                                                20.00 
-                                            </td>
-                                            <td id="pch" class="market-widget-pct calendar-item calendar-item-positive">
-                                                0.64%
-                                            </td>
-                                          
-                                        </tr>
-                                    
-                                        <tr class="datatable-row" data-symbol="NGEU:COM" data-decimals="2">
-                                            <td class="datatable-item-first" style="text-wrap: auto">
-                                                <a href="/commodity/eu-natural-gas">TTF Gas</a>
-                                            </td>
-                                            <td id="p" class="market-widget-last">
-                                                 
-                                                44.41 
-                                            </td>
-                                            <td id="nch" class="datatable-item  d-lg-none d-xl-table-cell " style="text-align: left; min-width: 63px">
-                                                <span class="market-negative-image"></span>
-                                                0.09 
-                                            </td>
-                                            <td id="pch" class="market-widget-pct calendar-item calendar-item-negative">
-                                                -0.20%
-                                            </td>
-                                          
-                                        </tr>
-                                    
-                                        <tr class="datatable-row-alternating" data-symbol="LB1:COM" data-decimals="2">
-                                            <td class="datatable-item-first" style="text-wrap: auto">
-                                                <a href="/commodity/lumber">Lumber</a>
-                                            </td>
-                                            <td id="p" class="market-widget-last">
-                                                 
-                                                582.03 
-                                            </td>
-                                            <td id="nch" class="datatable-item  d-lg-none d-xl-table-cell " style="text-align: left; min-width: 63px">
-                                                <span class="market-negative-image"></span>
-                                                1.47 
-                                            </td>
-                                            <td id="pch" class="market-widget-pct calendar-item calendar-item-negative">
-                                                -0.25%
-                                            </td>
-                                          
-                                        </tr>
-                                    
-                                        <tr class="datatable-row" data-symbol="IOE:COM" data-decimals="2">
-                                            <td class="datatable-item-first" style="text-wrap: auto">
-                                                <a href="/commodity/iron-ore-cny">Iron Ore CNY</a>
-                                            </td>
-                                            <td id="p" class="market-widget-last">
-                                                 
-                                                786.50 
-                                            </td>
-                                            <td id="nch" class="datatable-item  d-lg-none d-xl-table-cell " style="text-align: left; min-width: 63px">
-                                                <span class="market-positive-image"></span>
-                                                3.00 
-                                            </td>
-                                            <td id="pch" class="market-widget-pct calendar-item calendar-item-positive">
-                                                0.38%
-                                            </td>
-                                          
-                                        </tr>
-                                    
-                            </tbody>
-                            <tfoot>
-                                <tr>
-                                    <td colspan="1" class="more-link"><a style="text-decoration: underline" aria-label="Read more" href="/commodities">More</a></td>
-                                </tr>
-                            </tfoot>
-                        </table>
-                </div>
+</div>
+<div id="accordion" class="accordion-flush">
+    
+    <div id="ctl00_SidebarUC1_ctl00_mainPanel" class="accordion-item">
+        <div class="accordion-body">
             
-                <input type="hidden" name="ctl00$SidebarUC1$_ffdd03206af41b93$Repeater1$ctl01$group" id="ctl00_SidebarUC1__ffdd03206af41b93_Repeater1_ctl01_group" value="Currency">
-                <div role="tabpanel" class="tab-pane fade show " id="FX">
-                        <table class="table table-condensed" style="padding-bottom: -10px;">
-                            <thead class="market-widget-thead">
-                                <tr>
-                                    <th>
-                                        
-                                    </th>
-                                    <th style="text-align: center;">Actual</th>
-                                    <th style="text-align: left;" class="d-lg-none d-xl-table-cell">Chg</th>
-                                    <th style="text-align: center;">%Chg</th>
-                                    
-                                </tr>
-                            </thead>
-                            <tbody>
-                                
-                                        <tr class="datatable-row" data-symbol="EURUSD:CUR" data-decimals="5">
-                                            <td class="datatable-item-first" style="text-wrap: auto">
-                                                <a href="/euro-area/currency">EURUSD</a>
-                                            </td>
-                                            <td id="p" class="market-widget-last" style="background-color: rgb(205, 235, 249);">1.17115</td>
-                                            <td id="nch" class="datatable-item  d-lg-none d-xl-table-cell " style="text-align: left; min-width: 63px; color: darkgreen;" data-value="0.00281"><span class="market-positive-image"></span> 0.00281</td>
-                                            <td id="pch" class="market-widget-pct calendar-item calendar-item-positive" data-value="0.24" style="color: darkgreen;">0.24%</td>
-                                          
-                                        </tr>
-                                    
-                                        <tr class="datatable-row-alternating" data-symbol="GBPUSD:CUR" data-decimals="5">
-                                            <td class="datatable-item-first" style="text-wrap: auto">
-                                                <a href="/united-kingdom/currency">GBPUSD</a>
-                                            </td>
-                                            <td id="p" class="market-widget-last" style="background-color: rgb(205, 235, 249);">1.35093</td>
-                                            <td id="nch" class="datatable-item  d-lg-none d-xl-table-cell " style="text-align: left; min-width: 63px; color: darkgreen;" data-value="0.00418"><span class="market-positive-image"></span> 0.00418</td>
-                                            <td id="pch" class="market-widget-pct calendar-item calendar-item-positive" data-value="0.31" style="color: darkgreen;">0.31%</td>
-                                          
-                                        </tr>
-                                    
-                                        <tr class="datatable-row" data-symbol="AUDUSD:CUR" data-decimals="5">
-                                            <td class="datatable-item-first" style="text-wrap: auto">
-                                                <a href="/australia/currency">AUDUSD</a>
-                                            </td>
-                                            <td id="p" class="market-widget-last" style="background-color: rgb(205, 235, 249);">0.71407</td>
-                                            <td id="nch" class="datatable-item  d-lg-none d-xl-table-cell " style="text-align: left; min-width: 63px; color: darkgreen;" data-value="0.00122"><span class="market-positive-image"></span> 0.00122</td>
-                                            <td id="pch" class="market-widget-pct calendar-item calendar-item-positive" data-value="0.17" style="color: darkgreen;">0.17%</td>
-                                          
-                                        </tr>
-                                    
-                                        <tr class="datatable-row-alternating" data-symbol="NZDUSD:CUR" data-decimals="5">
-                                            <td class="datatable-item-first" style="text-wrap: auto">
-                                                <a href="/new-zealand/currency">NZDUSD</a>
-                                            </td>
-                                            <td id="p" class="market-widget-last" style="background-color: rgb(205, 235, 249);">0.58748</td>
-                                            <td id="nch" class="datatable-item  d-lg-none d-xl-table-cell " style="text-align: left; min-width: 63px; color: darkgreen;" data-value="0.00208"><span class="market-positive-image"></span> 0.00208</td>
-                                            <td id="pch" class="market-widget-pct calendar-item calendar-item-positive" data-value="0.36" style="color: darkgreen;">0.36%</td>
-                                          
-                                        </tr>
-                                    
-                                        <tr class="datatable-row" data-symbol="USDJPY:CUR" data-decimals="3">
-                                            <td class="datatable-item-first" style="text-wrap: auto">
-                                                <a href="/japan/currency">USDJPY</a>
-                                            </td>
-                                            <td id="p" class="market-widget-last" style="background-color: transparent;">159.442</td>
-                                            <td id="nch" class="datatable-item  d-lg-none d-xl-table-cell " style="text-align: left; min-width: 63px; color: darkred;" data-value="-0.2595"><span class="market-negative-image"></span> 0.26</td>
-                                            <td id="pch" class="market-widget-pct calendar-item calendar-item-negative" data-value="-0.16" style="color: darkred;">-0.16%</td>
-                                          
-                                        </tr>
-                                    
-                                        <tr class="datatable-row-alternating" data-symbol="USDCNY:CUR" data-decimals="5">
-                                            <td class="datatable-item-first" style="text-wrap: auto">
-                                                <a href="/china/currency">USDCNY</a>
-                                            </td>
-                                            <td id="p" class="market-widget-last" style="background-color: transparent;">6.83451</td>
-                                            <td id="nch" class="datatable-item  d-lg-none d-xl-table-cell " style="text-align: left; min-width: 63px; color: darkred;" data-value="-0.00042"><span class="market-negative-image"></span> 0.00042</td>
-                                            <td id="pch" class="market-widget-pct calendar-item calendar-item-positive" data-value="-0.01" style="color: darkred;">-0.01%</td>
-                                          
-                                        </tr>
-                                    
-                                        <tr class="datatable-row" data-symbol="USDCHF:CUR" data-decimals="5">
-                                            <td class="datatable-item-first" style="text-wrap: auto">
-                                                <a href="/switzerland/currency">USDCHF</a>
-                                            </td>
-                                            <td id="p" class="market-widget-last" style="background-color: rgb(205, 235, 249);">0.78564</td>
-                                            <td id="nch" class="datatable-item  d-lg-none d-xl-table-cell " style="text-align: left; min-width: 63px; color: darkred;" data-value="-0.00092"><span class="market-negative-image"></span> 0.00092</td>
-                                            <td id="pch" class="market-widget-pct calendar-item calendar-item-negative" data-value="-0.12" style="color: darkred;">-0.12%</td>
-                                          
-                                        </tr>
-                                    
-                                        <tr class="datatable-row-alternating" data-symbol="USDCAD:CUR" data-decimals="5">
-                                            <td class="datatable-item-first" style="text-wrap: auto">
-                                                <a href="/canada/currency">USDCAD</a>
-                                            </td>
-                                            <td id="p" class="market-widget-last" style="background-color: rgb(205, 235, 249);">1.36887</td>
-                                            <td id="nch" class="datatable-item  d-lg-none d-xl-table-cell " style="text-align: left; min-width: 63px; color: darkred;" data-value="-0.00121"><span class="market-negative-image"></span> 0.00121</td>
-                                            <td id="pch" class="market-widget-pct calendar-item calendar-item-negative" data-value="-0.09" style="color: darkred;">-0.09%</td>
-                                          
-                                        </tr>
-                                    
-                                        <tr class="datatable-row" data-symbol="USDMXN:CUR" data-decimals="4">
-                                            <td class="datatable-item-first" style="text-wrap: auto">
-                                                <a href="/mexico/currency">USDMXN</a>
-                                            </td>
-                                            <td id="p" class="market-widget-last" style="background-color: rgb(205, 235, 249);">17.4013</td>
-                                            <td id="nch" class="datatable-item  d-lg-none d-xl-table-cell " style="text-align: left; min-width: 63px; color: darkred;" data-value="-0.01857"><span class="market-negative-image"></span> 0.0186</td>
-                                            <td id="pch" class="market-widget-pct calendar-item calendar-item-negative" data-value="-0.11" style="color: darkred;">-0.11%</td>
-                                          
-                                        </tr>
-                                    
-                                        <tr class="datatable-row-alternating" data-symbol="USDINR:CUR" data-decimals="4">
-                                            <td class="datatable-item-first" style="text-wrap: auto">
-                                                <a href="/india/currency">USDINR</a>
-                                            </td>
-                                            <td id="p" class="market-widget-last">
-                                                 
-                                                94.1790 
-                                            </td>
-                                            <td id="nch" class="datatable-item  d-lg-none d-xl-table-cell " style="text-align: left; min-width: 63px">
-                                                <span class="market-positive-image"></span>
-                                                0.0867 
-                                            </td>
-                                            <td id="pch" class="market-widget-pct calendar-item calendar-item-positive">
-                                                0.09%
-                                            </td>
-                                          
-                                        </tr>
-                                    
-                                        <tr class="datatable-row" data-symbol="USDBRL:CUR" data-decimals="5">
-                                            <td class="datatable-item-first" style="text-wrap: auto">
-                                                <a href="/brazil/currency">USDBRL</a>
-                                            </td>
-                                            <td id="p" class="market-widget-last">
-                                                 
-                                                5.01770 
-                                            </td>
-                                            <td id="nch" class="datatable-item  d-lg-none d-xl-table-cell " style="text-align: left; min-width: 63px">
-                                                <span class="market-negative-image"></span>
-                                                0.0100 
-                                            </td>
-                                            <td id="pch" class="market-widget-pct calendar-item calendar-item-negative">
-                                                -0.20%
-                                            </td>
-                                          
-                                        </tr>
-                                    
-                                        <tr class="datatable-row-alternating" data-symbol="USDRUB:CUR" data-decimals="4">
-                                            <td class="datatable-item-first" style="text-wrap: auto">
-                                                <a href="/russia/currency">USDRUB</a>
-                                            </td>
-                                            <td id="p" class="market-widget-last">
-                                                 
-                                                75.3583 
-                                            </td>
-                                            <td id="nch" class="datatable-item  d-lg-none d-xl-table-cell " style="text-align: left; min-width: 63px">
-                                                <span class="market-negative-image"></span>
-                                                0.5167 
-                                            </td>
-                                            <td id="pch" class="market-widget-pct calendar-item calendar-item-negative">
-                                                -0.68%
-                                            </td>
-                                          
-                                        </tr>
-                                    
-                                        <tr class="datatable-row" data-symbol="USDKRW:CUR" data-decimals="2">
-                                            <td class="datatable-item-first" style="text-wrap: auto">
-                                                <a href="/south-korea/currency">USDKRW</a>
-                                            </td>
-                                            <td id="p" class="market-widget-last">
-                                                 
-                                                1479.05 
-                                            </td>
-                                            <td id="nch" class="datatable-item  d-lg-none d-xl-table-cell " style="text-align: left; min-width: 63px">
-                                                <span class="market-negative-image"></span>
-                                                2.5900 
-                                            </td>
-                                            <td id="pch" class="market-widget-pct calendar-item calendar-item-negative">
-                                                -0.17%
-                                            </td>
-                                          
-                                        </tr>
-                                    
-                                        <tr class="datatable-row-alternating" data-symbol="DXY:CUR" data-decimals="3">
-                                            <td class="datatable-item-first" style="text-wrap: auto">
-                                                <a href="/united-states/currency">DXY</a>
-                                            </td>
-                                            <td id="p" class="market-widget-last" style="background-color: rgb(205, 235, 249);">98.607</td>
-                                            <td id="nch" class="datatable-item  d-lg-none d-xl-table-cell " style="text-align: left; min-width: 63px; color: darkred;" data-value="-0.16322"><span class="market-negative-image"></span> 0.163</td>
-                                            <td id="pch" class="market-widget-pct calendar-item calendar-item-negative" data-value="-0.17" style="color: darkred;">-0.17%</td>
-                                          
-                                        </tr>
-                                    
-                                        <tr class="datatable-row" data-symbol="USDTRY:CUR" data-decimals="4">
-                                            <td class="datatable-item-first" style="text-wrap: auto">
-                                                <a href="/turkey/currency">USDTRY</a>
-                                            </td>
-                                            <td id="p" class="market-widget-last">
-                                                 
-                                                45.0247 
-                                            </td>
-                                            <td id="nch" class="datatable-item  d-lg-none d-xl-table-cell " style="text-align: left; min-width: 63px">
-                                                <span class="market-positive-image"></span>
-                                                0.0460 
-                                            </td>
-                                            <td id="pch" class="market-widget-pct calendar-item calendar-item-positive">
-                                                0.10%
-                                            </td>
-                                          
-                                        </tr>
-                                    
-                            </tbody>
-                            <tfoot>
-                                <tr>
-                                    <td colspan="1" class="more-link"><a style="text-decoration: underline" aria-label="Read more" href="/currencies">More</a></td>
-                                </tr>
-                            </tfoot>
-                        </table>
-                </div>
-            
-                <input type="hidden" name="ctl00$SidebarUC1$_ffdd03206af41b93$Repeater1$ctl02$group" id="ctl00_SidebarUC1__ffdd03206af41b93_Repeater1_ctl02_group" value="Index">
-                <div role="tabpanel" class="tab-pane fade show " id="Index">
-                        <table class="table table-condensed" style="padding-bottom: -10px;">
-                            <thead class="market-widget-thead">
-                                <tr>
-                                    <th>
-                                        
-                                    </th>
-                                    <th style="text-align: center;">Actual</th>
-                                    <th style="text-align: left;" class="d-lg-none d-xl-table-cell">Chg</th>
-                                    <th style="text-align: center;">%Chg</th>
-                                    <th class=""></th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                
-                                        <tr class="datatable-row" data-symbol="SPX:IND" data-decimals="2">
-                                            <td class="datatable-item-first" style="text-wrap: auto">
-                                                <a href="/united-states/stock-market">US500</a>
-                                            </td>
-                                            <td id="p" class="market-widget-last" style="background-color: rgb(205, 235, 249);">7127.30</td>
-                                            <td id="nch" class="datatable-item  d-lg-none d-xl-table-cell " style="text-align: left; min-width: 63px; color: darkgreen;" data-value="19.1538"><span class="market-positive-image"></span> 19.15</td>
-                                            <td id="pch" class="market-widget-pct calendar-item calendar-item-positive" data-value="0.27" style="color: darkgreen;">0.27%</td>
-                                         <td id="session" class="d-none d-md-table-cell"><span class="bi bi-clock" style="font-size:10px; color: green" title="open trading session"></span></td> 
-                                        </tr>
-                                    
-                                        <tr class="datatable-row-alternating" data-symbol="INDU:IND" data-decimals="0">
-                                            <td class="datatable-item-first" style="text-wrap: auto">
-                                                <a href="/indu:ind">US30</a>
-                                            </td>
-                                            <td id="p" class="market-widget-last" style="background-color: transparent;">49163</td>
-                                            <td id="nch" class="datatable-item  d-lg-none d-xl-table-cell " style="text-align: left; min-width: 63px; color: darkred;" data-value="-146.83854"><span class="market-negative-image"></span> 147</td>
-                                            <td id="pch" class="market-widget-pct calendar-item calendar-item-negative" data-value="-0.3" style="color: darkred;">-0.30%</td>
-                                         <td id="session" class="d-none d-md-table-cell"><span class="bi bi-clock" style="font-size:10px; color: green" title="open trading session"></span></td> 
-                                        </tr>
-                                    
-                                        <tr class="datatable-row" data-symbol="US100:IND" data-decimals="0">
-                                            <td class="datatable-item-first" style="text-wrap: auto">
-                                                <a href="/us100:ind">US100</a>
-                                            </td>
-                                            <td id="p" class="market-widget-last" style="background-color: transparent;">27051</td>
-                                            <td id="nch" class="datatable-item  d-lg-none d-xl-table-cell " style="text-align: left; min-width: 63px; color: darkgreen;" data-value="268.5141"><span class="market-positive-image"></span> 269</td>
-                                            <td id="pch" class="market-widget-pct calendar-item calendar-item-positive" data-value="1" style="color: darkgreen;">1.00%</td>
-                                         <td id="session" class="d-none d-md-table-cell"><span class="bi bi-clock" style="font-size:10px; color: green" title="open trading session"></span></td> 
-                                        </tr>
-                                    
-                                        <tr class="datatable-row-alternating" data-symbol="NKY:IND" data-decimals="0">
-                                            <td class="datatable-item-first" style="text-wrap: auto">
-                                                <a href="/japan/stock-market">JP225</a>
-                                            </td>
-                                            <td id="p" class="market-widget-last" style="background-color: rgb(205, 235, 249);">59675</td>
-                                            <td id="nch" class="datatable-item  d-lg-none d-xl-table-cell " style="text-align: left; min-width: 63px; color: darkgreen;" data-value="534.77"><span class="market-positive-image"></span> 535</td>
-                                            <td id="pch" class="market-widget-pct calendar-item calendar-item-positive" data-value="0.9" style="color: darkgreen;">0.90%</td>
-                                         <td id="session" class="d-none d-md-table-cell"><span class="bi bi-clock" style="font-size:10px; color: #CFB53B" title="after trading session"></span></td> 
-                                        </tr>
-                                    
-                                        <tr class="datatable-row" data-symbol="UKX:IND" data-decimals="0">
-                                            <td class="datatable-item-first" style="text-wrap: auto">
-                                                <a href="/united-kingdom/stock-market">GB100</a>
-                                            </td>
-                                            <td id="p" class="market-widget-last" style="background-color: rgb(205, 235, 249);">10411</td>
-                                            <td id="nch" class="datatable-item  d-lg-none d-xl-table-cell " style="text-align: left; min-width: 63px; color: darkred;" data-value="-46.45858"><span class="market-negative-image"></span> 46</td>
-                                            <td id="pch" class="market-widget-pct calendar-item calendar-item-negative" data-value="-0.44" style="color: darkred;">-0.44%</td>
-                                         <td id="session" class="d-none d-md-table-cell"><span class="bi bi-clock" style="font-size:10px; color: green" title="open trading session"></span></td> 
-                                        </tr>
-                                    
-                                        <tr class="datatable-row-alternating" data-symbol="DAX:IND" data-decimals="0">
-                                            <td class="datatable-item-first" style="text-wrap: auto">
-                                                <a href="/germany/stock-market">DE40</a>
-                                            </td>
-                                            <td id="p" class="market-widget-last" style="background-color: transparent;">24133</td>
-                                            <td id="nch" class="datatable-item  d-lg-none d-xl-table-cell " style="text-align: left; min-width: 63px; color: darkred;" data-value="-22.75"><span class="market-negative-image"></span> 23</td>
-                                            <td id="pch" class="market-widget-pct calendar-item calendar-item-negative" data-value="-0.09" style="color: darkred;">-0.09%</td>
-                                         <td id="session" class="d-none d-md-table-cell"><span class="bi bi-clock" style="font-size:10px; color: green" title="open trading session"></span></td> 
-                                        </tr>
-                                    
-                                        <tr class="datatable-row" data-symbol="CAC:IND" data-decimals="0">
-                                            <td class="datatable-item-first" style="text-wrap: auto">
-                                                <a href="/france/stock-market">FR40</a>
-                                            </td>
-                                            <td id="p" class="market-widget-last" style="background-color: transparent;">8178</td>
-                                            <td id="nch" class="datatable-item  d-lg-none d-xl-table-cell " style="text-align: left; min-width: 63px; color: darkred;" data-value="-49.72"><span class="market-negative-image"></span> 50</td>
-                                            <td id="pch" class="market-widget-pct calendar-item calendar-item-negative" data-value="-0.6" style="color: darkred;">-0.60%</td>
-                                         <td id="session" class="d-none d-md-table-cell"><span class="bi bi-clock" style="font-size:10px; color: green" title="open trading session"></span></td> 
-                                        </tr>
-                                    
-                                        <tr class="datatable-row-alternating" data-symbol="FTSEMIB:IND" data-decimals="0">
-                                            <td class="datatable-item-first" style="text-wrap: auto">
-                                                <a href="/italy/stock-market">IT40</a>
-                                            </td>
-                                            <td id="p" class="market-widget-last" style="background-color: transparent;">47608</td>
-                                            <td id="nch" class="datatable-item  d-lg-none d-xl-table-cell " style="text-align: left; min-width: 63px; color: darkred;" data-value="-299.63328"><span class="market-negative-image"></span> 300</td>
-                                            <td id="pch" class="market-widget-pct calendar-item calendar-item-negative" data-value="-0.63" style="color: darkred;">-0.63%</td>
-                                         <td id="session" class="d-none d-md-table-cell"><span class="bi bi-clock" style="font-size:10px; color: green" title="open trading session"></span></td> 
-                                        </tr>
-                                    
-                                        <tr class="datatable-row" data-symbol="IBEX:IND" data-decimals="0">
-                                            <td class="datatable-item-first" style="text-wrap: auto">
-                                                <a href="/spain/stock-market">ES35</a>
-                                            </td>
-                                            <td id="p" class="market-widget-last" style="background-color: transparent;">17720</td>
-                                            <td id="nch" class="datatable-item  d-lg-none d-xl-table-cell " style="text-align: left; min-width: 63px; color: darkred;" data-value="-165.8995"><span class="market-negative-image"></span> 166</td>
-                                            <td id="pch" class="market-widget-pct calendar-item calendar-item-negative" data-value="-0.93" style="color: darkred;">-0.93%</td>
-                                         <td id="session" class="d-none d-md-table-cell"><span class="bi bi-clock" style="font-size:10px; color: green" title="open trading session"></span></td> 
-                                        </tr>
-                                    
-                                        <tr class="datatable-row-alternating" data-symbol="AS51:IND" data-decimals="0">
-                                            <td class="datatable-item-first" style="text-wrap: auto">
-                                                <a href="/australia/stock-market">ASX200</a>
-                                            </td>
-                                            <td id="p" class="market-widget-last" style="background-color: transparent;">8735</td>
-                                            <td id="nch" class="datatable-item  d-lg-none d-xl-table-cell " style="text-align: left; min-width: 63px; color: darkred;" data-value="-58.40986"><span class="market-negative-image"></span> 58</td>
-                                            <td id="pch" class="market-widget-pct calendar-item calendar-item-negative" data-value="-0.66" style="color: darkred;">-0.66%</td>
-                                         <td id="session" class="d-none d-md-table-cell"><span class="bi bi-clock" style="font-size:10px; color: #CFB53B" title="after trading session"></span></td> 
-                                        </tr>
-                                    
-                                        <tr class="datatable-row" data-symbol="SHCOMP:IND" data-decimals="0">
-                                            <td class="datatable-item-first" style="text-wrap: auto">
-                                                <a href="/china/stock-market">SHANGHAI</a>
-                                            </td>
-                                            <td id="p" class="market-widget-last">
-                                                 
-                                                4080 
-                                            </td>
-                                            <td id="nch" class="datatable-item  d-lg-none d-xl-table-cell " style="text-align: left; min-width: 63px">
-                                                <span class="market-negative-image"></span>
-                                                13 
-                                            </td>
-                                            <td id="pch" class="market-widget-pct calendar-item calendar-item-negative">
-                                                -0.33%
-                                            </td>
-                                         <td id="session" class="d-none d-md-table-cell"><span class="bi bi-clock" style="font-size:10px; color: darkred" title="closed trading session"></span></td> 
-                                        </tr>
-                                    
-                                        <tr class="datatable-row-alternating" data-symbol="SENSEX:IND" data-decimals="0">
-                                            <td class="datatable-item-first" style="text-wrap: auto">
-                                                <a href="/india/stock-market">SENSEX</a>
-                                            </td>
-                                            <td id="p" class="market-widget-last">
-                                                 
-                                                76664 
-                                            </td>
-                                            <td id="nch" class="datatable-item  d-lg-none d-xl-table-cell " style="text-align: left; min-width: 63px">
-                                                <span class="market-negative-image"></span>
-                                                1,000 
-                                            </td>
-                                            <td id="pch" class="market-widget-pct calendar-item calendar-item-negative">
-                                                -1.29%
-                                            </td>
-                                         <td id="session" class="d-none d-md-table-cell"><span class="bi bi-clock" style="font-size:10px; color: darkred" title="closed trading session"></span></td> 
-                                        </tr>
-                                    
-                                        <tr class="datatable-row" data-symbol="SPTSX:IND" data-decimals="0">
-                                            <td class="datatable-item-first" style="text-wrap: auto">
-                                                <a href="/canada/stock-market">TSX</a>
-                                            </td>
-                                            <td id="p" class="market-widget-last">
-                                                 
-                                                33886 
-                                            </td>
-                                            <td id="nch" class="datatable-item  d-lg-none d-xl-table-cell " style="text-align: left; min-width: 63px">
-                                                <span class="market-negative-image"></span>
-                                                27 
-                                            </td>
-                                            <td id="pch" class="market-widget-pct calendar-item calendar-item-negative">
-                                                -0.08%
-                                            </td>
-                                         <td id="session" class="d-none d-md-table-cell"><span class="bi bi-clock" style="font-size:10px; color: green" title="open trading session"></span></td> 
-                                        </tr>
-                                    
-                                        <tr class="datatable-row-alternating" data-symbol="INDEXCF:IND" data-decimals="0">
-                                            <td class="datatable-item-first" style="text-wrap: auto">
-                                                <a href="/russia/stock-market">MOEX</a>
-                                            </td>
-                                            <td id="p" class="market-widget-last" style="background-color: transparent;">2736</td>
-                                            <td id="nch" class="datatable-item  d-lg-none d-xl-table-cell " style="text-align: left; min-width: 63px; color: darkred;" data-value="-35.42996"><span class="market-negative-image"></span> 35</td>
-                                            <td id="pch" class="market-widget-pct calendar-item calendar-item-negative" data-value="-1.28" style="color: darkred;">-1.28%</td>
-                                         <td id="session" class="d-none d-md-table-cell"><span class="bi bi-clock" style="font-size:10px; color: green" title="open trading session"></span></td> 
-                                        </tr>
-                                    
-                                        <tr class="datatable-row" data-symbol="IBOV:IND" data-decimals="0">
-                                            <td class="datatable-item-first" style="text-wrap: auto">
-                                                <a href="/brazil/stock-market">IBOVESPA</a>
-                                            </td>
-                                            <td id="p" class="market-widget-last">
-                                                 
-                                                190887 
-                                            </td>
-                                            <td id="nch" class="datatable-item  d-lg-none d-xl-table-cell " style="text-align: left; min-width: 63px">
-                                                <span class="market-negative-image"></span>
-                                                491 
-                                            </td>
-                                            <td id="pch" class="market-widget-pct calendar-item calendar-item-negative">
-                                                -0.26%
-                                            </td>
-                                         <td id="session" class="d-none d-md-table-cell"><span class="bi bi-clock" style="font-size:10px; color: green" title="open trading session"></span></td> 
-                                        </tr>
-                                    
-                            </tbody>
-                            <tfoot>
-                                <tr>
-                                    <td colspan="1" class="more-link"><a style="text-decoration: underline" aria-label="Read more" href="/stocks">More</a></td>
-                                </tr>
-                            </tfoot>
-                        </table>
-                </div>
-            
-                <input type="hidden" name="ctl00$SidebarUC1$_ffdd03206af41b93$Repeater1$ctl03$group" id="ctl00_SidebarUC1__ffdd03206af41b93_Repeater1_ctl03_group" value="Stocks">
-                <div role="tabpanel" class="tab-pane fade show " id="Share">
-                        <table class="table table-condensed" style="padding-bottom: -10px;">
-                            <thead class="market-widget-thead">
-                                <tr>
-                                    <th>
-                                        
-                                    </th>
-                                    <th style="text-align: center;">Actual</th>
-                                    <th style="text-align: left;" class="d-lg-none d-xl-table-cell">Chg</th>
-                                    <th style="text-align: center;">%Chg</th>
-                                    
-                                </tr>
-                            </thead>
-                            <tbody>
-                                
-                                        <tr class="datatable-row" data-symbol="AAPL:US" data-decimals="2">
-                                            <td class="datatable-item-first" style="text-wrap: auto">
-                                                <a href="/aapl:us">Apple</a>
-                                            </td>
-                                            <td id="p" class="market-widget-last" style="background-color: rgb(205, 235, 249);">272.24</td>
-                                            <td id="nch" class="datatable-item  d-lg-none d-xl-table-cell " style="text-align: left; min-width: 63px; color: darkred;" data-value="-1.18999"><span class="market-negative-image"></span> 1.19</td>
-                                            <td id="pch" class="market-widget-pct calendar-item calendar-item-negative" data-value="-0.44" style="color: darkred;">-0.44%</td>
-                                          
-                                        </tr>
-                                    
-                                        <tr class="datatable-row-alternating" data-symbol="TSLA:US" data-decimals="2">
-                                            <td class="datatable-item-first" style="text-wrap: auto">
-                                                <a href="/tsla:us">Tesla</a>
-                                            </td>
-                                            <td id="p" class="market-widget-last" style="background-color: transparent;">376.34</td>
-                                            <td id="nch" class="datatable-item  d-lg-none d-xl-table-cell " style="text-align: left; min-width: 63px; color: darkgreen;" data-value="2.62"><span class="market-positive-image"></span> 2.62</td>
-                                            <td id="pch" class="market-widget-pct calendar-item calendar-item-positive" data-value="0.7" style="color: darkgreen;">0.70%</td>
-                                          
-                                        </tr>
-                                    
-                                        <tr class="datatable-row" data-symbol="MSFT:US" data-decimals="2">
-                                            <td class="datatable-item-first" style="text-wrap: auto">
-                                                <a href="/msft:us">Microsoft</a>
-                                            </td>
-                                            <td id="p" class="market-widget-last" style="background-color: rgb(205, 235, 249);">418.49</td>
-                                            <td id="nch" class="datatable-item  d-lg-none d-xl-table-cell " style="text-align: left; min-width: 63px; color: darkgreen;" data-value="2.74"><span class="market-positive-image"></span> 2.74</td>
-                                            <td id="pch" class="market-widget-pct calendar-item calendar-item-positive" data-value="0.66" style="color: darkgreen;">0.66%</td>
-                                          
-                                        </tr>
-                                    
-                                        <tr class="datatable-row-alternating" data-symbol="AMZN:US" data-decimals="2">
-                                            <td class="datatable-item-first" style="text-wrap: auto">
-                                                <a href="/amzn:us">Amazon</a>
-                                            </td>
-                                            <td id="p" class="market-widget-last" style="background-color: transparent;">260.43</td>
-                                            <td id="nch" class="datatable-item  d-lg-none d-xl-table-cell " style="text-align: left; min-width: 63px; color: darkgreen;" data-value="5.35"><span class="market-positive-image"></span> 5.35</td>
-                                            <td id="pch" class="market-widget-pct calendar-item calendar-item-positive" data-value="2.1" style="color: darkgreen;">2.10%</td>
-                                          
-                                        </tr>
-                                    
-                                        <tr class="datatable-row" data-symbol="FB:US" data-decimals="2">
-                                            <td class="datatable-item-first" style="text-wrap: auto">
-                                                <a href="/fb:us">Meta</a>
-                                            </td>
-                                            <td id="p" class="market-widget-last" style="background-color: transparent;">666.96</td>
-                                            <td id="nch" class="datatable-item  d-lg-none d-xl-table-cell " style="text-align: left; min-width: 63px; color: darkgreen;" data-value="7.80998"><span class="market-positive-image"></span> 7.81</td>
-                                            <td id="pch" class="market-widget-pct calendar-item calendar-item-positive" data-value="1.18" style="color: darkgreen;">1.18%</td>
-                                          
-                                        </tr>
-                                    
-                                        <tr class="datatable-row-alternating" data-symbol="NVDA:US" data-decimals="2">
-                                            <td class="datatable-item-first" style="text-wrap: auto">
-                                                <a href="/nvda:us">Nvidia</a>
-                                            </td>
-                                            <td id="p" class="market-widget-last" style="background-color: transparent;">202.44</td>
-                                            <td id="nch" class="datatable-item  d-lg-none d-xl-table-cell " style="text-align: left; min-width: 63px; color: darkgreen;" data-value="2.8"><span class="market-positive-image"></span> 2.8</td>
-                                            <td id="pch" class="market-widget-pct calendar-item calendar-item-positive" data-value="1.4" style="color: darkgreen;">1.40%</td>
-                                          
-                                        </tr>
-                                    
-                                        <tr class="datatable-row" data-symbol="V:US" data-decimals="2">
-                                            <td class="datatable-item-first" style="text-wrap: auto">
-                                                <a href="/v:us">Visa</a>
-                                            </td>
-                                            <td id="p" class="market-widget-last" style="background-color: transparent;">307.10</td>
-                                            <td id="nch" class="datatable-item  d-lg-none d-xl-table-cell " style="text-align: left; min-width: 63px; color: darkred;" data-value="-1.78"><span class="market-negative-image"></span> 1.78</td>
-                                            <td id="pch" class="market-widget-pct calendar-item calendar-item-negative" data-value="-0.58" style="color: darkred;">-0.58%</td>
-                                          
-                                        </tr>
-                                    
-                                        <tr class="datatable-row-alternating" data-symbol="JPM:US" data-decimals="2">
-                                            <td class="datatable-item-first" style="text-wrap: auto">
-                                                <a href="/jpm:us">JPMorgan</a>
-                                            </td>
-                                            <td id="p" class="market-widget-last" style="background-color: transparent;">310.09</td>
-                                            <td id="nch" class="datatable-item  d-lg-none d-xl-table-cell " style="text-align: left; min-width: 63px; color: darkred;" data-value="-1.63"><span class="market-negative-image"></span> 1.63</td>
-                                            <td id="pch" class="market-widget-pct calendar-item calendar-item-negative" data-value="-0.52" style="color: darkred;">-0.52%</td>
-                                          
-                                        </tr>
-                                    
-                                        <tr class="datatable-row" data-symbol="ORCL:US" data-decimals="2">
-                                            <td class="datatable-item-first" style="text-wrap: auto">
-                                                <a href="/orcl:us">Oracle</a>
-                                            </td>
-                                            <td id="p" class="market-widget-last" style="background-color: rgb(205, 235, 249);">173.04</td>
-                                            <td id="nch" class="datatable-item  d-lg-none d-xl-table-cell " style="text-align: left; min-width: 63px; color: darkred;" data-value="-3.24"><span class="market-negative-image"></span> 3.24</td>
-                                            <td id="pch" class="market-widget-pct calendar-item calendar-item-negative" data-value="-1.84" style="color: darkred;">-1.84%</td>
-                                          
-                                        </tr>
-                                    
-                                        <tr class="datatable-row-alternating" data-symbol="JNJ:US" data-decimals="2">
-                                            <td class="datatable-item-first" style="text-wrap: auto">
-                                                <a href="/jnj:us">J&amp;J</a>
-                                            </td>
-                                            <td id="p" class="market-widget-last" style="background-color: transparent;">228.29</td>
-                                            <td id="nch" class="datatable-item  d-lg-none d-xl-table-cell " style="text-align: left; min-width: 63px; color: darkred;" data-value="-2.35999"><span class="market-negative-image"></span> 2.36</td>
-                                            <td id="pch" class="market-widget-pct calendar-item calendar-item-negative" data-value="-1.02" style="color: darkred;">-1.02%</td>
-                                          
-                                        </tr>
-                                    
-                                        <tr class="datatable-row" data-symbol="PG:US" data-decimals="2">
-                                            <td class="datatable-item-first" style="text-wrap: auto">
-                                                <a href="/pg:us">P&amp;G</a>
-                                            </td>
-                                            <td id="p" class="market-widget-last" style="background-color: transparent;">150.26</td>
-                                            <td id="nch" class="datatable-item  d-lg-none d-xl-table-cell " style="text-align: left; min-width: 63px; color: darkgreen;" data-value="4.54999"><span class="market-positive-image"></span> 4.55</td>
-                                            <td id="pch" class="market-widget-pct calendar-item calendar-item-positive" data-value="3.12" style="color: darkgreen;">3.12%</td>
-                                          
-                                        </tr>
-                                    
-                                        <tr class="datatable-row-alternating" data-symbol="XOM:US" data-decimals="2">
-                                            <td class="datatable-item-first" style="text-wrap: auto">
-                                                <a href="/xom:us">Exxon Mobil</a>
-                                            </td>
-                                            <td id="p" class="market-widget-last" style="background-color: transparent;">148.73</td>
-                                            <td id="nch" class="datatable-item  d-lg-none d-xl-table-cell " style="text-align: left; min-width: 63px; color: darkred;" data-value="-1.8"><span class="market-negative-image"></span> 1.8</td>
-                                            <td id="pch" class="market-widget-pct calendar-item calendar-item-negative" data-value="-1.2" style="color: darkred;">-1.20%</td>
-                                          
-                                        </tr>
-                                    
-                                        <tr class="datatable-row" data-symbol="GOOG:US" data-decimals="2">
-                                            <td class="datatable-item-first" style="text-wrap: auto">
-                                                <a href="/goog:us">Alphabet</a>
-                                            </td>
-                                            <td id="p" class="market-widget-last">
-                                                 
-                                                337.04 
-                                            </td>
-                                            <td id="nch" class="datatable-item  d-lg-none d-xl-table-cell " style="text-align: left; min-width: 63px">
-                                                <span class="market-negative-image"></span>
-                                                1.85 
-                                            </td>
-                                            <td id="pch" class="market-widget-pct calendar-item calendar-item-negative">
-                                                -0.55%
-                                            </td>
-                                          
-                                        </tr>
-                                    
-                                        <tr class="datatable-row-alternating" data-symbol="GS:US" data-decimals="2">
-                                            <td class="datatable-item-first" style="text-wrap: auto">
-                                                <a href="/gs:us">Goldman Sachs</a>
-                                            </td>
-                                            <td id="p" class="market-widget-last" style="background-color: transparent;">921.43</td>
-                                            <td id="nch" class="datatable-item  d-lg-none d-xl-table-cell " style="text-align: left; min-width: 63px; color: darkred;" data-value="-10.08001"><span class="market-negative-image"></span> 10.08</td>
-                                            <td id="pch" class="market-widget-pct calendar-item calendar-item-negative" data-value="-1.08" style="color: darkred;">-1.08%</td>
-                                          
-                                        </tr>
-                                    
-                                        <tr class="datatable-row" data-symbol="CAT:US" data-decimals="2">
-                                            <td class="datatable-item-first" style="text-wrap: auto">
-                                                <a href="/cat:us">Caterpillar</a>
-                                            </td>
-                                            <td id="p" class="market-widget-last" style="background-color: rgb(205, 235, 249);">827.73</td>
-                                            <td id="nch" class="datatable-item  d-lg-none d-xl-table-cell " style="text-align: left; min-width: 63px; color: darkred;" data-value="-7.50999"><span class="market-negative-image"></span> 7.51</td>
-                                            <td id="pch" class="market-widget-pct calendar-item calendar-item-negative" data-value="-0.9" style="color: darkred;">-0.90%</td>
-                                          
-                                        </tr>
-                                    
-                            </tbody>
-                            <tfoot>
-                                <tr>
-                                    <td colspan="1" class="more-link"><a style="text-decoration: underline" aria-label="Read more" href="/stocks">More</a></td>
-                                </tr>
-                            </tfoot>
-                        </table>
-                </div>
-            
-                <input type="hidden" name="ctl00$SidebarUC1$_ffdd03206af41b93$Repeater1$ctl04$group" id="ctl00_SidebarUC1__ffdd03206af41b93_Repeater1_ctl04_group" value="Bond">
-                <div role="tabpanel" class="tab-pane fade show " id="Bond">
-                        <table class="table table-condensed" style="padding-bottom: -10px;">
-                            <thead class="market-widget-thead">
-                                <tr>
-                                    <th>
-                                        
-                                    </th>
-                                    <th style="text-align: center;">Actual</th>
-                                    <th style="text-align: left;" class="d-lg-none d-xl-table-cell">Chg</th>
-                                    <th style="text-align: center;">%Chg</th>
-                                    
-                                </tr>
-                            </thead>
-                            <tbody>
-                                
-                                        <tr class="datatable-row" data-symbol="USGG10YR:IND" data-decimals="4">
-                                            <td class="datatable-item-first" style="text-wrap: auto">
-                                                <a href="/united-states/government-bond-yield">United States       </a>
-                                            </td>
-                                            <td id="p" class="market-widget-last">
-                                                 
-                                                4.3080 
-                                            </td>
-                                            <td id="nch" class="datatable-item  d-lg-none d-xl-table-cell " style="text-align: left; min-width: 63px">
-                                                <span class="market-negative-image"></span>
-                                                0.021 
-                                            </td>
-                                            <td id="pch" class="market-widget-pct calendar-item calendar-item-negative">
-                                                -0.02%
-                                            </td>
-                                          
-                                        </tr>
-                                    
-                                        <tr class="datatable-row-alternating" data-symbol="GUKG10:IND" data-decimals="4">
-                                            <td class="datatable-item-first" style="text-wrap: auto">
-                                                <a href="/united-kingdom/government-bond-yield">United Kingdom      </a>
-                                            </td>
-                                            <td id="p" class="market-widget-last" style="background-color: transparent;">4.9410</td>
-                                            <td id="nch" class="datatable-item  d-lg-none d-xl-table-cell " style="text-align: left; min-width: 63px; color: darkgreen;" data-value="0.019"><span class="market-positive-image"></span> 0.019</td>
-                                            <td id="pch" class="market-widget-pct calendar-item calendar-item-positive" data-value="0.019" style="color: darkgreen;">0.02%</td>
-                                          
-                                        </tr>
-                                    
-                                        <tr class="datatable-row" data-symbol="GJGB10:IND" data-decimals="4">
-                                            <td class="datatable-item-first" style="text-wrap: auto">
-                                                <a href="/japan/government-bond-yield">Japan               </a>
-                                            </td>
-                                            <td id="p" class="market-widget-last">
-                                                 
-                                                2.4410 
-                                            </td>
-                                            <td id="nch" class="datatable-item  d-lg-none d-xl-table-cell " style="text-align: left; min-width: 63px">
-                                                <span class="market-positive-image"></span>
-                                                0.015 
-                                            </td>
-                                            <td id="pch" class="market-widget-pct calendar-item calendar-item-positive">
-                                                0.01%
-                                            </td>
-                                          
-                                        </tr>
-                                    
-                                        <tr class="datatable-row-alternating" data-symbol="GACGB10:IND" data-decimals="4">
-                                            <td class="datatable-item-first" style="text-wrap: auto">
-                                                <a href="/australia/government-bond-yield">Australia           </a>
-                                            </td>
-                                            <td id="p" class="market-widget-last">
-                                                 
-                                                4.9610 
-                                            </td>
-                                            <td id="nch" class="datatable-item  d-lg-none d-xl-table-cell " style="text-align: left; min-width: 63px">
-                                                <span class="market-negative-image"></span>
-                                                0.048 
-                                            </td>
-                                            <td id="pch" class="market-widget-pct calendar-item calendar-item-negative">
-                                                -0.05%
-                                            </td>
-                                          
-                                        </tr>
-                                    
-                                        <tr class="datatable-row" data-symbol="GDBR10:IND" data-decimals="4">
-                                            <td class="datatable-item-first" style="text-wrap: auto">
-                                                <a href="/germany/government-bond-yield">Germany             </a>
-                                            </td>
-                                            <td id="p" class="market-widget-last" style="background-color: rgb(205, 235, 249);">3.0054</td>
-                                            <td id="nch" class="datatable-item  d-lg-none d-xl-table-cell " style="text-align: left; min-width: 63px; color: darkgreen;" data-value="0.0012"><span class="market-positive-image"></span> 0.0012</td>
-                                            <td id="pch" class="market-widget-pct calendar-item calendar-item-positive" data-value="0.0012" style="color: darkgreen;">0.00%</td>
-                                          
-                                        </tr>
-                                    
-                                        <tr class="datatable-row-alternating" data-symbol="GEBR10Y:IND" data-decimals="4">
-                                            <td class="datatable-item-first" style="text-wrap: auto">
-                                                <a href="/brazil/government-bond-yield">Brazil              </a>
-                                            </td>
-                                            <td id="p" class="market-widget-last">
-                                                 
-                                                13.7200 
-                                            </td>
-                                            <td id="nch" class="datatable-item  d-lg-none d-xl-table-cell " style="text-align: left; min-width: 63px">
-                                                <span class="market-positive-image"></span>
-                                                0.085 
-                                            </td>
-                                            <td id="pch" class="market-widget-pct calendar-item calendar-item-positive">
-                                                0.09%
-                                            </td>
-                                          
-                                        </tr>
-                                    
-                                        <tr class="datatable-row" data-symbol="RUGE10Y:GOV" data-decimals="4">
-                                            <td class="datatable-item-first" style="text-wrap: auto">
-                                                <a href="/russia/government-bond-yield">Russia              </a>
-                                            </td>
-                                            <td id="p" class="market-widget-last">
-                                                 
-                                                14.3100 
-                                            </td>
-                                            <td id="nch" class="datatable-item  d-lg-none d-xl-table-cell " style="text-align: left; min-width: 63px">
-                                                <span class="market-positive-image"></span>
-                                                0.050 
-                                            </td>
-                                            <td id="pch" class="market-widget-pct calendar-item calendar-item-positive">
-                                                0.05%
-                                            </td>
-                                          
-                                        </tr>
-                                    
-                                        <tr class="datatable-row-alternating" data-symbol="GIND10YR:IND" data-decimals="4">
-                                            <td class="datatable-item-first" style="text-wrap: auto">
-                                                <a href="/india/government-bond-yield">India               </a>
-                                            </td>
-                                            <td id="p" class="market-widget-last">
-                                                 
-                                                6.9840 
-                                            </td>
-                                            <td id="nch" class="datatable-item  d-lg-none d-xl-table-cell " style="text-align: left; min-width: 63px">
-                                                <span class="market-positive-image"></span>
-                                                0.035 
-                                            </td>
-                                            <td id="pch" class="market-widget-pct calendar-item calendar-item-positive">
-                                                0.04%
-                                            </td>
-                                          
-                                        </tr>
-                                    
-                                        <tr class="datatable-row" data-symbol="GCAN10YR:IND" data-decimals="4">
-                                            <td class="datatable-item-first" style="text-wrap: auto">
-                                                <a href="/canada/government-bond-yield">Canada              </a>
-                                            </td>
-                                            <td id="p" class="market-widget-last" style="background-color: transparent;">3.4680</td>
-                                            <td id="nch" class="datatable-item  d-lg-none d-xl-table-cell " style="text-align: left; min-width: 63px; color: darkred;" data-value="-0.017"><span class="market-negative-image"></span> 0.017</td>
-                                            <td id="pch" class="market-widget-pct calendar-item calendar-item-negative" data-value="-0.017" style="color: darkred;">-0.02%</td>
-                                          
-                                        </tr>
-                                    
-                                        <tr class="datatable-row-alternating" data-symbol="GBTPGR10:IND" data-decimals="4">
-                                            <td class="datatable-item-first" style="text-wrap: auto">
-                                                <a href="/italy/government-bond-yield">Italy               </a>
-                                            </td>
-                                            <td id="p" class="market-widget-last" style="background-color: transparent;">3.8130</td>
-                                            <td id="nch" class="datatable-item  d-lg-none d-xl-table-cell " style="text-align: left; min-width: 63px; color: darkgreen;" data-value="0.0063"><span class="market-positive-image"></span> 0.0063</td>
-                                            <td id="pch" class="market-widget-pct calendar-item calendar-item-positive" data-value="0.0063" style="color: darkgreen;">0.01%</td>
-                                          
-                                        </tr>
-                                    
-                                        <tr class="datatable-row" data-symbol="GFRN10:IND" data-decimals="4">
-                                            <td class="datatable-item-first" style="text-wrap: auto">
-                                                <a href="/france/government-bond-yield">France              </a>
-                                            </td>
-                                            <td id="p" class="market-widget-last" style="background-color: transparent;">3.6560</td>
-                                            <td id="nch" class="datatable-item  d-lg-none d-xl-table-cell " style="text-align: left; min-width: 63px; color: darkred;" data-value="-0.0106"><span class="market-negative-image"></span> 0.0106</td>
-                                            <td id="pch" class="market-widget-pct calendar-item calendar-item-negative" data-value="-0.0106" style="color: darkred;">-0.01%</td>
-                                          
-                                        </tr>
-                                    
-                                        <tr class="datatable-row-alternating" data-symbol="GSAB10YR:GOV" data-decimals="4">
-                                            <td class="datatable-item-first" style="text-wrap: auto">
-                                                <a href="/south-africa/government-bond-yield">South Africa        </a>
-                                            </td>
-                                            <td id="p" class="market-widget-last">
-                                                 
-                                                8.6200 
-                                            </td>
-                                            <td id="nch" class="datatable-item  d-lg-none d-xl-table-cell " style="text-align: left; min-width: 63px">
-                                                <span class="market-negative-image"></span>
-                                                0.005 
-                                            </td>
-                                            <td id="pch" class="market-widget-pct calendar-item calendar-item-negative">
-                                                -0.01%
-                                            </td>
-                                          
-                                        </tr>
-                                    
-                                        <tr class="datatable-row" data-symbol="GCNY10YR:GOV" data-decimals="4">
-                                            <td class="datatable-item-first" style="text-wrap: auto">
-                                                <a href="/china/government-bond-yield">China               </a>
-                                            </td>
-                                            <td id="p" class="market-widget-last">
-                                                 
-                                                1.7530 
-                                            </td>
-                                            <td id="nch" class="datatable-item  d-lg-none d-xl-table-cell " style="text-align: left; min-width: 63px">
-                                                <span class="market-positive-image"></span>
-                                                0.007 
-                                            </td>
-                                            <td id="pch" class="market-widget-pct calendar-item calendar-item-positive">
-                                                0.01%
-                                            </td>
-                                          
-                                        </tr>
-                                    
-                                        <tr class="datatable-row-alternating" data-symbol="GSWISS10:IND" data-decimals="4">
-                                            <td class="datatable-item-first" style="text-wrap: auto">
-                                                <a href="/switzerland/government-bond-yield">Switzerland         </a>
-                                            </td>
-                                            <td id="p" class="market-widget-last">
-                                                 
-                                                0.4430 
-                                            </td>
-                                            <td id="nch" class="datatable-item  d-lg-none d-xl-table-cell " style="text-align: left; min-width: 63px">
-                                                <span class="market-positive-image"></span>
-                                                0.031 
-                                            </td>
-                                            <td id="pch" class="market-widget-pct calendar-item calendar-item-positive">
-                                                0.03%
-                                            </td>
-                                          
-                                        </tr>
-                                    
-                                        <tr class="datatable-row" data-symbol="CHLGOVBON10Y:GOV" data-decimals="4">
-                                            <td class="datatable-item-first" style="text-wrap: auto">
-                                                <a href="/chile/government-bond-yield">Chile               </a>
-                                            </td>
-                                            <td id="p" class="market-widget-last">
-                                                 
-                                                5.3700 
-                                            </td>
-                                            <td id="nch" class="datatable-item  d-lg-none d-xl-table-cell " style="text-align: left; min-width: 63px">
-                                                <span class="market-positive-image"></span>
-                                                0.010 
-                                            </td>
-                                            <td id="pch" class="market-widget-pct calendar-item calendar-item-positive">
-                                                0.01%
-                                            </td>
-                                          
-                                        </tr>
-                                    
-                            </tbody>
-                            <tfoot>
-                                <tr>
-                                    <td colspan="1" class="more-link"><a style="text-decoration: underline" aria-label="Read more" href="/bonds">More</a></td>
-                                </tr>
-                            </tfoot>
-                        </table>
-                </div>
-            
-                <input type="hidden" name="ctl00$SidebarUC1$_ffdd03206af41b93$Repeater1$ctl05$group" id="ctl00_SidebarUC1__ffdd03206af41b93_Repeater1_ctl05_group" value="Crypto">
-                <div role="tabpanel" class="tab-pane fade show " id="Crypto">
-                        <table class="table table-condensed" style="padding-bottom: -10px;">
-                            <thead class="market-widget-thead">
-                                <tr>
-                                    <th>
-                                        
-                                    </th>
-                                    <th style="text-align: center;">Actual</th>
-                                    <th style="text-align: left;" class="d-lg-none d-xl-table-cell">Chg</th>
-                                    <th style="text-align: center;">%Chg</th>
-                                    
-                                </tr>
-                            </thead>
-                            <tbody>
-                                
-                                        <tr class="datatable-row" data-symbol="BTCUSD:CUR" data-decimals="0">
-                                            <td class="datatable-item-first" style="text-wrap: auto">
-                                                <a href="/btcusd:cur">Bitcoin</a>
-                                            </td>
-                                            <td id="p" class="market-widget-last" style="background-color: transparent;">77911</td>
-                                            <td id="nch" class="datatable-item  d-lg-none d-xl-table-cell " style="text-align: left; min-width: 63px; color: darkred;" data-value="-356"><span class="market-negative-image"></span> 356</td>
-                                            <td id="pch" class="market-widget-pct calendar-item calendar-item-negative" data-value="-0.45" style="color: darkred;">-0.45%</td>
-                                          
-                                        </tr>
-                                    
-                                        <tr class="datatable-row-alternating" data-symbol="ETHUSD:CUR" data-decimals="2">
-                                            <td class="datatable-item-first" style="text-wrap: auto">
-                                                <a href="/ethusd:cur">Ether</a>
-                                            </td>
-                                            <td id="p" class="market-widget-last" style="background-color: transparent;">2309.80</td>
-                                            <td id="nch" class="datatable-item  d-lg-none d-xl-table-cell " style="text-align: left; min-width: 63px; color: darkred;" data-value="-21.39"><span class="market-negative-image"></span> 21.39</td>
-                                            <td id="pch" class="market-widget-pct calendar-item calendar-item-negative" data-value="-0.92" style="color: darkred;">-0.92%</td>
-                                          
-                                        </tr>
-                                    
-                                        <tr class="datatable-row" data-symbol="BNBUSD:CUR" data-decimals="1">
-                                            <td class="datatable-item-first" style="text-wrap: auto">
-                                                <a href="/bnbusd:cur">Binance</a>
-                                            </td>
-                                            <td id="p" class="market-widget-last">
-                                                 
-                                                638.4 
-                                            </td>
-                                            <td id="nch" class="datatable-item  d-lg-none d-xl-table-cell " style="text-align: left; min-width: 63px">
-                                                <span class="market-negative-image"></span>
-                                                0.8700 
-                                            </td>
-                                            <td id="pch" class="market-widget-pct calendar-item calendar-item-negative">
-                                                -0.14%
-                                            </td>
-                                          
-                                        </tr>
-                                    
-                                        <tr class="datatable-row-alternating" data-symbol="ADAUSD:CUR" data-decimals="5">
-                                            <td class="datatable-item-first" style="text-wrap: auto">
-                                                <a href="/adausd:cur">Cardano</a>
-                                            </td>
-                                            <td id="p" class="market-widget-last">
-                                                 
-                                                0.25038 
-                                            </td>
-                                            <td id="nch" class="datatable-item  d-lg-none d-xl-table-cell " style="text-align: left; min-width: 63px">
-                                                <span class="market-positive-image"></span>
-                                                0.0004 
-                                            </td>
-                                            <td id="pch" class="market-widget-pct calendar-item calendar-item-positive">
-                                                0.15%
-                                            </td>
-                                          
-                                        </tr>
-                                    
-                                        <tr class="datatable-row" data-symbol="SOLUSD:CUR" data-decimals="4">
-                                            <td class="datatable-item-first" style="text-wrap: auto">
-                                                <a href="/solusd:cur">Solana</a>
-                                            </td>
-                                            <td id="p" class="market-widget-last">
-                                                 
-                                                85.9533 
-                                            </td>
-                                            <td id="nch" class="datatable-item  d-lg-none d-xl-table-cell " style="text-align: left; min-width: 63px">
-                                                <span class="market-negative-image"></span>
-                                                0.1879 
-                                            </td>
-                                            <td id="pch" class="market-widget-pct calendar-item calendar-item-negative">
-                                                -0.22%
-                                            </td>
-                                          
-                                        </tr>
-                                    
-                                        <tr class="datatable-row-alternating" data-symbol="XRPUSD:CUR" data-decimals="5">
-                                            <td class="datatable-item-first" style="text-wrap: auto">
-                                                <a href="/xrpusd:cur">XRP</a>
-                                            </td>
-                                            <td id="p" class="market-widget-last" style="background-color: rgb(205, 235, 249);">1.43308</td>
-                                            <td id="nch" class="datatable-item  d-lg-none d-xl-table-cell " style="text-align: left; min-width: 63px; color: darkred;" data-value="-0.00573"><span class="market-negative-image"></span> 0.00573</td>
-                                            <td id="pch" class="market-widget-pct calendar-item calendar-item-negative" data-value="-0.4" style="color: darkred;">-0.40%</td>
-                                          
-                                        </tr>
-                                    
-                                        <tr class="datatable-row" data-symbol="DOTUSD:CUR" data-decimals="2">
-                                            <td class="datatable-item-first" style="text-wrap: auto">
-                                                <a href="/dotusd:cur">Polkadot</a>
-                                            </td>
-                                            <td id="p" class="market-widget-last">
-                                                 
-                                                1.25 
-                                            </td>
-                                            <td id="nch" class="datatable-item  d-lg-none d-xl-table-cell " style="text-align: left; min-width: 63px">
-                                                <span class="market-positive-image"></span>
-                                                0.0100 
-                                            </td>
-                                            <td id="pch" class="market-widget-pct calendar-item calendar-item-positive">
-                                                0.81%
-                                            </td>
-                                          
-                                        </tr>
-                                    
-                                        <tr class="datatable-row-alternating" data-symbol="AVXUSD:CUR" data-decimals="2">
-                                            <td class="datatable-item-first" style="text-wrap: auto">
-                                                <a href="/avxusd:cur">Avalanche</a>
-                                            </td>
-                                            <td id="p" class="market-widget-last">
-                                                 
-                                                9.41 
-                                            </td>
-                                            <td id="nch" class="datatable-item  d-lg-none d-xl-table-cell " style="text-align: left; min-width: 63px">
-                                                <span class="market-positive-image"></span>
-                                                0.0200 
-                                            </td>
-                                            <td id="pch" class="market-widget-pct calendar-item calendar-item-positive">
-                                                0.21%
-                                            </td>
-                                          
-                                        </tr>
-                                    
-                                        <tr class="datatable-row" data-symbol="MTCUSD:CUR" data-decimals="2">
-                                            <td class="datatable-item-first" style="text-wrap: auto">
-                                                <a href="/mtcusd:cur">Polygon</a>
-                                            </td>
-                                            <td id="p" class="market-widget-last">
-                                                 
-                                                0.10 
-                                            </td>
-                                            <td id="nch" class="datatable-item  d-lg-none d-xl-table-cell " style="text-align: left; min-width: 63px">
-                                                <span class="market-positive-image"></span>
-                                                0.0009 
-                                            </td>
-                                            <td id="pch" class="market-widget-pct calendar-item calendar-item-positive">
-                                                0.95%
-                                            </td>
-                                          
-                                        </tr>
-                                    
-                                        <tr class="datatable-row-alternating" data-symbol="ATMUSD:CUR" data-decimals="2">
-                                            <td class="datatable-item-first" style="text-wrap: auto">
-                                                <a href="/atmusd:cur">Cosmos</a>
-                                            </td>
-                                            <td id="p" class="market-widget-last">
-                                                 
-                                                1.96 
-                                            </td>
-                                            <td id="nch" class="datatable-item  d-lg-none d-xl-table-cell " style="text-align: left; min-width: 63px">
-                                                <span class="market-positive-image"></span>
-                                                0.0413 
-                                            </td>
-                                            <td id="pch" class="market-widget-pct calendar-item calendar-item-positive">
-                                                2.16%
-                                            </td>
-                                          
-                                        </tr>
-                                    
-                                        <tr class="datatable-row" data-symbol="DAIUSD:CUR" data-decimals="5">
-                                            <td class="datatable-item-first" style="text-wrap: auto">
-                                                <a href="/daiusd:cur">Dai</a>
-                                            </td>
-                                            <td id="p" class="market-widget-last">
-                                                 
-                                                0.99955 
-                                            </td>
-                                            <td id="nch" class="datatable-item  d-lg-none d-xl-table-cell " style="text-align: left; min-width: 63px">
-                                                <span class="market-positive-image"></span>
-                                                0.0596 
-                                            </td>
-                                            <td id="pch" class="market-widget-pct calendar-item calendar-item-positive">
-                                                6.34%
-                                            </td>
-                                          
-                                        </tr>
-                                    
-                                        <tr class="datatable-row-alternating" data-symbol="LTCUSD:CUR" data-decimals="3">
-                                            <td class="datatable-item-first" style="text-wrap: auto">
-                                                <a href="/ltcusd:cur">Litecoin</a>
-                                            </td>
-                                            <td id="p" class="market-widget-last">
-                                                 
-                                                56.140 
-                                            </td>
-                                            <td id="nch" class="datatable-item  d-lg-none d-xl-table-cell " style="text-align: left; min-width: 63px">
-                                                <span class="market-negative-image"></span>
-                                                0.1100 
-                                            </td>
-                                            <td id="pch" class="market-widget-pct calendar-item calendar-item-negative">
-                                                -0.20%
-                                            </td>
-                                          
-                                        </tr>
-                                    
-                                        <tr class="datatable-row" data-symbol="UNIUSD:CUR" data-decimals="2">
-                                            <td class="datatable-item-first" style="text-wrap: auto">
-                                                <a href="/uniusd:cur">Uniswap</a>
-                                            </td>
-                                            <td id="p" class="market-widget-last">
-                                                 
-                                                3.26 
-                                            </td>
-                                            <td id="nch" class="datatable-item  d-lg-none d-xl-table-cell " style="text-align: left; min-width: 63px">
-                                                <span class="market-negative-image"></span>
-                                                0.0347 
-                                            </td>
-                                            <td id="pch" class="market-widget-pct calendar-item calendar-item-negative">
-                                                -1.05%
-                                            </td>
-                                          
-                                        </tr>
-                                    
-                                        <tr class="datatable-row-alternating" data-symbol="ALGUSD:CUR" data-decimals="2">
-                                            <td class="datatable-item-first" style="text-wrap: auto">
-                                                <a href="/algusd:cur">Algorand</a>
-                                            </td>
-                                            <td id="p" class="market-widget-last">
-                                                 
-                                                0.11 
-                                            </td>
-                                            <td id="nch" class="datatable-item  d-lg-none d-xl-table-cell " style="text-align: left; min-width: 63px">
-                                                <span class="market-positive-image"></span>
-                                                0.0023 
-                                            </td>
-                                            <td id="pch" class="market-widget-pct calendar-item calendar-item-positive">
-                                                2.16%
-                                            </td>
-                                          
-                                        </tr>
-                                    
-                                        <tr class="datatable-row" data-symbol="BCHUSD:CUR" data-decimals="2">
-                                            <td class="datatable-item-first" style="text-wrap: auto">
-                                                <a href="/bchusd:cur">Bitcoin Cash</a>
-                                            </td>
-                                            <td id="p" class="market-widget-last">
-                                                 
-                                                459.13 
-                                            </td>
-                                            <td id="nch" class="datatable-item  d-lg-none d-xl-table-cell " style="text-align: left; min-width: 63px">
-                                                <span class="market-negative-image"></span>
-                                                1.5000 
-                                            </td>
-                                            <td id="pch" class="market-widget-pct calendar-item calendar-item-negative">
-                                                -0.33%
-                                            </td>
-                                          
-                                        </tr>
-                                    
-                            </tbody>
-                            <tfoot>
-                                <tr>
-                                    <td colspan="1" class="more-link"><a style="text-decoration: underline" aria-label="Read more" href="/crypto">More</a></td>
-                                </tr>
-                            </tfoot>
-                        </table>
-                </div>
-            
-    </div> 
                 
-</div>
-
-
-</div>
-
-<script>
-    function redirectToAPI() {
-        window.location.href = "https://widgets.tradingeconomics.com/getting-started?utm_source=main-widget";
-    }
-    function showWidgetModal() {
-        if (isLoggedIn) {
-            return redirectToAPI()
-        }
-        let modalChartTitle = ""
-        let modalChartContent = "<div>";
-        modalChartContent += "Take your website to the next level by embedding our customizable widgets! Exclusively for subscribers and priced accordingly to your needs.";
-        modalChartContent += "</div>";
-        let modalChartFooter = "<div style='text-align:center;'><div class='btn-group'>";
-        if (!isLoggedIn) {
-            let buttonPricing = "<a class='btn btn-outline-secondary' href='https://tradingeconomics.com/api/widgets.aspx?utm_source=anonymous-main-widget' target='_blank'>Learn more</a>"
-
-            let buttonContact = "<a class='btn btn-outline-secondary' href='https://tradingeconomics.com/api/contact.aspx?subject=markets+widget' target='_blank'>Questions? <b>Contact us</b></a>"
-            modalChartFooter += buttonPricing + buttonContact;
-        }
-        modalChartFooter += "</div></div>";
-
-
-        var modal = "<div class ='modal' id='chartModal' tabindex='-1' role='dialog' aria-labelledby='myModalLabel'>";
-        modal += "<div class='modal-dialog modal-dialog-centered' role='document'>";
-        modal += "<div class='modal-content'>";
-        modal += "<div class='modal-header'><div class='modal-title'></div><button type='button' class ='btn-close' data-bs-dismiss='modal' aria-label='Close'></button></div>";
-        modal += "<div class='modal-body' style='text-align:justify;'></div>"
-        modal += "<div class='modal-footer'></div>"
-        modal += "</div></div></div>"
-
-        var jModal = $(modal);
-
-        $(jModal).find(".modal-title").html(modalChartTitle);
-
-        if (modalChartContent)
-            $(jModal).find(".modal-body").html(modalChartContent);
-        else
-            $(jModal).find(".modal-body").remove();
-
-
-        if (modalChartFooter)
-            $(jModal).find(".modal-footer").html(modalChartFooter);
-        else
-            $(jModal).find(".modal-footer").remove();
-
-        $(jModal).on('show.bs.modal', function (e) {
-            $(".navbar").css("padding-right", "17px");
-            $(".pagemenu").css("padding-right", "17px");
-            $(".pagetabs").css("padding-right", "17px");
-        });
-
-        $(jModal).on('hide.bs.modal', function (e) {
-            $(".navbar").css("padding-right", "");
-            $(".pagemenu").css("padding-right", "");
-            $(".pagetabs").css("padding-right", "");
-        });
-
-
-        $(jModal).modal("show");
-    }
-</script>
-             <div class="card">
-             <div class="card-header">News</div>  
-             <div class="card-body">
+                    <a id="ctl00_SidebarUC1_ctl00_Repeater0_ctl01_HyperLink1" href="/germany/calendar">Calendar<br>
+                    </a>
+                
+                    <a id="ctl00_SidebarUC1_ctl00_Repeater0_ctl02_HyperLink1" href="/germany/forecast">Forecast<br>
+                    </a>
+                
+                    <a id="ctl00_SidebarUC1_ctl00_Repeater0_ctl03_HyperLink1" href="/germany/indicators">Indicators<br>
+                    </a>
+                
+                    <a id="ctl00_SidebarUC1_ctl00_Repeater0_ctl04_HyperLink1" href="/germany/news">News<br>
+                    </a>
+                
+        </div>
+    </div>
+     
+            <div class="accordion-item" id="selectCategoryAccordion" style="margin: 5px 0px 0px 0px;
+">
+                <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-parent="#accordion" data-bs-target="#0" aria-expanded="false" aria-controls="0">
+                            <b class="dropdown-toggle"></b>&nbsp;&nbsp;Markets
+                        </button>
+                </h2>
+                <div id="0" data-bs-parent="#accordion" class="accordion-collapse collapse ">
+                    <div class="accordion-body">
+                        
+                                <a id="ctl00_SidebarUC1_ctl00_Repeater1_ctl00_Repeater2_ctl00_HyperLink2" href="/germany/government-bond-yield" style="text-decoration: none; text-transform: capitalize;">10-Year Bond Yield</a><br>
+                            
+                                <a id="ctl00_SidebarUC1_ctl00_Repeater1_ctl00_Repeater2_ctl01_HyperLink2" href="/germany/currency" style="text-decoration: none; text-transform: capitalize;">Currency</a><br>
+                            
+                                <a id="ctl00_SidebarUC1_ctl00_Repeater1_ctl00_Repeater2_ctl02_HyperLink2" href="/germany/stock-market" style="text-decoration: none; text-transform: capitalize;">Stock Market</a><br>
+                            
+                    </div>
+                </div>
+            </div>
          
-            <a class="more-indicators-space-item" href="/brazil/stock-market">Ibovespa Inches Down as Middle East T... </a><br>
-            
+            <div class="accordion-item" id="selectCategoryAccordion" style="margin: 5px 0px 0px 0px;
+">
+                <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-parent="#accordion" data-bs-target="#1" aria-expanded="false" aria-controls="1">
+                            <b class="dropdown-toggle"></b>&nbsp;&nbsp;GDP
+                        </button>
+                </h2>
+                <div id="1" data-bs-parent="#accordion" class="accordion-collapse collapse show">
+                    <div class="accordion-body">
+                        
+                                <a id="ctl00_SidebarUC1_ctl00_Repeater1_ctl01_Repeater2_ctl00_HyperLink2" href="/germany/full-year-gdp-growth" style="text-decoration: none; text-transform: capitalize;">Full Year GDP Growth</a><br>
+                            
+                                <a id="ctl00_SidebarUC1_ctl00_Repeater1_ctl01_Repeater2_ctl01_HyperLink2" href="/germany/gdp" style="text-decoration: none; text-transform: capitalize;">GDP</a><br>
+                            
+                                <a id="ctl00_SidebarUC1_ctl00_Repeater1_ctl01_Repeater2_ctl02_HyperLink2" href="/germany/gdp-constant-prices" style="text-decoration: none; text-transform: capitalize;">GDP Constant Prices</a><br>
+                            
+                                <a id="ctl00_SidebarUC1_ctl00_Repeater1_ctl01_Repeater2_ctl03_HyperLink2" href="/germany/gdp-external-demand-contribution" style="text-decoration: none; text-transform: capitalize;">GDP External Demand Contribution</a><br>
+                            
+                                <a id="ctl00_SidebarUC1_ctl00_Repeater1_ctl01_Repeater2_ctl04_HyperLink2" href="/germany/gdp-from-agriculture" style="text-decoration: none; text-transform: capitalize;">GDP from Agriculture</a><br>
+                            
+                                <a id="ctl00_SidebarUC1_ctl00_Repeater1_ctl01_Repeater2_ctl05_HyperLink2" href="/germany/gdp-from-construction" style="text-decoration: none; text-transform: capitalize;">GDP from Construction</a><br>
+                            
+                                <a id="ctl00_SidebarUC1_ctl00_Repeater1_ctl01_Repeater2_ctl06_HyperLink2" href="/germany/gdp-from-manufacturing" style="text-decoration: none; text-transform: capitalize;">GDP from Manufacturing</a><br>
+                            
+                                <a id="ctl00_SidebarUC1_ctl00_Repeater1_ctl01_Repeater2_ctl07_HyperLink2" href="/germany/gdp-from-public-administration" style="text-decoration: none; text-transform: capitalize;">GDP from Public Administration</a><br>
+                            
+                                <a id="ctl00_SidebarUC1_ctl00_Repeater1_ctl01_Repeater2_ctl08_HyperLink2" href="/germany/gdp-from-services" style="text-decoration: none; text-transform: capitalize;">GDP from Services</a><br>
+                            
+                                <a id="ctl00_SidebarUC1_ctl00_Repeater1_ctl01_Repeater2_ctl09_HyperLink2" href="/germany/gdp-growth" style="text-decoration: none; text-transform: capitalize;">GDP Growth Rate</a><br>
+                            
+                                <a id="ctl00_SidebarUC1_ctl00_Repeater1_ctl01_Repeater2_ctl10_HyperLink2" href="/germany/gdp-growth-annual" style="text-decoration: none; text-transform: capitalize;">GDP Growth Rate YoY</a><br>
+                            
+                                <a id="ctl00_SidebarUC1_ctl00_Repeater1_ctl01_Repeater2_ctl11_HyperLink2" href="/germany/gdp-per-capita" style="text-decoration: none; text-transform: capitalize;">GDP per Capita</a><br>
+                            
+                                <a id="ctl00_SidebarUC1_ctl00_Repeater1_ctl01_Repeater2_ctl12_HyperLink2" href="/germany/gdp-per-capita-ppp" style="text-decoration: none; text-transform: capitalize;">GDP per Capita PPP</a><br>
+                            
+                                <a id="ctl00_SidebarUC1_ctl00_Repeater1_ctl01_Repeater2_ctl13_HyperLink2" href="/germany/gross-fixed-capital-formation" style="text-decoration: none; text-transform: capitalize;">Gross Fixed Capital Formation</a><br>
+                            
+                                <a id="ctl00_SidebarUC1_ctl00_Repeater1_ctl01_Repeater2_ctl14_HyperLink2" href="/germany/gross-national-product" style="text-decoration: none; text-transform: capitalize;">Gross National Product</a><br>
+                            
+                    </div>
+                </div>
+            </div>
+         
+            <div class="accordion-item" id="selectCategoryAccordion" style="margin: 5px 0px 0px 0px;
+">
+                <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-parent="#accordion" data-bs-target="#2" aria-expanded="false" aria-controls="2">
+                            <b class="dropdown-toggle"></b>&nbsp;&nbsp;Labour
+                        </button>
+                </h2>
+                <div id="2" data-bs-parent="#accordion" class="accordion-collapse collapse ">
+                    <div class="accordion-body">
+                        
+                                <a id="ctl00_SidebarUC1_ctl00_Repeater1_ctl02_Repeater2_ctl00_HyperLink2" href="/germany/average-annual-wages" style="text-decoration: none; text-transform: capitalize;">Average Annual Wages</a><br>
+                            
+                                <a id="ctl00_SidebarUC1_ctl00_Repeater1_ctl02_Repeater2_ctl01_HyperLink2" href="/germany/employed-persons" style="text-decoration: none; text-transform: capitalize;">Employed Persons</a><br>
+                            
+                                <a id="ctl00_SidebarUC1_ctl00_Repeater1_ctl02_Repeater2_ctl02_HyperLink2" href="/germany/employment-change" style="text-decoration: none; text-transform: capitalize;">Employment Change</a><br>
+                            
+                                <a id="ctl00_SidebarUC1_ctl00_Repeater1_ctl02_Repeater2_ctl03_HyperLink2" href="/germany/employment-change-yoy" style="text-decoration: none; text-transform: capitalize;">Employment Change YoY</a><br>
+                            
+                                <a id="ctl00_SidebarUC1_ctl00_Repeater1_ctl02_Repeater2_ctl04_HyperLink2" href="/germany/employment-rate" style="text-decoration: none; text-transform: capitalize;">Employment Rate</a><br>
+                            
+                                <a id="ctl00_SidebarUC1_ctl00_Repeater1_ctl02_Repeater2_ctl05_HyperLink2" href="/germany/full-time-employment" style="text-decoration: none; text-transform: capitalize;">Full Time Employment</a><br>
+                            
+                                <a id="ctl00_SidebarUC1_ctl00_Repeater1_ctl02_Repeater2_ctl06_HyperLink2" href="/germany/gross-average-monthly-wages" style="text-decoration: none; text-transform: capitalize;">Gross Average Monthly Wages</a><br>
+                            
+                                <a id="ctl00_SidebarUC1_ctl00_Repeater1_ctl02_Repeater2_ctl07_HyperLink2" href="/germany/job-vacancies" style="text-decoration: none; text-transform: capitalize;">Job Vacancies</a><br>
+                            
+                                <a id="ctl00_SidebarUC1_ctl00_Repeater1_ctl02_Repeater2_ctl08_HyperLink2" href="/germany/job-vacancy-rate" style="text-decoration: none; text-transform: capitalize;">Job Vacancy Rate</a><br>
+                            
+                                <a id="ctl00_SidebarUC1_ctl00_Repeater1_ctl02_Repeater2_ctl09_HyperLink2" href="/germany/labor-force-participation-rate" style="text-decoration: none; text-transform: capitalize;">Labor Force Participation Rate</a><br>
+                            
+                                <a id="ctl00_SidebarUC1_ctl00_Repeater1_ctl02_Repeater2_ctl10_HyperLink2" href="/germany/labour-costs" style="text-decoration: none; text-transform: capitalize;">Labour Costs</a><br>
+                            
+                                <a id="ctl00_SidebarUC1_ctl00_Repeater1_ctl02_Repeater2_ctl11_HyperLink2" href="/germany/long-term-unemployment-rate" style="text-decoration: none; text-transform: capitalize;">Long Term Unemployment Rate</a><br>
+                            
+                                <a id="ctl00_SidebarUC1_ctl00_Repeater1_ctl02_Repeater2_ctl12_HyperLink2" href="/germany/minimum-wages" style="text-decoration: none; text-transform: capitalize;">Minimum Wages</a><br>
+                            
+                                <a id="ctl00_SidebarUC1_ctl00_Repeater1_ctl02_Repeater2_ctl13_HyperLink2" href="/germany/negotiated-wage-growth" style="text-decoration: none; text-transform: capitalize;">Negotiated Wage Growth</a><br>
+                            
+                                <a id="ctl00_SidebarUC1_ctl00_Repeater1_ctl02_Repeater2_ctl14_HyperLink2" href="/germany/part-time-employment" style="text-decoration: none; text-transform: capitalize;">Part Time Employment</a><br>
+                            
+                                <a id="ctl00_SidebarUC1_ctl00_Repeater1_ctl02_Repeater2_ctl15_HyperLink2" href="/germany/population" style="text-decoration: none; text-transform: capitalize;">Population</a><br>
+                            
+                                <a id="ctl00_SidebarUC1_ctl00_Repeater1_ctl02_Repeater2_ctl16_HyperLink2" href="/germany/productivity" style="text-decoration: none; text-transform: capitalize;">Productivity</a><br>
+                            
+                                <a id="ctl00_SidebarUC1_ctl00_Repeater1_ctl02_Repeater2_ctl17_HyperLink2" href="/germany/wage-growth" style="text-decoration: none; text-transform: capitalize;">Real Wage Growth</a><br>
+                            
+                                <a id="ctl00_SidebarUC1_ctl00_Repeater1_ctl02_Repeater2_ctl18_HyperLink2" href="/germany/retirement-age-men" style="text-decoration: none; text-transform: capitalize;">Retirement Age Men</a><br>
+                            
+                                <a id="ctl00_SidebarUC1_ctl00_Repeater1_ctl02_Repeater2_ctl19_HyperLink2" href="/germany/retirement-age-women" style="text-decoration: none; text-transform: capitalize;">Retirement Age Women</a><br>
+                            
+                                <a id="ctl00_SidebarUC1_ctl00_Repeater1_ctl02_Repeater2_ctl20_HyperLink2" href="/germany/unemployed-persons" style="text-decoration: none; text-transform: capitalize;">Unemployed Persons</a><br>
+                            
+                                <a id="ctl00_SidebarUC1_ctl00_Repeater1_ctl02_Repeater2_ctl21_HyperLink2" href="/germany/unemployment-change" style="text-decoration: none; text-transform: capitalize;">Unemployment Change</a><br>
+                            
+                                <a id="ctl00_SidebarUC1_ctl00_Repeater1_ctl02_Repeater2_ctl22_HyperLink2" href="/germany/unemployment-rate" style="text-decoration: none; text-transform: capitalize;">Unemployment Rate</a><br>
+                            
+                                <a id="ctl00_SidebarUC1_ctl00_Repeater1_ctl02_Repeater2_ctl23_HyperLink2" href="/germany/harmonised-unemployment-rate" style="text-decoration: none; text-transform: capitalize;">Unemployment Rate Harmonised</a><br>
+                            
+                                <a id="ctl00_SidebarUC1_ctl00_Repeater1_ctl02_Repeater2_ctl24_HyperLink2" href="/germany/wages" style="text-decoration: none; text-transform: capitalize;">Wages</a><br>
+                            
+                                <a id="ctl00_SidebarUC1_ctl00_Repeater1_ctl02_Repeater2_ctl25_HyperLink2" href="/germany/wages-in-manufacturing" style="text-decoration: none; text-transform: capitalize;">Wages in Manufacturing</a><br>
+                            
+                                <a id="ctl00_SidebarUC1_ctl00_Repeater1_ctl02_Repeater2_ctl26_HyperLink2" href="/germany/youth-unemployment-rate" style="text-decoration: none; text-transform: capitalize;">Youth Unemployment Rate</a><br>
+                            
+                    </div>
+                </div>
+            </div>
+         
+            <div class="accordion-item" id="selectCategoryAccordion" style="margin: 5px 0px 0px 0px;
+">
+                <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-parent="#accordion" data-bs-target="#3" aria-expanded="false" aria-controls="3">
+                            <b class="dropdown-toggle"></b>&nbsp;&nbsp;Prices
+                        </button>
+                </h2>
+                <div id="3" data-bs-parent="#accordion" class="accordion-collapse collapse ">
+                    <div class="accordion-body">
+                        
+                                <a id="ctl00_SidebarUC1_ctl00_Repeater1_ctl03_Repeater2_ctl00_HyperLink2" href="/germany/baden-wuerttemberg-cpi-yoy" style="text-decoration: none; text-transform: capitalize;">Baden Wuerttemberg CPI YoY</a><br>
+                            
+                                <a id="ctl00_SidebarUC1_ctl00_Repeater1_ctl03_Repeater2_ctl01_HyperLink2" href="/germany/bavaria-cpi-yoy" style="text-decoration: none; text-transform: capitalize;">Bavaria CPI MoM</a><br>
+                            
+                                <a id="ctl00_SidebarUC1_ctl00_Repeater1_ctl03_Repeater2_ctl02_HyperLink2" href="/germany/brandenburg-cpi-yoy" style="text-decoration: none; text-transform: capitalize;">Brandenburg CPI YoY</a><br>
+                            
+                                <a id="ctl00_SidebarUC1_ctl00_Repeater1_ctl03_Repeater2_ctl03_HyperLink2" href="/germany/core-consumer-prices" style="text-decoration: none; text-transform: capitalize;">Core Consumer Prices</a><br>
+                            
+                                <a id="ctl00_SidebarUC1_ctl00_Repeater1_ctl03_Repeater2_ctl04_HyperLink2" href="/germany/core-inflation-rate" style="text-decoration: none; text-transform: capitalize;">Core Inflation Rate</a><br>
+                            
+                                <a id="ctl00_SidebarUC1_ctl00_Repeater1_ctl03_Repeater2_ctl05_HyperLink2" href="/germany/consumer-price-index-cpi" style="text-decoration: none; text-transform: capitalize;">CPI</a><br>
+                            
+                                <a id="ctl00_SidebarUC1_ctl00_Repeater1_ctl03_Repeater2_ctl06_HyperLink2" href="/germany/cpi-clothing" style="text-decoration: none; text-transform: capitalize;">CPI Clothing and Footwear</a><br>
+                            
+                                <a id="ctl00_SidebarUC1_ctl00_Repeater1_ctl03_Repeater2_ctl07_HyperLink2" href="/germany/cpi-education" style="text-decoration: none; text-transform: capitalize;">CPI Education</a><br>
+                            
+                                <a id="ctl00_SidebarUC1_ctl00_Repeater1_ctl03_Repeater2_ctl08_HyperLink2" href="/germany/cpi-food" style="text-decoration: none; text-transform: capitalize;">CPI Food and Non-Alcoholic Beverages</a><br>
+                            
+                                <a id="ctl00_SidebarUC1_ctl00_Repeater1_ctl03_Repeater2_ctl09_HyperLink2" href="/germany/cpi-housing-utilities" style="text-decoration: none; text-transform: capitalize;">CPI Housing Utilities</a><br>
+                            
+                                <a id="ctl00_SidebarUC1_ctl00_Repeater1_ctl03_Repeater2_ctl10_HyperLink2" href="/germany/cpi-recreation-and-culture" style="text-decoration: none; text-transform: capitalize;">CPI Recreation, Entertainment and Culture</a><br>
+                            
+                                <a id="ctl00_SidebarUC1_ctl00_Repeater1_ctl03_Repeater2_ctl11_HyperLink2" href="/germany/cpi-restaurants-and-hotels" style="text-decoration: none; text-transform: capitalize;">CPI Restaurant and Accommodation Services</a><br>
+                            
+                                <a id="ctl00_SidebarUC1_ctl00_Repeater1_ctl03_Repeater2_ctl12_HyperLink2" href="/germany/cpi-transportation" style="text-decoration: none; text-transform: capitalize;">CPI Transportation</a><br>
+                            
+                                <a id="ctl00_SidebarUC1_ctl00_Repeater1_ctl03_Repeater2_ctl13_HyperLink2" href="/germany/energy-inflation" style="text-decoration: none; text-transform: capitalize;">Energy Inflation</a><br>
+                            
+                                <a id="ctl00_SidebarUC1_ctl00_Repeater1_ctl03_Repeater2_ctl14_HyperLink2" href="/germany/export-prices" style="text-decoration: none; text-transform: capitalize;">Export Prices</a><br>
+                            
+                                <a id="ctl00_SidebarUC1_ctl00_Repeater1_ctl03_Repeater2_ctl15_HyperLink2" href="/germany/food-inflation" style="text-decoration: none; text-transform: capitalize;">Food Inflation</a><br>
+                            
+                                <a id="ctl00_SidebarUC1_ctl00_Repeater1_ctl03_Repeater2_ctl16_HyperLink2" href="/germany/harmonised-consumer-prices" style="text-decoration: none; text-transform: capitalize;">Harmonised Consumer Prices</a><br>
+                            
+                                <a id="ctl00_SidebarUC1_ctl00_Repeater1_ctl03_Repeater2_ctl17_HyperLink2" href="/germany/harmonised-inflation-rate-mom" style="text-decoration: none; text-transform: capitalize;">Harmonised Inflation Rate MoM</a><br>
+                            
+                                <a id="ctl00_SidebarUC1_ctl00_Repeater1_ctl03_Repeater2_ctl18_HyperLink2" href="/germany/harmonised-inflation-rate-yoy" style="text-decoration: none; text-transform: capitalize;">Harmonised Inflation Rate YoY</a><br>
+                            
+                                <a id="ctl00_SidebarUC1_ctl00_Repeater1_ctl03_Repeater2_ctl19_HyperLink2" href="/germany/hesse-cpi-yoy" style="text-decoration: none; text-transform: capitalize;">Hesse CPI YoY</a><br>
+                            
+                                <a id="ctl00_SidebarUC1_ctl00_Repeater1_ctl03_Repeater2_ctl20_HyperLink2" href="/germany/import-prices" style="text-decoration: none; text-transform: capitalize;">Import Prices</a><br>
+                            
+                                <a id="ctl00_SidebarUC1_ctl00_Repeater1_ctl03_Repeater2_ctl21_HyperLink2" href="/germany/import-prices-mom" style="text-decoration: none; text-transform: capitalize;">Import Prices MoM</a><br>
+                            
+                                <a id="ctl00_SidebarUC1_ctl00_Repeater1_ctl03_Repeater2_ctl22_HyperLink2" href="/germany/import-prices-yoy" style="text-decoration: none; text-transform: capitalize;">Import Prices YoY</a><br>
+                            
+                                <a id="ctl00_SidebarUC1_ctl00_Repeater1_ctl03_Repeater2_ctl23_HyperLink2" href="/germany/inflation-rate-mom" style="text-decoration: none; text-transform: capitalize;">Inflation Rate MoM</a><br>
+                            
+                                <a id="ctl00_SidebarUC1_ctl00_Repeater1_ctl03_Repeater2_ctl24_HyperLink2" href="/germany/inflation-cpi" style="text-decoration: none; text-transform: capitalize;">Inflation Rate YoY</a><br>
+                            
+                                <a id="ctl00_SidebarUC1_ctl00_Repeater1_ctl03_Repeater2_ctl25_HyperLink2" href="/germany/north-rhine-westphalia-cpi-yoy" style="text-decoration: none; text-transform: capitalize;">North Rhine Westphalia CPI YoY</a><br>
+                            
+                                <a id="ctl00_SidebarUC1_ctl00_Repeater1_ctl03_Repeater2_ctl26_HyperLink2" href="/germany/producer-price-inflation-mom" style="text-decoration: none; text-transform: capitalize;">PPI MoM</a><br>
+                            
+                                <a id="ctl00_SidebarUC1_ctl00_Repeater1_ctl03_Repeater2_ctl27_HyperLink2" href="/germany/producer-prices-change" style="text-decoration: none; text-transform: capitalize;">PPI YoY</a><br>
+                            
+                                <a id="ctl00_SidebarUC1_ctl00_Repeater1_ctl03_Repeater2_ctl28_HyperLink2" href="/germany/producer-prices" style="text-decoration: none; text-transform: capitalize;">Producer Prices</a><br>
+                            
+                                <a id="ctl00_SidebarUC1_ctl00_Repeater1_ctl03_Repeater2_ctl29_HyperLink2" href="/germany/rent-inflation" style="text-decoration: none; text-transform: capitalize;">Rent Inflation</a><br>
+                            
+                                <a id="ctl00_SidebarUC1_ctl00_Repeater1_ctl03_Repeater2_ctl30_HyperLink2" href="/germany/saxony-cpi-yoy" style="text-decoration: none; text-transform: capitalize;">Saxony CPI YoY</a><br>
+                            
+                                <a id="ctl00_SidebarUC1_ctl00_Repeater1_ctl03_Repeater2_ctl31_HyperLink2" href="/germany/services-inflation" style="text-decoration: none; text-transform: capitalize;">Services Inflation</a><br>
+                            
+                                <a id="ctl00_SidebarUC1_ctl00_Repeater1_ctl03_Repeater2_ctl32_HyperLink2" href="/germany/wholesale-prices" style="text-decoration: none; text-transform: capitalize;">Wholesale Prices</a><br>
+                            
+                                <a id="ctl00_SidebarUC1_ctl00_Repeater1_ctl03_Repeater2_ctl33_HyperLink2" href="/germany/wholesale-prices-mom" style="text-decoration: none; text-transform: capitalize;">Wholesale Prices MoM</a><br>
+                            
+                                <a id="ctl00_SidebarUC1_ctl00_Repeater1_ctl03_Repeater2_ctl34_HyperLink2" href="/germany/wholesale-prices-yoy" style="text-decoration: none; text-transform: capitalize;">Wholesale Prices YoY</a><br>
+                            
+                    </div>
+                </div>
+            </div>
+         
+            <div class="accordion-item" id="selectCategoryAccordion" style="margin: 5px 0px 0px 0px;
+">
+                <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-parent="#accordion" data-bs-target="#4" aria-expanded="false" aria-controls="4">
+                            <b class="dropdown-toggle"></b>&nbsp;&nbsp;Money
+                        </button>
+                </h2>
+                <div id="4" data-bs-parent="#accordion" class="accordion-collapse collapse ">
+                    <div class="accordion-body">
+                        
+                                <a id="ctl00_SidebarUC1_ctl00_Repeater1_ctl04_Repeater2_ctl00_HyperLink2" href="/germany/banks-balance-sheet" style="text-decoration: none; text-transform: capitalize;">Banks Balance Sheet</a><br>
+                            
+                                <a id="ctl00_SidebarUC1_ctl00_Repeater1_ctl04_Repeater2_ctl01_HyperLink2" href="/germany/central-bank-balance-sheet" style="text-decoration: none; text-transform: capitalize;">Central Bank Balance Sheet</a><br>
+                            
+                                <a id="ctl00_SidebarUC1_ctl00_Repeater1_ctl04_Repeater2_ctl02_HyperLink2" href="/germany/interest-rate" style="text-decoration: none; text-transform: capitalize;">ECB Interest Rate</a><br>
+                            
+                                <a id="ctl00_SidebarUC1_ctl00_Repeater1_ctl04_Repeater2_ctl03_HyperLink2" href="/germany/foreign-exchange-reserves" style="text-decoration: none; text-transform: capitalize;">Foreign Exchange Reserves</a><br>
+                            
+                                <a id="ctl00_SidebarUC1_ctl00_Repeater1_ctl04_Repeater2_ctl04_HyperLink2" href="/germany/interbank-rate" style="text-decoration: none; text-transform: capitalize;">Interbank Rate</a><br>
+                            
+                                <a id="ctl00_SidebarUC1_ctl00_Repeater1_ctl04_Repeater2_ctl05_HyperLink2" href="/germany/loans-to-private-sector" style="text-decoration: none; text-transform: capitalize;">Loans to Private Sector</a><br>
+                            
+                                <a id="ctl00_SidebarUC1_ctl00_Repeater1_ctl04_Repeater2_ctl06_HyperLink2" href="/germany/money-supply-m1" style="text-decoration: none; text-transform: capitalize;">Money Supply M1</a><br>
+                            
+                                <a id="ctl00_SidebarUC1_ctl00_Repeater1_ctl04_Repeater2_ctl07_HyperLink2" href="/germany/money-supply-m2" style="text-decoration: none; text-transform: capitalize;">Money Supply M2</a><br>
+                            
+                                <a id="ctl00_SidebarUC1_ctl00_Repeater1_ctl04_Repeater2_ctl08_HyperLink2" href="/germany/money-supply-m3" style="text-decoration: none; text-transform: capitalize;">Money Supply M3</a><br>
+                            
+                                <a id="ctl00_SidebarUC1_ctl00_Repeater1_ctl04_Repeater2_ctl09_HyperLink2" href="/germany/private-debt-to-gdp" style="text-decoration: none; text-transform: capitalize;">Private Debt to GDP</a><br>
+                            
+                    </div>
+                </div>
+            </div>
+         
+            <div class="accordion-item" id="selectCategoryAccordion" style="margin: 5px 0px 0px 0px;
+">
+                <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-parent="#accordion" data-bs-target="#5" aria-expanded="false" aria-controls="5">
+                            <b class="dropdown-toggle"></b>&nbsp;&nbsp;Trade
+                        </button>
+                </h2>
+                <div id="5" data-bs-parent="#accordion" class="accordion-collapse collapse ">
+                    <div class="accordion-body">
+                        
+                                <a id="ctl00_SidebarUC1_ctl00_Repeater1_ctl05_Repeater2_ctl00_HyperLink2" href="/germany/auto-exports" style="text-decoration: none; text-transform: capitalize;">Auto Exports</a><br>
+                            
+                                <a id="ctl00_SidebarUC1_ctl00_Repeater1_ctl05_Repeater2_ctl01_HyperLink2" href="/germany/balance-of-trade" style="text-decoration: none; text-transform: capitalize;">Balance of Trade</a><br>
+                            
+                                <a id="ctl00_SidebarUC1_ctl00_Repeater1_ctl05_Repeater2_ctl02_HyperLink2" href="/germany/capital-flows" style="text-decoration: none; text-transform: capitalize;">Capital Flows</a><br>
+                            
+                                <a id="ctl00_SidebarUC1_ctl00_Repeater1_ctl05_Repeater2_ctl03_HyperLink2" href="/germany/crude-oil-production" style="text-decoration: none; text-transform: capitalize;">Crude Oil Production</a><br>
+                            
+                                <a id="ctl00_SidebarUC1_ctl00_Repeater1_ctl05_Repeater2_ctl04_HyperLink2" href="/germany/current-account" style="text-decoration: none; text-transform: capitalize;">Current Account</a><br>
+                            
+                                <a id="ctl00_SidebarUC1_ctl00_Repeater1_ctl05_Repeater2_ctl05_HyperLink2" href="/germany/current-account-goods" style="text-decoration: none; text-transform: capitalize;">Current Account Goods</a><br>
+                            
+                                <a id="ctl00_SidebarUC1_ctl00_Repeater1_ctl05_Repeater2_ctl06_HyperLink2" href="/germany/current-account-services" style="text-decoration: none; text-transform: capitalize;">Current Account Services</a><br>
+                            
+                                <a id="ctl00_SidebarUC1_ctl00_Repeater1_ctl05_Repeater2_ctl07_HyperLink2" href="/germany/current-account-to-gdp" style="text-decoration: none; text-transform: capitalize;">Current Account to GDP</a><br>
+                            
+                                <a id="ctl00_SidebarUC1_ctl00_Repeater1_ctl05_Repeater2_ctl08_HyperLink2" href="/germany/exports-by-category" style="text-decoration: none; text-transform: capitalize;">Exports by Category</a><br>
+                            
+                                <a id="ctl00_SidebarUC1_ctl00_Repeater1_ctl05_Repeater2_ctl09_HyperLink2" href="/germany/exports-by-country" style="text-decoration: none; text-transform: capitalize;">Exports by Country</a><br>
+                            
+                                <a id="ctl00_SidebarUC1_ctl00_Repeater1_ctl05_Repeater2_ctl10_HyperLink2" href="/germany/exports" style="text-decoration: none; text-transform: capitalize;">Exports MoM</a><br>
+                            
+                                <a id="ctl00_SidebarUC1_ctl00_Repeater1_ctl05_Repeater2_ctl11_HyperLink2" href="/germany/external-debt" style="text-decoration: none; text-transform: capitalize;">External Debt</a><br>
+                            
+                                <a id="ctl00_SidebarUC1_ctl00_Repeater1_ctl05_Repeater2_ctl12_HyperLink2" href="/germany/external-debt-to-gdp" style="text-decoration: none; text-transform: capitalize;">External Debt to GDP</a><br>
+                            
+                                <a id="ctl00_SidebarUC1_ctl00_Repeater1_ctl05_Repeater2_ctl13_HyperLink2" href="/germany/gold-reserves" style="text-decoration: none; text-transform: capitalize;">Gold Reserves</a><br>
+                            
+                                <a id="ctl00_SidebarUC1_ctl00_Repeater1_ctl05_Repeater2_ctl14_HyperLink2" href="/germany/imports-by-category" style="text-decoration: none; text-transform: capitalize;">Imports by Category</a><br>
+                            
+                                <a id="ctl00_SidebarUC1_ctl00_Repeater1_ctl05_Repeater2_ctl15_HyperLink2" href="/germany/imports-by-country" style="text-decoration: none; text-transform: capitalize;">Imports by Country</a><br>
+                            
+                                <a id="ctl00_SidebarUC1_ctl00_Repeater1_ctl05_Repeater2_ctl16_HyperLink2" href="/germany/imports" style="text-decoration: none; text-transform: capitalize;">Imports MoM</a><br>
+                            
+                                <a id="ctl00_SidebarUC1_ctl00_Repeater1_ctl05_Repeater2_ctl17_HyperLink2" href="/germany/natural-gas-imports" style="text-decoration: none; text-transform: capitalize;">Natural Gas Imports</a><br>
+                            
+                                <a id="ctl00_SidebarUC1_ctl00_Repeater1_ctl05_Repeater2_ctl18_HyperLink2" href="/germany/foreign-direct-investment" style="text-decoration: none; text-transform: capitalize;">Net Foreign Direct Investment</a><br>
+                            
+                                <a id="ctl00_SidebarUC1_ctl00_Repeater1_ctl05_Repeater2_ctl19_HyperLink2" href="/germany/remittances" style="text-decoration: none; text-transform: capitalize;">Remittances</a><br>
+                            
+                                <a id="ctl00_SidebarUC1_ctl00_Repeater1_ctl05_Repeater2_ctl20_HyperLink2" href="/germany/terms-of-trade" style="text-decoration: none; text-transform: capitalize;">Terms of Trade</a><br>
+                            
+                                <a id="ctl00_SidebarUC1_ctl00_Repeater1_ctl05_Repeater2_ctl21_HyperLink2" href="/germany/terrorism-index" style="text-decoration: none; text-transform: capitalize;">Terrorism Index</a><br>
+                            
+                                <a id="ctl00_SidebarUC1_ctl00_Repeater1_ctl05_Repeater2_ctl22_HyperLink2" href="/germany/tourist-arrivals" style="text-decoration: none; text-transform: capitalize;">Tourist Arrivals</a><br>
+                            
+                                <a id="ctl00_SidebarUC1_ctl00_Repeater1_ctl05_Repeater2_ctl23_HyperLink2" href="/germany/weapons-sales" style="text-decoration: none; text-transform: capitalize;">Weapons Sales</a><br>
+                            
+                    </div>
+                </div>
+            </div>
+         
+            <div class="accordion-item" id="selectCategoryAccordion" style="margin: 5px 0px 0px 0px;
+">
+                <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-parent="#accordion" data-bs-target="#6" aria-expanded="false" aria-controls="6">
+                            <b class="dropdown-toggle"></b>&nbsp;&nbsp;Government
+                        </button>
+                </h2>
+                <div id="6" data-bs-parent="#accordion" class="accordion-collapse collapse ">
+                    <div class="accordion-body">
+                        
+                                <a id="ctl00_SidebarUC1_ctl00_Repeater1_ctl06_Repeater2_ctl00_HyperLink2" href="/germany/asylum-applications" style="text-decoration: none; text-transform: capitalize;">Asylum Applications</a><br>
+                            
+                                <a id="ctl00_SidebarUC1_ctl00_Repeater1_ctl06_Repeater2_ctl01_HyperLink2" href="/germany/corruption-index" style="text-decoration: none; text-transform: capitalize;">Corruption Index</a><br>
+                            
+                                <a id="ctl00_SidebarUC1_ctl00_Repeater1_ctl06_Repeater2_ctl02_HyperLink2" href="/germany/corruption-rank" style="text-decoration: none; text-transform: capitalize;">Corruption Rank</a><br>
+                            
+                                <a id="ctl00_SidebarUC1_ctl00_Repeater1_ctl06_Repeater2_ctl03_HyperLink2" href="/germany/rating" style="text-decoration: none; text-transform: capitalize;">Credit Rating</a><br>
+                            
+                                <a id="ctl00_SidebarUC1_ctl00_Repeater1_ctl06_Repeater2_ctl04_HyperLink2" href="/germany/fiscal-expenditure" style="text-decoration: none; text-transform: capitalize;">Fiscal Expenditure</a><br>
+                            
+                                <a id="ctl00_SidebarUC1_ctl00_Repeater1_ctl06_Repeater2_ctl05_HyperLink2" href="/germany/government-budget" style="text-decoration: none; text-transform: capitalize;">Government Budget</a><br>
+                            
+                                <a id="ctl00_SidebarUC1_ctl00_Repeater1_ctl06_Repeater2_ctl06_HyperLink2" href="/germany/government-budget-value" style="text-decoration: none; text-transform: capitalize;">Government Budget Value</a><br>
+                            
+                                <a id="ctl00_SidebarUC1_ctl00_Repeater1_ctl06_Repeater2_ctl07_HyperLink2" href="/germany/government-debt" style="text-decoration: none; text-transform: capitalize;">Government Debt</a><br>
+                            
+                                <a id="ctl00_SidebarUC1_ctl00_Repeater1_ctl06_Repeater2_ctl08_HyperLink2" href="/germany/government-debt-to-gdp" style="text-decoration: none; text-transform: capitalize;">Government Debt to GDP</a><br>
+                            
+                                <a id="ctl00_SidebarUC1_ctl00_Repeater1_ctl06_Repeater2_ctl09_HyperLink2" href="/germany/government-revenues" style="text-decoration: none; text-transform: capitalize;">Government Revenues</a><br>
+                            
+                                <a id="ctl00_SidebarUC1_ctl00_Repeater1_ctl06_Repeater2_ctl10_HyperLink2" href="/germany/government-spending" style="text-decoration: none; text-transform: capitalize;">Government Spending</a><br>
+                            
+                                <a id="ctl00_SidebarUC1_ctl00_Repeater1_ctl06_Repeater2_ctl11_HyperLink2" href="/germany/government-spending-to-gdp" style="text-decoration: none; text-transform: capitalize;">Government Spending to GDP</a><br>
+                            
+                                <a id="ctl00_SidebarUC1_ctl00_Repeater1_ctl06_Repeater2_ctl12_HyperLink2" href="/germany/holidays" style="text-decoration: none; text-transform: capitalize;">Holidays</a><br>
+                            
+                                <a id="ctl00_SidebarUC1_ctl00_Repeater1_ctl06_Repeater2_ctl13_HyperLink2" href="/germany/military-expenditure" style="text-decoration: none; text-transform: capitalize;">Military Expenditure</a><br>
+                            
+                    </div>
+                </div>
+            </div>
+         
+            <div class="accordion-item" id="selectCategoryAccordion" style="margin: 5px 0px 0px 0px;
+">
+                <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-parent="#accordion" data-bs-target="#7" aria-expanded="false" aria-controls="7">
+                            <b class="dropdown-toggle"></b>&nbsp;&nbsp;Business
+                        </button>
+                </h2>
+                <div id="7" data-bs-parent="#accordion" class="accordion-collapse collapse ">
+                    <div class="accordion-body">
+                        
+                                <a id="ctl00_SidebarUC1_ctl00_Repeater1_ctl07_Repeater2_ctl00_HyperLink2" href="/germany/bankruptcies" style="text-decoration: none; text-transform: capitalize;">Bankruptcies</a><br>
+                            
+                                <a id="ctl00_SidebarUC1_ctl00_Repeater1_ctl07_Repeater2_ctl01_HyperLink2" href="/germany/capacity-utilization" style="text-decoration: none; text-transform: capitalize;">Capacity Utilization</a><br>
+                            
+                                <a id="ctl00_SidebarUC1_ctl00_Repeater1_ctl07_Repeater2_ctl02_HyperLink2" href="/germany/car-production" style="text-decoration: none; text-transform: capitalize;">Car Production</a><br>
+                            
+                                <a id="ctl00_SidebarUC1_ctl00_Repeater1_ctl07_Repeater2_ctl03_HyperLink2" href="/germany/car-registrations" style="text-decoration: none; text-transform: capitalize;">Car Registrations</a><br>
+                            
+                                <a id="ctl00_SidebarUC1_ctl00_Repeater1_ctl07_Repeater2_ctl04_HyperLink2" href="/germany/changes-in-inventories" style="text-decoration: none; text-transform: capitalize;">Changes in Inventories</a><br>
+                            
+                                <a id="ctl00_SidebarUC1_ctl00_Repeater1_ctl07_Repeater2_ctl05_HyperLink2" href="/germany/composite-leading-indicator" style="text-decoration: none; text-transform: capitalize;">Composite Leading Indicator</a><br>
+                            
+                                <a id="ctl00_SidebarUC1_ctl00_Repeater1_ctl07_Repeater2_ctl06_HyperLink2" href="/germany/corporate-profits" style="text-decoration: none; text-transform: capitalize;">Corporate Profits</a><br>
+                            
+                                <a id="ctl00_SidebarUC1_ctl00_Repeater1_ctl07_Repeater2_ctl07_HyperLink2" href="/germany/electric-car-registrations" style="text-decoration: none; text-transform: capitalize;">Electric Car Registrations</a><br>
+                            
+                                <a id="ctl00_SidebarUC1_ctl00_Repeater1_ctl07_Repeater2_ctl08_HyperLink2" href="/germany/electricity-price" style="text-decoration: none; text-transform: capitalize;">Electricity Price</a><br>
+                            
+                                <a id="ctl00_SidebarUC1_ctl00_Repeater1_ctl07_Repeater2_ctl09_HyperLink2" href="/germany/factory-orders" style="text-decoration: none; text-transform: capitalize;">Factory Orders MoM</a><br>
+                            
+                                <a id="ctl00_SidebarUC1_ctl00_Repeater1_ctl07_Repeater2_ctl10_HyperLink2" href="/germany/business-confidence" style="text-decoration: none; text-transform: capitalize;">Ifo Business Climate</a><br>
+                            
+                                <a id="ctl00_SidebarUC1_ctl00_Repeater1_ctl07_Repeater2_ctl11_HyperLink2" href="/germany/ifo-current-conditions" style="text-decoration: none; text-transform: capitalize;">Ifo Current Conditions</a><br>
+                            
+                                <a id="ctl00_SidebarUC1_ctl00_Repeater1_ctl07_Repeater2_ctl12_HyperLink2" href="/germany/ifo-expectations" style="text-decoration: none; text-transform: capitalize;">Ifo Expectations</a><br>
+                            
+                                <a id="ctl00_SidebarUC1_ctl00_Repeater1_ctl07_Repeater2_ctl13_HyperLink2" href="/germany/industrial-production" style="text-decoration: none; text-transform: capitalize;">Industrial Production</a><br>
+                            
+                                <a id="ctl00_SidebarUC1_ctl00_Repeater1_ctl07_Repeater2_ctl14_HyperLink2" href="/germany/industrial-production-mom" style="text-decoration: none; text-transform: capitalize;">Industrial Production MoM</a><br>
+                            
+                                <a id="ctl00_SidebarUC1_ctl00_Repeater1_ctl07_Repeater2_ctl15_HyperLink2" href="/germany/manufacturing-production" style="text-decoration: none; text-transform: capitalize;">Manufacturing Production</a><br>
+                            
+                                <a id="ctl00_SidebarUC1_ctl00_Repeater1_ctl07_Repeater2_ctl16_HyperLink2" href="/germany/mining-production" style="text-decoration: none; text-transform: capitalize;">Mining Production</a><br>
+                            
+                                <a id="ctl00_SidebarUC1_ctl00_Repeater1_ctl07_Repeater2_ctl17_HyperLink2" href="/germany/new-passenger-car-registrations-yoy" style="text-decoration: none; text-transform: capitalize;">New Car Registrations YoY</a><br>
+                            
+                                <a id="ctl00_SidebarUC1_ctl00_Repeater1_ctl07_Repeater2_ctl18_HyperLink2" href="/germany/new-orders" style="text-decoration: none; text-transform: capitalize;">New Orders</a><br>
+                            
+                                <a id="ctl00_SidebarUC1_ctl00_Repeater1_ctl07_Repeater2_ctl19_HyperLink2" href="/germany/steel-production" style="text-decoration: none; text-transform: capitalize;">Steel Production</a><br>
+                            
+                                <a id="ctl00_SidebarUC1_ctl00_Repeater1_ctl07_Repeater2_ctl20_HyperLink2" href="/germany/zew-current-conditions" style="text-decoration: none; text-transform: capitalize;">ZEW Current Conditions</a><br>
+                            
+                                <a id="ctl00_SidebarUC1_ctl00_Repeater1_ctl07_Repeater2_ctl21_HyperLink2" href="/germany/zew-economic-sentiment-index" style="text-decoration: none; text-transform: capitalize;">ZEW Economic Sentiment Index</a><br>
+                            
+                    </div>
+                </div>
+            </div>
+         
+            <div class="accordion-item" id="selectCategoryAccordion" style="margin: 5px 0px 0px 0px;
+">
+                <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-parent="#accordion" data-bs-target="#8" aria-expanded="false" aria-controls="8">
+                            <b class="dropdown-toggle"></b>&nbsp;&nbsp;Consumer
+                        </button>
+                </h2>
+                <div id="8" data-bs-parent="#accordion" class="accordion-collapse collapse ">
+                    <div class="accordion-body">
+                        
+                                <a id="ctl00_SidebarUC1_ctl00_Repeater1_ctl08_Repeater2_ctl00_HyperLink2" href="/germany/bank-lending-rate" style="text-decoration: none; text-transform: capitalize;">Bank Interest Rate</a><br>
+                            
+                                <a id="ctl00_SidebarUC1_ctl00_Repeater1_ctl08_Repeater2_ctl01_HyperLink2" href="/germany/consumer-credit" style="text-decoration: none; text-transform: capitalize;">Consumer Credit</a><br>
+                            
+                                <a id="ctl00_SidebarUC1_ctl00_Repeater1_ctl08_Repeater2_ctl02_HyperLink2" href="/germany/consumer-spending" style="text-decoration: none; text-transform: capitalize;">Consumer Spending</a><br>
+                            
+                                <a id="ctl00_SidebarUC1_ctl00_Repeater1_ctl08_Repeater2_ctl03_HyperLink2" href="/germany/disposable-personal-income" style="text-decoration: none; text-transform: capitalize;">Disposable Personal Income</a><br>
+                            
+                                <a id="ctl00_SidebarUC1_ctl00_Repeater1_ctl08_Repeater2_ctl04_HyperLink2" href="/germany/economic-optimism-index" style="text-decoration: none; text-transform: capitalize;">Economic Sentiment</a><br>
+                            
+                                <a id="ctl00_SidebarUC1_ctl00_Repeater1_ctl08_Repeater2_ctl05_HyperLink2" href="/germany/gasoline-prices" style="text-decoration: none; text-transform: capitalize;">Gasoline Prices</a><br>
+                            
+                                <a id="ctl00_SidebarUC1_ctl00_Repeater1_ctl08_Repeater2_ctl06_HyperLink2" href="/germany/consumer-confidence" style="text-decoration: none; text-transform: capitalize;">GfK Consumer Confidence</a><br>
+                            
+                                <a id="ctl00_SidebarUC1_ctl00_Repeater1_ctl08_Repeater2_ctl07_HyperLink2" href="/germany/households-debt-to-gdp" style="text-decoration: none; text-transform: capitalize;">Households Debt to GDP</a><br>
+                            
+                                <a id="ctl00_SidebarUC1_ctl00_Repeater1_ctl08_Repeater2_ctl08_HyperLink2" href="/germany/households-debt-to-income" style="text-decoration: none; text-transform: capitalize;">Households Debt to Income</a><br>
+                            
+                                <a id="ctl00_SidebarUC1_ctl00_Repeater1_ctl08_Repeater2_ctl09_HyperLink2" href="/germany/personal-savings" style="text-decoration: none; text-transform: capitalize;">Personal Savings</a><br>
+                            
+                                <a id="ctl00_SidebarUC1_ctl00_Repeater1_ctl08_Repeater2_ctl10_HyperLink2" href="/germany/private-sector-credit" style="text-decoration: none; text-transform: capitalize;">Private Sector Credit</a><br>
+                            
+                                <a id="ctl00_SidebarUC1_ctl00_Repeater1_ctl08_Repeater2_ctl11_HyperLink2" href="/germany/retail-sales" style="text-decoration: none; text-transform: capitalize;">Retail Sales MoM</a><br>
+                            
+                                <a id="ctl00_SidebarUC1_ctl00_Repeater1_ctl08_Repeater2_ctl12_HyperLink2" href="/germany/retail-sales-annual" style="text-decoration: none; text-transform: capitalize;">Retail Sales YoY</a><br>
+                            
+                    </div>
+                </div>
+            </div>
+         
+            <div class="accordion-item" id="selectCategoryAccordion" style="margin: 5px 0px 0px 0px;
+">
+                <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-parent="#accordion" data-bs-target="#9" aria-expanded="false" aria-controls="9">
+                            <b class="dropdown-toggle"></b>&nbsp;&nbsp;Housing
+                        </button>
+                </h2>
+                <div id="9" data-bs-parent="#accordion" class="accordion-collapse collapse ">
+                    <div class="accordion-body">
+                        
+                                <a id="ctl00_SidebarUC1_ctl00_Repeater1_ctl09_Repeater2_ctl00_HyperLink2" href="/germany/building-permits" style="text-decoration: none; text-transform: capitalize;">Building Permits</a><br>
+                            
+                                <a id="ctl00_SidebarUC1_ctl00_Repeater1_ctl09_Repeater2_ctl01_HyperLink2" href="/germany/construction-orders" style="text-decoration: none; text-transform: capitalize;">Construction Orders</a><br>
+                            
+                                <a id="ctl00_SidebarUC1_ctl00_Repeater1_ctl09_Repeater2_ctl02_HyperLink2" href="/germany/construction-output" style="text-decoration: none; text-transform: capitalize;">Construction Output</a><br>
+                            
+                                <a id="ctl00_SidebarUC1_ctl00_Repeater1_ctl09_Repeater2_ctl03_HyperLink2" href="/germany/home-ownership-rate" style="text-decoration: none; text-transform: capitalize;">Home Ownership Rate</a><br>
+                            
+                                <a id="ctl00_SidebarUC1_ctl00_Repeater1_ctl09_Repeater2_ctl04_HyperLink2" href="/germany/house-price-index-yoy" style="text-decoration: none; text-transform: capitalize;">House Price Index YoY</a><br>
+                            
+                                <a id="ctl00_SidebarUC1_ctl00_Repeater1_ctl09_Repeater2_ctl05_HyperLink2" href="/germany/housing-index" style="text-decoration: none; text-transform: capitalize;">Housing Index</a><br>
+                            
+                                <a id="ctl00_SidebarUC1_ctl00_Repeater1_ctl09_Repeater2_ctl06_HyperLink2" href="/germany/price-to-rent-ratio" style="text-decoration: none; text-transform: capitalize;">Price to Rent Ratio</a><br>
+                            
+                                <a id="ctl00_SidebarUC1_ctl00_Repeater1_ctl09_Repeater2_ctl07_HyperLink2" href="/germany/residential-property-prices" style="text-decoration: none; text-transform: capitalize;">Residential Property Prices</a><br>
+                            
+                    </div>
+                </div>
+            </div>
+         
+            <div class="accordion-item" id="selectCategoryAccordion" style="margin: 5px 0px 0px 0px;
+">
+                <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-parent="#accordion" data-bs-target="#10" aria-expanded="false" aria-controls="10">
+                            <b class="dropdown-toggle"></b>&nbsp;&nbsp;Taxes
+                        </button>
+                </h2>
+                <div id="10" data-bs-parent="#accordion" class="accordion-collapse collapse ">
+                    <div class="accordion-body">
+                        
+                                <a id="ctl00_SidebarUC1_ctl00_Repeater1_ctl10_Repeater2_ctl00_HyperLink2" href="/germany/corporate-tax-rate" style="text-decoration: none; text-transform: capitalize;">Corporate Tax Rate</a><br>
+                            
+                                <a id="ctl00_SidebarUC1_ctl00_Repeater1_ctl10_Repeater2_ctl01_HyperLink2" href="/germany/personal-income-tax-rate" style="text-decoration: none; text-transform: capitalize;">Personal Income Tax Rate</a><br>
+                            
+                                <a id="ctl00_SidebarUC1_ctl00_Repeater1_ctl10_Repeater2_ctl02_HyperLink2" href="/germany/sales-tax-rate" style="text-decoration: none; text-transform: capitalize;">Sales Tax Rate</a><br>
+                            
+                                <a id="ctl00_SidebarUC1_ctl00_Repeater1_ctl10_Repeater2_ctl03_HyperLink2" href="/germany/social-security-rate" style="text-decoration: none; text-transform: capitalize;">Social Security Rate</a><br>
+                            
+                                <a id="ctl00_SidebarUC1_ctl00_Repeater1_ctl10_Repeater2_ctl04_HyperLink2" href="/germany/social-security-rate-for-companies" style="text-decoration: none; text-transform: capitalize;">Social Security Rate For Companies</a><br>
+                            
+                                <a id="ctl00_SidebarUC1_ctl00_Repeater1_ctl10_Repeater2_ctl05_HyperLink2" href="/germany/social-security-rate-for-employees" style="text-decoration: none; text-transform: capitalize;">Social Security Rate For Employees</a><br>
+                            
+                                <a id="ctl00_SidebarUC1_ctl00_Repeater1_ctl10_Repeater2_ctl06_HyperLink2" href="/germany/withholding-tax-rate" style="text-decoration: none; text-transform: capitalize;">Withholding Tax Rate</a><br>
+                            
+                    </div>
+                </div>
+            </div>
+         
+            <div class="accordion-item" id="selectCategoryAccordion" style="margin: 5px 0px 0px 0px;
+">
+                <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-parent="#accordion" data-bs-target="#11" aria-expanded="false" aria-controls="11">
+                            <b class="dropdown-toggle"></b>&nbsp;&nbsp;Energy
+                        </button>
+                </h2>
+                <div id="11" data-bs-parent="#accordion" class="accordion-collapse collapse ">
+                    <div class="accordion-body">
+                        
+                                <a id="ctl00_SidebarUC1_ctl00_Repeater1_ctl11_Repeater2_ctl00_HyperLink2" href="/germany/natural-gas-stocks-capacity" style="text-decoration: none; text-transform: capitalize;">Natural Gas Stocks Capacity</a><br>
+                            
+                                <a id="ctl00_SidebarUC1_ctl00_Repeater1_ctl11_Repeater2_ctl01_HyperLink2" href="/germany/natural-gas-stocks-injection" style="text-decoration: none; text-transform: capitalize;">Natural Gas Stocks Injection</a><br>
+                            
+                                <a id="ctl00_SidebarUC1_ctl00_Repeater1_ctl11_Repeater2_ctl02_HyperLink2" href="/germany/natural-gas-stocks-inventory" style="text-decoration: none; text-transform: capitalize;">Natural Gas Stocks Inventory</a><br>
+                            
+                                <a id="ctl00_SidebarUC1_ctl00_Repeater1_ctl11_Repeater2_ctl03_HyperLink2" href="/germany/natural-gas-stocks-withdrawal" style="text-decoration: none; text-transform: capitalize;">Natural Gas Stocks Withdrawal</a><br>
+                            
+                    </div>
+                </div>
+            </div>
+         
+            <div class="accordion-item" id="selectCategoryAccordion" style="margin: 5px 0px 0px 0px;
+">
+                <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-parent="#accordion" data-bs-target="#12" aria-expanded="false" aria-controls="12">
+                            <b class="dropdown-toggle"></b>&nbsp;&nbsp;Health
+                        </button>
+                </h2>
+                <div id="12" data-bs-parent="#accordion" class="accordion-collapse collapse ">
+                    <div class="accordion-body">
+                        
+                                <a id="ctl00_SidebarUC1_ctl00_Repeater1_ctl12_Repeater2_ctl00_HyperLink2" href="/germany/hospital-beds" style="text-decoration: none; text-transform: capitalize;">Hospital Beds</a><br>
+                            
+                                <a id="ctl00_SidebarUC1_ctl00_Repeater1_ctl12_Repeater2_ctl01_HyperLink2" href="/germany/hospital" style="text-decoration: none; text-transform: capitalize;">Hospitals</a><br>
+                            
+                                <a id="ctl00_SidebarUC1_ctl00_Repeater1_ctl12_Repeater2_ctl02_HyperLink2" href="/germany/icu-beds" style="text-decoration: none; text-transform: capitalize;">ICU Beds</a><br>
+                            
+                                <a id="ctl00_SidebarUC1_ctl00_Repeater1_ctl12_Repeater2_ctl03_HyperLink2" href="/germany/medical-doctors" style="text-decoration: none; text-transform: capitalize;">Medical Doctors</a><br>
+                            
+                                <a id="ctl00_SidebarUC1_ctl00_Repeater1_ctl12_Repeater2_ctl04_HyperLink2" href="/germany/nurses" style="text-decoration: none; text-transform: capitalize;">Nurses</a><br>
+                            
+                    </div>
+                </div>
+            </div>
+         
+            <div class="accordion-item" id="selectCategoryAccordion" style="margin: 5px 0px 0px 0px;
+">
+                <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-parent="#accordion" data-bs-target="#13" aria-expanded="false" aria-controls="13">
+                            <b class="dropdown-toggle"></b>&nbsp;&nbsp;Climate
+                        </button>
+                </h2>
+                <div id="13" data-bs-parent="#accordion" class="accordion-collapse collapse ">
+                    <div class="accordion-body">
+                        
+                                <a id="ctl00_SidebarUC1_ctl00_Repeater1_ctl13_Repeater2_ctl00_HyperLink2" href="/germany/co2-emissions" style="text-decoration: none; text-transform: capitalize;">CO2 Emissions</a><br>
+                            
+                                <a id="ctl00_SidebarUC1_ctl00_Repeater1_ctl13_Repeater2_ctl01_HyperLink2" href="/germany/precipitation" style="text-decoration: none; text-transform: capitalize;">Precipitation</a><br>
+                            
+                                <a id="ctl00_SidebarUC1_ctl00_Repeater1_ctl13_Repeater2_ctl02_HyperLink2" href="/germany/temperature" style="text-decoration: none; text-transform: capitalize;">Temperature</a><br>
+                            
+                    </div>
+                </div>
+            </div>
         
-            <a class="more-indicators-space-item" href="/south-africa/government-bond-yield">South Africa 10-Year Bond Yield at Ov... </a><br>
-            
         
-            <a class="more-indicators-space-item" href="/indu:ind">The Dow Jones Index Opens 0.30% Lower </a><br>
-            
-        
-            <a class="more-indicators-space-item" href="/canada/stock-market">TSX Slips Amid US-Iran Standoff  </a><br>
-            
-        
-            <a class="more-indicators-space-item" href="/united-states/stock-market">Nasdaq 100 Reaches New Record </a><br>
-            
-        
-            <a class="more-indicators-space-item" href="/germany/government-bond-yield">Germany’s Bund Yield Hovers Above 3% ... </a><br>
-            
-        
-            <a class="more-indicators-space-item" href="/united-kingdom/government-bond-yield">UK Gilt Yields Hold Near 2008 Highs o... </a><br>
-            
-        
-            <a class="more-indicators-space-item" href="/united-kingdom/currency">Pound Rises on US-Iran Talk Hopes </a><br>
-            
-        
-            <a class="more-indicators-space-item" href="/russia/currency">Russian Ruble Strengthens to 3-Year H... </a><br>
-            
-        
-            <a class="more-indicators-space-item" href="/commodity/eu-natural-gas">TTF Prices Fall on Friday, Up More th... </a><br>
-            
-        
-           
-          <a href="/stream?i=markets" style="text-decoration: underline;">More</a> 
-        </div> </div>
-       
-
-<input type="hidden" name="ctl00$SidebarUC1$_acef36fc7b4cb3$hCategory" id="ctl00_SidebarUC1__acef36fc7b4cb3_hCategory" value="Commodity">
-
-
+</div>
 <style>
     .card-top-spacing {
         margin: 15px 0px 0px 0px;
     }
 </style>
-
-<div id="ctl00_SidebarUC1_ctl02_panelOil" class="card card-top-spacing">
+<div id="ctl00_SidebarUC1_ctl01_mainPanel" class="card card-top-spacing">
 		
     <div class="card-header">
-       Related
+       More Indicators
     </div>
     <div class="card-body">
-       <a href="/commodities">Energy Commodity Prices</a><br>
-       <a href="/country-list/gasoline-prices">Gasoline Prices by Country</a><br>
-       <a href="/country-list/crude-oil-production">Crude Oil Production by Country</a><br>
-       <a href="/country-list/crude-oil-rigs">Crude Oil Rigs by Country</a><br>
-       <a href="/opec/calendar">OPEC Calendar of Meetings</a><br>
-     </div>
+       <a href="/germany/indicators">National Statistics</a><br>
+       
+       <a href="/germany/indicators-eurostat-data.html">EUROSTAT</a><br>
+       <a href="/germany/indicators-wb-data.html">World Bank</a><br>
+    </div>
 
 	</div>
+
 
 
 
     
 </div>
 
-    <div id="ctl00_SidebarUC1_ctl03_adManager" class="ad-container">
+    <div id="ctl00_SidebarUC1_ctl02_adManager" class="ad-container">
 	
     <script type="text/javascript">console.log("[GPT] div placed in sidebar");</script>
     <br>
-    <div class="ad-slot" id="charts-sidebar" data-google-query-id="CKmc8OLXhpQDFWGhgwcdwbIFDw" style=""><div id="google_ads_iframe_/23288354674/charts-sidebar_0__container__" style="border: 0pt; margin: auto; text-align: center; width: 300px; height: 250px;"><iframe frameborder="0" src="https://2d708211f066344f74c90a65c29efba0.safeframe.googlesyndication.com/safeframe/1-0-45/html/container.html" id="google_ads_iframe_/23288354674/charts-sidebar_0" title="Contenuto dell'annuncio di terze parti" name="" scrolling="no" marginwidth="0" marginheight="0" width="300" height="250" data-is-safeframe="true" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" allow="private-state-token-redemption;attribution-reporting" aria-label="Pubblicità" tabindex="0" data-google-container-id="4" style="border: 0px; vertical-align: bottom;" data-load-complete="true"></iframe></div></div>
+    <div class="ad-slot" id="charts-sidebar" data-google-query-id="CNKBqaHxhpQDFQknVQgdBrgPLQ" style=""><div id="google_ads_iframe_/23288354674/charts-sidebar_0__container__" style="border: 0pt; margin: auto; text-align: center; width: 300px; height: 250px;"><iframe frameborder="0" src="https://4003af1da709adf5925dfbdccec92e30.safeframe.googlesyndication.com/safeframe/1-0-45/html/container.html" id="google_ads_iframe_/23288354674/charts-sidebar_0" title="Contenuto dell'annuncio di terze parti" name="" scrolling="no" marginwidth="0" marginheight="0" width="300" height="250" data-is-safeframe="true" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" allow="private-state-token-redemption;attribution-reporting" aria-label="Pubblicità" tabindex="0" data-google-container-id="3" style="border: 0px; vertical-align: bottom;" data-load-complete="true"></iframe></div></div>
 
 </div>
 
@@ -2959,31 +2098,31 @@ html_text = """<html><head id="ctl00_Head1"><meta charset="utf-8"><title>
     <div class="row">
         <div class="col-lg-1 col-md-2 col-6">
             <a class="footer-languages" href="https://tradingeconomics.com" target="_self">English</a><br>
-            <a class="footer-languages" href="https://es.tradingeconomics.com/commodity/crude-oil" target="_self">Español</a><br>
-            <a class="footer-languages" href="https://pt.tradingeconomics.com/commodity/crude-oil" target="_self">Português</a><br>
-            <a class="footer-languages" href="https://fr.tradingeconomics.com/commodity/crude-oil" target="_self">Français</a><br>
+            <a class="footer-languages" href="https://es.tradingeconomics.com/germany/gdp" target="_self">Español</a><br>
+            <a class="footer-languages" href="https://pt.tradingeconomics.com/germany/gdp" target="_self">Português</a><br>
+            <a class="footer-languages" href="https://fr.tradingeconomics.com/germany/gdp" target="_self">Français</a><br>
         </div>
         <div class="col-lg-1 col-md-2 col-6">
-            <a class="footer-languages" href="https://de.tradingeconomics.com/commodity/crude-oil" target="_self">Deutsch</a><br>
-            <a class="footer-languages" href="https://it.tradingeconomics.com/commodity/crude-oil" target="_self">Italiano</a><br>
-            <a class="footer-languages" href="https://pl.tradingeconomics.com/commodity/crude-oil" target="_self">Polski</a><br>
-            <a class="footer-languages" href="https://id.tradingeconomics.com/commodity/crude-oil" target="_self">Indonesian</a><br>
+            <a class="footer-languages" href="https://de.tradingeconomics.com/germany/gdp" target="_self">Deutsch</a><br>
+            <a class="footer-languages" href="https://it.tradingeconomics.com/germany/gdp" target="_self">Italiano</a><br>
+            <a class="footer-languages" href="https://pl.tradingeconomics.com/germany/gdp" target="_self">Polski</a><br>
+            <a class="footer-languages" href="https://id.tradingeconomics.com/germany/gdp" target="_self">Indonesian</a><br>
             
             
             
             
         </div>
         <div class="col-lg-1 col-md-2 col-6">
-            <a class="footer-languages" href="https://ru.tradingeconomics.com/commodity/crude-oil" target="_self">Русский</a><br>
-            <a class="footer-languages" href="https://tr.tradingeconomics.com/commodity/crude-oil" target="_self">Türkçe</a><br>
+            <a class="footer-languages" href="https://ru.tradingeconomics.com/germany/gdp" target="_self">Русский</a><br>
+            <a class="footer-languages" href="https://tr.tradingeconomics.com/germany/gdp" target="_self">Türkçe</a><br>
             
-            <a class="footer-languages" href="https://fa.tradingeconomics.com/commodity/crude-oil" target="_self">Farsi</a><br>
-            <a class="footer-languages" href="https://ar.tradingeconomics.com/commodity/crude-oil" target="_self">العربية</a><br>
+            <a class="footer-languages" href="https://fa.tradingeconomics.com/germany/gdp" target="_self">Farsi</a><br>
+            <a class="footer-languages" href="https://ar.tradingeconomics.com/germany/gdp" target="_self">العربية</a><br>
         </div>
         <div class="col-lg-1 col-md-2 col-6">
-            <a class="footer-languages" href="https://zh.tradingeconomics.com/commodity/crude-oil" target="_self">简体中文</a><br>
-            <a class="footer-languages" href="https://jp.tradingeconomics.com/commodity/crude-oil" target="_self">日本語</a><br>
-            <a class="footer-languages" href="https://ko.tradingeconomics.com/commodity/crude-oil" target="_self">한국어</a><br>
+            <a class="footer-languages" href="https://zh.tradingeconomics.com/germany/gdp" target="_self">简体中文</a><br>
+            <a class="footer-languages" href="https://jp.tradingeconomics.com/germany/gdp" target="_self">日本語</a><br>
+            <a class="footer-languages" href="https://ko.tradingeconomics.com/germany/gdp" target="_self">한국어</a><br>
             
         </div>
     </div>
@@ -3014,6 +2153,37 @@ html_text = """<html><head id="ctl00_Head1"><meta charset="utf-8"><title>
 
 
     
+<script>
+    $(function(){
+        console.log("js/alerts.ascx")
+        var isAlertsLoaded = false;
+        function LoadAlertsScript() {
+            console.log("Loading Alerts JS")
+            $.getScript('https://d107vmm87795sh.cloudfront.net/historical/te-alerts-bs5.js?v=20250711');
+            //Bootstrap3: https://d107vmm87795sh.cloudfront.net/historical/te-alerts.js?v=20200117
+            isAlertsLoaded = true;
+
+        }
+        $('a[data-bs-toggle="tab"]').on('shown.bs.tab', function (e) {
+            if (!isAlertsLoaded) {
+                var target = $(e.target).attr("href");
+                if (target == "#alerts") {
+                    LoadAlertsScript();
+                    $(window).scrollTop(0);
+                } else if (target == "#calendar-table") {
+                    $("#pagemenutabs li").removeClass("active");
+                    document.getElementById("calendar-table").scrollIntoView();
+                };
+            }
+        });
+
+        if (!isAlertsLoaded && location.href.indexOf("#alerts") != -1) {
+            LoadAlertsScript();
+        }
+    });
+</script>
+
+
 <script>
 
     $(function(){
@@ -3362,6 +2532,112 @@ html_text = """<html><head id="ctl00_Head1"><meta charset="utf-8"><title>
     });
 
 </script>
+
+
+<script>
+
+    function tabClickEvent(modal, event) {
+        var modalTitle = "";
+        var modalContent = "";
+        var modalFooter = "";
+        var GAEvent = event;
+        const loginReturn = "https://sso.tradingeconomics.com/?returnurl=https://tradingeconomics.com" + window.location.pathname;
+        const registerLoginActionAll = `<a class='btn btn-outline-secondary' href='https://tradingeconomics.com/analytics/features.aspx?source=${GAEvent}' target='_blank'>Learn More</a>`
+            + `<a class='btn btn-outline-secondary' href='https://tradingeconomics.com/analytics/pricing.aspx?source=${GAEvent}' target='_blank'>Pricing</a>`
+            + "<a class='btn btn-outline-secondary' href='https://tradingeconomics.com/contact.aspx?subject=forecast_register' target='_blank'>" + (IsMobile ? "Contact" : "Questions? <b>Contact us</b>") + "</a>"
+            + "<a class='btn btn-outline-secondary' href='" + loginReturn + "&source=" + GAEvent + "' target='_blank'>" + (IsMobile ? "Login" : "Member?  <b>Login</b>") + "</a>";
+
+        switch (modal) {
+            case "registerCA":
+                modalContent += "This feature is exclusively available to subscribers. Trading Economics has more than 20 million economic indicators for nearly 200 countries, plus exchange rates, government bond yields, stock indexes, shares and commodity prices. Consider subscribing to unlock all benefits! "
+                modalFooter += `<div style='text-align:center;'><div class='btn-group'> ` + registerLoginActionAll;
+                modalFooter += "</div></div>"
+                GAEvent = 'te_click_' + GAEvent;
+        }
+
+        if (GAEvent != null) {
+            ga('event', GAEvent);
+            console.log('GAEvent: ', GAEvent);
+        }
+
+        showTabModal(modalTitle, modalContent, modalFooter);
+    }
+
+    function showTabModal(modalTitle, modalContent, modalFooter) {
+        var modal = "<div class ='modal' id='tabclickModal' tabindex='-1' role='dialog' aria-labelledby='myModalLabel'>";
+        modal += "<div class='modal-dialog modal-dialog-centered' role='document'>";
+        modal += "<div class='modal-content'>";
+        modal += "<div class='modal-header'><div class='modal-title'></div><button type='button' class ='btn-close' data-bs-dismiss='modal' aria-label='Close'></button></div>";
+        modal += "<div class='modal-body' style='text-align:justify;'></div>"
+        modal += "<div class='modal-footer'></div>"
+        modal += "</div></div></div>"
+
+        var jModal = $(modal);
+
+        $(jModal).find(".modal-title").html(modalTitle);
+
+        // define the modal content
+        if (modalContent)
+            $(jModal).find(".modal-body").html(modalContent);
+        else
+            $(jModal).find(".modal-body").remove();
+
+        // define the modal footer
+        if (modalFooter)
+            $(jModal).find(".modal-footer").html(modalFooter);
+        else
+            $(jModal).find(".modal-footer").remove();
+
+        $(jModal).on('show.bs.modal', function (e) {
+            $(".navbar").css("padding-right", "17px");
+            $(".pagemenu").css("padding-right", "17px");
+            $(".pagetabs").css("padding-right", "17px");
+        });
+
+        $(jModal).on('hide.bs.modal', function (e) {
+            $(".navbar").css("padding-right", "");
+            $(".pagemenu").css("padding-right", "");
+            $(".pagetabs").css("padding-right", "");
+        });
+
+
+        $(jModal).modal("show");
+    }
+
+    document.addEventListener("DOMContentLoaded", function () {
+        const forecastTab = document.querySelector('[data-bs-target="#forecast-desc"]');
+        const forecast_v_option = document.getElementById('forecast_v_option');
+
+        if (forecastTab && TEChart != 'EC') {
+            forecastTab.addEventListener('show.bs.tab', function (e) {
+                if (!isLoggedIn) {
+                    e.preventDefault();
+                    tabClickEvent("registerCA","registerCA_forecast")
+                }
+            });
+        }
+
+        if (forecast_v_option) {
+            forecast_v_option.addEventListener('click', function (e) {
+                if (!isLoggedIn) {
+                    e.preventDefault();
+                    tabClickEvent("registerCA","registerCA_forecast_visuals")
+                }
+            });
+        }
+    });
+</script>
+<script>console.log("/js/chartec.ascx");</script>
+
+<script src="https://d1v8a2ofhkdel3.cloudfront.net/cdn/highstock_exporting.2024.10.1.0.js"></script>
+
+<link rel="stylesheet" href="https://d2xewprs6ejfae.cloudfront.net/production/ec.min.css?v=20260219" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<link rel="stylesheet" href="https://d2xewprs6ejfae.cloudfront.net/production/ec.min.css?v=20260219">
+<script src="https://d2xewprs6ejfae.cloudfront.net/production/ec.min.js?v=20260219"></script>
+<script>console.log("Loading Chatbot")</script>
+
+
+<script type="text/javascript" src="https://d3e5kp2e91w0k0.cloudfront.net/js/chat.js"></script>
 
 <style>.modal-dialog-centered{display:flex;align-items:center;justify-content:center;height:calc(100% - 60px)}.modal-footer,.modal-header{padding:10px 15px;border:none}#menu-download-dropdown li{padding:0;border-top:none}#menu-download-dropdown li a{padding:10px 20px;display:flex}</style>
 <script>
@@ -4109,100 +3385,79 @@ html_text = """<html><head id="ctl00_Head1"><meta charset="utf-8"><title>
     
 </script>
 
-
 <script>
+    console.log('/controls/pnotify.ascx')
 
-    function tabClickEvent(modal, event) {
-        var modalTitle = "";
-        var modalContent = "";
-        var modalFooter = "";
-        var GAEvent = event;
-        const loginReturn = "https://sso.tradingeconomics.com/?returnurl=https://tradingeconomics.com" + window.location.pathname;
-        const registerLoginActionAll = `<a class='btn btn-outline-secondary' href='https://tradingeconomics.com/analytics/features.aspx?source=${GAEvent}' target='_blank'>Learn More</a>`
-            + `<a class='btn btn-outline-secondary' href='https://tradingeconomics.com/analytics/pricing.aspx?source=${GAEvent}' target='_blank'>Pricing</a>`
-            + "<a class='btn btn-outline-secondary' href='https://tradingeconomics.com/contact.aspx?subject=forecast_register' target='_blank'>" + (IsMobile ? "Contact" : "Questions? <b>Contact us</b>") + "</a>"
-            + "<a class='btn btn-outline-secondary' href='" + loginReturn + "&source=" + GAEvent + "' target='_blank'>" + (IsMobile ? "Login" : "Member?  <b>Login</b>") + "</a>";
+    // pnotify
+    !function (t, i) { "function" == typeof define && define.amd ? define("pnotify", ["jquery"], function (s) { return i(s, t) }) : "object" == typeof exports && "undefined" != typeof module ? module.exports = i(require("jquery"), global || t) : t.PNotify = i(t.jQuery, t) }("undefined" != typeof window ? window : this, function (t, i) { var s = function (i) { var e, o, n = { dir1: "down", dir2: "left", push: "bottom", spacing1: 36, spacing2: 36, context: t("body"), modal: !1 }, a = t(i), r = function () { o = t("body"), c.prototype.options.stack.context = o, a = t(i), a.bind("resize", function () { e && clearTimeout(e), e = setTimeout(function () { c.positionAll(!0) }, 10) }) }, h = function (i) { var s = t("<div />", { class: "ui-pnotify-modal-overlay" }); return s.prependTo(i.context), i.overlay_close && s.click(function () { c.removeStack(i) }), s }, c = function (t) { this.state = "initializing", this.timer = null, this.animTimer = null, this.styles = null, this.elem = null, this.container = null, this.title_container = null, this.text_container = null, this.animating = !1, this.timerHide = !1, this.parseOptions(t), this.init() }; return t.extend(c.prototype, { version: "3.2.0", options: { title: !1, title_escape: !1, text: !1, text_escape: !1, styling: "brighttheme", addclass: "", cornerclass: "", auto_display: !0, width: "300px", min_height: "16px", type: "notice", icon: !0, animation: "fade", animate_speed: "normal", shadow: !0, hide: !0, delay: 8e3, mouse_reset: !0, remove: !0, insert_brs: !0, destroy: !0, stack: n }, modules: {}, runModules: function (t, i) { var s; for (var e in this.modules) s = "object" == typeof i && e in i ? i[e] : i, "function" == typeof this.modules[e][t] && (this.modules[e].notice = this, this.modules[e].options = "object" == typeof this.options[e] ? this.options[e] : {}, this.modules[e][t](this, "object" == typeof this.options[e] ? this.options[e] : {}, s)) }, init: function () { var i = this; return this.modules = {}, t.extend(!0, this.modules, c.prototype.modules), "object" == typeof this.options.styling ? this.styles = this.options.styling : this.styles = c.styling[this.options.styling], this.elem = t("<div />", { class: "ui-pnotify " + this.options.addclass, css: { display: "none" }, "aria-live": "assertive", "aria-role": "alertdialog", mouseenter: function (t) { if (i.options.mouse_reset && "out" === i.animating) { if (!i.timerHide) return; i.cancelRemove() } i.options.hide && i.options.mouse_reset && i.cancelRemove() }, mouseleave: function (t) { i.options.hide && i.options.mouse_reset && "out" !== i.animating && i.queueRemove(), c.positionAll() } }), "fade" === this.options.animation && this.elem.addClass("ui-pnotify-fade-" + this.options.animate_speed), this.container = t("<div />", { class: this.styles.container + " ui-pnotify-container " + ("error" === this.options.type ? this.styles.error : "info" === this.options.type ? this.styles.info : "success" === this.options.type ? this.styles.success : this.styles.notice), role: "alert" }).appendTo(this.elem), "" !== this.options.cornerclass && this.container.removeClass("ui-corner-all").addClass(this.options.cornerclass), this.options.shadow && this.container.addClass("ui-pnotify-shadow"), !1 !== this.options.icon && t("<div />", { class: "ui-pnotify-icon" }).append(t("<span />", { class: !0 === this.options.icon ? "error" === this.options.type ? this.styles.error_icon : "info" === this.options.type ? this.styles.info_icon : "success" === this.options.type ? this.styles.success_icon : this.styles.notice_icon : this.options.icon })).prependTo(this.container), this.title_container = t("<h4 />", { class: "ui-pnotify-title" }).appendTo(this.container), !1 === this.options.title ? this.title_container.hide() : this.options.title_escape ? this.title_container.text(this.options.title) : this.title_container.html(this.options.title), this.text_container = t("<div />", { class: "ui-pnotify-text", "aria-role": "alert" }).appendTo(this.container), !1 === this.options.text ? this.text_container.hide() : this.options.text_escape ? this.text_container.text(this.options.text) : this.text_container.html(this.options.insert_brs ? String(this.options.text).replace(/\n/g, "<br />") : this.options.text), "string" == typeof this.options.width && this.elem.css("width", this.options.width), "string" == typeof this.options.min_height && this.container.css("min-height", this.options.min_height), "top" === this.options.stack.push ? c.notices = t.merge([this], c.notices) : c.notices = t.merge(c.notices, [this]), "top" === this.options.stack.push && this.queuePosition(!1, 1), this.options.stack.animation = !1, this.runModules("init"), this.state = "closed", this.options.auto_display && this.open(), this }, update: function (i) { var s = this.options; return this.parseOptions(s, i), this.elem.removeClass("ui-pnotify-fade-slow ui-pnotify-fade-normal ui-pnotify-fade-fast"), "fade" === this.options.animation && this.elem.addClass("ui-pnotify-fade-" + this.options.animate_speed), this.options.cornerclass !== s.cornerclass && this.container.removeClass("ui-corner-all " + s.cornerclass).addClass(this.options.cornerclass), this.options.shadow !== s.shadow && (this.options.shadow ? this.container.addClass("ui-pnotify-shadow") : this.container.removeClass("ui-pnotify-shadow")), !1 === this.options.addclass ? this.elem.removeClass(s.addclass) : this.options.addclass !== s.addclass && this.elem.removeClass(s.addclass).addClass(this.options.addclass), !1 === this.options.title ? this.title_container.slideUp("fast") : this.options.title !== s.title && (this.options.title_escape ? this.title_container.text(this.options.title) : this.title_container.html(this.options.title), !1 === s.title && this.title_container.slideDown(200)), !1 === this.options.text ? this.text_container.slideUp("fast") : this.options.text !== s.text && (this.options.text_escape ? this.text_container.text(this.options.text) : this.text_container.html(this.options.insert_brs ? String(this.options.text).replace(/\n/g, "<br />") : this.options.text), !1 === s.text && this.text_container.slideDown(200)), this.options.type !== s.type && this.container.removeClass(this.styles.error + " " + this.styles.notice + " " + this.styles.success + " " + this.styles.info).addClass("error" === this.options.type ? this.styles.error : "info" === this.options.type ? this.styles.info : "success" === this.options.type ? this.styles.success : this.styles.notice), (this.options.icon !== s.icon || !0 === this.options.icon && this.options.type !== s.type) && (this.container.find("div.ui-pnotify-icon").remove(), !1 !== this.options.icon && t("<div />", { class: "ui-pnotify-icon" }).append(t("<span />", { class: !0 === this.options.icon ? "error" === this.options.type ? this.styles.error_icon : "info" === this.options.type ? this.styles.info_icon : "success" === this.options.type ? this.styles.success_icon : this.styles.notice_icon : this.options.icon })).prependTo(this.container)), this.options.width !== s.width && this.elem.animate({ width: this.options.width }), this.options.min_height !== s.min_height && this.container.animate({ minHeight: this.options.min_height }), this.options.hide ? s.hide || this.queueRemove() : this.cancelRemove(), this.queuePosition(!0), this.runModules("update", s), this }, open: function () { this.state = "opening", this.runModules("beforeOpen"); var t = this; return this.elem.parent().length || this.elem.appendTo(this.options.stack.context ? this.options.stack.context : o), "top" !== this.options.stack.push && this.position(!0), this.animateIn(function () { t.queuePosition(!0), t.options.hide && t.queueRemove(), t.state = "open", t.runModules("afterOpen") }), this }, remove: function (s) { this.state = "closing", this.timerHide = !!s, this.runModules("beforeClose"); var e = this; return this.timer && (i.clearTimeout(this.timer), this.timer = null), this.animateOut(function () { if (e.state = "closed", e.runModules("afterClose"), e.queuePosition(!0), e.options.remove && e.elem.detach(), e.runModules("beforeDestroy"), e.options.destroy && null !== c.notices) { var i = t.inArray(e, c.notices); -1 !== i && c.notices.splice(i, 1) } e.runModules("afterDestroy") }), this }, get: function () { return this.elem }, parseOptions: function (i, s) { this.options = t.extend(!0, {}, c.prototype.options), this.options.stack = c.prototype.options.stack; for (var e, o = [i, s], n = 0; n < o.length && void 0 !== (e = o[n]); n++)if ("object" != typeof e) this.options.text = e; else for (var a in e) this.modules[a] ? t.extend(!0, this.options[a], e[a]) : this.options[a] = e[a] }, animateIn: function (t) { this.animating = "in"; var i = this, s = function () { i.animTimer && clearTimeout(i.animTimer), "in" === i.animating && (i.elem.is(":visible") ? (t && t.call(), i.animating = !1) : i.animTimer = setTimeout(s, 40)) }; "fade" === this.options.animation ? (this.elem.one("webkitTransitionEnd mozTransitionEnd MSTransitionEnd oTransitionEnd transitionend", s).addClass("ui-pnotify-in"), this.elem.css("opacity"), this.elem.addClass("ui-pnotify-fade-in"), this.animTimer = setTimeout(s, 650)) : (this.elem.addClass("ui-pnotify-in"), s()) }, animateOut: function (i) { this.animating = "out"; var s = this, e = function () { if (s.animTimer && clearTimeout(s.animTimer), "out" === s.animating) if ("0" != s.elem.css("opacity") && s.elem.is(":visible")) s.animTimer = setTimeout(e, 40); else { if (s.elem.removeClass("ui-pnotify-in"), s.options.stack.overlay) { var o = !1; t.each(c.notices, function (t, i) { i != s && i.options.stack === s.options.stack && "closed" != i.state && (o = !0) }), o || s.options.stack.overlay.hide() } i && i.call(), s.animating = !1 } }; "fade" === this.options.animation ? (this.elem.one("webkitTransitionEnd mozTransitionEnd MSTransitionEnd oTransitionEnd transitionend", e).removeClass("ui-pnotify-fade-in"), this.animTimer = setTimeout(e, 650)) : (this.elem.removeClass("ui-pnotify-in"), e()) }, position: function (t) { var i = this.options.stack, s = this.elem; if (void 0 === i.context && (i.context = o), i) { "number" != typeof i.nextpos1 && (i.nextpos1 = i.firstpos1), "number" != typeof i.nextpos2 && (i.nextpos2 = i.firstpos2), "number" != typeof i.addpos2 && (i.addpos2 = 0); var e = !s.hasClass("ui-pnotify-in"); if (!e || t) { i.modal && (i.overlay ? i.overlay.show() : i.overlay = h(i)), s.addClass("ui-pnotify-move"); var n, r, c; switch (i.dir1) { case "down": c = "top"; break; case "up": c = "bottom"; break; case "left": c = "right"; break; case "right": c = "left" }n = parseInt(s.css(c).replace(/(?:\..*|[^0-9.])/g, "")), isNaN(n) && (n = 0), void 0 !== i.firstpos1 || e || (i.firstpos1 = n, i.nextpos1 = i.firstpos1); var p; switch (i.dir2) { case "down": p = "top"; break; case "up": p = "bottom"; break; case "left": p = "right"; break; case "right": p = "left" }switch (r = parseInt(s.css(p).replace(/(?:\..*|[^0-9.])/g, "")), isNaN(r) && (r = 0), void 0 !== i.firstpos2 || e || (i.firstpos2 = r, i.nextpos2 = i.firstpos2), ("down" === i.dir1 && i.nextpos1 + s.height() > (i.context.is(o) ? a.height() : i.context.prop("scrollHeight")) || "up" === i.dir1 && i.nextpos1 + s.height() > (i.context.is(o) ? a.height() : i.context.prop("scrollHeight")) || "left" === i.dir1 && i.nextpos1 + s.width() > (i.context.is(o) ? a.width() : i.context.prop("scrollWidth")) || "right" === i.dir1 && i.nextpos1 + s.width() > (i.context.is(o) ? a.width() : i.context.prop("scrollWidth"))) && (i.nextpos1 = i.firstpos1, i.nextpos2 += i.addpos2 + (void 0 === i.spacing2 ? 25 : i.spacing2), i.addpos2 = 0), "number" == typeof i.nextpos2 && (i.animation ? s.css(p, i.nextpos2 + "px") : (s.removeClass("ui-pnotify-move"), s.css(p, i.nextpos2 + "px"), s.css(p), s.addClass("ui-pnotify-move"))), i.dir2) { case "down": case "up": s.outerHeight(!0) > i.addpos2 && (i.addpos2 = s.height()); break; case "left": case "right": s.outerWidth(!0) > i.addpos2 && (i.addpos2 = s.width()) }switch ("number" == typeof i.nextpos1 && (i.animation ? s.css(c, i.nextpos1 + "px") : (s.removeClass("ui-pnotify-move"), s.css(c, i.nextpos1 + "px"), s.css(c), s.addClass("ui-pnotify-move"))), i.dir1) { case "down": case "up": i.nextpos1 += s.height() + (void 0 === i.spacing1 ? 25 : i.spacing1); break; case "left": case "right": i.nextpos1 += s.width() + (void 0 === i.spacing1 ? 25 : i.spacing1) } } return this } }, queuePosition: function (t, i) { return e && clearTimeout(e), i || (i = 10), e = setTimeout(function () { c.positionAll(t) }, i), this }, cancelRemove: function () { return this.timer && i.clearTimeout(this.timer), this.animTimer && i.clearTimeout(this.animTimer), "closing" === this.state && (this.state = "open", this.animating = !1, this.elem.addClass("ui-pnotify-in"), "fade" === this.options.animation && this.elem.addClass("ui-pnotify-fade-in")), this }, queueRemove: function () { var t = this; return this.cancelRemove(), this.timer = i.setTimeout(function () { t.remove(!0) }, isNaN(this.options.delay) ? 0 : this.options.delay), this } }), t.extend(c, { notices: [], reload: s, removeAll: function () { t.each(c.notices, function (t, i) { i.remove && i.remove(!1) }) }, removeStack: function (i) { t.each(c.notices, function (t, s) { s.remove && s.options.stack === i && s.remove(!1) }) }, positionAll: function (i) { if (e && clearTimeout(e), e = null, c.notices && c.notices.length) t.each(c.notices, function (t, s) { var e = s.options.stack; e && (e.overlay && e.overlay.hide(), e.nextpos1 = e.firstpos1, e.nextpos2 = e.firstpos2, e.addpos2 = 0, e.animation = i) }), t.each(c.notices, function (t, i) { i.position() }); else { var s = c.prototype.options.stack; s && (delete s.nextpos1, delete s.nextpos2) } }, styling: { brighttheme: { container: "brighttheme", notice: "brighttheme-notice", notice_icon: "brighttheme-icon-notice", info: "brighttheme-info", info_icon: "brighttheme-icon-info", success: "brighttheme-success", success_icon: "brighttheme-icon-success", error: "brighttheme-error", error_icon: "brighttheme-icon-error" }, bootstrap3: { container: "alert", notice: "alert-warning", notice_icon: "glyphicon glyphicon-exclamation-sign", info: "alert-info", info_icon: "glyphicon glyphicon-info-sign", success: "alert-success", success_icon: "bi bi-check-lg-sign", error: "alert-danger", error_icon: "glyphicon glyphicon-warning-sign" } } }), c.styling.fontawesome = t.extend({}, c.styling.bootstrap3), t.extend(c.styling.fontawesome, { notice_icon: "fa fa-exclamation-circle", info_icon: "fa fa-info", success_icon: "fa fa-check", error_icon: "fa fa-warning" }), i.document.body ? r() : t(r), c }; return s(i) }); !function (o, s) { "function" == typeof define && define.amd ? define("pnotify.buttons", ["jquery", "pnotify"], s) : "object" == typeof exports && "undefined" != typeof module ? module.exports = s(require("jquery"), require("./pnotify")) : s(o.jQuery, o.PNotify) }("undefined" != typeof window ? window : this, function (o, s) { return s.prototype.options.buttons = { closer: !0, closer_hover: !0, sticker: !0, sticker_hover: !0, show_on_nonblock: !1, labels: { close: "Close", stick: "Stick", unstick: "Unstick" }, classes: { closer: null, pin_up: null, pin_down: null } }, s.prototype.modules.buttons = { init: function (s, i) { var n = this; s.elem.on({ mouseenter: function (o) { !n.options.sticker || s.options.nonblock && s.options.nonblock.nonblock && !n.options.show_on_nonblock || n.sticker.trigger("pnotify:buttons:toggleStick").css("visibility", "visible"), !n.options.closer || s.options.nonblock && s.options.nonblock.nonblock && !n.options.show_on_nonblock || n.closer.css("visibility", "visible") }, mouseleave: function (o) { n.options.sticker_hover && n.sticker.css("visibility", "d-none"), n.options.closer_hover && n.closer.css("visibility", "d-none") } }), this.sticker = o("<div />", { class: "ui-pnotify-sticker", "aria-role": "button", "aria-pressed": s.options.hide ? "false" : "true", tabindex: "0", title: s.options.hide ? i.labels.stick : i.labels.unstick, css: { cursor: "pointer", visibility: i.sticker_hover ? "d-none" : "visible" }, click: function () { s.options.hide = !s.options.hide, s.options.hide ? s.queueRemove() : s.cancelRemove(), o(this).trigger("pnotify:buttons:toggleStick") } }).bind("pnotify:buttons:toggleStick", function () { var i = null === n.options.classes.pin_up ? s.styles.pin_up : n.options.classes.pin_up, e = null === n.options.classes.pin_down ? s.styles.pin_down : n.options.classes.pin_down; o(this).attr("title", s.options.hide ? n.options.labels.stick : n.options.labels.unstick).children().attr("class", "").addClass(s.options.hide ? i : e).attr("aria-pressed", s.options.hide ? "false" : "true") }).append("<span />").trigger("pnotify:buttons:toggleStick").prependTo(s.container), (!i.sticker || s.options.nonblock && s.options.nonblock.nonblock && !i.show_on_nonblock) && this.sticker.css("display", "none"), this.closer = o("<div />", { class: "ui-pnotify-closer", "aria-role": "button", tabindex: "0", title: i.labels.close, css: { cursor: "pointer", visibility: i.closer_hover ? "d-none" : "visible" }, click: function () { s.remove(!1), n.sticker.css("visibility", "d-none"), n.closer.css("visibility", "d-none") } }).append(o("<span />", { class: null === i.classes.closer ? s.styles.closer : i.classes.closer })).prependTo(s.container), (!i.closer || s.options.nonblock && s.options.nonblock.nonblock && !i.show_on_nonblock) && this.closer.css("display", "none") }, update: function (o, s) { !s.closer || o.options.nonblock && o.options.nonblock.nonblock && !s.show_on_nonblock ? this.closer.css("display", "none") : s.closer && this.closer.css("display", "block"), !s.sticker || o.options.nonblock && o.options.nonblock.nonblock && !s.show_on_nonblock ? this.sticker.css("display", "none") : s.sticker && this.sticker.css("display", "block"), this.sticker.trigger("pnotify:buttons:toggleStick"), this.closer.find("span").attr("class", "").addClass(null === s.classes.closer ? o.styles.closer : s.classes.closer), s.sticker_hover ? this.sticker.css("visibility", "d-none") : o.options.nonblock && o.options.nonblock.nonblock && !s.show_on_nonblock || this.sticker.css("visibility", "visible"), s.closer_hover ? this.closer.css("visibility", "d-none") : o.options.nonblock && o.options.nonblock.nonblock && !s.show_on_nonblock || this.closer.css("visibility", "visible") } }, o.extend(s.styling.brighttheme, { closer: "brighttheme-icon-closer", pin_up: "brighttheme-icon-sticker", pin_down: "brighttheme-icon-sticker brighttheme-icon-stuck" }), o.extend(s.styling.bootstrap3, { closer: "bi bi-x-lg", pin_up: "glyphicon glyphicon-pause", pin_down: "glyphicon glyphicon-play" }), o.extend(s.styling.fontawesome, { closer: "fa fa-times", pin_up: "fa fa-pause", pin_down: "fa fa-play" }), s }); !function (i, t) { "function" == typeof define && define.amd ? define("pnotify.desktop", ["jquery", "pnotify"], t) : "object" == typeof exports && "undefined" != typeof module ? module.exports = t(require("jquery"), require("./pnotify")) : t(i.jQuery, i.PNotify) }("undefined" != typeof window ? window : this, function (i, t) { var o, n = function (i, t) { return (n = "Notification" in window ? function (i, t) { return new Notification(i, t) } : "mozNotification" in navigator ? function (i, t) { return navigator.mozNotification.createNotification(i, t.body, t.icon).show() } : "webkitNotifications" in window ? function (i, t) { return window.webkitNotifications.createNotification(t.icon, i, t.body) } : function (i, t) { return null })(i, t) }; return t.prototype.options.desktop = { desktop: !1, fallback: !0, icon: null, tag: null, title: null, text: null }, t.prototype.modules.desktop = { genNotice: function (i, t) { null === t.icon ? this.icon = "https://sciactive.com/pnotify/includes/desktop/" + i.options.type + ".png" : !1 === t.icon ? this.icon = null : this.icon = t.icon, null !== this.tag && null === t.tag || (this.tag = null === t.tag ? "PNotify-" + Math.round(1e6 * Math.random()) : t.tag), i.desktop = n(t.title || i.options.title, { icon: this.icon, body: t.text || i.options.text, tag: this.tag }), !("close" in i.desktop) && "cancel" in i.desktop && (i.desktop.close = function () { i.desktop.cancel() }), i.desktop.onclick = function () { i.elem.trigger("click") }, i.desktop.onclose = function () { "closing" !== i.state && "closed" !== i.state && i.remove() } }, init: function (i, n) { if (n.desktop) { if (0 !== (o = t.desktop.checkPermission())) return void (n.fallback || (i.options.auto_display = !1)); this.genNotice(i, n) } }, update: function (i, t, n) { 0 !== o && t.fallback || !t.desktop || this.genNotice(i, t) }, beforeOpen: function (i, t) { 0 !== o && t.fallback || !t.desktop || i.elem.css({ left: "-10000px" }).removeClass("ui-pnotify-in") }, afterOpen: function (i, t) { 0 !== o && t.fallback || !t.desktop || (i.elem.css({ left: "-10000px" }).removeClass("ui-pnotify-in"), "show" in i.desktop && i.desktop.show()) }, beforeClose: function (i, t) { 0 !== o && t.fallback || !t.desktop || i.elem.css({ left: "-10000px" }).removeClass("ui-pnotify-in") }, afterClose: function (i, t) { 0 !== o && t.fallback || !t.desktop || (i.elem.css({ left: "-10000px" }).removeClass("ui-pnotify-in"), "close" in i.desktop && i.desktop.close()) } }, t.desktop = { permission: function () { "undefined" != typeof Notification && "requestPermission" in Notification ? Notification.requestPermission() : "webkitNotifications" in window && window.webkitNotifications.requestPermission() }, checkPermission: function () { return "undefined" != typeof Notification && "permission" in Notification ? "granted" === Notification.permission ? 0 : 1 : "webkitNotifications" in window && 0 == window.webkitNotifications.checkPermission() ? 0 : 1 } }, o = t.desktop.checkPermission(), t }); !function (i, o) { "function" == typeof define && define.amd ? define("pnotify.mobile", ["jquery", "pnotify"], o) : "object" == typeof exports && "undefined" != typeof module ? module.exports = o(require("jquery"), require("./pnotify")) : o(i.jQuery, i.PNotify) }("undefined" != typeof window ? window : this, function (i, o) { return o.prototype.options.mobile = { swipe_dismiss: !0, styling: !0 }, o.prototype.modules.mobile = { init: function (i, o) { var t = this, e = null, n = null, s = null; this.swipe_dismiss = o.swipe_dismiss, this.doMobileStyling(i, o), i.elem.on({ touchstart: function (o) { t.swipe_dismiss && (e = o.originalEvent.touches[0].screenX, s = i.elem.width(), i.container.css("left", "0")) }, touchmove: function (o) { if (e && t.swipe_dismiss) { var a = o.originalEvent.touches[0].screenX; n = a - e; var c = (1 - Math.abs(n) / s) * i.options.opacity; i.elem.css("opacity", c), i.container.css("left", n) } }, touchend: function () { if (e && t.swipe_dismiss) { if (Math.abs(n) > 40) { var o = n < 0 ? -2 * s : 2 * s; i.elem.animate({ opacity: 0 }, 100), i.container.animate({ left: o }, 100), i.remove() } else i.elem.animate({ opacity: i.options.opacity }, 100), i.container.animate({ left: 0 }, 100); e = null, n = null, s = null } }, touchcancel: function () { e && t.swipe_dismiss && (i.elem.animate({ opacity: i.options.opacity }, 100), i.container.animate({ left: 0 }, 100), e = null, n = null, s = null) } }) }, update: function (i, o) { this.swipe_dismiss = o.swipe_dismiss, this.doMobileStyling(i, o) }, doMobileStyling: function (o, t) { t.styling ? (o.elem.addClass("ui-pnotify-mobile-able"), i(window).width() <= 480 ? (o.options.stack.mobileOrigSpacing1 || (o.options.stack.mobileOrigSpacing1 = o.options.stack.spacing1, o.options.stack.mobileOrigSpacing2 = o.options.stack.spacing2), o.options.stack.spacing1 = 0, o.options.stack.spacing2 = 0) : (o.options.stack.mobileOrigSpacing1 || o.options.stack.mobileOrigSpacing2) && (o.options.stack.spacing1 = o.options.stack.mobileOrigSpacing1, delete o.options.stack.mobileOrigSpacing1, o.options.stack.spacing2 = o.options.stack.mobileOrigSpacing2, delete o.options.stack.mobileOrigSpacing2)) : (o.elem.removeClass("ui-pnotify-mobile-able"), o.options.stack.mobileOrigSpacing1 && (o.options.stack.spacing1 = o.options.stack.mobileOrigSpacing1, delete o.options.stack.mobileOrigSpacing1), o.options.stack.mobileOrigSpacing2 && (o.options.stack.spacing2 = o.options.stack.mobileOrigSpacing2, delete o.options.stack.mobileOrigSpacing2)) } }, o });
+</script>
 
-        switch (modal) {
-            case "registerCA":
-                modalContent += "This feature is exclusively available to subscribers. Trading Economics has more than 20 million economic indicators for nearly 200 countries, plus exchange rates, government bond yields, stock indexes, shares and commodity prices. Consider subscribing to unlock all benefits! "
-                modalFooter += `<div style='text-align:center;'><div class='btn-group'> ` + registerLoginActionAll;
-                modalFooter += "</div></div>"
-                GAEvent = 'te_click_' + GAEvent;
-        }
-
-        if (GAEvent != null) {
-            ga('event', GAEvent);
-            console.log('GAEvent: ', GAEvent);
-        }
-
-        showTabModal(modalTitle, modalContent, modalFooter);
+<style>
+    .morelink {
+        text-decoration: none;
+        outline: none;
+        font-size: 85%;
+        color: #808080;
     }
+    .morecontent span {
+        display: none;
+    }
+</style>
+<script>
+    function shortenText(nchar) {
+        const showChar = nchar || 300;
+        const ellipsestext = "...";
+        const moretext = TELanguage && TELanguage != '' ? '<i class="bi bi-plus-square"></i>' : "more";
+        const lesstext = TELanguage && TELanguage != '' ? '<i class="bi bi-dash-square"></i>' : "less";
 
-    function showTabModal(modalTitle, modalContent, modalFooter) {
-        var modal = "<div class ='modal' id='tabclickModal' tabindex='-1' role='dialog' aria-labelledby='myModalLabel'>";
-        modal += "<div class='modal-dialog modal-dialog-centered' role='document'>";
-        modal += "<div class='modal-content'>";
-        modal += "<div class='modal-header'><div class='modal-title'></div><button type='button' class ='btn-close' data-bs-dismiss='modal' aria-label='Close'></button></div>";
-        modal += "<div class='modal-body' style='text-align:justify;'></div>"
-        modal += "<div class='modal-footer'></div>"
-        modal += "</div></div></div>"
+        $('.more:not([data-shortened="true"])').each(function () {
+            const $this = $(this);
+            const content = $this.html();
 
-        var jModal = $(modal);
+            if (content.length > showChar) {
+                const c = content.substr(0, showChar);
+                const h = content.substr(showChar, content.length - showChar);
 
-        $(jModal).find(".modal-title").html(modalTitle);
+                const html = c +
+                    '<span class="moreellipses">' + ellipsestext + '</span>' +
+                    '<span class="morecontent">' +
+                    '<span>' + h + '</span>' +
+                    '&nbsp;<a href="#" class="morelink">' + moretext + '</a>' +
+                    '</span>';
 
-        // define the modal content
-        if (modalContent)
-            $(jModal).find(".modal-body").html(modalContent);
-        else
-            $(jModal).find(".modal-body").remove();
+                $this.html(html);
+                $this.attr('data-shortened', 'true');
 
-        // define the modal footer
-        if (modalFooter)
-            $(jModal).find(".modal-footer").html(modalFooter);
-        else
-            $(jModal).find(".modal-footer").remove();
-
-        $(jModal).on('show.bs.modal', function (e) {
-            $(".navbar").css("padding-right", "17px");
-            $(".pagemenu").css("padding-right", "17px");
-            $(".pagetabs").css("padding-right", "17px");
+                $this.find('.morecontent').find('span').hide();
+            }
         });
 
-        $(jModal).on('hide.bs.modal', function (e) {
-            $(".navbar").css("padding-right", "");
-            $(".pagemenu").css("padding-right", "");
-            $(".pagetabs").css("padding-right", "");
+        $(document).off('click', '.morelink').on('click', '.morelink', function (e) {
+
+            e.preventDefault();
+
+            const $link = $(this);
+            const $moreContentSpan = $link.prev();
+            const $ellipsisSpan = $link.parent().prev();
+
+            if ($link.hasClass("less")) {
+                $link.removeClass("less").html(moretext);
+                $moreContentSpan.hide();
+                $ellipsisSpan.show();
+            } else {
+                $link.addClass("less").html(lesstext);
+                $moreContentSpan.show();
+                $ellipsisSpan.hide();
+            }
         });
-
-
-        $(jModal).modal("show");
     }
 
-    document.addEventListener("DOMContentLoaded", function () {
-        const forecastTab = document.querySelector('[data-bs-target="#forecast-desc"]');
-        const forecast_v_option = document.getElementById('forecast_v_option');
 
-        if (forecastTab && TEChart != 'EC') {
-            forecastTab.addEventListener('show.bs.tab', function (e) {
-                if (!isLoggedIn) {
-                    e.preventDefault();
-                    tabClickEvent("registerCA","registerCA_forecast")
-                }
-            });
-        }
-
-        if (forecast_v_option) {
-            forecast_v_option.addEventListener('click', function (e) {
-                if (!isLoggedIn) {
-                    e.preventDefault();
-                    tabClickEvent("registerCA","registerCA_forecast_visuals")
-                }
-            });
-        }
+    $(function () {
+        shortenText(300)
     });
 </script>
+
 <style>
 .te-stream-item-description {font-size: 15px;display: block;overflow-wrap: break-word;}.te-stream-item::after {content: "";display: table;clear: both;}.te-stream-title-div{padding-bottom:5px}.te-stream-item-3{background-color:#f6cbcb}.te-stream-item-2{background-color:#eff3ff}.te-stream-country{background-color:#333}.te-stream-category{background-color:#858585}</style>
 
@@ -4549,688 +3804,6 @@ html_text = """<html><head id="ctl00_Head1"><meta charset="utf-8"><title>
         getresult(streamStart, streamSize);
     });
 </script>
-﻿
-<script>
-    console.log('/controls/io.ascx')
-    TEdecryptk = 'j9ONifjoKzxt7kmfYTdKK/5vve0b9Y1UCj/n50jr8d8='
-    TEdecryptn = 'Ipp9HNSfVBUntqFK7PrtofYaOPV312xy'
-    var socket_url = 'https://live.tradingeconomics.com?key=sun';
-
-    console.log("IO Connecting to " + socket_url)
-    const IOparams = new URLSearchParams(window.location.search);
-    var TE_URL = window.location.pathname;
-    socket_url += "&url=" + TE_URL;
-    $.ajaxSetup({ cache: !0 });
-
-    $.getScript('https://d3fy651gv2fhd3.cloudfront.net/js/io.min.js?v=20240223', function () {
-        OnSocketIOLoad();
-    });
-
-    var socket = null;
-    var MKTChannels = []
-    var Subscribed = []
-
-    function base64ToUint8Array(base64) {
-        const binaryString = atob(base64);
-        const length = binaryString.length;
-        const bytes = new Uint8Array(length);
-        for (let i = 0; i < length; i++) {
-            bytes[i] = binaryString.charCodeAt(i);
-        }
-        return bytes;
-    }
-
-    function decryptMessage(ciphertext) {
-        const key = base64ToUint8Array(TEdecryptk);
-        const nonce = base64ToUint8Array(TEdecryptn);
-        const ciphertextUint8Array = new Uint8Array(ciphertext);
-        let decryptedPlaintext = sodium.crypto_secretbox_open_easy(ciphertextUint8Array, nonce, key);
-        decryptedPlaintext = pako.inflate(decryptedPlaintext, { to: 'string' });
-        if (decryptedPlaintext !== undefined) {
-            return (JSON.parse(decryptedPlaintext))
-
-        }
-    }
-
-    function OnSocketIOLoad() {
-        var MKT_TBL_SELEC = "#table-logic-handler-for-sockets";
-        var TEChannels = ['calendar'];
-        if (TE_URL == '/') TEChannels = ['calendar', 'market'];
-        else if (TE_URL == "/calendar") TEChannels = ['calendar'];
-        else if (TE_URL.indexOf("/shares") > -1) TEChannels = ['market', 'calendar'];
-        else if (TE_URL.indexOf("/crypto/treemap") > -1 && window.location.href.toLowerCase().indexOf("freq=") < 0) TEChannels = ['crypto', 'calendar'];
-        else if (TE_URL.indexOf("/stocks/treemap") > -1 && window.location.href.toLowerCase().indexOf("freq=") < 0) TEChannels = ['indexes', 'calendar'];
-        else if (TE_URL.indexOf("/commodities/treemap") > -1 && window.location.href.toLowerCase().indexOf("freq=") < 0) TEChannels = ['commodities', 'calendar'];
-        else if (TE_URL.indexOf("/treemap") > -1 || TE_URL.indexOf("/trademap") > -1 || TE_URL.indexOf("/geomap") > -1 || TE_URL.indexOf("/correlations") > -1) TEChannels = ['calendar'];
-        else if (TE_URL.indexOf("calendar") > -1) TEChannels = ['calendar', 'market'];
-        else if (TE_URL.indexOf("/dividends") > -1 || TE_URL.indexOf("/ipo") > -1 || TE_URL.indexOf("/stock-splits") > -1 || TE_URL.indexOf("/earnings") > -1) TEChannels = ['calendar', 'market'];
-        else if (TE_URL.indexOf("stream") > -1) TEChannels = ['calendar', 'market', 'stream']; else if (TE_URL.indexOf("/currencies") > -1) TEChannels = ['currencies', 'calendar']; else if (TE_URL.indexOf("/stocks") > -1) TEChannels = ['indexes', 'calendar'];
-        else if (TE_URL.indexOf("/bonds") > -1) TEChannels = ['bonds', 'calendar']; else if (TE_URL.indexOf("/commodities") > -1) TEChannels = ['commodities', 'calendar'];
-        else if (TE_URL.indexOf("/crypto") > -1) TEChannels = ['crypto', 'calendar'];
-        else if (TE_URL.indexOf("/forecast/government-bond-10y") > -1) TEChannels = ['bonds', 'calendar'];
-        else if (TE_URL.indexOf("/forecast/commodity") > -1) TEChannels = ['commodities', 'calendar'];
-        else if (TE_URL.indexOf("/currency") > -1 || TE_URL.indexOf("/stock-market") > -1 || TE_URL.indexOf("/commodity/") > -1 || TE_URL.indexOf("/government-bond-yield") > -1) TEChannels = ['market', 'calendar'];
-        else if (TE_URL.split(':').length == 2) TEChannels = ['calendar', 'market'];
-        console.log('IO EPOCH: 1777040504'); console.log('IO IP: 78.213.205.31'); console.log('IO URL: /commodity/crude-oil');console.log('IO TOKEN: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJlcG9jaCI6MTc3NzA0MDUwNCwiaXAiOiI3OC4yMTMuMjA1LjMxIiwidXJsIjoiL2NvbW1vZGl0eS9jcnVkZS1vaWwifQ.wIB00xLQj-W1OxzR-iFoq6QxYO8Gjak9KGzYvfJDOgE');
-        socket = io.connect(socket_url, {
-            withCredentials: true, // Needed for ELB Cookies Stickyness
-            
-            auth: { token: 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJlcG9jaCI6MTc3NzA0MDUwNCwiaXAiOiI3OC4yMTMuMjA1LjMxIiwidXJsIjoiL2NvbW1vZGl0eS9jcnVkZS1vaWwifQ.wIB00xLQj-W1OxzR-iFoq6QxYO8Gjak9KGzYvfJDOgE', url: TE_URL }
-        });
-        socket.on('connect', function () {
-
-            ioErrorCount = 0;
-            IS_CONNECTED = !0;
-
-            // Subscribe to the page symbol
-            if (TE_URL.split(':').length == 2 && TESymbol != '') {
-                var socketSymbol = TESymbol.toUpperCase()
-                console.log('IO Subscribe', socketSymbol, 'No lag');
-                socket.emit('subscribe', { s: [socketSymbol] })
-                Subscribed.push(socketSymbol)
-            }
-
-            // Subscribe to channels
-            if (TEChannels && TEChannels.length) {
-                console.log('IO Subscribing to TEChannels', TEChannels);
-                socket.emit('subscribe', { s: TEChannels })
-            } else {
-                console.log('IO No TEChannels to Subscribe');
-            }
-
-            // Subscribe to symbols
-            if (TE_URL != '/' && TE_URL.indexOf("calendar") <= -1 && (TE_URL.split('/').length > 2 || TE_URL.indexOf(":ind") > -1)) {
-                gatherMKTChannels();
-                if (MKTChannels && MKTChannels.length) {
-                    console.log('IO Subscribing to', MKTChannels.length, 'symbols:', MKTChannels);
-                    if (MKTChannels.length <= 36) {
-                        socket.emit('subscribe', { s: MKTChannels })
-                    }
-                    else {
-                        console.log('IO Subscribing using Chunks');
-                        var i, j, temparray, chunk = 36;
-                        for (i = 0, j = MKTChannels.length; i < j; i += chunk) {
-                            temparray = MKTChannels.slice(i, i + chunk);
-                            console.log('IO Subscribing to', temparray.length, 'channels:', temparray);
-                            socket.emit('subscribe', { s: temparray })
-                        }
-                    }
-
-                } else {
-                    console.log('IO No MKTChannels to Subscribe');
-                }
-            }
-
-            socket.on('disconnect', function () { IS_CONNECTED = !1; console.log('Got disconnect!') }); socket.on("smooth-disconnect", function () { socket.disconnect() })
-        });
-        var isSnap = !0; for (var i = 0; i < TEChannels.length; i++) {
-            channel = TEChannels[i]; if (channel == 'calendar' || channel == 'stream') continue;
-            console.log('IO Snap ' + channel);
-            socket.on(channel, function (a) {
-                a = decryptMessage(a)
-                if (a.length > 0) {
-                    for (i = 0; i < a.length; i++) {
-                        TE_UpdateTable(a[i], isSnap)
-                        TE_UpdateMiniWidget(a[i])
-                        TE_UpdateTreeMap(a[i])
-                    }
-                    isSnap = !1
-                } else { console.log('IO Sent Empty Market Update') }
-            })
-        }
-        var ioErrorCount = 0;
-        socket.on("connect_error", (err) => {
-            ioErrorCount++;
-            console.log('IO Connect Error', ioErrorCount);
-            console.log(err.message);
-            if (TE_URL.indexOf("calendar") <= -1 && ioErrorCount % 10 == 0) {
-                console.log('Disconnecting IO');
-                socket.disconnect();
-                if (ioErrorCount < 100) {
-                    var sleepSecs = ioErrorCount * 5;
-                    console.log('Connecting again in', sleepSecs, 'seconds');
-                    setInterval(function () {
-                        socket.connect()
-                    }, sleepSecs * 1000)
-                }
-                else
-                    console.log('Stay disconnected');
-            }
-        });
-        socket.on('tick', function (t) {
-            t = decryptMessage(t)
-            TE_UpdateTable(t);
-            if (TE_URL.split(':').length == 2) UpdateMarketTick(t);
-        });
-        function gatherMKTChannels() {
-            // Temporary block to avoid too many symbols
-            return
-
-            var nMarkets = $("[data-subscribe]").length;
-            console.log("IO data-subscribe tag present in ", nMarkets, "markets")
-            if (nMarkets == null || typeof input !== "undefined") return
-            else if (nMarkets > 600)
-                console.log("IO Skipping [data-subscribe] because of too many symbols")
-            else {
-                console.log("IO Searching [data-subscribe]")
-                var sCount = 0;
-                $("[data-subscribe]").each(function (i, item) {
-                    var socketSymbol = $(item).attr('data-subscribe')
-                    if (!MKTChannels.includes(socketSymbol) && !Subscribed.includes(socketSymbol)) {
-                        sCount++;
-                        console.log('IO [data-subscribe]', sCount, socketSymbol)
-                        MKTChannels.push(socketSymbol)
-                    }
-                    else
-                        console.log('Already Subscribed. Skip', socketSymbol)
-                })
-            }
-        }
-        function TE_UpdateTable(d, isSnap) {
-            var s = d.s;
-            let element_price;
-            $('tr[data-symbol="' + s + '"]').each((i, el) => {
-                element_price = $(el).find("td#p");
-            })
-            if (element_price == undefined) {
-                return
-            }
-            const p0 = parseFloat(element_price.text())
-            var r = $('tr[data-symbol="' + s + '"]'); var p = r.find('td#p'); var dec = 4; if (typeof r.data('decimals') !== 'undefined' && r.data('decimals') !== "") dec = r.data("decimals"); if (p0 != d.p.toFixed(dec)) {
-                p.text(d.p.toFixed(dec));
-                fg = d.nch > 0 ? 'darkgreen' : d.nch < 0 ? 'darkred' : 'black'; if (IsDarkMode) fg = '#fff'
-                triangle = d.nch > 0 ? '<span class="market-positive-image"></span>' : d.nch < 0 ? '<span class="market-negative-image"></span>' : '<span class="market-neutral-image"></span>'; var previous_triangle = r.find('td#triangle'); if (previous_triangle && previous_triangle.length) { previous_triangle.html(triangle) }
-                var nch = r.find('td#nch');
-                if (nch) { nch.each(function (i, item) { if ($(item).attr("data-no-triangle")) { $(item).text(d.nch.toFixed(dec)); $(item).css("color", fg); $(item).html(Math.abs(d.nch.toFixed(dec))) } else { $(item).text(d.nch.toFixed(dec)); $(item).css("color", fg); $(item).html(triangle + ' ' + Math.abs(d.nch.toFixed(dec))) } }) }
-                var pch = r.find('td#pch'); pch.text(d.pch.toFixed(2) + '%');
-                if (TEChannels != "market") { nch.attr('data-value', d.nch); pch.attr('data-value', d.pch) }
-                r.find('td#pch')
-                pch.css("color", fg);
-                bg = IsDarkMode == true ? '#254f73' : '#cdebf9';
-                p.css("backgroundColor", bg);
-                setTimeout(function () { p.css("backgroundColor", 'transparent') }, 1000)
-                if (!isSnap) {
-                    var dt = new Date(); var h = dt.getHours(); if (h < 10) { h = "0" + h }
-                    var m = dt.getMinutes(); if (m < 10) { m = "0" + m }
-                    var ds = [h, m].join(':'); r.find('td#date').html(ds)
-                }
-                if (d.type && d.type == 'index') {
-                    var stateColor = '', stateSpan = ''; var state = d.state;
-                    if (d.dstate) state = d.dstate;
-                    if (state == 'open') stateColor = 'green'; else if (state == 'closed') stateColor = 'red'; else if (state == 'pre') stateColor = '#CFB53B'; else if (state == 'after') stateColor = '#CFB53B';
-                    else { console.log('IO - Unknown Session State', s); return; }
-                    if (stateColor != '') { stateSpan = '<span class="bi bi-clock" style="font-size:10px; color: ' + stateColor + '" title="' + state + ' trading session"></span>'; r.find('td#session').html(stateSpan) }
-                }
-            }
-        };
-        function TE_UpdateMiniWidget(t) {
-            try {
-
-                function isSameDay(date1, date2) {
-                    return (
-                        date1.getFullYear() === date2.getFullYear() &&
-                        date1.getMonth() === date2.getMonth() &&
-                        date1.getDate() === date2.getDate()
-                    );
-                }
-
-                if (chart && TE_URL == '/') {
-                    if (chart.userOptions.series[0]['symbol'].toLowerCase() == t.s.toLowerCase()) {
-                        let seriesData = chart.series[0].data;
-                        let lastDataPoint = seriesData[seriesData.length - 1];
-                        let lastDate = new Date(lastDataPoint.x);
-                        let currentDate = new Date();
-                        currentDate.setHours(0, 0, 0, 0);
-                        let sameDay = isSameDay(lastDate, currentDate)
-
-                        if (sameDay) {
-                            const newValue = t.p;
-                            const newChang = t.nch;
-                            const newP = t.pch;
-
-                            lastDataPoint.update({
-                                y: newValue,
-                                change: newChang,
-                                percentChange: newP,
-                            });
-                            //addCloseLine();
-                            addCustomLabel(newValue);
-                            
-                        } else {
-                            chart.series[0].addPoint(
-                                {
-                                    x: currentDate.getTime(),
-                                    y: t.p,
-                                    change: t.nch,
-                                    percentChange: t.pch,
-                                },
-                                true,
-                                true
-                            );
-                            //addCloseLine()
-                            addCustomLabel(t.p)
-                        }
-                    }
-
-                }
-            } catch (e) {
-                //console.error("Issues updating mini widget")
-            }
-
-        }
-        function TE_UpdateTreeMap(t) {
-            try {
-                function lightenColor(rgbStr, percent) {
-                    const match = rgbStr.match(/\d+/g);
-                    if (!match || match.length < 3) return rgbStr;
-
-                    let [r, g, b] = match.map(Number);
-                    r = Math.min(255, Math.floor(r + (255 - r) * percent));
-                    g = Math.min(255, Math.floor(g + (255 - g) * percent));
-                    b = Math.min(255, Math.floor(b + (255 - b) * percent));
-                    return `rgb(${r}, ${g}, ${b})`;
-                }
-
-                if ((TE_URL.includes("shares") || TE_URL.includes("/crypto/treemap") || TE_URL.includes("/stocks/treemap") || TE_URL.includes("/commodities/treemap")) && window.location.href.toLowerCase().indexOf("freq=") < 0) {
-                    const arrayToUpdate = [t];
-                    const rects = d3.selectAll("#container rect");
-
-                    const rectsWithId = rects.filter(function () {
-                        return d3.select(this).attr("id");
-                    });
-
-                    const color = d3.scaleLinear()
-                        .domain([-3, 0, 3])
-                        .range(["#f93639", "#464646", "#34d65f"])
-                        .clamp(true);
-
-                    const indexToUpdate = [];
-
-                    arrayToUpdate.forEach(function (d) {
-                        let i = rectsWithId._groups[0].findIndex(rect =>
-                            rect.__data__ && rect.__data__.data.url && rect.__data__.data.url.includes(d.s.toLowerCase())
-                        );
-                        if (i == -1) {
-                            i = rectsWithId._groups[0].findIndex(rect =>
-                                rect.__data__ && rect.__data__.data.d3_id && rect.__data__.data.d3_id.includes(d.s.toLowerCase())
-                            );
-                        }
-   
-                        if (i !== -1) {
-                            indexToUpdate.push({ id: i, io: d });
-                        }
-                    });
-
-                    rectsWithId.each(function (d, index) {
-                        const match = indexToUpdate.find(item => item.id === index);
-                        if (match) {
-                            const el = d3.select(this);
-
-                            el.transition() 
-                                .duration(200) 
-                                .attr("fill", lightenColor(color(match.io.pch), 0.2));
-
-                            const parentG = d3.select(this.parentNode);
-
-                            const newPercent = match.io.pch.toFixed(2) + "%";
-                            const titleEl = parentG.select("title");
-                            const currentTitle = titleEl.text();
-                            const titleLines = currentTitle.split("\n");
-
-                            if (titleLines.length >= 1) {
-                                titleLines[1] = 'Value: ' + match.io.p; 
-                                titleLines[2] = 'Change: ' + newPercent;    
-                                titleEl.text(titleLines.join("\n"));
-                            }
-
-                            parentG.selectAll("text")
-                                .filter((b, i) => i === 1)
-                                .select("tspan")
-                                .text(newPercent);
-
-
-                            setTimeout(() => {
-                                el.transition() 
-                                    .duration(200) 
-                                    .attr("fill", color(match.io.pch));
-                            }, 200);
-                        }
-                    });
-                }
-            } catch (e) {
-                console.error("TE_UpdateTreeMap =>", e);
-            }
-        }
-        var TENotifications = 0; function TENotification(_title, _text, _url, _importance) {
-            if (TELanguage?.trim()) return;
-            TENotifications++; console.log("IO => Notification => ", _title, _text, _url, _importance, TENotifications);
-            if (TENotifications > 2 & _importance <= 1) return;
-            if (TENotifications > 4 & _importance <= 2) return;
-            var IsDesktop = !1; var _titleHTML = 'ALERT'; var _alertType = 'NEWS'; var _color = "#5bc0de";
-            if (_importance > 0) { _alertType = 'CALENDAR'; if (_importance > 1) { IsDesktop = !0; _color = '#5cb85c'; if (_importance > 2) _color = '#d9534f' } }
-            /*if (TELanguage == '') {
-                upsertNotification({ title: _title, text: _text, url: _url, importance: _importance }, false, true);
-            }*/
-            _titleHTML = '<div style="padding-bottom:10px; font-size: 11px;color: #fff; font-weight: bold;"><span style="background-color: #000; padding: 3px;">' + _alertType + '</span><span style="background-color: ' + _color + '; padding: 3px;">ALERT</span></div>'; var _textHTML = _text; if (_text && _text.length > 200) { console.log("Trim text"); _textHTML = _text.substring(0, 200) + '...'; _textHTML += ' <a style="text-decoration: underline;" target="_new" href="' + _url + '">More</a>' } else if (_text) { _textHTML += ' <a style="text-decoration: underline;" target="_new" href="' + _url + '">More</a>' }
-            PNotify.desktop.permission(); (new PNotify({ title: _titleHTML, text: _textHTML, hide: !0, animation: 'fade', shadow: !0, icon: !1, mouse_reset: !1, delay: 20000, buttons: { sticker: !1, closer_hover: !1 }, addclass: 'custom', })).get().click(function (e) {
-                if ($('.ui-pnotify-closer, .ui-pnotify-closer *').is(e.target)) { console.log("Closed Notification"); return }
-                window.location = _url
-            }); if (IsDesktop) {
-                var _tag = _url + "?v=" + new Date().toISOString().slice(0, 10).replace(/-/g, ""); console.log("PNotify tag", _tag); (new PNotify({ title: _titleHTML, text: _textHTML, hide: !1, animation: 'fade', shadow: !0, icon: !1, mouse_reset: !1, hide: !0, delay: 20000, buttons: { sticker: !1, closer_hover: !1 }, addclass: 'custom', type: 'info', desktop: { desktop: IsDesktop, title: 'TRADING ECONOMICS', text: _text, tag: _tag, fallback: !1 } })).get().click(function (e) {
-                    if ($('.ui-pnotify-closer, .ui-pnotify-closer *').is(e.target)) { console.log("Closed Notification"); return }
-                    window.location = _url
-                })
-            }
-        }
-        function TECalendarRowUpdate(c) {
-            console.log("UPDATE CALENDAR ROW"); console.log(c); var $row = $('tr[data-id="' + c.CalendarId + '"]'); console.log($row); var $td = $row.find('span#actual'); const previousbgColor = $td.css('background-color'); console.log($td); $td.text(c.Actual); console.log(c.Actual); console.log($td.text); bg = '#5bc0de'; $td.css("backgroundColor", bg); color = IsDarkMode == true ? (c.Actual.toString().indexOf("-") ? 'greenyellow' : 'red') : (c.Actual.toString().indexOf("-") ? 'darkgreen' : 'darkred'); $td.css("color", color); $row.find('span#previous').text(c.Previous); var $delayedIcon = $row.find('#delayed_i_icon'); if ($delayedIcon.length > 0) { $delayedIcon.find('i').attr('class', 'bi bi-info-circle') }; $row.find('img#incoming').css("display", 'none'); setTimeout(function () { $td.css("backgroundColor", previousbgColor) }, 2000) }
-        function isTodayUTC(dateValue){const d = new Date(dateValue); const now = new Date(); return ( d.getUTCFullYear() === now.getUTCFullYear() && d.getUTCMonth() === now.getUTCMonth() && d.getUTCDate() === now.getUTCDate() ); }
-        function TETickerCalendarUpdate(c) { try { if (!c || c.CalendarId == null || c.Actual == null || c.Date == null || c.Previous == null) return; if (c.CalendarId != TENextCalendarID) return; if (!isTodayUTC(c.Date)) return; const $row = $(`tr[data-id="${c.CalendarId}"]`); if (!$row.length) return; const $actualCell = $row.find('td#actual'); if (!$actualCell.length) return; const $previousCell = $row.find('td#previous'); if (!$previousCell.length) $previousCell.text(String(c.Previous)); const previousbgColor = $actualCell.css('background-color');$actualCell.text(String(c.Actual)).css('background-color', '#5bc0de');setTimeout(() => { $actualCell.css("backgroundColor", previousbgColor); }, 1000);} catch (err) {console.error("Error updating TETickerCalendarTable => " + err)}}
-        socket.on('calendar', function (c) {
-            console.log("IO CALENDAR")
-            c = decryptMessage(c)
-            console.log(c);
-            if (c.Importance >= 1) {
-                var _title = c.Country.trim() + ' ' + c.Event.trim();
-                var _text = _title;
-                if (c.Actual != null && c.Actual != '')
-                    _text += '  reported at ' + c.Actual + '. ';
-                if (c.Forecast != null && c.Forecast != '') _text += 'Consensus was ' + c.Forecast + '. ';
-                if (c.Previous != null && c.Previous != '') _text += 'Previously at ' + c.Previous + '.';
-                var _url = 'https://tradingeconomics.com' + c.URL;
-                if (TE_URL.indexOf("calendar") > -1 || (TELanguage != null && TELanguage.length > 0 && TE_URL == '/')) TECalendarRowUpdate(c);
-                if (typeof TENextCalendarID !== 'undefined' && TENextCalendarID && TE_URL !== '/') TETickerCalendarUpdate(c)
-                TENotification(_title, _text, _url, c.Importance)
-            }
-        }); socket.on('stream', function (j) {
-            console.log("IO STREAM")
-            j = decryptMessage(j)
-            console.log(j); var _title = j.title; var _description = j.description; var _url = j.url; if (_title && _description && _url) { TENotification(_title, _description, _url, 0) }
-        }); var KILL_SOCKET_AFTER_IDLE = 1000 * 60 * 60 * 3; var IS_RELOAD_REQUIRED = !1; var IS_QUESTION_OPEN = !1; var IS_CONNECTED = !1; var LAST_VISIBLE = new Date().getTime(); if (TE_URL.indexOf("calendar") > -1 || TE_URL.indexOf("/currency") > -1 || TE_URL.indexOf("/stock-market") > -1 || TE_URL.indexOf("/commodity/") > -1 || TE_URL.indexOf("/government-bond-yield") > -1 || TE_URL.indexOf("stream") > -1 || TE_URL.indexOf("/currencies") > -1 || TE_URL.indexOf("/stocks") > -1 || TE_URL.indexOf("/bonds") > -1 || TE_URL.indexOf("/commodities") > -1) { KILL_SOCKET_AFTER_IDLE = 1000 * 60 * 60 * 3; IS_RELOAD_REQUIRED = !0 }
-        // To be users in market pages ex aapl:us 
-        function UpdateMarketTick(t) {
-            if (t.state && t.state == 'closed') { console.log('market is closed'); }
-            var s = t.s; if (!s || s.toLowerCase() != symbol.toLowerCase()) { return; }
-            $('#market_last').html(t.p); $('#market_daily_chg').html(t.nch + ' '); $('#market_daily_Pchg').html(t.pch + '%');
-            if (t.nch > 0) {
-                $('#market_chg_arrow').attr('class', 'market-positive-image'); $('#market_daily_chg').css({ color: '#8ecf61' }); $('#market_daily_Pchg').css({ color: '#8ecf61' });
-            } else { $('#market_chg_arrow').attr('class', 'market-negative-image'); $('#market_daily_chg').css({ color: '#ed3b3b' }); $('#market_daily_Pchg').css({ color: '#ed3b3b' }); }
-        }
-        function saveSocketNetworkBW() {
-            console.log("Socket check if alive");
-            setInterval(function () {
-                if (typeof document == 'undefined' || !document) { console.log("ws: undefined"); return LAST_VISIBLE = new Date().getTime() }
-                if (typeof document.hidden != 'boolean') { console.log("ws: hidden"); return LAST_VISIBLE = new Date().getTime() }
-                if (!document.hidden) {
-                    console.log("ws: live"); if (!IS_CONNECTED) { console.log('ws: connecting'); socket.connect() }
-                    return LAST_VISIBLE = new Date().getTime()
-                }
-                var now = new Date().getTime(); if (now - LAST_VISIBLE > KILL_SOCKET_AFTER_IDLE) { if (IS_CONNECTED) { console.log('ws: disconnecting'); socket.disconnect(); if (IS_RELOAD_REQUIRED && IS_QUESTION_OPEN == !1) { var result = confirm("Please Press Ok to Refresh the Data in this Page"); IS_QUESTION_OPEN = !0; if (result) { IS_QUESTION_OPEN = !1; document.location = document.location.href } } } }
-            }, 1000 * 60)
-        }
-        saveSocketNetworkBW()
-
-        // pnotify
-        !function (t, i) { "function" == typeof define && define.amd ? define("pnotify", ["jquery"], function (s) { return i(s, t) }) : "object" == typeof exports && "undefined" != typeof module ? module.exports = i(require("jquery"), global || t) : t.PNotify = i(t.jQuery, t) }("undefined" != typeof window ? window : this, function (t, i) { var s = function (i) { var e, o, n = { dir1: "down", dir2: "left", push: "bottom", spacing1: 36, spacing2: 36, context: t("body"), modal: !1 }, a = t(i), r = function () { o = t("body"), c.prototype.options.stack.context = o, a = t(i), a.bind("resize", function () { e && clearTimeout(e), e = setTimeout(function () { c.positionAll(!0) }, 10) }) }, h = function (i) { var s = t("<div />", { class: "ui-pnotify-modal-overlay" }); return s.prependTo(i.context), i.overlay_close && s.click(function () { c.removeStack(i) }), s }, c = function (t) { this.state = "initializing", this.timer = null, this.animTimer = null, this.styles = null, this.elem = null, this.container = null, this.title_container = null, this.text_container = null, this.animating = !1, this.timerHide = !1, this.parseOptions(t), this.init() }; return t.extend(c.prototype, { version: "3.2.0", options: { title: !1, title_escape: !1, text: !1, text_escape: !1, styling: "brighttheme", addclass: "", cornerclass: "", auto_display: !0, width: "300px", min_height: "16px", type: "notice", icon: !0, animation: "fade", animate_speed: "normal", shadow: !0, hide: !0, delay: 8e3, mouse_reset: !0, remove: !0, insert_brs: !0, destroy: !0, stack: n }, modules: {}, runModules: function (t, i) { var s; for (var e in this.modules) s = "object" == typeof i && e in i ? i[e] : i, "function" == typeof this.modules[e][t] && (this.modules[e].notice = this, this.modules[e].options = "object" == typeof this.options[e] ? this.options[e] : {}, this.modules[e][t](this, "object" == typeof this.options[e] ? this.options[e] : {}, s)) }, init: function () { var i = this; return this.modules = {}, t.extend(!0, this.modules, c.prototype.modules), "object" == typeof this.options.styling ? this.styles = this.options.styling : this.styles = c.styling[this.options.styling], this.elem = t("<div />", { class: "ui-pnotify " + this.options.addclass, css: { display: "none" }, "aria-live": "assertive", "aria-role": "alertdialog", mouseenter: function (t) { if (i.options.mouse_reset && "out" === i.animating) { if (!i.timerHide) return; i.cancelRemove() } i.options.hide && i.options.mouse_reset && i.cancelRemove() }, mouseleave: function (t) { i.options.hide && i.options.mouse_reset && "out" !== i.animating && i.queueRemove(), c.positionAll() } }), "fade" === this.options.animation && this.elem.addClass("ui-pnotify-fade-" + this.options.animate_speed), this.container = t("<div />", { class: this.styles.container + " ui-pnotify-container " + ("error" === this.options.type ? this.styles.error : "info" === this.options.type ? this.styles.info : "success" === this.options.type ? this.styles.success : this.styles.notice), role: "alert" }).appendTo(this.elem), "" !== this.options.cornerclass && this.container.removeClass("ui-corner-all").addClass(this.options.cornerclass), this.options.shadow && this.container.addClass("ui-pnotify-shadow"), !1 !== this.options.icon && t("<div />", { class: "ui-pnotify-icon" }).append(t("<span />", { class: !0 === this.options.icon ? "error" === this.options.type ? this.styles.error_icon : "info" === this.options.type ? this.styles.info_icon : "success" === this.options.type ? this.styles.success_icon : this.styles.notice_icon : this.options.icon })).prependTo(this.container), this.title_container = t("<h4 />", { class: "ui-pnotify-title" }).appendTo(this.container), !1 === this.options.title ? this.title_container.hide() : this.options.title_escape ? this.title_container.text(this.options.title) : this.title_container.html(this.options.title), this.text_container = t("<div />", { class: "ui-pnotify-text", "aria-role": "alert" }).appendTo(this.container), !1 === this.options.text ? this.text_container.hide() : this.options.text_escape ? this.text_container.text(this.options.text) : this.text_container.html(this.options.insert_brs ? String(this.options.text).replace(/\n/g, "<br />") : this.options.text), "string" == typeof this.options.width && this.elem.css("width", this.options.width), "string" == typeof this.options.min_height && this.container.css("min-height", this.options.min_height), "top" === this.options.stack.push ? c.notices = t.merge([this], c.notices) : c.notices = t.merge(c.notices, [this]), "top" === this.options.stack.push && this.queuePosition(!1, 1), this.options.stack.animation = !1, this.runModules("init"), this.state = "closed", this.options.auto_display && this.open(), this }, update: function (i) { var s = this.options; return this.parseOptions(s, i), this.elem.removeClass("ui-pnotify-fade-slow ui-pnotify-fade-normal ui-pnotify-fade-fast"), "fade" === this.options.animation && this.elem.addClass("ui-pnotify-fade-" + this.options.animate_speed), this.options.cornerclass !== s.cornerclass && this.container.removeClass("ui-corner-all " + s.cornerclass).addClass(this.options.cornerclass), this.options.shadow !== s.shadow && (this.options.shadow ? this.container.addClass("ui-pnotify-shadow") : this.container.removeClass("ui-pnotify-shadow")), !1 === this.options.addclass ? this.elem.removeClass(s.addclass) : this.options.addclass !== s.addclass && this.elem.removeClass(s.addclass).addClass(this.options.addclass), !1 === this.options.title ? this.title_container.slideUp("fast") : this.options.title !== s.title && (this.options.title_escape ? this.title_container.text(this.options.title) : this.title_container.html(this.options.title), !1 === s.title && this.title_container.slideDown(200)), !1 === this.options.text ? this.text_container.slideUp("fast") : this.options.text !== s.text && (this.options.text_escape ? this.text_container.text(this.options.text) : this.text_container.html(this.options.insert_brs ? String(this.options.text).replace(/\n/g, "<br />") : this.options.text), !1 === s.text && this.text_container.slideDown(200)), this.options.type !== s.type && this.container.removeClass(this.styles.error + " " + this.styles.notice + " " + this.styles.success + " " + this.styles.info).addClass("error" === this.options.type ? this.styles.error : "info" === this.options.type ? this.styles.info : "success" === this.options.type ? this.styles.success : this.styles.notice), (this.options.icon !== s.icon || !0 === this.options.icon && this.options.type !== s.type) && (this.container.find("div.ui-pnotify-icon").remove(), !1 !== this.options.icon && t("<div />", { class: "ui-pnotify-icon" }).append(t("<span />", { class: !0 === this.options.icon ? "error" === this.options.type ? this.styles.error_icon : "info" === this.options.type ? this.styles.info_icon : "success" === this.options.type ? this.styles.success_icon : this.styles.notice_icon : this.options.icon })).prependTo(this.container)), this.options.width !== s.width && this.elem.animate({ width: this.options.width }), this.options.min_height !== s.min_height && this.container.animate({ minHeight: this.options.min_height }), this.options.hide ? s.hide || this.queueRemove() : this.cancelRemove(), this.queuePosition(!0), this.runModules("update", s), this }, open: function () { this.state = "opening", this.runModules("beforeOpen"); var t = this; return this.elem.parent().length || this.elem.appendTo(this.options.stack.context ? this.options.stack.context : o), "top" !== this.options.stack.push && this.position(!0), this.animateIn(function () { t.queuePosition(!0), t.options.hide && t.queueRemove(), t.state = "open", t.runModules("afterOpen") }), this }, remove: function (s) { this.state = "closing", this.timerHide = !!s, this.runModules("beforeClose"); var e = this; return this.timer && (i.clearTimeout(this.timer), this.timer = null), this.animateOut(function () { if (e.state = "closed", e.runModules("afterClose"), e.queuePosition(!0), e.options.remove && e.elem.detach(), e.runModules("beforeDestroy"), e.options.destroy && null !== c.notices) { var i = t.inArray(e, c.notices); -1 !== i && c.notices.splice(i, 1) } e.runModules("afterDestroy") }), this }, get: function () { return this.elem }, parseOptions: function (i, s) { this.options = t.extend(!0, {}, c.prototype.options), this.options.stack = c.prototype.options.stack; for (var e, o = [i, s], n = 0; n < o.length && void 0 !== (e = o[n]); n++)if ("object" != typeof e) this.options.text = e; else for (var a in e) this.modules[a] ? t.extend(!0, this.options[a], e[a]) : this.options[a] = e[a] }, animateIn: function (t) { this.animating = "in"; var i = this, s = function () { i.animTimer && clearTimeout(i.animTimer), "in" === i.animating && (i.elem.is(":visible") ? (t && t.call(), i.animating = !1) : i.animTimer = setTimeout(s, 40)) }; "fade" === this.options.animation ? (this.elem.one("webkitTransitionEnd mozTransitionEnd MSTransitionEnd oTransitionEnd transitionend", s).addClass("ui-pnotify-in"), this.elem.css("opacity"), this.elem.addClass("ui-pnotify-fade-in"), this.animTimer = setTimeout(s, 650)) : (this.elem.addClass("ui-pnotify-in"), s()) }, animateOut: function (i) { this.animating = "out"; var s = this, e = function () { if (s.animTimer && clearTimeout(s.animTimer), "out" === s.animating) if ("0" != s.elem.css("opacity") && s.elem.is(":visible")) s.animTimer = setTimeout(e, 40); else { if (s.elem.removeClass("ui-pnotify-in"), s.options.stack.overlay) { var o = !1; t.each(c.notices, function (t, i) { i != s && i.options.stack === s.options.stack && "closed" != i.state && (o = !0) }), o || s.options.stack.overlay.hide() } i && i.call(), s.animating = !1 } }; "fade" === this.options.animation ? (this.elem.one("webkitTransitionEnd mozTransitionEnd MSTransitionEnd oTransitionEnd transitionend", e).removeClass("ui-pnotify-fade-in"), this.animTimer = setTimeout(e, 650)) : (this.elem.removeClass("ui-pnotify-in"), e()) }, position: function (t) { var i = this.options.stack, s = this.elem; if (void 0 === i.context && (i.context = o), i) { "number" != typeof i.nextpos1 && (i.nextpos1 = i.firstpos1), "number" != typeof i.nextpos2 && (i.nextpos2 = i.firstpos2), "number" != typeof i.addpos2 && (i.addpos2 = 0); var e = !s.hasClass("ui-pnotify-in"); if (!e || t) { i.modal && (i.overlay ? i.overlay.show() : i.overlay = h(i)), s.addClass("ui-pnotify-move"); var n, r, c; switch (i.dir1) { case "down": c = "top"; break; case "up": c = "bottom"; break; case "left": c = "right"; break; case "right": c = "left" }n = parseInt(s.css(c).replace(/(?:\..*|[^0-9.])/g, "")), isNaN(n) && (n = 0), void 0 !== i.firstpos1 || e || (i.firstpos1 = n, i.nextpos1 = i.firstpos1); var p; switch (i.dir2) { case "down": p = "top"; break; case "up": p = "bottom"; break; case "left": p = "right"; break; case "right": p = "left" }switch (r = parseInt(s.css(p).replace(/(?:\..*|[^0-9.])/g, "")), isNaN(r) && (r = 0), void 0 !== i.firstpos2 || e || (i.firstpos2 = r, i.nextpos2 = i.firstpos2), ("down" === i.dir1 && i.nextpos1 + s.height() > (i.context.is(o) ? a.height() : i.context.prop("scrollHeight")) || "up" === i.dir1 && i.nextpos1 + s.height() > (i.context.is(o) ? a.height() : i.context.prop("scrollHeight")) || "left" === i.dir1 && i.nextpos1 + s.width() > (i.context.is(o) ? a.width() : i.context.prop("scrollWidth")) || "right" === i.dir1 && i.nextpos1 + s.width() > (i.context.is(o) ? a.width() : i.context.prop("scrollWidth"))) && (i.nextpos1 = i.firstpos1, i.nextpos2 += i.addpos2 + (void 0 === i.spacing2 ? 25 : i.spacing2), i.addpos2 = 0), "number" == typeof i.nextpos2 && (i.animation ? s.css(p, i.nextpos2 + "px") : (s.removeClass("ui-pnotify-move"), s.css(p, i.nextpos2 + "px"), s.css(p), s.addClass("ui-pnotify-move"))), i.dir2) { case "down": case "up": s.outerHeight(!0) > i.addpos2 && (i.addpos2 = s.height()); break; case "left": case "right": s.outerWidth(!0) > i.addpos2 && (i.addpos2 = s.width()) }switch ("number" == typeof i.nextpos1 && (i.animation ? s.css(c, i.nextpos1 + "px") : (s.removeClass("ui-pnotify-move"), s.css(c, i.nextpos1 + "px"), s.css(c), s.addClass("ui-pnotify-move"))), i.dir1) { case "down": case "up": i.nextpos1 += s.height() + (void 0 === i.spacing1 ? 25 : i.spacing1); break; case "left": case "right": i.nextpos1 += s.width() + (void 0 === i.spacing1 ? 25 : i.spacing1) } } return this } }, queuePosition: function (t, i) { return e && clearTimeout(e), i || (i = 10), e = setTimeout(function () { c.positionAll(t) }, i), this }, cancelRemove: function () { return this.timer && i.clearTimeout(this.timer), this.animTimer && i.clearTimeout(this.animTimer), "closing" === this.state && (this.state = "open", this.animating = !1, this.elem.addClass("ui-pnotify-in"), "fade" === this.options.animation && this.elem.addClass("ui-pnotify-fade-in")), this }, queueRemove: function () { var t = this; return this.cancelRemove(), this.timer = i.setTimeout(function () { t.remove(!0) }, isNaN(this.options.delay) ? 0 : this.options.delay), this } }), t.extend(c, { notices: [], reload: s, removeAll: function () { t.each(c.notices, function (t, i) { i.remove && i.remove(!1) }) }, removeStack: function (i) { t.each(c.notices, function (t, s) { s.remove && s.options.stack === i && s.remove(!1) }) }, positionAll: function (i) { if (e && clearTimeout(e), e = null, c.notices && c.notices.length) t.each(c.notices, function (t, s) { var e = s.options.stack; e && (e.overlay && e.overlay.hide(), e.nextpos1 = e.firstpos1, e.nextpos2 = e.firstpos2, e.addpos2 = 0, e.animation = i) }), t.each(c.notices, function (t, i) { i.position() }); else { var s = c.prototype.options.stack; s && (delete s.nextpos1, delete s.nextpos2) } }, styling: { brighttheme: { container: "brighttheme", notice: "brighttheme-notice", notice_icon: "brighttheme-icon-notice", info: "brighttheme-info", info_icon: "brighttheme-icon-info", success: "brighttheme-success", success_icon: "brighttheme-icon-success", error: "brighttheme-error", error_icon: "brighttheme-icon-error" }, bootstrap3: { container: "alert", notice: "alert-warning", notice_icon: "glyphicon glyphicon-exclamation-sign", info: "alert-info", info_icon: "glyphicon glyphicon-info-sign", success: "alert-success", success_icon: "bi bi-check-lg-sign", error: "alert-danger", error_icon: "glyphicon glyphicon-warning-sign" } } }), c.styling.fontawesome = t.extend({}, c.styling.bootstrap3), t.extend(c.styling.fontawesome, { notice_icon: "fa fa-exclamation-circle", info_icon: "fa fa-info", success_icon: "fa fa-check", error_icon: "fa fa-warning" }), i.document.body ? r() : t(r), c }; return s(i) }); !function (o, s) { "function" == typeof define && define.amd ? define("pnotify.buttons", ["jquery", "pnotify"], s) : "object" == typeof exports && "undefined" != typeof module ? module.exports = s(require("jquery"), require("./pnotify")) : s(o.jQuery, o.PNotify) }("undefined" != typeof window ? window : this, function (o, s) { return s.prototype.options.buttons = { closer: !0, closer_hover: !0, sticker: !0, sticker_hover: !0, show_on_nonblock: !1, labels: { close: "Close", stick: "Stick", unstick: "Unstick" }, classes: { closer: null, pin_up: null, pin_down: null } }, s.prototype.modules.buttons = { init: function (s, i) { var n = this; s.elem.on({ mouseenter: function (o) { !n.options.sticker || s.options.nonblock && s.options.nonblock.nonblock && !n.options.show_on_nonblock || n.sticker.trigger("pnotify:buttons:toggleStick").css("visibility", "visible"), !n.options.closer || s.options.nonblock && s.options.nonblock.nonblock && !n.options.show_on_nonblock || n.closer.css("visibility", "visible") }, mouseleave: function (o) { n.options.sticker_hover && n.sticker.css("visibility", "d-none"), n.options.closer_hover && n.closer.css("visibility", "d-none") } }), this.sticker = o("<div />", { class: "ui-pnotify-sticker", "aria-role": "button", "aria-pressed": s.options.hide ? "false" : "true", tabindex: "0", title: s.options.hide ? i.labels.stick : i.labels.unstick, css: { cursor: "pointer", visibility: i.sticker_hover ? "d-none" : "visible" }, click: function () { s.options.hide = !s.options.hide, s.options.hide ? s.queueRemove() : s.cancelRemove(), o(this).trigger("pnotify:buttons:toggleStick") } }).bind("pnotify:buttons:toggleStick", function () { var i = null === n.options.classes.pin_up ? s.styles.pin_up : n.options.classes.pin_up, e = null === n.options.classes.pin_down ? s.styles.pin_down : n.options.classes.pin_down; o(this).attr("title", s.options.hide ? n.options.labels.stick : n.options.labels.unstick).children().attr("class", "").addClass(s.options.hide ? i : e).attr("aria-pressed", s.options.hide ? "false" : "true") }).append("<span />").trigger("pnotify:buttons:toggleStick").prependTo(s.container), (!i.sticker || s.options.nonblock && s.options.nonblock.nonblock && !i.show_on_nonblock) && this.sticker.css("display", "none"), this.closer = o("<div />", { class: "ui-pnotify-closer", "aria-role": "button", tabindex: "0", title: i.labels.close, css: { cursor: "pointer", visibility: i.closer_hover ? "d-none" : "visible" }, click: function () { s.remove(!1), n.sticker.css("visibility", "d-none"), n.closer.css("visibility", "d-none") } }).append(o("<span />", { class: null === i.classes.closer ? s.styles.closer : i.classes.closer })).prependTo(s.container), (!i.closer || s.options.nonblock && s.options.nonblock.nonblock && !i.show_on_nonblock) && this.closer.css("display", "none") }, update: function (o, s) { !s.closer || o.options.nonblock && o.options.nonblock.nonblock && !s.show_on_nonblock ? this.closer.css("display", "none") : s.closer && this.closer.css("display", "block"), !s.sticker || o.options.nonblock && o.options.nonblock.nonblock && !s.show_on_nonblock ? this.sticker.css("display", "none") : s.sticker && this.sticker.css("display", "block"), this.sticker.trigger("pnotify:buttons:toggleStick"), this.closer.find("span").attr("class", "").addClass(null === s.classes.closer ? o.styles.closer : s.classes.closer), s.sticker_hover ? this.sticker.css("visibility", "d-none") : o.options.nonblock && o.options.nonblock.nonblock && !s.show_on_nonblock || this.sticker.css("visibility", "visible"), s.closer_hover ? this.closer.css("visibility", "d-none") : o.options.nonblock && o.options.nonblock.nonblock && !s.show_on_nonblock || this.closer.css("visibility", "visible") } }, o.extend(s.styling.brighttheme, { closer: "brighttheme-icon-closer", pin_up: "brighttheme-icon-sticker", pin_down: "brighttheme-icon-sticker brighttheme-icon-stuck" }), o.extend(s.styling.bootstrap3, { closer: "bi bi-x-lg", pin_up: "glyphicon glyphicon-pause", pin_down: "glyphicon glyphicon-play" }), o.extend(s.styling.fontawesome, { closer: "fa fa-times", pin_up: "fa fa-pause", pin_down: "fa fa-play" }), s }); !function (i, t) { "function" == typeof define && define.amd ? define("pnotify.desktop", ["jquery", "pnotify"], t) : "object" == typeof exports && "undefined" != typeof module ? module.exports = t(require("jquery"), require("./pnotify")) : t(i.jQuery, i.PNotify) }("undefined" != typeof window ? window : this, function (i, t) { var o, n = function (i, t) { return (n = "Notification" in window ? function (i, t) { return new Notification(i, t) } : "mozNotification" in navigator ? function (i, t) { return navigator.mozNotification.createNotification(i, t.body, t.icon).show() } : "webkitNotifications" in window ? function (i, t) { return window.webkitNotifications.createNotification(t.icon, i, t.body) } : function (i, t) { return null })(i, t) }; return t.prototype.options.desktop = { desktop: !1, fallback: !0, icon: null, tag: null, title: null, text: null }, t.prototype.modules.desktop = { genNotice: function (i, t) { null === t.icon ? this.icon = "https://sciactive.com/pnotify/includes/desktop/" + i.options.type + ".png" : !1 === t.icon ? this.icon = null : this.icon = t.icon, null !== this.tag && null === t.tag || (this.tag = null === t.tag ? "PNotify-" + Math.round(1e6 * Math.random()) : t.tag), i.desktop = n(t.title || i.options.title, { icon: this.icon, body: t.text || i.options.text, tag: this.tag }), !("close" in i.desktop) && "cancel" in i.desktop && (i.desktop.close = function () { i.desktop.cancel() }), i.desktop.onclick = function () { i.elem.trigger("click") }, i.desktop.onclose = function () { "closing" !== i.state && "closed" !== i.state && i.remove() } }, init: function (i, n) { if (n.desktop) { if (0 !== (o = t.desktop.checkPermission())) return void (n.fallback || (i.options.auto_display = !1)); this.genNotice(i, n) } }, update: function (i, t, n) { 0 !== o && t.fallback || !t.desktop || this.genNotice(i, t) }, beforeOpen: function (i, t) { 0 !== o && t.fallback || !t.desktop || i.elem.css({ left: "-10000px" }).removeClass("ui-pnotify-in") }, afterOpen: function (i, t) { 0 !== o && t.fallback || !t.desktop || (i.elem.css({ left: "-10000px" }).removeClass("ui-pnotify-in"), "show" in i.desktop && i.desktop.show()) }, beforeClose: function (i, t) { 0 !== o && t.fallback || !t.desktop || i.elem.css({ left: "-10000px" }).removeClass("ui-pnotify-in") }, afterClose: function (i, t) { 0 !== o && t.fallback || !t.desktop || (i.elem.css({ left: "-10000px" }).removeClass("ui-pnotify-in"), "close" in i.desktop && i.desktop.close()) } }, t.desktop = { permission: function () { "undefined" != typeof Notification && "requestPermission" in Notification ? Notification.requestPermission() : "webkitNotifications" in window && window.webkitNotifications.requestPermission() }, checkPermission: function () { return "undefined" != typeof Notification && "permission" in Notification ? "granted" === Notification.permission ? 0 : 1 : "webkitNotifications" in window && 0 == window.webkitNotifications.checkPermission() ? 0 : 1 } }, o = t.desktop.checkPermission(), t }); !function (i, o) { "function" == typeof define && define.amd ? define("pnotify.mobile", ["jquery", "pnotify"], o) : "object" == typeof exports && "undefined" != typeof module ? module.exports = o(require("jquery"), require("./pnotify")) : o(i.jQuery, i.PNotify) }("undefined" != typeof window ? window : this, function (i, o) { return o.prototype.options.mobile = { swipe_dismiss: !0, styling: !0 }, o.prototype.modules.mobile = { init: function (i, o) { var t = this, e = null, n = null, s = null; this.swipe_dismiss = o.swipe_dismiss, this.doMobileStyling(i, o), i.elem.on({ touchstart: function (o) { t.swipe_dismiss && (e = o.originalEvent.touches[0].screenX, s = i.elem.width(), i.container.css("left", "0")) }, touchmove: function (o) { if (e && t.swipe_dismiss) { var a = o.originalEvent.touches[0].screenX; n = a - e; var c = (1 - Math.abs(n) / s) * i.options.opacity; i.elem.css("opacity", c), i.container.css("left", n) } }, touchend: function () { if (e && t.swipe_dismiss) { if (Math.abs(n) > 40) { var o = n < 0 ? -2 * s : 2 * s; i.elem.animate({ opacity: 0 }, 100), i.container.animate({ left: o }, 100), i.remove() } else i.elem.animate({ opacity: i.options.opacity }, 100), i.container.animate({ left: 0 }, 100); e = null, n = null, s = null } }, touchcancel: function () { e && t.swipe_dismiss && (i.elem.animate({ opacity: i.options.opacity }, 100), i.container.animate({ left: 0 }, 100), e = null, n = null, s = null) } }) }, update: function (i, o) { this.swipe_dismiss = o.swipe_dismiss, this.doMobileStyling(i, o) }, doMobileStyling: function (o, t) { t.styling ? (o.elem.addClass("ui-pnotify-mobile-able"), i(window).width() <= 480 ? (o.options.stack.mobileOrigSpacing1 || (o.options.stack.mobileOrigSpacing1 = o.options.stack.spacing1, o.options.stack.mobileOrigSpacing2 = o.options.stack.spacing2), o.options.stack.spacing1 = 0, o.options.stack.spacing2 = 0) : (o.options.stack.mobileOrigSpacing1 || o.options.stack.mobileOrigSpacing2) && (o.options.stack.spacing1 = o.options.stack.mobileOrigSpacing1, delete o.options.stack.mobileOrigSpacing1, o.options.stack.spacing2 = o.options.stack.mobileOrigSpacing2, delete o.options.stack.mobileOrigSpacing2)) : (o.elem.removeClass("ui-pnotify-mobile-able"), o.options.stack.mobileOrigSpacing1 && (o.options.stack.spacing1 = o.options.stack.mobileOrigSpacing1, delete o.options.stack.mobileOrigSpacing1), o.options.stack.mobileOrigSpacing2 && (o.options.stack.spacing2 = o.options.stack.mobileOrigSpacing2, delete o.options.stack.mobileOrigSpacing2)) } }, o });
-
-        // Test
-        //TE_UpdateTable({ "s": "NDX:IND", "p": 15274.39, "nch": -199.53, "pch": -1.29, "type": "index", "state": "open", "dstate": "open" }, false)
-
-        //TEST notificationList
-        /*setTimeout(() => {
-            TENotification("United States Core Inflation Rate YoY", "United States Core Inflation Rate YoY reported at 3.3%. Consensus was 3.4%. Previously at 3.4%", "/", "3")
-        }, 25000)
-        setTimeout(() => {
-            TENotification("United States CPI", "United States CPI reported at 314.18. Consensus was 314.63. Previously at 314.07.", "/", "3")
-        }, 30001)
-        setTimeout(() => {
-            TENotification("United States Inflation Rate YoY", "United States Inflation Rate YoY reported at 3.0%. Consensus was 3.1%. Previously at 3.3%.", "/", "3")
-        }, 35002)
-        setTimeout(() => {
-            TENotification("United States Inflation Rate MoM", "United States Inflation Rate MoM reported at -0.1%. Consensus was 0.1%. Previously at 0.0%.", "/", "3")
-        }, 40003)
-        setTimeout(() => {
-            TENotification("United States Core Inflation Rate MoM", "United States Core Inflation Rate MoM reported at 0.1%. Consensus was 0.2%. Previously at 0.2%.", "/", "3")
-        }, 45004)*/
-
-        // Test
-        /*
-        if (typeof TENextCalendarID !== "undefined" && TENextCalendarID && IOparams.has("actual")) {
-            const calendaractual = IOparams.get("actual");
-            const dateIOParam = IOparams.has("date") ? IOparams.get("date") : new Date(Date.now())
-            const CIIOParam = IOparams.has("id") ? IOparams.get("id") : TENextCalendarID
-
-            setTimeout(() => {
-                TETickerCalendarUpdate({
-                    "CalendarId": CIIOParam, //390977,
-                    "Date": dateIOParam, //"2025-11-24T15:30:00"
-                    "Actual": calendaractual,// "4%",
-                    "Previous": "4%",
-                })
-            }, 5000)
-        }*/
-    }</script>
-<script>
-    $(function(){
-        console.log("js/alerts.ascx")
-        var isAlertsLoaded = false;
-        function LoadAlertsScript() {
-            console.log("Loading Alerts JS")
-            $.getScript('https://d107vmm87795sh.cloudfront.net/historical/te-alerts-bs5.js?v=20250711');
-            //Bootstrap3: https://d107vmm87795sh.cloudfront.net/historical/te-alerts.js?v=20200117
-            isAlertsLoaded = true;
-
-        }
-        $('a[data-bs-toggle="tab"]').on('shown.bs.tab', function (e) {
-            if (!isAlertsLoaded) {
-                var target = $(e.target).attr("href");
-                if (target == "#alerts") {
-                    LoadAlertsScript();
-                    $(window).scrollTop(0);
-                } else if (target == "#calendar-table") {
-                    $("#pagemenutabs li").removeClass("active");
-                    document.getElementById("calendar-table").scrollIntoView();
-                };
-            }
-        });
-
-        if (!isAlertsLoaded && location.href.indexOf("#alerts") != -1) {
-            LoadAlertsScript();
-        }
-    });
-</script>
-
-
-<script>console.log("/js/chartmk.ascx");</script>
-
-
-<script src="https://d1v8a2ofhkdel3.cloudfront.net/cdn/highstock_exporting.2024.10.1.0.js"></script>
-<link rel="stylesheet" href="https://d1v8a2ofhkdel3.cloudfront.net/production/css/mk.min.css?v=20260216" as="style" onload="this.onload=null;this.rel='stylesheet'">
-<link rel="stylesheet" href="https://d1v8a2ofhkdel3.cloudfront.net/production/css/mk.min.css?v=20260216">
-<script src="https://d1v8a2ofhkdel3.cloudfront.net/production/js/mk.min.js?v=20260216"></script>
-<script>/*! sortable.js 0.8.0 */(function () { var a, b, c, d, e, g; a = "table[data-sortable]", d = /^-?[Â£$Â¤]?[\d,.]+%?$/, g = /^\s+|\s+$/g, c = ["click"], b = function (a, b, c) { return null != a.addEventListener ? a.addEventListener(b, c, !1) : a.attachEvent("on" + b, c) }, e = { init: function (b) { var c, d, f, g, h; for (null == b && (b = {}), null == b.selector && (b.selector = a), d = document.querySelectorAll(b.selector), h = [], f = 0, g = d.length; g > f; f++)c = d[f], h.push(e.initTable(c)); return h }, initTable: function (a) { var b, c, d, f, g, h; if (1 === (null != (h = a.tHead) ? h.rows.length : void 0) && "true" !== a.getAttribute("data-sortable-initialized")) { for (a.setAttribute("data-sortable-initialized", "true"), d = a.querySelectorAll("th"), b = f = 0, g = d.length; g > f; b = ++f)c = d[b], "false" !== c.getAttribute("data-sortable") && e.setupClickableTH(a, c, b); return a } }, setupClickableTH: function (a, d, f) { var g, h, i, j, k, l; for (i = e.getColumnType(a, f), h = function (b) { var c, g, h, j, k, l, m, n, o, p, q, r, s, t, u, v, w, x, y, z, A, B, C, D; if (b.handled === !0) return !1; for (b.handled = !0, m = "true" === this.getAttribute("data-sorted"), n = this.getAttribute("data-sorted-direction"), h = m ? "ascending" === n ? "descending" : "ascending" : i.defaultSortDirection, p = this.parentNode.querySelectorAll("th"), s = 0, w = p.length; w > s; s++)d = p[s], d.setAttribute("data-sorted", "false"), d.removeAttribute("data-sorted-direction"); if (this.setAttribute("data-sorted", "true"), this.setAttribute("data-sorted-direction", h), o = a.tBodies[0], l = [], m) { for (D = o.rows, v = 0, z = D.length; z > v; v++)g = D[v], l.push(g); for (l.reverse(), B = 0, A = l.length; A > B; B++)k = l[B], o.appendChild(k) } else { for (r = null != i.compare ? i.compare : function (a, b) { return b - a }, c = function (a, b) { return a[0] === b[0] ? a[2] - b[2] : i.reverse ? r(b[0], a[0]) : r(a[0], b[0]) }, C = o.rows, j = t = 0, x = C.length; x > t; j = ++t)k = C[j], q = e.getNodeValue(k.cells[f]), null != i.comparator && (q = i.comparator(q)), l.push([q, k, j]); for (l.sort(c), u = 0, y = l.length; y > u; u++)k = l[u], o.appendChild(k[1]) } return "function" == typeof window.CustomEvent && "function" == typeof a.dispatchEvent ? a.dispatchEvent(new CustomEvent("Sortable.sorted", { bubbles: !0 })) : void 0 }, l = [], j = 0, k = c.length; k > j; j++)g = c[j], l.push(b(d, g, h)); return l }, getColumnType: function (a, b) { var c, d, f, g, h, i, j, k, l, m, n; if (d = null != (l = a.querySelectorAll("th")[b]) ? l.getAttribute("data-sortable-type") : void 0, null != d) return e.typesObject[d]; for (m = a.tBodies[0].rows, h = 0, j = m.length; j > h; h++)for (c = m[h], f = e.getNodeValue(c.cells[b]), n = e.types, i = 0, k = n.length; k > i; i++)if (g = n[i], g.match(f)) return g; return e.typesObject.alpha }, getNodeValue: function (a) { var b; return a ? (b = a.getAttribute("data-value"), null !== b ? b : "undefined" != typeof a.innerText ? a.innerText.replace(g, "") : a.textContent.replace(g, "")) : "" }, setupTypes: function (a) { var b, c, d, f; for (e.types = a, e.typesObject = {}, f = [], c = 0, d = a.length; d > c; c++)b = a[c], f.push(e.typesObject[b.name] = b); return f } }, e.setupTypes([{ name: "numeric", defaultSortDirection: "descending", match: function (a) { return a.match(d) }, comparator: function (a) { return parseFloat(a.replace(/[^0-9.-]/g, ""), 10) || 0 } }, { name: "date", defaultSortDirection: "ascending", reverse: !0, match: function (a) { return !isNaN(Date.parse(a)) }, comparator: function (a) { return Date.parse(a) || 0 } }, { name: "alpha", defaultSortDirection: "ascending", match: function () { return !0 }, compare: function (a, b) { return a.localeCompare(b) } }]), setTimeout(e.init, 0), "function" == typeof define && define.amd ? define(function () { return e }) : "undefined" != typeof exports ? module.exports = e : window.Sortable = e }).call(this);</script>
-
-
-<script>
-    $(function(){
-        console.log("Heatmap2");
-        //if (!IsDarkMode && window.location.pathname.length <= 1 ) return
-        var IsDarkModeByForce = false;
-        if (window.location.pathname.length <= 1 || window.location.pathname.indexOf("matrix") > -1) IsDarkModeByForce = true;
-
-        function shadeColor2(color, percent) {
-            var f = parseInt(color.slice(1), 16), t = percent < 0 ? 0 : 255, p = percent < 0 ? percent * -1 : percent, R = f >> 16, G = f >> 8 & 0x00FF, B = f & 0x0000FF;
-            return "#" + (0x1000000 + (Math.round((t - R) * p) + R) * 0x10000 + (Math.round((t - G) * p) + G) * 0x100 + (Math.round((t - B) * p) + B)).toString(16).slice(1);
-        }
-        window.colorMyTable = function() {
-            console.log("Heatmap2 - ColorMyTable")
-            var table = $(".table-heatmap");
-            var tbody = table.find('tbody');
-            var _columns = {};
-            table.find('thead').find('tr').find('th').each(function (i, th) {
-                if ($(th).attr('data-heatmap')) {
-                    _columns[i] = {
-                        'index': i,
-                        'limit': $(th).attr('data-heatmap-limit'),
-                        'upColor': $(th).attr('data-heatmap-upcolor') || '#f93639',
-                        'dnColor': $(th).attr('data-heatmap-dncolor') || '#34d65f'
-                    };
-                }
-            });
-            $(tbody).find('tr').each(function (i, row) {
-                var tdArr = $(row).find('td');
-                for (var key in _columns) {
-                    var thisColumn = _columns[key], td;
-                    if (!(td = tdArr[key])) {
-                        continue;
-                    }
-                    var value = $(td).attr('data-heatmap-value') || Number($(td).html().replace('%', ''));
-                    if (!value) {
-                        //console.log("no value ...", key);
-                        continue;
-                    }
-                    var range = Math.floor(Math.abs(value) / (thisColumn.limit / 10));
-                    if (range > 10) range = 10;
-                    var percentToShade = (10 - range) / 10;
-                    if (TEComparable == -1 || TEComparable == 2) { thisColumn.upColor = '#34d65f'; thisColumn.dnColor = '#f93639'; }
-                    var color = shadeColor2(value < 0 ? thisColumn.upColor : thisColumn.dnColor, percentToShade);
-                    //console.log(value, percentToShade)
-                    if (IsDarkMode || IsDarkModeByForce) {
-                        if ($(td).children().length > 0) $(td).children().css({ 'color': color });
-                        else $(td).css({ 'color': color });
-                    }
-                    else $(td).css({ 'background-color': color });
-           
-                }
-            });
-        }
-        colorMyTable();
-        setInterval(colorMyTable, 60 * 1000);
-    });
-</script>
-
-<style>.table-minimizer{height:50px;width:100%;padding-top:12px;color:#000;cursor:pointer;background-color:#fff;position:absolute;bottom:0;font-weight:500;text-align:center;box-shadow:0 -2px 4px 0 rgb(4 60 174 / .06)}</style>
-<script>
-    $(function () {
-        console.log('TableMinimizer loaded');
-        TableMinimizer = {
-            init: function () {
-                $('.table-minimize').each(function (i, item) {
-                    var element = $(item),
-                        elementHeight = element.outerHeight(),
-                        maxHeight = element.attr('data-minimizer-height') ? Number(element.attr('data-minimizer-height')) : 300;
-                    //console.log('table height:', elementHeight, 'maxHeight: ', maxHeight);
-                    if (elementHeight <= maxHeight) {
-                        return;
-                    }
-
-                    //apply minimizer
-                    var step = element.attr('data-minimizer-step') ? Number(element.attr('data-minimizer-step')) : 300,
-                        stepCount = 1;
-                        icon = '<svg style="width:24px;height:24px; float: right;" viewBox="0 0 24 24"><path fill="#000" d="M7,10L12,15L17,10H7Z" /></svg>',
-                            mask = $('<div class="table-minimizer"><div style="display: table; margin: 0px auto;"><span style="display: inline-block;padding-top: 3px;text-decoration: underline;">Show More</span> '+icon+'</div> </div>');
-                    element.append(mask);
-                    element.css({
-                        height: maxHeight
-                    });
-
-                    mask.on('click', function (e) {
-                        stepCount++;
-                        var newHeigh = stepCount * step;
-                        //SHOW ALL
-                        element.css({
-                            height: elementHeight
-                        });
-                        mask.hide();
-                        return;
-                        if (newHeigh > elementHeight) {
-                            element.css({
-                                height: elementHeight
-                            });
-                            mask.hide();
-                            return;
-                        }
-                        element.css({
-                            height: newHeigh
-                        });
-                    });
-
-                });
-            }
-        };        
-        TableMinimizer.init();
-    });
-</script>
-<style>
-    .morelink {
-        text-decoration: none;
-        outline: none;
-        font-size: 85%;
-        color: #808080;
-    }
-    .morecontent span {
-        display: none;
-    }
-</style>
-<script>
-    function shortenText(nchar) {
-        const showChar = nchar || 300;
-        const ellipsestext = "...";
-        const moretext = TELanguage && TELanguage != '' ? '<i class="bi bi-plus-square"></i>' : "more";
-        const lesstext = TELanguage && TELanguage != '' ? '<i class="bi bi-dash-square"></i>' : "less";
-
-        $('.more:not([data-shortened="true"])').each(function () {
-            const $this = $(this);
-            const content = $this.html();
-
-            if (content.length > showChar) {
-                const c = content.substr(0, showChar);
-                const h = content.substr(showChar, content.length - showChar);
-
-                const html = c +
-                    '<span class="moreellipses">' + ellipsestext + '</span>' +
-                    '<span class="morecontent">' +
-                    '<span>' + h + '</span>' +
-                    '&nbsp;<a href="#" class="morelink">' + moretext + '</a>' +
-                    '</span>';
-
-                $this.html(html);
-                $this.attr('data-shortened', 'true');
-
-                $this.find('.morecontent').find('span').hide();
-            }
-        });
-
-        $(document).off('click', '.morelink').on('click', '.morelink', function (e) {
-
-            e.preventDefault();
-
-            const $link = $(this);
-            const $moreContentSpan = $link.prev();
-            const $ellipsisSpan = $link.parent().prev();
-
-            if ($link.hasClass("less")) {
-                $link.removeClass("less").html(moretext);
-                $moreContentSpan.hide();
-                $ellipsisSpan.show();
-            } else {
-                $link.addClass("less").html(lesstext);
-                $moreContentSpan.show();
-                $ellipsisSpan.hide();
-            }
-        });
-    }
-
-
-    $(function () {
-        shortenText(300)
-    });
-</script>
-
-<script>console.log("Loading Chatbot")</script>
-
-
-<script type="text/javascript" src="https://d3e5kp2e91w0k0.cloudfront.net/js/chat.js"></script>
 
 
 <script>function extractor_multi(n) { if (!n) return ""; var t = n.split(/\s/); return t && t[0] ? [t.slice(Math.max(0, t.length - 5), t.length).join(" "), t.slice(Math.max(0, t.length - 4), t.length).join(" "), t.slice(Math.max(0, t.length - 3), t.length).join(" "), t.slice(Math.max(0, t.length - 2), t.length).join(" "), t.slice(Math.max(0, t.length - 1), t.length).join(" "),] : "" } function capitaliseFirstLetter(n) { return ((n = (n + "").toLowerCase()) + "").replace(/^([a-z])|\s+([a-z])/g, function (n) { return n.toUpperCase() }).replace(/Gdp/g, "GDP").replace(/Ppp/g, "PPP").replace(/cpi/gi, "CPI").replace(/S\&t/g, "S&T").replace(/S\&p/g, "S&P") } function searchQueryEncode(n) { return whiteSpaceKiller(n.replace(/\%/g, "percent ").replace(/\,|\\|_/g, " ")).trim().replace(/\s|\t/g, "-").replace(/\:|\(|\)/g, "").toLowerCase() } function whiteSpaceKiller(n) { return (n = n.replace(/\s\s/g, " ")).match(/\s\s/) ? whiteSpaceKiller(n) : n } !function (n) { var t = function () { "use strict"; return { isMsie: function () { return /(msie|trident)/i.test(navigator.userAgent) ? navigator.userAgent.match(/(msie |rv:)(\d+(.\d+)?)/i)[2] : !1 }, isBlankString: function (n) { return !n || /^\s*$/.test(n) }, escapeRegExChars: function (n) { return n.replace(/[\-\[\]\/\{\}\(\)\*\+\?\.\\\^\$\|]/g, "\\$&") }, isString: function (n) { return "string" == typeof n }, isNumber: function (n) { return "number" == typeof n }, isArray: n.isArray, isFunction: n.isFunction, isObject: n.isPlainObject, isUndefined: function (n) { return "undefined" == typeof n }, toStr: function (n) { return t.isUndefined(n) || null === n ? "" : n + "" }, bind: n.proxy, each: function (t, i) { function r(n, t) { return i(t, n) } n.each(t, r) }, map: n.map, filter: n.grep, every: function (t, i) { var r = !0; return t ? (n.each(t, function (n, u) { if (!(r = i.call(null, u, n, t))) return !1 }), !!r) : r }, some: function (t, i) { var r = !1; return t ? (n.each(t, function (n, u) { if ((r = i.call(null, u, n, t))) return !1 }), !!r) : r }, mixin: n.extend, getUniqueId: function () { var n = 0; return function () { return n++ } }(), templatify: function (t) { function i() { return String(t) } return n.isFunction(t) ? t : i }, defer: function (n) { setTimeout(n, 0) }, debounce: function (n, t, i) { var r, u; return function () { var f, e, o = this, s = arguments; return f = function () { r = null; i || (u = n.apply(o, s)) }, e = i && !r, clearTimeout(r), r = setTimeout(f, t), e && (u = n.apply(o, s)), u } }, throttle: function (n, t) { var u, f, i, e, r, o; return r = 0, o = function () { r = new Date; i = null; e = n.apply(u, f) }, function () { var s = new Date, h = t - (s - r); return u = this, f = arguments, 0 >= h ? (clearTimeout(i), i = null, r = s, e = n.apply(u, f)) : i || (i = setTimeout(o, h)), e } }, noop: function () { } } }(), f = "0.10.5", e = function () { "use strict"; function n(n) { return n = t.toStr(n), n ? n.split(/\s+/) : [] } function i(n) { return n = t.toStr(n), n ? n.split(/\W+/) : [] } function r(n) { return function () { var i = [].slice.call(arguments, 0); return function (r) { var u = []; return t.each(i, function (i) { u = u.concat(n(t.toStr(r[i]))) }), u } } } return { nonword: i, whitespace: n, obj: { nonword: r(i), whitespace: r(n) } } }(), r = function () { "use strict"; function i(i) { this.maxSize = t.isNumber(i) ? i : 100; this.reset(); this.maxSize <= 0 && (this.set = this.get = n.noop) } function r() { this.head = this.tail = null } function u(n, t) { this.key = n; this.val = t; this.prev = this.next = null } return t.mixin(i.prototype, { set: function (n, t) { var i, r = this.list.tail; this.size >= this.maxSize && (this.list.remove(r), delete this.hash[r.key]); (i = this.hash[n]) ? (i.val = t, this.list.moveToFront(i)) : (i = new u(n, t), this.list.add(i), this.hash[n] = i, this.size++) }, get: function (n) { var t = this.hash[n]; if (t) return (this.list.moveToFront(t), t.val) }, reset: function () { this.size = 0; this.hash = {}; this.list = new r } }), t.mixin(r.prototype, { add: function (n) { this.head && (n.next = this.head, this.head.prev = n); this.head = n; this.tail = this.tail || n }, remove: function (n) { n.prev ? n.prev.next = n.next : this.head = n.next; n.next ? n.next.prev = n.prev : this.tail = n.prev }, moveToFront: function (n) { this.remove(n); this.add(n) } }), i }(), o = function () { "use strict"; function i(n) { this.prefix = ["__", n, "__"].join(""); this.ttlKey = "__ttl__"; this.keyMatcher = new RegExp("^" + t.escapeRegExChars(this.prefix)) } function r() { return (new Date).getTime() } function u(n) { return JSON.stringify(t.isUndefined(n) ? null : n) } function f(n) { return JSON.parse(n) } var n, e; try { n = window.localStorage; n.setItem("~~~", "!"); n.removeItem("~~~") } catch (o) { n = null } return e = n && window.JSON ? { _prefix: function (n) { return this.prefix + n }, _ttlKey: function (n) { return this._prefix(n) + this.ttlKey }, get: function (t) { return this.isExpired(t) && this.remove(t), f(n.getItem(this._prefix(t))) }, set: function (i, f, e) { return t.isNumber(e) ? n.setItem(this._ttlKey(i), u(r() + e)) : n.removeItem(this._ttlKey(i)), n.setItem(this._prefix(i), u(f)) }, remove: function (t) { return n.removeItem(this._ttlKey(t)), n.removeItem(this._prefix(t)), this }, clear: function () { for (var r, i = [], u = n.length, t = 0; u > t; t++)(r = n.key(t)).match(this.keyMatcher) && i.push(r.replace(this.keyMatcher, "")); for (t = i.length; t--;)this.remove(i[t]); return this }, isExpired: function (i) { var u = f(n.getItem(this._ttlKey(i))); return t.isNumber(u) && r() > u ? !0 : !1 } } : { get: t.noop, set: t.noop, remove: t.noop, clear: t.noop, isExpired: t.noop }, t.mixin(i.prototype, e), i }(), u = function () { "use strict"; function i(t) { t = t || {}; this.cancelled = !1; this.lastUrl = null; this._send = t.transport ? s(t.transport) : n.ajax; this._get = t.rateLimiter ? t.rateLimiter(this._get) : this._get; this._cache = t.cache === !1 ? new r(0) : o } function s(i) { return function (r, u) { function e(n) { t.defer(function () { f.resolve(n) }) } function o(n) { t.defer(function () { f.reject(n) }) } var f = n.Deferred(); return i(r, u, e, o), f } } var u = 0, f = {}, e = 6, o = new r(10); return i.setMaxPendingRequests = function (n) { e = n }, i.resetCache = function () { o.reset() }, t.mixin(i.prototype, { _get: function (n, t, i) { function o(t) { i && i(null, t); r._cache.set(n, t) } function s() { i && i(!0) } function c() { u--; delete f[n]; r.onDeckRequestArgs && (r._get.apply(r, r.onDeckRequestArgs), r.onDeckRequestArgs = null) } var h, r = this; this.cancelled || n !== this.lastUrl || ((h = f[n]) ? h.done(o).fail(s) : e > u ? (u++, f[n] = this._send(n, t).done(o).fail(s).always(c)) : this.onDeckRequestArgs = [].slice.call(arguments, 0)) }, get: function (n, i, r) { var u; return t.isFunction(i) && (r = i, i = {}), this.cancelled = !1, this.lastUrl = n, (u = this._cache.get(n)) ? t.defer(function () { r && r(null, u) }) : this._get(n, i, r), !!u }, cancel: function () { this.cancelled = !0 } }), i }(), s = function () { "use strict"; function i(t) { t = t || {}; t.datumTokenizer && t.queryTokenizer || n.error("datumTokenizer and queryTokenizer are both required"); this.datumTokenizer = t.datumTokenizer; this.queryTokenizer = t.queryTokenizer; this.reset() } function r(n) { return n = t.filter(n, function (n) { return !!n }), n = t.map(n, function (n) { return n.toLowerCase() }) } function u() { return { ids: [], children: {} } } function f(n) { for (var i = {}, r = [], t = 0, u = n.length; u > t; t++)i[n[t]] || (i[n[t]] = !0, r.push(n[t])); return r } function e(n, t) { function u(n, t) { return n - t } var i = 0, r = 0, f = [], e, o; for (n = n.sort(u), t = t.sort(u), e = n.length, o = t.length; e > i && o > r;)n[i] < t[r] ? i++ : n[i] > t[r] ? r++ : (f.push(n[i]), i++, r++); return f } return t.mixin(i.prototype, { bootstrap: function (n) { this.datums = n.datums; this.trie = n.trie }, add: function (n) { var i = this; n = t.isArray(n) ? n : [n]; t.each(n, function (n) { var f, e; f = i.datums.push(n) - 1; e = r(i.datumTokenizer(n)); t.each(e, function (n) { for (var r, t = i.trie, e = n.split(""); r = e.shift();)t = t.children[r] || (t.children[r] = u()), t.ids.push(f) }) }) }, get: function (n) { var u, i, o = this; return u = r(this.queryTokenizer(n)), t.each(u, function (n) { var t, r, f, u; if (i && 0 === i.length) return !1; for (t = o.trie, r = n.split(""); t && (f = r.shift());)t = t.children[f]; return t && 0 === r.length ? (u = t.ids.slice(0), void (i = i ? e(i, u) : u)) : (i = [], !1) }), i ? t.map(f(i), function (n) { return o.datums[n] }) : [] }, reset: function () { this.datums = []; this.trie = u() }, serialize: function () { return { datums: this.datums, trie: this.trie } } }), i }(), i = function () { "use strict"; function i(n) { return n.local || null } function r(i) { var r, u; return u = { url: null, thumbprint: "", ttl: 864e5, filter: null, ajax: {} }, (r = i.prefetch || null) && (r = t.isString(r) ? { url: r } : r, r = t.mixin(u, r), r.thumbprint = f + r.thumbprint, r.ajax.type = r.ajax.type || "GET", r.ajax.dataType = r.ajax.dataType || "json", !r.url && n.error("prefetch requires url to be set")), r } function u(i) { function f(n) { return function (i) { return t.debounce(i, n) } } function e(n) { return function (i) { return t.throttle(i, n) } } var r, u; return u = { url: null, cache: !0, wildcard: "%QUERY", replace: null, rateLimitBy: "debounce", rateLimitWait: 300, send: null, filter: null, ajax: {} }, (r = i.remote || null) && (r = t.isString(r) ? { url: r } : r, r = t.mixin(u, r), r.rateLimiter = /^throttle$/i.test(r.rateLimitBy) ? e(r.rateLimitWait) : f(r.rateLimitWait), r.ajax.type = r.ajax.type || "GET", r.ajax.dataType = r.ajax.dataType || "json", delete r.rateLimitBy, delete r.rateLimitWait, !r.url && n.error("remote requires url to be set")), r } return { local: i, prefetch: r, remote: u } }(); !function (r) { "use strict"; function h(t) { t && (t.local || t.prefetch || t.remote) || n.error("one of local, prefetch, or remote is required"); this.limit = t.limit || 5; this.sorter = l(t.sorter); this.dupDetector = t.dupDetector || a; this.local = i.local(t); this.prefetch = i.prefetch(t); this.remote = i.remote(t); this.cacheKey = this.prefetch ? this.prefetch.cacheKey || this.prefetch.url : null; this.index = new s({ datumTokenizer: t.datumTokenizer, queryTokenizer: t.queryTokenizer }); this.storage = this.cacheKey ? new o(this.cacheKey) : null } function l(n) { function i(t) { return t.sort(n) } function r(n) { return n } return t.isFunction(n) ? i : r } function a() { return !1 } var c, f; return c = r.Bloodhound, f = { data: "data", protocol: "protocol", thumbprint: "thumbprint" }, r.Bloodhound = h, h.noConflict = function () { return r.Bloodhound = c, h }, h.tokenizers = e, t.mixin(h.prototype, { _loadPrefetch: function (t) { function f(n) { i.clear(); i.add(t.filter ? t.filter(n) : n); i._saveToStorage(i.index.serialize(), t.thumbprint, t.ttl) } var u, r, i = this; return (u = this._readFromStorage(t.thumbprint)) ? (this.index.bootstrap(u), r = n.Deferred().resolve()) : r = n.ajax(t.url, t.ajax).done(f), r }, _getFromRemote: function (n, t) { function f(n, i) { t(n ? [] : u.remote.filter ? u.remote.filter(i) : i) } var i, r, u = this; if (this.transport) return n = n || "", r = encodeURIComponent(n), i = this.remote.replace ? this.remote.replace(this.remote.url, n) : this.remote.url.replace(this.remote.wildcard, r), this.transport.get(i, this.remote.ajax, f) }, _cancelLastRemoteRequest: function () { this.transport && this.transport.cancel() }, _saveToStorage: function (n, t, i) { this.storage && (this.storage.set(f.data, n, i), this.storage.set(f.protocol, location.protocol, i), this.storage.set(f.thumbprint, t, i)) }, _readFromStorage: function (n) { var i, t = {}; return this.storage && (t.data = this.storage.get(f.data), t.protocol = this.storage.get(f.protocol), t.thumbprint = this.storage.get(f.thumbprint)), i = t.thumbprint !== n || t.protocol !== location.protocol, t.data && !i ? t.data : null }, _initialize: function () { function f() { e.add(t.isFunction(i) ? i() : i) } var r, e = this, i = this.local; return r = this.prefetch ? this._loadPrefetch(this.prefetch) : n.Deferred().resolve(), i && r.done(f), this.transport = this.remote ? new u(this.remote) : null, this.initPromise = r.promise() }, initialize: function (n) { return !this.initPromise || n ? this._initialize() : this.initPromise }, add: function (n) { this.index.add(n) }, get: function (n, i) { function e(n) { var f = r.slice(0); t.each(n, function (n) { var i; return i = t.some(f, function (t) { return u.dupDetector(n, t) }), !i && f.push(n), f.length < u.limit }); i && i(u.sorter(f)) } var u = this, r = [], f = !1; r = this.index.get(n); r = this.sorter(r).slice(0, this.limit); r.length < this.limit ? f = this._getFromRemote(n, e) : this._cancelLastRemoteRequest(); f || (r.length > 0 || !this.transport) && i && i(r) }, clear: function () { this.index.reset() }, clearPrefetchCache: function () { this.storage && this.storage.clear() }, clearRemoteCache: function () { this.transport && u.resetCache() }, ttAdapter: function () { return t.bind(this.get, this) } }), h }(this) }(window.jQuery); !function (n, t) { "use strict"; "undefined" != typeof module && module.exports ? module.exports = t(require("jquery")(n)) : "function" == typeof define && define.amd ? define("bootstrap3-typeahead", ["jquery"], function (n) { return t(n) }) : t(n.jQuery) }(this, function (n) { "use strict"; var t, i, r; void 0 === t && (t = {}); t.default = ['<div class="ieacac-tabs hidden-xs">', '<ul class="iecac-menu-tabs">', "<\/ul>", "<\/div>",]; i = function (i, r) { var e, o, f, u; if (this.$element = n(i), this.options = n.extend({}, n.fn.iec_typeahead.defaults, r), this.matcher = this.options.matcher || this.matcher, this.wrapper = this.options.wrapper || [], this.table_chart_button = this.options.table_chart_button || !1, this.goDirectly = this.options.goDirectly || !1, this.lang = "string" == typeof iec_language ? window.iec_language : "en", this.sorter = this.options.sorter || this.sorter, this.allow_more = this.options.allow_more || !1, this.go_for_context = this.options.go_for_context || this.options.goForContext || !1, this.in_context_length = this.options.in_context_length || this.options.inContextLength || 0, this.in_context_stack = [], this.rendered = 0, this.select = this.options.select || this.select, this.allow_facilitator_more = this.options.allow_facilitator_more || this.options.allowNavigator || !1, this.on_facilitator_more_click = this.options.on_facilitator_more_click || this.options.onNavigatorMoreClick || !1, this.autoSelect = "boolean" != typeof this.options.autoSelect || this.options.autoSelect, this.expandable = "boolean" == typeof this.options.expandable && this.options.expandable, this.highlighter = this.options.highlighter || this.highlighter, this.render = this.options.render || this.render, this.updater = this.options.updater || this.updater, this.source = this.options.source, this.delay = "number" == typeof this.options.delay ? this.options.delay : 100, this.forceRenderToTextBox = void 0 === this.options.forceRenderToTextBox || this.options.forceRenderToTextBox, this.selectionHandler = void 0 !== this.options.selectionHandler && this.options.selectionHandler, this.$menu = n(this.options.menu), this.options.setClasses && this.options.setClasses.ul) { e = this.options.setClasses.ul.split(" "); for (o in e) this.$menu.addClass(e[o]) } if (this.options.setStyles && this.options.setStyles.ul) for (f in this.options.setStyles.ul) this.options.setStyles.ul[f].p && (console.log("setting style", this.options.setStyles.ul[f]), this.$menu.style(this.options.setStyles.ul[f].p, this.options.setStyles.ul[f].v, this.options.setStyles.ul[f].i)); this.shown = !1; this.tabs = []; this.stance = 0; this.req_num = 0; this.listen(); this.showHintOnFocus = "boolean" == typeof this.options.showHintOnFocus && this.options.showHintOnFocus; this.afterSelect = this.options.afterSelect || this.afterSelect; this.appendMenuTo = this.options.appendMenuTo || !1; this.originalQuery = !1; this.searching_for_something = !1; this.renderAnimation = this.options.renderAnimation || !1; u = {}; void 0 !== t ? u = t : void 0 !== r.typeahead_little_helper && (u = this.options.typeahead_little_helper); this.typeahead_little_helper = u; void 0 === this.options.typeahead_little_helper && (this.options.typeahead_little_helper = u); this.classname = u[this.wrapper] ? n(u[this.wrapper][0])[0].className || "none" : "none"; this.own_special_class = "ieconomics-" + Math.round(1e6 * Math.random()) + "-logic"; this.$element.data("ieconomics", this.own_special_class); this.$element.addClass(this.own_special_class) }; i.prototype = { constructor: i, afterSelect: function (t) { if (t && "go" == t) { console.log("trigger:", t); this.renderAnimation && this.renderAnimation(); var i = (n("#searchu").val() || n("#searchd").val()).trim().toLowerCase(); window.searchQueryEncode && (i = searchQueryEncode(i)); window.location.href = "http://" + window.location.host + "/" + i } }, select: function (t) { var i = this.$menu.find(".active").data("value"), u = !0, r; if (i || (i = this.$element.val(), u = !1), r = { raw: this.$menu.find(".active").data("raw") || i, value: i, isListed: u, type: this.$menu.find(".active").data("type") }, this.selectionHandler) return this.selectionHandler("https://tradingeconomics.com" + i, r, n("#" + this.options.searchBoxId).val()); if ("go_more_results" != i) { if (this.autoSelect || i) { if ("go_facilitator_modal" == i) return this.hide(), event.preventDefault(), event.stopPropagation(), this.mouse_ignore = !0, this.focusout(), void (this.on_facilitator_more_click && this.on_facilitator_more_click()); this.goDirectly ? (this.renderAnimation && this.renderAnimation(), this.hide(), n("#searchButton").attr("style", "background-image: url('/cdn/ie/img/roundload.gif')!important;background-color: #fff;"), window.location.href = "http://" + window.location.host + "/" + ("en" == this.lang ? "" : this.lang + "/") + searchQueryEncode(i)) : (this.$element.val(this.updater(i)).change(), this.table_chart_button && t ? this.afterSelect(t, r) : this.afterSelect(null, r)) } else this.table_chart_button && t ? this.afterSelect(t, r) : this.afterSelect("go", r); return this.hide(), this.mouse_ignore = !0, "" } window.location.href = "https://tradingeconomics.com" + ("en" == this.lang ? "" : this.lang + "/") + "more/" + (n("#searchu").val() || n("#searchd").val()).trim().toLowerCase().replace(/\s/, "-") }, updater: function (n) { return this.query, n }, setSource: function (n) { this.source = n }, show: function () { var u, t = n.extend({}, this.$element.position(), { height: this.$element[0].offsetHeight }), r, i; return u = "function" == typeof this.options.scrollHeight ? this.options.scrollHeight.call() : this.options.scrollHeight, r = t.top + t.height + u, i = t.left, this.options.align && "left" == this.options.align && (console.log("fix left", this.$menu.width()), i = t.left + this.$element.width() - (0 != this.$menu.width() ? this.$menu.width() : 556)), this.appendMenuTo ? this.appendMenuTo.append(this.$menu.css({ top: r, left: i, display: "table" })) : this.forceRenderToTextBox ? this.$menu.insertAfter(this.$element).css({ top: r, left: i, display: "table" }) : this.$menu.show(), this.shown = !0, this }, hide: function () { return this.shown && (this.$menu.hide(), this.shown = !1), this }, lookup: function (t) { if (this.originalQuery = !1, this.have_news = !0, this.query = null != t ? t : this.$element.val() || "", this.query.length > this.options.minLength && (this.searching_for_something = setTimeout(function () { }, 1e3)), this.query.length < this.options.minLength && !this.showHintOnFocus) return this.shown ? this.hide() : this; var i, r = n.proxy(function () { var t = "?"; this.options && "thisIstheSearchBoxIdTag" == this.options.searchBoxId && (t = "&"); this.options && "thisIstheTinySearchBoxIdTag" == this.options.searchBoxId && (t = "&"); this.options && "ac" == this.options.wrapper && (t = "&"); (i = n.isFunction(this.source) ? this.source(encodeURIComponent(this.query) + t + "stance=" + ++this.req_num, n.proxy(this.process, this)) : this.source) && this.process(i) }, this); clearTimeout(this.lookupWorker); this.lookupWorker = setTimeout(r, this.delay) }, process: function (t) { this.have_news = !1; clearTimeout(this.searching_for_something); var i = this; if (t[0]) { if (t[0].stance && !(t[0].stance == i.req_num || "searching" == t[0].stance)) return; (t[0].total || 0 === t[0].total) && (i.setBadges(t[0]), t = t.slice(1, t.length + 1)) } return t = n.grep(t, function (n) { return i.matcher(n.name) }), (t = this.sorter(t)).length ? "all" == this.options.items ? this.render(t).show() : this.focused ? this.render(t).show() : void 0 : this.shown ? this.hide() : this }, setBadges: function (i) { var f, u, r; if (this.tabs = [], 0 == this.tabs.length) { f = t[this.wrapper]; for (u in f) if (r = (n(f[u]).find("span").attr("class") || "").replace("iec-menu-tabs-nresults numresults-", ""), !(r.length < 1)) if (r != i.tab) this.tabs.push({ l: u, tab: r }); else { if ("all" == r && 0 === i.total) return console.info("zero"), this.focused = !1, this.hide(); this.populate(u, r, i.total) } this.stance++; this.fetchAndPopulate(this.stance) } }, fetchAndPopulate: function (n) { var t = this; t.stance > n || t.tabs[0] && jQuery.getJSON("http://" + iec_api + "/src/iecac/" + t.query + "?tab=" + t.tabs[0].tab + " &onlystats=true", function () { }).done(function (i) { t.populate(t.tabs[0].l, t.tabs[0].tab, i[0].total); t.stance > n || (t.tabs = t.tabs.slice(1, t.tabs.length), t.fetchAndPopulate(n)) }) }, populate: function (i, r, u) { (u || 0 === u) && (t[this.wrapper][i] = n(t[this.wrapper][i]).find("span").text("(" + u + ")").parent().prop("outerHTML"), n(".numresults-" + r).text("(" + u + ")")) }, matcher: function (n) { return n ? "no results" == n ? -1 : "searching" == n ? -1 : ~n.toLowerCase().indexOf(this.query.toLowerCase()) > -1 ? -1 : ~n.toLowerCase().indexOf(this.query.toLowerCase()) : -1 }, sorter: function (n) { return n }, highlighter: function (n) { var t = extractor_multi(this.query), i = 0; return n ? (n.match(RegExp("(" + (t[0] || "").trim() + ")", "ig")) || (n.match(RegExp("(" + t[1] + ")", "ig")) ? i = 1 : n.match(RegExp("(" + t[2] + ")", "ig")) ? i = 2 : n.match(RegExp("(" + t[3] + ")", "ig")) ? i = 3 : n.match(RegExp("(" + t[4] + ")", "ig")) && (i = 4)), n.replace(RegExp("(" + t[i] + ")", "ig"), function (n, t) { return "<strong>" + t + "<\/strong>" })) : "" }, reorderByCategory: function (n) { n.sort((n, t) => t.importance - n.importance); let r = ["General", "Markets", "Stocks", "Financials"], i = {}; for (var t = 0; t < n.length; t++) { let r = ""; "mkt" == n[t].type ? (r = "Stocks", n[t].type = "Stocks") : "idx" == n[t].type || "commodity" == n[t].type || "bond" == n[t].type || "forex" == n[t].type || "crypto" == n[t].type ? (r = "Markets", n[t].type = "Markets") : "financials" == n[t].type ? (r = "Financials", n[t].type = "Financials") : (r = "General", n[t].type = "General"); i[r] || (i[r] = []); i[r].push(n[t]) } r = n.map(n => n.type); let u = {}; for (let n of r) n in i && (u[n] = i[n]); return u }, addtabs: function (n) { let r = Object.keys(n), t = 0, i = 0; r.forEach(r => { let u = $('<li class="list-group-tab list-group-first-tab"><p>' + r + '<\/p><button type="button" class="btn-close btn-tab-close" aria-label="Close"><\/button><\/li>'), f = $('<li class="list-group-tab"><p>' + r + "<\/p><\/li>"); 0 == t ? this.$menu.children().eq(t).before(u) : this.$menu.children().eq(i).before(f); i = i + n[r].length + 1; t++; u.find(".btn-close").click(function () { $("#dpSearch-resultCnt").hide(); $(".nav-entry-link-group").removeClass("d-none"); $("#thisIsTheSearchBoxWrapperId").removeClass("is-wide-open"); $("#thisIstheSearchBoxIdTag").style("width", "") }) }) }, render: function (t) { var e = t, i, u, r, f; t[0] && void 0 !== t[0].page && (e = t[1]); i = this; t.length; u = this.reorderByCategory(e); let o = Object.keys(u).reduce((n, t) => n.concat(u[t]), []); return (t = n(o).map(function (t, r) { var f, u; return t || (i.in_context_stack = [], i.rendered = 0), f = i.options.items, (i.allow_facilitator_more && f > 1 && (f -= 1), !(i.rendered > f)) ? (r.full_name = r.pretty_name || r.full_name || r.name, r.name = r.pretty_name || r.name, r.the_url = r.url || r.the_url || r.value, r.value = r.the_url, (t = n(i.options.item)).addClass("list-group-item"), t.data("value", (r.value || "").toLowerCase()), t.data("type", (r.type || "").toLowerCase()), t.data("raw", r.value), t.find("a").prop("title", r.full_name || r.name), t.find("a").prop("href", "https://tradingeconomics.com" + r.the_url), t.find("a > .iec-dd-val").html(i.highlighter(r.name)), t.find("a > .iec-dd-symbol").html(r.symbol), u = !1, r.url && r.url.indexOf(":") > 0 && ("GOV" != (u = r.url.split(":")[1].toUpperCase()) && "IND" != u && "CUR" != u && "COM" != u || (u = !1)), r.origin = u || r.origin, r.origin ? t.find("a > .iec-dd-origin").html(r.origin.toUpperCase()) : t.find("a > .iec-dd-origin").addClass("iec-dd-origin-empty"), i.rendered++, t[0]) : void 0 }), this.autoSelect && t.first().addClass("active"), this.options.renderDiv ? this.$menu = n("#" + this.options.renderDiv) : this.$menu.html(this.options.typeahead_little_helper[this.wrapper].join("\n")), this.$menu.empty(), this.$menu.append(t), i.allow_more && t.length > 1) && (r = n('<li data-value="go_more_results" class="list-group-item">'), f = n("#" + this.options.searchBoxId).val().trim().toLowerCase(), this.options.moreUrlFormat && (f = this.options.moreUrlFormat + n("#" + this.options.searchBoxId).val().trim().toLowerCase()), r.append('<a href="https://tradingeconomics.com' + f + '"><span class="iec-dd-symbol d-none d-lg-inline hidden-lg"><\/span><span class="iec-dd-val iec-typeadead-more">More<\/span><span class="iec-dd-origin iec-dd-origin-empty hidden-xs"><\/span><\/a>'), this.$menu.append(r)), i.allow_facilitator_more && ((r = n('<li class="more-facilitator-modal" data-value="go_facilitator_modal">')).append('<a href="#" ><span class="iec-dd-symbol d-none d-lg-inline hidden-lg"><\/span><span class="iec-dd-val iec-typeadead-more">More<\/span><span class="iec-dd-origin iec-dd-origin-empty hidden-xs"><\/span><\/a>'), this.$menu.append(r)), this.addtabs(u), this }, next: function () { var t = this.$menu.find(".active").removeClass("active").next(); t.length || (t = n(this.$menu.find("li")[0])); t.addClass("active") }, prev: function () { var t = this.$menu.find(".active").removeClass("active").prev(); t.length || (t = this.$menu.find("li").last()); "DIV" != n(t[0]).get(0).tagName && t.addClass("active") }, listen: function () { this.$element.on("focus", n.proxy(this.focus, this)).on("blur", n.proxy(this.blur, this)).on("focusout", n.proxy(this.focusout, this)).on("keypress", n.proxy(this.keypress, this)).on("keyup", n.proxy(this.keyup, this)); this.eventSupported("keydown") && this.$element.on("keydown", n.proxy(this.keydown, this)); this.$menu.on("click", n.proxy(this.click, this)).on("mouseenter", "li", n.proxy(this.mouseenter, this)).on("mouseleave", "li", n.proxy(this.mouseleave, this)) }, destroy: function () { this.$element.data("typeahead", null); this.$element.off("focus").off("focusout").off("blur").off("keypress").off("keyup"); this.eventSupported("keydown") && this.$element.off("keydown"); this.$menu.remove() }, eventSupported: function (n) { var t = n in this.$element; return t || (this.$element.setAttribute(n, "return;"), t = "function" == typeof this.$element[n]), t }, move: function (t) { if (this.shown) { switch (t.keyCode) { case 9: case 13: case 27: case 39: t.preventDefault(); break; case 38: if (t.shiftKey || (t.preventDefault(), this.prev(), this.originalQuery || (this.originalQuery = this.$element.val()), "more results" == (i = n(n("." + this.classname).parent().find("> li.active")[0]).find("span.iec-dd-val").text()).toLowerCase() || "more" == i.toLowerCase())) return; "" == i.toLowerCase() && (i = this.originalQuery); this.$element.val(i.replace(/\s\s/g, " ").trim().toLowerCase()); break; case 40: var i; if (t.shiftKey || (t.preventDefault(), this.classname.indexOf(" ") > 1 && (this.classname = this.classname.substr(0, this.classname.indexOf(" "))), this.next(), this.originalQuery || (this.originalQuery = this.$element.val()), "more results" == (i = n(n("." + this.classname).parent().find("> li.active")[0]).find("span.iec-dd-val").text()).toLowerCase() || "more" == i.toLowerCase())) return; "" == i.toLowerCase() && (i = this.originalQuery); this.$element.val(i.replace(/\s\s/g, " ").trim().toLowerCase()) }t.stopPropagation() } }, keydown: function (t) { this.suppressKeyPressRepeat = ~n.inArray(t.keyCode, [40, 38, 9, 13, 27, 39]); this.shown || 40 != t.keyCode ? this.move(t) : this.lookup("") }, keypress: function (n) { this.suppressKeyPressRepeat || this.move(n) }, keyup: function (t) { switch (t.keyCode) { case 40: case 38: case 16: case 17: case 18: break; case 9: case 39: if (!this.shown) return; this.select(); break; case 13: if (console.log("event this?", this.shown, this.autoSelect), !this.shown) { if (!this.autoSelect) { if (this.selectionHandler) { var i = { raw: "https://tradingeconomics.com" + this.$element.val(), value: this.$element.val(), isListed: !1, type: !1 }; return this.selectionHandler("https://tradingeconomics.com" + this.$element.val(), i, n("#" + this.options.searchBoxId).val()) } this.goDirectly || this.afterSelect("go") } return } this.select(); this.goDirectly || this.afterSelect("go"); break; case 27: if (!this.shown) return; this.hide(); break; default: this.lookup() }t.stopPropagation(); t.preventDefault() }, focus: function () { if (!this.focused) { if (this.focused = !0, this.went_away) return this.$element.blur(), void (this.went_away = !1); this.show(); (0 === this.options.minLength && !this.$element.val() || this.options.showHintOnFocus) && this.lookup() } }, focusout: function () { this.focused = !1; this.mousedover || !this.shown || n("#" + this.options.renderDiv).is(":hover") || this.hide() }, click: function (n) { console.log("CLICKED -> e.target", n.target); n.preventDefault(); n.target.className.toString().indexOf("menu-tabs") > -1 || this.select() }, mouseenter: function (t) { this.mousedover = !0; this.$menu.find(".active").removeClass("active"); n(t.currentTarget).addClass("active") }, mouseleave: function () { this.mousedover = !1; this.mouse_ignore ? this.mouse_ignore = !1 : this.focused || (this.$element.focus(), this.focused = !0) } }; r = n.fn.typeahead; n.fn.iec_typeahead = function (t) { var r = arguments; return this.each(function () { var f = n(this), u = f.data("typeahead"); u || f.data("typeahead", u = new i(this, "object" == typeof t && t)); "string" == typeof t && (r.length > 1 ? u[t].apply(u, Array.prototype.slice.call(r, 1)) : u[t]()) }) }; n.fn.iec_typeahead.defaults = { source: [], items: 8, menu: '<ul class="typeahead dropdown-menu"><\/ul>', item: '<li><a href="#"><span class="iec-dd-symbol d-none d-lg-inline hidden-lg"><\/span><span class="iec-dd-val"><\/span><span class="iec-dd-origin hidden-xs"><\/span><\/a><\/li>', minLength: 2, scrollHeight: 0, autoSelect: !0 }; n.fn.iec_typeahead.Constructor = i; n.fn.iec_typeahead.noConflict = function () { return n.fn.typeahead = r, this }; n(document).on("focus.typeahead.data-api", '[data-provide="typeahead"]', function () { var t = n(this); t.data("typeahead") || t.iec_typeahead(t.data()) }) }), function (n) { if (!n.fn.style) { var t = function (n) { return n.replace(/[-[\]{}()*+?.,\\^$|#\s]/g, "\\$&") }; CSSStyleDeclaration.prototype.getPropertyValue || (CSSStyleDeclaration.prototype.getPropertyValue = function (n) { return this.getAttribute(n) }, CSSStyleDeclaration.prototype.setProperty = function (n, i, r) { if (this.setAttribute(n, i), "" != (r = void 0 !== r ? r : "")) { var u = RegExp(t(n) + "\\s*:\\s*" + t(i) + "(\\s*;)?", "gmi"); this.cssText = this.cssText.replace(u, n + ": " + i + " !" + r + ";") } }, CSSStyleDeclaration.prototype.removeProperty = function (n) { return this.removeAttribute(n) }, CSSStyleDeclaration.prototype.getPropertyPriority = function (n) { return RegExp(t(n) + "\\s*:\\s*[^\\s]*\\s*!important(\\s*;)?", "gmi").test(this.cssText) ? "important" : "" }); n.fn.style = function (n, t, i) { if (void 0 === this.get(0)) return this; var r = this.get(0).style; return void 0 !== n ? void 0 !== t ? (i = void 0 !== i ? i : "", r.setProperty(n, t, i), this) : r.getPropertyValue(n) : r } } }(jQuery); !function () { function o(t, r, u) { r.isListed ? "go_more_results" == t || t.indexOf("go_more_results") > 0 ? i(u || $("#" + n).val()) : window.location.href = t : i(u || $("#" + n).val()) } function i(n) { if (n && "" != n) { var t = r + encodeURIComponent(n); window.location = t } } var r = "/search.aspx?q=", n = "thisIstheSearchBoxIdTag", u = !1, t = !1, c = !1, f = new Bloodhound({ datumTokenizer: Bloodhound.tokenizers.obj.whitespace("value"), queryTokenizer: Bloodhound.tokenizers.whitespace, limit: 250, remote: { url: "https://brains.tradingeconomics.com/v2/search/all", replace: function (n, t) { var i = n + "?q=" + t + "&t=te-ta&nofacets=true&pp=7"; return console.log("_url", i), i } } }); f.initialize(); $("#" + n).iec_typeahead({ items: 7, autoSelect: !1, wrapper: "default", expandable: !0, source: f.ttAdapter(), goDirectly: !0, allow_more: !0, searchBoxId: n, renderDiv: "dpSearch-resultCnt", forceRenderToTextBox: !1, selectionHandler: o, moreUrlFormat: r }); $("#thisIstheTinySearchBoxIdTag").iec_typeahead({ items: 7, autoSelect: !1, wrapper: "default", expandable: !0, source: f.ttAdapter(), goDirectly: !0, allow_more: !0, searchBoxId: "thisIstheTinySearchBoxIdTag", renderDiv: "dpSearch-resultCnt-tiny", forceRenderToTextBox: !1, selectionHandler: o, moreUrlFormat: r }); $("#" + n).on("focus", function () { e() }); $("#" + n).on("focusout", function (t) { $(t.target).attr("id") != n && (c = !1, s()) }); var e = function () { if (myResultsDisplayer = "#dpSearch-resultCnt", !t) { t = !0; var r = $(".navbar-collapse").width(), u = $(".navbar-header").width(), i = Math.min(Math.max(600, r - u - 100), 900); ga("event", "te-search-focus"); console.log("expand"); $("#thisIsTheSearchBoxWrapperId").toggleClass("is-wide-open"); $("#" + n).animate({ width: i }, 301); $("#" + n).toggleClass("d-none d-md-block"); $("#" + n).animate({ width: i }, 10); $(".nav-entry-link-group").addClass("d-none"); $("#" + n).focus(); $("#" + n).val() && $("#" + n).val().length && (console.log("expand immediatly"), h()) } }, s = function () { t && (t = !1, $("#thisIsTheSearchBoxWrapperId").toggleClass("is-wide-open"), $("#" + n).toggleClass("d-none d-md-block"), l(), $("#" + n).css("width", ""), $(".nav-entry-link-group").removeClass("d-none")) }, h = function () { u || (u = !0) }, l = function () { u = !1 }; $("#thisIsTheBigGlyphiconId").click(function () { t ? i($("#" + n).val()) : e() }); $("#thisIsTheSmallGlyphiconId1").click(function () { t ? i($("#" + n).val()) : e() }); $("#thisIsTheTinyGlyphiconId").click(function () { console.log("tiny click"); t || function () { myResultsDisplayer = "#dpSearch-resultCnt-tiny"; $("#mainHeader").hide(300, function () { }); $("#searchMobileHeader").show(300, function () { }); $("#thisIstheTinySearchBoxIdTag").focus(); $("#thisIstheTinySearchBoxIdTag").val() && $("#thisIstheTinySearchBoxIdTag").val().length && (console.log("expand immediatly"), h()) }() }); $("#thisIsTheTinyRemoveId").click(function () { $("#searchMobileHeader").hide(300, function () { }); $("#mainHeader").show(300, function () { }) }); $(document).on("click", function () { !t || $("#dpSearch-resultCnt").is(":hover") || $("#" + n).is(":hover") || $("#" + n).is(":focus") || $("#thisIsTheSearchPlaceholderId").is(":hover") || s() }) }();</script>
@@ -5239,7 +3812,7 @@ html_text = """<html><head id="ctl00_Head1"><meta charset="utf-8"><title>
 
 <div id="anchor-ad" style="display: none; position: fixed; bottom: 0px; left: 0px; width: 100%; z-index: 9999; text-align: center; padding: 8px 0px;">
   <button id="anchor-close" style="position:absolute; right:10px; top:5px; background:transparent; border:none; font-size:18px; cursor:pointer;">×</button>
-  <div id="anchor-ad-slot" style="margin: 0px auto;" data-google-query-id="CNqKnuPXhpQDFQyJgwcdmiwYFg"><div id="google_ads_iframe_/23288354674/anchor-bottom_0__container__" style="border: 0pt; margin: auto; text-align: center;"><iframe id="google_ads_iframe_/23288354674/anchor-bottom_0" name="google_ads_iframe_/23288354674/anchor-bottom_0" title="3rd party ad content" width="728" height="89" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" aria-label="Advertisement" tabindex="0" allow="private-state-token-redemption;attribution-reporting" data-load-complete="true" data-google-container-id="2" style="border: 0px; vertical-align: bottom;"></iframe></div></div>
+  <div id="anchor-ad-slot" style="margin: 0px auto;" data-google-query-id="CPiEqqHxhpQDFe8wVQgdOUoRiA"><div id="google_ads_iframe_/23288354674/anchor-bottom_0__container__" style="border: 0pt; margin: auto; text-align: center; width: 728px; height: 90px;"><iframe frameborder="0" src="https://4003af1da709adf5925dfbdccec92e30.safeframe.googlesyndication.com/safeframe/1-0-45/html/container.html" id="google_ads_iframe_/23288354674/anchor-bottom_0" title="3rd party ad content" name="" scrolling="no" marginwidth="0" marginheight="0" width="728" height="90" data-is-safeframe="true" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" allow="private-state-token-redemption;attribution-reporting" aria-label="Advertisement" tabindex="0" data-google-container-id="4" data-load-complete="true" style="border: 0px; vertical-align: bottom;"></iframe></div></div>
 </div>
 
 
@@ -5266,29 +3839,31 @@ html_text = """<html><head id="ctl00_Head1"><meta charset="utf-8"><title>
 </script>
 
 
-<iframe marginwidth="0" marginheight="0" scrolling="no" frameborder="0" id="1e161b5ed502ec" width="0" height="0" src="about:blank" name="__pb_locator__" style="display: none; height: 0px; width: 0px; border: 0px;"></iframe><iframe name="__tcfapiLocator" style="display: none; width: 0px; height: 0px; border-width: medium; border-style: none; border-color: currentcolor; border-image: initial; z-index: -1000; left: -1000px; top: -1000px;"></iframe><iframe name="googlefcPresent" style="display: none; width: 0px; height: 0px; border-width: medium; border-style: none; border-color: currentcolor; border-image: initial; z-index: -1000; left: -1000px; top: -1000px;"></iframe><iframe name="googlefcInactive" src="about:blank" style="display: none; width: 0px; height: 0px; border-width: medium; border-style: none; border-color: currentcolor; border-image: initial; z-index: -1000; left: -1000px; top: -1000px;"></iframe><iframe name="googlefcLoaded" src="about:blank" style="display: none; width: 0px; height: 0px; border-width: medium; border-style: none; border-color: currentcolor; border-image: initial; z-index: -1000; left: -1000px; top: -1000px;"></iframe><iframe name="google_ads_top_frame" id="google_ads_top_frame" style="display: none; position: fixed; left: -999px; top: -999px; width: 0px; height: 0px;"></iframe><iframe src="https://ep2.adtrafficquality.google/sodar/sodar2/254/runner.html" width="0" height="0" style="display: none;"></iframe><iframe src="https://www.google.com/recaptcha/api2/aframe" width="0" height="0" style="display: none;"></iframe></body><iframe id="goog_plcm_frame" src="https://cm.g.doubleclick.net/partnerpixels?gdpr_consent=CQi9j0AQi9j0AEsACBENCbFoAP_gAEPgACiQK3oB_C7EbCFCiDJ3IKMEMAhHgBBAYsAwAAYBAwAADBIQIBQCgkEYBAyAFCACCAAAKASBAAAgCAAAAUAAIAAFAABEAAwAIBAIIAAAgAAAAEAIAAAACIAAEQCAAAIEAEAAkAgAAAIASEAAAAAAAACBAAAAABAAAAAAAAAABAEAAQAAQAAAAAAAiAAAAAAAABAIAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAABAAAAAAAQgsIgH8LsRsIUKIMFcgowQwCFeAEABiwDAABgEDAAAMEhAgBAKSQRIECIAQIAAIAAAgBAEAACgICAAAQAAAABUAAEQADAAgEAgAQACAAABAQAAAAAAIgAARAIAAAgQAQACACAAAAgBIQAAAAAAAAIEAAAAAEAAAAAAAAAAAAQAAIADAAAAAAACIAAAAAAAAEAgQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAQAA.ILCIB_C7EbCFCiDJ3IKMEMAhXgBBAYsAwAAYBAwAADBIQIBQCkkEaBAyAFCACCAAAKASBAAAoCAgAAUAAIAAVAABEAAwAIBAIIEAAgAAAQEAIAAAACIAAEQCAAAIEAEAAkAgAAAIASEAAAAAAAACBAAAAABAAAAAAAAAABAEAASAAwAAAAAAAiAAAAAAAABAIEAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAABAAAAAAAQgAAE&amp;gdpr=1&amp;addtl_consent=2~61.89.122.161.184.196.230.314.385.442.445.494.550.576.827.1029.1033.1046.1047.1051.1067.1097.1126.1166.1301.1329.1342.1415.1516.1616.1725.1735.1765.1782.1917.1942.1958.1985.1987.2068.2072.2074.2107.2213.2219.2223.2224.2328.2331.2416.2501.2567.2568.2575.2657.2686.2778.2869.2878.2898.2908.2920.2963.3005.3023.3126.3234.3235.3253.3309.3731.6931.8931.13731.15731.33931~dv.&amp;url=https%3A%2F%2Ftradingeconomics.com%2Fcommodity%2Fcrude-oil" style="display: none;"></iframe><iframe sandbox="allow-scripts allow-same-origin" id="1498e6fbb592e9b" frameborder="0" allowtransparency="true" marginheight="0" marginwidth="0" width="0" hspace="0" vspace="0" height="0" style="height:0px;width:0px;display:none;" scrolling="no" src="https://ap.lijit.com/pixel?gdpr=0&amp;gdpr_consent=&amp;redir=https%3A%2F%2Fcs.ingage.tech%2Fwdc%2Fv1%2Fsync%2Fsovrn%2F8fa893c1-ed34-4bf6-89d6-d33294a27319%3Fuid%3D%24UID">
-    </iframe><iframe sandbox="allow-scripts allow-same-origin" id="154a6e1050d19c08" frameborder="0" allowtransparency="true" marginheight="0" marginwidth="0" width="0" hspace="0" vspace="0" height="0" style="height:0px;width:0px;display:none;" scrolling="no" src="https://match.sharethrough.com/universal/v1?gdpr=0&amp;gdpr_consent=&amp;supply_id=jc3Tkmr6">
-    </iframe><iframe sandbox="allow-scripts allow-same-origin" id="1678a5938db98fc" frameborder="0" allowtransparency="true" marginheight="0" marginwidth="0" width="0" hspace="0" vspace="0" height="0" style="height:0px;width:0px;display:none;" scrolling="no" src="https://eus.rubiconproject.com/usync.html">
-    </iframe><iframe sandbox="allow-scripts allow-same-origin" id="17231113db242eb" frameborder="0" allowtransparency="true" marginheight="0" marginwidth="0" width="0" hspace="0" vspace="0" height="0" style="height:0px;width:0px;display:none;" scrolling="no" src="https://ads.pubmatic.com/AdServer/js/user_sync.html?kdntuid=1&amp;p=166556">
-    </iframe><iframe sandbox="allow-scripts allow-same-origin" id="188cc1aec6cd7e1" frameborder="0" allowtransparency="true" marginheight="0" marginwidth="0" width="0" hspace="0" vspace="0" height="0" style="height:0px;width:0px;display:none;" scrolling="no" src="https://js-sec.indexww.com/um/ixmatch.html">
-    </iframe><iframe sandbox="allow-scripts allow-same-origin" id="1944a912be0f759" frameborder="0" allowtransparency="true" marginheight="0" marginwidth="0" width="0" hspace="0" vspace="0" height="0" style="height:0px;width:0px;display:none;" scrolling="no" src="https://hbx.media.net/checksync.php?vsSync=1&amp;cs=8&amp;cv=31&amp;https=1&amp;cid=8CU2Y356S&amp;prvid=55%2C77%2C20000%2C2034%2C2033%2C3010%2C2030%2C251%2C460%2C692%2C462%2C233%2C246%2C3017%2C345%2C697%2C203%2C214%2C313%2C2025%2C2124%2C237%2C117%2C319&amp;itype=PREBID&amp;purpose1=1&amp;gdprconsent=0&amp;gdpr=1&amp;coppa=0&amp;usp_status=0&amp;usp_consent=1&amp;dn=tradingeconomics.com">
-    </iframe><iframe sandbox="allow-scripts allow-same-origin" id="20cb1d2bee7397b8" frameborder="0" allowtransparency="true" marginheight="0" marginwidth="0" width="0" hspace="0" vspace="0" height="0" style="height:0px;width:0px;display:none;" scrolling="no" src="https://cm.adform.net/cookie?gdpr=0&amp;gdpr_consent=&amp;redirect_url=https%3A%2F%2Fcs.ingage.tech%2Fwdc%2Fv1%2Fsync%2Fadform%2F8fa893c1-ed34-4bf6-89d6-d33294a27319%3Fuid%3D%24UID">
+<iframe name="__tcfapiLocator" style="display: none; width: 0px; height: 0px; border-width: medium; border-style: none; border-color: currentcolor; border-image: initial; z-index: -1000; left: -1000px; top: -1000px;"></iframe><iframe marginwidth="0" marginheight="0" scrolling="no" frameborder="0" id="1b00715d8ec1bc" width="0" height="0" src="about:blank" name="__pb_locator__" style="display: none; height: 0px; width: 0px; border: 0px;"></iframe><iframe name="googlefcPresent" style="display: none; width: 0px; height: 0px; border-width: medium; border-style: none; border-color: currentcolor; border-image: initial; z-index: -1000; left: -1000px; top: -1000px;"></iframe><iframe name="googlefcInactive" src="about:blank" style="display: none; width: 0px; height: 0px; border-width: medium; border-style: none; border-color: currentcolor; border-image: initial; z-index: -1000; left: -1000px; top: -1000px;"></iframe><iframe name="googlefcLoaded" src="about:blank" style="display: none; width: 0px; height: 0px; border-width: medium; border-style: none; border-color: currentcolor; border-image: initial; z-index: -1000; left: -1000px; top: -1000px;"></iframe><iframe src="https://www.google.com/recaptcha/api2/aframe" width="0" height="0" style="display: none;"></iframe><iframe name="google_ads_top_frame" id="google_ads_top_frame" style="display: none; position: fixed; left: -999px; top: -999px; width: 0px; height: 0px;"></iframe></body><iframe id="goog_plcm_frame" src="https://cm.g.doubleclick.net/partnerpixels?gdpr_consent=CQjKvkAQjKvkAEsACBENCcFoAP_gAEPgACiQK3oB_C7EbCFCiDJ3IKMEMAhHgBBAYsAwAAYBAwAADBIQIBQCgkEYBAyAFCACCAAAKASBAAAgCAAAAUAAIAAFAABEAAwAIBAIIAAAgAAAAEAIAAAACIAAEQCAAAIEAEAAkAgAAAIASEAAAAAAAACBAAAAABAAAAAAAAAABAEAAQAAQAAAAAAAiAAAAAAAABAIAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAABAAAAAAAQgsIgH8LsRsIUKIMFcgowQwCFeAEABiwDAABgEDAAAMEhAgBAKSQRIECIAQIAAIAAAgBAEAACgICAAAQAAAABUAAEQADAAgEAgAQACAAABAQAAAAAAIgAARAIAAAgQAQACACAAAAgBIQAAAAAAAAIEAAAAAEAAAAAAAAAAAAQAAIADAAAAAAACIAAAAAAAAEAgQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAQAA.ILCIB_C7EbCFCiDJ3IKMEMAhXgBBAYsAwAAYBAwAADBIQIBQCkkEaBAyAFCACCAAAKASBAAAoCAgAAUAAIAAVAABEAAwAIBAIIEAAgAAAQEAIAAAACIAAEQCAAAIEAEAAkAgAAAIASEAAAAAAAACBAAAAABAAAAAAAAAABAEAASAAwAAAAAAAiAAAAAAAABAIEAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAABAAAAAAAQgAAE&amp;gdpr=1&amp;addtl_consent=2~61.89.122.161.184.196.230.314.385.442.445.494.550.576.827.1029.1033.1046.1047.1051.1067.1097.1126.1166.1301.1329.1342.1415.1516.1616.1725.1735.1765.1782.1917.1942.1958.1985.1987.2068.2072.2074.2107.2213.2219.2223.2224.2328.2331.2416.2501.2567.2568.2575.2657.2686.2778.2869.2878.2898.2908.2920.2963.3005.3023.3126.3234.3235.3253.3309.3731.6931.8931.13731.15731.33931~dv.&amp;url=https%3A%2F%2Ftradingeconomics.com%2Fgermany%2Fgdp" style="display: none;"></iframe><iframe sandbox="allow-scripts allow-same-origin" id="114cfd868b843f48" frameborder="0" allowtransparency="true" marginheight="0" marginwidth="0" width="0" hspace="0" vspace="0" height="0" style="height:0px;width:0px;display:none;" scrolling="no" src="https://cm.adform.net/cookie?gdpr=0&amp;gdpr_consent=&amp;redirect_url=https%3A%2F%2Fcs.ingage.tech%2Fwdc%2Fv1%2Fsync%2Fadform%2F9ffdf9df-6475-4251-a7df-058de7d35fdc%3Fuid%3D%24UID">
+    </iframe><iframe sandbox="allow-scripts allow-same-origin" id="1226dbd3b88eec98" frameborder="0" allowtransparency="true" marginheight="0" marginwidth="0" width="0" hspace="0" vspace="0" height="0" style="height:0px;width:0px;display:none;" scrolling="no" src="https://ads.pubmatic.com/AdServer/js/user_sync.html?kdntuid=1&amp;p=166556">
+    </iframe><iframe sandbox="allow-scripts allow-same-origin" id="136258d70508edb" frameborder="0" allowtransparency="true" marginheight="0" marginwidth="0" width="0" hspace="0" vspace="0" height="0" style="height:0px;width:0px;display:none;" scrolling="no" src="https://ap.lijit.com/pixel?gdpr=0&amp;gdpr_consent=&amp;redir=https%3A%2F%2Fcs.ingage.tech%2Fwdc%2Fv1%2Fsync%2Fsovrn%2F9ffdf9df-6475-4251-a7df-058de7d35fdc%3Fuid%3D%24UID">
+    </iframe><iframe sandbox="allow-scripts allow-same-origin" id="14cd4ead45dad07" frameborder="0" allowtransparency="true" marginheight="0" marginwidth="0" width="0" hspace="0" vspace="0" height="0" style="height:0px;width:0px;display:none;" scrolling="no" src="https://js-sec.indexww.com/um/ixmatch.html">
+    </iframe><iframe sandbox="allow-scripts allow-same-origin" id="15480b79ca2b63e" frameborder="0" allowtransparency="true" marginheight="0" marginwidth="0" width="0" hspace="0" vspace="0" height="0" style="height:0px;width:0px;display:none;" scrolling="no" src="https://ssp-sync.criteo.com/user-sync/redirect?gdpr=0&amp;gdpr_consent=&amp;profile=342&amp;redir=https%3A%2F%2Fcs.ingage.tech%2Fwdc%2Fv1%2Fsync%2Fcriteo%2F9ffdf9df-6475-4251-a7df-058de7d35fdc%3Fuid%3D%24%7BCRITEO_USER_ID%7D">
+    </iframe><iframe sandbox="allow-scripts allow-same-origin" id="16d059feb5362298" frameborder="0" allowtransparency="true" marginheight="0" marginwidth="0" width="0" hspace="0" vspace="0" height="0" style="height:0px;width:0px;display:none;" scrolling="no" src="https://eus.rubiconproject.com/usync.html">
+    </iframe><iframe sandbox="allow-scripts allow-same-origin" id="17135c840fa2fea" frameborder="0" allowtransparency="true" marginheight="0" marginwidth="0" width="0" hspace="0" vspace="0" height="0" style="height:0px;width:0px;display:none;" scrolling="no" src="https://hbx.media.net/checksync.php?vsSync=1&amp;cs=8&amp;cv=31&amp;https=1&amp;cid=8CU2Y356S&amp;prvid=55%2C77%2C20000%2C2034%2C2033%2C3010%2C2030%2C251%2C460%2C692%2C462%2C233%2C246%2C3017%2C345%2C697%2C203%2C214%2C313%2C2025%2C2124%2C237%2C117%2C319&amp;itype=PREBID&amp;purpose1=1&amp;gdprconsent=0&amp;gdpr=1&amp;coppa=0&amp;usp_status=0&amp;usp_consent=1&amp;dn=tradingeconomics.com">
     </iframe></html>"""
 
-gold_text = """Price			Day	Month	Year	Date
-Brent	105.171		0.101	0.10%	2.59%	59.37%	16:21
-Coal	129.10		-3.70	-2.79%	-7.62%	36.25%	Apr/23
-Crude Oil	95.236		0.614	-0.64%	5.17%	50.73%	16:21
-Ethanol	1.92		0	0%	-4.00%	6.82%	Apr/23
-Gasoline	3.4307		0.0314	-0.91%	13.71%	61.54%	16:21
-Heating Oil	3.9726		0.0156	-0.39%	-1.14%	82.75%	16:21
-Natural gas	2.5291		0.0849	-3.25%	-13.22%	-18.85%	16:21
-Urals Oil	107.49		3.41	3.28%	8.59%	77.73%	Apr/23"""
+gold_text = """The Gross Domestic Product (GDP) in Germany was worth 4659.93 billion US dollars in 2024, according to official data from the World Bank. The GDP value of Germany represents 4.39 percent of the world economy.
+Related	Last	Previous	Unit	Reference
+Full Year GDP Growth	0.20	-0.50	percent	Dec 2025
+GDP	4659.93	4525.70	USD Billion	Dec 2024
+GDP Growth Rate YoY	0.40	0.30	percent	Dec 2025
+GDP Growth Rate	0.30	0.00	percent	Dec 2025
+GDP per Capita	44108.70	44008.13	USD	Dec 2024
+GDP per Capita PPP	62829.80	62686.54	USD	Dec 2024
+Germany GDP
+Actual	Previous	Highest	Lowest	Dates	Unit	Frequency	
+4659.93	4525.70	4659.93	216.63	1970 - 2024	USD Billion	Yearly	Current USD"""
 data = [
     {
-        "url": "https://tradingeconomics.com/commodity/crude-oil",
+        "url": "https://tradingeconomics.com/germany/gdp",
         "domain": "tradingeconomics.com",
-        "title": "Crude Oil",
+        "title": "Germany GDP",
         "html_text": html_text,
         "gold_text": gold_text
     }

@@ -52,12 +52,7 @@ class TradingEconomicsParser(BaseParser):
         if match_cookie:
             md = md[:match_cookie.start()]
         
-        inizio_grafico = md.find("\n1D\n")
-        inizio_tabella = md.find("Price    Day  Month  Year  Date")
-
-        if inizio_grafico != -1 and inizio_tabella != -1 and inizio_grafico < inizio_tabella:
-            md = md[:inizio_grafico] + md[inizio_tabella:]
-
+        md = re.sub(r"\n1D\s*\nCompare\s*\nExport\s*\nAPI.*?\nSubmit\s*\nPrice\s+Day\s+Month\s+Year\s+Date","\nPrice    Day  Month  Year  Date",md,flags=re.DOTALL)
         pos_news_stream = md.find("News Stream")
         if pos_news_stream != -1:
             md = md[:pos_news_stream]
@@ -92,12 +87,43 @@ class TradingEconomicsParser(BaseParser):
             (r"(?mi)^.*Legitimate interest.*$", ""),
             (r"(?mi)^.*Doesn't use cookies.*$", ""),
             (r"(?mi)^.*Uses other forms of storage.*$", ""),
+            (r"(?s)Crude Oil fell to .*?was last updated on April \d{1,2} of \d{4}\.", ""),
+            (r"(?s)Crude Oil fell to .*?Looking forward, we estimate it to trade at .*?12 months time\.", ""),
+            (r"(?m)^Dec\d{4}.*$", ""),
+            (r"(?s)GDP in Italy averaged .*?was last updated on April of \d{4}\.", ""),
+            (r"(?s)GDP in Italy is expected to reach .*?according to our econometric models\.", ""),
+            (r"(?s)GDP in [A-Z][A-Za-z\s]+ averaged .*?was last updated on April of \d{4}\.", ""),
+            (r"(?s)GDP in [A-Z][A-Za-z\s]+ is expected to reach .*?according to our econometric models\.", ""),
+            (r"(?m)^\d+(?:\.\d+)?K\s+USD Billion\s*$", ""),
         ]:
             md = re.sub(pattern, repl, md, flags=re.MULTILINE)
 
         linee = []
         for riga in md.splitlines():
             riga = riga.strip()
+            if riga in {"1D", "Compare", "Export", "API", "Crude Oil X", "LNR", "Submit", "1D1W1M6M1Y5Y10Y25YAll"}:
+
+                continue
+
+            if riga.startswith("Crude Oil WTI (USD/Bbl)"):
+
+                continue
+
+            if riga.startswith("Intraday1 Minute5 Minutes"):
+
+                continue
+
+            if riga.startswith("[](#)"):
+
+                continue
+
+            if re.match(r"^[A-Z][a-z]{2}\s+\d{1,2}\s+\d{4}$", riga):
+
+                continue
+
+            if re.match(r"^\d+(?:\.\d+)?$", riga):
+
+                continue
             if any(x in riga for x in ["Cookie duration","Data collected and processed:","Privacy policy","Storage details","View details","Accept all","Confirm choices","ConsentLegitimate interest","Legitimate interest","Doesn't use cookies","Uses other forms of storage"]):
                 continue
             if not riga:
@@ -121,27 +147,43 @@ class TradingEconomicsParser(BaseParser):
         return md.strip()
 
     async def parse_from_html(self, url: str, html: str) -> dict:
+        from bs4 import BeautifulSoup
+        import gc
+
         domain = urlparse(url).netloc
-        
-        clean_html = re.sub(r"<script\b[^>]*>.*?</script>", "", html, flags=re.DOTALL | re.IGNORECASE)
-        clean_html = re.sub(r"<iframe\b[^>]*>.*?</iframe>", "", clean_html, flags=re.DOTALL | re.IGNORECASE)
-        clean_html = re.sub(
-            r'<div[^>]*(class|id)="[^\"]*(chart|graph|highcharts)[^\"]*"[^>]*>.*?</div>',
-            "",
-            clean_html,
-            flags=re.DOTALL | re.IGNORECASE
-        )
-        
-        async with AsyncWebCrawler(config=self.browser_config) as crawler:
-            res = await crawler.arun(url=f"raw:{clean_html}", config=self.run_config_html)
-            
-        if not res.success:
-            raise RuntimeError("Parse fallito")
-            
+        soup = BeautifulSoup(html, "html.parser")
+
+        tables = soup.find_all("table", class_=lambda c: c and "table-heatmap" in c)
+
+        # Pagine con solo tabelle heatmap (crypto, markets, country-list)
+        # Escludi commodity/ che ha anche testo e va al fallback
+        if tables and "/commodity/" not in url:
+            rows = []
+            for table in tables:
+                header = table.find("thead")
+                if header:
+                    cols = [th.get_text(strip=True) for th in header.find_all("th")]
+                    rows.append("\t".join(cols))
+                for tr in table.find("tbody").find_all("tr"):
+                    cells = [td.get_text(strip=True) for td in tr.find_all("td")]
+                    rows.append("\t".join(cells))
+            parsed_text = "\n".join(rows)
+        else:
+            # Fallback Crawl4AI per country/indicator/commodity
+            clean_html = re.sub(r"<script\b[^>]*>.*?</script>", "", html, flags=re.DOTALL | re.IGNORECASE)
+            clean_html = re.sub(r"<iframe\b[^>]*>.*?</iframe>", "", clean_html, flags=re.DOTALL | re.IGNORECASE)
+            async with AsyncWebCrawler(config=self.browser_config) as crawler:
+                res = await crawler.arun(url=f"raw:{clean_html}", config=self.run_config_html)
+            if not res.success:
+                raise RuntimeError("Parse fallito")
+            parsed_text = self._pulisci_markdown(res.markdown or "")
+
+        gc.collect()
+
         return {
             "url": url,
             "domain": domain,
-            "title": self._estrai_titolo(res.markdown or "", html),
-            "html_text": html,  
-            "parsed_text": self._pulisci_markdown(res.markdown or ""),
+            "title": self._estrai_titolo("", html),
+            "html_text": html,
+            "parsed_text": parsed_text,
         }
