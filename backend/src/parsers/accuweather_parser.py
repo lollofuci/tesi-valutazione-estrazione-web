@@ -173,8 +173,17 @@ class AccuWeatherParser(BaseParser):
     def _clean_lines(self, text: str) -> str:
         lines = [line.strip() for line in text.splitlines() if line.strip()]
 
-        garbage_exact = {"indietro", "back", "usa località attuale", "use current location", "recenti", "recent", "impostazioni", "settings", "guida", "help", "oggi", "today", "orario", "hourly", "mensile", "monthly", "salute e attività", "health & activities", "intorno al mondo", "around the globe", "news", "video", "videos", "chevron left", "chevron right", "visualizza altro", "vedi tutto", "see all", "see more", "nuvole", "clouds", "temperatura", "temperature", "nuvole temperatura", "clouds temperature", "more details", "altri dettagli", "looking ahead", "radar", "minutecast", "daily", "worldwide", "now", "wintercast"}
-        garbage_prefixes = ("for business", "warnings", "data suite", "forensics", "advertising", "featured stories", "top stories", "weather news", "products & services", "advertisement", "pubblicità", "dati non supportati", "data not supported", "condizioni di utilizzo", "terms of use", "informativa sulla privacy", "privacy policy", "norme sui cookie", "cookie policy", "fonti dei dati", "data sources", "luoghi vicini", "nearby locations", "accuweather ready", "weather alerts", "winter weather", "location search")
+        garbage_exact = {"indietro", "back", "usa località attuale", "use current location", "recenti", "recent", "impostazioni", "settings", "guida", "help", "oggi", "today", "orario", "hourly", "mensile", "monthly", "salute e attività", "health & activities", "intorno al mondo", "around the globe", "news", "video", "videos", "chevron left", "chevron right", "visualizza altro", "vedi tutto", "see all", "see more", "nuvole", "clouds", "temperatura", "temperature", "nuvole temperatura", "clouds temperature", "more details", "altri dettagli", "looking ahead", "radar", "minutecast", "daily", "worldwide", "now", "wintercast",    "severe weather", "hurricane tracker", "radar & maps", "news & features",
+    "astronomy", "business", "climate", "health", "recreation", "sports",
+    "travel", "superior accuracy™", "minutecast®", "today 10-day",
+    "tonight", "10-day", "refresh page", "static radar temporarily unavailable",
+    "thank you for your patience as we work to get everything up and running again.",}
+        garbage_prefixes = ("for business", "warnings", "data suite", "forensics", "advertising", "featured stories", "top stories", "weather news", "products & services", "advertisement", "pubblicità", "dati non supportati", "data not supported", "condizioni di utilizzo", "terms of use", "informativa sulla privacy", "privacy policy", "norme sui cookie", "cookie policy", "fonti dei dati", "data sources", "luoghi vicini", "nearby locations", "accuweather ready", "weather alerts", "winter weather", "location search",    "weather near", "© 20", "proven superior", "about accuweather",
+    "for business", "company",
+    "spring split", "7.4 magnitude", "illinois leads", "late-season",
+    "renewed risk", "more stories", "see it:", "lyrids", "hiker dies",    "looking ahead", 
+    "static radar",
+    "thank you for your patience",)
 
         kept = []
         for line in lines:
@@ -182,6 +191,7 @@ class AccuWeatherParser(BaseParser):
             if low in garbage_exact: continue
             if low.startswith(garbage_prefixes): continue
             if line in {"C", "°", "#", "##", "###"}: continue
+            if line.startswith("### "): continue
 
             if re.match(r"^[A-Za-zÀ-ÿ'’\- ]+,\s*[A-Za-zÀ-ÿ'’\- ]+\s+Weather$", line):
                 line = re.sub(r"\s+Weather$", "", line, flags=re.IGNORECASE)
@@ -214,8 +224,10 @@ class AccuWeatherParser(BaseParser):
                 or low.startswith("non ci sono tempeste attive")
                 or low.startswith("visualizza le tempeste")
                 or low.startswith("tempeste passate")
-                or low.startswith("category")
+                or re.match(r"^category\d*$", low) 
                 or re.match(r"^[A-Z][A-Z0-9\- ]+$", line)
+                or low.startswith("tifone")
+                or low.startswith("uragano")
                 or low.startswith("ciclone tropicale")
                 or low.startswith(("gennaio", "febbraio", "marzo", "aprile", "maggio", "giugno", "luglio", "agosto", "settembre", "ottobre", "novembre", "dicembre"))
                 or low.startswith(("atlantico", "pacifico", "sud pacifico"))
@@ -253,6 +265,9 @@ class AccuWeatherParser(BaseParser):
         merged = self._clean_lines(merged)
         merged = self._dedup_all_lines(merged)
         merged = re.sub(r"\n{3,}", "\n\n", merged)
+        cutoff = re.search(r"\n(?:Weather Near|Weather Forecasts|Nearby Locations|© 20\d\d|Company\b|For Partners)",merged, re.IGNORECASE)
+        if cutoff:
+            merged = merged[:cutoff.start()]
         return merged.strip()
 
     def _fallback_generic_weather_text(self, text: str, title: str) -> str:

@@ -5,9 +5,9 @@ html_text = """"""
 gold_text = """"""
 data = [
     {
-        "url": "https://it.wikipedia.org/wiki/Guerra_di_Corea",
+        "url": "https://it.wikipedia.org/wiki/Diego_Armando_Maradona",
         "domain": "it.wikipedia.org",
-        "title": "Guerra di Corea",
+        "title": "Diego Armando Maradona",
         "html_text": html_text,
         "gold_text": gold_text
     }

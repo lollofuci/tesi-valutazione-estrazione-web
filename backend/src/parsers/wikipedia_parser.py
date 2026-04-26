@@ -8,18 +8,16 @@ from parsers.base_parser import BaseParser
 
 
 class WikipediaParser(BaseParser):
-    """Parser dedicato alle pagine Wikipedia."""
+
 
     def __init__(self) -> None:
         self.browser_config = BrowserConfig(headless=True)
 
-        # Per il parsing live della pagina vera
+     
         self.run_config_live = CrawlerRunConfig(css_selector="#mw-content-text")
 
     async def parse(self, url: str) -> dict:
-        """
-        Parsing live: usa Crawl4AI sulla pagina vera.
-        """
+
         async with AsyncWebCrawler(config=self.browser_config) as crawler:
             result = await crawler.arun(url=url, config=self.run_config_live)
 
@@ -41,9 +39,7 @@ class WikipediaParser(BaseParser):
         }
 
     async def parse_from_html(self, url: str, html: str) -> dict:
-        """
-        Parsing da html_text del GS: usa BeautifulSoup direttamente.
-        """
+
         domain = urlparse(url).netloc
         title = self._extract_title_from_url(url)
 
@@ -62,18 +58,16 @@ class WikipediaParser(BaseParser):
         slug = re.sub(r"_\(.*?\)", "", slug)
         return unquote(slug).replace("_", " ").strip()
 
-    # -------------------------
-    # PATH LIVE (Crawl4AI)
-    # -------------------------
+
 
     def _clean_live_markdown(self, md: str, title: str) -> str:
         md = self.clean_markdown(md)
 
-        # Link markdown -> solo testo
+        
         md = re.sub(r"\[\[(.*?)\]\((?:[^)(]+|\([^)(]*\))*\)", r"\1", md)
         md = re.sub(r"\[(.*?)\]\((?:[^)(]+|\([^)(]*\))*\)", r"\1", md)
 
-        # Taglia le sezioni finali meno utili
+        
         md = re.sub(
             r"(?ms)^##\s+(Note|Bibliografia|Voci correlate|Altri progetti|Collegamenti esterni|Categorie|Fonti).*",
             "",
@@ -97,6 +91,7 @@ class WikipediaParser(BaseParser):
             (r"\\\(", "("),
             (r"\\\)", ")"),
             (r"(?m)^\s*\*\s*\*\s*\*\s*$", ""),
+            (r"(?ms)^##\s+(Onorificenze|Statistiche|Palmarès|Presenze|Cronologia|Statistiche da allenatore|Opere letterarie).*", ""),
         ]
 
         for pattern, repl in sostituzioni:
@@ -111,9 +106,6 @@ class WikipediaParser(BaseParser):
 
         return md.strip()
 
-    # -------------------------
-    # PATH GS HTML (BeautifulSoup)
-    # -------------------------
 
     def _extract_markdown_from_html(self, html: str, title: str) -> str:
         soup = BeautifulSoup(html, "html.parser")
@@ -154,7 +146,7 @@ class WikipediaParser(BaseParser):
 
         blocks = [f"# {title}"]
 
-        allowed_tags = {"h2", "h3", "p", "ul", "ol", "table"}
+        allowed_tags = {"h2", "h3","h4", "p", "ul", "ol", "table", "blockquote","div"}
 
         stop_sections = {
             "note",
@@ -193,24 +185,46 @@ class WikipediaParser(BaseParser):
                 heading = self._clean_text(node.get_text(" ", strip=True))
                 if heading:
                     blocks.append(f"### {heading}")
-
             elif name == "p":
                 text = self._clean_text(node.get_text(" ", strip=True))
                 if self._is_good_paragraph(text):
                     blocks.append(text)
 
+            elif name == "h4":
+                heading = self._clean_text(node.get_text(" ", strip=True))
+                if heading:
+                    blocks.append(f"#### {heading}")
             elif name in {"ul", "ol"}:
-                for li in node.find_all("li", recursive=False):
+                for li in node.find_all("li"):  
+                    
+                    if li.find(["ul", "ol"]):
+                        continue
                     text = self._clean_text(li.get_text(" ", strip=True))
                     if self._is_good_list_item(text):
-                        blocks.append(f"- {text}")
-
+                        blocks.append(text)
+            elif name == "blockquote":
+                text = self._clean_text(node.get_text(" ", strip=True))
+                if text and len(text) > 20:
+                    blocks.append(text)
             elif name == "table":
+                
                 classes = node.get("class", [])
                 if "wikitable" in classes:
                     table_md = self._table_to_markdown(node)
                     if table_md:
                         blocks.append(table_md)
+                else:
+                    
+                    text = self._clean_text(node.get_text(" ", strip=True))
+                    if text and len(text) > 10:
+                        blocks.append(text)
+
+            elif name == "div":
+                classes = node.get("class", [])
+                if any(c in ["citazione", "quote", "quotation"] for c in classes):
+                    text = self._clean_text(node.get_text(" ", strip=True))
+                    if text and len(text) > 20:
+                        blocks.append(text)
 
         md = "\n\n".join(blocks)
         md = re.sub(r"\n{3,}", "\n\n", md).strip()

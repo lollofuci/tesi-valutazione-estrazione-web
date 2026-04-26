@@ -102,27 +102,16 @@ class TradingEconomicsParser(BaseParser):
         for riga in md.splitlines():
             riga = riga.strip()
             if riga in {"1D", "Compare", "Export", "API", "Crude Oil X", "LNR", "Submit", "1D1W1M6M1Y5Y10Y25YAll"}:
-
                 continue
-
             if riga.startswith("Crude Oil WTI (USD/Bbl)"):
-
                 continue
-
             if riga.startswith("Intraday1 Minute5 Minutes"):
-
                 continue
-
             if riga.startswith("[](#)"):
-
                 continue
-
             if re.match(r"^[A-Z][a-z]{2}\s+\d{1,2}\s+\d{4}$", riga):
-
                 continue
-
             if re.match(r"^\d+(?:\.\d+)?$", riga):
-
                 continue
             if any(x in riga for x in ["Cookie duration","Data collected and processed:","Privacy policy","Storage details","View details","Accept all","Confirm choices","ConsentLegitimate interest","Legitimate interest","Doesn't use cookies","Uses other forms of storage"]):
                 continue
@@ -155,8 +144,6 @@ class TradingEconomicsParser(BaseParser):
 
         tables = soup.find_all("table", class_=lambda c: c and "table-heatmap" in c)
 
-        # Pagine con solo tabelle heatmap (crypto, markets, country-list)
-        # Escludi commodity/ che ha anche testo e va al fallback
         if tables and "/commodity/" not in url:
             rows = []
             for table in tables:
@@ -169,7 +156,6 @@ class TradingEconomicsParser(BaseParser):
                     rows.append("\t".join(cells))
             parsed_text = "\n".join(rows)
         else:
-            # Fallback Crawl4AI per country/indicator/commodity
             clean_html = re.sub(r"<script\b[^>]*>.*?</script>", "", html, flags=re.DOTALL | re.IGNORECASE)
             clean_html = re.sub(r"<iframe\b[^>]*>.*?</iframe>", "", clean_html, flags=re.DOTALL | re.IGNORECASE)
             async with AsyncWebCrawler(config=self.browser_config) as crawler:
