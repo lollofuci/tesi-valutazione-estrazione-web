@@ -105,7 +105,7 @@ class ATPTourParser(BaseParser):
     def _pulisci_news(self, md: str, titolo: str) -> str:
         md = re.sub(r"\r\n?", "\n", md)
         
-        # 1. RISOLTO MENU INIZIALE: Rendo l'asterisco opzionale (\*?)
+        
         match_inizio = re.search(r"(?im)^\s*\*?\s*Email\s*\n(Match Report\s*\n)?", md)
         if match_inizio:
             md = md[match_inizio.end():]
@@ -117,7 +117,7 @@ class ATPTourParser(BaseParser):
                 if match_titolo:
                     md = md[match_titolo.start():]
 
-        # 2. RISOLTO WIDGET A METÀ PAGINA: Rimuovo il blocco Top Videos in mezzo all'articolo
+        
         md = re.sub(r"(?is)###\s+Top Videos.*?Powered by\s*\n?", "", md)
 
         pattern_coda = r"(?ms)^(###\s+(Read More News|View Related|Stats widget|DOWNLOAD)|## Header 2|NEWSLETTERS|## Partners|#### Corporate|## Privacy Preference Center|Premier Partner).*$"
@@ -143,7 +143,7 @@ class ATPTourParser(BaseParser):
                 
             s_lower = s.replace("#", "").replace("*", "").strip().lower()
             
-            # Aggiunto "reset" nei selettori esatti
+           
             selettori_spazzatura = {"share", "play", "mute", "chapters", "getty images", "/", "1x", "done", "match report", "play video", "audio track", "descriptions", "captions", "picture-in-picturefullscreen", "en", "es", "close modal dialog", "end of dialog window.", "shop", "premier partner", "reset"}
             if s_lower in selettori_spazzatura:
                 continue

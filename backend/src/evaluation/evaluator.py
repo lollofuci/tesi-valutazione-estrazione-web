@@ -4,9 +4,6 @@ from bs4 import BeautifulSoup
 
 
 def remove_markdown(md: str) -> str:
-    """
-    Rimuove il Markdown da una stringa, restituendo solo il testo pulito.
-    """
     if not md:
         return ""
 
@@ -23,12 +20,6 @@ def remove_markdown(md: str) -> str:
 
 
 def tokenized_text(text: str) -> set[str]:
-    """
-    Restituisce l'insieme dei token:
-    - lowercase
-    - separati per spazio
-    - con spazi multipli collassati
-    """
     normalized = re.sub(r"\s+", " ", text.lower()).strip()
     if not normalized:
         return set()
@@ -36,10 +27,6 @@ def tokenized_text(text: str) -> set[str]:
 
 
 def token_level_eval(parsed_text: str, gold_text: str) -> dict[str, float]:
-    """
-    Confronta parsed_text e gold_text a livello di token.
-    Rimuove il Markdown da entrambi, per maggiore robustezza.
-    """
     parsed_plain = remove_markdown(parsed_text)
     gold_plain = remove_markdown(gold_text)
 

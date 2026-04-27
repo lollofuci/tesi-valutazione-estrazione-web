@@ -72,7 +72,7 @@ def parse_url(request: Request, url: str = Form(...)):
     error = None
 
     try:
-        # 1. Prima verifichiamo se l'URL è nel Gold Standard
+        # verifichiamo se l'URL è nel Gold Standard
         gold_response = requests.get(
             f"{BACKEND_URL}/gold_standard",
             params={"url": url},
@@ -80,7 +80,7 @@ def parse_url(request: Request, url: str = Form(...)):
         )
 
         if gold_response.status_code == 200:
-            # SCENARIO A: L'URL è nel Gold Standard! 
+            # L'URL è nel Gold Standard 
             # Estraiamo l'HTML salvato e usiamo la POST per il parsing offline
             gold_data = gold_response.json()
             html_text = gold_data.get("html_text", "")
@@ -94,21 +94,21 @@ def parse_url(request: Request, url: str = Form(...)):
                 timeout=120,
             )
         else:
-            # SCENARIO B: L'URL non è nel Gold Standard (è un URL nuovo inserito a mano).
-            # Andiamo live su internet con la GET
+            #L'URL non è nel Gold Standard (è un URL nuovo inserito a mano).
+            #Andiamo live su internet con la GET
             parse_response = requests.get(
                 f"{BACKEND_URL}/parse",
                 params={"url": url},
                 timeout=120,
             )
 
-        # 2. Gestiamo il risultato del parsing (sia esso live o offline)
+        #Gestiamo il risultato del parsing (sia esso live o offline)
         if parse_response.status_code != 200:
             error = f"Errore nel parsing: {parse_response.text}"
         else:
             parse_data = parse_response.json()
 
-            # 3. Se avevamo i dati del Gold Standard, calcoliamo le metriche
+            #Se avevamo i dati del Gold Standard, calcoliamo le metriche
             if gold_data:
                 eval_response = requests.post(
                     f"{BACKEND_URL}/evaluate",

@@ -15,7 +15,7 @@ async def main():
     with open("output_parsed.txt", "w") as f:
         f.write(f"TITOLO: {risultato['title']}\n\n")
         f.write(risultato["parsed_text"])
-    with open("output_html.txt", "w") as f:          # ← assicurati ci sia anche questo
+    with open("output_html.txt", "w") as f:          
         f.write(risultato["html_text"])
     print("Salvato!")
 
