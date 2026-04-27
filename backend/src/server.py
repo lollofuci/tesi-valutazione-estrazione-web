@@ -13,14 +13,7 @@ from evaluation.evaluator import token_level_eval, aggregate_metrics
 
 app = FastAPI()
 
-def find_project_root(start: Path) -> Path:
-    current = start.resolve()
-    for candidate in [current, *current.parents]:
-        if (candidate / "domains.json").exists() and (candidate / "gs_data").exists():
-            return candidate
-    raise RuntimeError("Root del progetto non trovata: servono domains.json e gs_data/")
-
-BASE_DIR = find_project_root(Path(__file__))
+BASE_DIR = Path(__file__).parent.parent.resolve()
 DOMAINS_PATH = BASE_DIR / "domains.json"
 GS_DATA_DIR = BASE_DIR / "gs_data"
 
