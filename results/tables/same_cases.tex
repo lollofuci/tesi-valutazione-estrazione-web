@@ -1,0 +1,25 @@
+\begin{table}[htbp]
+  \centering
+  \small
+  \begin{tabular}{llccc}
+    \toprule
+    \textbf{Valutatore} & \textbf{Tipo} & \textbf{Casi} & \textbf{Sensibilità} & \textbf{IC 95\%} \\
+    \midrule
+    chrF & metrica & 120 & 0,89 & [0,86; 0,92] \\
+    METEOR & metrica & 120 & 0,76 & [0,71; 0,81] \\
+    Token F1 & metrica & 120 & 0,73 & [0,66; 0,81] \\
+    BERTScore & metrica & 120 & 0,72 & [0,62; 0,80] \\
+    ROUGE-L & metrica & 120 & 0,66 & [0,59; 0,73] \\
+    phi4-mini (con GS) & giudice & 116 & 0,46 & [0,32; 0,59] \\
+    llama3.2:3b (con GS) & giudice & 120 & 0,32 & [0,18; 0,45] \\
+    qwen3:4b (con GS) & giudice & 118 & 0,28 & [0,14; 0,43] \\
+    qwen3:4b (senza GS) & giudice & 106 & 0,14 & [0,00; 0,30] \\
+    llama3.2:1b (senza GS) & giudice & 113 & 0,12 & [0,04; 0,19] \\
+    phi4-mini (senza GS) & giudice & 120 & 0,02 & [-0,11; 0,14] \\
+    llama3.2:1b (con GS) & giudice & 111 & -0,03 & [-0,08; 0,00] \\
+    llama3.2:3b (senza GS) & giudice & 120 & -0,05 & [-0,13; 0,04] \\
+    \bottomrule
+  \end{tabular}
+  \caption{Metriche e giudici LLM a confronto sugli stessi casi (Gold Standard intatto e perturbazioni a gravità 0,5): sensibilità alla gravità dell'errore con intervallo di confidenza al 95\% (bootstrap sui documenti).}
+  \label{tab:same-cases}
+\end{table}

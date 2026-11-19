@@ -1,4 +1,5 @@
 services:
+
   backend:
     build:
       context: .
@@ -6,6 +7,28 @@ services:
     container_name: backend
     ports:
       - "8003:8003"
+    environment:
+      - DB_HOST=mariadb
+      - DB_USER=root
+      - DB_PASSWORD=root
+      - DB_NAME=lab
+      - OLLAMA_HOST=http://ollama:11434
+      - OLLAMA_MODEL=llama3.2:1b
+      # Tesi: i giudici della valutazione avanzata usano l'Ollama installato sul Mac
+      # (piu' veloce e con piu' modelli); se non risponde si usa il container "ollama".
+      - ADVANCED_OLLAMA_HOST=http://host.docker.internal:11434
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    volumes:
+      # risultati degli esperimenti della tesi, visibili nella cartella del progetto
+      - ./results:/app/results
+      # modelli di Hugging Face (BERTScore), scaricati una volta sola
+      - hf_cache:/root/.cache/huggingface
+    depends_on:
+      mariadb:
+        condition: service_healthy
+      ollama:
+        condition: service_healthy
 
   frontend:
     build:
@@ -19,3 +42,48 @@ services:
       - ATPTOUR_HEADLESS=true
     depends_on:
       - backend
+
+  mariadb:
+    image: mariadb:11
+    container_name: mariadb
+    environment:
+      - MARIADB_ROOT_PASSWORD=root
+      - MARIADB_DATABASE=lab
+    ports:
+      - "3306:3306"
+    volumes:
+      - mariadb_data:/var/lib/mysql
+    healthcheck:
+      test: ["CMD", "healthcheck.sh", "--connect", "--innodb_initialized"]
+      interval: 5s
+      retries: 10
+
+  ollama:
+    # Versione snella (~1.6GB) senza le librerie GPU inutili su CPU.
+    image: ollama/ollama:0.3.14
+    container_name: ollama
+    ports:
+      # 11435 sul Mac: la porta 11434 resta libera per l'Ollama installato sul Mac
+      - "11435:11434"
+    volumes:
+      - ollama_data:/root/.ollama
+    # Avvia il server, scarica il modello e resta in esecuzione.
+    entrypoint: ["/bin/sh", "-c"]
+    command:
+      - |
+        ollama serve &
+        until ollama list >/dev/null 2>&1; do sleep 1; done
+        ollama pull llama3.2:1b
+        wait
+    healthcheck:
+      # healthy solo a modello scaricato.
+      test: ["CMD-SHELL", "ollama list | grep -q llama3.2 || exit 1"]
+      interval: 10s
+      timeout: 5s
+      retries: 60
+      start_period: 30s
+
+volumes:
+  ollama_data:
+  mariadb_data:
+  hf_cache:

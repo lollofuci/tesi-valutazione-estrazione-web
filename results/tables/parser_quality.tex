@@ -1,0 +1,18 @@
+\begin{table}[htbp]
+  \centering
+  \small
+  \begin{tabular}{lccccc}
+    \toprule
+    \textbf{Dominio} & \textbf{Token F1} & \textbf{ROUGE-L} & \textbf{chrF} & \textbf{METEOR} & \textbf{BERTScore} \\
+    \midrule
+    Wikipedia & 0,925 & 0,956 & 0,925 & 0,920 & 0,893 \\
+    ATP Tour & 0,966 & 0,893 & 0,942 & 0,954 & 0,907 \\
+    AccuWeather & 0,920 & 0,800 & 0,676 & 0,732 & 0,823 \\
+    Trading Economics & 0,978 & 0,983 & 0,984 & 0,986 & 0,981 \\
+    \midrule
+    \textbf{Media} & \textbf{0,947} & \textbf{0,908} & \textbf{0,882} & \textbf{0,898} & \textbf{0,901} \\
+    \bottomrule
+  \end{tabular}
+  \caption{Qualità dei parser secondo ciascuna metrica (F-score medio per dominio, modalità offline).}
+  \label{tab:parser-quality}
+\end{table}

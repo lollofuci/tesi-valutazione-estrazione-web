@@ -1,0 +1,248 @@
+{% extends "base.html" %}
+{% block title %}Valutazione avanzata{% endblock %}
+
+{% block content %}
+<div class="card">
+    <h1>Valutazione avanzata</h1>
+    <div class="subtitle">
+        Metriche aggiuntive (ROUGE-L, chrF, METEOR, BERTScore) e giudici LLM a scelta,
+        con o senza Gold Standard
+    </div>
+
+    {% if error %}<div class="alert alert-error">{{ error }}</div>{% endif %}
+
+    <h2>1. Valuta un documento del Gold Standard</h2>
+    <form action="/advanced/document" method="post">
+        <label for="url">Documento</label>
+        <select class="field" id="url" name="url" required>
+            <option value="">-- Seleziona un URL del GS --</option>
+            {% for u in gs_urls %}
+            <option value="{{ u }}" {% if u == selected_url %}selected{% endif %}>{{ u }}</option>
+            {% endfor %}
+        </select>
+
+        <div class="row" style="margin-top:16px;">
+            <div class="col">
+                <label for="judge_model">Giudice LLM</label>
+                <select class="field" id="judge_model" name="judge_model">
+                    <option value="">Nessun giudice (solo metriche)</option>
+                    {% for m in judge_models %}
+                    <option value="{{ m }}" {% if m == selected_model %}selected{% endif %}>{{ m }}</option>
+                    {% endfor %}
+                </select>
+                <div class="muted" style="margin-top:6px;">
+                    {% if judge_host %}Ollama: {{ judge_host }}{% else %}Ollama non raggiungibile{% endif %}
+                </div>
+            </div>
+            <div class="col" style="max-width:320px;">
+                <label>Modalità del giudice</label>
+                <div class="toggle">
+                    <label>
+                        <input type="radio" name="judge_mode" value="with_gs" {% if selected_mode != 'without_gs' %}checked{% endif %}>
+                        <span>Con Gold Standard</span>
+                    </label>
+                    <label>
+                        <input type="radio" name="judge_mode" value="without_gs" {% if selected_mode == 'without_gs' %}checked{% endif %}>
+                        <span>Senza Gold Standard</span>
+                    </label>
+                </div>
+            </div>
+        </div>
+
+        <div style="margin-top:16px;">
+            <label style="display:inline-flex; gap:8px; align-items:center; font-weight:600;">
+                <input type="checkbox" name="bertscore" value="1" {% if bertscore %}checked{% endif %}>
+                Calcola anche BERTScore (più lento: la prima volta scarica il modello)
+            </label>
+        </div>
+
+        <div class="button-row">
+            <button type="submit">Valuta documento</button>
+        </div>
+    </form>
+</div>
+
+{% if doc_metrics %}
+<div class="card">
+    <h2>Risultato</h2>
+    <div class="muted">URL: {{ selected_url }} &nbsp;·&nbsp; lingua rilevata: {{ doc_language }}</div>
+
+    <table style="margin-top:16px;">
+        <thead>
+            <tr><th>Metrica</th><th>Precision</th><th>Recall</th><th>F</th></tr>
+        </thead>
+        <tbody>
+            {% for name, label in metric_labels.items() %}
+            {% if name in doc_metrics %}
+            <tr>
+                <td><strong>{{ label }}</strong></td>
+                <td>{{ "%.3f"|format(doc_metrics[name].precision) }}</td>
+                <td>{{ "%.3f"|format(doc_metrics[name].recall) }}</td>
+                <td><strong>{{ "%.3f"|format(doc_metrics[name].f) }}</strong></td>
+            </tr>
+            {% endif %}
+            {% endfor %}
+        </tbody>
+    </table>
+
+    {% if judge_result %}
+    <hr>
+    <h3>Giudice: {{ judge_result.model }} ({{ "con" if judge_result.mode == "with_gs" else "senza" }} Gold Standard)</h3>
+    <div class="metrics">
+        <div class="metric">
+            <div class="label">Voto (1–5)</div>
+            <div class="value">{{ judge_result.score if judge_result.score is not none else "—" }}</div>
+        </div>
+        <div class="metric">
+            <div class="label">JSON valido</div>
+            <div class="value">{{ "sì" if judge_result.valid_json else "no" }}</div>
+        </div>
+        <div class="metric">
+            <div class="label">Tempo</div>
+            <div class="value">{{ "%.1f"|format(judge_result.latency_s) }} s</div>
+        </div>
+    </div>
+    {% if judge_result.feedback %}
+    <div class="scroll-box" style="margin-top:16px; font-family:inherit; font-size:14px;">{{ judge_result.feedback }}</div>
+    {% endif %}
+    {% if not judge_result.valid_json %}
+    {# Tesi: quando il giudice fallisce si mostra che cosa ha risposto il modello #}
+    <div style="margin-top:16px;">
+        <label>Risposta del modello (non contiene un JSON valido con un voto da 1 a 5)</label>
+        <div class="scroll-box" style="font-size:13px;">{{ judge_result.raw if judge_result.raw else "(risposta vuota)" }}</div>
+        {% if judge_result.error %}
+        <div class="muted" style="margin-top:8px;">Errore segnalato da Ollama: {{ judge_result.error }}</div>
+        {% endif %}
+    </div>
+    {% endif %}
+    {% endif %}
+
+    {% if parsed_text %}
+    <hr>
+    <div class="row">
+        <div class="col">
+            <h3>Testo estratto dal parser</h3>
+            <div class="scroll-box">{{ parsed_text[:5000] }}{% if parsed_text|length > 5000 %} ... [troncato]{% endif %}</div>
+        </div>
+        <div class="col">
+            <h3>Gold Standard</h3>
+            <div class="scroll-box">{{ gold_text[:5000] }}{% if gold_text|length > 5000 %} ... [troncato]{% endif %}</div>
+        </div>
+    </div>
+    {% endif %}
+</div>
+{% endif %}
+
+<div class="card">
+    <h2>2. Valutazione avanzata di un intero dominio</h2>
+    <div class="muted" style="margin-bottom:16px;">
+        Parsing offline di tutte le pagine del Gold Standard del dominio; i risultati vengono salvati nel database.
+    </div>
+    <form action="/advanced/domain" method="post">
+        <div class="row">
+            <div class="col">
+                <select class="field" name="domain" required>
+                    {% for d in domains %}
+                    <option value="{{ d }}" {% if d == selected_domain %}selected{% endif %}>{{ d }}</option>
+                    {% endfor %}
+                </select>
+            </div>
+            <div class="col" style="display:flex; align-items:center; gap:16px;">
+                <label style="display:inline-flex; gap:8px; align-items:center; margin:0;">
+                    <input type="checkbox" name="bertscore" value="1"> BERTScore
+                </label>
+                <button type="submit">Valuta dominio</button>
+            </div>
+        </div>
+    </form>
+
+    {% if domain_result %}
+    <table style="margin-top:20px;">
+        <thead>
+            <tr>
+                <th>URL</th>
+                {% for key in domain_columns %}<th>{{ metric_labels.get(key[:-2], key) }}</th>{% endfor %}
+            </tr>
+        </thead>
+        <tbody>
+            {% for doc in domain_result.documents %}
+            <tr>
+                <td style="word-break:break-all;">{{ doc.url }}</td>
+                {% for key in domain_columns %}<td>{{ "%.3f"|format(doc[key]) }}</td>{% endfor %}
+            </tr>
+            {% endfor %}
+            <tr>
+                <td><strong>Media</strong></td>
+                {% for key in domain_columns %}<td><strong>{{ "%.3f"|format(domain_result.average[key]) }}</strong></td>{% endfor %}
+            </tr>
+        </tbody>
+    </table>
+    {% endif %}
+</div>
+
+<div class="card">
+    <h2>3. Risultati degli esperimenti della tesi</h2>
+    {% if experiments %}
+    <div class="muted" style="margin-bottom:16px;">
+        {{ experiments.n_cases }} casi di test (output dei parser e Gold Standard degradato in modo controllato),
+        {{ experiments.n_judgements }} giudizi LLM.
+    </div>
+
+    <h3>Sensibilità delle metriche agli errori</h3>
+    <div class="muted" style="margin-bottom:8px;">1 = il punteggio scende sempre al crescere dell'errore, 0 = la metrica non lo rileva</div>
+    <table>
+        <thead>
+            <tr>
+                <th>Metrica</th>
+                {% for p in experiments.perturbations.values() %}<th>{{ p }}</th>{% endfor %}
+                <th>Media</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for metric, row in experiments.sensitivity.items() %}
+            <tr>
+                <td><strong>{{ metric }}</strong></td>
+                {% for p in experiments.perturbations.values() %}
+                <td>{{ "%.2f"|format(row[p]) if row[p] is not none else "—" }}</td>
+                {% endfor %}
+                <td><strong>{{ "%.2f"|format(row["media"]) if row["media"] is not none else "—" }}</strong></td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+
+    {% if experiments.judges %}
+    <h3 style="margin-top:24px;">Giudici LLM</h3>
+    <table>
+        <thead>
+            <tr>
+                <th>Modello</th><th>Modalità</th><th>JSON valido</th><th>Latenza (s)</th>
+                <th>GS intatto</th><th>GS degradato</th><th>Sensibilità</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for j in experiments.judges %}
+            <tr>
+                <td><strong>{{ j.model }}</strong></td>
+                <td>{{ "con GS" if j.mode == "with_gs" else "senza GS" }}</td>
+                <td>{{ "%.0f"|format(100 * j.valid) }}%</td>
+                <td>{{ "%.1f"|format(j.latency) }}</td>
+                <td>{{ "%.2f"|format(j.intact) if j.intact is not none else "—" }}</td>
+                <td>{{ "%.2f"|format(j.damaged) if j.damaged is not none else "—" }}</td>
+                <td>{{ "%.2f"|format(j.sensitivity) if j.sensitivity is not none else "—" }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+    {% endif %}
+
+    {% for fig in experiments.figures %}
+    <div style="margin-top:24px;">
+        <img src="/advanced/figure/{{ fig }}" alt="{{ fig }}" style="max-width:100%; border-radius:12px;">
+    </div>
+    {% endfor %}
+    {% else %}
+    <div class="muted">Nessun risultato disponibile: eseguire prima gli esperimenti (<code>./esperimenti.sh analisi</code>).</div>
+    {% endif %}
+</div>
+{% endblock %}

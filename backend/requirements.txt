@@ -5,3 +5,11 @@ requests
 mistune
 beautifulsoup4
 crawl4ai
+mariadb
+# Valutazione avanzata (tesi)
+nltk
+numpy
+scipy
+pandas
+matplotlib
+transformers

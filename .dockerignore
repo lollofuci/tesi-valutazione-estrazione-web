@@ -1,0 +1,9 @@
+# File da NON inviare a Docker durante la build (il contesto è tutta la cartella).
+# Senza questo file Docker riceverebbe anche il venv locale (1,7 GB) a ogni build.
+backend/.venv
+.git
+results
+**/__pycache__
+**/.pytest_cache
+**/.DS_Store
+*.pdf

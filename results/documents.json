@@ -1,0 +1,122 @@
+[
+ {
+  "doc_id": "accuweather-01",
+  "url": "https://www.accuweather.com/en/jp/tokyo/226396/weather-forecast/226396",
+  "domain": "www.accuweather.com",
+  "title": "tokyo"
+ },
+ {
+  "doc_id": "accuweather-02",
+  "url": "https://www.accuweather.com/it/it/rome/213490/weather-forecast/213490",
+  "domain": "www.accuweather.com",
+  "title": "rome"
+ },
+ {
+  "doc_id": "accuweather-03",
+  "url": "https://www.accuweather.com/it/it/naples/212466/weather-forecast/212466?type=locality",
+  "domain": "www.accuweather.com",
+  "title": "naples"
+ },
+ {
+  "doc_id": "accuweather-04",
+  "url": "https://www.accuweather.com/it/it/trivigliano/2278470/weather-forecast/2278470?type=locality",
+  "domain": "www.accuweather.com",
+  "title": "trivigliano"
+ },
+ {
+  "doc_id": "accuweather-05",
+  "url": "https://www.accuweather.com/it/hurricane",
+  "domain": "www.accuweather.com",
+  "title": "hurricane"
+ },
+ {
+  "doc_id": "atptour-01",
+  "url": "https://www.atptour.com/en/news/zverev-diallo-munich-2026-thursday",
+  "domain": "www.atptour.com",
+  "title": "Zverev reaches Munich QFs, sets another clay clash with Cerundolo"
+ },
+ {
+  "doc_id": "atptour-02",
+  "url": "https://www.atptour.com/en/players/atp-head-2-head/carlos-alcaraz-vs-jannik-sinner/a0e2/s0ag",
+  "domain": "www.atptour.com",
+  "title": "carlos-alcaraz-vs-jannik-sinner"
+ },
+ {
+  "doc_id": "atptour-03",
+  "url": "https://www.atptour.com/en/players/jannik-sinner/s0ag/overview",
+  "domain": "www.atptour.com",
+  "title": "Jannik Sinner - Overview"
+ },
+ {
+  "doc_id": "atptour-04",
+  "url": "https://www.atptour.com/en/news/alcaraz-laureus-sports-awards-2026-injury-update",
+  "domain": "www.atptour.com",
+  "title": "Alcaraz gives injury update, wants to 'stand up & be stronger than ever'"
+ },
+ {
+  "doc_id": "atptour-05",
+  "url": "https://www.atptour.com/en/players/atp-head-2-head",
+  "domain": "www.atptour.com",
+  "title": "H2H'"
+ },
+ {
+  "doc_id": "tradingeconomics-01",
+  "url": "https://tradingeconomics.com/italy/gdp",
+  "domain": "tradingeconomics.com",
+  "title": "Italy GDP"
+ },
+ {
+  "doc_id": "tradingeconomics-02",
+  "url": "https://tradingeconomics.com/commodity/crude-oil",
+  "domain": "tradingeconomics.com",
+  "title": "Crude Oil - Price - Chart - Historical Data - News"
+ },
+ {
+  "doc_id": "tradingeconomics-03",
+  "url": "https://tradingeconomics.com/germany/gdp",
+  "domain": "tradingeconomics.com",
+  "title": "Germany GDP"
+ },
+ {
+  "doc_id": "tradingeconomics-04",
+  "url": "https://tradingeconomics.com/country-list/gdp-growth-rate",
+  "domain": "tradingeconomics.com",
+  "title": "GDP Growth Rate by Country"
+ },
+ {
+  "doc_id": "tradingeconomics-05",
+  "url": "https://tradingeconomics.com/crypto",
+  "domain": "tradingeconomics.com",
+  "title": "Crypto - Live Exchange Rate Price Quote Data"
+ },
+ {
+  "doc_id": "wikipedia-01",
+  "url": "https://it.wikipedia.org/wiki/Avellino",
+  "domain": "it.wikipedia.org",
+  "title": "Avellino"
+ },
+ {
+  "doc_id": "wikipedia-02",
+  "url": "https://it.wikipedia.org/wiki/Diego_Armando_Maradona",
+  "domain": "it.wikipedia.org",
+  "title": "Diego Armando Maradona"
+ },
+ {
+  "doc_id": "wikipedia-03",
+  "url": "https://it.wikipedia.org/wiki/Quark_(particella)",
+  "domain": "it.wikipedia.org",
+  "title": "Quark (particella)"
+ },
+ {
+  "doc_id": "wikipedia-04",
+  "url": "https://it.wikipedia.org/wiki/Guerra_di_Corea",
+  "domain": "it.wikipedia.org",
+  "title": "Guerra di Corea"
+ },
+ {
+  "doc_id": "wikipedia-05",
+  "url": "https://it.wikipedia.org/wiki/Capitali_degli_Stati_del_mondo",
+  "domain": "it.wikipedia.org",
+  "title": "Capitali degli Stati del mondo"
+ }
+]

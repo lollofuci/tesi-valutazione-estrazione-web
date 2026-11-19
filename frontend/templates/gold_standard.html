@@ -1,0 +1,88 @@
+{% extends "base.html" %}
+{% block title %}Gold Standard Builder{% endblock %}
+
+{% block content %}
+<div class="card">
+    <h1>Gold Standard Builder</h1>
+    <div class="subtitle">Costruisci e gestisci il Gold Standard salvato nel database</div>
+
+    {% if error %}<div class="alert alert-error">{{ error }}</div>{% endif %}
+    {% if success %}<div class="alert alert-success">{{ success }}</div>{% endif %}
+
+    <!-- Carica HTML -->
+    <form action="/gold-standard/load" method="post">
+        <div class="row">
+            <div class="col" style="max-width:320px;">
+                <label for="domain">Dominio supportato</label>
+                <select class="field" id="domain" name="domain" required
+                        onchange="window.location.href='/gold-standard?domain=' + encodeURIComponent(this.value)">
+                    {% for d in domains %}
+                    <option value="{{ d }}" {% if d == selected_domain %}selected{% endif %}>{{ d }}</option>
+                    {% endfor %}
+                </select>
+            </div>
+            <div class="col">
+                <label for="url">URL</label>
+                <input class="field" type="text" id="url" name="url"
+                       placeholder="https://..." value="{{ loaded_url or '' }}" required>
+            </div>
+        </div>
+        <div class="button-row">
+            <button type="submit">Carica HTML</button>
+        </div>
+    </form>
+</div>
+
+<div class="row">
+    <div class="col">
+        {% if loaded_html is not none %}
+        <!-- Inserisci gold_text e salva -->
+        <div class="card">
+            <h2>Costruzione entry</h2>
+            <h3>HTML scaricato</h3>
+            <div class="scroll-box">{{ loaded_html }}</div>
+
+            <form action="/gold-standard/save" method="post" style="margin-top:16px;">
+                <input type="hidden" name="url" value="{{ loaded_url }}">
+                <input type="hidden" name="domain" value="{{ selected_domain }}">
+                <input type="hidden" name="html_text" value="{{ loaded_html }}">
+                <label for="gold_text">Gold text (testo informativo copiato a mano, no markdown)</label>
+                <textarea class="field" id="gold_text" name="gold_text" placeholder="Incolla qui il testo pulito...">{{ loaded_gold or '' }}</textarea>
+                <div class="button-row">
+                    <button type="submit">Salva nel database</button>
+                </div>
+            </form>
+        </div>
+        {% endif %}
+    </div>
+
+    <div class="col">
+        <!-- URL gia' nel GS -->
+        <div class="card">
+            <h2>URL nel GS — {{ selected_domain }}</h2>
+            {% if gs_urls %}
+            <table>
+                <thead><tr><th>URL</th><th style="width:90px;">Azioni</th></tr></thead>
+                <tbody>
+                {% for u in gs_urls %}
+                <tr>
+                    <td style="word-break:break-all;">{{ u }}</td>
+                    <td>
+                        <form action="/gold-standard/delete" method="post" onsubmit="return confirm('Eliminare questa entry dal GS?');">
+                            <input type="hidden" name="url" value="{{ u }}">
+                            <input type="hidden" name="domain" value="{{ selected_domain }}">
+                            <button class="btn-danger" type="submit" style="padding:6px 12px; font-size:13px;">Elimina</button>
+                        </form>
+                    </td>
+                </tr>
+                {% endfor %}
+                </tbody>
+            </table>
+            <div class="muted" style="margin-top:10px;">{{ gs_urls|length }} URL nel GS</div>
+            {% else %}
+            <div class="muted">Nessun URL nel GS per questo dominio.</div>
+            {% endif %}
+        </div>
+    </div>
+</div>
+{% endblock %}

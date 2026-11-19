@@ -1,0 +1,17 @@
+\begin{table}[htbp]
+  \centering
+  \small
+  \begin{tabular}{lcccccc}
+    \toprule
+    \textbf{Metrica} & \textbf{Troncamento} & \textbf{Righe eliminate} & \textbf{Boilerplate} & \textbf{Ordine alterato} & \textbf{Numeri alterati} & \textbf{Media} \\
+    \midrule
+    Token F1 & 0,95 & 0,97 & 0,94 & 0,09 & 0,78 & 0,75 \\
+    ROUGE-L & 0,96 & 0,99 & 0,97 & 0,92 & 0,79 & 0,92 \\
+    chrF & 0,99 & 0,99 & 1,00 & 0,69 & 0,76 & 0,89 \\
+    METEOR & 0,92 & 0,95 & 0,83 & 0,74 & 0,73 & 0,83 \\
+    BERTScore & 0,93 & 0,87 & 0,91 & 0,80 & 0,81 & 0,87 \\
+    \bottomrule
+  \end{tabular}
+  \caption{Sensibilità delle metriche alle perturbazioni controllate: opposto della correlazione di Spearman tra gravità dell'errore e punteggio (1 = la metrica penalizza sempre l'errore, 0 = non lo rileva).}
+  \label{tab:sensitivity}
+\end{table}

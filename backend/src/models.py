@@ -1,5 +1,5 @@
 from pydantic import BaseModel
-from typing import List
+from typing import List, Optional
 
 
 class ParseResponse(BaseModel):
@@ -31,6 +31,11 @@ class ParseHtmlRequest(BaseModel):
     html_text: str
 
 
+class ParseRequest(BaseModel):
+    url: str
+    local: Optional[bool] = None
+
+
 class EvalRequest(BaseModel):
     parsed_text: str
     gold_text: str
@@ -44,4 +49,16 @@ class EvalMetrics(BaseModel):
 
 class EvalResponse(BaseModel):
     token_level_eval: EvalMetrics
+    x_eval: dict
+
+
+class JudgeResponse(BaseModel):
+    model_name: str
+    judge_score: int
+    judge_feedback: str
+
+
+class FullGsEvalResponse(BaseModel):
+    token_level_eval: EvalMetrics
+    judge_score: float
     x_eval: dict

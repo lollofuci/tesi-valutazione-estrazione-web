@@ -1,0 +1,16 @@
+\begin{table}[htbp]
+  \centering
+  \small
+  \begin{tabular}{lcccc}
+    \toprule
+    \textbf{Modello} & \textbf{Casi} & \textbf{Kappa pesata} & \textbf{Spearman} & \textbf{Accordo esatto} \\
+    \midrule
+    llama3.2:1b & 123 & 0,12 & 0,11 & 89\% \\
+    llama3.2:3b & 140 & 0,34 & 0,45 & 68\% \\
+    phi4-mini & 136 & 0,44 & 0,36 & 40\% \\
+    qwen3:4b & 123 & 0,45 & 0,61 & 46\% \\
+    \bottomrule
+  \end{tabular}
+  \caption{Accordo tra il giudizio con Gold Standard e quello senza Gold Standard dello stesso modello.}
+  \label{tab:judge-gs-vs-nogs}
+\end{table}

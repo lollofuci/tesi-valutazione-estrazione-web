@@ -138,6 +138,11 @@ class ATPTourParser(BaseParser):
             s = re.sub(r"\[([^\]]+)\]\([^)]+\)", r"\1", s)
             if not s:
                 continue
+            # Rimuove le intestazioni markdown di troppo (## , ### , ...) lasciando solo il testo:
+            # alcune pagine ATP generano molte intestazioni spurie da menu/widget/box.
+            s = re.sub(r"^#{1,6}\s+", "", s).strip()
+            if not s:
+                continue
             if re.match(r"^(January|February|March|April|May|June|July|August|September|October|November|December)\s\d{1,2},\s\d{4}$", s):
                 continue
                 

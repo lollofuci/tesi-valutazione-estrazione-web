@@ -1,0 +1,172 @@
+{
+ "metrics": {
+  "token_f": "Token F1",
+  "rougeL_f": "ROUGE-L",
+  "chrf_f": "chrF",
+  "meteor_f": "METEOR",
+  "bertscore_f": "BERTScore"
+ },
+ "perturbations": {
+  "truncate": "Troncamento",
+  "drop_lines": "Righe eliminate",
+  "add_boilerplate": "Boilerplate",
+  "shuffle": "Ordine alterato",
+  "corrupt_numbers": "Numeri alterati"
+ },
+ "parser_quality": {
+  "Wikipedia": {
+   "Token F1": 0.9249,
+   "ROUGE-L": 0.9557,
+   "chrF": 0.9249,
+   "METEOR": 0.9199,
+   "BERTScore": 0.8933
+  },
+  "Trading Economics": {
+   "Token F1": 0.9779,
+   "ROUGE-L": 0.9829,
+   "chrF": 0.984,
+   "METEOR": 0.9862,
+   "BERTScore": 0.9808
+  },
+  "AccuWeather": {
+   "Token F1": 0.9197,
+   "ROUGE-L": 0.8002,
+   "chrF": 0.6759,
+   "METEOR": 0.7317,
+   "BERTScore": 0.8226
+  },
+  "ATP Tour": {
+   "Token F1": 0.9657,
+   "ROUGE-L": 0.8927,
+   "chrF": 0.9418,
+   "METEOR": 0.9539,
+   "BERTScore": 0.9074
+  }
+ },
+ "sensitivity": {
+  "Token F1": {
+   "Troncamento": 0.9513,
+   "Righe eliminate": 0.9671,
+   "Boilerplate": 0.9437,
+   "Ordine alterato": 0.0861,
+   "Numeri alterati": 0.7847,
+   "media": 0.7466
+  },
+  "ROUGE-L": {
+   "Troncamento": 0.9553,
+   "Righe eliminate": 0.9856,
+   "Boilerplate": 0.9676,
+   "Ordine alterato": 0.9154,
+   "Numeri alterati": 0.7871,
+   "media": 0.9222
+  },
+  "chrF": {
+   "Troncamento": 0.9898,
+   "Righe eliminate": 0.989,
+   "Boilerplate": 0.9954,
+   "Ordine alterato": 0.6934,
+   "Numeri alterati": 0.7593,
+   "media": 0.8854
+  },
+  "METEOR": {
+   "Troncamento": 0.9156,
+   "Righe eliminate": 0.9506,
+   "Boilerplate": 0.8281,
+   "Ordine alterato": 0.7417,
+   "Numeri alterati": 0.733,
+   "media": 0.8338
+  },
+  "BERTScore": {
+   "Troncamento": 0.9285,
+   "Righe eliminate": 0.8698,
+   "Boilerplate": 0.9129,
+   "Ordine alterato": 0.8033,
+   "Numeri alterati": 0.8116,
+   "media": 0.8652
+  }
+ },
+ "judges": [
+  {
+   "model": "llama3.2:1b",
+   "mode": "with_gs",
+   "valid": 0.9357,
+   "latency": 4.4885,
+   "intact": 3.8421,
+   "damaged": 3.8696,
+   "gap": -0.0275,
+   "sensitivity": -0.0348
+  },
+  {
+   "model": "llama3.2:1b",
+   "mode": "without_gs",
+   "valid": 0.9357,
+   "latency": 3.185,
+   "intact": 3.8333,
+   "damaged": 3.7895,
+   "gap": 0.0439,
+   "sensitivity": 0.1213
+  },
+  {
+   "model": "llama3.2:3b",
+   "mode": "with_gs",
+   "valid": 1.0,
+   "latency": 8.316,
+   "intact": 5.0,
+   "damaged": 4.45,
+   "gap": 0.55,
+   "sensitivity": 0.3249
+  },
+  {
+   "model": "llama3.2:3b",
+   "mode": "without_gs",
+   "valid": 1.0,
+   "latency": 5.7205,
+   "intact": 4.45,
+   "damaged": 4.22,
+   "gap": 0.23,
+   "sensitivity": -0.0495
+  },
+  {
+   "model": "phi4-mini",
+   "mode": "with_gs",
+   "valid": 0.9714,
+   "latency": 8.5105,
+   "intact": 4.95,
+   "damaged": 3.625,
+   "gap": 1.325,
+   "sensitivity": 0.4554
+  },
+  {
+   "model": "phi4-mini",
+   "mode": "without_gs",
+   "valid": 1.0,
+   "latency": 7.35,
+   "intact": 4.45,
+   "damaged": 3.73,
+   "gap": 0.72,
+   "sensitivity": 0.0196
+  },
+  {
+   "model": "qwen3:4b",
+   "mode": "with_gs",
+   "valid": 0.9857,
+   "latency": 11.6435,
+   "intact": 5.0,
+   "damaged": 4.1735,
+   "gap": 0.8265,
+   "sensitivity": 0.2766
+  },
+  {
+   "model": "qwen3:4b",
+   "mode": "without_gs",
+   "valid": 0.8786,
+   "latency": 10.4705,
+   "intact": 4.7368,
+   "damaged": 3.4253,
+   "gap": 1.3116,
+   "sensitivity": 0.1408
+  }
+ ],
+ "n_cases": 340,
+ "n_judgements": 1120
+}

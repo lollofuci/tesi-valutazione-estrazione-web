@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}Web UI - Parser & Evaluation{% endblock %}</title>
+    <style>
+        * { box-sizing: border-box; }
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #eef2f7;
+            color: #111827;
+        }
+
+        /* ---- Navbar ---- */
+        .navbar {
+            background: #ffffff;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.06);
+            position: sticky;
+            top: 0;
+            z-index: 10;
+        }
+        .navbar-inner {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 0 20px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            height: 64px;
+        }
+        .brand {
+            font-weight: 700;
+            font-size: 20px;
+            margin-right: auto;
+            color: #111827;
+            text-decoration: none;
+        }
+        .navlink {
+            text-decoration: none;
+            color: #374151;
+            padding: 8px 14px;
+            border-radius: 10px;
+            font-weight: 600;
+        }
+        .navlink:hover { background: #f1f5f9; }
+        .navlink.active { background: #2b7df6; color: #fff; }
+
+        /* ---- Layout ---- */
+        .wrapper {
+            max-width: 1100px;
+            margin: 32px auto;
+            padding: 0 20px;
+        }
+        .card {
+            background: #ffffff;
+            border-radius: 18px;
+            padding: 32px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+            margin-bottom: 24px;
+        }
+
+        h1 { margin: 0 0 8px 0; font-size: 40px; }
+        h2 { margin-top: 0; margin-bottom: 16px; font-size: 22px; }
+        h3 { margin: 0 0 12px 0; font-size: 18px; }
+        .subtitle { color: #6b7280; margin-bottom: 24px; font-size: 17px; }
+
+        /* ---- Form elements ---- */
+        .field {
+            width: 100%;
+            padding: 14px;
+            font-size: 16px;
+            border: 1px solid #cbd5e1;
+            border-radius: 12px;
+            background: #fff;
+            color: #111827;
+            outline: none;
+        }
+        .field:focus {
+            border-color: #2563eb;
+            box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.15);
+        }
+        select.field { appearance: auto; -webkit-appearance: menulist; }
+        textarea.field { min-height: 220px; font-family: inherit; resize: vertical; }
+        label { display: block; font-weight: 600; margin-bottom: 6px; font-size: 14px; color: #374151; }
+
+        button, .btn {
+            background: #2b7df6;
+            color: white;
+            border: none;
+            border-radius: 10px;
+            padding: 12px 20px;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-block;
+        }
+        button:hover, .btn:hover { background: #1f6fe6; }
+        .btn-danger { background: #dc2626; }
+        .btn-danger:hover { background: #b91c1c; }
+        .btn-secondary { background: #e2e8f0; color: #111827; }
+        .btn-secondary:hover { background: #cbd5e1; }
+
+        .row { display: flex; gap: 16px; flex-wrap: wrap; }
+        .col { flex: 1; min-width: 260px; }
+        .button-row { margin-top: 16px; display: flex; gap: 12px; flex-wrap: wrap; }
+
+        hr { border: none; border-top: 1px solid #e5e7eb; margin: 24px 0; }
+
+        /* ---- Boxes ---- */
+        .scroll-box {
+            background: #f8fafc;
+            border: 1px solid #e5e7eb;
+            border-radius: 12px;
+            padding: 14px;
+            max-height: 320px;
+            overflow: auto;
+            white-space: pre-wrap;
+            word-break: break-word;
+            font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+            font-size: 13px;
+        }
+
+        /* ---- Status / badges ---- */
+        .status-row { display: flex; gap: 24px; flex-wrap: wrap; }
+        .status-item { display: flex; align-items: center; gap: 8px; font-weight: 600; }
+        .dot { width: 12px; height: 12px; border-radius: 50%; display: inline-block; }
+        .dot-ok { background: #16a34a; }
+        .dot-error { background: #dc2626; }
+
+        .pill {
+            display: inline-block;
+            padding: 4px 12px;
+            border-radius: 999px;
+            font-size: 13px;
+            font-weight: 700;
+        }
+        .pill-ok { background: #dcfce7; color: #166534; }
+        .pill-error { background: #fee2e2; color: #991b1b; }
+
+        /* ---- Metrics ---- */
+        .metrics { display: flex; gap: 16px; flex-wrap: wrap; margin-top: 8px; }
+        .metric {
+            background: #f1f5f9;
+            border-radius: 12px;
+            padding: 16px 20px;
+            text-align: center;
+            min-width: 110px;
+        }
+        .metric .label { font-size: 13px; color: #6b7280; }
+        .metric .value { font-size: 26px; font-weight: 700; }
+
+        /* ---- Table ---- */
+        table { width: 100%; border-collapse: collapse; }
+        th, td { text-align: left; padding: 10px 12px; border-bottom: 1px solid #e5e7eb; font-size: 14px; }
+        th { color: #6b7280; font-weight: 700; }
+
+        /* ---- Alerts ---- */
+        .alert { padding: 14px 16px; border-radius: 12px; margin-bottom: 16px; font-weight: 600; }
+        .alert-error { background: #fee2e2; color: #991b1b; }
+        .alert-success { background: #dcfce7; color: #166534; }
+
+        .domain-list { list-style: none; padding: 0; margin: 0; }
+        .domain-list li { padding: 10px 0; border-bottom: 1px solid #e5e7eb; }
+
+        .muted { color: #6b7280; font-size: 14px; }
+        .toggle { display: flex; gap: 10px; }
+        .toggle label {
+            flex: 1; text-align: center; padding: 12px; border: 1px solid #cbd5e1;
+            border-radius: 10px; cursor: pointer; margin: 0;
+        }
+        .toggle input { display: none; }
+        .toggle input:checked + span { font-weight: 700; color: #2b7df6; }
+
+        @media (max-width: 768px) {
+            .card { padding: 22px; }
+            h1 { font-size: 30px; }
+            .navbar-inner { height: auto; padding: 10px 16px; flex-wrap: wrap; }
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-inner">
+            <a href="/" class="brand">🔎 Lab Parser</a>
+            <a href="/" class="navlink {% if active=='home' %}active{% endif %}">Home</a>
+            <a href="/parser" class="navlink {% if active=='parser' %}active{% endif %}">Parser &amp; Evaluation</a>
+            <a href="/gold-standard" class="navlink {% if active=='gold' %}active{% endif %}">Gold Standard</a>
+            <a href="/stats" class="navlink {% if active=='stats' %}active{% endif %}">Stats</a>
+            <a href="/advanced" class="navlink {% if active=='advanced' %}active{% endif %}">Valutazione avanzata</a>
+        </div>
+    </nav>
+    <div class="wrapper">
+        {% block content %}{% endblock %}
+    </div>
+</body>
+</html>

@@ -1,171 +1,97 @@
-<!DOCTYPE html>
-<html lang="it">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Web UI Parser</title>
-    <style>
-        * {
-            box-sizing: border-box;
-        }
+{% extends "base.html" %}
+{% block title %}Home - Lab Parser{% endblock %}
 
-        body {
-            margin: 0;
-            font-family: Arial, sans-serif;
-            background: #eef2f7;
-            color: #111827;
-        }
+{% block content %}
+<div class="card">
+    <h1>Laboratorio di Ingegneria Informatica</h1>
+    <div class="subtitle">Pipeline di parsing, valutazione e gestione del Gold Standard</div>
 
-        .wrapper {
-            max-width: 1100px;
-            margin: 40px auto;
-            padding: 0 20px;
-        }
-
-        .card {
-            background: #ffffff;
-            border-radius: 18px;
-            padding: 40px;
-            box-shadow: 0 10px 30px rgba(0,0,0,0.08);
-        }
-
-        h1 {
-            text-align: center;
-            margin: 0 0 10px 0;
-            font-size: 54px;
-        }
-
-        .subtitle {
-            text-align: center;
-            color: #6b7280;
-            margin-bottom: 40px;
-            font-size: 18px;
-        }
-
-        h2 {
-            margin-top: 0;
-            margin-bottom: 16px;
-            font-size: 22px;
-        }
-
-        .section {
-            margin-bottom: 36px;
-        }
-
-        .field {
-            width: 100%;
-            padding: 16px;
-            font-size: 18px;
-            border: 1px solid #cbd5e1;
-            border-radius: 12px;
-            background: #fff;
-            color: #111827;
-            outline: none;
-        }
-
-        .field:focus {
-            border-color: #2563eb;
-            box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.15);
-        }
-
-        select.field {
-            appearance: auto;
-            -webkit-appearance: menulist;
-            -moz-appearance: menulist;
-        }
-
-        select.field option {
-            color: #111827;
-            background: #ffffff;
-        }
-
-        .button-row {
-            margin-top: 16px;
-        }
-
-        button {
-            background: #2b7df6;
-            color: white;
-            border: none;
-            border-radius: 10px;
-            padding: 12px 20px;
-            font-size: 17px;
-            font-weight: 600;
-            cursor: pointer;
-        }
-
-        button:hover {
-            background: #1f6fe6;
-        }
-
-        hr {
-            border: none;
-            border-top: 1px solid #e5e7eb;
-            margin: 30px 0;
-        }
-
-        .debug {
-            margin-top: 10px;
-            color: #6b7280;
-            font-size: 14px;
-        }
-
-        @media (max-width: 768px) {
-            .card {
-                padding: 24px;
-            }
-
-            h1 {
-                font-size: 38px;
-            }
-
-            button {
-                width: 100%;
-            }
-        }
-    </style>
-</head>
-<body>
-    <div class="wrapper">
-        <div class="card">
-            <h1>🔎 Web UI Parser</h1>
-            <div class="subtitle">Interfaccia per testare il parsing degli URL e del Gold Standard</div>
-
-            <div class="section">
-                <h2>Inserisci un URL</h2>
-                <form action="/parse" method="post">
-                    <input
-                        class="field"
-                        type="text"
-                        name="url"
-                        placeholder="https://..."
-                        required
-                    >
-                    <div class="button-row">
-                        <button type="submit">Parsifica</button>
-                    </div>
-                </form>
+    <div class="row">
+        <a href="/parser" class="col" style="text-decoration:none;">
+            <div class="card" style="margin:0; text-align:center;">
+                <div style="font-size:34px;">&lt;/&gt;</div>
+                <h3 style="margin-top:8px;">Parser &amp; Evaluation</h3>
+                <div class="muted">Testa un parser e valuta il risultato</div>
             </div>
-
-            <hr>
-
-            <div class="section">
-                <h2>Oppure scegli un URL dal Gold Standard</h2>
-                <form action="/parse" method="post">
-                    <select class="field" name="url" required>
-                        <option value="">-- Seleziona un URL --</option>
-                        {% for url in gs_urls %}
-                            <option value="{{ url }}">{{ url }}</option>
-                        {% endfor %}
-                    </select>
-                    <div class="button-row">
-                        <button type="submit">Esegui</button>
-                    </div>
-                </form>
-
-                <div class="debug">URL Gold Standard caricati: {{ gs_urls|length }}</div>
+        </a>
+        <a href="/gold-standard" class="col" style="text-decoration:none;">
+            <div class="card" style="margin:0; text-align:center;">
+                <div style="font-size:34px;">🗄️</div>
+                <h3 style="margin-top:8px;">Gold Standard</h3>
+                <div class="muted">Costruisci e gestisci il GS nel DB</div>
             </div>
+        </a>
+        <a href="/stats" class="col" style="text-decoration:none;">
+            <div class="card" style="margin:0; text-align:center;">
+                <div style="font-size:34px;">📊</div>
+                <h3 style="margin-top:8px;">Stats</h3>
+                <div class="muted">Statistiche aggregate per dominio</div>
+            </div>
+        </a>
+    </div>
+</div>
+
+<!-- Tesi (personalizzazione 4a): presentazione della valutazione avanzata -->
+<div class="card" style="border-left: 5px solid #2b7df6;">
+    <h2>Valutazione avanzata dei parser</h2>
+    <div class="subtitle" style="margin-bottom:20px;">
+        Quanto sono affidabili le tecniche usate per valutare i parser? Confronto tra metriche
+        automatiche e LLM-as-Judge, con e senza Gold Standard, su errori introdotti in modo controllato.
+    </div>
+    <div class="row">
+        <div class="col">
+            <h3>5 metriche</h3>
+            <div class="muted">Token F1 (progetto base), ROUGE-L, chrF, METEOR e BERTScore</div>
+        </div>
+        <div class="col">
+            <h3>4 giudici LLM</h3>
+            <div class="muted">Da 1 a 4 miliardi di parametri, con e senza Gold Standard</div>
+        </div>
+        <div class="col">
+            <h3>Esperimenti</h3>
+            <div class="muted">340 casi di test con errori controllati e 1120 giudizi</div>
         </div>
     </div>
-</body>
-</html>
+    <div class="button-row">
+        <a href="/advanced" class="btn" style="text-decoration:none; display:inline-block;">Apri la valutazione avanzata</a>
+    </div>
+</div>
+
+<div class="card">
+    <h2>Gruppo</h2>
+    <div class="row">
+        {% for s in students %}
+        <div class="col">
+            <strong>{{ s.nome }}</strong><br>
+            <span class="muted">Matricola {{ s.matricola }}</span>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+
+<div class="card">
+    <h2>Stato del sistema</h2>
+    <div class="status-row">
+        {% for name, value in status.items() %}
+        <div class="status-item">
+            <span class="dot {% if value == 'ok' %}dot-ok{% else %}dot-error{% endif %}"></span>
+            {{ name|capitalize }}
+            <span class="pill {% if value == 'ok' %}pill-ok{% else %}pill-error{% endif %}">{{ value }}</span>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+
+<div class="card">
+    <h2>Domini supportati</h2>
+    {% if domains %}
+    <ul class="domain-list">
+        {% for d in domains %}
+        <li>🌐 {{ d }}</li>
+        {% endfor %}
+    </ul>
+    {% else %}
+    <div class="muted">Nessun dominio disponibile (backend non raggiungibile?)</div>
+    {% endif %}
+</div>
+{% endblock %}

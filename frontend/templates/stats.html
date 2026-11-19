@@ -1,0 +1,54 @@
+{% extends "base.html" %}
+{% block title %}Stats{% endblock %}
+
+{% block content %}
+<div class="card">
+    <h1>Statistiche</h1>
+    <div class="subtitle">Panoramica aggregata per dominio (dati pre-calcolati nel database)</div>
+
+    {% if error %}<div class="alert alert-error">{{ error }}</div>{% endif %}
+
+    {% if domains %}
+    <table>
+        <thead>
+            <tr>
+                <th>Dominio</th>
+                <th>web_resources</th>
+                <th>gold_standard</th>
+                <th>Precision media</th>
+                <th>Recall media</th>
+                <th>F1 media</th>
+                <th>Judge medio</th>
+                <th style="white-space:nowrap;">ROUGE-L</th>
+                <th>chrF</th>
+                <th>METEOR</th>
+                <th>BERTScore</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for d in domains %}
+            <tr>
+                <td><strong>{{ d }}</strong></td>
+                <td>{{ web_resources.get(d, 0) }}</td>
+                <td>{{ gold_standard.get(d, 0) }}</td>
+                <td>{{ "%.3f"|format(avg_eval.get(d, {}).get('token_level_eval', {}).get('precision', 0.0)) }}</td>
+                <td>{{ "%.3f"|format(avg_eval.get(d, {}).get('token_level_eval', {}).get('recall', 0.0)) }}</td>
+                <td>{{ "%.3f"|format(avg_eval.get(d, {}).get('token_level_eval', {}).get('f1', 0.0)) }}</td>
+                <td>{{ "%.2f"|format(avg_eval_judge.get(d, {}).get('judge_score', 0.0)) }}</td>
+                {% for key in ['rougeL_f', 'chrf_f', 'meteor_f', 'bertscore_f'] %}
+                {% set v = avg_advanced.get(d, {}).get(key) %}
+                <td>{{ "%.3f"|format(v) if v is not none else "—" }}</td>
+                {% endfor %}
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+    <div class="muted" style="margin-top:12px;">
+        ROUGE-L, chrF, METEOR e BERTScore: metriche della valutazione avanzata
+        (compaiono dopo aver valutato il dominio nella pagina "Valutazione avanzata").
+    </div>
+    {% else %}
+    <div class="muted">Nessuna statistica disponibile (backend non raggiungibile?).</div>
+    {% endif %}
+</div>
+{% endblock %}

@@ -1,0 +1,101 @@
+{% extends "base.html" %}
+{% block title %}Parser & Evaluation{% endblock %}
+
+{% block content %}
+<div class="card">
+    <h1>Parser &amp; Evaluation</h1>
+    <div class="subtitle">Esegui il parsing di un URL e valuta il risultato contro il Gold Standard</div>
+
+    <form action="/parser" method="post">
+        <div class="row">
+            <div class="col">
+                <label for="url">URL di test</label>
+                <input class="field" type="text" id="url" name="url"
+                       placeholder="https://it.wikipedia.org/wiki/..."
+                       value="{{ selected_url or '' }}" required>
+            </div>
+            <div class="col" style="max-width:280px;">
+                <label>Modalità</label>
+                <div class="toggle">
+                    <label>
+                        <input type="radio" name="mode" value="live" {% if mode != 'local' %}checked{% endif %}>
+                        <span>Live (scarica dal web)</span>
+                    </label>
+                    <label>
+                        <input type="radio" name="mode" value="local" {% if mode == 'local' %}checked{% endif %}>
+                        <span>Local (HTML dal DB)</span>
+                    </label>
+                </div>
+            </div>
+        </div>
+
+        <div style="margin-top:16px;">
+            <label for="gs_url">Oppure scegli un URL dal Gold Standard</label>
+            <select class="field" id="gs_url" name="gs_url" onchange="if(this.value){document.getElementById('url').value=this.value;}">
+                <option value="">-- Seleziona un URL del GS --</option>
+                {% for u in gs_urls %}
+                <option value="{{ u }}">{{ u }}</option>
+                {% endfor %}
+            </select>
+        </div>
+
+        <div class="button-row">
+            <button type="submit">Esegui parsing e valutazione</button>
+        </div>
+    </form>
+</div>
+
+{% if error %}
+<div class="card"><div class="alert alert-error">{{ error }}</div></div>
+{% endif %}
+
+{% if parse_data %}
+<div class="card">
+    <h2>Risultato del parsing</h2>
+    <div class="muted">URL: {{ parse_data.url }} &nbsp;·&nbsp; dominio: {{ parse_data.domain }} &nbsp;·&nbsp; titolo: {{ parse_data.title }}</div>
+    <div class="row" style="margin-top:16px;">
+        <div class="col">
+            <h3>Input HTML (grezzo)</h3>
+            <div class="scroll-box">{{ parse_data.html_text[:4000] }}{% if parse_data.html_text|length > 4000 %} ... [troncato]{% endif %}</div>
+        </div>
+        <div class="col">
+            <h3>Output parsed (Markdown)</h3>
+            <div class="scroll-box">{{ parse_data.parsed_text }}</div>
+        </div>
+    </div>
+</div>
+{% endif %}
+
+{% if gold_data %}
+<div class="card">
+    <h2>Gold Standard</h2>
+    <div class="scroll-box">{{ gold_data.gold_text }}</div>
+</div>
+{% endif %}
+
+{% if eval_data or judge_data %}
+<div class="card">
+    <h2>Valutazione</h2>
+    <div class="metrics">
+        {% if eval_data %}
+        <div class="metric"><div class="label">Precision</div><div class="value">{{ "%.2f"|format(eval_data.token_level_eval.precision) }}</div></div>
+        <div class="metric"><div class="label">Recall</div><div class="value">{{ "%.2f"|format(eval_data.token_level_eval.recall) }}</div></div>
+        <div class="metric"><div class="label">F1</div><div class="value">{{ "%.2f"|format(eval_data.token_level_eval.f1) }}</div></div>
+        {% endif %}
+        {% if judge_data %}
+        <div class="metric"><div class="label">LLM Judge</div><div class="value">{{ judge_data.judge_score }}/5</div></div>
+        {% endif %}
+    </div>
+    {% if judge_data %}
+    <div style="margin-top:16px;">
+        <h3>Giudizio LLM ({{ judge_data.model_name }})</h3>
+        <div class="muted">{{ judge_data.judge_feedback }}</div>
+    </div>
+    {% endif %}
+</div>
+{% elif parse_data and not gold_data %}
+<div class="card">
+    <div class="muted">Questo URL non è nel Gold Standard: nessuna valutazione disponibile (serve un gold_text di riferimento).</div>
+</div>
+{% endif %}
+{% endblock %}

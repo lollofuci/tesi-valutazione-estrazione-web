@@ -1,0 +1,78 @@
+\documentclass[11pt]{article}
+\usepackage{acl}
+\usepackage{times}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[italian]{babel}
+\usepackage{microtype}
+\usepackage{inconsolata}
+\usepackage{graphicx}
+\newcommand{\aclfinalcopy}{}
+\begin{document}
+\aclfinalcopy
+\twocolumn[
+\begin{center}
+    {\LARGE\bfseries Progetto Finale Laboratorio di Ingegneria Informatica\par}
+    \vspace{0.3cm}
+    {\large \textbf{Sviluppo di un sistema per l'estrazione di contenuti web}\par}
+    \vspace{1cm}
+    \begin{tabular}{ccc}
+    \textbf{Emiliano Frioni} & \textbf{Matteo Mercieri} & \textbf{Lorenzo Augusto Fucito} \\
+    Matricola 2135576 & Matricola 2100891 & Matricola 2134663 \\
+    {\footnotesize\texttt{frioni.2135576@studenti.uniroma1.it}} &
+    {\footnotesize\texttt{mercieri.2100891@studenti.uniroma1.it}} &
+    {\footnotesize\texttt{fucito.2134663@studenti.uniroma1.it}}
+    \end{tabular}
+    \vspace{1cm}
+\end{center}
+]
+
+\section{Obiettivo del Progetto}
+Il progetto costruisce una pipeline end-to-end per l'acquisizione, l'estrazione e l'analisi di dati testuali provenienti da sorgenti web eterogenee. Il sistema persiste i contenuti in un database relazionale, ne valuta la qualità sia con metriche quantitative deterministiche (confronto con un Gold Standard, GS) sia con un giudizio qualitativo prodotto da un LLM locale, ed espone ogni funzionalità tramite API REST e una Web UI. L'intera architettura è containerizzata con Docker Compose in quattro servizi (backend, frontend, database, LLM), garantendo isolamento e riproducibilità su qualsiasi sistema operativo.
+
+\section{Organizzazione del Codice}
+Il codice è modulare, suddiviso nelle seguenti responsabilità:
+\begin{itemize}
+    \item \textbf{Backend (\texttt{server.py}, \texttt{models.py}):} espone gli endpoint REST tramite FastAPI, validando input e output con i modelli Pydantic. Smista dinamicamente le richieste al parser corretto in base al dominio tramite \texttt{get\_parser()} e applica \texttt{remove\_markdown()} (basata su \texttt{mistune} e BeautifulSoup) prima di ogni confronto testuale. Gestisce esplicitamente gli errori: HTTP 400 per domini non supportati, 404 per URL assenti nel DB/GS, 500 per errori di crawling (DNS, timeout, host irraggiungibile).
+    \item \textbf{Frontend (\texttt{frontend.py}, \texttt{templates/}):} interfaccia Jinja2 composta da una home (stato del sistema, domini e matricole) e tre sezioni: \emph{Parser \& Evaluation} (test di un URL con confronto HTML/parsed e metriche + judge), \emph{Gold Standard Builder} (aggiunta ed eliminazione di entry nel DB) e \emph{Stats} (statistiche aggregate per dominio). Tutta la logica passa esclusivamente per le API REST del backend.
+    \item \textbf{Parser (\texttt{backend/src/parsers/}):} estendendo la classe astratta \texttt{base\_parser.py}, ogni dominio ha un estrattore dedicato che implementa \texttt{parse(url)} per lo scraping live e \texttt{parse\_from\_html(url, html)} per la valutazione offline deterministica.
+    \item \textbf{Evaluation (\texttt{backend/src/evaluation/}):} \texttt{evaluator.py} calcola le metriche (Precision, Recall, F1) con \texttt{token\_level\_eval()} e \texttt{aggregate\_metrics()}; \texttt{judge.py} implementa la valutazione qualitativa tramite LLM.
+    \item \textbf{Database (\texttt{backend/src/db/}):} \texttt{schema.sql} definisce le tabelle, \texttt{connection.py} gestisce la connessione a MariaDB, \texttt{init\_db.py} crea e popola il DB all'avvio e \texttt{repository.py} raccoglie tutte le query riusabili.
+    \item \textbf{Script GS (\texttt{gs\_data/make\_*\_gs.py}):} i dati di riferimento sono stati selezionati e copiati a mano (HTML e testo corretto) e inseriti nei file JSON finali tramite script, garantendo la struttura richiesta dal sistema di valutazione.
+\end{itemize}
+
+\section{Logica di Parsing: Live vs. Offline}
+Una sfida centrale è stata l'evoluzione temporale delle pagine (es. classifiche tennistiche o quotazioni finanziarie in continuo aggiornamento). I parser implementano perciò un doppio flusso:
+\begin{enumerate}
+    \item \textbf{\texttt{parse(url)} (Live):} usa Crawl4AI navigando in rete, con configurazioni browser robuste, delay strategici (fino a 12 secondi per le tabelle asincrone di Trading Economics) e iniezioni JavaScript per aggirare i pop-up dei cookie prima di estrarre HTML e Markdown.
+    \item \textbf{\texttt{parse\_from\_html(url, html)} (Offline):} riceve l'HTML ``congelato'' salvato nel database ed elabora il testo tramite regex/BeautifulSoup senza avviare alcun browser, garantendo un output totalmente deterministico.
+\end{enumerate}
+Questa separazione è essenziale proprio a causa dei dati in tempo reale. Su pagine come le quotazioni di criptovalute o del Crude Oil i valori cambiano di secondo in secondo: già il breve intervallo tra la copia manuale del \texttt{gold\_text} e il salvataggio dell'HTML introduce piccole discrepanze numeriche. Di conseguenza un F1 pari a 1.00 è strutturalmente irraggiungibile su queste pagine, indipendentemente dalla qualità del parser. Salvare l'HTML nel database e valutare in modalità offline neutralizza questo problema, perché il confronto avviene sempre sulla stessa versione ``fotografata'' della pagina al momento del campionamento del GS.
+
+\section{Dettaglio dei Parser}
+\paragraph{\texttt{wikipedia\_parser.py}.} Seleziona il solo corpo dell'articolo escludendo barre laterali, indici e note; struttura il contenuto in Markdown (titoli, paragrafi, liste e tabelle) e interrompe il parsing alle sezioni non rilevanti (Note, Bibliografia, Voci correlate).
+\paragraph{\texttt{atptour\_parser.py}.} Converte l'HTML in testo pulito filtrando menu e banner dei cookie; il testo viene poi elaborato da tre funzioni specializzate a seconda della pagina (articoli di notizie, profili giocatori con statistiche, confronti diretti head-to-head), rimuovendo le intestazioni spurie generate da widget e menu.
+\paragraph{\texttt{accuweather\_parser.py}.} Riconosce le sezioni meteo standard (Meteo Attuale, Previsioni Orarie, Qualità dell'Aria) trasformandole in intestazioni Markdown; ogni blocco è ripulito da navigazione, pubblicità e righe duplicate, con una logica dedicata per le pagine sugli uragani.
+\paragraph{\texttt{tradingeconomics\_parser.py}.} Elimina menu, grafici e pubblicità mantenendo solo testo descrittivo e tabelle economiche. Come discusso sopra, le pagine con dati aggiornati in tempo reale rendono impossibile un F1 perfetto.
+
+
+\section{Valutazione con LLM-as-Judge}
+Oltre alle metriche quantitative, il sistema integra una valutazione qualitativa tramite un LLM locale eseguito con \textbf{Ollama} in un container dedicato. È stato scelto \texttt{llama3.2}, un modello leggero compatibile con CPU, sufficiente per ottenere un giudizio sintetico senza aumentare troppo i tempi di inferenza.
+
+Il modulo \texttt{judge.py} normalizza i testi, rimuove il Markdown e limita la lunghezza degli input. Successivamente invia \texttt{parsed\_text} e \texttt{gold\_text} al modello tramite un \emph{prompt strutturato}, richiedendo una risposta in formato JSON con \texttt{score} da 1 a 5 e \texttt{feedback}. In caso di risposta non valida, è previsto un fallback che restituisce comunque un giudizio utilizzabile.
+
+Il giudizio è disponibile tramite l'endpoint \texttt{/evaluate\_judge}, viene aggregato in \texttt{/full\_gs\_eval} e pre-calcolato all'avvio per le statistiche. Poiché il modello è piccolo ed eseguito su CPU, una lieve variabilità dei punteggi tra esecuzioni è considerata accettabile.
+
+\section{Organizzazione del Database}
+La persistenza è gestita con \textbf{MariaDB}, tramite \emph{MariaDB Connector/Python}, all'interno di un container dedicato. Lo schema principale comprende due tabelle: \texttt{web\_resources}, che salva le pagine web e il relativo HTML, e \texttt{gold\_standard}, che contiene i testi di riferimento. Le due tabelle sono collegate tramite \texttt{url}, usato come chiave primaria ed esterna, con relazione uno-a-uno e \texttt{ON DELETE CASCADE}.
+
+La colonna \texttt{url} è definita come \texttt{VARCHAR(768)} per consentire l'indicizzazione completa necessaria alla chiave esterna. Sono inoltre presenti tre tabelle di supporto: \texttt{parsed\_documents}, \texttt{evaluations} e \texttt{judge\_evaluations}, usate per salvare gli output del parser e le valutazioni già calcolate.
+
+All'avvio, uno script inizializza lo schema e importa i dati dai file JSON del Gold Standard. Le valutazioni vengono poi pre-calcolate in background, così l'endpoint \texttt{/db\_stats} può restituire rapidamente metriche e giudizi medi. La persistenza tra i riavvii è garantita da un volume Docker.
+
+\section{Conclusioni}
+Il progetto mostra che il parsing di pagine web reali richiede soluzioni specifiche per dominio, soprattutto in presenza di contenuti dinamici, grafici e sezioni non informative. La distinzione tra parsing online e offline è centrale: il primo permette lo scraping live, mentre il secondo garantisce risultati riproducibili e confrontabili con il Gold Standard.
+
+L'integrazione di database, valutazione automatica, LLM-as-Judge e Web UI rende la pipeline completa, persistente e verificabile dall'acquisizione dei dati fino alla valutazione finale.
+
+\end{document}
